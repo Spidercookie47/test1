@@ -533,8 +533,7 @@
    ],
    "supports": "Class:Monk"
   },
-  {
-     {
+    {
    "id": "Subclass:Way of the Four Elements",
    "type": "Subclass",
    "name": "Way of the Four Elements",
