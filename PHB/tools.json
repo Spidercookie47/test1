@@ -12,7 +12,7 @@
    ]
   },
   {
-   "id": "Tool:Dragonchess set (PHB)",
+   "id": "Tool:Dragonchess set(PHB)",
    "type": "Tool",
    "name": "Dragonchess set",
    "desc": "You gain proficiency with Dragonchess set.",
@@ -23,7 +23,7 @@
    ]
   },
   {
-   "id": "Tool:Playing card set (PHB)",
+   "id": "Tool:Playing card set(PHB)",
    "type": "Tool",
    "name": "Playing card set",
    "desc": "You gain proficiency with Playing card set.",
