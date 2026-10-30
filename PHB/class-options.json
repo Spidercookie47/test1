@@ -50,7 +50,8 @@
    "type": "Elemental Discipline",
    "name": "Fangs of the Fire Snake",
    "desc": "Spend 1 ki point to extend your unarmed reach by 10 feet and deal fire damage; spend 1 more on a hit for an extra 1d10 fire damage.",
-   "rules": []
+   "rules": [],
+   "lv": 3
   },
   {
    "id": "Elemental Discipline:Fist of Four Thunders",
@@ -58,6 +59,7 @@
    "name": "Fist of Four Thunders",
    "desc": "Spend 2 ki points to cast thunderwave.",
    "rules": [],
+   "lv": 3,
    "featSpells": [
     [
      3,
@@ -71,7 +73,8 @@
    "type": "Elemental Discipline",
    "name": "Fist of Unbroken Air",
    "desc": "Spend 2 or more ki points to blast a creature for 3d10 bludgeoning damage and push it away (Strength save).",
-   "rules": []
+   "rules": [],
+   "lv": 3
   },
   {
    "id": "Elemental Discipline:Flames of the Phoenix",
@@ -154,6 +157,7 @@
    "name": "Rush of the Gale Spirits",
    "desc": "Spend 2 ki points to cast gust of wind.",
    "rules": [],
+   "lv": 3,
    "featSpells": [
     [
      3,
@@ -167,7 +171,8 @@
    "type": "Elemental Discipline",
    "name": "Shape the Flowing River",
    "desc": "Spend 1 ki point to reshape ice or water in a 30-foot area.",
-   "rules": []
+   "rules": [],
+   "lv": 3
   },
   {
    "id": "Elemental Discipline:Sweeping Cinder Strike",
@@ -175,6 +180,7 @@
    "name": "Sweeping Cinder Strike",
    "desc": "Spend 2 ki points to cast burning hands.",
    "rules": [],
+   "lv": 3,
    "featSpells": [
     [
      3,
@@ -188,7 +194,8 @@
    "type": "Elemental Discipline",
    "name": "Water Whip",
    "desc": "Spend 2 or more ki points to lash a creature for 3d10 bludgeoning damage and pull or knock it prone (Dexterity save).",
-   "rules": []
+   "rules": [],
+   "lv": 3
   },
   {
    "id": "Elemental Discipline:Wave of Rolling Earth",
