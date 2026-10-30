@@ -7,7 +7,7 @@
    "desc": "You gain proficiency with Dice set.",
    "rules": [
     {
-     "pf": "t:Dice set"
+     "pf": ["t:Dice set"]
     }
    ]
   },
@@ -18,7 +18,7 @@
    "desc": "You gain proficiency with Dragonchess set.",
    "rules": [
     {
-     "pf": "t:Dragonchess set"
+     "pf": ["t:Dragonchess set"]
     }
    ]
   },
@@ -29,7 +29,7 @@
    "desc": "You gain proficiency with Playing card set.",
    "rules": [
     {
-     "pf": "t:Playing card set"
+     "pf": ["t:Playing card set"]
     }
    ]
   },
@@ -40,7 +40,7 @@
    "desc": "You gain proficiency with Three-Dragon Ante set.",
    "rules": [
     {
-     "pf": "t:Three-Dragon Ante set"
+     "pf": ["t:Three-Dragon Ante set"]
     }
    ]
   },
@@ -51,7 +51,7 @@
    "desc": "You gain proficiency with Alchemist’s supplies.",
    "rules": [
     {
-     "pf": "t:Alchemist’s supplies"
+     "pf": ["t:Alchemist’s supplies"]
     }
    ]
   },
@@ -62,7 +62,7 @@
    "desc": "You gain proficiency with Brewer’s supplies.",
    "rules": [
     {
-     "pf": "t:Brewer’s supplies"
+     "pf": ["t:Brewer’s supplies"]
     }
    ]
   },
@@ -73,7 +73,7 @@
    "desc": "You gain proficiency with Calligrapher’s supplies.",
    "rules": [
     {
-     "pf": "t:Calligrapher’s supplies"
+     "pf": ["t:Calligrapher’s supplies"]
     }
    ]
   },
@@ -84,7 +84,7 @@
    "desc": "You gain proficiency with Carpenter’s tools.",
    "rules": [
     {
-     "pf": "t:Carpenter’s tools"
+     "pf": ["t:Carpenter’s tools"]
     }
    ]
   },
@@ -95,7 +95,7 @@
    "desc": "You gain proficiency with Cartographer’s tools.",
    "rules": [
     {
-     "pf": "t:Cartographer’s tools"
+     "pf": ["t:Cartographer’s tools"]
     }
    ]
   },
@@ -106,7 +106,7 @@
    "desc": "You gain proficiency with Cobbler’s tools.",
    "rules": [
     {
-     "pf": "t:Cobbler’s tools"
+     "pf": ["t:Cobbler’s tools"]
     }
    ]
   },
@@ -117,7 +117,7 @@
    "desc": "You gain proficiency with Cook’s utensils.",
    "rules": [
     {
-     "pf": "t:Cook’s utensils"
+     "pf": ["t:Cook’s utensils"]
     }
    ]
   },
@@ -128,7 +128,7 @@
    "desc": "You gain proficiency with Glassblower’s tools.",
    "rules": [
     {
-     "pf": "t:Glassblower’s tools"
+     "pf": ["t:Glassblower’s tools"]
     }
    ]
   },
@@ -139,7 +139,7 @@
    "desc": "You gain proficiency with Jeweler’s tools.",
    "rules": [
     {
-     "pf": "t:Jeweler’s tools"
+     "pf": ["t:Jeweler’s tools"]
     }
    ]
   },
@@ -150,7 +150,7 @@
    "desc": "You gain proficiency with Leatherworker’s tools.",
    "rules": [
     {
-     "pf": "t:Leatherworker’s tools"
+     "pf": ["t:Leatherworker’s tools"]
     }
    ]
   },
@@ -161,7 +161,7 @@
    "desc": "You gain proficiency with Mason’s tools.",
    "rules": [
     {
-     "pf": "t:Mason’s tools"
+     "pf": ["t:Mason’s tools"]
     }
    ]
   },
@@ -172,7 +172,7 @@
    "desc": "You gain proficiency with Painter’s supplies.",
    "rules": [
     {
-     "pf": "t:Painter’s supplies"
+     "pf": ["t:Painter’s supplies"]
     }
    ]
   },
@@ -183,7 +183,7 @@
    "desc": "You gain proficiency with Potter’s tools.",
    "rules": [
     {
-     "pf": "t:Potter’s tools"
+     "pf": ["t:Potter’s tools"]
     }
    ]
   },
@@ -194,7 +194,7 @@
    "desc": "You gain proficiency with Smith’s tools.",
    "rules": [
     {
-     "pf": "t:Smith’s tools"
+     "pf": ["t:Smith’s tools"]
     }
    ]
   },
@@ -205,7 +205,7 @@
    "desc": "You gain proficiency with Tinker’s tools.",
    "rules": [
     {
-     "pf": "t:Tinker’s tools"
+     "pf": ["t:Tinker’s tools"]
     }
    ]
   },
@@ -216,7 +216,7 @@
    "desc": "You gain proficiency with Weaver’s tools.",
    "rules": [
     {
-     "pf": "t:Weaver’s tools"
+     "pf": ["t:Weaver’s tools"]
     }
    ]
   },
@@ -227,7 +227,7 @@
    "desc": "You gain proficiency with Woodcarver’s tools.",
    "rules": [
     {
-     "pf": "t:Woodcarver’s tools"
+     "pf": ["t:Woodcarver’s tools"]
     }
    ]
   },
@@ -238,7 +238,7 @@
    "desc": "You gain proficiency with Bagpipes.",
    "rules": [
     {
-     "pf": "t:Bagpipes"
+     "pf": ["t:Bagpipes"]
     }
    ]
   },
@@ -249,7 +249,7 @@
    "desc": "You gain proficiency with Drum.",
    "rules": [
     {
-     "pf": "t:Drum"
+     "pf": ["t:Drum"]
     }
    ]
   },
@@ -260,7 +260,7 @@
    "desc": "You gain proficiency with Dulcimer.",
    "rules": [
     {
-     "pf": "t:Dulcimer"
+     "pf": ["t:Dulcimer"]
     }
    ]
   },
@@ -271,7 +271,7 @@
    "desc": "You gain proficiency with Flute.",
    "rules": [
     {
-     "pf": "t:Flute"
+     "pf": ["t:Flute"]
     }
    ]
   },
@@ -282,7 +282,7 @@
    "desc": "You gain proficiency with Lute.",
    "rules": [
     {
-     "pf": "t:Lute"
+     "pf": ["t:Lute"]
     }
    ]
   },
@@ -293,7 +293,7 @@
    "desc": "You gain proficiency with Lyre.",
    "rules": [
     {
-     "pf": "t:Lyre"
+     "pf": ["t:Lyre"]
     }
    ]
   },
@@ -304,7 +304,7 @@
    "desc": "You gain proficiency with Horn.",
    "rules": [
     {
-     "pf": "t:Horn"
+     "pf": ["t:Horn"]
     }
    ]
   },
@@ -315,7 +315,7 @@
    "desc": "You gain proficiency with Pan flute.",
    "rules": [
     {
-     "pf": "t:Pan flute"
+     "pf": ["t:Pan flute"]
     }
    ]
   },
@@ -326,7 +326,7 @@
    "desc": "You gain proficiency with Shawm.",
    "rules": [
     {
-     "pf": "t:Shawm"
+     "pf": ["t:Shawm"]
     }
    ]
   },
@@ -337,7 +337,7 @@
    "desc": "You gain proficiency with Viol.",
    "rules": [
     {
-     "pf": "t:Viol"
+     "pf": ["t:Viol"]
     }
    ]
   }
