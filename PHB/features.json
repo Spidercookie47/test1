@@ -659,11 +659,11 @@
    "type": "Class Feature",
    "name": "Disciple of the Elements",
    "desc": "Learn elemental disciplines fueled by ki, including elemental spells.",
-     "rules": [
+       "rules": [
     {
      "level": 3,
      "select": {
-      "type": "Metamagic",
+      "type": "Favored Enemy",
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
@@ -680,7 +680,7 @@
     {
      "level": 6,
      "select": {
-      "type": "Metamagic",
+      "type": "Favored Enemy",
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
@@ -692,7 +692,7 @@
     {
      "level": 11,
      "select": {
-      "type": "Metamagic",
+      "type": "Favored Enemy",
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
@@ -705,7 +705,7 @@
     {
      "level": 17,
      "select": {
-      "type": "Metamagic",
+      "type": "Favored Enemy",
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
