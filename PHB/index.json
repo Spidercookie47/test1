@@ -9,6 +9,7 @@
  "files": [
   "tools.json",
   "backgrounds.json",
+  "feats.json",
   "spells.json",
   "features.json",
   "class-options.json",
