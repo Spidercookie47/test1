@@ -1,0 +1,115 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Bonus Proficiency (Death)",
+   "type": "Class Feature",
+   "name": "Bonus Proficiency (Death)",
+   "desc": "Gain proficiency with martial weapons.",
+   "rules": [
+    {
+     "pf": [
+      "w:Martial weapons"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Reaper",
+   "type": "Class Feature",
+   "name": "Reaper",
+   "desc": "Learn one necromancy cantrip from any spell list; when you cast a necromancy cantrip that targets one creature, it can instead target two creatures within 5 feet of each other.",
+   "rules": [
+    {
+     "select": {
+      "name": "Necromancy Cantrip",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Chill Touch",
+       "Spell:Spare the Dying"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Touch of Death",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Touch of Death",
+   "desc": "When you hit a creature with a melee attack, use Channel Divinity to deal extra necrotic damage equal to 5 + twice your cleric level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Inescapable Destruction",
+   "type": "Class Feature",
+   "name": "Inescapable Destruction",
+   "desc": "Necrotic damage dealt by your cleric spells and Channel Divinity options ignores resistance to necrotic damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Divine Strike (Death)",
+   "type": "Class Feature",
+   "name": "Divine Strike (Death)",
+   "desc": "Once per turn, add 1d8 necrotic damage to a weapon hit (2d8 at 14th level).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Reaper",
+   "type": "Class Feature",
+   "name": "Improved Reaper",
+   "desc": "When you cast a necromancy spell of 1st through 5th level that targets one creature, it can instead target two creatures within 5 feet of each other.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Oathbreaker Spells",
+   "type": "Class Feature",
+   "name": "Oathbreaker Spells",
+   "desc": "Always have your oathbreaker spells prepared.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Control Undead",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Control Undead",
+   "desc": "Target one undead within 30 feet; on a failed Wisdom save it obeys your commands for 24 hours.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Dreadful Aspect",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Dreadful Aspect",
+   "desc": "Frighten creatures of your choice within 30 feet for 1 minute with a Wisdom save.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Hate",
+   "type": "Class Feature",
+   "name": "Aura of Hate",
+   "desc": "You and fiends and undead within 10 feet add your Charisma modifier (minimum +1) to melee weapon damage rolls.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Supernatural Resistance",
+   "type": "Class Feature",
+   "name": "Supernatural Resistance",
+   "desc": "Gain resistance to bludgeoning, piercing and slashing damage from nonmagical weapons.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dread Lord",
+   "type": "Class Feature",
+   "name": "Dread Lord",
+   "desc": "Create an aura of gloom for 1 minute that dims light, burns frightened enemies, and hides your allies in shadow.",
+   "rules": [
+    {
+     "resource": {
+      "id": "dread-lord",
+      "name": "Dread Lord",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  }
+ ]
+}
