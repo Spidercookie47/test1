@@ -232,52 +232,27 @@
       "name": "Infuse Item",
       "desc": "At 2nd level, you gain the ability to imbue mundane items with certain magical infusions.",
       "rules": [
-        {
-          "select": {
-            "name": "Artificer Infusion",
-            "type": "Class Feature",
-            "supports": "Artificer Infusion",
-            "n": 4
-          },
-          "level": 2
-        },
-        {
-          "select": {
-            "name": "Artificer Infusion (Level 6)",
-            "type": "Class Feature",
-            "supports": "Artificer Infusion",
-            "n": 2
-          },
-          "level": 6
-        },
-        {
-          "select": {
-            "name": "Artificer Infusion (Level 10)",
-            "type": "Class Feature",
-            "supports": "Artificer Infusion",
-            "n": 2
-          },
-          "level": 10
-        },
-        {
-          "select": {
-            "name": "Artificer Infusion (Level 14)",
-            "type": "Class Feature",
-            "supports": "Artificer Infusion",
-            "n": 2
-          },
-          "level": 14
-        },
-        {
-          "select": {
-            "name": "Artificer Infusion (Level 16)",
-            "type": "Class Feature",
-            "supports": "Artificer Infusion",
-            "n": 2
-          },
-          "level": 16
-        }
-      ]
+  {
+    "select": { "name": "Artificer Infusion", "type": "Class Feature", "supports": "Artificer Infusion", "n": 4 },
+    "level": 2
+  },
+  {
+    "select": { "name": "Artificer Infusion (Level 6)", "type": "Class Feature", "supports": "Artificer Infusion (Level 6)", "n": 2 },
+    "level": 6
+  },
+  {
+    "select": { "name": "Artificer Infusion (Level 10)", "type": "Class Feature", "supports": "Artificer Infusion (Level 10)", "n": 2 },
+    "level": 10
+  },
+  {
+    "select": { "name": "Artificer Infusion (Level 14)", "type": "Class Feature", "supports": "Artificer Infusion (Level 10)", "n": 2 },
+    "level": 14
+  },
+  {
+    "select": { "name": "Artificer Infusion (Level 18)", "type": "Class Feature", "supports": "Artificer Infusion (Level 10)", "n": 2 },
+    "level": 18
+  }
+]
     },
     {
       "id": "Class Feature:Artificer Specialist",
