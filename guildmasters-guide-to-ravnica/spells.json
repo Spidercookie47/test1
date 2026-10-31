@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "id": "Spell:Encode Thoughts",
+      "type": "Spell",
+      "name": "Encode Thoughts",
+      "level": 0,
+      "school": "Enchantment",
+      "castingTime": "1 action",
+      "range": "Self",
+      "components": "S",
+      "duration": "Up to 8 hours",
+      "desc": "Putting a finger to your head, you pull a memory, an idea, or a message from your mind and transform it into a tangible string of glowing energy called a thought strand, which persists for the duration or until you cast this spell again. The thought strand appears in an unoccupied space within 5 feet of you as a Tiny, weightless, semisolid object that can be held and carried like a ribbon. It is otherwise stationary.\n\nIf you cast this spell while concentrating on a spell or an ability that allows you to read or manipulate the thoughts of others (such as detect thoughts or modify memory), you can transform the thoughts or memories you read, rather than your own, into a thought strand.\n\nCasting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting detect thoughts on the strand has the same effect.)",
+      "sp2": "",
+      "rules": []
+    },
+    {
+      "id": "Spell:Chaos Bolt",
+      "type": "Spell",
+      "name": "Chaos Bolt",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": "1 action",
+      "range": "120 feet",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "desc": "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type:\n\n1 Acid, 2 Cold, 3 Fire, 4 Force, 5 Lightning, 6 Poison, 7 Psychic, 8 Thunder.\n\nIf you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.\n\nAt Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.",
+      "sp2": "sorcerer",
+      "rules": []
+    }
+  ]
+}
