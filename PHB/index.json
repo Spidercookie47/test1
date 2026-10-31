@@ -1,0 +1,21 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "phb2014",
+  "name": "Player’s Handbook (2014)",
+  "short": "PHB (2014)"
+ },
+ "files": [
+  "tools.json",
+  "backgrounds.json",
+  "feats.json",
+  "spells.json",
+  "discipline-spells.json",
+  "features.json",
+  "class-options.json",
+  "subclasses.json",
+  "info.json",
+  "tables.json"
+ ]
+}
