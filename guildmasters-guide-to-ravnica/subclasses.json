@@ -6,32 +6,23 @@
       "name": "Order Domain",
       "supports": "Class:Cleric",
       "desc": "The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it.",
+      "prepared": {
+        "class": "Cleric",
+        "levels": {
+          "1": ["Command", "Heroism"],
+          "3": ["Hold Person", "Zone of Truth"],
+          "5": ["Mass Healing Word", "Slow"],
+          "7": ["Compulsion", "Locate Creature"],
+          "9": ["Commune", "Dominate Person"]
+        }
+      },
       "rules": [
-        { "grant": "Class Feature:Order Domain Spells", "level": 1 },
         { "grant": "Class Feature:Order Domain Bonus Proficiencies", "level": 1 },
         { "grant": "Class Feature:Voice of Authority", "level": 1 },
         { "grant": "Class Feature:Channel Divinity: Order's Demand", "level": 2 },
         { "grant": "Class Feature:Embodiment of the Law", "level": 6 },
         { "grant": "Class Feature:Divine Strike (Order Domain)", "level": 8 },
         { "grant": "Class Feature:Order's Wrath", "level": 17 }
-      ]
-    },
-    {
-      "id": "Class Feature:Order Domain Spells",
-      "type": "Class Feature",
-      "name": "Domain Spells",
-      "desc": "You gain domain spells at the cleric levels listed in the Order Domain Spells table. See the Divine Domain class feature in the Player's Handbook for how domain spells work.\n\n1st: command, heroism\n3rd: hold person, zone of truth\n5th: mass healing word, slow\n7th: compulsion, locate creature\n9th: commune, dominate person",
-      "rules": [
-        { "grant": "Spell:Command", "level": 1, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Heroism", "level": 1, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Hold Person", "level": 3, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Zone of Truth", "level": 3, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Mass Healing Word", "level": 5, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Slow", "level": 5, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Compulsion", "level": 7, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Locate Creature", "level": 7, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Commune", "level": 9, "prepared": true, "spellcasting": "Cleric" },
-        { "grant": "Spell:Dominate Person", "level": 9, "prepared": true, "spellcasting": "Cleric" }
       ]
     },
     {
@@ -92,6 +83,15 @@
       "name": "Circle of Spores",
       "supports": "Class:Druid",
       "desc": "Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.",
+      "prepared": {
+        "class": "Druid",
+        "levels": {
+          "3": ["Blindness/Deafness", "Gentle Repose"],
+          "5": ["Animate Dead", "Gaseous Form"],
+          "7": ["Blight", "Confusion"],
+          "9": ["Cloudkill", "Contagion"]
+        }
+      },
       "rules": [
         { "grant": "Class Feature:Circle of Spores Circle Spells", "level": 2 },
         { "grant": "Class Feature:Halo of Spores", "level": 2 },
@@ -105,17 +105,9 @@
       "id": "Class Feature:Circle of Spores Circle Spells",
       "type": "Class Feature",
       "name": "Circle Spells",
-      "desc": "Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the chill touch cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n2nd: chill touch\n3rd: blindness/deafness, gentle repose\n5th: animate dead, gaseous form\n7th: blight, confusion\n9th: cloudkill, contagion",
+      "desc": "At 2nd level, you learn the chill touch cantrip. At 3rd, 5th, 7th, and 9th level you gain access to circle spells. Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
       "rules": [
-        { "grant": "Spell:Chill Touch", "level": 2, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Blindness/Deafness", "level": 3, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Gentle Repose", "level": 3, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Animate Dead", "level": 5, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Gaseous Form", "level": 5, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Blight", "level": 7, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Confusion", "level": 7, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Cloudkill", "level": 9, "prepared": true, "spellcasting": "Druid" },
-        { "grant": "Spell:Contagion", "level": 9, "prepared": true, "spellcasting": "Druid" }
+        { "grant": "Spell:Chill Touch" }
       ]
     },
     {
@@ -123,24 +115,14 @@
       "type": "Class Feature",
       "name": "Halo of Spores",
       "desc": "Starting at 2nd level, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to 1d6 at 6th level, 1d8 at 10th level, and 1d10 at 14th level.",
-      "rules": [
-        { "stat": { "halo of spores:die": 4 } },
-        { "stat": { "halo of spores:die": 6 }, "level": 6 },
-        { "stat": { "halo of spores:die": 8 }, "level": 10 },
-        { "stat": { "halo of spores:die": 10 }, "level": 14 }
-      ]
+      "rules": []
     },
     {
       "id": "Class Feature:Symbiotic Entity",
       "type": "Class Feature",
       "name": "Symbiotic Entity",
       "desc": "At 2nd level, you gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:\n\n- When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.\n- Your melee weapon attacks deal an extra 1d6 poison damage to any target they hit.\n\nThese benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again.",
-      "rules": [
-        { "stat": { "symbiotic entity:hp": "level:druid" } },
-        { "stat": { "symbiotic entity:hp": "level:druid" } },
-        { "stat": { "symbiotic entity:hp": "level:druid" } },
-        { "stat": { "symbiotic entity:hp": "level:druid" } }
-      ]
+      "rules": []
     },
     {
       "id": "Class Feature:Fungal Infestation",
