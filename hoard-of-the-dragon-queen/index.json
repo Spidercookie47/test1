@@ -1,0 +1,13 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "hotdq",
+    "name": "Hoard of the Dragon Queen",
+    "short": "HOTDQ"
+  },
+  "files": [
+    "backgrounds.json",
+    "magic-items.json"
+  ]
+}

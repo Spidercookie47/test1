@@ -1,0 +1,128 @@
+{
+  "elements": [
+    {
+      "id": "Magic:Black Dragon Mask",
+      "type": "Magic",
+      "name": "Black Dragon Mask",
+      "desc": "This horned mask of glossy ebony has a skull-like mien. While you wear the mask, you gain the following benefits, in addition to those the dragon masks share.\n\nDamage Type: The mask's damage type is acid.\n\nWater Breathing: You can breathe underwater.\n\nA dragon mask is a wondrous item that reshapes to fit the face and head of a wearer attuned to it. While you are wearing any dragon mask and attuned to it, you gain the following benefits.\n\nDamage Absorption: You have resistance against the mask's damage type. If you already have resistance to that damage type from another source, you instead have immunity to that damage type. If you already have immunity to that damage type from another source, whenever you are subjected to damage of that type, you take none of that damage and regain a number of hit points equal to half the damage dealt of that type.\n\nDraconic Majesty: While you are wearing no armor, you can add your Charisma bonus to your Armor Class.\n\nDragon Breath: If you have a breath weapon that requires rest to recharge, it gains a recharge of 6.\n\nDragon Sight: You gain darkvision out to 60 feet, or to an additional 60 feet if you already have that sense. Once per day, you can gain blindsight out to 30 feet for 5 minutes.\n\nDragon Tongue: You can speak and understand Draconic. You also have advantage on any Charisma check you make against dragons that share the mask's color.\n\nLegendary Resistance (1/Day): If you fail a saving throw, you can choose to succeed instead.",
+      "rules": [
+        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" },
+        { "grant": "Racial Trait:Darkvision" }
+      ],
+      "cg": "Wondrous Items",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Legendary",
+      "att": true
+    },
+    {
+      "id": "Magic:White Dragon Mask",
+      "type": "Magic",
+      "name": "White Dragon Mask",
+      "desc": "This gleaming mask is white with highlights of pale blue and is topped by a spined crest. While you wear the mask, you gain the following benefits, in addition to those the dragon masks share.\n\nDamage Type: The mask's damage type is cold.\n\nWinter's Fury: While your current hit points are equal to or less than half your hit point maximum, you deal an extra 1d8 cold damage with your melee attacks.\n\nA dragon mask is a wondrous item that reshapes to fit the face and head of a wearer attuned to it. While you are wearing any dragon mask and attuned to it, you gain the following benefits.\n\nDamage Absorption: You have resistance against the mask's damage type. If you already have resistance to that damage type from another source, you instead have immunity to that damage type. If you already have immunity to that damage type from another source, whenever you are subjected to damage of that type, you take none of that damage and regain a number of hit points equal to half the damage dealt of that type.\n\nDraconic Majesty: While you are wearing no armor, you can add your Charisma bonus to your Armor Class.\n\nDragon Breath: If you have a breath weapon that requires rest to recharge, it gains a recharge of 6.\n\nDragon Sight: You gain darkvision out to 60 feet, or to an additional 60 feet if you already have that sense. Once per day, you can gain blindsight out to 30 feet for 5 minutes.\n\nDragon Tongue: You can speak and understand Draconic. You also have advantage on any Charisma check you make against dragons that share the mask's color.\n\nLegendary Resistance (1/Day): If you fail a saving throw, you can choose to succeed instead.",
+      "rules": [
+        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" },
+        { "grant": "Racial Trait:Darkvision" }
+      ],
+      "cg": "Wondrous Items",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Legendary",
+      "att": true
+    },
+    {
+      "id": "Magic:Red Dragon Mask",
+      "type": "Magic",
+      "name": "Red Dragon Mask",
+      "desc": "This mask of glossy crimson has swept-back horns and spiked cheek ridges. While you wear the mask, you gain the following benefits, in addition to those the dragon masks share.\n\nDamage Type: The mask's damage type is fire.\n\nDragon Fire: If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes 1d6 fire damage. A creature that can reach the burning target can use an action to extinguish the fire.\n\nA dragon mask is a wondrous item that reshapes to fit the face and head of a wearer attuned to it. While you are wearing any dragon mask and attuned to it, you gain the following benefits.\n\nDamage Absorption: You have resistance against the mask's damage type. If you already have resistance to that damage type from another source, you instead have immunity to that damage type. If you already have immunity to that damage type from another source, whenever you are subjected to damage of that type, you take none of that damage and regain a number of hit points equal to half the damage dealt of that type.\n\nDraconic Majesty: While you are wearing no armor, you can add your Charisma bonus to your Armor Class.\n\nDragon Breath: If you have a breath weapon that requires rest to recharge, it gains a recharge of 6.\n\nDragon Sight: You gain darkvision out to 60 feet, or to an additional 60 feet if you already have that sense. Once per day, you can gain blindsight out to 30 feet for 5 minutes.\n\nDragon Tongue: You can speak and understand Draconic. You also have advantage on any Charisma check you make against dragons that share the mask's color.\n\nLegendary Resistance (1/Day): If you fail a saving throw, you can choose to succeed instead.",
+      "rules": [
+        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" },
+        { "grant": "Racial Trait:Darkvision" }
+      ],
+      "cg": "Wondrous Items",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Legendary",
+      "att": true
+    },
+    {
+      "id": "Magic:Blue Dragon Mask",
+      "type": "Magic",
+      "name": "Blue Dragon Mask",
+      "desc": "This mask of glossy azure has spikes around its edges and a ridged horn in its center. While you wear the mask, you gain the following benefits, in addition to those the dragon masks share.\n\nDamage Type: The mask's damage type is lightning.\n\nLingering Shock: If you deal lightning damage to a creature, it can't take reactions until its next turn.\n\nA dragon mask is a wondrous item that reshapes to fit the face and head of a wearer attuned to it. While you are wearing any dragon mask and attuned to it, you gain the following benefits.\n\nDamage Absorption: You have resistance against the mask's damage type. If you already have resistance to that damage type from another source, you instead have immunity to that damage type. If you already have immunity to that damage type from another source, whenever you are subjected to damage of that type, you take none of that damage and regain a number of hit points equal to half the damage dealt of that type.\n\nDraconic Majesty: While you are wearing no armor, you can add your Charisma bonus to your Armor Class.\n\nDragon Breath: If you have a breath weapon that requires rest to recharge, it gains a recharge of 6.\n\nDragon Sight: You gain darkvision out to 60 feet, or to an additional 60 feet if you already have that sense. Once per day, you can gain blindsight out to 30 feet for 5 minutes.\n\nDragon Tongue: You can speak and understand Draconic. You also have advantage on any Charisma check you make against dragons that share the mask's color.\n\nLegendary Resistance (1/Day): If you fail a saving throw, you can choose to succeed instead.",
+      "rules": [
+        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" },
+        { "grant": "Racial Trait:Darkvision" }
+      ],
+      "cg": "Wondrous Items",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Legendary",
+      "att": true
+    },
+    {
+      "id": "Magic:Green Dragon Mask",
+      "type": "Magic",
+      "name": "Green Dragon Mask",
+      "desc": "This mottled green mask is surmounted by a frilled crest and has leathery spiked plates along its jaw. While you wear the mask, you gain the following benefits, in addition to those the dragon masks share.\n\nDamage Type: The mask's damage type is poison.\n\nWater Breathing: You can breathe underwater.\n\nA dragon mask is a wondrous item that reshapes to fit the face and head of a wearer attuned to it. While you are wearing any dragon mask and attuned to it, you gain the following benefits.\n\nDamage Absorption: You have resistance against the mask's damage type. If you already have resistance to that damage type from another source, you instead have immunity to that damage type. If you already have immunity to that damage type from another source, whenever you are subjected to damage of that type, you take none of that damage and regain a number of hit points equal to half the damage dealt of that type.\n\nDraconic Majesty: While you are wearing no armor, you can add your Charisma bonus to your Armor Class.\n\nDragon Breath: If you have a breath weapon that requires rest to recharge, it gains a recharge of 6.\n\nDragon Sight: You gain darkvision out to 60 feet, or to an additional 60 feet if you already have that sense. Once per day, you can gain blindsight out to 30 feet for 5 minutes.\n\nDragon Tongue: You can speak and understand Draconic. You also have advantage on any Charisma check you make against dragons that share the mask's color.\n\nLegendary Resistance (1/Day): If you fail a saving throw, you can choose to succeed instead.",
+      "rules": [
+        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" },
+        { "grant": "Racial Trait:Darkvision" }
+      ],
+      "cg": "Wondrous Items",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Legendary",
+      "att": true
+    },
+    {
+      "id": "Magic:Hazirawn",
+      "type": "Magic",
+      "name": "Hazirawn",
+      "desc": "Weapon (greatsword), legendary (requires attunement)\n\nA sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus on attack rolls and damage rolls made with this weapon. If you are attuned to Hazirawn, you deal an extra 1d6 necrotic damage when you hit with the weapon.\n\nIncreased Potency: While you are attuned to this weapon, its bonus on attack rolls and damage rolls increases to +2, and a hit deals an extra 2d6 necrotic damage (instead of 1d6).\n\nSpells: Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast detect magic (1 charge), detect evil and good (1 charge), or detect thoughts (2 charges). Each night at midnight, Hazirawn regains 1d4 expended charges.\n\nWounding: While you are attuned to the weapon, any creature that you hit with Hazirawn can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.",
+      "rules": [],
+      "cg": "Magic Weapons",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Legendary",
+      "att": true
+    },
+    {
+      "id": "Magic:Insignia of Claws",
+      "type": "Magic",
+      "name": "Insignia of Claws",
+      "desc": "Wondrous item, uncommon\n\nThe jewels in this insignia of the Cult of the Dragon flare with purple light when you enter combat, empowering your natural fists or natural weapon.\n\nWhile wearing the insignia, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical.",
+      "rules": [
+        { "stat": { "unarmed:attack": 1 } },
+        { "stat": { "unarmed:damage": 1 } },
+        { "stat": { "natural:attack": 1 } },
+        { "stat": { "natural:damage": 1 } }
+      ],
+      "cg": "Wondrous Items",
+      "cp": 0,
+      "price": 0,
+      "wt": 0,
+      "rar": "Uncommon",
+      "att": false
+    },
+    {
+      "id": "Magic:Wand of Winter",
+      "type": "Magic",
+      "name": "Wand of Winter",
+      "desc": "Wand, rare (requires attunement)\n\nThis wand looks and feels like an icicle. You must be attuned to the wand to use it.\n\nThe wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No components are required.\n\nThe wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand's last charge, roll a d20. On a 20, the wand melts away, forever destroyed.",
+      "rules": [],
+      "cg": "Wands",
+      "cp": 0,
+      "price": 0,
+      "wt": 1,
+      "rar": "Rare",
+      "att": true
+    }
+  ]
+}
