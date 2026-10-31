@@ -1,0 +1,13 @@
+{
+  "name": "Spidercookie47 core books",
+  "packs": [
+    {
+      "name": "Player’s Handbook (2014)",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/PHB/index.json"
+    },
+    {
+      "name": "Dungeon Master’s Guide (2014)",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/DMB/index.json"
+    }
+  ]
+}
