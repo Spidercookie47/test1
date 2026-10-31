@@ -2,28 +2,12 @@
  "format": "hearthscribe-index",
  "version": 1,
  "source": {
-  "id": "phb-dmg2014",
-  "name": "PHB & DMG (2014)",
-  "short": "PHB+DMG"
+  "id": "core-bundle",
+  "name": "Core Rulebooks Bundle",
+  "short": "Core"
  },
  "files": [
-  "PHB/languages.json",
-  "PHB/classes.json",
-  "PHB/subclasses.json",
-  "PHB/class-options.json",
-  "PHB/spells.json",
-  "PHB/equipment.json",
-  "PHB/magic-items.json",
-  "PHB/backgrounds.json",
-  "PHB/feats.json",
-  "PHB/info.json",
-  "PHB/tables.json",
-  
-  "DMB/features.json",
-  "DMB/subclasses.json",
-  "DMB/info.json",
-  "DMB/magic-items.json",
-  "DMB/equipment.json",
-  "DMB/feats.json"
+  "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/PHB/index.json",
+  "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/DMB/index.json"
  ]
 }
