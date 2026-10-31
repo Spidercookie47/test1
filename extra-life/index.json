@@ -2,16 +2,14 @@
   "format": "hearthscribe-index",
   "version": 1,
   "source": {
-    "id": "egtw",
-    "name": "Explorer's Guide to Wildemount",
-    "short": "EGTW"
+    "id": "extra-life",
+    "name": "Extra Life",
+    "short": "EL"
   },
   "files": [
     "races.json",
-    "backgrounds.json",
-    "subclasses.json",
+    "languages.json",
     "spells.json",
-    "magic-items.json",
     "equipment.json",
     "info.json"
   ]

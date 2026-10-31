@@ -1,0 +1,22 @@
+{
+  "elements": [
+    {
+      "id": "Gear:Whistle-Stick",
+      "type": "Gear",
+      "name": "Whistle-Stick",
+      "desc": "This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each other's approximate location.\n\nAdditionally, grung that know Thieves' Cant can use a whistle stick in this manner to communicate over distance.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 0,
+      "price": 0,
+      "wt": 1
+    },
+    {
+      "id": "Tool:Whistle-Stick",
+      "type": "Tool",
+      "name": "Whistle-Stick",
+      "desc": "This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each other's approximate location.\n\nAdditionally, grung that know Thieves' Cant can use a whistle stick in this manner to communicate over distance.",
+      "rules": []
+    }
+  ]
+}
