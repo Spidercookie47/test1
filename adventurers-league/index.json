@@ -1,0 +1,13 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "alee",
+  "name": "Adventurers League: Elemental Evil",
+  "short": "ALEE"
+ },
+ "files": [
+  "backgrounds.json",
+  "info.json"
+ ]
+}
