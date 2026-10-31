@@ -1,0 +1,1038 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Rod of Resurrection",
+   "type": "Magic",
+   "name": "Rod of Resurrection",
+   "desc": "Rod, legendary (requires attunement by a cleric, druid, or paladin)\n\nThe rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: heal (expends 1 charge) or resurrection (expends 5 charges).\n\nThe rod regains 1 expended charge daily at dawn. If the rod is reduced to 0 charges, roll a d20. On a 1, the rod disappears in a burst of radiance.",
+   "rules": [],
+   "cg": "Rods",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": true
+  },
+  {
+   "id": "Magic:Rod of the Pact Keeper, +1",
+   "type": "Magic",
+   "name": "Rod of the Pact Keeper, +1",
+   "desc": "Rod, uncommon (requires attunement by a warlock)\n\nWhile holding this rod, you gain a +1 bonus spell attack rolls and to the saving throw DCs of your warlock spells.\n\nIn addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+   "rules": [],
+   "cg": "Rods",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Rod of the Pact Keeper, +2",
+   "type": "Magic",
+   "name": "Rod of the Pact Keeper, +2",
+   "desc": "Rod, rare (requires attunement by a warlock)\n\nWhile holding this rod, you gain a +2 bonus spell attack rolls and to the saving throw DCs of your warlock spells.\n\nIn addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+   "rules": [],
+   "cg": "Rods",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Rod of the Pact Keeper, +3",
+   "type": "Magic",
+   "name": "Rod of the Pact Keeper, +3",
+   "desc": "Rod, very rare (requires attunement by a warlock)\n\nWhile holding this rod, you gain a +3 bonus spell attack rolls and to the saving throw DCs of your warlock spells.\n\nIn addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+   "rules": [],
+   "cg": "Rods",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Very Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Tentacle Rod",
+   "type": "Magic",
+   "name": "Tentacle Rod",
+   "desc": "Rod, rare (requires attunement)\n\nMade by the drow, this rod is a magic weapon that ends in three rubbery tentacles. While holding the rod, you can use an action to direct each tentacle to attack a creature you can see within 15 feet of you. Each tentacle makes a melee attack roll with a +9 bonus. On a hit, the tentacle deals 1d6 bludgeoning damage. If you hit a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.",
+   "rules": [],
+   "cg": "Rods",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Sword of Vengeance",
+   "type": "Magic",
+   "name": "Sword of Vengeance",
+   "desc": "Weapon (any sword), uncommon (requires attunement)\n\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon.\n\n***Curse.*** This sword is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.\n\nIn addition, while the sword is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't reach the creature to make a melee attack against it.\n\nYou can break the curse in the usual ways. Alternatively, casting banishment on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Weapon of Warning",
+   "type": "Magic",
+   "name": "Weapon of Warning",
+   "desc": "Weapon (any), uncommon (requires attunement)\n\nThis magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Sword of Answering",
+   "type": "Magic",
+   "name": "Sword of Answering",
+   "desc": "Weapon (longsword), legendary (requires attunement by a creature with the same alignment as the sword)\n\nIn the world of Greyhawk, only nine of these blades are known to exist. Each is patterned after the legendary sword Fragarach, which is variously translated as \"Final Word.\" Each of the nine swords has its own name and alignment, and each bears a different gem in its pommel.\n\nYou gain a +3 bonus to attack and damage rolls made with this sword. In addition, while you hold the sword, you can use your reaction to make one melee attack with it against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt with this special attack ignores any damage immunity or resistance the target has.\n\n| Name | Alignment | Gem |\n\n|---|---|---|\n\n| Answerer | Chaotic good | Emerald |\n\n| Back Talker | Chaotic evil | Jet |\n\n| Concluder | Lawful neutral | Amethyst |\n\n| Last Quip | Chaotic neutral | Tourmaline |\n\n| Rebutter | Neutral good | Topaz |\n\n| Replier | Neutral | Peridot |\n\n| Retorter | Lawful good | Aquamarine |\n\n| Scather | Lawful evil | Garnet |\n\n| Squelcher | Neutral evil | Spinel |",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": true
+  },
+  {
+   "id": "Magic:Staff of the Adder",
+   "type": "Magic",
+   "name": "Staff of the Adder",
+   "desc": "Staff, uncommon (requires attunement by a cleric, druid, or warlock)\n\nYou can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.\n\nYou can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes 1d6 piercing damage and must succeed on a DC 15 Constitution saving throw or take 3d6 poison damage.\n\nThe snake head can be attacked while it is animate. It has an Armor Class of 15 and 20 hit points. If the head drops to 0 hit points, the staff is destroyed. As long as it's not destroyed, the staff regains all lost hit points when it reverts to its inanimate form.",
+   "rules": [],
+   "cg": "Staffs",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Mariner's Armor",
+   "type": "Magic",
+   "name": "Mariner's Armor",
+   "desc": "Armor (light, medium, or heavy), uncommon\n\nWhile wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.",
+   "rules": [],
+   "cg": "Magic Armor",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Potion of Fire Breath",
+   "type": "Magic",
+   "name": "Potion of Fire Breath",
+   "desc": "Potion, uncommon\n\nAfter drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed.\n\nThis potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.",
+   "rules": [],
+   "cg": "Potions",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Elixir of Health",
+   "type": "Magic",
+   "name": "Elixir of Health",
+   "desc": "Potion, rare\n\nWhen you drink this potion, it cures any disease afflicting you, and it removes the blinded, deafened, paralyzed, and poisoned conditions. The clear red liquid has tiny bubbles of light in it.",
+   "rules": [],
+   "cg": "Potions",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Potion of Invulnerability",
+   "type": "Magic",
+   "name": "Potion of Invulnerability",
+   "desc": "Potion, rare\n\nFor 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquified iron.",
+   "rules": [],
+   "cg": "Potions",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Potion of Longevity",
+   "type": "Magic",
+   "name": "Potion of Longevity",
+   "desc": "Potion, very rare\n\nWhen you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a potion of longevity, there is a 10 percent cumulative chance that you instead age by 1d6 + 6 years. Suspended in this amber liquid are a scorpion's tail, an adder's fang, a dead spider, and a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.",
+   "rules": [],
+   "cg": "Potions",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Very Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Potion of Vitality",
+   "type": "Magic",
+   "name": "Potion of Vitality",
+   "desc": "Potion, very rare\n\nWhen you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.",
+   "rules": [],
+   "cg": "Potions",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Very Rare",
+   "att": false
+  },
+    {
+   "id": "Magic:Alchemy Jug",
+   "type": "Magic",
+   "name": "Alchemy Jug",
+   "desc": "Wondrous item, uncommon\n\nThis ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.\n\nYou can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named. Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.\n\n| Liquid | Max Amount |\n|---|---|\n| Acid | 8 ounces |\n| Basic poison | ½ ounce |\n| Beer | 4 gallons |\n| Honey | 1 gallon |\n| Mayonnaise | 2 gallons |\n| Oil | 1 quart |\n| Vinegar | 2 gallons |\n| Water, fresh | 8 gallons |\n| Water, salt | 12 gallons |\n| Wine | 1 gallon |",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Cap of Water Breathing",
+   "type": "Magic",
+   "name": "Cap of Water Breathing",
+   "desc": "Wondrous item, uncommon\n\nWhile wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Driftglobe",
+   "type": "Magic",
+   "name": "Driftglobe",
+   "desc": "Wondrous item, uncommon\n\nThis small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the light or daylight spell. Once used, the daylight effect can't be used again until the next dawn.\n\nYou can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Gloves of Thievery",
+   "type": "Magic",
+   "name": "Gloves of Thievery",
+   "desc": "Wondrous item, uncommon\n\nThese gloves are invisible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and Dexterity checks made to pick locks.",
+   "rules": [
+    {
+     "stat": {
+      "sleight of hand:misc": 5
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Saddle of the Cavalier",
+   "type": "Magic",
+   "name": "Saddle of the Cavalier",
+   "desc": "Wondrous item, uncommon\n\nWhile in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Sending Stones",
+   "type": "Magic",
+   "name": "Sending Stones",
+   "desc": "Wondrous item, uncommon\n\nSending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the sending spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.\n\nOnce sending is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Tome of the Stilled Tongue",
+   "type": "Magic",
+   "name": "Tome of the Stilled Tongue",
+   "desc": "Wondrous item, legendary (requires attunement by a wizard)\n\nThis thick leather-bound volume has a desiccated tongue pinned to the front cover. Five of these tomes exist, and it's unknown which one is the original. The grisly cover decoration on the first tome of the stilled tongue once belonged to a treacherous former servant of the lich-god Vecna, keeper of secrets. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank and pristine.\n\nIf you can attune to this item, you can use it as a spellbook and an arcane focus. In addition, while holding the tome, you can use a bonus action to cast a spell you have written in this tome, without expending a spell slot or using any verbal or somatic component. Once used, this property of the tome can't be used again until the next dawn.\n\nWhile attuned to the book, you can remove the tongue from the book's cover. If you do so, all spells written in the book are permanently erased.\n\nVecna watches anyone using this tome. He can also write cryptic messages in the book. These messages appear at midnight and fade away after they are read.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": true
+  },
+  {
+   "id": "Magic:Doss Lute",
+   "type": "Magic",
+   "name": "Doss Lute",
+   "desc": "Wondrous item, uncommon (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, animal friendship, protection from energy (fire only), protection from poison.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Fochlucan Bandore",
+   "type": "Magic",
+   "name": "Fochlucan Bandore",
+   "desc": "Wondrous item, uncommon (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, entangle, faerie fire, shillelagh, speak with animals.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Mac-Fuirmidh Cittern",
+   "type": "Magic",
+   "name": "Mac-Fuirmidh Cittern",
+   "desc": "Wondrous item, uncommon (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, barkskin, cure wounds, fog cloud.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Canaith Mandolin",
+   "type": "Magic",
+   "name": "Canaith Mandolin",
+   "desc": "Wondrous item, rare (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, cure wounds (3rd level), dispel magic, protection from energy (lightning only).",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Cli Lyre",
+   "type": "Magic",
+   "name": "Cli Lyre",
+   "desc": "Wondrous item, rare (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, stone shape, wall of fire, wind wall.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Anstruth Harp",
+   "type": "Magic",
+   "name": "Anstruth Harp",
+   "desc": "Wondrous item, very rare (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, control weather, cure wounds (5th level), wall of thorns.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Very Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Ollamh Harp",
+   "type": "Magic",
+   "name": "Ollamh Harp",
+   "desc": "Wondrous item, legendary (requires attunement by a bard)\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nSpells: Fly, invisibility, levitate, protection from evil and good, confusion, control weather, fire storm.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": true
+  },
+  {
+   "id": "Magic:Blessing of Health",
+   "type": "Magic",
+   "name": "Blessing of Health",
+   "desc": "Blessing, uncommon\n\nYour Constitution score increases by 2, up to a maximum of 22.",
+   "rules": [
+    {
+     "stat": {
+      "constitution": 2
+     }
+    },
+    {
+     "stat": {
+      "constitution:max": 22
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Blessing of Magic Resistance",
+   "type": "Magic",
+   "name": "Blessing of Magic Resistance",
+   "desc": "Blessing, uncommon\n\nYou have advantage on saving throws against spells and other magical effects.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Blessing of Protection",
+   "type": "Magic",
+   "name": "Blessing of Protection",
+   "desc": "Blessing, uncommon\n\nYou gain a +1 bonus to AC and saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "ac:misc": 1
+     }
+    },
+    {
+     "stat": {
+      "strength:save:misc": 1
+     }
+    },
+    {
+     "stat": {
+      "dexterity:save:misc": 1
+     }
+    },
+    {
+     "stat": {
+      "constitution:save:misc": 1
+     }
+    },
+    {
+     "stat": {
+      "intelligence:save:misc": 1
+     }
+    },
+    {
+     "stat": {
+      "wisdom:save:misc": 1
+     }
+    },
+    {
+     "stat": {
+      "charisma:save:misc": 1
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Blessing of Understanding",
+   "type": "Magic",
+   "name": "Blessing of Understanding",
+   "desc": "Blessing, uncommon\n\nYour Wisdom score increases by 2, up to a maximum of 22.",
+   "rules": [
+    {
+     "stat": {
+      "wisdom": 2
+     }
+    },
+    {
+     "stat": {
+      "wisdom:max": 22
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Blessing of Valhalla",
+   "type": "Magic",
+   "name": "Blessing of Valhalla",
+   "desc": "Blessing, uncommon\n\nThis blessing grants you the power to summon spirit warriors, as if you had blown a silver horn of Valhalla. Once you use this blessing, you can't use it again until 7 days have passed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Blessing of Weapon Enhancement",
+   "type": "Magic",
+   "name": "Blessing of Weapon Enhancement",
+   "desc": "Blessing, uncommon\n\nOne nonmagical weapon in your possession becomes a weapon +1 whenever you wield it.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Blessing of Wound Closure",
+   "type": "Magic",
+   "name": "Blessing of Wound Closure",
+   "desc": "Blessing, uncommon\n\nThis blessing grants you the benefits of a periapt of wound closure.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of Animal Conjuring",
+   "type": "Magic",
+   "name": "Charm of Animal Conjuring",
+   "desc": "Charm, uncommon\n\nThis charm allows you to cast the conjure animals spell (3rd-level version) as an action. Once used three times, the charm vanishes from you.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of Darkvision",
+   "type": "Magic",
+   "name": "Charm of Darkvision",
+   "desc": "Charm, uncommon\n\nThis charm allows you to cast the darkvision spell as an action, no components required. Once used three times, the charm goes away.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of Feather Falling",
+   "type": "Magic",
+   "name": "Charm of Feather Falling",
+   "desc": "Charm, uncommon\n\nThis charm grants you the benefits of a ring of feather falling. These benefits last for 10 days, after which the charm vanishes from you.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of Heroism",
+   "type": "Magic",
+   "name": "Charm of Heroism",
+   "desc": "Charm, uncommon\n\nThis charm allows you to give yourself the benefit of a potion of heroism as an action. Once you do so, the charm vanishes from you.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of Restoration",
+   "type": "Magic",
+   "name": "Charm of Restoration",
+   "desc": "Charm, uncommon\n\nThis charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: greater restoration (4 charges) or lesser restoration (2 charges). Once all its charges have been expended, the charm vanishes from you.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of the Slayer",
+   "type": "Magic",
+   "name": "Charm of the Slayer",
+   "desc": "Charm, uncommon\n\nOne sword in your possession becomes a dragon slayer or giant slayer (DM's choice) for the next 9 days. The charm then vanishes from you and the weapon returns to normal.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Charm of Vitality",
+   "type": "Magic",
+   "name": "Charm of Vitality",
+   "desc": "Charm, uncommon\n\nThis charm allows you to give yourself the benefit of a potion of vitality as an action. Once you do so, the charm vanishes from you.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Combat Prowess",
+   "type": "Magic",
+   "name": "Boon of Combat Prowess",
+   "desc": "Epic Boon, legendary\n\nWhen you miss with a melee weapon attack, you can choose to hit instead. Once you use this boon, you can't use it again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Dimensional Travel",
+   "type": "Magic",
+   "name": "Boon of Dimensional Travel",
+   "desc": "Epic Boon, legendary\n\nAs an action, you can cast the misty step spell, without using a spell slot or any components. Once you do so, you can't use this boon again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Fate",
+   "type": "Magic",
+   "name": "Boon of Fate",
+   "desc": "Epic Boon, legendary\n\nWhen another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw, you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Fortitude",
+   "type": "Magic",
+   "name": "Boon of Fortitude",
+   "desc": "Epic Boon, legendary\n\nYour hit point maximum increases by 40.",
+   "rules": [
+    {
+     "stat": {
+      "hp": 40
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of High Magic",
+   "type": "Magic",
+   "name": "Boon of High Magic",
+   "desc": "Epic Boon, legendary\n\nYou gain one 9th-level spell slot, provided that you already have one.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Immortality",
+   "type": "Magic",
+   "name": "Boon of Immortality",
+   "desc": "Epic Boon, legendary\n\nYou stop aging. You are immune to any effect that would age you, and you can't die from old age.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Invincibility",
+   "type": "Magic",
+   "name": "Boon of Invincibility",
+   "desc": "Epic Boon, legendary\n\nWhen you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Irresistible Offense",
+   "type": "Magic",
+   "name": "Boon of Irresistible Offense",
+   "desc": "Epic Boon, legendary\n\nYou can bypass the damage resistances of any creature.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Luck",
+   "type": "Magic",
+   "name": "Boon of Luck",
+   "desc": "Epic Boon, legendary\n\nYou can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Magic Resistance",
+   "type": "Magic",
+   "name": "Boon of Magic Resistance",
+   "desc": "Epic Boon, legendary\n\nYou have advantage on saving throws against spells and other magical effects.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Peerless Aim",
+   "type": "Magic",
+   "name": "Boon of Peerless Aim",
+   "desc": "Epic Boon, legendary\n\nYou can give yourself a +20 bonus to a ranged attack roll you make. Once you use this boon, you can't use it again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Perfect Health",
+   "type": "Magic",
+   "name": "Boon of Perfect Health",
+   "desc": "Epic Boon, legendary\n\nYou are immune to all diseases and poisons, and you have advantage on Constitution saving throws.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Planar Travel",
+   "type": "Magic",
+   "name": "Boon of Planar Travel",
+   "desc": "Epic Boon, legendary\n\nWhen you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the plane shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Quick Casting",
+   "type": "Magic",
+   "name": "Boon of Quick Casting",
+   "desc": "Epic Boon, legendary\n\nChoose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Recovery",
+   "type": "Magic",
+   "name": "Boon of Recovery",
+   "desc": "Epic Boon, legendary\n\nYou can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Resilience",
+   "type": "Magic",
+   "name": "Boon of Resilience",
+   "desc": "Epic Boon, legendary\n\nYou have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Skill Proficiency",
+   "type": "Magic",
+   "name": "Boon of Skill Proficiency",
+   "desc": "Epic Boon, legendary\n\nYou gain proficiency in all skills.",
+   "rules": [
+    {
+     "grant": "Proficiency:Acrobatics"
+    },
+    {
+     "grant": "Proficiency:Animal Handling"
+    },
+    {
+     "grant": "Proficiency:Arcana"
+    },
+    {
+     "grant": "Proficiency:Athletics"
+    },
+    {
+     "grant": "Proficiency:Deception"
+    },
+    {
+     "grant": "Proficiency:History"
+    },
+    {
+     "grant": "Proficiency:Insight"
+    },
+    {
+     "grant": "Proficiency:Intimidation"
+    },
+    {
+     "grant": "Proficiency:Investigation"
+    },
+    {
+     "grant": "Proficiency:Medicine"
+    },
+    {
+     "grant": "Proficiency:Nature"
+    },
+    {
+     "grant": "Proficiency:Perception"
+    },
+    {
+     "grant": "Proficiency:Performance"
+    },
+    {
+     "grant": "Proficiency:Persuasion"
+    },
+    {
+     "grant": "Proficiency:Religion"
+    },
+    {
+     "grant": "Proficiency:Sleight of Hand"
+    },
+    {
+     "grant": "Proficiency:Stealth"
+    },
+    {
+     "grant": "Proficiency:Survival"
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Speed",
+   "type": "Magic",
+   "name": "Boon of Speed",
+   "desc": "Epic Boon, legendary\n\nYour walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest.",
+   "rules": [
+    {
+     "stat": {
+      "speed:misc": 30
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Spell Mastery",
+   "type": "Magic",
+   "name": "Boon of Spell Mastery",
+   "desc": "Epic Boon, legendary\n\nChoose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Spell Recall",
+   "type": "Magic",
+   "name": "Boon of Spell Recall",
+   "desc": "Epic Boon, legendary\n\nYou can cast any spell you know or have prepared without expending a spell slot. Once you do so, you can't use this boon again until you finish a long rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of the Fire Soul",
+   "type": "Magic",
+   "name": "Boon of the Fire Soul",
+   "desc": "Epic Boon, legendary\n\nYou have immunity to fire damage. You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of the Night Spirit",
+   "type": "Magic",
+   "name": "Boon of the Night Spirit",
+   "desc": "Epic Boon, legendary\n\nWhile completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of the Stormborn",
+   "type": "Magic",
+   "name": "Boon of the Stormborn",
+   "desc": "Epic Boon, legendary\n\nYou have immunity to lightning and thunder damage. You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of the Unfettered",
+   "type": "Magic",
+   "name": "Boon of the Unfettered",
+   "desc": "Epic Boon, legendary\n\nYou have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Truesight",
+   "type": "Magic",
+   "name": "Boon of Truesight",
+   "desc": "Epic Boon, legendary\n\nYou have truesight out to a range of 60 feet.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Boon of Undetectability",
+   "type": "Magic",
+   "name": "Boon of Undetectability",
+   "desc": "Epic Boon, legendary\n\nYou gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors.",
+   "rules": [
+    {
+     "stat": {
+      "stealth:misc": 10
+     }
+    }
+   ],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Legendary",
+   "att": false
+  }
+ ]
+}

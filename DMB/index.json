@@ -9,6 +9,9 @@
  "files": [
   "features.json",
   "subclasses.json",
-  "info.json"
+  "info.json",
+  "magic-items.json",
+  "equipment.json",
+  "feats.json"
  ]
 }
