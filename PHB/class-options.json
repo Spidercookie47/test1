@@ -10,7 +10,7 @@
    "featSpells": [
     [
      17,
-     "Cone of Cold",
+     "Spell:Breath of Winter",
      "6 ki"
     ]
    ]
@@ -25,7 +25,7 @@
    "featSpells": [
     [
      6,
-     "Hold Person",
+     "Spell:Clench of the North Wind",
      "3 ki"
     ]
    ]
@@ -40,7 +40,7 @@
    "featSpells": [
     [
      17,
-     "Stoneskin",
+     "Spell:Eternal Mountain Defense",
      "5 ki"
     ]
    ]
@@ -63,7 +63,7 @@
    "featSpells": [
     [
      3,
-     "Thunderwave",
+     "Spell:Fist of Four Thunders",
      "2 ki"
     ]
    ]
@@ -86,7 +86,7 @@
    "featSpells": [
     [
      11,
-     "Fireball",
+     "Spell:Flames of the Phoenix",
      "4 ki"
     ]
    ]
@@ -101,7 +101,7 @@
    "featSpells": [
     [
      6,
-     "Shatter",
+     "Spell:Gong of the Summit",
      "3 ki"
     ]
    ]
@@ -116,7 +116,7 @@
    "featSpells": [
     [
      11,
-     "Gaseous Form",
+     "Spell:Mist Stance",
      "4 ki"
     ]
    ]
@@ -131,7 +131,7 @@
    "featSpells": [
     [
      11,
-     "Fly",
+     "Spell:Ride the Wind",
      "4 ki"
     ]
    ]
@@ -146,7 +146,7 @@
    "featSpells": [
     [
      17,
-     "Wall of Fire",
+     "Spell:River of Hungry Flame",
      "5 ki"
     ]
    ]
@@ -161,7 +161,7 @@
    "featSpells": [
     [
      3,
-     "Gust of Wind",
+     "Spell:Rush of the Gale Spirits",
      "2 ki"
     ]
    ]
@@ -184,7 +184,7 @@
    "featSpells": [
     [
      3,
-     "Burning Hands",
+     "Spell:Sweeping Cinder Strike",
      "2 ki"
     ]
    ]
@@ -207,7 +207,7 @@
    "featSpells": [
     [
      17,
-     "Wall of Stone",
+     "Spell:Wave of Rolling Earth",
      "6 ki"
     ]
    ]
