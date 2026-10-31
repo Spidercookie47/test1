@@ -1,0 +1,183 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Alchemist",
+   "type": "Subclass",
+   "name": "Alchemist",
+   "desc": "An Alchemist is an expert at combining reagents to produce mystical effects.",
+   "supports": "Class:Artificer",
+   "rules": [
+    {"grant": "Class Feature:Alchemist Tool Proficiency", "level": 3},
+    {"grant": "Class Feature:Alchemist Spells", "level": 3},
+    {"grant": "Class Feature:Experimental Elixir", "level": 3},
+    {"grant": "Class Feature:Alchemical Savant", "level": 5},
+    {"grant": "Class Feature:Restorative Reagents", "level": 9},
+    {"grant": "Class Feature:Chemical Mastery", "level": 15}
+   ]
+  },
+  {
+   "id": "Class Feature:Alchemist Tool Proficiency",
+   "type": "Class Feature",
+   "name": "Alchemist Tool Proficiency",
+   "desc": "When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies.",
+   "rules": [{"grant": "Tool:Alchemist's Supplies"}]
+  },
+  {
+   "id": "Class Feature:Alchemist Spells",
+   "type": "Class Feature",
+   "name": "Alchemist Spells",
+   "desc": "Starting at 3rd level, you always have certain spells prepared.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Experimental Elixir",
+   "type": "Class Feature",
+   "name": "Experimental Elixir",
+   "desc": "Beginning at 3rd level, whenever you finish a long rest, you can magically produce an experimental elixir.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Alchemical Savant",
+   "type": "Class Feature",
+   "name": "Alchemical Savant",
+   "desc": "At 5th level, you develop masterful command of magical chemicals.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Restorative Reagents",
+   "type": "Class Feature",
+   "name": "Restorative Reagents",
+   "desc": "Starting at 9th level, you can incorporate restorative reagents into some of your works.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chemical Mastery",
+   "type": "Class Feature",
+   "name": "Chemical Mastery",
+   "desc": "By 15th level, you have been exposed to so many chemicals that they pose little risk to you.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Artillerist",
+   "type": "Subclass",
+   "name": "Artillerist",
+   "desc": "An Artillerist specializes in using magic to hurl energy, projectiles, and explosions.",
+   "supports": "Class:Artificer",
+   "rules": [
+    {"grant": "Class Feature:Artillerist Tool Proficiency", "level": 3},
+    {"grant": "Class Feature:Artillerist Spells", "level": 3},
+    {"grant": "Class Feature:Eldritch Cannon", "level": 3},
+    {"grant": "Class Feature:Arcane Firearm", "level": 5},
+    {"grant": "Class Feature:Explosive Cannon", "level": 9},
+    {"grant": "Class Feature:Fortified Position", "level": 15}
+   ]
+  },
+  {
+   "id": "Class Feature:Artillerist Tool Proficiency",
+   "type": "Class Feature",
+   "name": "Artillerist Tool Proficiency",
+   "desc": "When you adopt this specialization at 3rd level, you gain proficiency with woodcarver's tools.",
+   "rules": [{"grant": "Tool:Woodcarver's Tools"}]
+  },
+  {
+   "id": "Class Feature:Artillerist Spells",
+   "type": "Class Feature",
+   "name": "Artillerist Spells",
+   "desc": "Starting at 3rd level, you always have certain spells prepared.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Eldritch Cannon",
+   "type": "Class Feature",
+   "name": "Eldritch Cannon",
+   "desc": "At 3rd level, you learn how to create a magical cannon.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Firearm",
+   "type": "Class Feature",
+   "name": "Arcane Firearm",
+   "desc": "At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Explosive Cannon",
+   "type": "Class Feature",
+   "name": "Explosive Cannon",
+   "desc": "Starting at 9th level, every eldritch cannon you create is more destructive.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fortified Position",
+   "type": "Class Feature",
+   "name": "Fortified Position",
+   "desc": "Starting at 15th level, you're a master at forming well-defended emplacements using Eldritch Cannon.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Battle Smith",
+   "type": "Subclass",
+   "name": "Battle Smith",
+   "desc": "A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel.",
+   "supports": "Class:Artificer",
+   "rules": [
+    {"grant": "Class Feature:Battle Smith Tool Proficiency", "level": 3},
+    {"grant": "Class Feature:Battle Smith Spells", "level": 3},
+    {"grant": "Class Feature:Battle Ready", "level": 3},
+    {"grant": "Class Feature:Steel Defender", "level": 3},
+    {"grant": "Class Feature:Extra Attack", "level": 5},
+    {"grant": "Class Feature:Arcane Jolt", "level": 9},
+    {"grant": "Class Feature:Improved Defender", "level": 15}
+   ]
+  },
+  {
+   "id": "Class Feature:Battle Smith Tool Proficiency",
+   "type": "Class Feature",
+   "name": "Battle Smith Tool Proficiency",
+   "desc": "When you adopt this specialization at 3rd level, you gain proficiency with smith's tools.",
+   "rules": [{"grant": "Tool:Smith's Tools"}]
+  },
+  {
+   "id": "Class Feature:Battle Smith Spells",
+   "type": "Class Feature",
+   "name": "Battle Smith Spells",
+   "desc": "Starting at 3rd level, you always have certain spells prepared.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Battle Ready",
+   "type": "Class Feature",
+   "name": "Battle Ready",
+   "desc": "When you reach 3rd level, your combat training and your experiments with magic have paid off.",
+   "rules": [{"grant": "w:Martial weapons"}]
+  },
+  {
+   "id": "Class Feature:Steel Defender",
+   "type": "Class Feature",
+   "name": "Steel Defender",
+   "desc": "By 3rd level, your tinkering has borne you a faithful companion, a steel defender.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Attack",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Jolt",
+   "type": "Class Feature",
+   "name": "Arcane Jolt",
+   "desc": "At 9th level, you learn new ways to channel arcane energy to harm or heal.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Defender",
+   "type": "Class Feature",
+   "name": "Improved Defender",
+   "desc": "At 15th level, your Arcane jolt and steel defender become more powerful.",
+   "rules": []
+  }
+ ]
+}
