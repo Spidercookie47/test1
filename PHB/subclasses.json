@@ -1,0 +1,1576 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Path of the Totem Warrior",
+   "type": "Subclass",
+   "name": "Path of the Totem Warrior",
+   "desc": "Draw on the power of a spirit animal.",
+   "rules": [
+    {
+     "grant": "Class Feature:Spirit Seeker",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Totem Spirit",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aspect of the Beast",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Spirit Walker",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Totemic Attunement",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:College of Valor",
+   "type": "Subclass",
+   "name": "College of Valor",
+   "desc": "Skalds who inspire heroism and fight beside allies.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Valor)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Combat Inspiration",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Battle Magic",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Divine Domain:Knowledge Domain",
+   "type": "Divine Domain",
+   "name": "Knowledge Domain",
+   "desc": "Gain domain spells and Knowledge features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Blessings of Knowledge",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Knowledge of the Ages",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Read Thoughts",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Potent Spellcasting",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Visions of the Past",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Command",
+      "Identify"
+     ],
+     "3": [
+      "Augury",
+      "Suggestion"
+     ],
+     "5": [
+      "Nondetection",
+      "Speak with Dead"
+     ],
+     "7": [
+      "Arcane Eye",
+      "Confusion"
+     ],
+     "9": [
+      "Legend Lore",
+      "Scrying"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Divine Domain:Light Domain",
+   "type": "Divine Domain",
+   "name": "Light Domain",
+   "desc": "Gain domain spells and Light features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Light Bonus Cantrip",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Warding Flare",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Radiance of the Dawn",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Improved Flare",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Potent Spellcasting",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Corona of Light",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Burning Hands",
+      "Faerie Fire"
+     ],
+     "3": [
+      "Flaming Sphere",
+      "Scorching Ray"
+     ],
+     "5": [
+      "Daylight",
+      "Fireball"
+     ],
+     "7": [
+      "Guardian of Faith",
+      "Wall of Fire"
+     ],
+     "9": [
+      "Flame Strike",
+      "Scrying"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Divine Domain:Nature Domain",
+   "type": "Divine Domain",
+   "name": "Nature Domain",
+   "desc": "Gain domain spells and Nature features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Acolyte of Nature",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiency (Nature)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Charm Animals and Plants",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Dampen Elements",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (Nature)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Master of Nature",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Animal Friendship",
+      "Speak with Animals"
+     ],
+     "3": [
+      "Barkskin",
+      "Spike Growth"
+     ],
+     "5": [
+      "Plant Growth",
+      "Wind Wall"
+     ],
+     "7": [
+      "Dominate Beast",
+      "Grasping Vine"
+     ],
+     "9": [
+      "Insect Plague",
+      "Tree Stride"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Divine Domain:Tempest Domain",
+   "type": "Divine Domain",
+   "name": "Tempest Domain",
+   "desc": "Gain domain spells and Tempest features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Martial)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Wrath of the Storm",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Destructive Wrath",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Thunderbolt Strike",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (Tempest)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Stormborn",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Fog Cloud",
+      "Thunderwave"
+     ],
+     "3": [
+      "Gust of Wind",
+      "Shatter"
+     ],
+     "5": [
+      "Call Lightning",
+      "Sleet Storm"
+     ],
+     "7": [
+      "Control Water",
+      "Ice Storm"
+     ],
+     "9": [
+      "Destructive Wave",
+      "Insect Plague"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Divine Domain:Trickery Domain",
+   "type": "Divine Domain",
+   "name": "Trickery Domain",
+   "desc": "Gain domain spells and Trickery features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Blessing of the Trickster",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Invoke Duplicity",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Cloak of Shadows",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (Trickery)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Improved Duplicity",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Charm Person",
+      "Disguise Self"
+     ],
+     "3": [
+      "Mirror Image",
+      "Pass Without Trace"
+     ],
+     "5": [
+      "Blink",
+      "Dispel Magic"
+     ],
+     "7": [
+      "Dimension Door",
+      "Polymorph"
+     ],
+     "9": [
+      "Dominate Person",
+      "Modify Memory"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Divine Domain:War Domain",
+   "type": "Divine Domain",
+   "name": "War Domain",
+   "desc": "Gain domain spells and War features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Martial)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:War Priest",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Guided Strike",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: War God’s Blessing",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (War)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Avatar of Battle",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Divine Favor",
+      "Shield of Faith"
+     ],
+     "3": [
+      "Magic Weapon",
+      "Spiritual Weapon"
+     ],
+     "5": [
+      "Crusader's Mantle",
+      "Spirit Guardians"
+     ],
+     "7": [
+      "Freedom of Movement",
+      "Stoneskin"
+     ],
+     "9": [
+      "Flame Strike",
+      "Hold Monster"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of the Moon",
+   "type": "Subclass",
+   "name": "Circle of the Moon",
+   "desc": "Fierce shapechangers who take on powerful beast forms.",
+   "rules": [
+    {
+     "grant": "Class Feature:Combat Wild Shape",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Circle Forms",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Primal Strike",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Elemental Wild Shape",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Thousand Forms",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid"
+  },
+  {
+   "id": "Subclass:Battle Master",
+   "type": "Subclass",
+   "name": "Battle Master",
+   "desc": "Tacticians who fight with superiority dice and maneuvers.",
+   "rules": [
+    {
+     "grant": "Class Feature:Combat Superiority",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Student of War",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Know Your Enemy",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Improved Combat Superiority",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Relentless",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Eldritch Knight",
+   "type": "Subclass",
+   "name": "Eldritch Knight",
+   "desc": "Fighters who add wizard spells to their martial skill.",
+   "rules": [
+    {
+     "grant": "Class Feature:Eldritch Knight Spellcasting",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Weapon Bond",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:War Magic",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Eldritch Strike",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Arcane Charge",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Improved War Magic",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "list": "Wizard",
+    "third": true,
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "known": [
+     0,
+     0,
+     3,
+     4,
+     4,
+     4,
+     5,
+     6,
+     6,
+     7,
+     8,
+     8,
+     9,
+     10,
+     10,
+     11,
+     11,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Way of Shadow",
+   "type": "Subclass",
+   "name": "Way of Shadow",
+   "desc": "Monks who value stealth and subterfuge.",
+   "rules": [
+    {
+     "grant": "Class Feature:Shadow Arts",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Shadow Step",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Cloak of Shadows",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Opportunist",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Way of the Four Elements",
+   "type": "Subclass",
+   "name": "Way of the Four Elements",
+   "desc": "Monks who harness the four elements through ki.",
+   "rules": [
+    {
+     "grant": "Class Feature:Elemental Attunement",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Disciple of the Elements",
+     "level": 3
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of the Ancients",
+   "type": "Subclass",
+   "name": "Oath of the Ancients",
+   "desc": "Knights of light and life, sworn to the fey and the wild.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity: Nature’s Wrath",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Turn the Faithless",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ancients Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Warding",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Undying Sentinel",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Elder Champion",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Ensnaring Strike",
+      "Speak with Animals"
+     ],
+     "5": [
+      "Moonbeam",
+      "Misty Step"
+     ],
+     "9": [
+      "Plant Growth",
+      "Protection From Energy"
+     ],
+     "13": [
+      "Ice Storm",
+      "Stoneskin"
+     ],
+     "17": [
+      "Commune With Nature",
+      "Tree Stride"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of Vengeance",
+   "type": "Subclass",
+   "name": "Oath of Vengeance",
+   "desc": "Relentless avengers who punish wrongdoers.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity: Abjure Enemy",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Vow of Enmity",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Vengeance Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Relentless Avenger",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Soul of Vengeance",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Avenging Angel",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Bane",
+      "Hunter's Mark"
+     ],
+     "5": [
+      "Hold Person",
+      "Misty Step"
+     ],
+     "9": [
+      "Haste",
+      "Protection From Energy"
+     ],
+     "13": [
+      "Banishment",
+      "Dimension Door"
+     ],
+     "17": [
+      "Hold Monster",
+      "Scrying"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Arcane Trickster",
+   "type": "Subclass",
+   "name": "Arcane Trickster",
+   "desc": "Rogues who learn enchantment and illusion magic.",
+   "rules": [
+    {
+     "grant": "Class Feature:Arcane Trickster Spellcasting",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mage Hand Legerdemain",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Magical Ambush",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Versatile Trickster",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Spell Thief",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "list": "Wizard",
+    "third": true,
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "known": [
+     0,
+     0,
+     3,
+     4,
+     4,
+     4,
+     5,
+     6,
+     6,
+     7,
+     8,
+     8,
+     9,
+     10,
+     10,
+     11,
+     11,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Wild Magic",
+   "type": "Subclass",
+   "name": "Wild Magic",
+   "desc": "Your magic surges with chaos.",
+   "rules": [
+    {
+     "grant": "Class Feature:Wild Magic Surge",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Tides of Chaos",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bend Luck",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Controlled Chaos",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Spell Bombardment",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  },
+  {
+   "id": "Subclass:The Archfey",
+   "type": "Subclass",
+   "name": "The Archfey",
+   "desc": "You made a pact with a lord or lady of the fey.",
+   "rules": [
+    {
+     "grant": "Class Feature:Fey Presence",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Misty Escape",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Beguiling Defenses",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Dark Delirium",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Faerie Fire",
+     "Sleep",
+     "Calm Emotions",
+     "Phantasmal Force",
+     "Blink",
+     "Plant Growth",
+     "Dominate Beast",
+     "Greater Invisibility",
+     "Dominate Person",
+     "Seeming"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Great Old One",
+   "type": "Subclass",
+   "name": "The Great Old One",
+   "desc": "Your patron is a mysterious entity from beyond reality.",
+   "rules": [
+    {
+     "grant": "Class Feature:Awaken Mind",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Entropic Ward",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Thought Shield",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Create Thrall",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Dissonant Whispers",
+     "Hideous Laughter",
+     "Detect Thoughts",
+     "Phantasmal Force",
+     "Clairvoyance",
+     "Sending",
+     "Dominate Beast",
+     "Black Tentacles",
+     "Dominate Person",
+     "Telekinesis"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:School of Abjuration",
+   "type": "Subclass",
+   "name": "School of Abjuration",
+   "desc": "Magic that blocks, banishes and protects.",
+   "rules": [
+    {
+     "grant": "Class Feature:Abjuration Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Arcane Ward",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Projected Ward",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Improved Abjuration",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Spell Resistance",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Conjuration",
+   "type": "Subclass",
+   "name": "School of Conjuration",
+   "desc": "Magic that creates objects and creatures.",
+   "rules": [
+    {
+     "grant": "Class Feature:Conjuration Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Minor Conjuration",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Benign Transposition",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Focused Conjuration",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Durable Summons",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Divination",
+   "type": "Subclass",
+   "name": "School of Divination",
+   "desc": "Magic of discernment, foresight and knowledge.",
+   "rules": [
+    {
+     "grant": "Class Feature:Divination Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Portent",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Expert Divination",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:The Third Eye",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Greater Portent",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Enchantment",
+   "type": "Subclass",
+   "name": "School of Enchantment",
+   "desc": "Magic that entrances and beguiles.",
+   "rules": [
+    {
+     "grant": "Class Feature:Enchantment Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Hypnotic Gaze",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Instinctive Charm",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Split Enchantment",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Alter Memories",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Illusion",
+   "type": "Subclass",
+   "name": "School of Illusion",
+   "desc": "Magic that dazzles the senses and tricks the mind.",
+   "rules": [
+    {
+     "grant": "Class Feature:Illusion Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Improved Minor Illusion",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Malleable Illusions",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Illusory Self",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Illusory Reality",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Necromancy",
+   "type": "Subclass",
+   "name": "School of Necromancy",
+   "desc": "Magic over life, death and undeath.",
+   "rules": [
+    {
+     "grant": "Class Feature:Necromancy Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Grim Harvest",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Undead Thralls",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Inured to Undead",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Command Undead",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Transmutation",
+   "type": "Subclass",
+   "name": "School of Transmutation",
+   "desc": "Magic that alters energy and matter.",
+   "rules": [
+    {
+     "grant": "Class Feature:Transmutation Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Minor Alchemy",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Transmuter’s Stone",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Shapechanger",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Master Transmuter",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:Assassin",
+   "type": "Subclass",
+   "name": "Assassin",
+   "desc": "Masters of stealth, poison and disguise.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Assassin)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Assassinate",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Infiltration Expertise",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Impostor",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Death Strike",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Beast Master",
+   "type": "Subclass",
+   "name": "Beast Master",
+   "desc": "Rangers who fight alongside an animal companion.",
+   "rules": [
+    {
+     "grant": "Class Feature:Ranger’s Companion",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Exceptional Training",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Bestial Fury",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Share Spells",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  }
+ ]
+}

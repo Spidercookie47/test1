@@ -1,0 +1,408 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Aspect of the Beast (Bear)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Bear)",
+   "desc": "Your carrying capacity doubles, and you have advantage on Strength checks to push, pull, lift, or break objects.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Aspect of the Beast (Eagle)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Eagle)",
+   "desc": "You can see up to 1 mile away with no difficulty, and dim light doesn't impose disadvantage on Perception checks.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Aspect of the Beast (Wolf)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Wolf)",
+   "desc": "You can track at a fast pace, and move stealthily at a normal pace.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Breath of Winter",
+   "type": "Class Feature",
+   "name": "Breath of Winter",
+   "desc": "Spend 6 ki points to cast cone of cold.",
+   "rules": [],
+   "lv": 17,
+   "featSpells": [
+    [
+     17,
+     "Spell:Breath of Winter",
+     "6 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Clench of the North Wind",
+   "type": "Class Feature",
+   "name": "Clench of the North Wind",
+   "desc": "Spend 3 ki points to cast hold person.",
+   "rules": [],
+   "lv": 6,
+   "featSpells": [
+    [
+     6,
+     "Spell:Clench of the North Wind",
+     "3 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Commander’s Strike",
+   "type": "Class Feature",
+   "name": "Commander’s Strike",
+   "desc": "Bonus action: forgo one attack; an ally uses its reaction to attack a target you can see, adding your superiority die to the damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Disarming Attack",
+   "type": "Class Feature",
+   "name": "Disarming Attack",
+   "desc": "On a hit, add your superiority die to damage; target must make a Strength save or drop a held item.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Distracting Strike",
+   "type": "Class Feature",
+   "name": "Distracting Strike",
+   "desc": "On a hit, add your superiority die to damage; the next attack against the target by anyone other than you has advantage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Eternal Mountain Defense",
+   "type": "Class Feature",
+   "name": "Eternal Mountain Defense",
+   "desc": "Spend 5 ki points to cast stoneskin on yourself.",
+   "rules": [],
+   "lv": 17,
+   "featSpells": [
+    [
+     17,
+     "Spell:Eternal Mountain Defense",
+     "5 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Evasive Footwork",
+   "type": "Class Feature",
+   "name": "Evasive Footwork",
+   "desc": "When you move, add your superiority die to your AC until you stop moving.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Fangs of the Fire Snake",
+   "type": "Class Feature",
+   "name": "Fangs of the Fire Snake",
+   "desc": "Spend 1 ki point to extend your unarmed reach by 10 feet and deal fire damage; spend 1 more on a hit for an extra 1d10 fire damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Feinting Attack",
+   "type": "Class Feature",
+   "name": "Feinting Attack",
+   "desc": "Bonus action: choose a creature within 5 feet; you have advantage on your next attack against it this turn, and add your superiority die to its damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Fist of Four Thunders",
+   "type": "Class Feature",
+   "name": "Fist of Four Thunders",
+   "desc": "Spend 2 ki points to cast thunderwave.",
+   "rules": [],
+   "lv": 3,
+   "featSpells": [
+    [
+     3,
+     "Spell:Fist of Four Thunders",
+     "2 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Fist of Unbroken Air",
+   "type": "Class Feature",
+   "name": "Fist of Unbroken Air",
+   "desc": "Spend 2 or more ki points to blast a creature for 3d10 bludgeoning damage and push it away (Strength save).",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Flames of the Phoenix",
+   "type": "Class Feature",
+   "name": "Flames of the Phoenix",
+   "desc": "Spend 4 ki points to cast fireball.",
+   "rules": [],
+   "lv": 11,
+   "featSpells": [
+    [
+     11,
+     "Spell:Flames of the Phoenix",
+     "4 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Goading Attack",
+   "type": "Class Feature",
+   "name": "Goading Attack",
+   "desc": "On a hit, add your superiority die to damage; target must make a Wisdom save or have disadvantage on attacks against anyone but you.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Gong of the Summit",
+   "type": "Class Feature",
+   "name": "Gong of the Summit",
+   "desc": "Spend 3 ki points to cast shatter.",
+   "rules": [],
+   "lv": 6,
+   "featSpells": [
+    [
+     6,
+     "Spell:Gong of the Summit",
+     "3 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Lunging Attack",
+   "type": "Class Feature",
+   "name": "Lunging Attack",
+   "desc": "On your turn, increase your reach by 5 feet for one melee weapon attack, and add your superiority die to its damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Maneuvering Attack",
+   "type": "Class Feature",
+   "name": "Maneuvering Attack",
+   "desc": "On a hit, add your superiority die to damage; choose a friendly creature, which can move half its speed as a reaction without provoking opportunity attacks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Menacing Attack",
+   "type": "Class Feature",
+   "name": "Menacing Attack",
+   "desc": "On a hit, add your superiority die to damage; target must make a Wisdom save or be frightened of you.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Mist Stance",
+   "type": "Class Feature",
+   "name": "Mist Stance",
+   "desc": "Spend 4 ki points to cast gaseous form on yourself.",
+   "rules": [],
+   "lv": 11,
+   "featSpells": [
+    [
+     11,
+     "Spell:Mist Stance",
+     "4 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Parry",
+   "type": "Class Feature",
+   "name": "Parry",
+   "desc": "Reaction: reduce damage from a melee attack by your superiority die + your Dexterity modifier.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Precision Attack",
+   "type": "Class Feature",
+   "name": "Precision Attack",
+   "desc": "When you make a weapon attack, add your superiority die to the attack roll.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Pushing Attack",
+   "type": "Class Feature",
+   "name": "Pushing Attack",
+   "desc": "On a hit, add your superiority die to damage; target must make a Strength save or be pushed up to 15 feet away from you.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Ride the Wind",
+   "type": "Class Feature",
+   "name": "Ride the Wind",
+   "desc": "Spend 4 ki points to cast fly on yourself.",
+   "rules": [],
+   "lv": 11,
+   "featSpells": [
+    [
+     11,
+     "Spell:Ride the Wind",
+     "4 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Riposte",
+   "type": "Class Feature",
+   "name": "Riposte",
+   "desc": "Reaction: when a creature misses you with a melee attack, make a melee weapon attack against it, adding your superiority die to the damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:River of Hungry Flame",
+   "type": "Class Feature",
+   "name": "River of Hungry Flame",
+   "desc": "Spend 5 ki points to cast wall of fire.",
+   "rules": [],
+   "lv": 17,
+   "featSpells": [
+    [
+     17,
+     "Spell:River of Hungry Flame",
+     "5 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Rush of the Gale Spirits",
+   "type": "Class Feature",
+   "name": "Rush of the Gale Spirits",
+   "desc": "Spend 2 ki points to cast gust of wind.",
+   "rules": [],
+   "lv": 3,
+   "featSpells": [
+    [
+     3,
+     "Spell:Rush of the Gale Spirits",
+     "2 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Shape the Flowing River",
+   "type": "Class Feature",
+   "name": "Shape the Flowing River",
+   "desc": "Spend 1 ki point to reshape ice or water in a 30-foot area.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Sweeping Attack",
+   "type": "Class Feature",
+   "name": "Sweeping Attack",
+   "desc": "When you hit with a melee weapon, choose another creature within 5 feet of the target; it takes damage equal to your superiority die of the weapon's type.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Sweeping Cinder Strike",
+   "type": "Class Feature",
+   "name": "Sweeping Cinder Strike",
+   "desc": "Spend 2 ki points to cast burning hands.",
+   "rules": [],
+   "lv": 3,
+   "featSpells": [
+    [
+     3,
+     "Spell:Sweeping Cinder Strike",
+     "2 ki"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Totem Spirit (Bear)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Bear)",
+   "desc": "While raging, you have resistance to all damage except psychic damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Totem Spirit (Eagle)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Eagle)",
+   "desc": "While raging and not in heavy armor, opportunity attacks against you have disadvantage, and you can Dash as a bonus action.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Totem Spirit (Wolf)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Wolf)",
+   "desc": "While raging, your friends have advantage on melee attack rolls against hostile creatures within 5 feet of you.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Bear)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Bear)",
+   "desc": "While raging, hostile creatures within 5 feet of you have disadvantage on attacks against anyone but you.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Eagle)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Eagle)",
+   "desc": "While raging, you have a flying speed equal to your walking speed (you can't hover).",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Wolf)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Wolf)",
+   "desc": "While raging, you can knock a Large or smaller creature prone as a bonus action when you hit it with a melee weapon attack.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Trip Attack",
+   "type": "Class Feature",
+   "name": "Trip Attack",
+   "desc": "On a hit, add your superiority die to damage; target must make a Strength save or be knocked prone.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Water Whip",
+   "type": "Class Feature",
+   "name": "Water Whip",
+   "desc": "Spend 2 or more ki points to lash a creature for 3d10 bludgeoning damage and pull or knock it prone (Dexterity save).",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Wave of Rolling Earth",
+   "type": "Class Feature",
+   "name": "Wave of Rolling Earth",
+   "desc": "Spend 6 ki points to cast wall of stone.",
+   "rules": [],
+   "lv": 17,
+   "featSpells": [
+    [
+     17,
+     "Spell:Wave of Rolling Earth",
+     "6 ki"
+    ]
+   ]
+  }
+ ]
+}
