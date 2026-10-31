@@ -254,28 +254,46 @@
    ]
   },
   {
-   "id": "Feat:Martial Adept",
-   "type": "Feat",
-   "name": "Martial Adept",
-   "desc": "Learn two maneuvers from the Battle Master archetype and gain one superiority die (d6).",
-   "rules": [
+  "id": "Feat:Martial Adept",
+  "type": "Feat",
+  "name": "Martial Adept",
+  "desc": "Learn two maneuvers from the Battle Master archetype and gain one superiority die (d6).",
+  "rules": [
     {
-     "resource": {
-      "id": "superiority-dice",
-      "name": "Superiority Die",
-      "rest": "S",
-      "max": 1
-     }
+      "resource": {
+        "id": "superiority-dice-adept",
+        "name": "Superiority Die (Martial Adept)",
+        "rest": "S",
+        "max": 1
+      }
     },
     {
-     "select": {
-      "name": "Maneuvers",
-      "type": "Maneuver",
-      "n": 2
-     }
+      "select": {
+        "type": "Favored Enemy",
+        "name": "Maneuvers",
+        "n": 2,
+        "ids": [
+          "Class Feature:Commander’s Strike",
+          "Class Feature:Disarming Attack",
+          "Class Feature:Distracting Strike",
+          "Class Feature:Evasive Footwork",
+          "Class Feature:Feinting Attack",
+          "Class Feature:Goading Attack",
+          "Class Feature:Lunging Attack",
+          "Class Feature:Maneuvering Attack",
+          "Class Feature:Menacing Attack",
+          "Class Feature:Parry",
+          "Class Feature:Precision Attack",
+          "Class Feature:Pushing Attack",
+          "Class Feature:Rally",
+          "Class Feature:Riposte",
+          "Class Feature:Sweeping Attack",
+          "Class Feature:Trip Attack"
+        ]
+      }
     }
-   ]
-  },
+  ]
+},
   {
    "id": "Feat:Medium Armor Master",
    "type": "Feat",
