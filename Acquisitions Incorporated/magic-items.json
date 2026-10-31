@@ -1,3 +1,5 @@
+{
+ "elements": [
   {
    "id": "Magic:Orrery of the Wanderer",
    "type": "Magic",
@@ -140,3 +142,5 @@
    "rar": "Very Rare",
    "att": true
   }
+ ]
+}

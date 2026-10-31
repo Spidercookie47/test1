@@ -1,4 +1,6 @@
   {
+ "elements": [
+  {
    "id": "Background Feature:Inside Informant",
    "type": "Background Feature",
    "name": "Inside Informant",
@@ -356,3 +358,5 @@
     ]
    }
   }
+ ]
+}

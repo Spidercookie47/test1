@@ -1,3 +1,5 @@
+{
+ "elements": [
   {
    "id": "Spell:Distort Value",
    "type": "Spell",
@@ -134,3 +136,5 @@
    ],
    "mat": ""
   }
+ ]
+}
