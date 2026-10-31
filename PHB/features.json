@@ -483,47 +483,132 @@
    ]
   },
   {
-   "id": "Class Feature:Combat Superiority",
-   "type": "Class Feature",
-   "name": "Combat Superiority",
-   "desc": "Learn maneuvers fueled by superiority dice (d8); regain dice on a short or long rest.",
-   "rules": [
+  "id": "Class Feature:Combat Superiority",
+  "type": "Class Feature",
+  "name": "Combat Superiority",
+  "desc": "Learn maneuvers fueled by superiority dice (d8); regain dice on a short or long rest.",
+  "rules": [
     {
-     "resource": {
-      "id": "superiority-dice",
-      "name": "Superiority dice",
-      "rest": "S",
-      "max": [
-       {
-        "class": "Fighter",
-        "table": [
-         0,
-         0,
-         4,
-         4,
-         4,
-         4,
-         5,
-         5,
-         5,
-         5,
-         5,
-         5,
-         5,
-         5,
-         6,
-         6,
-         6,
-         6,
-         6,
-         6
+      "resource": {
+        "id": "superiority-dice",
+        "name": "Superiority dice",
+        "rest": "S",
+        "max": [
+          {
+            "class": "Fighter",
+            "table": [
+             0, 0, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6
+            ]
+          }
         ]
-       }
-      ]
-     }
+      }
+    },
+    {
+      "level": 3,
+      "select": {
+        "type": "Favored Enemy",
+        "name": "Maneuvers (3rd)",
+        "n": 3,
+        "ids": [
+          "Class Feature:Commander’s Strike",
+          "Class Feature:Disarming Attack",
+          "Class Feature:Distracting Strike",
+          "Class Feature:Evasive Footwork",
+          "Class Feature:Feinting Attack",
+          "Class Feature:Goading Attack",
+          "Class Feature:Lunging Attack",
+          "Class Feature:Maneuvering Attack",
+          "Class Feature:Menacing Attack",
+          "Class Feature:Parry",
+          "Class Feature:Precision Attack",
+          "Class Feature:Pushing Attack",
+          "Class Feature:Rally",
+          "Class Feature:Riposte",
+          "Class Feature:Sweeping Attack",
+          "Class Feature:Trip Attack"
+        ]
+      }
+    },
+    {
+      "level": 7,
+      "select": {
+        "type": "Favored Enemy",
+        "name": "Maneuvers (7th)",
+        "n": 2,
+        "ids": [
+          "Class Feature:Commander’s Strike",
+          "Class Feature:Disarming Attack",
+          "Class Feature:Distracting Strike",
+          "Class Feature:Evasive Footwork",
+          "Class Feature:Feinting Attack",
+          "Class Feature:Goading Attack",
+          "Class Feature:Lunging Attack",
+          "Class Feature:Maneuvering Attack",
+          "Class Feature:Menacing Attack",
+          "Class Feature:Parry",
+          "Class Feature:Precision Attack",
+          "Class Feature:Pushing Attack",
+          "Class Feature:Rally",
+          "Class Feature:Riposte",
+          "Class Feature:Sweeping Attack",
+          "Class Feature:Trip Attack"
+        ]
+      }
+    },
+    {
+      "level": 10,
+      "select": {
+        "type": "Favored Enemy",
+        "name": "Maneuvers (10th)",
+        "n": 2,
+        "ids": [
+          "Class Feature:Commander’s Strike",
+          "Class Feature:Disarming Attack",
+          "Class Feature:Distracting Strike",
+          "Class Feature:Evasive Footwork",
+          "Class Feature:Feinting Attack",
+          "Class Feature:Goading Attack",
+          "Class Feature:Lunging Attack",
+          "Class Feature:Maneuvering Attack",
+          "Class Feature:Menacing Attack",
+          "Class Feature:Parry",
+          "Class Feature:Precision Attack",
+          "Class Feature:Pushing Attack",
+          "Class Feature:Rally",
+          "Class Feature:Riposte",
+          "Class Feature:Sweeping Attack",
+          "Class Feature:Trip Attack"
+        ]
+      }
+    },
+    {
+      "level": 15,
+      "select": {
+        "type": "Favored Enemy",
+        "name": "Maneuvers (15th)",
+        "n": 2,
+        "ids": [
+          "Class Feature:Commander’s Strike",
+          "Class Feature:Disarming Attack",
+          "Class Feature:Distracting Strike",
+          "Class Feature:Evasive Footwork",
+          "Class Feature:Feinting Attack",
+          "Class Feature:Goading Attack",
+          "Class Feature:Lunging Attack",
+          "Class Feature:Maneuvering Attack",
+          "Class Feature:Menacing Attack",
+          "Class Feature:Parry",
+          "Class Feature:Precision Attack",
+          "Class Feature:Pushing Attack",
+          "Class Feature:Rally",
+          "Class Feature:Riposte",
+          "Class Feature:Sweeping Attack",
+          "Class Feature:Trip Attack"
+        ]
+      }
     }
-   ]
-  },
+  ]
+},
   {
    "id": "Class Feature:Student of War",
    "type": "Class Feature",
