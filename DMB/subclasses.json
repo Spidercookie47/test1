@@ -1,0 +1,119 @@
+{
+ "elements": [
+  {
+   "id": "Divine Domain:Death Domain",
+   "type": "Divine Domain",
+   "name": "Death Domain",
+   "desc": "Gain domain spells and Death features.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency (Death)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Reaper",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Touch of Death",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Inescapable Destruction",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (Death)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Improved Reaper",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "False Life",
+      "Ray of Sickness"
+     ],
+     "3": [
+      "Blindness/Deafness",
+      "Ray of Enfeeblement"
+     ],
+     "5": [
+      "Animate Dead",
+      "Vampiric Touch"
+     ],
+     "7": [
+      "Blight",
+      "Death Ward"
+     ],
+     "9": [
+      "Antilife Shell",
+      "Cloudkill"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oathbreaker",
+   "type": "Subclass",
+   "name": "Oathbreaker",
+   "desc": "A paladin who broke a sacred oath for dark ambition or an evil power.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity: Control Undead",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Dreadful Aspect",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Oathbreaker Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Hate",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Supernatural Resistance",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Dread Lord",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Hellish Rebuke",
+      "Inflict Wounds"
+     ],
+     "5": [
+      "Crown of Madness",
+      "Darkness"
+     ],
+     "9": [
+      "Animate Dead",
+      "Bestow Curse"
+     ],
+     "13": [
+      "Blight",
+      "Confusion"
+     ],
+     "17": [
+      "Contagion",
+      "Dominate Person"
+     ]
+    }
+   }
+  }
+ ]
+}

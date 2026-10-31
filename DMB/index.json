@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "dmg2014",
+  "name": "Dungeon Master Manuel (2014)",
+  "short": "DMB (2014)"
+ },
+ "files": [
+  "features.json",
+  "subclasses.json",
+  "info.json"
+ ]
+}
