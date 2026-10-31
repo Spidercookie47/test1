@@ -1,8 +1,17 @@
 {
   "elements": [
     {
+      "id": "Class Feature:Armor of Magical Strength",
+      "type": "Class Feature",
+      "supports": "Artificer Infusion",
+      "name": "Armor of Magical Strength",
+      "desc": "Item: A suit of armor (requires attunement). This armor has 6 charges. The wearer can expend 1 charge to use their Intelligence modifier in place of their Strength modifier for one Strength check or saving throw. The armor regains 1d6 expended charges daily at dawn.",
+      "rules": []
+    },
+    {
       "id": "Class Feature:Enhanced Arcane Focus",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Enhanced Arcane Focus",
       "desc": "Item: A rod, staff, or wand (requires attunement). While holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack. The bonus increases to +2 when you reach 10th level in this class.",
       "rules": []
@@ -10,6 +19,7 @@
     {
       "id": "Class Feature:Enhanced Defense",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Enhanced Defense",
       "desc": "Item: A suit of armor or a shield. A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item. The bonus increases to +2 when you reach 10th level in this class.",
       "rules": []
@@ -17,6 +27,7 @@
     {
       "id": "Class Feature:Enhanced Weapon",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Enhanced Weapon",
       "desc": "Item: A simple or martial weapon. This magic weapon grants a +1 bonus to attack and damage rolls made with it. The bonus increases to +2 when you reach 10th level in this class.",
       "rules": []
@@ -24,13 +35,23 @@
     {
       "id": "Class Feature:Homunculus Servant",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Homunculus Servant",
       "desc": "Prerequisite: 6th-level artificer. Item: A gem worth at least 100 gp or a dragonshard. You learn intricate methods for magically creating a special homunculus that serves you.",
       "rules": []
     },
     {
+      "id": "Class Feature:Mind Sharpener",
+      "type": "Class Feature",
+      "supports": "Artificer Infusion",
+      "name": "Mind Sharpener",
+      "desc": "Item: A suit of armor or robes (requires attunement). The infused item can bolster the wearer's concentration. When the wearer fails a Constitution saving throw to maintain concentration on a spell, they can use their reaction to succeed instead. The item has 4 charges and regains 1d4 expended charges daily at dawn.",
+      "rules": []
+    },
+    {
       "id": "Class Feature:Radiant Weapon",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Radiant Weapon",
       "desc": "Prerequisite: 6th-level artificer. Item: A simple or martial weapon (requires attunement). This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light.",
       "rules": []
@@ -38,6 +59,7 @@
     {
       "id": "Class Feature:Repeating Shot",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Repeating Shot",
       "desc": "Item: A simple or martial weapon with the ammunition property (requires attunement). This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.",
       "rules": []
@@ -45,6 +67,7 @@
     {
       "id": "Class Feature:Replicate Magic Item",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Replicate Magic Item",
       "desc": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it.",
       "rules": []
@@ -52,6 +75,7 @@
     {
       "id": "Class Feature:Repulsion Shield",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Repulsion Shield",
       "desc": "Prerequisite: 6th-level artificer. Item: A shield (requires attunement). A creature gains a +1 bonus to Armor Class while wielding this shield.",
       "rules": []
@@ -59,6 +83,7 @@
     {
       "id": "Class Feature:Resistant Armor",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Resistant Armor",
       "desc": "Prerequisite: 6th-level artificer. Item: A suit of armor (requires attunement). While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item.",
       "rules": []
@@ -66,8 +91,17 @@
     {
       "id": "Class Feature:Returning Weapon",
       "type": "Class Feature",
+      "supports": "Artificer Infusion",
       "name": "Returning Weapon",
       "desc": "Item: A simple or martial weapon with the thrown property. This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.",
+      "rules": []
+    },
+    {
+      "id": "Class Feature:Spell-Refueling Ring",
+      "type": "Class Feature",
+      "supports": "Artificer Infusion",
+      "name": "Spell-Refueling Ring",
+      "desc": "Prerequisite: 6th-level artificer. Item: A ring (requires attunement). While wearing this ring, the wearer can recover one expended spell slot of 3rd level or lower as an action. Once used, the ring can't be used again until the next dawn.",
       "rules": []
     }
   ]
