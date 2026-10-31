@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "acqinc",
+  "name": "Acquisitions Incorporated",
+  "short": "AI"
+ },
+ "files": [
+  "races.json",
+  "spells.json",
+  "backgrounds.json",
+  "magic-items.json",
+  "info.json"
+ ]
+}
