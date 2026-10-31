@@ -20,18 +20,32 @@
    ]
   },
   {
-   "id": "Class Feature:Totem Spirit",
-   "type": "Class Feature",
-   "name": "Totem Spirit",
-   "desc": "Choose a totem animal (bear, eagle or wolf) that adds a benefit to your rage.",
-   "rules": []
+  "id": "Class Feature:Totem Spirit",
+  "type": "Class Feature",
+  "name": "Totem Spirit",
+  "desc": "Choose a totem animal (bear, eagle or wolf) that adds a benefit to your rage.",
+  "rules": [
+    { "level": 3, "select": { "type": "Favored Enemy", "name": "Totem Animal", "n": 1,
+        "ids": [
+          "Class Feature:Totem Spirit (Bear)",
+          "Class Feature:Totem Spirit (Eagle)",
+          "Class Feature:Totem Spirit (Wolf)"
+        ] } }
+    ]
   },
   {
-   "id": "Class Feature:Aspect of the Beast",
-   "type": "Class Feature",
-   "name": "Aspect of the Beast",
-   "desc": "Gain a magical benefit from a totem animal of your choice.",
-   "rules": []
+  "id": "Class Feature:Aspect of the Beast",
+  "type": "Class Feature",
+  "name": "Aspect of the Beast",
+  "desc": "Gain a magical benefit from a totem animal of your choice.",
+  "rules": [
+    { "level": 6, "select": { "type": "Favored Enemy", "name": "Totem Animal", "n": 1,
+        "ids": [
+          "Class Feature:Aspect of the Beast (Bear)",
+          "Class Feature:Aspect of the Beast (Eagle)",
+          "Class Feature:Aspect of the Beast (Wolf)"
+        ] } }
+    ]  
   },
   {
    "id": "Class Feature:Spirit Walker",
@@ -48,11 +62,18 @@
    ]
   },
   {
-   "id": "Class Feature:Totemic Attunement",
-   "type": "Class Feature",
-   "name": "Totemic Attunement",
-   "desc": "Gain a rage benefit from a totem animal of your choice.",
-   "rules": []
+  "id": "Class Feature:Totemic Attunement",
+  "type": "Class Feature",
+  "name": "Totemic Attunement",
+  "desc": "Gain a rage benefit from a totem animal of your choice.",
+  "rules": [
+    { "level": 14, "select": { "type": "Favored Enemy", "name": "Totem Animal", "n": 1,
+        "ids": [
+          "Class Feature:Totemic Attunement (Bear)",
+          "Class Feature:Totemic Attunement (Eagle)",
+          "Class Feature:Totemic Attunement (Wolf)"
+        ] } }
+    ]
   },
   {
    "id": "Class Feature:Bonus Proficiencies (Valor)",

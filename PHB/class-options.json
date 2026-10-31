@@ -1,6 +1,30 @@
 {
  "elements": [
   {
+   "id": "Class Feature:Aspect of the Beast (Bear)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Bear)",
+   "desc": "Your carrying capacity doubles, and you have advantage on Strength checks to push, pull, lift, or break objects.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Aspect of the Beast (Eagle)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Eagle)",
+   "desc": "You can see up to 1 mile away with no difficulty, and dim light doesn't impose disadvantage on Perception checks.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Aspect of the Beast (Wolf)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Wolf)",
+   "desc": "You can track at a fast pace, and move stealthily at a normal pace.",
+   "rules": [],
+   "lv": 6
+  },
+  {
    "id": "Class Feature:Breath of Winter",
    "type": "Class Feature",
    "name": "Breath of Winter",
@@ -188,6 +212,54 @@
      "2 ki"
     ]
    ]
+  },
+  {
+   "id": "Class Feature:Totem Spirit (Bear)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Bear)",
+   "desc": "While raging, you have resistance to all damage except psychic damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Totem Spirit (Eagle)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Eagle)",
+   "desc": "While raging and not in heavy armor, opportunity attacks against you have disadvantage, and you can Dash as a bonus action.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Totem Spirit (Wolf)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Wolf)",
+   "desc": "While raging, your friends have advantage on melee attack rolls against hostile creatures within 5 feet of you.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Bear)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Bear)",
+   "desc": "While raging, hostile creatures within 5 feet of you have disadvantage on attacks against anyone but you.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Eagle)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Eagle)",
+   "desc": "While raging, you have a flying speed equal to your walking speed (you can't hover).",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Wolf)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Wolf)",
+   "desc": "While raging, you can knock a Large or smaller creature prone as a bonus action when you hit it with a melee weapon attack.",
+   "rules": [],
+   "lv": 14
   },
   {
    "id": "Class Feature:Water Whip",
