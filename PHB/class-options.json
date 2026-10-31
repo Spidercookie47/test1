@@ -1,7 +1,7 @@
 {
  "elements": [
   {
-   "id": "Elemental Discipline:Breath of Winter",
+   "id": "Class Feature:Breath of Winter",
    "type": "Class Feature",
    "name": "Breath of Winter",
    "desc": "Spend 6 ki points to cast cone of cold.",
@@ -16,7 +16,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Clench of the North Wind",
+   "id": "Class Feature:Clench of the North Wind",
    "type": "Class Feature",
    "name": "Clench of the North Wind",
    "desc": "Spend 3 ki points to cast hold person.",
@@ -31,7 +31,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Eternal Mountain Defense",
+   "id": "Class Feature:Eternal Mountain Defense",
    "type": "Class Feature",
    "name": "Eternal Mountain Defense",
    "desc": "Spend 5 ki points to cast stoneskin on yourself.",
@@ -46,7 +46,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Fangs of the Fire Snake",
+   "id": "Class Feature:Fangs of the Fire Snake",
    "type": "Class Feature",
    "name": "Fangs of the Fire Snake",
    "desc": "Spend 1 ki point to extend your unarmed reach by 10 feet and deal fire damage; spend 1 more on a hit for an extra 1d10 fire damage.",
@@ -54,7 +54,7 @@
    "lv": 3
   },
   {
-   "id": "Elemental Discipline:Fist of Four Thunders",
+   "id": "Class Feature:Fist of Four Thunders",
    "type": "Class Feature",
    "name": "Fist of Four Thunders",
    "desc": "Spend 2 ki points to cast thunderwave.",
@@ -69,7 +69,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Fist of Unbroken Air",
+   "id": "Class Feature:Fist of Unbroken Air",
    "type": "Class Feature",
    "name": "Fist of Unbroken Air",
    "desc": "Spend 2 or more ki points to blast a creature for 3d10 bludgeoning damage and push it away (Strength save).",
@@ -77,7 +77,7 @@
    "lv": 3
   },
   {
-   "id": "Elemental Discipline:Flames of the Phoenix",
+   "id": "Class Feature:Flames of the Phoenix",
    "type": "Class Feature",
    "name": "Flames of the Phoenix",
    "desc": "Spend 4 ki points to cast fireball.",
@@ -92,7 +92,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Gong of the Summit",
+   "id": "Class Feature:Gong of the Summit",
    "type": "Class Feature",
    "name": "Gong of the Summit",
    "desc": "Spend 3 ki points to cast shatter.",
@@ -107,7 +107,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Mist Stance",
+   "id": "Class Feature:Mist Stance",
    "type": "Class Feature",
    "name": "Mist Stance",
    "desc": "Spend 4 ki points to cast gaseous form on yourself.",
@@ -122,7 +122,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Ride the Wind",
+   "id": "Class Feature:Ride the Wind",
    "type": "Class Feature",
    "name": "Ride the Wind",
    "desc": "Spend 4 ki points to cast fly on yourself.",
@@ -137,7 +137,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:River of Hungry Flame",
+   "id": "Class Feature:River of Hungry Flame",
    "type": "Class Feature",
    "name": "River of Hungry Flame",
    "desc": "Spend 5 ki points to cast wall of fire.",
@@ -152,7 +152,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Rush of the Gale Spirits",
+   "id": "Class Feature:Rush of the Gale Spirits",
    "type": "Class Feature",
    "name": "Rush of the Gale Spirits",
    "desc": "Spend 2 ki points to cast gust of wind.",
@@ -167,7 +167,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Shape the Flowing River",
+   "id": "Class Feature:Shape the Flowing River",
    "type": "Class Feature",
    "name": "Shape the Flowing River",
    "desc": "Spend 1 ki point to reshape ice or water in a 30-foot area.",
@@ -175,7 +175,7 @@
    "lv": 3
   },
   {
-   "id": "Elemental Discipline:Sweeping Cinder Strike",
+   "id": "Class Feature:Sweeping Cinder Strike",
    "type": "Class Feature",
    "name": "Sweeping Cinder Strike",
    "desc": "Spend 2 ki points to cast burning hands.",
@@ -190,7 +190,7 @@
    ]
   },
   {
-   "id": "Elemental Discipline:Water Whip",
+   "id": "Class Feature:Water Whip",
    "type": "Class Feature",
    "name": "Water Whip",
    "desc": "Spend 2 or more ki points to lash a creature for 3d10 bludgeoning damage and pull or knock it prone (Dexterity save).",
@@ -198,7 +198,7 @@
    "lv": 3
   },
   {
-   "id": "Elemental Discipline:Wave of Rolling Earth",
+   "id": "Class Feature:Wave of Rolling Earth",
    "type": "Class Feature",
    "name": "Wave of Rolling Earth",
    "desc": "Spend 6 ki points to cast wall of stone.",

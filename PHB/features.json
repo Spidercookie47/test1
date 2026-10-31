@@ -659,7 +659,7 @@
    "type": "Class Feature",
    "name": "Disciple of the Elements",
    "desc": "Learn elemental disciplines fueled by ki, including elemental spells.",
-       "rules": [
+   "rules": [
     {
      "level": 3,
      "select": {
@@ -667,13 +667,13 @@
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
-       "Elemental Discipline:Fangs of the Fire Snake",
-       "Elemental Discipline:Fist of Four Thunders",
-       "Elemental Discipline:Fist of Unbroken Air",
-       "Elemental Discipline:Rush of the Gale Spirits",
-       "Elemental Discipline:Shape the Flowing River",
-       "Elemental Discipline:Sweeping Cinder Strike",
-       "Elemental Discipline:Water Whip"
+       "Class Feature:Fangs of the Fire Snake",
+       "Class Feature:Fist of Four Thunders",
+       "Class Feature:Fist of Unbroken Air",
+       "Class Feature:Rush of the Gale Spirits",
+       "Class Feature:Shape the Flowing River",
+       "Class Feature:Sweeping Cinder Strike",
+       "Class Feature:Water Whip"
       ]
      }
     },
@@ -684,8 +684,8 @@
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
-       "Elemental Discipline:Clench of the North Wind",
-       "Elemental Discipline:Gong of the Summit"
+       "Class Feature:Clench of the North Wind",
+       "Class Feature:Gong of the Summit"
       ]
      }
     },
@@ -696,9 +696,9 @@
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
-       "Elemental Discipline:Flames of the Phoenix",
-       "Elemental Discipline:Mist Stance",
-       "Elemental Discipline:Ride the Wind"
+       "Class Feature:Flames of the Phoenix",
+       "Class Feature:Mist Stance",
+       "Class Feature:Ride the Wind"
       ]
      }
     },
@@ -709,10 +709,10 @@
       "name": "Elemental Discipline",
       "n": 1,
       "ids": [
-       "Elemental Discipline:Breath of Winter",
-       "Elemental Discipline:Eternal Mountain Defense",
-       "Elemental Discipline:River of Hungry Flame",
-       "Elemental Discipline:Wave of Rolling Earth"
+       "Class Feature:Breath of Winter",
+       "Class Feature:Eternal Mountain Defense",
+       "Class Feature:River of Hungry Flame",
+       "Class Feature:Wave of Rolling Earth"
       ]
      }
     }
