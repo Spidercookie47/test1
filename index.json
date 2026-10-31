@@ -7,7 +7,6 @@
   "short": "PHB+DMG"
  },
  "files": [
-  "PHB/races.json",
   "PHB/languages.json",
   "PHB/classes.json",
   "PHB/subclasses.json",
