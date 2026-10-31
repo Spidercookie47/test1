@@ -837,65 +837,65 @@
    "rar": "Legendary",
    "att": false
   },
-  {
+    {
    "id": "Magic:Boon of Skill Proficiency",
    "type": "Magic",
    "name": "Boon of Skill Proficiency",
    "desc": "Epic Boon, legendary\n\nYou gain proficiency in all skills.",
    "rules": [
     {
-     "grant": "Proficiency:Acrobatics"
+     "grant": "skill:Acrobatics"
     },
     {
-     "grant": "Proficiency:Animal Handling"
+     "grant": "skill:Animal Handling"
     },
     {
-     "grant": "Proficiency:Arcana"
+     "grant": "skill:Arcana"
     },
     {
-     "grant": "Proficiency:Athletics"
+     "grant": "skill:Athletics"
     },
     {
-     "grant": "Proficiency:Deception"
+     "grant": "skill:Deception"
     },
     {
-     "grant": "Proficiency:History"
+     "grant": "skill:History"
     },
     {
-     "grant": "Proficiency:Insight"
+     "grant": "skill:Insight"
     },
     {
-     "grant": "Proficiency:Intimidation"
+     "grant": "skill:Intimidation"
     },
     {
-     "grant": "Proficiency:Investigation"
+     "grant": "skill:Investigation"
     },
     {
-     "grant": "Proficiency:Medicine"
+     "grant": "skill:Medicine"
     },
     {
-     "grant": "Proficiency:Nature"
+     "grant": "skill:Nature"
     },
     {
-     "grant": "Proficiency:Perception"
+     "grant": "skill:Perception"
     },
     {
-     "grant": "Proficiency:Performance"
+     "grant": "skill:Performance"
     },
     {
-     "grant": "Proficiency:Persuasion"
+     "grant": "skill:Persuasion"
     },
     {
-     "grant": "Proficiency:Religion"
+     "grant": "skill:Religion"
     },
     {
-     "grant": "Proficiency:Sleight of Hand"
+     "grant": "skill:Sleight of Hand"
     },
     {
-     "grant": "Proficiency:Stealth"
+     "grant": "skill:Stealth"
     },
     {
-     "grant": "Proficiency:Survival"
+     "grant": "skill:Survival"
     }
    ],
    "cg": "Wondrous Items",
