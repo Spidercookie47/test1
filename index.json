@@ -1,11 +1,6 @@
 {
  "format": "hearthscribe-index",
  "version": 1,
- "source": {
-  "id": "core-bundle",
-  "name": "Core Rulebooks Bundle",
-  "short": "Core"
- },
  "files": [
   "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/PHB/index.json",
   "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/DMB/index.json"
