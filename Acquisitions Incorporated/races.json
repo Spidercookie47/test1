@@ -1,3 +1,5 @@
+{
+ "elements": [
   {
    "id": "Racial Trait:Black Blood Healing",
    "type": "Racial Trait",
@@ -58,3 +60,5 @@
     }
    ]
   }
+ ]
+}
