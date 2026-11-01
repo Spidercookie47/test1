@@ -1,0 +1,70 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Adamantine Bar",
+   "type": "Gear",
+   "name": "Adamantine Bar",
+   "desc": "A trade good worth 1,000 gp. The genasi smiths Embric and Avi can acquire one if the characters think to ask them.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 10
+  },
+  {
+   "id": "Gear:Adjustable Stilts",
+   "type": "Gear",
+   "name": "Adjustable Stilts",
+   "desc": "The stilts take 1 minute to put on or remove. They increase the height of any humanoid wearing them by 2 to 5 feet. Each stilt weighs 8 pounds and is 1 foot long when fully collapsed.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 16
+  },
+  {
+   "id": "Gear:Backpack Parachute",
+   "type": "Gear",
+   "name": "Backpack Parachute",
+   "desc": "A humanoid wearing this piece of gear can deploy the parachute as a reaction while falling, or as an action otherwise. The parachute requires at least a 10-foot cube of unoccupied space in which to deploy, and it doesn't open fast enough to slow a fall of less than 60 feet. If it has sufficient time and space to deploy properly, the parachute allows its wearer to land without taking falling damage. Once it has been used, the parachute takes 10 minutes to repack.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Barking Box",
+   "type": "Gear",
+   "name": "Barking Box",
+   "desc": "This metal cube, 6 inches on a side, has a crank on top. Using an action to wind the crank activates the box for 8 hours. While activated, the box barks whenever it detects vibrations within 15 feet of it, as long as the box and the source of the vibrations are in contact with the same ground or substance. A switch on one side of the box sets the device to emit either a small dog's bark or a large dog's bark.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Matchless Pipe",
+   "type": "Gear",
+   "name": "Matchless Pipe",
+   "desc": "A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Nimblewright Detector",
+   "type": "Gear",
+   "name": "Nimblewright Detector",
+   "desc": "To activate the nimblewright detector, a character must hold down its trigger. When the activated device comes within 500 feet of a nimblewright other than Nim, the umbrella begins to spin, whir, and click. The spinning, whirring, and clicking accelerates as the distance to the target lessens, reaching maximum velocity and volume when a nimblewright other than Nim is within 30 feet of the device.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  }
+ ]
+}

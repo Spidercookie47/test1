@@ -1,0 +1,15 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "wddh",
+    "name": "Waterdeep: Dragon Heist",
+    "short": "WDDH",
+    "license": "Proprietary",
+    "credit": "Content from Waterdeep: Dragon Heist, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "equipment.json",
+    "magic-items.json"
+  ]
+}
