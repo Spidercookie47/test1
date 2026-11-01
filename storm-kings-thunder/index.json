@@ -1,0 +1,14 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "skt",
+    "name": "Storm King's Thunder",
+    "short": "SKT",
+    "license": "Proprietary",
+    "credit": "Content from Storm King's Thunder, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "magic-items.json"
+  ]
+}
