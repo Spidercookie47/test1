@@ -1,0 +1,16 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "toa",
+    "name": "Tomb of Annihilation",
+    "short": "TOA",
+    "license": "Proprietary",
+    "credit": "Content from Tomb of Annihilation and The Tortle Package, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "backgrounds.json",
+    "races.json",
+    "languages.json"
+  ]
+}

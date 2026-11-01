@@ -1,0 +1,123 @@
+{
+ "elements": [
+  {
+   "id": "Background Feature:Adept Linguist",
+   "type": "Background Feature",
+   "name": "Adept Linguist",
+   "desc": "You can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures — enough to communicate on a rudimentary level.",
+   "rules": []
+  },
+  {
+   "id": "Background:Anthropologist",
+   "type": "Background",
+   "name": "Anthropologist",
+   "desc": "Skill Proficiencies: Insight, Religion. Languages: Two of your choice. You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations.\n\nBefore becoming an adventurer, you spent much of your adult life away from your homeland, living among people different from your kin. Choose a race whose culture you've adopted (Aarakocra, Dwarf, Elf, Goblin, Halfling, Human, Lizardfolk, or Orc), or roll on the Adopted Culture table — the choice is purely narrative.",
+   "rules": [
+    { "grant": "skill:Insight" },
+    { "grant": "skill:Religion" },
+    { "select": { "name": "Language", "type": "Language", "n": 2 } },
+    { "grant": "Background Feature:Adept Linguist" }
+   ],
+   "chars": {
+    "traits": [
+     "I prefer the company of those who aren't like me, including people of other races.",
+     "I'm a stickler when it comes to observing proper etiquette and local customs.",
+     "I would rather observe than meddle.",
+     "By living among violent people, I have become desensitized to violence.",
+     "I would risk life and limb to discover a new culture or unravel the secrets of a dead one.",
+     "When I arrive at a new settlement for the first time, I must learn all its customs."
+    ],
+    "ideals": [
+     "Discovery. I want to be the first person to discover a lost culture. (Any)",
+     "Distance. One must not interfere with the affairs of another culture — even one in need of aid. (Lawful)",
+     "Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)",
+     "Power. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)",
+     "Protection. I must do everything possible to save a society facing extinction. (Good)",
+     "Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"
+    ],
+    "bonds": [
+     "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me.",
+     "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring.",
+     "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them.",
+     "I want to learn more about a particular humanoid culture that fascinates me.",
+     "I seek to avenge a clan, tribe, kingdom, or empire that was wiped out.",
+     "I have a trinket that I believe is the key to finding a long-lost society."
+    ],
+    "flaws": [
+     "Boats make me seasick.",
+     "I talk to myself, and I don't make friends easily.",
+     "I believe that I'm intellectually superior to people from other cultures and have much to teach them.",
+     "I've picked up some unpleasant habits living among goblins, lizardfolk, or orcs.",
+     "I complain about everything.",
+     "I wear a tribal mask and never take it off."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Historical Knowledge",
+   "type": "Background Feature",
+   "name": "Historical Knowledge",
+   "desc": "When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, yuan-ti, or some other known race. In addition, you can determine the monetary value of art objects more than a century old.",
+   "rules": []
+  },
+  {
+   "id": "Background:Archaeologist",
+   "type": "Background",
+   "name": "Archaeologist",
+   "desc": "Skill Proficiencies: History, Survival. Tool Proficiencies: Cartographer's tools or navigator's tools. Languages: One of your choice. An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs.\n\nPrior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. You have held onto a signature item of great emotional value: 10-foot pole, crowbar, hat, hooded lantern, medallion, shovel, sledgehammer, or whip (choose one — purely narrative).",
+   "rules": [
+    { "grant": "skill:History" },
+    { "grant": "skill:Survival" },
+    {
+     "select": {
+      "name": "Tool Proficiency",
+      "type": "Gear",
+      "tool": 1,
+      "ids": [
+       "Gear:Cartographer's Tools",
+       "Gear:Navigator's Tools"
+      ]
+     }
+    },
+    { "select": { "name": "Language", "type": "Language", "n": 1 } },
+    { "grant": "Background Feature:Historical Knowledge" }
+   ],
+   "chars": {
+    "traits": [
+     "I love a good puzzle or mystery.",
+     "I'm a pack rat who never throws anything away.",
+     "Fame is more important to me than money.",
+     "I have no qualms about stealing from the dead.",
+     "I'm happier in a dusty old tomb than I am in the centers of civilization.",
+     "Traps don't make me nervous; idiots who trigger traps make me nervous.",
+     "I might fail, but I will never give up.",
+     "You might think I'm a scholar, but I love a good brawl. These fists were made for punching."
+    ],
+    "ideals": [
+     "Preservation. That artifact belongs in a museum. (Good)",
+     "Greed. I won't risk my life for nothing. I expect some kind of payment. (Any)",
+     "Death Wish. Nothing is more exhilarating than a narrow escape from the jaws of death. (Chaotic)",
+     "Dignity. The dead and their belongings deserve to be treated with respect. (Lawful)",
+     "Immortality. All my exploring is part of a plan to find the secret of everlasting life. (Any)",
+     "Danger. With every great discovery comes grave danger. The two walk hand in hand. (Any)"
+    ],
+    "bonds": [
+     "Ever since I was a child, I've heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books.",
+     "I want to find my mentor, who disappeared on an expedition some time ago.",
+     "I have a friendly rival. Only one of us can be the best, and I aim to prove it's me.",
+     "I won't sell an art object or other treasure that has historical significance or is one of a kind.",
+     "I'm secretly in love with the wealthy patron who sponsors my archaeological exploits.",
+     "I hope to bring prestige to a library, a museum, or a university."
+    ],
+    "flaws": [
+     "I have a secret fear of some common wild animal — and in my work, I see them everywhere.",
+     "I can't leave a room without searching it for secret doors.",
+     "When I'm not exploring dungeons or ruins, I get jittery and impatient.",
+     "I have no time for friends or family. I spend every waking moment thinking about and preparing for my next expedition.",
+     "When given the choice of going left or right, I always go left.",
+     "I can't sleep except in total darkness."
+    ]
+   }
+  }
+ ]
+}
