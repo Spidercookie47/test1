@@ -13,7 +13,7 @@
    "range": "60 feet",
    "dur": "Concentration, up to 10 minutes",
    "ritual": false,
-   "lists": [],
+   "lists": ["Druid", "Sorcerer", "Wizard"],
    "mat": "A drop of water."
   }
  ]
