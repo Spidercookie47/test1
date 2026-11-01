@@ -10,9 +10,9 @@
      "select": {
       "name": "Ability Score Increase",
       "type": "Ability Increase",
-      "from": [
-       "Strength",
-       "Dexterity"
+      "ids": [
+       "Racial Trait:Ability Score Increase (Strength)",
+       "Racial Trait:Ability Score Increase (Dexterity)"
       ]
      }
     }

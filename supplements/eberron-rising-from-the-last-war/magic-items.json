@@ -76,18 +76,18 @@
    "price": 0,
    "wt": 0,
    "rar": "Very Rare",
-   "att": true
+   "att": true,
+   "effect": {
+    "wpn": 2,
+    "att": 1
+   }
   },
   {
    "id": "Magic:Earworm",
    "type": "Magic",
    "name": "Earworm",
    "desc": "Wondrous item, uncommon (requires attunement)\n\nTo attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech.\n\nSpells. The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): detect thoughts (2 charges) or dissonant whispers (1 charge). Each time you use the earworm to cast the detect thoughts spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr. The earworm regains 1d4 expended charges daily at dawn.\n\nSymbiotic Nature. The earworm can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it.",
-   "rules": [
-    {
-     "grant": "Language:Deep Speech"
-    }
-   ],
+   "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
    "price": 0,
@@ -191,16 +191,7 @@
    "type": "Magic",
    "name": "Kyrzin's Ooze",
    "desc": "Wondrous item, very rare (requires attunement)\n\nThis opalescent, symbiotic goo comes sealed in a jar and slowly shifts and moves, as if endlessly exploring the jar's interior. To attune to this item, you must first drink the contents of the jar, unlocking the following properties.\n\nResistant. While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the poisoned condition.\n\nAmorphous. As an action, you can speak a command word and cause your body to assume the amorphous qualities of an ooze. For the next minute, you (along with any equipment you're wearing or carrying) can move through a space as narrow as 1 inch wide without squeezing. Once you use this property, it can't be used again until the next dawn.\n\nAcid Breath. As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 (8d8) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can't be used again until the next dawn.\n\nSymbiotic Nature. The ooze can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it.",
-   "rules": [
-    {
-     "grant": "Condition",
-     "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"
-    },
-    {
-     "grant": "Condition",
-     "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID"
-    }
-   ],
+   "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
    "price": 0,
@@ -213,51 +204,24 @@
    "type": "Magic",
    "name": "Living Armor",
    "desc": "Armor (any), very rare (requires attunement)\n\nThis hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.\n\nWhile wearing this armor, you have a +1 bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.\n\nSymbiotic Nature. The armor can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.\n\nThe armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of exhaustion.",
-   "rules": [
-    {
-     "stat": {
-      "ac:armored:enhancement": 1
-     }
-    },
-    {
-     "grant": "Condition",
-     "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"
-    },
-    {
-     "grant": "Condition",
-     "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"
-    },
-    {
-     "grant": "Condition",
-     "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"
-    }
-   ],
+   "rules": [],
    "cg": "Magic Armor",
    "cp": 0,
    "price": 0,
    "wt": 0,
    "rar": "Very Rare",
-   "att": true
+   "att": true,
+   "effect": {
+    "ac": 1,
+    "att": 1
+   }
   },
   {
    "id": "Magic:Living Gloves",
    "type": "Magic",
    "name": "Living Gloves",
    "desc": "Wondrous item, uncommon (requires attunement)\n\nThese symbiotic gloves—made of thin chitin and sinew—pulse with a life of their own. To attune to them, you must wear them for the entire attunement period, during which the gloves bond with your skin.\n\nWhile attuned to these gloves, you gain one of the following proficiencies (your choice when you attune to the gloves):\n- Sleight of Hand\n- Thieves' tools\n- One kind of artisan's tools of your choice\n- One kind of musical instrument of your choice\n\nWhen you make an ability check using the chosen proficiency, you add double your proficiency bonus to the check, instead of your normal proficiency bonus.\n\nSymbiotic Nature. The gloves can't be removed from you while you're attuned to them, and you can't voluntarily end your attunement to them.",
-   "rules": [
-    {
-     "select": {
-      "name": "Proficiency",
-      "type": "Proficiency",
-      "ids": [
-       "skill:Sleight of Hand",
-       "Tool:Thieves' Tools",
-       "Tool:Artisan's Tools",
-       "Tool:Musical Instrument"
-      ]
-     }
-    }
-   ],
+   "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
    "price": 0,
@@ -465,19 +429,17 @@
    "type": "Magic",
    "name": "Repulsion Shield",
    "desc": "Armor (shield), uncommon (requires attunement)\n\nA creature gains a +1 bonus to Armor Class while wielding this shield.\n\nThe shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.",
-   "rules": [
-    {
-     "stat": {
-      "ac:shield": 1
-     }
-    }
-   ],
+   "rules": [],
    "cg": "Magic Armor",
    "cp": 0,
    "price": 0,
    "wt": 0,
    "rar": "Uncommon",
-   "att": true
+   "att": true,
+   "effect": {
+    "ac": 1,
+    "att": 1
+   }
   }
  ]
 }
