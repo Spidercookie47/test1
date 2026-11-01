@@ -1,4 +1,4 @@
-  {
+{
  "elements": [
   {
    "id": "Background Feature:Inside Informant",
@@ -21,8 +21,27 @@
     },
     {
      "select": {
-      "name": "Artisan's Tool",
-      "type": "Tool"
+      "name": "Artisan’s tools",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
@@ -93,8 +112,27 @@
     },
     {
      "select": {
-      "name": "Artisan's Tool",
-      "type": "Tool"
+      "name": "Artisan’s tools",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
@@ -165,8 +203,14 @@
     },
     {
      "select": {
-      "name": "Gaming Set",
-      "type": "Tool"
+      "name": "Gaming set",
+      "type": "Tool",
+      "ids": [
+       "Tool:Dice set (PHB)",
+       "Tool:Dragonchess set (PHB)",
+       "Tool:Playing card set (PHB)",
+       "Tool:Three-Dragon Ante set (PHB)"
+      ]
      }
     },
     {
@@ -237,8 +281,27 @@
     },
     {
      "select": {
-      "name": "Artisan's Tool",
-      "type": "Tool"
+      "name": "Artisan’s tools",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
@@ -308,7 +371,9 @@
      "grant": "skill:Performance"
     },
     {
-     "grant": "Gear:Disguise Kit"
+     "pf": [
+      "t:Disguise kit"
+     ]
     },
     {
      "select": {
