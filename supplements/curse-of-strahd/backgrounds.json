@@ -21,12 +21,20 @@
     },
     {
      "select": {
-      "name": "Gaming Set",
-      "type": "Tool"
+      "name": "Gaming set",
+      "type": "Tool",
+      "ids": [
+       "Tool:Dice set (PHB)",
+       "Tool:Dragonchess set (PHB)",
+       "Tool:Playing card set (PHB)",
+       "Tool:Three-Dragon Ante set (PHB)"
+      ]
      }
     },
     {
-     "grant": "Tool:Vehicles (Land)"
+     "pf": [
+      "t:Vehicles (land)"
+     ]
     },
     {
      "grant": "Background Feature:Black-Market Breeder"
@@ -90,12 +98,33 @@
     },
     {
      "select": {
-      "name": "Artisan's Tool",
-      "type": "Tool"
+      "name": "Artisan’s tools",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
-     "grant": "Tool:Vehicles (Land)"
+     "pf": [
+      "t:Vehicles (land)"
+     ]
     },
     {
      "grant": "Background Feature:Guerilla"
@@ -159,12 +188,20 @@
     },
     {
      "select": {
-      "name": "Gaming Set",
-      "type": "Tool"
+      "name": "Gaming set",
+      "type": "Tool",
+      "ids": [
+       "Tool:Dice set (PHB)",
+       "Tool:Dragonchess set (PHB)",
+       "Tool:Playing card set (PHB)",
+       "Tool:Three-Dragon Ante set (PHB)"
+      ]
      }
     },
     {
-     "grant": "Tool:Thieves' Tools"
+     "pf": [
+      "t:Thieves’ tools"
+     ]
     },
     {
      "grant": "Background Feature:Ex-Convict"
@@ -227,7 +264,9 @@
      "grant": "skill:Animal Handling"
     },
     {
-     "grant": "Tool:Herbalism Kit"
+     "pf": [
+      "t:Herbalism kit"
+     ]
     },
     {
      "grant": "Language:Giant"
@@ -293,12 +332,33 @@
      "grant": "skill:Insight"
     },
     {
-     "grant": "Tool:Disguise Kit"
+     "pf": [
+      "t:Disguise kit"
+     ]
     },
     {
      "select": {
-      "name": "Artisan's Tool",
-      "type": "Tool"
+      "name": "Artisan’s tools",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
@@ -356,7 +416,9 @@
    "desc": "Prior to the coordinated attack by the Maimed Virulence and her rebel Black Fist supporters, you were once a citizen or visitor to Phlan. Your former life still clings to you and colors your mannerisms, behaviors, and outlook on life.",
    "rules": [
     {
-     "grant": "Tool:Vehicles (Water)"
+     "pf": [
+      "t:Vehicles (water)"
+     ]
     }
    ]
   },
@@ -368,8 +430,27 @@
    "rules": [
     {
      "select": {
-      "name": "Artisan's Tool",
-      "type": "Tool"
+      "name": "Artisan’s tools",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     }
    ]
@@ -382,8 +463,15 @@
    "rules": [
     {
      "select": {
-      "name": "Tool",
-      "type": "Tool"
+      "name": "Gaming set or land vehicles",
+      "type": "Tool",
+      "ids": [
+       "Tool:Dice set (PHB)",
+       "Tool:Dragonchess set (PHB)",
+       "Tool:Playing card set (PHB)",
+       "Tool:Three-Dragon Ante set (PHB)",
+       "Tool:Vehicles (land) (PHB)"
+      ]
      }
     }
    ]
@@ -395,7 +483,9 @@
    "desc": "Prior to the coordinated attack by the Maimed Virulence and her rebel Black Fist supporters, you were once a citizen or visitor to Phlan. Your former life still clings to you and colors your mannerisms, behaviors, and outlook on life.",
    "rules": [
     {
-     "grant": "Tool:Vehicles (Land)"
+     "pf": [
+      "t:Vehicles (land)"
+     ]
     }
    ]
   },
@@ -407,8 +497,20 @@
    "rules": [
     {
      "select": {
-      "name": "Musical Instrument",
-      "type": "Tool"
+      "name": "Musical instrument",
+      "type": "Tool",
+      "ids": [
+       "Tool:Bagpipes (PHB)",
+       "Tool:Drum (PHB)",
+       "Tool:Dulcimer (PHB)",
+       "Tool:Flute (PHB)",
+       "Tool:Lute (PHB)",
+       "Tool:Lyre (PHB)",
+       "Tool:Horn (PHB)",
+       "Tool:Pan flute (PHB)",
+       "Tool:Shawm (PHB)",
+       "Tool:Viol (PHB)"
+      ]
      }
     }
    ]
@@ -421,8 +523,12 @@
    "rules": [
     {
      "select": {
-      "name": "Tool",
-      "type": "Tool"
+      "name": "Alchemist’s supplies or herbalism kit",
+      "type": "Tool",
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Herbalism kit (PHB)"
+      ]
      }
     }
    ]
@@ -435,8 +541,13 @@
    "rules": [
     {
      "select": {
-      "name": "Tool",
-      "type": "Tool"
+      "name": "Thieves’ tools, forgery kit or disguise kit",
+      "type": "Tool",
+      "ids": [
+       "Tool:Thieves’ tools (PHB)",
+       "Tool:Forgery kit (PHB)",
+       "Tool:Disguise kit (PHB)"
+      ]
      }
     }
    ]
@@ -449,8 +560,14 @@
    "rules": [
     {
      "select": {
-      "name": "Gaming Set",
-      "type": "Tool"
+      "name": "Gaming set",
+      "type": "Tool",
+      "ids": [
+       "Tool:Dice set (PHB)",
+       "Tool:Dragonchess set (PHB)",
+       "Tool:Playing card set (PHB)",
+       "Tool:Three-Dragon Ante set (PHB)"
+      ]
      }
     }
    ]
@@ -473,7 +590,17 @@
     {
      "select": {
       "name": "Origin (Occupation)",
-      "type": "Background Feature"
+      "type": "Background Feature",
+      "ids": [
+       "Background Feature:Dockworker / Fisherman",
+       "Background Feature:Tradesperson / Merchant",
+       "Background Feature:Black Fist Soldier",
+       "Background Feature:Adventurer / Visitor",
+       "Background Feature:Entertainer",
+       "Background Feature:Scholar / Healer",
+       "Background Feature:Criminal",
+       "Background Feature:Unskilled Laborer"
+      ]
      }
     },
     {
@@ -544,8 +671,18 @@
     },
     {
      "select": {
-      "name": "Language",
-      "type": "Language"
+      "name": "Exotic language",
+      "type": "Language",
+      "ids": [
+       "Language:Abyssal",
+       "Language:Celestial",
+       "Language:Deep Speech",
+       "Language:Draconic",
+       "Language:Infernal",
+       "Language:Primordial",
+       "Language:Sylvan",
+       "Language:Undercommon"
+      ]
      }
     },
     {
