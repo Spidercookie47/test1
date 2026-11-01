@@ -1,0 +1,312 @@
+{
+  "elements": [
+    {
+      "id": "Ability Score Improvement:Strength",
+      "type": "Ability Score Improvement",
+      "name": "Strength",
+      "desc": "Increase your Strength score by 1, to a maximum of 20.",
+      "rules": [ { "stat": { "str": 1 } } ]
+    },
+    {
+      "id": "Ability Score Improvement:Dexterity",
+      "type": "Ability Score Improvement",
+      "name": "Dexterity",
+      "desc": "Increase your Dexterity score by 1, to a maximum of 20.",
+      "rules": [ { "stat": { "dex": 1 } } ]
+    },
+    {
+      "id": "Ability Score Improvement:Constitution",
+      "type": "Ability Score Improvement",
+      "name": "Constitution",
+      "desc": "Increase your Constitution score by 1, to a maximum of 20.",
+      "rules": [ { "stat": { "con": 1 } } ]
+    },
+    {
+      "id": "Ability Score Improvement:Intelligence",
+      "type": "Ability Score Improvement",
+      "name": "Intelligence",
+      "desc": "Increase your Intelligence score by 1, to a maximum of 20.",
+      "rules": [ { "stat": { "int": 1 } } ]
+    },
+    {
+      "id": "Ability Score Improvement:Wisdom",
+      "type": "Ability Score Improvement",
+      "name": "Wisdom",
+      "desc": "Increase your Wisdom score by 1, to a maximum of 20.",
+      "rules": [ { "stat": { "wis": 1 } } ]
+    },
+    {
+      "id": "Ability Score Improvement:Charisma",
+      "type": "Ability Score Improvement",
+      "name": "Charisma",
+      "desc": "Increase your Charisma score by 1, to a maximum of 20.",
+      "rules": [ { "stat": { "cha": 1 } } ]
+    },
+
+    {
+      "id": "Feat:Bountiful Luck",
+      "type": "Feat",
+      "name": "Bountiful Luck",
+      "desc": "Prerequisite: Halfling. Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. When an ally you can see within 30 ft. of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll. When you use this ability, you can't use your Lucky racial trait before the end of your next turn.",
+      "rules": []
+    },
+    {
+      "id": "Feat:Dragon Fear",
+      "type": "Feat",
+      "name": "Dragon Fear",
+      "desc": "Prerequisite: Dragonborn. When angered, you can radiate menace. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20. Additionally, instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 ft. of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened of you for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.",
+      "rules": [
+        {
+          "select": {
+            "name": "Dragon Fear (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Strength",
+              "Ability Score Improvement:Constitution",
+              "Ability Score Improvement:Charisma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Feat:Dragon Hide",
+      "type": "Feat",
+      "name": "Dragon Hide",
+      "desc": "Prerequisite: Dragonborn. You manifest scales and claws reminiscent of your draconic ancestors. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20. Your scales harden: while you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit. You grow retractable claws from the tips of your fingers; the claws are natural weapons used for unarmed strikes, dealing 1d4 + your Strength modifier slashing damage instead of the normal bludgeoning damage for an unarmed strike.",
+      "rules": [
+        {
+          "select": {
+            "name": "Dragon Hide (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Strength",
+              "Ability Score Improvement:Constitution",
+              "Ability Score Improvement:Charisma"
+            ]
+          }
+        },
+        {
+          "acFormula": { "base": 13, "add": ["dex"], "noShield": false }
+        }
+      ]
+    },
+    {
+      "id": "Feat:Drow High Magic",
+      "type": "Feat",
+      "name": "Drow High Magic",
+      "desc": "Prerequisite: Elf (drow). You learn more of the magic typical of dark elves. You learn the detect magic spell and can cast it at will without expending a spell slot. You also learn levitate and dispel magic, each of which you can cast once without expending a spell slot; you regain the ability to cast them this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.",
+      "rules": [],
+      "featSpells": [
+        [1, "Detect Magic", "at will, CHA"],
+        [1, "Levitate", "1/long rest, CHA"],
+        [1, "Dispel Magic", "1/long rest, CHA"]
+      ]
+    },
+    {
+      "id": "Feat:Dwarven Fortitude",
+      "type": "Feat",
+      "name": "Dwarven Fortitude",
+      "desc": "Prerequisite: Dwarf. You have the blood of dwarf heroes flowing through your veins. Increase your Constitution score by 1, to a maximum of 20. Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself: roll the die, add your Constitution modifier, and regain that many hit points (minimum of 1).",
+      "rules": [ { "stat": { "con": 1 } } ]
+    },
+    {
+      "id": "Feat:Elven Accuracy",
+      "type": "Feat",
+      "name": "Elven Accuracy",
+      "desc": "Prerequisite: Elf or half-elf. Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20. Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.",
+      "rules": [
+        {
+          "select": {
+            "name": "Elven Accuracy (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Dexterity",
+              "Ability Score Improvement:Intelligence",
+              "Ability Score Improvement:Wisdom",
+              "Ability Score Improvement:Charisma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Feat:Fade Away",
+      "type": "Feat",
+      "name": "Fade Away",
+      "desc": "Prerequisite: Gnome. Your people are clever, with a knack for illusion magic. Increase your Dexterity or Intelligence score by 1, to a maximum of 20. Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw.",
+      "rules": [
+        {
+          "select": {
+            "name": "Fade Away (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Dexterity",
+              "Ability Score Improvement:Intelligence"
+            ]
+          }
+        },
+        { "resource": { "id": "fade-away", "name": "Fade Away", "rest": "S", "max": 1 } }
+      ]
+    },
+    {
+      "id": "Feat:Fey Teleportation",
+      "type": "Feat",
+      "name": "Fey Teleportation",
+      "desc": "Prerequisite: Elf (high). Increase your Intelligence or Charisma score by 1, to a maximum of 20. You learn to speak, read, and write Sylvan. You learn the misty step spell and can cast it once without expending a spell slot; you regain the ability to cast it this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.",
+      "rules": [
+        {
+          "select": {
+            "name": "Fey Teleportation (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Intelligence",
+              "Ability Score Improvement:Charisma"
+            ]
+          }
+        },
+        { "grant": "Language:Sylvan" }
+      ],
+      "featSpells": [
+        [1, "Misty Step", "1/short rest, INT"]
+      ]
+    },
+    {
+      "id": "Feat:Flames of Phlegethos",
+      "type": "Feat",
+      "name": "Flames of Phlegethos",
+      "desc": "Prerequisite: Tiefling. Increase your Intelligence or Charisma score by 1, to a maximum of 20. When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1. Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn (bright light 30 ft., dim light +30 ft.); any creature within 5 ft. of you that hits you with a melee attack takes 1d4 fire damage.",
+      "rules": [
+        {
+          "select": {
+            "name": "Flames of Phlegethos (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Intelligence",
+              "Ability Score Improvement:Charisma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Feat:Infernal Constitution",
+      "type": "Feat",
+      "name": "Infernal Constitution",
+      "desc": "Prerequisite: Tiefling. Fiendish blood runs strong in you. Increase your Constitution score by 1, to a maximum of 20. You have resistance to cold damage and poison damage, and you have advantage on saving throws against being poisoned.",
+      "rules": [
+        { "stat": { "con": 1 } },
+        { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" },
+        { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" }
+      ]
+    },
+    {
+      "id": "Feat:Orcish Fury",
+      "type": "Feat",
+      "name": "Orcish Fury",
+      "desc": "Prerequisite: Half-orc. Increase your Strength or Constitution score by 1, to a maximum of 20. When you hit with an attack using a simple or martial weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.",
+      "rules": [
+        {
+          "select": {
+            "name": "Orcish Fury (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Strength",
+              "Ability Score Improvement:Constitution"
+            ]
+          }
+        },
+        { "resource": { "id": "orcish-fury", "name": "Orcish Fury (extra damage die)", "rest": "S", "max": 1 } }
+      ]
+    },
+    {
+      "id": "Feat:Prodigy",
+      "type": "Feat",
+      "name": "Prodigy",
+      "desc": "Prerequisite: Half-elf, half-orc, or human. You have a knack for learning new things. You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice. Choose one skill in which you have proficiency — you gain expertise with that skill (doubled proficiency bonus for ability checks using it). The skill you choose must not already benefit from a feature, such as Expertise, that doubles your proficiency bonus.",
+      "rules": [
+        { "select": { "name": "Prodigy (skill)", "type": "Skill", "n": 1 } },
+        { "select": { "name": "Prodigy (tool)", "type": "Tool", "n": 1 } },
+        { "select": { "name": "Prodigy (language)", "type": "Language", "n": 1 } },
+        { "expertise": 1 }
+      ]
+    },
+    {
+      "id": "Feat:Second Chance",
+      "type": "Feat",
+      "name": "Second Chance",
+      "desc": "Prerequisite: Halfling. Fortune favors you when someone tries to strike you. Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20. When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. You can't use this ability again until you roll initiative at the start of combat or until you finish a short or long rest.",
+      "rules": [
+        {
+          "select": {
+            "name": "Second Chance (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Dexterity",
+              "Ability Score Improvement:Constitution",
+              "Ability Score Improvement:Charisma"
+            ]
+          }
+        },
+        { "resource": { "id": "second-chance", "name": "Second Chance", "rest": "S", "max": 1, "note": "also regains on initiative" } }
+      ]
+    },
+    {
+      "id": "Feat:Squat Nimbleness",
+      "type": "Feat",
+      "name": "Squat Nimbleness",
+      "desc": "Prerequisite: Dwarf or a Small race. Increase your Strength or Dexterity score by 1, to a maximum of 20. Your walking speed increases by 5 ft. You gain proficiency in the Acrobatics or Athletics skill (your choice). You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled.",
+      "rules": [
+        {
+          "select": {
+            "name": "Squat Nimbleness (ability score)",
+            "type": "Ability Score Improvement",
+            "n": 1,
+            "ids": [
+              "Ability Score Improvement:Strength",
+              "Ability Score Improvement:Dexterity"
+            ]
+          }
+        },
+        { "speedBonus": { "max": 5 } },
+        {
+          "select": {
+            "name": "Squat Nimbleness (skill)",
+            "type": "Skill",
+            "n": 1,
+            "from": ["Acrobatics", "Athletics"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Feat:Wood Elf Magic",
+      "type": "Feat",
+      "name": "Wood Elf Magic",
+      "desc": "Prerequisite: Elf (wood). You learn the magic of the primeval woods. You learn one druid cantrip of your choice. You also learn the long strider and pass without trace spells, each of which you can cast once without expending a spell slot; you regain the ability to cast them this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.",
+      "rules": [
+        {
+          "select": {
+            "name": "Wood Elf Magic (druid cantrip)",
+            "type": "Spell",
+            "n": 1,
+            "spl": "Druid",
+            "lvl": 0
+          }
+        }
+      ],
+      "featSpells": [
+        [1, "Longstrider", "1/long rest, WIS"],
+        [1, "Pass Without Trace", "1/long rest, WIS"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "xgte",
+    "name": "Xanathar's Guide to Everything",
+    "short": "XGtE",
+    "license": "Proprietary",
+    "credit": "Content from Xanathar's Guide to Everything (Wizards of the Coast, 2017). For personal use only."
+  },
+  "files": [
+  "subclasses.json",
+  "class-options.json",
+  "spells.json",
+  "feats.json",
+  "magic-items.json",
+  "info.json"
+]
+}

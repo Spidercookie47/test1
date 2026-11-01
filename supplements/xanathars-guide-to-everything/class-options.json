@@ -1,0 +1,132 @@
+{
+  "elements": [
+    {
+      "id": "Invocation:Aspect of the Moon",
+      "type": "Invocation",
+      "name": "Aspect of the Moon",
+      "desc": "Prerequisite: Pact of the Tome feature. You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.",
+      "rules": [],
+      "pb": "Tome"
+    },
+    {
+      "id": "Invocation:Cloak of Flies",
+      "type": "Invocation",
+      "name": "Cloak of Flies",
+      "desc": "Prerequisite: 5th level. As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 ft. from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action. The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0).",
+      "rules": [
+        { "resource": { "id": "cloak-of-flies", "name": "Cloak of Flies", "rest": "S", "max": 1 } }
+      ],
+      "lv": 5
+    },
+    {
+      "id": "Invocation:Eldritch Smite",
+      "type": "Invocation",
+      "name": "Eldritch Smite",
+      "desc": "Prerequisite: 5th level, Pact of the Blade feature. Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.",
+      "rules": [],
+      "lv": 5,
+      "pb": "Blade"
+    },
+    {
+      "id": "Invocation:Ghostly Gaze",
+      "type": "Invocation",
+      "name": "Ghostly Gaze",
+      "desc": "Prerequisite: 7th level. As an action, you gain the ability to see through solid objects to a range of 30 ft. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.",
+      "rules": [
+        { "resource": { "id": "ghostly-gaze", "name": "Ghostly Gaze", "rest": "S", "max": 1 } }
+      ],
+      "lv": 7
+    },
+    {
+      "id": "Invocation:Gift of the Depths",
+      "type": "Invocation",
+      "name": "Gift of the Depths",
+      "desc": "Prerequisite: 5th level. You can breathe underwater and gain a swimming speed equal to your walking speed. You can also cast water breathing once without expending a spell slot, regaining the ability to do so when you finish a long rest.",
+      "rules": [],
+      "lv": 5,
+      "featSpells": [
+        [5, "Water Breathing", "1/long rest"]
+      ]
+    },
+    {
+      "id": "Invocation:Gift of the Ever-Living Ones",
+      "type": "Invocation",
+      "name": "Gift of the Ever-Living Ones",
+      "desc": "Prerequisite: Pact of the Chain feature. Whenever you regain hit points while your familiar is within 100 ft. of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.",
+      "rules": [],
+      "pb": "Chain"
+    },
+    {
+      "id": "Invocation:Grasp of Hadar",
+      "type": "Invocation",
+      "name": "Grasp of Hadar",
+      "desc": "Prerequisite: eldritch blast cantrip. Once on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 ft. closer to you.",
+      "rules": [],
+      "sp": "Eldritch Blast"
+    },
+    {
+      "id": "Invocation:Improved Pact Weapon",
+      "type": "Invocation",
+      "name": "Improved Pact Weapon",
+      "desc": "Prerequisite: Pact of the Blade feature. You can use any weapon you summon with your Pact of the Blade as a spellcasting focus for your warlock spells. In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls. Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow.",
+      "rules": [],
+      "pb": "Blade"
+    },
+    {
+      "id": "Invocation:Lance of Lethargy",
+      "type": "Invocation",
+      "name": "Lance of Lethargy",
+      "desc": "Prerequisite: eldritch blast cantrip. Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature's speed by 10 ft. until the end of your next turn.",
+      "rules": [],
+      "sp": "Eldritch Blast"
+    },
+    {
+      "id": "Invocation:Maddening Hex",
+      "type": "Invocation",
+      "name": "Maddening Hex",
+      "desc": "Prerequisite: 5th level, hex spell or a warlock feature that curses. As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours (such as Hexblade's Curse or Sign of Ill Omen). You deal psychic damage equal to your Charisma modifier (minimum of 1) to the cursed target and to each creature of your choice that you can see within 5 ft. of it. To use this invocation, you must be able to see the cursed target, and it must be within 30 ft. of you.",
+      "rules": [],
+      "lv": 5
+    },
+    {
+      "id": "Invocation:Relentless Hex",
+      "type": "Invocation",
+      "name": "Relentless Hex",
+      "desc": "Prerequisite: 7th level, hex spell or a warlock feature that curses. As a bonus action, you can magically teleport up to 30 ft. to an unoccupied space you can see within 5 ft. of the target cursed by your hex spell or by a warlock feature of yours (such as Hexblade's Curse or Sign of Ill Omen). To teleport this way, you must be able to see the cursed target.",
+      "rules": [],
+      "lv": 7
+    },
+    {
+      "id": "Invocation:Shroud of Shadow",
+      "type": "Invocation",
+      "name": "Shroud of Shadow",
+      "desc": "Prerequisite: 15th level. You can cast invisibility at will, without expending a spell slot.",
+      "rules": [],
+      "lv": 15,
+      "featSpells": [
+        [15, "Invisibility", "at will"]
+      ]
+    },
+    {
+      "id": "Invocation:Tomb of Levistus",
+      "type": "Invocation",
+      "name": "Tomb of Levistus",
+      "desc": "Prerequisite: 5th level. As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you're incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.",
+      "rules": [
+        { "resource": { "id": "tomb-of-levistus", "name": "Tomb of Levistus", "rest": "S", "max": 1 } }
+      ],
+      "lv": 5
+    },
+    {
+      "id": "Invocation:Trickster's Escape",
+      "type": "Invocation",
+      "name": "Trickster's Escape",
+      "desc": "Prerequisite: 7th level. You can cast freedom of movement once on yourself without expending a spell slot, regaining the ability to do so when you finish a long rest.",
+      "rules": [],
+      "lv": 7,
+      "featSpells": [
+        [7, "Freedom of Movement", "1/long rest"]
+      ]
+    }
+  ]
+}
