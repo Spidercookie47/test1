@@ -2,12 +2,11 @@
   "format": "hearthscribe-index",
   "version": 1,
   "source": {
-    "id": "hotdq",
-    "name": "Hoard of the Dragon Queen",
-    "short": "HOTDQ"
+    "id": "lmop",
+    "name": "Lost Mine of Phandelver",
+    "short": "LMOP"
   },
   "files": [
-    "backgrounds.json",
     "magic-items.json"
   ]
 }
