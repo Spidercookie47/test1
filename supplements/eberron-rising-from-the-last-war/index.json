@@ -1,0 +1,21 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "erlw",
+  "name": "Eberron: Rising from the Last War",
+  "short": "ERLW"
+ },
+ "files": [
+  "languages.json",
+  "races.json",
+  "backgrounds.json",
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "feats.json",
+  "equipment.json",
+  "magic-items.json",
+  "info.json"
+ ]
+}

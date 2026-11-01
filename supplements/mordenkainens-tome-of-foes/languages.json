@@ -1,0 +1,11 @@
+{
+  "elements": [
+    {
+      "id": "Language:Gith",
+      "type": "Language",
+      "name": "Gith",
+      "desc": "Typically spoken by githyanki and githzerai.",
+      "rules": []
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "elements": [
+    {
+      "id": "Gear:Cup of Coffee",
+      "type": "Gear",
+      "name": "Cup of Coffee",
+      "desc": "A cup of coffee, brewed strong to keep Ravnican workers going.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 10,
+      "price": 0.1,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Newspaper",
+      "type": "Gear",
+      "name": "Newspaper",
+      "desc": "A broadsheet newspaper, printed by one of Ravnica's many publishers.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 15,
+      "price": 0.15,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Pendulum Clock",
+      "type": "Gear",
+      "name": "Pendulum Clock",
+      "desc": "A finely wrought pendulum clock, a luxury item of Ravnican manufacture.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 10000,
+      "price": 100,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Spectacles",
+      "type": "Gear",
+      "name": "Spectacles",
+      "desc": "A pair of corrective spectacles. Not magical.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 2500,
+      "price": 25,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Spyglass",
+      "type": "Gear",
+      "name": "Spyglass",
+      "desc": "A Ravnican spyglass. (Check against SRD's 1000 gp spyglass before adding both to an inventory.)",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 5000,
+      "price": 50,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Azorius Senate Guild Insignia",
+      "type": "Gear",
+      "name": "Azorius Senate Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Boros Legion Guild Insignia",
+      "type": "Gear",
+      "name": "Boros Legion Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:House Dimir Guild Insignia",
+      "type": "Gear",
+      "name": "House Dimir Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them, though in some cases (notably House Dimir) the insignia might be carefully hidden. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Golgari Swarm Guild Insignia",
+      "type": "Gear",
+      "name": "Golgari Swarm Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Gruul Clans Guild Insignia",
+      "type": "Gear",
+      "name": "Gruul Clans Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Izzet League Guild Insignia",
+      "type": "Gear",
+      "name": "Izzet League Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Orzhov Syndicate Guild Insignia",
+      "type": "Gear",
+      "name": "Orzhov Syndicate Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Cult of Rakdos Guild Insignia",
+      "type": "Gear",
+      "name": "Cult of Rakdos Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Selesnya Conclave Guild Insignia",
+      "type": "Gear",
+      "name": "Selesnya Conclave Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Simic Combine Guild Insignia",
+      "type": "Gear",
+      "name": "Simic Combine Guild Insignia",
+      "desc": "Members of Ravnica's guilds typically carry guild insignia with them. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 1
+    },
+    {
+      "id": "Gear:Copper Alms-Coin",
+      "type": "Gear",
+      "name": "Copper Alms-Coin",
+      "desc": "In Ravnica, citizens refer to their money as zibs and zinos, with 100 zibs to 1 zino. There is no central mint, as coins are created by the Azorius, the Boros, and the Orzhov.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 1,
+      "price": 0.01,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Copper Zib",
+      "type": "Gear",
+      "name": "Copper Zib",
+      "desc": "In Ravnica, citizens refer to their money as zibs and zinos, with 100 zibs to 1 zino.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 1,
+      "price": 0.01,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Electrum 50-Zib Coin",
+      "type": "Gear",
+      "name": "Electrum 50-Zib Coin",
+      "desc": "An electrum coin worth 50 zibs.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 50,
+      "price": 0.5,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Gold 5-Zib Coin",
+      "type": "Gear",
+      "name": "Gold 5-Zib Coin",
+      "desc": "A gold coin worth 5 zibs. (Source XML lists this at 5 gp; if that seems off, adjust.)",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 500,
+      "price": 5,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Gold Zino",
+      "type": "Gear",
+      "name": "Gold Zino",
+      "desc": "A gold coin worth 100 zibs (1 zino).",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 100,
+      "price": 1,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Platinum 10-Zino Coin",
+      "type": "Gear",
+      "name": "Platinum 10-Zino Coin",
+      "desc": "A platinum coin worth 10 zinos.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 1000,
+      "price": 10,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Platinum 100-Zino Coin",
+      "type": "Gear",
+      "name": "Platinum 100-Zino Coin",
+      "desc": "A platinum coin worth 100 zinos.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 10000,
+      "price": 100,
+      "wt": 0
+    },
+    {
+      "id": "Gear:Silver 25-Zib Coin",
+      "type": "Gear",
+      "name": "Silver 25-Zib Coin",
+      "desc": "A silver coin worth 25 zibs.",
+      "rules": [],
+      "cg": "Adventuring Gear",
+      "cp": 25,
+      "price": 0.25,
+      "wt": 0
+    }
+  ]
+}

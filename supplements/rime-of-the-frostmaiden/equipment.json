@@ -1,0 +1,202 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Snowshoes",
+   "type": "Gear",
+   "name": "Snowshoes",
+   "desc": "Snowshoes reduce the likelihood of their wearer getting stuck in the deep snow. Worn on the feet.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 200,
+   "price": 2,
+   "wt": 4
+  },
+  {
+   "id": "Gear:The Incantations of Iriolarthas",
+   "type": "Gear",
+   "name": "The Incantations of Iriolarthas",
+   "desc": "The Incantations of Iriolarthas is a weighty spellbook. Its black leather covers have dead, toothy worms glued to them, sheathed in glossy varnish. Set into this morbid display on the front cover is a gold rune that resembles a stylized eye with a pupil shaped like a candle flame — the sigil of Iriolarthas, a Netherese lich.\n\nThe book contains sixty pages of brittle yellow vellum. Written on these pages are the following wizard spells:\n\n1st level: alarm, detect magic, identify, magic missile, shield, Tasha's hideous laughter, thunderwave\n\n2nd level: arcane lock, continual flame, invisibility, knock, levitate, Melf's acid arrow, mirror image\n\n3rd level: animate dead, bestow curse, clairvoyance, counterspell, dispel magic, fireball, glyph of warding\n\n4th level: arcane eye, banishment, blight, dimension door, Evard's black tentacles, phantasmal killer\n\n5th level: Bigby's hand, cloudkill, dominate person, planar binding, scrying, telekinesis\n\n6th level: create undead, disintegrate, globe of invulnerability, move earth, Otto's irresistible dance\n\n7th level: create magen, finger of death, prismatic spray, teleport\n\n8th level: demiplane, dominate monster, mind blank, power word stun\n\n9th level: blade of disaster, power word kill",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 3
+  },
+  {
+   "id": "Gear:Crampons",
+   "type": "Gear",
+   "name": "Crampons",
+   "desc": "A crampon is a metal plate with spikes that is strapped to the sole of a boot. A creature wearing crampons can't fall prone while moving across slippery ice.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 200,
+   "price": 2,
+   "wt": 4
+  },
+  {
+   "id": "Gear:Clothing, Cold Weather",
+   "type": "Gear",
+   "name": "Clothing, Cold Weather",
+   "desc": "This outfit consists of a heavy fur coat or cloak over layers of wool clothing, as well as a fur-lined hat or hood, goggles, and fur-lined leather boots and gloves.\n\nAs long as cold weather clothing remains dry, its wearer automatically succeeds on saving throws against the effects of extreme cold.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 1000,
+   "price": 10,
+   "wt": 5
+  },
+  {
+   "id": "Gear:Dogsled",
+   "type": "Gear",
+   "name": "Dogsled",
+   "desc": "An empty sled costs 20 gp, weighs 300 pounds, and has room at the back for one driver.",
+   "rules": [],
+   "cg": "Mounts and Vehicles",
+   "cp": 2000,
+   "price": 20,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Sled Dog",
+   "type": "Gear",
+   "name": "Sled Dog",
+   "desc": "A sled dog (use the wolf stat block in appendix A of the Monster Manual) costs 50 gp and can pull 360 pounds.\n\nSled dogs must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of exhaustion.\n\nSpeed. 40 ft.",
+   "rules": [],
+   "cg": "Mounts and Vehicles",
+   "cp": 5000,
+   "price": 50,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Axe Beak",
+   "type": "Gear",
+   "name": "Axe Beak",
+   "desc": "An axe beak's splayed toes allow it to run across snow, and it can carry as much weight as a mule. A domesticated axe beak can be purchased in Ten-Towns for 50 gp.\n\nSpeed. 40 ft.\n\nCarrying Capacity. 420 lb.",
+   "rules": [],
+   "cg": "Mounts and Vehicles",
+   "cp": 5000,
+   "price": 50,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Spider-Shaped Brooch",
+   "type": "Gear",
+   "name": "Spider-Shaped Brooch",
+   "desc": "A spider-shaped brooch made of obsidian and engraved with the symbol of House Dalambra. Worth 25 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Harp of Exotic Wood",
+   "type": "Gear",
+   "name": "Harp of Exotic Wood",
+   "desc": "A carved harp of exotic wood with ivory inlay and zircon gemstones. Worth 750 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Decorative Pearl Bead",
+   "type": "Gear",
+   "name": "Decorative Pearl Bead",
+   "desc": "A pearl carved into a decorative bead. Worth 5 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Electrum Pendant",
+   "type": "Gear",
+   "name": "Electrum Pendant",
+   "desc": "An electrum chain with a bloodstone pendant. Worth 250 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Gold Whirlpool Ring",
+   "type": "Gear",
+   "name": "Gold Whirlpool Ring",
+   "desc": "A gold ring with a black pearl set into a fixture shaped like a whirlpool. Worth 750 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Mummy's Golden Mask",
+   "type": "Gear",
+   "name": "Mummy's Golden Mask",
+   "desc": "This mummy's golden mask is a Netherese art object. Worth 750 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Silk Robe",
+   "type": "Gear",
+   "name": "Silk Robe",
+   "desc": "A silk robe spun by the spiders. Worth 250 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Undamaged Remorhaz Egg",
+   "type": "Gear",
+   "name": "Undamaged Remorhaz Egg",
+   "desc": "An undamaged remorhaz egg can be sold to an interested buyer in Bryn Shander for up to 500 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Vial of Quicksilver",
+   "type": "Gear",
+   "name": "Vial of Quicksilver",
+   "desc": "A vial of quicksilver. Worth 500 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Intricate Crystal Rod",
+   "type": "Gear",
+   "name": "Intricate Crystal Rod",
+   "desc": "An intricate crystal rod. Worth 1,800 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Miniature Netherese Skycoach",
+   "type": "Gear",
+   "name": "Miniature Netherese Skycoach",
+   "desc": "A miniature Netherese skycoach in a bottle. Worth 750 gp.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "lmop",
+    "name": "Lost Mine of Phandelver",
+    "short": "LMOP"
+  },
+  "files": [
+    "magic-items.json"
+  ]
+}

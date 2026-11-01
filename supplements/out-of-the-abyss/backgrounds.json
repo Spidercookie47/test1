@@ -1,0 +1,473 @@
+{
+ "elements": [
+  {
+   "id": "Background Feature:Deep Delver",
+   "type": "Background Feature",
+   "name": "Deep Delver",
+   "desc": "You have a knack for making your way in the deep places of the world. You can recall the twists and turns of passageways and tunnels such that you can always retrace your steps underground. You're also well acquainted with foraging and survival in the Underdark, and can determine when sources of food and water are safe to consume. You can always find sufficient food and water for yourself and up to five other people in the Underdark, as long as sustenance is available in the area.",
+   "rules": [],
+   "supports": "Optional Background Feature"
+  },
+  {
+   "id": "Background Feature:Underdark Experience",
+   "type": "Background Feature",
+   "name": "Underdark Experience",
+   "desc": "You are no casual visitor to the Underdark, but instead have spent considerable time there learning its ways. You are familiar with the various races, civilizations, and settlements of the Underdark, as well as its major routes for travel. If you fail an Intelligence check to recall some piece of Underdark lore, you know a source you can consult for the answer unless the DM rules that the lore is unknown.",
+   "rules": [],
+   "supports": "Optional Background Feature"
+  },
+  {
+   "id": "Background Feature:Shelter of the Suffering",
+   "type": "Background Feature",
+   "name": "Shelter of the Suffering",
+   "desc": "You, and many like you, have suffered greatly. You bear a look of constant stress and exhaustion, though some may recognize this expression for its true meaning. Any who recognize your troubles may give you basic essentials, such as a roof for a night, or even useful information. These people are far and between, however, and you are more likely to pick up the attention of parties associated with magic, for better or worse.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Red Plume and Mage Guild Contacts",
+   "type": "Background Feature",
+   "name": "Red Plume and Mage Guild Contacts",
+   "desc": "You made a number of friends among the Red Plumes and the Mage's Guild when you lived at the Hillsfar Gate. They remember you fondly and help you in little ways when they can. You can invoke their assistance in and around Hillsfar to obtain food, as well as simple equipment for temporary use. You can also invoke it to gain access to the low-security areas of their garrisons, halls, and encampments.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Factor",
+   "type": "Background Feature",
+   "name": "Factor",
+   "desc": "Although you've left the day-to-day life of a merchant behind, your family has assigned you the services of a loyal retainer from the business — a factor, husbanding agent, seafarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the family assigns you another within a few days.",
+   "rules": [],
+   "supports": "Hillsfar Merchant Variant"
+  },
+  {
+   "id": "Background Feature:Trade Contract",
+   "type": "Background Feature",
+   "name": "Trade Contract",
+   "desc": "You and your family have trade contacts such as caravan masters, shopkeepers, sailors, artisans, and farmers throughout the Moonsea region and all along the Sword Coast. Once per game session, when adventuring in either of those areas, you can use those contacts to get information about the local area or to pass a message to someone in those areas, even across the great distance between the two areas.",
+   "rules": [],
+   "supports": "Hillsfar Merchant Variant"
+  },
+  {
+   "id": "Background Feature:Secret Passage",
+   "type": "Background Feature",
+   "name": "Secret Passage",
+   "desc": "You can call on your contacts within the smuggling community to secure secret passage into or out of Hillsfar for yourself and your adventuring companions, no questions asked, and no Red Plume entanglements. Because you're calling in a favor, you can't be certain they will be able to help on your timetable or at all. Your Dungeon Master will determine whether you can be smuggled into or out of the city. In return for your passage, you and your companions may owe the Rogues Guild a favor and/or may have to pay bribes.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Secret Identity",
+   "type": "Background Feature",
+   "name": "Secret Identity",
+   "desc": "You have created a secret identity that you use to conceal your true race and that offers a covering explanation for your presence in Hillsfar. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Secret Society",
+   "type": "Background Feature",
+   "name": "Secret Society",
+   "desc": "You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify a contact who will give you information on those that would hinder your goals and those who would help you simply because of your desire to see the Shade Enclave return in all its glory.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Investigative Services",
+   "type": "Background Feature",
+   "name": "Investigative Services",
+   "desc": "You are part of a small force outside of Hillsfar. You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.",
+   "rules": []
+  },
+  {
+   "id": "Background:Cormanthor Refugee",
+   "type": "Background",
+   "name": "Cormanthor Refugee",
+   "desc": "Skill Proficiencies: Nature, Survival. Tool Proficiencies: One type of artisan's tools, cook's utensils. Languages: Dwarvish.",
+   "rules": [
+    { "grant": "skill:Nature" },
+    { "grant": "skill:Survival" },
+    {
+     "select": {
+      "name": "Artisan's tools",
+      "type": "Gear",
+      "n": 1,
+      "tool": 1,
+      "ids": [
+       "Gear:Alchemist's Supplies",
+       "Gear:Brewer's Supplies",
+       "Gear:Calligrapher's Supplies",
+       "Gear:Carpenter's Tools",
+       "Gear:Cartographer's Tools",
+       "Gear:Cobbler's Tools",
+       "Gear:Cook's utensils",
+       "Gear:Glassblower's Tools",
+       "Gear:Jeweler's Tools",
+       "Gear:Leatherworker's Tools",
+       "Gear:Mason's Tools",
+       "Gear:Painter's Supplies",
+       "Gear:Potter's Tools",
+       "Gear:Smith's Tools",
+       "Gear:Tinker's Tools",
+       "Gear:Weaver's Tools",
+       "Gear:Woodcarver's Tools"
+      ]
+     }
+    },
+    { "pf": ["t:Cook's utensils"] },
+    { "grant": "Language:Dwarvish" },
+    { "grant": "Background Feature:Shelter of the Suffering" }
+   ],
+   "chars": {
+    "traits": [
+     "I was kicked out of my home for involvement with magic, I wish not the same pain upon others around me.",
+     "The king's guard killed someone close to me, they will fall one day, by my hand or not.",
+     "I live in the moment, knowing my life could be turned upside down any day.",
+     "I appreciate beauty in all of its forms, it can all be ruined in an instant after all.",
+     "I hate the Dwarves for their involvement in our lives.",
+     "I am a forest bumpkin who grew up in a tent in the woods and is wholly ignorant of city life.",
+     "I was raised alongside children of many other races. I harbor no racial prejudices at all.",
+     "I still occasionally mix dwarvish into sentences, from my time talking to royal guards."
+    ],
+    "ideals": [
+     "Patient: The Dwarves taught me to trust those closest to me, and to doubt all others.",
+     "Rebellious: Governments and politicians drove my family to the camps. I subtly defy authority whenever I think I can get away with it. (Chaotic)",
+     "Self-Absorbed: I've had to look out for number one so long that it has become second nature. (Any)",
+     "Wanderlust: I want to see as much of the world beyond the camps as I can. (Any)",
+     "Generous: I give everything I can to help those in need, regardless of who they are. (Good)",
+     "To the Abyss with Them: The people of Hillsfar cast me out. I won't risk my hide to help them. (Evil)"
+    ],
+    "bonds": [
+     "A Dwarf helped me despite the dangers, I will do my best to help others.",
+     "I seek revenge against the Dwarves for driving my family into the forest.",
+     "My family lost everything when they were driven from their homes. I strive to rebuild that fortune.",
+     "The forest has provided me with food and shelter. In return, I protect forests and those who dwell within.",
+     "I am deeply, tragically in love with someone whose racial lifespan is far longer or shorter than mine.",
+     "Members of my extended family did not make it to our rendezvous, I tirelessly search for them."
+    ],
+    "flaws": [
+     "I am very uncomfortable indoors and underground.",
+     "I am haughty. I grew up among magical races and am used to their culture and behavior, I am awkward with social expectation.",
+     "I have an unavoidable rage towards any Dwarf I see.",
+     "I am a miser. Having lost everything once before, I clutch my possessions and wealth very tightly.",
+     "I expect nothing from others, and get very uncomfortable when offered anything, especially for free, after constant scams.",
+     "I believe the gods have cursed me, my family, and all of the refugees. We are all doomed, doomed I tell you!"
+    ]
+   }
+  },
+  {
+   "id": "Background:Gate Urchin",
+   "type": "Background",
+   "name": "Gate Urchin",
+   "desc": "Skill Proficiencies: Deception, Sleight of Hand. Tool Proficiencies: Thieves' tools, one musical instrument.",
+   "rules": [
+    { "grant": "skill:Deception" },
+    { "grant": "skill:Sleight of Hand" },
+    { "pf": ["t:Thieves' Tools"] },
+    {
+     "select": {
+      "name": "Musical instrument",
+      "type": "Gear",
+      "n": 1,
+      "tool": 1,
+      "ids": [
+       "Gear:Bagpipes",
+       "Gear:Drum",
+       "Gear:Dulcimer",
+       "Gear:Flute",
+       "Gear:Lute",
+       "Gear:Lyre",
+       "Gear:Horn",
+       "Gear:Pan flute",
+       "Gear:Shawm",
+       "Gear:Viol"
+      ]
+     }
+    },
+    { "grant": "Background Feature:Red Plume and Mage Guild Contacts" }
+   ],
+   "chars": {
+    "traits": [
+     "I appreciate the simple things in life: a song, a warm meal, a sunny day. I don't need any more.",
+     "My problems are always caused by others. I'm never to blame.",
+     "I am afraid I could wind up back on the streets any day.",
+     "I get along with everyone.",
+     "I see people as marks for a con and have difficulty feeling true empathy for them.",
+     "I have a real flair for matchmaking. I can find anyone a spouse!",
+     "I think money is the true measure of appreciation and affection. Everything else is talk or an act.",
+     "I don't like having a lot of stuff, just a few simple things I need. I don't like being tied down and tend to leave things behind when I don't need them anymore."
+    ],
+    "ideals": [
+     "Loyal: I never rat out any of my friends, even when the Red Plumes or the Rogues Guild ask. (Lawful)",
+     "Adventurous: I don't like doing the same thing every day. I crave variety. (Chaotic)",
+     "Strong: Only the strong survive. I respect those who are strong and powerful. (Any)",
+     "Witty: Brains are better than brawn. I rely on my wits and respect others who do the same. (Any)",
+     "Honest: Others can do what they want, but I won't lie or steal, even to feed my family. (Good)",
+     "Ungrateful: Those who give, only do it to make themselves feel better. I steal from them. (Evil)"
+    ],
+    "bonds": [
+     "The Joydancers of Lliira gave me my instrument when I really needed food. I hate them for that.",
+     "Busking has taught me to love music above all else.",
+     "The Rogues Guild spared me when I did a job without cutting them in. I owe them a great debt.",
+     "I know people hate the Red Plumes, but some of them were really good to me. I help Red Plumes whenever I can, and I respect them. They're just doing what they have to do to get by in this world.",
+     "I will be wealthy some day. My descendants will live in comfort and style.",
+     "I know how hard life on the streets is. I do everything I can for those who have less than me."
+    ],
+    "flaws": [
+     "Though I no longer live at the Gate, I am still always concerned about where I will get my next meal.",
+     "Years of thieving have become habit. I sometimes steal from strangers without thinking about it.",
+     "I am ashamed of my origins. I pretend I am higher-born and fear others will find out the truth.",
+     "I think people who grew up in houses are soft, spoiled, and ungrateful. I frequently tell them so.",
+     "I am still very uncomfortable wearing nice clothes, sleeping in a warm bed, and eating fine food.",
+     "I do not trust anyone who has not had a hard life."
+    ]
+   }
+  },
+  {
+   "id": "Background:Hillsfar Merchant",
+   "type": "Background",
+   "name": "Hillsfar Merchant",
+   "desc": "Skill Proficiencies: Insight, Persuasion. Tool Proficiencies: Vehicles (land) and vehicles (water). Choose the Factor or Trade Contract feature.",
+   "rules": [
+    { "grant": "skill:Insight" },
+    { "grant": "skill:Persuasion" },
+    { "pf": ["t:Vehicles (land)", "t:Vehicles (water)"] },
+    {
+     "select": {
+      "name": "Hillsfar Merchant variant",
+      "type": "Background Feature",
+      "n": 1,
+      "supports": "Hillsfar Merchant Variant"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I fill my evenings with wine or mead and song.",
+     "I greatly admire gladiators and enjoy the Arena.",
+     "I take my wealth for granted. It seldom occurs to me that others aren't rich themselves.",
+     "I leave broken hearts all around the Moonsea and up and down the Sword Coast.",
+     "I work hard and seldom make time for fun.",
+     "I am a particularly devout and pray often.",
+     "The Red Plumes caught me once. I hate them.",
+     "I ask a lot of questions to get information about those with whom I am working and dealing."
+    ],
+    "ideals": [
+     "Frugal: I spend my money very carefully. (Lawful)",
+     "Profligate: I tend to spend extravagantly. (Chaotic)",
+     "Honest: I deal with others above board. (Any)",
+     "Sharp: I seek to make the best deal possible. (Any)",
+     "Charitable: I give generously to others. (Good)",
+     "Greedy: I do not share my wealth with others. (Evil)"
+    ],
+    "bonds": [
+     "I am fiercely loyal to those with whom I work.",
+     "I must uphold the good name of my family.",
+     "I will prove myself to my family as an adventurer.",
+     "Deals are sacrosanct. I never go back on my word.",
+     "I love making deals and negotiating agreements.",
+     "I guard my wealth jealously."
+    ],
+    "flaws": [
+     "I am a braggart. I promote myself shamelessly.",
+     "I am vain. I always wear the latest fashions.",
+     "I am a glutton. I eat and drink to excess.",
+     "I am a snob. I want only the finest things in life.",
+     "I am lazy. I want others to take care of everything.",
+     "I am overconfident. I overestimate my abilities."
+    ]
+   }
+  },
+  {
+   "id": "Background:Hillsfar Smuggler",
+   "type": "Background",
+   "name": "Hillsfar Smuggler",
+   "desc": "Skill Proficiencies: Perception, Stealth. Tool Proficiencies: Forgery kit. Languages: One racial language.",
+   "rules": [
+    { "grant": "skill:Perception" },
+    { "grant": "skill:Stealth" },
+    { "pf": ["t:Forgery Kit"] },
+    { "select": { "name": "Language", "type": "Language", "n": 1 } },
+    { "grant": "Background Feature:Secret Passage" }
+   ],
+   "chars": {
+    "traits": [
+     "When I'm not smuggling, I gamble.",
+     "I just love Halfling cooking and baking!",
+     "I party with dwarves whenever I can.",
+     "I'm a terrible singer, but I love to do it.",
+     "I was raised to honor Chauntea and still do.",
+     "The blood sports of the Arena sicken me.",
+     "I think non-humans are really interesting.",
+     "I exaggerate the tales of my exploits."
+    ],
+    "ideals": [
+     "Fair: I think everyone deserves to be treated fairly. I don't play favorites. (Lawful)",
+     "Impulsive: Planning is often a waste of time. No plan survives contact with reality. It's easier to dive in and deal with the consequences. (Chaotic)",
+     "Curious: I want to learn as much as I can about the people and places I encounter. (Any)",
+     "Prepared: I think success depends on preparing as much as possible in advance. (Any)",
+     "Respectful: I think everyone deserves to be treated with respect and dignity, regardless of their race, creed, color, or origin. (Good)",
+     "Corrupt: I will break the law or act dishonestly if the money is right. (Evil)"
+    ],
+    "bonds": [
+     "I am loyal to the Rogues Guild and would do anything for them.",
+     "I love the city of Hillsfar and my fellow Hillsfarians, despite the recent problems.",
+     "I admire the elves. I help them whenever I can.",
+     "A gnome helped me once. I pay the favor forward.",
+     "I enjoy tricking the Red Plumes at every opportunity.",
+     "I smuggled agricultural goods for non-human farmers. I try to help them when I can."
+    ],
+    "flaws": [
+     "My hatred for the Red Plumes burns so brightly that I have difficulty suppressing it around them.",
+     "The Red Plumes caught me once before, and I was branded for my crime. If they catch me again, for any offense, the punishment will be dire.",
+     "I treat all Hillsfarans poorly. I am disgusted with their failure to revolt against the Great Law of Humanity.",
+     "I have difficulty trusting strangers. Anyone could be a spy for the authorities.",
+     "I am greedy. There isn't much I won't do for money.",
+     "I'm an informant for the Red Plumes. They let me continue my activities, so long as I pass them information about illegal activity in Hillsfar."
+    ]
+   }
+  },
+  {
+   "id": "Background:Secret Identity",
+   "type": "Background",
+   "name": "Secret Identity",
+   "desc": "Skill Proficiencies: Deception, Stealth. Tool Proficiencies: Disguise kit, forgery kit.",
+   "rules": [
+    { "grant": "skill:Deception" },
+    { "grant": "skill:Stealth" },
+    { "pf": ["t:Disguise Kit", "t:Forgery Kit"] },
+    { "grant": "Background Feature:Secret Identity" }
+   ],
+   "chars": {
+    "traits": [
+     "Despite its problems, I love Hillsfar, it's the greatest city in the world. The only one for me.",
+     "I move from place to place, never staying anywhere long and leaving nothing behind.",
+     "I think flattery is the best way to direct attention away from me.",
+     "I don't make friends easily. They're a liability I cannot afford.",
+     "Risk and danger exhilarate me. Pulling off schemes and deceptions is a rush.",
+     "The First Lord is right, humans are superior. I really admire them, despite the atrocities.",
+     "I avoid people of my own race, as well as things associated with my race, lest they give me away.",
+     "I live for the Arena. I admire gladiators and enjoy the thrill of blood on the sands!"
+    ],
+    "ideals": [
+     "Quisling: Supporting the rulers of the land and following the laws is the road to salvation. (Lawful)",
+     "Scoflaw: The laws and lawmakers are corrupt. I follow laws only when it suits me. (Chaotic)",
+     "Optimist: Everyone is basically good. Though the government is misguided it will all be okay. (Any)",
+     "Secretive: I am in the habit of not talking about myself. My business is none of yours. (Any)",
+     "Heroic: I do everything I can to help non-humans, regardless of the personal cost to me. (Good)",
+     "Depraved: I have lost my moral compass. The ends justify most any means. (Evil)"
+    ],
+    "bonds": [
+     "The humans of Hillsfar have inflicted terrible harm on me, my family, and my race. I will have revenge.",
+     "I am part of an underground network that smuggles non-humans into and out of the city.",
+     "I am a partisan. I commit minor acts of defiance against the First Lord and Red Plumes when I can.",
+     "I am a spy. I report on events in and around Hillsfar.",
+     "My secret identity is the only thing protecting me from the Arena. I will stop at nothing to maintain it.",
+     "I am madly in love with a human who does not know my true identity, and I fear rejection if I reveal it."
+    ],
+    "flaws": [
+     "After years of denying who I am, I now despise myself and other members of my pathetic race.",
+     "Years of hiding have made me somewhat paranoid. I trust no one.",
+     "I've been lying so often and for so long that I can't help it anymore. I frequently lie for no reason at all.",
+     "I am ashamed. I failed to protect a member of my family who was seized and thrown into the Arena.",
+     "I am struggling with maintaining my secret identity. I subconsciously want to get caught and therefore sometimes let my secret identity slip.",
+     "Years of successfully deceiving others have made me cocky. I think no one can see through my lies."
+    ]
+   }
+  },
+  {
+   "id": "Background:Shade Fanatic",
+   "type": "Background",
+   "name": "Shade Fanatic",
+   "desc": "Skill Proficiencies: Deception, Intimidation. Tool Proficiencies: Forgery kit. Languages: Netherese and one language of your choice.",
+   "rules": [
+    { "grant": "skill:Deception" },
+    { "grant": "skill:Intimidation" },
+    { "pf": ["t:Forgery Kit"] },
+    { "grant": "Language:Netherese" },
+    { "select": { "name": "Language", "type": "Language", "n": 1 } },
+    { "grant": "Background Feature:Secret Society" }
+   ],
+   "chars": {
+    "traits": [
+     "I am a bully; I try to hide it though.",
+     "I let my actions speak for themselves.",
+     "I am important; I will not let anyone forget that.",
+     "You are either with me or against me.",
+     "I know it is only a matter of time before I am betrayed by those I care for.",
+     "I never understand why people get so emotional.",
+     "They are out to get me. It is only my cunning that keeps me ahead of them.",
+     "Everyone has a choice, the one I make is always right though."
+    ],
+    "ideals": [
+     "Hope: I know even if I need do evil acts, history will be my redemption. (Chaotic)",
+     "Dedicated: I can do anything I put my mind to. (Lawful)",
+     "Exciting: I have found the truth of the Shadovar and want to share it with everyone. (Any)",
+     "Frugal: I hoard my possessions knowing that someday I will be called upon to give everything I have to the cause. (Any)",
+     "Eloquent: I use my words to sway others to my beliefs. (Any)",
+     "Compassionate: It is through love that others will join in our cause. (Good)"
+    ],
+    "bonds": [
+     "They say the Shade broke the bonds of mortality; I want to find out how.",
+     "The whispers in my head remind me that there is power to be found in the shadows.",
+     "For the glory of Netheril, I will grow in power.",
+     "I once lived in Hillsfar, I was chased out before I was able to say farewell.",
+     "My true love was killed by the Red Plumes; I plot to make them suffer.",
+     "I had a loved one die in the arena at Hillsfar; I am out to prove I am stronger than them!"
+    ],
+    "flaws": [
+     "I always over exaggerate my abilities.",
+     "I cannot bear to let those I care for out of my sight.",
+     "I am incapable of standing up for myself.",
+     "The group I am with has committed atrocities; I am always worried their actions will become public.",
+     "I always enjoy a good mug of ale ... or five.",
+     "I know what I do is wrong, but am afraid to speak up about it."
+    ]
+   }
+  },
+  {
+   "id": "Background:Trade Sheriff",
+   "type": "Background",
+   "name": "Trade Sheriff",
+   "desc": "Skill Proficiencies: Investigation, Persuasion. Tool Proficiencies: Thieves' tools. Languages: One of your choice.",
+   "rules": [
+    { "grant": "skill:Investigation" },
+    { "grant": "skill:Persuasion" },
+    { "pf": ["t:Thieves' Tools"] },
+    { "select": { "name": "Language", "type": "Language", "n": 1 } },
+    { "grant": "Background Feature:Investigative Services" }
+   ],
+   "chars": {
+    "traits": [
+     "I am always polite and respectful.",
+     "I let my actions speak for themselves.",
+     "I am haunted by my past having seen the murder of a close friend or family member and it is the one case I always needed to solve but have not been able to.",
+     "I am quick to judge and slow to vindicate.",
+     "I can be very persuasive and am able to ask questions where others might not be able to.",
+     "I have a quirky personality that seems to take others off their guard.",
+     "My sense of humor is considered by most to be awkward.",
+     "Everyone has a choice, and they can always make the right choice — mine!"
+    ],
+    "ideals": [
+     "Hope: My job is to speak for the victim. (Good)",
+     "Dedicated: Once I start an investigation, until told to do so, I do not quit, no matter where it leads. (Lawful)",
+     "Nation: My city, nation, or people are all that matter. (Any)",
+     "Mercenary: When I do investigations, I expect answers immediately. (Any)",
+     "Eloquent: I use my words to sway others to give me answers. (Good)",
+     "Might: It is through threats and force that I get my answers. (Lawful)"
+    ],
+    "bonds": [
+     "To this day an unsolved case will always leave me haunted and bother me.",
+     "Through the might of my personality I will solve an investigation or puzzle.",
+     "It is my right to believe what I will, just try and stop me.",
+     "I need to prove my worth to my fellow Sheriffs.",
+     "Someone I cared for died under suspicious circumstances. I will find out what happened to them and bring their killer to justice.",
+     "I speak for those that cannot speak for themselves."
+    ],
+    "flaws": [
+     "I always over exaggerate my abilities.",
+     "I cannot bear to let those I care for out of my sight.",
+     "I took a bribe to tank an investigation and I would do anything to keep it secret.",
+     "I have little respect for those that are of 'low' intelligence/race.",
+     "I always enjoy a good mug of ale ... or five to cover up my past.",
+     "I speak for the First Lord of Hillsfar and make sure everyone knows it."
+    ]
+   }
+  }
+ ]
+}

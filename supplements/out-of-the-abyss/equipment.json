@@ -1,0 +1,15 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Sheriff's Insignia",
+   "type": "Gear",
+   "name": "Sheriff's Insignia",
+   "desc": "A sheriff's insignia (badge) — a gray cloak pin bearing the mark of the trade sheriffs of Hillsfar.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  }
+ ]
+}

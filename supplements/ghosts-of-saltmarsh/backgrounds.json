@@ -1,0 +1,226 @@
+{
+  "elements": [
+    {
+      "id": "Background:Marine",
+      "type": "Background",
+      "name": "Marine",
+      "desc": "You were trained for battle on sandy beaches and rocky shores. The water is your second home, the rain your shelter, and the crashing waves your battle cry.",
+      "rules": [
+        { "grant": "skill:Athletics" },
+        { "grant": "skill:Survival" },
+        { "grant": "Tool:Vehicles (Water)" },
+        { "grant": "Tool:Vehicles (Land)" },
+        { "grant": "Background Feature:Steady" }
+      ],
+      "chars": {
+        "traits": [
+          "I speak rarely but mean every word I say.",
+          "I laugh loudly and see the humor in stressful situations.",
+          "I prefer to solve problems without violence, but I finish fights decisively.",
+          "I enjoy being out in nature; poor weather never sours my mood.",
+          "I am dependable.",
+          "I am always working on some project or other.",
+          "I become cantankerous and quiet in the rain.",
+          "When the sea is within my sight, my mood is jovial and optimistic."
+        ],
+        "ideals": [
+          "Teamwork. Success depends on cooperation and communication. (Good)",
+          "Code. The marines' code provides a solution for every problem, and following it is imperative. (Lawful)",
+          "Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done. (Chaotic)",
+          "Might. The strong train so that they might rule those who are weak. (Evil)",
+          "Bravery. To act when others quake in fear-this is the essence of the warrior. (Any)",
+          "Perseverance. No injury or obstacle can turn me from my goal. (Any)"
+        ],
+        "bonds": [
+          "I face danger and evil to offset an unredeemable act in my past.",
+          "I. Will. Finish. The. Job.",
+          "I must set an example of hope for those who have given up.",
+          "I'm searching for a fellow marine captured by an elusive enemy.",
+          "Fear leads to tyranny, and both must be eradicated.",
+          "My commander betrayed my unit, and I will have revenge."
+        ],
+        "flaws": [
+          "I grow combative and unpredictable when I drink.",
+          "I find civilian life difficult and struggle to say the right thing in social situations.",
+          "My intensity can drive others away.",
+          "I hold grudges and have difficulty forgiving others.",
+          "I become irrational when innocent people are hurt.",
+          "I sometimes stay up all night listening to the ghosts of my fallen enemies."
+        ]
+      }
+    },
+    {
+      "id": "Background Feature:Steady",
+      "type": "Background Feature",
+      "name": "Steady",
+      "desc": "You can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march. Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists.",
+      "rules": []
+    },
+    {
+      "id": "Background:Shipwright",
+      "type": "Background",
+      "name": "Shipwright",
+      "desc": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.",
+      "rules": [
+        { "grant": "skill:History" },
+        { "grant": "skill:Perception" },
+        { "grant": "Tool:Carpenter's Tools" },
+        { "grant": "Tool:Vehicles (Water)" },
+        { "grant": "Background Feature:I'll Patch It!" }
+      ],
+      "chars": {
+        "traits": [
+          "I love talking and being heard more than I like to listen.",
+          "I'm extremely fond of puzzles.",
+          "I thrive under pressure.",
+          "I love sketching and designing objects, especially boats.",
+          "I'm not afraid of hard work-in fact, I prefer it.",
+          "A pipe, an ale, and the smell of the sea; paradise.",
+          "I have an endless supply of cautionary tales related to the sea.",
+          "I don't mind getting my hands dirty."
+        ],
+        "ideals": [
+          "Crew. If everyone on deck pitches in, we'll never sink. (Good)",
+          "Careful Lines. A ship must be balanced according to the laws of the universe. (Lawful)",
+          "Invention. Make what you need out of whatever is at hand. (Chaotic)",
+          "Perfection. To measure a being and find it lacking is the greatest disappointment. (Evil)",
+          "Reflection. Muddled water always clears in time. (Any)",
+          "Hope. The horizon at sea holds the greatest promise. (Any)"
+        ],
+        "bonds": [
+          "I must visit all the oceans of the world and behold the ships that sail there.",
+          "Much of the treasure I claim will be used to enrich my community.",
+          "I must find a kind of wood rumored to possess magical qualities.",
+          "I repair broken things to redeem what's broken in myself.",
+          "I will craft a boat capable of sailing through the most dangerous of storms.",
+          "A kraken destroyed my masterpiece; its teeth shall adorn my hearth."
+        ],
+        "flaws": [
+          "I don't know when to throw something away. You never know when it might be useful again.",
+          "I get frustrated to the point of distraction by shoddy craftsmanship.",
+          "Though I am an excellent crafter, my work tends to look as though it belongs on a ship.",
+          "I am so obsessed with sketching my ideas for elaborate inventions that I sometimes forget little things like eating and sleeping.",
+          "I'm judgmental of those who are not skilled with tools of some kind.",
+          "I sometimes take things that don't belong to me, especially if they are very well made."
+        ]
+      }
+    },
+    {
+      "id": "Background Feature:I'll Patch It!",
+      "type": "Background Feature",
+      "name": "I'll Patch It!",
+      "desc": "Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 + your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired.",
+      "rules": []
+    },
+    {
+      "id": "Background:Smuggler",
+      "type": "Background",
+      "name": "Smuggler",
+      "desc": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master's oblivious lackeys. Every smuggler has that one tale that sets them apart from common criminals.",
+      "rules": [
+        { "grant": "skill:Athletics" },
+        { "grant": "skill:Deception" },
+        { "grant": "Tool:Vehicles (Water)" },
+        { "grant": "Background Feature:Down Low" }
+      ],
+      "chars": {
+        "traits": [
+          "I love being on the water but hate fishing.",
+          "I think of everything in terms of monetary value.",
+          "I never stop smiling.",
+          "Nothing rattles me; I have a lie for every occasion.",
+          "I love gold but won't cheat a friend.",
+          "I enjoy doing things others believe to be impossible.",
+          "I become wistful when I see the sun rise over the ocean.",
+          "I am no common criminal; I am a mastermind."
+        ],
+        "ideals": [
+          "Wealth. Heaps of coins in a secure vault is all I dream of. (Any)",
+          "Smuggler's Code. I uphold the unwritten rules of the smugglers, who do not cheat one another or directly harm innocents. (Lawful)",
+          "All for a Coin. I'll do nearly anything if it means I turn a profit. (Lawful)",
+          "Peace of Prosperity. I smuggle only to achieve a greater goal that benefits my community. (Good)",
+          "People. For all my many lies, I place a high value on friendship. (Any)",
+          "Daring. I am most happy when risking everything. (Any)"
+        ],
+        "bonds": [
+          "My vessel was stolen from me, and I burn with the desire to recover it.",
+          "I intend to become the leader of the network of smugglers that I belong to.",
+          "I owe a debt that cannot be repaid in gold.",
+          "After one last job, I will retire from the business.",
+          "I was tricked by a fellow smuggler who stole something precious from me. I will find that thief.",
+          "I give most of my profits to a charitable cause, and I don't like to brag about it."
+        ],
+        "flaws": [
+          "Lying is reflexive, and I sometimes engage in it without realizing.",
+          "I tend to assess my relationships in terms of profit and loss.",
+          "I believe everyone has a price and am cynical toward those who present themselves as virtuous.",
+          "I struggle to trust the words of others.",
+          "Few people know the real me.",
+          "Though I act charming, I feel nothing for others and don't know what friendship is."
+        ]
+      }
+    },
+    {
+      "id": "Background Feature:Down Low",
+      "type": "Background Feature",
+      "name": "Down Low",
+      "desc": "You are acquainted with a network of smugglers who are willing to help you out of tight situations. While in a particular town, city, or other similarly sized community (DM's discretion), you and your companions can stay for free in safe houses. Safe houses provide a poor lifestyle. While staying at a safe house, you can choose to keep your presence (and that of your companions) a secret.",
+      "rules": []
+    },
+    {
+      "id": "Background:Fisher",
+      "type": "Background",
+      "name": "Fisher",
+      "desc": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Soon you fell in love with the sea, the art of fishing, and the promise of the eternal horizon.",
+      "rules": [
+        { "grant": "skill:History" },
+        { "grant": "skill:Survival" },
+        { "select": { "name": "Language", "type": "Language", "n": 1 } },
+        { "grant": "Background Feature:Harvest the Water" }
+      ],
+      "chars": {
+        "traits": [
+          "I am unmoved by the wrath of nature.",
+          "My friends are my crew; we sink or float together.",
+          "I need long stretches of quiet to clear my head.",
+          "Rich folk don't know the satisfaction of hard work.",
+          "I laugh heartily, feel deeply, and fear nothing.",
+          "I work hard; nature offers no handouts.",
+          "I dislike bargaining; state your price and mean it.",
+          "Luck favors me, and I take risks others might not."
+        ],
+        "ideals": [
+          "Camaraderie. Good people make even the longest voyage bearable. (Good)",
+          "Luck. Our luck depends on respecting its rules-now throw this salt over your shoulder. (Lawful)",
+          "Daring. The richest bounty goes to those who risk everything. (Chaotic)",
+          "Plunder. Take all that you can and leave nothing for the scavengers. (Evil)",
+          "Balance. Do not fish the same spot twice in a row; suppress your greed, and nature will reward you. (Neutral)",
+          "Hard Work. No wave can move a soul hard at work. (Any)"
+        ],
+        "bonds": [
+          "I lost something important in the deep sea, and I intend to find it.",
+          "Someone else's greed destroyed my livelihood, and I will be compensated.",
+          "I will fish the many famous waters of this land.",
+          "The gods saved me during a terrible storm, and I will honor this gift.",
+          "My destiny awaits me at the bottom of a particular pond in the Feywild.",
+          "I must repay my village's debt."
+        ],
+        "flaws": [
+          "I am judgmental, especially of those I deem homebodies or otherwise lazy.",
+          "I become depressed and anxious if I'm away from the sea too long.",
+          "I have lived a hard life and find it difficult to empathize with others.",
+          "I am inclined to tell long-winded stories at inopportune times.",
+          "I work hard, but I play harder.",
+          "I am obsessed with catching an elusive aquatic beast, often to the detriment of other pursuits."
+        ]
+      }
+    },
+    {
+      "id": "Background Feature:Harvest the Water",
+      "type": "Background Feature",
+      "name": "Harvest the Water",
+      "desc": "You gain advantage on ability checks made using fishing tackle. If you have access to a body of water that sustains marine life, you can maintain a moderate lifestyle while working as a fisher, and you can catch enough food to feed yourself and up to ten other people each day.",
+      "rules": []
+    }
+  ]
+}

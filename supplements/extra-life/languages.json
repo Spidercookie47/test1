@@ -1,0 +1,18 @@
+{
+  "elements": [
+    {
+      "id": "Language:Aquan",
+      "type": "Language",
+      "name": "Aquan",
+      "desc": "The language of water elementals and aquatic creatures, a dialect of Primordial.",
+      "rules": []
+    },
+    {
+      "id": "Language:Grung",
+      "type": "Language",
+      "name": "Grung",
+      "desc": "The language of the grung, an amphibious froglike race.",
+      "rules": []
+    }
+  ]
+}

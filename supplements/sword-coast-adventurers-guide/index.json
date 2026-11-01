@@ -1,0 +1,19 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "scag",
+    "name": "Sword Coast Adventurer's Guide",
+    "short": "SCAG",
+    "license": "Proprietary",
+    "credit": "Content from Sword Coast Adventurer's Guide, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "backgrounds.json",
+    "spells.json",
+    "equipment.json",
+    "races.json",
+    "feats.json",
+    "subclasses.json"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+ "elements": [
+  {
+   "id": "Language:Netherese",
+   "type": "Language",
+   "name": "Netherese",
+   "desc": "Typically spoken by inhabitants of Netheril. Netherese is a language your character can speak, read and write.",
+   "rules": []
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "elements": [
+  {
+   "id": "Armor:Spiked Armor",
+   "type": "Armor",
+   "name": "Spiked Armor",
+   "desc": "Medium armor. Base AC 14 + Dex modifier (max 2). Stealth disadvantage. Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal.",
+   "rules": [],
+   "cg": "Armor",
+   "cp": 7500,
+   "price": 75,
+   "wt": 45,
+   "ac": 14,
+   "k": "Medium",
+   "smin": 0,
+   "sd": true,
+   "kind": "Medium"
+  },
+  {
+   "id": "Gear:Birdpipes",
+   "type": "Gear",
+   "name": "Birdpipes",
+   "desc": "Pan pipes or satyr pipes, also known as the shalm, these are sacred to Lliira and popular with wood elf and wild elf bards. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 1200,
+   "price": 12,
+   "wt": 2
+  },
+  {
+   "id": "Gear:Glaur",
+   "type": "Gear",
+   "name": "Glaur",
+   "desc": "Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 300,
+   "price": 3,
+   "wt": 2
+  },
+  {
+   "id": "Gear:Hand Drum",
+   "type": "Gear",
+   "name": "Hand Drum",
+   "desc": "A double-headed skin drum fitted with handles along its side. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 300,
+   "price": 3,
+   "wt": 3
+  },
+  {
+   "id": "Gear:Longhorn",
+   "type": "Gear",
+   "name": "Longhorn",
+   "desc": "A Faerûnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 300,
+   "price": 3,
+   "wt": 2
+  },
+  {
+   "id": "Gear:Shawm (SCAG)",
+   "type": "Gear",
+   "name": "Shawm (SCAG)",
+   "desc": "A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions. Musical instrument. Note: this is the SCAG-priced shawm; see the SRD Shawm for the base item.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 200,
+   "price": 2,
+   "wt": 1
+  },
+  {
+   "id": "Gear:Songhorn",
+   "type": "Gear",
+   "name": "Songhorn",
+   "desc": "A recorder, a simple type of flute, usually carved from wood. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 200,
+   "price": 2,
+   "wt": 1
+  },
+  {
+   "id": "Gear:Tantan",
+   "type": "Gear",
+   "name": "Tantan",
+   "desc": "A tambourine, a popular instrument with halflings and humans south of the Dalelands. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 300,
+   "price": 3,
+   "wt": 2
+  },
+  {
+   "id": "Gear:Thelarr",
+   "type": "Gear",
+   "name": "Thelarr",
+   "desc": "Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 200,
+   "price": 2,
+   "wt": 1
+  },
+  {
+   "id": "Gear:Tocken",
+   "type": "Gear",
+   "name": "Tocken",
+   "desc": "A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). Most common in underground cultures. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 200,
+   "price": 2,
+   "wt": 2
+  },
+  {
+   "id": "Gear:Wargong",
+   "type": "Gear",
+   "name": "Wargong",
+   "desc": "A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 600,
+   "price": 6,
+   "wt": 3
+  },
+  {
+   "id": "Gear:Yarting",
+   "type": "Gear",
+   "name": "Yarting",
+   "desc": "A southern instrument from Arnn and Calimshan that is a Faerûnian analog to the guitar. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 3500,
+   "price": 35,
+   "wt": 2
+  },
+  {
+   "id": "Gear:Zulkoon",
+   "type": "Gear",
+   "name": "Zulkoon",
+   "desc": "A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. Musical instrument.",
+   "rules": [],
+   "cg": "Musical Instruments",
+   "cp": 3000,
+   "price": 30,
+   "wt": 6
+  }
+ ]
+}

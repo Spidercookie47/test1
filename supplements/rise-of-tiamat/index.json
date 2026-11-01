@@ -1,0 +1,14 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "rot",
+    "name": "Rise of Tiamat",
+    "short": "ROT",
+    "license": "Proprietary",
+    "credit": "Content from Rise of Tiamat, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "magic-items.json"
+  ]
+}
