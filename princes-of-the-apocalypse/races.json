@@ -1,0 +1,194 @@
+{
+ "elements": [
+  {
+   "id": "Racial Trait:Flight",
+   "type": "Racial Trait",
+   "name": "Flight",
+   "desc": "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Talons",
+   "type": "Racial Trait",
+   "name": "Talons",
+   "desc": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.",
+   "rules": []
+  },
+  {
+   "id": "Race:Aarakocra",
+   "type": "Race",
+   "name": "Aarakocra",
+   "desc": "Sequestered in high mountains atop tall trees, the aarakocra, sometimes called birdfolk, evoke fear and wonder. +2 Dexterity, +1 Wisdom, speed 25 ft.",
+   "rules": [
+    { "stat": { "dex": 2, "wis": 1, "speed": 25 } },
+    { "grant": "Language:Common" },
+    { "grant": "Language:Aarakocra" },
+    { "grant": "Language:Auran" },
+    { "grant": "Racial Trait:Flight" },
+    { "grant": "Racial Trait:Talons" }
+   ]
+  },
+  {
+   "id": "Racial Trait:Genasi Subrace",
+   "type": "Racial Trait",
+   "name": "Genasi Subrace",
+   "desc": "Four major subraces of genasi are found among the worlds of D&D: air genasi, earth genasi, fire genasi, and water genasi.",
+   "rules": [
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Genasi"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Genasi",
+   "type": "Race",
+   "name": "Genasi",
+   "desc": "Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. +2 Constitution, speed 30 ft.",
+   "rules": [
+    { "stat": { "con": 2, "speed": 30 } },
+    { "grant": "Language:Common" },
+    { "grant": "Language:Primordial" },
+    { "grant": "Racial Trait:Genasi Subrace" }
+   ]
+  },
+  {
+   "id": "Racial Trait:Unending Breath",
+   "type": "Racial Trait",
+   "name": "Unending Breath",
+   "desc": "You can hold your breath indefinitely while you're not incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mingle with the Wind",
+   "type": "Racial Trait",
+   "name": "Mingle with the Wind",
+   "desc": "You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+   "rules": [],
+   "featSpells": [
+    [1, "Levitate", "1/long rest"]
+   ]
+  },
+  {
+   "id": "Sub Race:Air Genasi",
+   "type": "Sub Race",
+   "name": "Air Genasi",
+   "desc": "As an air genasi, you are descended from the djinn. +1 Dexterity, plus Unending Breath and Mingle with the Wind.",
+   "rules": [
+    { "stat": { "dex": 1 } },
+    { "grant": "Racial Trait:Unending Breath" },
+    { "grant": "Racial Trait:Mingle with the Wind" }
+   ],
+   "supports": "Race:Genasi"
+  },
+  {
+   "id": "Racial Trait:Earth Walk",
+   "type": "Racial Trait",
+   "name": "Earth Walk",
+   "desc": "You can move across difficult terrain made of earth or stone without expending extra movement.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Merge with Stone",
+   "type": "Racial Trait",
+   "name": "Merge with Stone",
+   "desc": "You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+   "rules": [],
+   "featSpells": [
+    [1, "Pass Without Trace", "1/long rest"]
+   ]
+  },
+  {
+   "id": "Sub Race:Earth Genasi",
+   "type": "Sub Race",
+   "name": "Earth Genasi",
+   "desc": "As an earth genasi, you are descended from the dao. +1 Strength, plus Earth Walk and Merge with Stone.",
+   "rules": [
+    { "stat": { "str": 1 } },
+    { "grant": "Racial Trait:Earth Walk" },
+    { "grant": "Racial Trait:Merge with Stone" }
+   ],
+   "supports": "Race:Genasi"
+  },
+  {
+   "id": "Racial Trait:Fire Resistance",
+   "type": "Racial Trait",
+   "name": "Fire Resistance",
+   "desc": "You have resistance to fire damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Reach to the Blaze",
+   "type": "Racial Trait",
+   "name": "Reach to the Blaze",
+   "desc": "You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [1, "Produce Flame", "at will"],
+    [3, "Burning Hands", "1/long rest, 1st level"]
+   ]
+  },
+  {
+   "id": "Sub Race:Fire Genasi",
+   "type": "Sub Race",
+   "name": "Fire Genasi",
+   "desc": "As a fire genasi, you have inherited the volatile mood and keen mind of the efreet. +1 Intelligence, Darkvision, Fire Resistance, and Reach to the Blaze.",
+   "rules": [
+    { "stat": { "int": 1 } },
+    { "grant": "Racial Trait:Darkvision" },
+    { "grant": "Racial Trait:Fire Resistance" },
+    { "grant": "Racial Trait:Reach to the Blaze" }
+   ],
+   "supports": "Race:Genasi"
+  },
+  {
+   "id": "Racial Trait:Acid Resistance",
+   "type": "Racial Trait",
+   "name": "Acid Resistance",
+   "desc": "You have resistance to acid damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Amphibious",
+   "type": "Racial Trait",
+   "name": "Amphibious",
+   "desc": "You can breathe air and water.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Swim",
+   "type": "Racial Trait",
+   "name": "Swim",
+   "desc": "You have a swimming speed of 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Call to the Wave",
+   "type": "Racial Trait",
+   "name": "Call to the Wave",
+   "desc": "You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [1, "Shape Water", "at will"],
+    [3, "Create or Destroy Water", "1/long rest, 2nd level"]
+   ]
+  },
+  {
+   "id": "Sub Race:Water Genasi",
+   "type": "Sub Race",
+   "name": "Water Genasi",
+   "desc": "The lapping of waves, the spray of sea foam on the wind, the ocean depths — all of these things call to your heart. +1 Wisdom, Acid Resistance, Amphibious, Swim, and Call to the Wave.",
+   "rules": [
+    { "stat": { "wis": 1 } },
+    { "grant": "Racial Trait:Acid Resistance" },
+    { "grant": "Racial Trait:Amphibious" },
+    { "grant": "Racial Trait:Swim" },
+    { "grant": "Racial Trait:Call to the Wave" }
+   ],
+   "supports": "Race:Genasi"
+  }
+ ]
+}

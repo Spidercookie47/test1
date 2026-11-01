@@ -1,0 +1,18 @@
+{
+ "elements": [
+  {
+   "id": "Language:Aarakocra",
+   "type": "Language",
+   "name": "Aarakocra",
+   "desc": "Aarakocra is a language your character can speak, read and write. It includes clicks, trills, and whistles that other peoples have difficulty pronouncing.",
+   "rules": []
+  },
+  {
+   "id": "Language:Auran",
+   "type": "Language",
+   "name": "Auran",
+   "desc": "Auran is the language of the Elemental Plane of Air, a dialect of Primordial. It is a language your character can speak, read and write.",
+   "rules": []
+  }
+ ]
+}
