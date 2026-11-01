@@ -1,0 +1,15 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "wdmm",
+    "name": "Waterdeep: Dungeon of the Mad Mage",
+    "short": "WDMM",
+    "license": "Proprietary",
+    "credit": "Content from Waterdeep: Dungeon of the Mad Mage, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "equipment.json",
+    "magic-items.json"
+  ]
+}
