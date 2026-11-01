@@ -32,11 +32,6 @@
      }
     },
     {
-     "pf": [
-      "t:Vehicles (land)"
-     ]
-    },
-    {
      "grant": "Background Feature:Black-Market Breeder"
     }
    ],
@@ -120,11 +115,6 @@
        "Tool:Woodcarver’s tools (PHB)"
       ]
      }
-    },
-    {
-     "pf": [
-      "t:Vehicles (land)"
-     ]
     },
     {
      "grant": "Background Feature:Guerilla"
@@ -414,13 +404,7 @@
    "type": "Background Feature",
    "name": "Dockworker / Fisherman",
    "desc": "Prior to the coordinated attack by the Maimed Virulence and her rebel Black Fist supporters, you were once a citizen or visitor to Phlan. Your former life still clings to you and colors your mannerisms, behaviors, and outlook on life.",
-   "rules": [
-    {
-     "pf": [
-      "t:Vehicles (water)"
-     ]
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Background Feature:Tradesperson / Merchant",
@@ -463,14 +447,13 @@
    "rules": [
     {
      "select": {
-      "name": "Gaming set or land vehicles",
+      "name": "Gaming set",
       "type": "Tool",
       "ids": [
        "Tool:Dice set (PHB)",
        "Tool:Dragonchess set (PHB)",
        "Tool:Playing card set (PHB)",
-       "Tool:Three-Dragon Ante set (PHB)",
-       "Tool:Vehicles (land) (PHB)"
+       "Tool:Three-Dragon Ante set (PHB)"
       ]
      }
     }
@@ -481,13 +464,7 @@
    "type": "Background Feature",
    "name": "Adventurer / Visitor",
    "desc": "Prior to the coordinated attack by the Maimed Virulence and her rebel Black Fist supporters, you were once a citizen or visitor to Phlan. Your former life still clings to you and colors your mannerisms, behaviors, and outlook on life.",
-   "rules": [
-    {
-     "pf": [
-      "t:Vehicles (land)"
-     ]
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Background Feature:Entertainer",
