@@ -1,0 +1,16 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "rotf",
+    "name": "Icewind Dale: Rime of the Frostmaiden",
+    "short": "ROTF",
+    "license": "Proprietary",
+    "credit": "Content from Icewind Dale: Rime of the Frostmaiden, © Wizards of the Coast LLC."
+  },
+  "files": [
+    "spells.json",
+    "equipment.json",
+    "magic-items.json"
+  ]
+}
