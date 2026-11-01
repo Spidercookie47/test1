@@ -1,0 +1,11 @@
+{
+  "elements": [
+    {
+      "id": "Language:Leonin",
+      "type": "Language",
+      "name": "Leonin",
+      "desc": "Typically spoken by leonin. Uses the Common script.",
+      "rules": []
+    }
+  ]
+}
