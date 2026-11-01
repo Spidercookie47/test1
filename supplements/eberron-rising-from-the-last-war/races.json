@@ -93,7 +93,13 @@
         },
         {
           "grant": "Racial Trait:Severed from Dreams"
+        },
+        { 
+          "grant": "Racial Trait:Mental Discipline" 
         }
+
+
+
       ]
     },
     {
@@ -117,6 +123,13 @@
       "desc": "You are immune to spells and other magical effects that require you to dream, like dream.",
       "rules": []
     },
+    {
+  "id": "Racial Trait:Mental Discipline",
+  "type": "Racial Trait",
+  "name": "Mental Discipline",
+  "desc": "You have resistance to psychic damage.",
+  "rules": []
+},
     {
       "id": "Race:Orc",
       "type": "Race",
@@ -387,12 +400,7 @@
       "type": "Racial Trait",
       "name": "Constructed Resilience",
       "desc": "You have advantage on saving throws against being poisoned, and you have resistance to poison damage. You don't need to eat, drink, or breathe. You are immune to disease. You don't need to sleep.",
-      "rules": [
-        {
-          "grant": "Condition",
-          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"
-        }
-      ]
+      "rules": []
     },
     {
       "id": "Racial Trait:Sentry's Rest",
@@ -561,7 +569,7 @@
           }
         },
         {
-          "grant": "Vision:Darkvision"
+          "grant": "Racial Trait:Darkvision"
         },
         {
           "grant": "Language:Common"
@@ -1086,12 +1094,7 @@
       "type": "Racial Trait",
       "name": "Storm's Boon",
       "desc": "You have resistance to lightning damage.",
-      "rules": [
-        {
-          "grant": "Condition",
-          "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING"
-        }
-      ]
+      "rules": []
     },
     {
       "id": "Racial Trait:Headwinds",
