@@ -6,11 +6,15 @@
       "name": "Marine",
       "desc": "You were trained for battle on sandy beaches and rocky shores. The water is your second home, the rain your shelter, and the crashing waves your battle cry.",
       "rules": [
-        { "grant": "skill:Athletics" },
-        { "grant": "skill:Survival" },
-        { "grant": "Tool:Vehicles (Water)" },
-        { "grant": "Tool:Vehicles (Land)" },
-        { "grant": "Background Feature:Steady" }
+        {
+          "grant": "skill:Athletics"
+        },
+        {
+          "grant": "skill:Survival"
+        },
+        {
+          "grant": "Background Feature:Steady"
+        }
       ],
       "chars": {
         "traits": [
@@ -62,11 +66,20 @@
       "name": "Shipwright",
       "desc": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.",
       "rules": [
-        { "grant": "skill:History" },
-        { "grant": "skill:Perception" },
-        { "grant": "Tool:Carpenter's Tools" },
-        { "grant": "Tool:Vehicles (Water)" },
-        { "grant": "Background Feature:I'll Patch It!" }
+        {
+          "grant": "skill:History"
+        },
+        {
+          "grant": "skill:Perception"
+        },
+        {
+          "pf": [
+            "t:Carpenter’s tools"
+          ]
+        },
+        {
+          "grant": "Background Feature:I'll Patch It!"
+        }
       ],
       "chars": {
         "traits": [
@@ -118,10 +131,15 @@
       "name": "Smuggler",
       "desc": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master's oblivious lackeys. Every smuggler has that one tale that sets them apart from common criminals.",
       "rules": [
-        { "grant": "skill:Athletics" },
-        { "grant": "skill:Deception" },
-        { "grant": "Tool:Vehicles (Water)" },
-        { "grant": "Background Feature:Down Low" }
+        {
+          "grant": "skill:Athletics"
+        },
+        {
+          "grant": "skill:Deception"
+        },
+        {
+          "grant": "Background Feature:Down Low"
+        }
       ],
       "chars": {
         "traits": [
@@ -173,10 +191,22 @@
       "name": "Fisher",
       "desc": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Soon you fell in love with the sea, the art of fishing, and the promise of the eternal horizon.",
       "rules": [
-        { "grant": "skill:History" },
-        { "grant": "skill:Survival" },
-        { "select": { "name": "Language", "type": "Language", "n": 1 } },
-        { "grant": "Background Feature:Harvest the Water" }
+        {
+          "grant": "skill:History"
+        },
+        {
+          "grant": "skill:Survival"
+        },
+        {
+          "select": {
+            "name": "Language",
+            "type": "Language",
+            "n": 1
+          }
+        },
+        {
+          "grant": "Background Feature:Harvest the Water"
+        }
       ],
       "chars": {
         "traits": [
