@@ -603,7 +603,7 @@
   {
    "id": "Sub Race:Mark of Finding (Half-Orc)",
    "type": "Sub Race",
-   "name": "Mark of Finding",
+   "name": "Mark of Finding (Half-Orc)",
    "desc": "If your half-orc character has the Mark of Finding, the following traits replace the character's racial traits. Replaces: all Half-Orc traits.",
    "supports": "Race:Half-Orc",
    "rules": [
@@ -636,7 +636,7 @@
   {
    "id": "Sub Race:Mark of Finding (Human)",
    "type": "Sub Race",
-   "name": "Mark of Finding",
+   "name": "Mark of Finding (Human)",
    "desc": "If your human character has the Mark of Finding, the following traits replace the character's racial traits. Replaces: all Human traits.",
    "supports": "Race:Human",
    "rules": [
