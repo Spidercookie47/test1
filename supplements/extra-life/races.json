@@ -37,7 +37,7 @@
     {
       "id": "Racial Trait:Locathah Natural Armor",
       "type": "Racial Trait",
-      "name": "Natural Armor",
+      "name": "Locathah Natural Armor",
       "desc": "You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
       "rules": [
         {
@@ -53,7 +53,7 @@
     {
       "id": "Racial Trait:Observant and Athletic",
       "type": "Racial Trait",
-      "name": "Observant & Athletic",
+      "name": "Observant and Athletic",
       "desc": "You have proficiency in the Athletics and Perception skills.",
       "rules": [
         {
@@ -132,14 +132,14 @@
     {
       "id": "Racial Trait:Amphibious (Grung)",
       "type": "Racial Trait",
-      "name": "Amphibious",
+      "name": "Amphibious (Grung)",
       "desc": "You can breathe air and water.",
       "rules": []
     },
     {
       "id": "Racial Trait:Poison Immunity (Grung)",
       "type": "Racial Trait",
-      "name": "Poison Immunity",
+      "name": "Poison Immunity (Grung)",
       "desc": "You're immune to poison damage and the poisoned condition.",
       "rules": []
     },
