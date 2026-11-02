@@ -1,113 +1,39 @@
 {
   "elements": [
     {
-      "id": "Race Variant:Draconblood",
-      "type": "Race Variant",
-      "name": "Draconblood",
-      "supports": "Race:Dragonborn",
-      "desc": "Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors.\n\nA draconblood uses the dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score Increase, and Damage Resistance traits.\n\nAbility Score Increase: Your Intelligence score increases by 2, and your Charisma score increases by 1.\n\nDarkvision: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n\nForceful Presence: You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can't do so again until you finish a short or long rest.",
-      "rules": [
-        { "stat": { "int": 2, "cha": 1 } },
-        { "grant": "Racial Trait:Darkvision" },
-        { "grant": "Racial Trait:Forceful Presence" }
-      ]
-    },
-    {
-      "id": "Racial Trait:Forceful Presence",
-      "type": "Racial Trait",
-      "name": "Forceful Presence",
-      "desc": "You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can't do so again until you finish a short or long rest.",
-      "rules": []
-    },
-    {
-      "id": "Race Variant:Ravenite",
-      "type": "Race Variant",
-      "name": "Ravenite",
-      "supports": "Race:Dragonborn",
-      "desc": "Ravenites have no tails and a hearty physique. They remember the days when they were slaves to the draconblood, as well as the day when they overthrew their masters.\n\nA ravenite uses the dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score Increase, and Damage Resistance traits.\n\nAbility Score Increase: Your Strength score increases by 2, and your Constitution score increases by 1.\n\nDarkvision: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n\nVengeful Assault: When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against the creature. Once you use this trait, you can't do so again until you finish a short or long rest.",
-      "rules": [
-        { "stat": { "str": 2, "con": 1 } },
-        { "grant": "Racial Trait:Darkvision" },
-        { "grant": "Racial Trait:Vengeful Assault" }
-      ]
-    },
-    {
-      "id": "Racial Trait:Vengeful Assault",
-      "type": "Racial Trait",
-      "name": "Vengeful Assault",
-      "desc": "When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against the creature. Once you use this trait, you can't do so again until you finish a short or long rest.",
-      "rules": []
-    },
-    {
-      "id": "Sub Race:Pallid Elf",
-      "type": "Sub Race",
-      "name": "Pallid Elf",
-      "supports": "Race:Elf",
-      "desc": "The pallid elves are a mystical and insightful people with skin as pale as the surface of Exandria's largest moon. They emerged from the Pallid Grove this century and wander the world with childlike curiosity.\n\nAbility Score Increase: Your Wisdom score increases by 1.\n\nIncisive Sense: You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.\n\nBlessing of the Moon Weaver: You know the light cantrip. When you reach 3rd level, you can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the invisibility spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.",
-      "rules": [
-        { "stat": { "wis": 1 } },
-        { "grant": "Racial Trait:Incisive Sense" },
-        { "grant": "Racial Trait:Blessing of the Moon Weaver" }
-      ]
-    },
-    {
-      "id": "Racial Trait:Incisive Sense",
-      "type": "Racial Trait",
-      "name": "Incisive Sense",
-      "desc": "You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.",
-      "rules": []
-    },
-    {
-      "id": "Racial Trait:Blessing of the Moon Weaver",
-      "type": "Racial Trait",
-      "name": "Blessing of the Moon Weaver",
-      "desc": "You know the light cantrip. When you reach 3rd level, you can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the invisibility spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.",
-      "rules": [
-        { "grant": "Spell:Light" }
-      ]
-    },
-    {
-      "id": "Sub Race:Lotusden Halfling",
-      "type": "Sub Race",
-      "name": "Lotusden Halfling",
-      "supports": "Race:Halfling",
-      "desc": "Long tied to the natural heart of the Lotusden Greenwood, these halflings have adapted to live synergistically with the chaotic laws of the wilds.\n\nAbility Score Increase: Your Wisdom score increases by 1.\n\nChild of the Wood: You know the druidcraft cantrip. When you reach 3rd level, you can cast the entangle spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the spike growth spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.\n\nTimberwalk: Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.",
-      "rules": [
-        { "stat": { "wis": 1 } },
-        { "grant": "Racial Trait:Child of the Wood" },
-        { "grant": "Racial Trait:Timberwalk" }
-      ]
-    },
-    {
-      "id": "Racial Trait:Child of the Wood",
-      "type": "Racial Trait",
-      "name": "Child of the Wood",
-      "desc": "You know the druidcraft cantrip. When you reach 3rd level, you can cast the entangle spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the spike growth spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.",
-      "rules": [
-        { "grant": "Spell:Druidcraft" }
-      ]
-    },
-    {
-      "id": "Racial Trait:Timberwalk",
-      "type": "Racial Trait",
-      "name": "Timberwalk",
-      "desc": "Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.",
-      "rules": []
-    },
-    {
       "id": "Race:Centaur",
       "type": "Race",
       "name": "Centaur",
       "desc": "In the sprawling city of Ravnica, centaurs retain a love of wide spaces and the freedom to travel. They race the wind until the next wall looms in their path.",
       "rules": [
-        { "stat": { "str": 2, "wis": 1, "speed": 40 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Sylvan" },
-        { "grant": "Racial Trait:Fey" },
-        { "grant": "Racial Trait:Charge" },
-        { "grant": "Racial Trait:Hooves" },
-        { "grant": "Racial Trait:Equine Build" },
-        { "grant": "Racial Trait:Survivor" }
+        {
+          "stat": {
+            "str": 2,
+            "wis": 1,
+            "speed": 40
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Sylvan"
+        },
+        {
+          "grant": "Racial Trait:Fey"
+        },
+        {
+          "grant": "Racial Trait:Charge"
+        },
+        {
+          "grant": "Racial Trait:Hooves"
+        },
+        {
+          "grant": "Racial Trait:Equine Build"
+        },
+        {
+          "grant": "Racial Trait:Survivor"
+        }
       ]
     },
     {
@@ -148,7 +74,12 @@
           "select": {
             "name": "Survivor",
             "type": "Skill",
-            "from": ["Animal Handling", "Medicine", "Nature", "Survival"],
+            "from": [
+              "Animal Handling",
+              "Medicine",
+              "Nature",
+              "Survival"
+            ],
             "n": 1
           }
         }
@@ -160,13 +91,28 @@
       "name": "Goblin",
       "desc": "Whether sniveling in fear, cackling with mad laughter, or snarling in a fury, goblins are wretched and inconsequential—at least in the eyes of most of Ravnica's other folk.",
       "rules": [
-        { "stat": { "dex": 2, "con": 1, "speed": 30 } },
-        { "grant": "Size:Small" },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Goblin" },
-        { "grant": "Racial Trait:Darkvision" },
-        { "grant": "Racial Trait:Fury of the Small" },
-        { "grant": "Racial Trait:Nimble Escape" }
+        {
+          "stat": {
+            "dex": 2,
+            "con": 1,
+            "speed": 30
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Goblin"
+        },
+        {
+          "grant": "Racial Trait:Darkvision"
+        },
+        {
+          "grant": "Racial Trait:Fury of the Small"
+        },
+        {
+          "grant": "Racial Trait:Nimble Escape"
+        }
       ]
     },
     {
@@ -189,14 +135,34 @@
       "name": "Loxodon",
       "desc": "The humanoid elephants called loxodons are often oases of calm in the busy streets of Ravnica. Their serene wisdom, fierce loyalty, and unwavering conviction are tremendous assets to their guilds.",
       "rules": [
-        { "stat": { "con": 2, "wis": 1, "speed": 30 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Loxodon" },
-        { "grant": "Racial Trait:Powerful Build" },
-        { "grant": "Racial Trait:Loxodon Serenity" },
-        { "grant": "Racial Trait:Natural Armor" },
-        { "grant": "Racial Trait:Trunk" },
-        { "grant": "Racial Trait:Keen Smell" }
+        {
+          "stat": {
+            "con": 2,
+            "wis": 1,
+            "speed": 30
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Loxodon"
+        },
+        {
+          "grant": "Racial Trait:Powerful Build"
+        },
+        {
+          "grant": "Racial Trait:Loxodon Serenity"
+        },
+        {
+          "grant": "Racial Trait:Natural Armor"
+        },
+        {
+          "grant": "Racial Trait:Trunk"
+        },
+        {
+          "grant": "Racial Trait:Keen Smell"
+        }
       ]
     },
     {
@@ -219,9 +185,14 @@
       "name": "Natural Armor",
       "desc": "You have thick, leathery skin. When you aren't wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal.",
       "rules": [
-        { "stat": { "ac:loxodon natural armor": 12 } },
-        { "stat": { "ac:loxodon natural armor": "constitution:modifier" } },
-        { "stat": { "ac:calculation": "ac:loxodon natural armor" } }
+        {
+          "acFormula": {
+            "base": 12,
+            "add": [
+              "con"
+            ]
+          }
+        }
       ]
     },
     {
@@ -244,13 +215,31 @@
       "name": "Minotaur",
       "desc": "The minotaurs of Ravnica are strong in body, dedication, and courage. They combine a burning fury in battle with keen tactics.",
       "rules": [
-        { "stat": { "str": 2, "con": 1, "speed": 30 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Minotaur" },
-        { "grant": "Racial Trait:Horns" },
-        { "grant": "Racial Trait:Goring Rush" },
-        { "grant": "Racial Trait:Hammering Horns" },
-        { "grant": "Racial Trait:Imposing Presence" }
+        {
+          "stat": {
+            "str": 2,
+            "con": 1,
+            "speed": 30
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Minotaur"
+        },
+        {
+          "grant": "Racial Trait:Horns"
+        },
+        {
+          "grant": "Racial Trait:Goring Rush"
+        },
+        {
+          "grant": "Racial Trait:Hammering Horns"
+        },
+        {
+          "grant": "Racial Trait:Imposing Presence"
+        }
       ]
     },
     {
@@ -284,7 +273,10 @@
           "select": {
             "name": "Imposing Presence",
             "type": "Skill",
-            "from": ["Intimidation", "Persuasion"],
+            "from": [
+              "Intimidation",
+              "Persuasion"
+            ],
             "n": 1
           }
         }
@@ -296,26 +288,32 @@
       "name": "Simic Hybrid",
       "desc": "The Simic Combine uses magic to fuse different life forms together. These hyper-evolved specimens are called Simic hybrids, though they sometimes refer to themselves as guardians.",
       "rules": [
-        { "stat": { "con": 2, "speed": 30 } },
         {
-          "select": {
-            "name": "Ability Score Increase",
-            "type": "Ability Increase",
-            "from": ["Strength", "Dexterity", "Intelligence", "Wisdom", "Charisma"],
-            "n": 1
+          "stat": {
+            "con": 2,
+            "speed": 30
           }
         },
-        { "grant": "Language:Common" },
+        {
+          "grant": "Language:Common"
+        },
         {
           "select": {
             "name": "Language",
             "type": "Language",
-            "from": ["Language:Elvish", "Language:Vedalken"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Elvish",
+              "Language:Vedalken"
+            ]
           }
         },
-        { "grant": "Racial Trait:Darkvision" },
-        { "grant": "Racial Trait:Animal Enhancement" }
+        {
+          "grant": "Racial Trait:Darkvision"
+        },
+        {
+          "grant": "Racial Trait:Animal Enhancement"
+        }
       ]
     },
     {
@@ -328,23 +326,27 @@
           "select": {
             "name": "Animal Enhancement (Level 1)",
             "type": "Racial Trait",
-            "from": ["Racial Trait:Manta Glide", "Racial Trait:Nimble Climber", "Racial Trait:Underwater Adaptation"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Racial Trait:Manta Glide",
+              "Racial Trait:Nimble Climber",
+              "Racial Trait:Underwater Adaptation"
+            ]
           }
         },
         {
           "select": {
             "name": "Animal Enhancement (Level 5)",
             "type": "Racial Trait",
-            "from": [
+            "n": 1,
+            "ids": [
               "Racial Trait:Manta Glide",
               "Racial Trait:Nimble Climber",
               "Racial Trait:Underwater Adaptation",
               "Racial Trait:Grappling Appendages",
               "Racial Trait:Carapace",
               "Racial Trait:Acid Spit"
-            ],
-            "n": 1
+            ]
           },
           "level": 5
         }
@@ -362,18 +364,14 @@
       "type": "Racial Trait",
       "name": "Nimble Climber",
       "desc": "You have a climbing speed equal to your walking speed.",
-      "rules": [
-        { "stat": { "speed:climb": "speed" } }
-      ]
+      "rules": []
     },
     {
       "id": "Racial Trait:Underwater Adaptation",
       "type": "Racial Trait",
       "name": "Underwater Adaptation",
       "desc": "You can breathe air and water, and you have a swimming speed equal to your walking speed.",
-      "rules": [
-        { "stat": { "speed:swim": "speed" } }
-      ]
+      "rules": []
     },
     {
       "id": "Racial Trait:Grappling Appendages",
@@ -402,9 +400,19 @@
       "name": "Vedalken",
       "desc": "Nothing is perfect. Vedalken not only believe this fact, they rejoice in it. Every imperfection is a chance for improvement.",
       "rules": [
-        { "stat": { "int": 2, "wis": 1, "speed": 30 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Vedalken" },
+        {
+          "stat": {
+            "int": 2,
+            "wis": 1,
+            "speed": 30
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Vedalken"
+        },
         {
           "select": {
             "name": "Language",
@@ -412,9 +420,15 @@
             "n": 1
           }
         },
-        { "grant": "Racial Trait:Vedalken Dispassion" },
-        { "grant": "Racial Trait:Tireless Precision" },
-        { "grant": "Racial Trait:Partially Amphibious" }
+        {
+          "grant": "Racial Trait:Vedalken Dispassion"
+        },
+        {
+          "grant": "Racial Trait:Tireless Precision"
+        },
+        {
+          "grant": "Racial Trait:Partially Amphibious"
+        }
       ]
     },
     {
@@ -434,7 +448,14 @@
           "select": {
             "name": "Tireless Precision (Skill)",
             "type": "Skill",
-            "from": ["Arcana", "History", "Investigation", "Medicine", "Performance", "Sleight of Hand"],
+            "from": [
+              "Arcana",
+              "History",
+              "Investigation",
+              "Medicine",
+              "Performance",
+              "Sleight of Hand"
+            ],
             "n": 1
           }
         },

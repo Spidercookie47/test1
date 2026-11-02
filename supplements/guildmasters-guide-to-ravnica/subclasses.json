@@ -9,20 +9,53 @@
       "prepared": {
         "class": "Cleric",
         "levels": {
-          "1": ["Command", "Heroism"],
-          "3": ["Hold Person", "Zone of Truth"],
-          "5": ["Mass Healing Word", "Slow"],
-          "7": ["Compulsion", "Locate Creature"],
-          "9": ["Commune", "Dominate Person"]
+          "1": [
+            "Command",
+            "Heroism"
+          ],
+          "3": [
+            "Hold Person",
+            "Zone of Truth"
+          ],
+          "5": [
+            "Mass Healing Word",
+            "Slow"
+          ],
+          "7": [
+            "Compulsion",
+            "Locate Creature"
+          ],
+          "9": [
+            "Commune",
+            "Dominate Person"
+          ]
         }
       },
       "rules": [
-        { "grant": "Class Feature:Bonus Proficiencies", "level": 1 },
-        { "grant": "Class Feature:Voice of Authority", "level": 1 },
-        { "grant": "Class Feature:Channel Divinity: Order's Demand", "level": 2 },
-        { "grant": "Class Feature:Embodiment of the Law", "level": 6 },
-        { "grant": "Class Feature:Order's Divine Strike", "level": 8 },
-        { "grant": "Class Feature:Order's Wrath", "level": 17 }
+        {
+          "grant": "Class Feature:Bonus Proficiencies",
+          "level": 1
+        },
+        {
+          "grant": "Class Feature:Voice of Authority",
+          "level": 1
+        },
+        {
+          "grant": "Class Feature:Channel Divinity: Order's Demand",
+          "level": 2
+        },
+        {
+          "grant": "Class Feature:Embodiment of the Law",
+          "level": 6
+        },
+        {
+          "grant": "Class Feature:Order's Divine Strike",
+          "level": 8
+        },
+        {
+          "grant": "Class Feature:Order's Wrath",
+          "level": 17
+        }
       ]
     },
     {
@@ -31,12 +64,19 @@
       "name": "Bonus Proficiencies",
       "desc": "When you choose this domain at 1st level, you gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice).",
       "rules": [
-        { "grant": "a:Heavy armor" },
+        {
+          "pf": [
+            "a:Heavy armor"
+          ]
+        },
         {
           "select": {
             "name": "Bonus Skill Proficiency",
             "type": "Skill",
-            "from": ["Intimidation", "Persuasion"],
+            "from": [
+              "Intimidation",
+              "Persuasion"
+            ],
             "n": 1
           }
         }
@@ -86,19 +126,49 @@
       "prepared": {
         "class": "Druid",
         "levels": {
-          "3": ["Blindness/Deafness", "Gentle Repose"],
-          "5": ["Animate Dead", "Gaseous Form"],
-          "7": ["Blight", "Confusion"],
-          "9": ["Cloudkill", "Contagion"]
+          "3": [
+            "Blindness/Deafness",
+            "Gentle Repose"
+          ],
+          "5": [
+            "Animate Dead",
+            "Gaseous Form"
+          ],
+          "7": [
+            "Blight",
+            "Confusion"
+          ],
+          "9": [
+            "Cloudkill",
+            "Contagion"
+          ]
         }
       },
       "rules": [
-        { "grant": "Class Feature:Circle of Spores Spells", "level": 2 },
-        { "grant": "Class Feature:Halo of Spores", "level": 2 },
-        { "grant": "Class Feature:Symbiotic Entity", "level": 2 },
-        { "grant": "Class Feature:Fungal Infestation", "level": 6 },
-        { "grant": "Class Feature:Spreading Spores", "level": 10 },
-        { "grant": "Class Feature:Fungal Body", "level": 14 }
+        {
+          "grant": "Class Feature:Circle of Spores Spells",
+          "level": 2
+        },
+        {
+          "grant": "Class Feature:Halo of Spores",
+          "level": 2
+        },
+        {
+          "grant": "Class Feature:Symbiotic Entity",
+          "level": 2
+        },
+        {
+          "grant": "Class Feature:Fungal Infestation",
+          "level": 6
+        },
+        {
+          "grant": "Class Feature:Spreading Spores",
+          "level": 10
+        },
+        {
+          "grant": "Class Feature:Fungal Body",
+          "level": 14
+        }
       ]
     },
     {
@@ -107,7 +177,9 @@
       "name": "Circle of Spores Spells",
       "desc": "At 2nd level, you learn the chill touch cantrip. At 3rd, 5th, 7th, and 9th level you gain access to circle spells. Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
       "rules": [
-        { "grant": "Spell:Chill Touch" }
+        {
+          "grant": "Spell:Chill Touch"
+        }
       ]
     },
     {

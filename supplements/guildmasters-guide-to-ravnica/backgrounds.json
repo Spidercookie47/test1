@@ -6,11 +6,25 @@
       "name": "Azorius Functionary",
       "desc": "The brutes are at the gate, chaos is looming, and the only thing standing in the way of disaster is the foundation of law and order—as embodied in the Azorius Senate. You're a proud member of the Azorius guild, which both enacts and enforces the laws that make Ravnican society function smoothly and safely.",
       "rules": [
-        { "grant": "skill:Insight" },
-        { "grant": "skill:Intimidation" },
-        { "select": { "name": "Language (Azorius Functionary)", "type": "Language", "n": 2 } },
-        { "grant": "Background Feature:Legal Authority" },
-        { "grant": "Background Feature:Azorius Guild Spells" }
+        {
+          "grant": "skill:Insight"
+        },
+        {
+          "grant": "skill:Intimidation"
+        },
+        {
+          "select": {
+            "name": "Language (Azorius Functionary)",
+            "type": "Language",
+            "n": 2
+          }
+        },
+        {
+          "grant": "Background Feature:Legal Authority"
+        },
+        {
+          "grant": "Background Feature:Azorius Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -69,31 +83,44 @@
       "name": "Boros Legionnaire",
       "desc": "As a member of the Boros Legion, your life is devoted to the service of angels and consecrated to the work of establishing justice and peace on the streets of Ravnica.",
       "rules": [
-        { "grant": "skill:Athletics" },
-        { "grant": "skill:Intimidation" },
+        {
+          "grant": "skill:Athletics"
+        },
+        {
+          "grant": "skill:Intimidation"
+        },
         {
           "select": {
             "name": "Tool Proficiency (Boros Legionnaire)",
             "type": "Tool",
-            "from": [
-              "Tool:Dice Set",
-              "Tool:Dragonchess Set",
-              "Tool:Playing Card Set",
-              "Tool:Three-Dragon Ante Set"
-            ],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Tool:Dice set (PHB)",
+              "Tool:Dragonchess set (PHB)",
+              "Tool:Playing card set (PHB)",
+              "Tool:Three-Dragon Ante set (PHB)"
+            ]
           }
         },
         {
           "select": {
             "name": "Language (Boros Legionnaire)",
             "type": "Language",
-            "from": ["Language:Celestial", "Language:Draconic", "Language:Goblin", "Language:Minotaur"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Celestial",
+              "Language:Draconic",
+              "Language:Goblin",
+              "Language:Minotaur"
+            ]
           }
         },
-        { "grant": "Background Feature:Legion Station" },
-        { "grant": "Background Feature:Boros Guild Spells" }
+        {
+          "grant": "Background Feature:Legion Station"
+        },
+        {
+          "grant": "Background Feature:Boros Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -152,12 +179,30 @@
       "name": "Dimir Operative",
       "desc": "You're a spy. Secrets and misinformation are your stock in trade. You skulk in the shadows, infiltrate other guilds, and steal the most precious secrets. As part of your covert work for House Dimir, you maintain a false identity as a member of another guild.",
       "rules": [
-        { "grant": "skill:Deception" },
-        { "grant": "skill:Stealth" },
-        { "grant": "Tool:Disguise Kit" },
-        { "select": { "name": "Language (Dimir Operative)", "type": "Language", "n": 1 } },
-        { "grant": "Background Feature:False Identity" },
-        { "grant": "Background Feature:Dimir Guild Spells" }
+        {
+          "grant": "skill:Deception"
+        },
+        {
+          "grant": "skill:Stealth"
+        },
+        {
+          "pf": [
+            "t:Disguise kit"
+          ]
+        },
+        {
+          "select": {
+            "name": "Language (Dimir Operative)",
+            "type": "Language",
+            "n": 1
+          }
+        },
+        {
+          "grant": "Background Feature:False Identity"
+        },
+        {
+          "grant": "Background Feature:Dimir Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -216,19 +261,35 @@
       "name": "Golgari Agent",
       "desc": "You are a member of a teeming horde—one small part of a sprawling organism. Just as you are part of the swarm, the swarm is part of a larger ecosystem, a never-ending cycle of life, death, rot, and rebirth.",
       "rules": [
-        { "grant": "skill:Nature" },
-        { "grant": "skill:Survival" },
-        { "grant": "Tool:Poisoner's Kit" },
+        {
+          "grant": "skill:Nature"
+        },
+        {
+          "grant": "skill:Survival"
+        },
+        {
+          "pf": [
+            "t:Poisoner’s kit"
+          ]
+        },
         {
           "select": {
             "name": "Language (Golgari Agent)",
             "type": "Language",
-            "from": ["Language:Elvish", "Language:Giant", "Language:Kraul"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Elvish",
+              "Language:Giant",
+              "Language:Kraul"
+            ]
           }
         },
-        { "grant": "Background Feature:Undercity Paths" },
-        { "grant": "Background Feature:Golgari Guild Spells" }
+        {
+          "grant": "Background Feature:Undercity Paths"
+        },
+        {
+          "grant": "Background Feature:Golgari Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -287,19 +348,36 @@
       "name": "Gruul Anarch",
       "desc": "The entire world of Ravnica is a sprawling metropolis, but you are a native of the wild areas that still exist—the abandoned districts, the rubblebelts, the overgrown parks, and the crumbling ruins. You are part of a savage society that clings desperately to the Old Ways.",
       "rules": [
-        { "grant": "skill:Animal Handling" },
-        { "grant": "skill:Athletics" },
-        { "grant": "Tool:Herbalism Kit" },
+        {
+          "grant": "skill:Animal Handling"
+        },
+        {
+          "grant": "skill:Athletics"
+        },
+        {
+          "pf": [
+            "t:Herbalism kit"
+          ]
+        },
         {
           "select": {
             "name": "Language (Gruul Anarch)",
             "type": "Language",
-            "from": ["Language:Draconic", "Language:Giant", "Language:Goblin", "Language:Sylvan"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Draconic",
+              "Language:Giant",
+              "Language:Goblin",
+              "Language:Sylvan"
+            ]
           }
         },
-        { "grant": "Background Feature:Rubblebelt Refuge" },
-        { "grant": "Background Feature:Gruul Guild Spells" }
+        {
+          "grant": "Background Feature:Rubblebelt Refuge"
+        },
+        {
+          "grant": "Background Feature:Gruul Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -358,44 +436,56 @@
       "name": "Izzet Engineer",
       "desc": "Armed with an inventive intellect, a love of magical technology, and an unquenchable energy, you are an enthusiastic participant in the research work of the Izzet League.",
       "rules": [
-        { "grant": "skill:Arcana" },
-        { "grant": "skill:Investigation" },
+        {
+          "grant": "skill:Arcana"
+        },
+        {
+          "grant": "skill:Investigation"
+        },
         {
           "select": {
             "name": "Tool Proficiency (Izzet Engineer)",
             "type": "Tool",
-            "from": [
-              "Tool:Alchemist's Supplies",
-              "Tool:Brewer's Supplies",
-              "Tool:Calligrapher's Supplies",
-              "Tool:Carpenter's Tools",
-              "Tool:Cartographer's Tools",
-              "Tool:Cobbler's Tools",
-              "Tool:Cook's Utensils",
-              "Tool:Glassblower's Tools",
-              "Tool:Jeweler's Tools",
-              "Tool:Leatherworker's Tools",
-              "Tool:Mason's Tools",
-              "Tool:Painter's Supplies",
-              "Tool:Potter's Tools",
-              "Tool:Smith's Tools",
-              "Tool:Tinker's Tools",
-              "Tool:Weaver's Tools",
-              "Tool:Woodcarver's Tools"
-            ],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Tool:Alchemist’s supplies (PHB)",
+              "Tool:Brewer’s supplies (PHB)",
+              "Tool:Calligrapher’s supplies (PHB)",
+              "Tool:Carpenter’s tools (PHB)",
+              "Tool:Cartographer’s tools (PHB)",
+              "Tool:Cobbler’s tools (PHB)",
+              "Tool:Cook’s utensils (PHB)",
+              "Tool:Glassblower’s tools (PHB)",
+              "Tool:Jeweler’s tools (PHB)",
+              "Tool:Leatherworker’s tools (PHB)",
+              "Tool:Mason’s tools (PHB)",
+              "Tool:Painter’s supplies (PHB)",
+              "Tool:Potter’s tools (PHB)",
+              "Tool:Smith’s tools (PHB)",
+              "Tool:Tinker’s tools (PHB)",
+              "Tool:Weaver’s tools (PHB)",
+              "Tool:Woodcarver’s tools (PHB)"
+            ]
           }
         },
         {
           "select": {
             "name": "Language (Izzet Engineer)",
             "type": "Language",
-            "from": ["Language:Draconic", "Language:Goblin", "Language:Vedalken"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Draconic",
+              "Language:Goblin",
+              "Language:Vedalken"
+            ]
           }
         },
-        { "grant": "Background Feature:Urban Infrastructure" },
-        { "grant": "Background Feature:Izzet Guild Spells" }
+        {
+          "grant": "Background Feature:Urban Infrastructure"
+        },
+        {
+          "grant": "Background Feature:Izzet Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -454,11 +544,25 @@
       "name": "Orzhov Representative",
       "desc": "The prospect of immense wealth is the promise of membership in the Orzhov Syndicate. All of the guild's endeavors channel wealth from Ravnican society into the ranks of the Orzhov—and concentrates the spoils at the top of the hierarchy.",
       "rules": [
-        { "grant": "skill:Intimidation" },
-        { "grant": "skill:Religion" },
-        { "select": { "name": "Language (Orzhov Representative)", "type": "Language", "n": 2 } },
-        { "grant": "Background Feature:Leverage" },
-        { "grant": "Background Feature:Orzhov Guild Spells" }
+        {
+          "grant": "skill:Intimidation"
+        },
+        {
+          "grant": "skill:Religion"
+        },
+        {
+          "select": {
+            "name": "Language (Orzhov Representative)",
+            "type": "Language",
+            "n": 2
+          }
+        },
+        {
+          "grant": "Background Feature:Leverage"
+        },
+        {
+          "grant": "Background Feature:Orzhov Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -517,37 +621,48 @@
       "name": "Rakdos Cultist",
       "desc": "You're an entertainer at heart, a performer with a flair for the dramatic and a love of the spotlight. You're also a member of a cult devoted to an ancient demon who delights in violence and chaos—Rakdos loves a good show.",
       "rules": [
-        { "grant": "skill:Acrobatics" },
-        { "grant": "skill:Performance" },
+        {
+          "grant": "skill:Acrobatics"
+        },
+        {
+          "grant": "skill:Performance"
+        },
         {
           "select": {
             "name": "Tool Proficiency (Rakdos Cultist)",
             "type": "Tool",
-            "from": [
-              "Tool:Bagpipes",
-              "Tool:Drum",
-              "Tool:Dulcimer",
-              "Tool:Flute",
-              "Tool:Lute",
-              "Tool:Lyre",
-              "Tool:Horn",
-              "Tool:Pan Flute",
-              "Tool:Shawm",
-              "Tool:Viol"
-            ],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Tool:Bagpipes (PHB)",
+              "Tool:Drum (PHB)",
+              "Tool:Dulcimer (PHB)",
+              "Tool:Flute (PHB)",
+              "Tool:Lute (PHB)",
+              "Tool:Lyre (PHB)",
+              "Tool:Horn (PHB)",
+              "Tool:Pan flute (PHB)",
+              "Tool:Shawm (PHB)",
+              "Tool:Viol (PHB)"
+            ]
           }
         },
         {
           "select": {
             "name": "Language (Rakdos Cultist)",
             "type": "Language",
-            "from": ["Language:Abyssal", "Language:Giant"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Abyssal",
+              "Language:Giant"
+            ]
           }
         },
-        { "grant": "Background Feature:Fearsome Reputation" },
-        { "grant": "Background Feature:Rakdos Guild Spells" }
+        {
+          "grant": "Background Feature:Fearsome Reputation"
+        },
+        {
+          "grant": "Background Feature:Rakdos Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -606,54 +721,66 @@
       "name": "Selesnya Initiate",
       "desc": "You are a member of a blessed community, built on the ideals of harmony. Here, nature and civilization coexist peacefully, living and growing in accordance with the will of the Worldsoul, Mat'Selesnya.",
       "rules": [
-        { "grant": "skill:Nature" },
-        { "grant": "skill:Persuasion" },
+        {
+          "grant": "skill:Nature"
+        },
+        {
+          "grant": "skill:Persuasion"
+        },
         {
           "select": {
             "name": "Tool Proficiency (Selesnya Initiate)",
             "type": "Tool",
-            "from": [
-              "Tool:Alchemist's Supplies",
-              "Tool:Brewer's Supplies",
-              "Tool:Calligrapher's Supplies",
-              "Tool:Carpenter's Tools",
-              "Tool:Cartographer's Tools",
-              "Tool:Cobbler's Tools",
-              "Tool:Cook's Utensils",
-              "Tool:Glassblower's Tools",
-              "Tool:Jeweler's Tools",
-              "Tool:Leatherworker's Tools",
-              "Tool:Mason's Tools",
-              "Tool:Painter's Supplies",
-              "Tool:Potter's Tools",
-              "Tool:Smith's Tools",
-              "Tool:Tinker's Tools",
-              "Tool:Weaver's Tools",
-              "Tool:Woodcarver's Tools",
-              "Tool:Bagpipes",
-              "Tool:Drum",
-              "Tool:Dulcimer",
-              "Tool:Flute",
-              "Tool:Lute",
-              "Tool:Lyre",
-              "Tool:Horn",
-              "Tool:Pan Flute",
-              "Tool:Shawm",
-              "Tool:Viol"
-            ],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Tool:Alchemist’s supplies (PHB)",
+              "Tool:Brewer’s supplies (PHB)",
+              "Tool:Calligrapher’s supplies (PHB)",
+              "Tool:Carpenter’s tools (PHB)",
+              "Tool:Cartographer’s tools (PHB)",
+              "Tool:Cobbler’s tools (PHB)",
+              "Tool:Cook’s utensils (PHB)",
+              "Tool:Glassblower’s tools (PHB)",
+              "Tool:Jeweler’s tools (PHB)",
+              "Tool:Leatherworker’s tools (PHB)",
+              "Tool:Mason’s tools (PHB)",
+              "Tool:Painter’s supplies (PHB)",
+              "Tool:Potter’s tools (PHB)",
+              "Tool:Smith’s tools (PHB)",
+              "Tool:Tinker’s tools (PHB)",
+              "Tool:Weaver’s tools (PHB)",
+              "Tool:Woodcarver’s tools (PHB)",
+              "Tool:Bagpipes (PHB)",
+              "Tool:Drum (PHB)",
+              "Tool:Dulcimer (PHB)",
+              "Tool:Flute (PHB)",
+              "Tool:Lute (PHB)",
+              "Tool:Lyre (PHB)",
+              "Tool:Horn (PHB)",
+              "Tool:Pan flute (PHB)",
+              "Tool:Shawm (PHB)",
+              "Tool:Viol (PHB)"
+            ]
           }
         },
         {
           "select": {
             "name": "Language (Selesnya Initiate)",
             "type": "Language",
-            "from": ["Language:Elvish", "Language:Loxodon", "Language:Sylvan"],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Language:Elvish",
+              "Language:Loxodon",
+              "Language:Sylvan"
+            ]
           }
         },
-        { "grant": "Background Feature:Conclave's Shelter" },
-        { "grant": "Background Feature:Selesnya Guild Spells" }
+        {
+          "grant": "Background Feature:Conclave's Shelter"
+        },
+        {
+          "grant": "Background Feature:Selesnya Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
@@ -712,11 +839,25 @@
       "name": "Simic Scientist",
       "desc": "Imagine a perfect world: one in which nature and civilization exist in harmony, adapted to each other. That's the world you have been trying to grow in the laboratories of the Simic Combine.",
       "rules": [
-        { "grant": "skill:Arcana" },
-        { "grant": "skill:Medicine" },
-        { "select": { "name": "Language (Simic Scientist)", "type": "Language", "n": 2 } },
-        { "grant": "Background Feature:Researcher" },
-        { "grant": "Background Feature:Simic Guild Spells" }
+        {
+          "grant": "skill:Arcana"
+        },
+        {
+          "grant": "skill:Medicine"
+        },
+        {
+          "select": {
+            "name": "Language (Simic Scientist)",
+            "type": "Language",
+            "n": 2
+          }
+        },
+        {
+          "grant": "Background Feature:Researcher"
+        },
+        {
+          "grant": "Background Feature:Simic Guild Spells"
+        }
       ],
       "chars": {
         "traits": [
