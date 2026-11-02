@@ -1,8 +1,8 @@
 {
   "elements": [
     {
-      "id": "Race Variant:Draconblood",
-      "type": "Race Variant",
+      "id": "Sub Race:Draconblood",
+      "type": "Sub Race",
       "name": "Draconblood",
       "supports": "Race:Dragonborn",
       "desc": "Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors.\n\nA draconblood uses the dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score Increase, and Damage Resistance traits.\n\nAbility Score Increase: Your Intelligence score increases by 2, and your Charisma score increases by 1.\n\nDarkvision: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n\nForceful Presence: You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can't do so again until you finish a short or long rest.",
@@ -20,8 +20,8 @@
       "rules": []
     },
     {
-      "id": "Race Variant:Ravenite",
-      "type": "Race Variant",
+      "id": "Sub Race:Ravenite",
+      "type": "Sub Race",
       "name": "Ravenite",
       "supports": "Race:Dragonborn",
       "desc": "Ravenites have no tails and a hearty physique. They remember the days when they were slaves to the draconblood, as well as the day when they overthrew their masters.\n\nA ravenite uses the dragonborn traits in the Player's Handbook, with the following traits replacing the Ability Score Increase, and Damage Resistance traits.\n\nAbility Score Increase: Your Strength score increases by 2, and your Constitution score increases by 1.\n\nDarkvision: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n\nVengeful Assault: When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against the creature. Once you use this trait, you can't do so again until you finish a short or long rest.",
