@@ -6,29 +6,39 @@
       "name": "Grinner",
       "desc": "The Golden Grin began in the far-off land of Tal'Dorei, trading secret messages through a network of bards and minstrels to undermine an iron-fisted king's authoritarian rule. Today, Tal'Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire.\n\nYou are a Grinner. Your goals are to spread freedom and inspire hope-or, in time, revolution-in the hearts of the oppressed.\n\nSkill Proficiencies: Deception, Performance\n\nTool Proficiencies: One type of musical instrument, thieves' tools\n\nEquipment: A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15 gp\n\nFeature: Ballad of the Grinning Fool",
       "rules": [
-        { "grant": "skill:Deception" },
-        { "grant": "skill:Performance" },
+        {
+          "grant": "skill:Deception"
+        },
+        {
+          "grant": "skill:Performance"
+        },
         {
           "select": {
             "name": "Musical Instrument",
             "type": "Tool",
-            "from": [
-              "Tool:Bagpipes",
-              "Tool:Drum",
-              "Tool:Dulcimer",
-              "Tool:Flute",
-              "Tool:Lute",
-              "Tool:Lyre",
-              "Tool:Horn",
-              "Tool:Pan Flute",
-              "Tool:Shawm",
-              "Tool:Viol"
-            ],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Tool:Bagpipes (PHB)",
+              "Tool:Drum (PHB)",
+              "Tool:Dulcimer (PHB)",
+              "Tool:Flute (PHB)",
+              "Tool:Lute (PHB)",
+              "Tool:Lyre (PHB)",
+              "Tool:Horn (PHB)",
+              "Tool:Pan flute (PHB)",
+              "Tool:Shawm (PHB)",
+              "Tool:Viol (PHB)"
+            ]
           }
         },
-        { "grant": "Tool:Thieves' Tools" },
-        { "grant": "Background Feature:Ballad of the Grinning Fool" }
+        {
+          "pf": [
+            "t:Thieves’ tools"
+          ]
+        },
+        {
+          "grant": "Background Feature:Ballad of the Grinning Fool"
+        }
       ],
       "chars": {
         "traits": [
@@ -80,9 +90,17 @@
       "name": "Volstrucker Agent",
       "desc": "The Volstrucker are a clandestine organization of arcane assassins and enforcers in the service of the Cerberus Assembly. Their operatives bear no official title, but are referred to in hushed tones as \"scourgers\" by residents of large Dwendalian cities such as Zadash and Rexxentrum.\n\nYou are a Volstrucker agent. Your duty is to silence dissidents who would undermine the will of King Dwendal-and more importantly, the will of the Assembly.\n\nSkill Proficiencies: Deception, Stealth\n\nTool Proficiencies: Poisoner's kit\n\nLanguages: One of your choice\n\nEquipment: A set of common clothes, a black cloak with a hood, a poisoner's kit, and a pouch containing 10 gp\n\nFeature: Shadow Network",
       "rules": [
-        { "grant": "skill:Deception" },
-        { "grant": "skill:Stealth" },
-        { "grant": "Tool:Poisoner's Kit" },
+        {
+          "grant": "skill:Deception"
+        },
+        {
+          "grant": "skill:Stealth"
+        },
+        {
+          "pf": [
+            "t:Poisoner’s kit"
+          ]
+        },
         {
           "select": {
             "name": "Language",
@@ -90,7 +108,9 @@
             "n": 1
           }
         },
-        { "grant": "Background Feature:Shadow Network" }
+        {
+          "grant": "Background Feature:Shadow Network"
+        }
       ],
       "chars": {
         "traits": [
