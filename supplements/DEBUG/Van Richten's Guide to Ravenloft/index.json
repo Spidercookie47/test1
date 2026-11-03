@@ -1,0 +1,17 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "vrgtr",
+  "name": "Van Richten's Guide to Ravenloft",
+  "short": "VRGtR",
+  "license": "Proprietary",
+  "credit": "Content from Van Richten's Guide to Ravenloft, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "subclasses.json",
+  "backgrounds.json",
+  "feats.json"
+ ]
+}
