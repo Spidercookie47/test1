@@ -1,0 +1,1716 @@
+{
+ "elements": [
+  {
+   "id": "Race:Aarakocra",
+   "type": "Race",
+   "name": "Aarakocra",
+   "desc": "A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "wis": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Flight (Aarakocra)"
+    },
+    {
+     "grant": "Racial Trait:Talons"
+    },
+    {
+     "grant": "Racial Trait:Wind Caller"
+    }
+   ],
+   "featSpells": [
+    [
+     3,
+     "Gust of Wind",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Aasimar",
+   "type": "Race",
+   "name": "Aasimar",
+   "desc": "Aasimar are placed in the world to serve as guardians of law and good.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "wis": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Celestial Resistance"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Healing Hands"
+    },
+    {
+     "grant": "Racial Trait:Light Bearer"
+    },
+    {
+     "grant": "Racial Trait:Celestial Revelation"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Light",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Bugbear",
+   "type": "Race",
+   "name": "Bugbear",
+   "desc": "Bugbears are born for battle and mayhem.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "dex": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Long-Limbed"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    },
+    {
+     "grant": "Racial Trait:Sneaky"
+    },
+    {
+     "grant": "Racial Trait:Surprise Attack"
+    }
+   ]
+  },
+  {
+   "id": "Race:Centaur",
+   "type": "Race",
+   "name": "Centaur",
+   "desc": "Centaurs gallop into the fray, their hooves thundering across the battlefield.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "wis": 1,
+      "speed": 40
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Charge"
+    },
+    {
+     "grant": "Racial Trait:Hooves"
+    },
+    {
+     "grant": "Racial Trait:Equine Build"
+    },
+    {
+     "grant": "Racial Trait:Natural Affinity"
+    }
+   ]
+  },
+  {
+   "id": "Race:Changeling",
+   "type": "Race",
+   "name": "Changeling",
+   "desc": "Changelings are shapechangers by nature, capable of altering their appearance at will.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "dex": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Shapechanger"
+    },
+    {
+     "grant": "Racial Trait:Changeling Instincts"
+    }
+   ]
+  },
+  {
+   "id": "Race:Deep Gnome",
+   "type": "Race",
+   "name": "Deep Gnome",
+   "desc": "Deep gnomes, or svirfneblin, are natives of the Underdark and are suffused with that subterranean realm's magic.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Superior Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Gnomish Magic Resistance"
+    },
+    {
+     "grant": "Racial Trait:Svirfneblin Camouflage"
+    }
+   ]
+  },
+  {
+   "id": "Race:Duergar",
+   "type": "Race",
+   "name": "Duergar",
+   "desc": "Duergar are dwarves whose ancestors were transformed by centuries living in the deepest places of the Underdark.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Superior Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Dwarven Resilience"
+    },
+    {
+     "grant": "Racial Trait:Psionic Fortitude"
+    },
+    {
+     "grant": "Racial Trait:Duergar Magic"
+    }
+   ],
+   "featSpells": [
+    [
+     3,
+     "Enlarge/Reduce (Enlarge Only)",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Invisibility",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Eladrin",
+   "type": "Race",
+   "name": "Eladrin",
+   "desc": "Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Keen Senses"
+    },
+    {
+     "grant": "Racial Trait:Fey Step"
+    }
+   ]
+  },
+  {
+   "id": "Race:Fairy",
+   "type": "Race",
+   "name": "Fairy",
+   "desc": "The Feywild is home to many fantastic peoples, including fairies.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Fairy Magic"
+    },
+    {
+     "grant": "Racial Trait:Flight (Fairy)"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Druidcraft",
+     "at will"
+    ],
+    [
+     3,
+     "Faerie Fire",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Enlarge/Reduce",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Firbolg",
+   "type": "Race",
+   "name": "Firbolg",
+   "desc": "Firbolgs are humanoids related to giants, with a connection to the natural world.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Firbolg Magic"
+    },
+    {
+     "grant": "Racial Trait:Hidden Step"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    },
+    {
+     "grant": "Racial Trait:Speech of Beast and Leaf"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Disguise Self",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Air Genasi",
+   "type": "Race",
+   "name": "Air Genasi",
+   "desc": "Tracing their ancestry to djinn of the Elemental Plane of Air, air genasi are often restless and dream of far-off places.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 35
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Unending Breath"
+    },
+    {
+     "grant": "Racial Trait:Lightning Resistance"
+    },
+    {
+     "grant": "Racial Trait:Mingle with the Wind"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Shocking Grasp",
+     "at will"
+    ],
+    [
+     3,
+     "Feather Fall",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Levitate",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Earth Genasi",
+   "type": "Race",
+   "name": "Earth Genasi",
+   "desc": "Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao's steadfast strength.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Earth Walk"
+    },
+    {
+     "grant": "Racial Trait:Merge with Stone"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Blade Ward",
+     "at will"
+    ],
+    [
+     5,
+     "Pass without Trace",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Fire Genasi",
+   "type": "Race",
+   "name": "Fire Genasi",
+   "desc": "Tracing their ancestry to efreeti of the Elemental Plane of Fire, fire genasi are passionate and quick to act.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fire Resistance"
+    },
+    {
+     "grant": "Racial Trait:Reach to the Blaze"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Produce Flame",
+     "at will"
+    ],
+    [
+     3,
+     "Burning Hands",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Flame Blade",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Water Genasi",
+   "type": "Race",
+   "name": "Water Genasi",
+   "desc": "Tracing their ancestry to marids of the Elemental Plane of Water, water genasi are calm and contemplative.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Acid Resistance"
+    },
+    {
+     "grant": "Racial Trait:Amphibious"
+    },
+    {
+     "grant": "Racial Trait:Call to the Wave"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Acid Splash",
+     "at will"
+    ],
+    [
+     3,
+     "Create or Destroy Water",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Water Walk",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Githyanki",
+   "type": "Race",
+   "name": "Githyanki",
+   "desc": "Githyanki are a lanky people with skin tones of yellows, greens, and browns.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Astral Knowledge"
+    },
+    {
+     "grant": "Racial Trait:Githyanki Psionics"
+    },
+    {
+     "grant": "Racial Trait:Psychic Resilience"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Mage Hand",
+     "at will"
+    ],
+    [
+     3,
+     "Jump",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Misty Step",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Githzerai",
+   "type": "Race",
+   "name": "Githzerai",
+   "desc": "Githzerai are generally slender, with speckled skin in shades of yellow, green, or brown.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Mental Discipline"
+    },
+    {
+     "grant": "Racial Trait:Githzerai Psionics"
+    },
+    {
+     "grant": "Racial Trait:Psychic Resilience"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Mage Hand",
+     "at will"
+    ],
+    [
+     3,
+     "Shield",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Detect Thoughts",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Goblin",
+   "type": "Race",
+   "name": "Goblin",
+   "desc": "Goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Fury of the Small"
+    },
+    {
+     "grant": "Racial Trait:Nimble Escape"
+    }
+   ]
+  },
+  {
+   "id": "Race:Goliath",
+   "type": "Race",
+   "name": "Goliath",
+   "desc": "Distantly related to giants and infused with the supernatural essence of their ancestors' mountainous home.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Little Giant"
+    },
+    {
+     "grant": "Racial Trait:Mountain Born"
+    },
+    {
+     "grant": "Racial Trait:Stone's Endurance"
+    }
+   ]
+  },
+  {
+   "id": "Race:Harengon",
+   "type": "Race",
+   "name": "Harengon",
+   "desc": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Hare-Trigger"
+    },
+    {
+     "grant": "Racial Trait:Leporine Senses"
+    },
+    {
+     "grant": "Racial Trait:Lucky Footwork"
+    },
+    {
+     "grant": "Racial Trait:Rabbit Hop"
+    }
+   ]
+  },
+  {
+   "id": "Race:Hobgoblin",
+   "type": "Race",
+   "name": "Hobgoblin",
+   "desc": "Hobgoblins are a goblinoid people who value discipline, honor, and community.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Fortune from the Many"
+    },
+    {
+     "grant": "Racial Trait:Saving Face"
+    }
+   ]
+  },
+  {
+   "id": "Race:Kenku",
+   "type": "Race",
+   "name": "Kenku",
+   "desc": "Feathered folk who resemble ravens, kenku are blessed with keen observation and supernaturally accurate memories.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Expert Duplication"
+    },
+    {
+     "grant": "Racial Trait:Kenku Recall"
+    },
+    {
+     "grant": "Racial Trait:Mimicry"
+    }
+   ]
+  },
+  {
+   "id": "Race:Kobold",
+   "type": "Race",
+   "name": "Kobold",
+   "desc": "Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Draconic Cry"
+    },
+    {
+     "grant": "Racial Trait:Kobold Legacy"
+    }
+   ]
+  },
+  {
+   "id": "Race:Lizardfolk",
+   "type": "Race",
+   "name": "Lizardfolk",
+   "desc": "The saurian lizardfolk are thought by some sages to be distant cousins of dragonborn and kobolds.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Bite"
+    },
+    {
+     "grant": "Racial Trait:Hold Breath"
+    },
+    {
+     "grant": "Racial Trait:Hungry Jaws"
+    },
+    {
+     "grant": "Racial Trait:Natural Armor (Lizardfolk)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Minotaur",
+   "type": "Race",
+   "name": "Minotaur",
+   "desc": "Minotaurs are barrel-chested humanoids with heads resembling those of bulls.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Horns"
+    },
+    {
+     "grant": "Racial Trait:Goring Rush"
+    },
+    {
+     "grant": "Racial Trait:Hammering Horns"
+    },
+    {
+     "grant": "Racial Trait:Labyrinthine Recall"
+    }
+   ]
+  },
+  {
+   "id": "Race:Orc",
+   "type": "Race",
+   "name": "Orc",
+   "desc": "Orcs are a people of gray skin, sharply pointed ears, and prominent lower canines that resemble small tusks.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Adrenaline Rush"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    }
+   ]
+  },
+  {
+   "id": "Race:Satyr",
+   "type": "Race",
+   "name": "Satyr",
+   "desc": "Originating in the Feywild—a realm of pure emotion—satyrs thrive on the energy of merriment.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 35
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Ram"
+    },
+    {
+     "grant": "Racial Trait:Magic Resistance"
+    },
+    {
+     "grant": "Racial Trait:Mirthful Leaps"
+    },
+    {
+     "grant": "Racial Trait:Reveler"
+    }
+   ]
+  },
+  {
+   "id": "Race:Sea Elf",
+   "type": "Race",
+   "name": "Sea Elf",
+   "desc": "Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Child of the Sea"
+    },
+    {
+     "grant": "Racial Trait:Friend of the Sea"
+    },
+    {
+     "grant": "Racial Trait:Keen Senses"
+    }
+   ]
+  },
+  {
+   "id": "Race:Shadar-kai",
+   "type": "Race",
+   "name": "Shadar-kai",
+   "desc": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Keen Senses"
+    },
+    {
+     "grant": "Racial Trait:Blessing of the Raven Queen"
+    },
+    {
+     "grant": "Racial Trait:Necrotic Resistance"
+    }
+   ]
+  },
+  {
+   "id": "Race:Shifter",
+   "type": "Race",
+   "name": "Shifter",
+   "desc": "Shifters—sometimes called \"weretouched\"—descend from people who contracted full or partial lycanthropy.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Bestial Instincts"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Shifting"
+    }
+   ]
+  },
+  {
+   "id": "Race:Tabaxi",
+   "type": "Race",
+   "name": "Tabaxi",
+   "desc": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Cat's Claws"
+    },
+    {
+     "grant": "Racial Trait:Cat's Talent"
+    },
+    {
+     "grant": "Racial Trait:Feline Agility"
+    }
+   ]
+  },
+  {
+   "id": "Race:Tortle",
+   "type": "Race",
+   "name": "Tortle",
+   "desc": "Tortles have a saying: \"We wear our homes on our backs.\"",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Claws"
+    },
+    {
+     "grant": "Racial Trait:Hold Breath"
+    },
+    {
+     "grant": "Racial Trait:Natural Armor (Tortle)"
+    },
+    {
+     "grant": "Racial Trait:Nature's Intuition"
+    },
+    {
+     "grant": "Racial Trait:Shell Defense"
+    }
+   ]
+  },
+  {
+   "id": "Race:Triton",
+   "type": "Race",
+   "name": "Triton",
+   "desc": "Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Amphibious"
+    },
+    {
+     "grant": "Racial Trait:Control Air and Water"
+    },
+    {
+     "grant": "Racial Trait:Emissary of the Sea"
+    },
+    {
+     "grant": "Racial Trait:Guardian of the Depths"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Fog Cloud",
+     "1/long rest"
+    ],
+    [
+     3,
+     "Gust of Wind",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Yuan-ti",
+   "type": "Race",
+   "name": "Yuan-ti",
+   "desc": "Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Magic Resistance"
+    },
+    {
+     "grant": "Racial Trait:Poison Resilience"
+    },
+    {
+     "grant": "Racial Trait:Serpentine Spellcasting"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Poison Spray",
+     "at will"
+    ],
+    [
+     1,
+     "Animal Friendship (Snakes Only)",
+     "at will"
+    ],
+    [
+     3,
+     "Suggestion",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Adrenaline Rush",
+   "type": "Racial Trait",
+   "name": "Adrenaline Rush",
+   "desc": "You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Amphibious",
+   "type": "Racial Trait",
+   "name": "Amphibious",
+   "desc": "You can breathe air and water.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Astral Knowledge",
+   "type": "Racial Trait",
+   "name": "Astral Knowledge",
+   "desc": "You can mystically access a reservoir of experiences of your kind. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice. These proficiencies last until the end of your next long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Bestial Instincts",
+   "type": "Racial Trait",
+   "name": "Bestial Instincts",
+   "desc": "Channeling the beast within, you have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Bite",
+   "type": "Racial Trait",
+   "name": "Bite",
+   "desc": "You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Blessing of the Raven Queen",
+   "type": "Racial Trait",
+   "name": "Blessing of the Raven Queen",
+   "desc": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Call to the Wave",
+   "type": "Racial Trait",
+   "name": "Call to the Wave",
+   "desc": "You know the Acid Splash cantrip. Starting at 3rd level, you can cast the Create or Destroy Water spell with this trait. Starting at 5th level, you can also cast the Water Walk spell with this trait, without requiring a material component. Once you cast Create or Destroy Water or Water Walk with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Celestial Resistance",
+   "type": "Racial Trait",
+   "name": "Celestial Resistance",
+   "desc": "You have resistance to necrotic damage and radiant damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Celestial Revelation",
+   "type": "Racial Trait",
+   "name": "Celestial Revelation",
+   "desc": "When you reach 3rd level, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Choose one of the following options: Necrotic Shroud, Radiant Soul, or Radiant Consumption. Once you use this trait, you can't do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Changeling Instincts",
+   "type": "Racial Trait",
+   "name": "Changeling Instincts",
+   "desc": "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Charge",
+   "type": "Racial Trait",
+   "name": "Charge",
+   "desc": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Child of the Sea",
+   "type": "Racial Trait",
+   "name": "Child of the Sea",
+   "desc": "You can breathe air and water, and you have resistance to cold damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Control Air and Water",
+   "type": "Racial Trait",
+   "name": "Control Air and Water",
+   "desc": "You can cast the Fog Cloud spell with this trait. Starting at 3rd level, you can also cast the Gust of Wind spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Draconic Cry",
+   "type": "Racial Trait",
+   "name": "Draconic Cry",
+   "desc": "As a bonus action, you let out a cry at your enemies that echoes with draconic might. Until the start of your next turn, you and your allies have advantage on attack rolls against any creature within 10 feet of you that can hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Duergar Magic",
+   "type": "Racial Trait",
+   "name": "Duergar Magic",
+   "desc": "Starting at 3rd level, you can cast the Enlarge/Reduce spell (the enlarge option only) with this trait, without requiring a material component. Starting at 5th level, you can also cast the Invisibility spell with it, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Dwarven Resilience",
+   "type": "Racial Trait",
+   "name": "Dwarven Resilience",
+   "desc": "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Earth Walk",
+   "type": "Racial Trait",
+   "name": "Earth Walk",
+   "desc": "You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Emissary of the Sea",
+   "type": "Racial Trait",
+   "name": "Emissary of the Sea",
+   "desc": "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Equine Build",
+   "type": "Racial Trait",
+   "name": "Equine Build",
+   "desc": "You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Expert Duplication",
+   "type": "Racial Trait",
+   "name": "Expert Duplication",
+   "desc": "When you copy writing or craftwork produced by yourself or others, you can produce an exact duplicate of the original in half the normal time.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fairy Magic",
+   "type": "Racial Trait",
+   "name": "Fairy Magic",
+   "desc": "You know the Druidcraft cantrip. Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Feline Agility",
+   "type": "Racial Trait",
+   "name": "Feline Agility",
+   "desc": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fey Ancestry",
+   "type": "Racial Trait",
+   "name": "Fey Ancestry",
+   "desc": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fey Step",
+   "type": "Racial Trait",
+   "name": "Fey Step",
+   "desc": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. When you reach 3rd level, your Fey Step gains an additional effect based on your season.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Firbolg Magic",
+   "type": "Racial Trait",
+   "name": "Firbolg Magic",
+   "desc": "You can cast the Detect Magic and Disguise Self spells with this trait. When you use this version of Disguise Self, you can seem up to 3 feet shorter or taller. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Flight (Aarakocra)",
+   "type": "Racial Trait",
+   "name": "Flight (Aarakocra)",
+   "desc": "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Flight (Fairy)",
+   "type": "Racial Trait",
+   "name": "Flight (Fairy)",
+   "desc": "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fortune from the Many",
+   "type": "Racial Trait",
+   "name": "Fortune from the Many",
+   "desc": "If you miss with an attack roll or fail an ability check or a saving throw, you can draw on the bonds of solidarity to fuel your effort. Roll a d4 and add the number rolled to the attack roll, ability check, or saving throw, potentially turning the miss or failure into a success. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Friend of the Sea",
+   "type": "Racial Trait",
+   "name": "Friend of the Sea",
+   "desc": "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fury of the Small",
+   "type": "Racial Trait",
+   "name": "Fury of the Small",
+   "desc": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you can use it no more than once per turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Githyanki Psionics",
+   "type": "Racial Trait",
+   "name": "Githyanki Psionics",
+   "desc": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Starting at 3rd level, you can cast the Jump spell with this trait. Starting at 5th level, you can also cast the Misty Step spell with this trait. Once you cast Jump or Misty Step with this trait, you can't cast that spell with it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Githzerai Psionics",
+   "type": "Racial Trait",
+   "name": "Githzerai Psionics",
+   "desc": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Starting at 3rd level, you can cast the Shield spell with this trait. Starting at 5th level, you can also cast the Detect Thoughts spell with this trait. Once you cast Shield or Detect Thoughts with this trait, you can't cast that spell with it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Gnomish Magic Resistance",
+   "type": "Racial Trait",
+   "name": "Gnomish Magic Resistance",
+   "desc": "You have advantage on Intelligence, Wisdom, and Charisma saving throws against spells.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Goring Rush",
+   "type": "Racial Trait",
+   "name": "Goring Rush",
+   "desc": "Immediately after you take the Dash action on your turn, you can make one melee attack with your horns as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Guardian of the Depths",
+   "type": "Racial Trait",
+   "name": "Guardian of the Depths",
+   "desc": "Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hammering Horns",
+   "type": "Racial Trait",
+   "name": "Hammering Horns",
+   "desc": "Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that creature with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hare-Trigger",
+   "type": "Racial Trait",
+   "name": "Hare-Trigger",
+   "desc": "You can add your proficiency bonus to your initiative rolls.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Healing Hands",
+   "type": "Racial Trait",
+   "name": "Healing Hands",
+   "desc": "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hidden Step",
+   "type": "Racial Trait",
+   "name": "Hidden Step",
+   "desc": "As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hold Breath",
+   "type": "Racial Trait",
+   "name": "Hold Breath",
+   "desc": "You can hold your breath for up to 15 minutes at a time. (Tortles can hold their breath for up to 1 hour).",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hooves",
+   "type": "Racial Trait",
+   "name": "Hooves",
+   "desc": "You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Horns",
+   "type": "Racial Trait",
+   "name": "Horns",
+   "desc": "You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hungry Jaws",
+   "type": "Racial Trait",
+   "name": "Hungry Jaws",
+   "desc": "You can throw yourself into a feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Kenku Recall",
+   "type": "Racial Trait",
+   "name": "Kenku Recall",
+   "desc": "Thanks to your supernaturally accurate memory, you have proficiency in two skills of your choice. In addition, when you make an ability check using a skill you're proficient in, you can give yourself advantage on the check. Once you use this trait, you can't do so again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Kobold Legacy",
+   "type": "Racial Trait",
+   "name": "Kobold Legacy",
+   "desc": "You have draconic ancestry. Choose one of the following legacy options: Craftiness (proficiency in Arcana, Investigation, Medicine, Sleight of Hand, or Survival), Defiance (advantage on saving throws against being frightened), or Draconic Sorcery (know one cantrip of your choice from the Sorcerer spell list).",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Labyrinthine Recall",
+   "type": "Racial Trait",
+   "name": "Labyrinthine Recall",
+   "desc": "You always know which direction is north, and you have advantage on any Wisdom (Survival) check you make to navigate or track.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Leporine Senses",
+   "type": "Racial Trait",
+   "name": "Leporine Senses",
+   "desc": "You have proficiency in the Perception skill.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Light Bearer",
+   "type": "Racial Trait",
+   "name": "Light Bearer",
+   "desc": "You know the Light cantrip. Charisma is your spellcasting ability for it.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Little Giant",
+   "type": "Racial Trait",
+   "name": "Little Giant",
+   "desc": "You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Long-Limbed",
+   "type": "Racial Trait",
+   "name": "Long-Limbed",
+   "desc": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Lucky Footwork",
+   "type": "Racial Trait",
+   "name": "Lucky Footwork",
+   "desc": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mental Discipline",
+   "type": "Racial Trait",
+   "name": "Mental Discipline",
+   "desc": "You have advantage on saving throws you make to avoid or end the charmed and frightened conditions on yourself.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Merge with Stone",
+   "type": "Racial Trait",
+   "name": "Merge with Stone",
+   "desc": "You know the Blade Ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus. Starting at 5th level, you can cast the Pass without Trace spell with this trait, without requiring a material component. Once you cast Pass without Trace with this trait, you can't cast that spell with it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mimicry",
+   "type": "Racial Trait",
+   "name": "Mimicry",
+   "desc": "You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mingle with the Wind",
+   "type": "Racial Trait",
+   "name": "Mingle with the Wind",
+   "desc": "You know the Shocking Grasp cantrip. Starting at 3rd level, you can cast the Feather Fall spell with this trait. Starting at 5th level, you can also cast the Levitate spell with this trait, without requiring a material component. Once you cast Feather Fall or Levitate with this trait, you can't cast that spell with it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mirthful Leaps",
+   "type": "Racial Trait",
+   "name": "Mirthful Leaps",
+   "desc": "Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when you make a standing jump. This extra distance costs movement as normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mountain Born",
+   "type": "Racial Trait",
+   "name": "Mountain Born",
+   "desc": "You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Affinity",
+   "type": "Racial Trait",
+   "name": "Natural Affinity",
+   "desc": "You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Armor (Lizardfolk)",
+   "type": "Racial Trait",
+   "name": "Natural Armor (Lizardfolk)",
+   "desc": "You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Armor (Tortle)",
+   "type": "Racial Trait",
+   "name": "Natural Armor (Tortle)",
+   "desc": "Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nature's Intuition",
+   "type": "Racial Trait",
+   "name": "Nature's Intuition",
+   "desc": "Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Necrotic Resistance",
+   "type": "Racial Trait",
+   "name": "Necrotic Resistance",
+   "desc": "You have resistance to necrotic damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nimble Escape",
+   "type": "Racial Trait",
+   "name": "Nimble Escape",
+   "desc": "You can take the Disengage or Hide action as a bonus action on each of your turns.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Poison Resilience",
+   "type": "Racial Trait",
+   "name": "Poison Resilience",
+   "desc": "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Powerful Build",
+   "type": "Racial Trait",
+   "name": "Powerful Build",
+   "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Psionic Fortitude",
+   "type": "Racial Trait",
+   "name": "Psionic Fortitude",
+   "desc": "You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Psychic Resilience",
+   "type": "Racial Trait",
+   "name": "Psychic Resilience",
+   "desc": "You have resistance to psychic damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Rabbit Hop",
+   "type": "Racial Trait",
+   "name": "Rabbit Hop",
+   "desc": "As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Ram",
+   "type": "Racial Trait",
+   "name": "Ram",
+   "desc": "You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Reach to the Blaze",
+   "type": "Racial Trait",
+   "name": "Reach to the Blaze",
+   "desc": "You know the Produce Flame cantrip. Starting at 3rd level, you can cast the Burning Hands spell with this trait. Starting at 5th level, you can also cast the Flame Blade spell with this trait, without requiring a material component. Once you cast Burning Hands or Flame Blade with this trait, you can't cast that spell with it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Relentless Endurance",
+   "type": "Racial Trait",
+   "name": "Relentless Endurance",
+   "desc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Reveler",
+   "type": "Racial Trait",
+   "name": "Reveler",
+   "desc": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.",
+   "rules": [
+    {
+     "grant": "skill:Performance"
+    },
+    {
+     "grant": "skill:Persuasion"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Saving Face",
+   "type": "Racial Trait",
+   "name": "Saving Face",
+   "desc": "When you or a creature you can see within 30 feet of you fails a saving throw, you can use your reaction to expend one use of your Fortune from the Many trait to add the number rolled to the saving throw, potentially turning the failure into a success.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Serpentine Spellcasting",
+   "type": "Racial Trait",
+   "name": "Serpentine Spellcasting",
+   "desc": "You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shapechanger",
+   "type": "Racial Trait",
+   "name": "Shapechanger",
+   "desc": "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can stay in the new form until you use an action to revert to your true form or until you die.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shell Defense",
+   "type": "Racial Trait",
+   "name": "Shell Defense",
+   "desc": "You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shifting",
+   "type": "Racial Trait",
+   "name": "Shifting",
+   "desc": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute. When you shift, you gain temporary hit points equal to 2 × your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sneaky",
+   "type": "Racial Trait",
+   "name": "Sneaky",
+   "desc": "You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.",
+   "rules": [
+    {
+     "grant": "skill:Stealth"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Speech of Beast and Leaf",
+   "type": "Racial Trait",
+   "name": "Speech of Beast and Leaf",
+   "desc": "You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Stone's Endurance",
+   "type": "Racial Trait",
+   "name": "Stone's Endurance",
+   "desc": "You can supernaturally draw on unyielding stone to shrug off harm. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Superior Darkvision",
+   "type": "Racial Trait",
+   "name": "Superior Darkvision",
+   "desc": "You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Surprise Attack",
+   "type": "Racial Trait",
+   "name": "Surprise Attack",
+   "desc": "If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Svirfneblin Camouflage",
+   "type": "Racial Trait",
+   "name": "Svirfneblin Camouflage",
+   "desc": "When you make a Dexterity (Stealth) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Talons",
+   "type": "Racial Trait",
+   "name": "Talons",
+   "desc": "You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Unending Breath",
+   "type": "Racial Trait",
+   "name": "Unending Breath",
+   "desc": "You can hold your breath indefinitely while you're not incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Wind Caller",
+   "type": "Racial Trait",
+   "name": "Wind Caller",
+   "desc": "Starting at 3rd level, you can cast the Gust of Wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.",
+   "rules": []
+  }
+ ]
+}

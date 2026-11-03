@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "mpmm",
+  "name": "Mordenkainen Presents: Monsters of the Multiverse",
+  "short": "MPMM",
+  "license": "Proprietary",
+  "credit": "Content from Mordenkainen Presents: Monsters of the Multiverse, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json"
+ ]
+}
