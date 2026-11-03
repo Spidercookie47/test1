@@ -1,0 +1,65 @@
+{
+ "elements": [
+  {
+   "id": "Spell:Antagonize",
+   "type": "Spell",
+   "name": "Antagonize",
+   "desc": "You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, the target takes 4d4 psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see.\n\nAt Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d4 for each slot level above 3rd.",
+   "rules": [],
+   "lvl": 3,
+   "school": "enchantment",
+   "comp": "V",
+   "cast": "1 action",
+   "range": "30 feet",
+   "dur": "Instantaneous",
+   "ritual": false,
+   "lists": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+   ],
+   "mat": ""
+  },
+  {
+   "id": "Spell:Spray of Cards",
+   "type": "Spell",
+   "name": "Spray of Cards",
+   "desc": "You spray a 15-foot cone of spectral cards. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage and has the blinded condition until the end of its next turn. On a successful save, a creature takes half as much damage and isn't blinded.\n\nAt Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.",
+   "rules": [],
+   "lvl": 2,
+   "school": "conjuration",
+   "comp": "V,S,M",
+   "cast": "1 action",
+   "range": "Self (15-foot cone)",
+   "dur": "Instantaneous",
+   "ritual": false,
+   "lists": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+   ],
+   "mat": "A deck of cards"
+  },
+  {
+   "id": "Spell:Spirit of Death",
+   "type": "Spell",
+   "name": "Spirit of Death",
+   "desc": "You call forth a spirit that embodies death itself. The spirit manifests in an unoccupied space that you can see within range. It uses the Reaper Spirit stat block. When you cast the spell, choose one of the following damage types: necrotic or psychic. The spirit is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.\n\nAt Higher Levels. When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+   "rules": [],
+   "lvl": 4,
+   "school": "necromancy",
+   "comp": "V,S,M",
+   "cast": "1 action",
+   "range": "60 feet",
+   "dur": "Concentration, up to 1 hour",
+   "ritual": false,
+   "lists": [
+    "Warlock",
+    "Wizard"
+   ],
+   "mat": "A gilded playing card worth at least 400 gp"
+  }
+ ]
+}

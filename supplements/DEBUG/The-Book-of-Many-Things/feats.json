@@ -1,0 +1,18 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Cartomancer",
+   "type": "Feat",
+   "name": "Cartomancer",
+   "desc": "Prerequisite: Level 4+, Spellcasting or Pact Magic feature\n\nYou have learned to channel your magic through a deck of cards. You gain the following benefits:\n\n- **Card Tricks.** You learn the Prestidigitation cantrip. You can cast it without verbal or somatic components, and you can make the illusory effects it creates appear as a deck of cards.\n- **Card Focus.** You can use a deck of cards as a spellcasting focus for your spells.\n- **Hidden Ace.** When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Prestidigitation",
+     "at will"
+    ]
+   ]
+  }
+ ]
+}

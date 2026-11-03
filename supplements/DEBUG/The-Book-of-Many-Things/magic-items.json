@@ -1,0 +1,88 @@
+{
+ "elements": [
+  {
+   "id": "Magic:House of Cards",
+   "type": "Magic",
+   "name": "House of Cards",
+   "desc": "Wondrous item, uncommon\n\nThis deck of cards is contained in an ornate box. As an action, you can throw the deck to the ground and speak its command word. The cards magically construct a sturdy, one-room shelter, 20 feet square and 10 feet high. The shelter has a door and two windows, and it is furnished with simple cots, a table, and chairs. The shelter has AC 15, 50 hit points, and immunity to poison and psychic damage. It lasts for 24 hours, until you dismiss it as an action, or until it is reduced to 0 hit points. When the shelter's duration ends, it transforms back into a deck of cards and appears in your hand.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Armor of the Fallen",
+   "type": "Magic",
+   "name": "Armor of the Fallen",
+   "desc": "Armor (studded leather), rare (requires attunement)\n\nThis black studded leather armor bears a red sheen. While wearing it, you have resistance to necrotic damage. In addition, when you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. Once this property is used, it can't be used again until the next dawn.",
+   "rules": [],
+   "cg": "Magic Armor",
+   "cp": 0,
+   "price": 0,
+   "wt": 13,
+   "rar": "Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Bow of Melodies",
+   "type": "Magic",
+   "name": "Bow of Melodies",
+   "desc": "Weapon (any bow), rare (requires attunement)\n\nThis bow is carved with musical notes that shimmer in the light. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 1d6 thunder damage. In addition, when you nock an arrow, you can use a bonus action to speak a command word, causing the bow to play a soothing melody. Each creature of your choice within 30 feet of you that can hear the melody gains 1d6 temporary hit points.",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 2,
+   "rar": "Rare",
+   "att": true,
+   "effect": {
+    "att": 1
+   }
+  },
+  {
+   "id": "Magic:Fate Dealer's Deck",
+   "type": "Magic",
+   "name": "Fate Dealer's Deck",
+   "desc": "Wondrous item, very rare (requires attunement)\n\nThis deck of cards is a powerful tool for manipulating fate. It functions as a spellcasting focus. The deck has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can expend 1 charge to cast one of the following spells (save DC 16): Augury, Bane, Bless, or Hex.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Very Rare",
+   "att": true
+  },
+  {
+   "id": "Magic:Sword of the Planes",
+   "type": "Magic",
+   "name": "Sword of the Planes",
+   "desc": "Weapon (any sword), legendary (requires attunement)\n\nThis sword is etched with designs representing different planes of existence. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 2d6 force damage. In addition, you can use an action to cast the Plane Shift spell from the sword. Once this property is used, it can't be used again until the next dawn.",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 3,
+   "rar": "Legendary",
+   "att": true,
+   "effect": {
+    "att": 3
+   }
+  },
+  {
+   "id": "Magic:Mantle of the Pogue",
+   "type": "Magic",
+   "name": "Mantle of the Pogue",
+   "desc": "Wondrous item, rare (requires attunement)\n\nThis mantle is made of a patchwork of colorful fabrics. While wearing it, you have advantage on Charisma (Performance) checks. The mantle has 3 charges and regains 1d3 expended charges daily at dawn. While wearing it, you can use an action to expend 1 charge to cast the Antagonize spell (save DC 15) from it.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Rare",
+   "att": true
+  }
+ ]
+}
