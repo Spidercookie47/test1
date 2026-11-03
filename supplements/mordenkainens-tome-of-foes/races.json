@@ -6,10 +6,25 @@
       "name": "Gith",
       "desc": "The story of the gith is rooted in a cruel twist of cosmic fate. Inspired by the great leader for whom the race is named, the gith rose up to overthrow the mind flayers that held them in servitude. But after they won their freedom, two factions among the gith disagreed on what kind of civilization they would forge. That disagreement quickly flared into open hostility, and the two groups distanced themselves from one another to pursue their separate agendas. They remain bitter enemies today, each side willing to fight to the death whenever they cross paths.",
       "rules": [
-        { "stat": { "int": 1, "speed": 30 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Gith" },
-        { "select": { "name": "Gith Subrace", "type": "Sub Race", "supports": "Race:Gith" } }
+        {
+          "stat": {
+            "int": 1,
+            "speed": 30
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Gith"
+        },
+        {
+          "select": {
+            "name": "Gith Subrace",
+            "type": "Sub Race",
+            "supports": "Race:Gith"
+          }
+        }
       ]
     },
     {
@@ -19,10 +34,20 @@
       "supports": "Race:Gith",
       "desc": "The brutal githyanki are trained from birth as warriors. Since winning their freedom from the mind flayers, the githyanki have become corrupt raiders and destroyers under the rulership of their dread lich-queen, Vlaakith. They dwell on the Astral Plane in the city of Tu'narath.",
       "rules": [
-        { "stat": { "str": 2 } },
-        { "grant": "Racial Trait:Decadent Mastery" },
-        { "grant": "Racial Trait:Martial Prodigy" },
-        { "grant": "Racial Trait:Githyanki Psionics" }
+        {
+          "stat": {
+            "str": 2
+          }
+        },
+        {
+          "grant": "Racial Trait:Decadent Mastery"
+        },
+        {
+          "grant": "Racial Trait:Martial Prodigy"
+        },
+        {
+          "grant": "Racial Trait:Githyanki Psionics"
+        }
       ]
     },
     {
@@ -31,16 +56,36 @@
       "name": "Decadent Mastery",
       "desc": "You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge.",
       "rules": [
-        { "select": { "name": "Language", "type": "Language", "n": 1 } },
+        {
+          "select": {
+            "name": "Language",
+            "type": "Language",
+            "n": 1
+          }
+        },
         {
           "select": {
             "name": "Skill Proficiency",
             "type": "Skill",
             "from": [
-              "Acrobatics", "Animal Handling", "Arcana", "Athletics", "Deception",
-              "History", "Insight", "Intimidation", "Investigation", "Medicine",
-              "Nature", "Perception", "Performance", "Persuasion", "Religion",
-              "Sleight of Hand", "Stealth", "Survival"
+              "Acrobatics",
+              "Animal Handling",
+              "Arcana",
+              "Athletics",
+              "Deception",
+              "History",
+              "Insight",
+              "Intimidation",
+              "Investigation",
+              "Medicine",
+              "Nature",
+              "Perception",
+              "Performance",
+              "Persuasion",
+              "Religion",
+              "Sleight of Hand",
+              "Stealth",
+              "Survival"
             ],
             "n": 1
           }
@@ -53,7 +98,15 @@
       "name": "Martial Prodigy",
       "desc": "You are proficient with light and medium armor and with shortswords, longswords, and greatswords.",
       "rules": [
-        { "pf": ["a:Light armor", "a:Medium armor", "w:Shortswords", "w:Longswords", "w:Greatswords"] }
+        {
+          "pf": [
+            "a:Light armor",
+            "a:Medium armor",
+            "w:Shortswords",
+            "w:Longswords",
+            "w:Greatswords"
+          ]
+        }
       ]
     },
     {
@@ -63,9 +116,21 @@
       "desc": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the jump spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.",
       "rules": [],
       "featSpells": [
-        [1, "Mage Hand", "at will"],
-        [3, "Jump", "1/long rest"],
-        [5, "Misty Step", "1/long rest"]
+        [
+          1,
+          "Mage Hand",
+          "at will"
+        ],
+        [
+          3,
+          "Jump",
+          "1/long rest"
+        ],
+        [
+          5,
+          "Misty Step",
+          "1/long rest"
+        ]
       ]
     },
     {
@@ -75,9 +140,17 @@
       "supports": "Race:Gith",
       "desc": "In their fortresses within Limbo, the githzerai hone their minds to a razor's edge. The githzerai were born as a race at the end of the gith's bloody, genocidal uprising against the mind flayers.",
       "rules": [
-        { "stat": { "wis": 2 } },
-        { "grant": "Racial Trait:Mental Discipline" },
-        { "grant": "Racial Trait:Githzerai Psionics" }
+        {
+          "stat": {
+            "wis": 2
+          }
+        },
+        {
+          "grant": "Racial Trait:Mental Discipline"
+        },
+        {
+          "grant": "Racial Trait:Githzerai Psionics"
+        }
       ]
     },
     {
@@ -94,9 +167,21 @@
       "desc": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the shield spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.",
       "rules": [],
       "featSpells": [
-        [1, "Mage Hand", "at will"],
-        [3, "Shield", "1/long rest"],
-        [5, "Detect Thoughts", "1/long rest"]
+        [
+          1,
+          "Mage Hand",
+          "at will"
+        ],
+        [
+          3,
+          "Shield",
+          "1/long rest"
+        ],
+        [
+          5,
+          "Detect Thoughts",
+          "1/long rest"
+        ]
       ]
     },
     {
@@ -106,9 +191,22 @@
       "supports": "Race:Elf",
       "desc": "Eladrin are elves native to the Feywild, a realm of beauty, unpredictable emotion, and boundless magic. An eladrin is associated with one of the four seasons and has coloration reminiscent of that season, which can also affect the eladrin's mood.",
       "rules": [
-        { "stat": { "cha": 1 } },
-        { "grant": "Racial Trait:Fey Step" },
-        { "select": { "name": "Eladrin's Season", "type": "Racial Trait", "supports": "Eladrin Season", "n": 1 } }
+        {
+          "stat": {
+            "cha": 1
+          }
+        },
+        {
+          "grant": "Racial Trait:Fey Step"
+        },
+        {
+          "select": {
+            "name": "Eladrin's Season",
+            "type": "Racial Trait",
+            "supports": "Eladrin Season",
+            "n": 1
+          }
+        }
       ]
     },
     {
@@ -157,11 +255,23 @@
       "supports": "Race:Elf",
       "desc": "Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. Today, they live in small, hidden communities in the ocean shallows and on the Elemental Plane of Water.",
       "rules": [
-        { "stat": { "con": 1 } },
-        { "grant": "Racial Trait:Sea Elf Training" },
-        { "grant": "Racial Trait:Child of the Sea" },
-        { "grant": "Racial Trait:Friend of the Sea" },
-        { "grant": "Language:Aquan" }
+        {
+          "stat": {
+            "con": 1
+          }
+        },
+        {
+          "grant": "Racial Trait:Sea Elf Training"
+        },
+        {
+          "grant": "Racial Trait:Child of the Sea"
+        },
+        {
+          "grant": "Racial Trait:Friend of the Sea"
+        },
+        {
+          "grant": "Language:Aquan"
+        }
       ]
     },
     {
@@ -170,7 +280,14 @@
       "name": "Sea Elf Training",
       "desc": "You have proficiency with the spear, trident, light crossbow, and net.",
       "rules": [
-        { "pf": ["w:Spears", "w:Tridents", "w:Light crossbows", "w:Nets"] }
+        {
+          "pf": [
+            "w:Spears",
+            "w:Tridents",
+            "w:Light crossbows",
+            "w:Nets"
+          ]
+        }
       ]
     },
     {
@@ -179,7 +296,11 @@
       "name": "Child of the Sea",
       "desc": "You have a swimming speed of 30 feet, and you can breathe air and water.",
       "rules": [
-        { "stat": { "speed:swim": 30 } }
+        {
+          "stat": {
+            "speed:swim": 30
+          }
+        }
       ]
     },
     {
@@ -196,9 +317,17 @@
       "supports": "Race:Elf",
       "desc": "Sworn to the Raven Queen's service, the mysterious shadar-kai venture into the Material Plane from the Shadowfell to advance her will. Once they were fey like the rest of their elven kin, and now they exist in a strange state between life and death.",
       "rules": [
-        { "stat": { "con": 1 } },
-        { "grant": "Racial Trait:Necrotic Resistance (Shadar-Kai)" },
-        { "grant": "Racial Trait:Blessing of the Raven Queen" }
+        {
+          "stat": {
+            "con": 1
+          }
+        },
+        {
+          "grant": "Racial Trait:Necrotic Resistance (Shadar-Kai)"
+        },
+        {
+          "grant": "Racial Trait:Blessing of the Raven Queen"
+        }
       ]
     },
     {
@@ -206,9 +335,7 @@
       "type": "Racial Trait",
       "name": "Necrotic Resistance (Shadar-Kai)",
       "desc": "You have resistance to necrotic damage.",
-      "rules": [
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" }
-      ]
+      "rules": []
     },
     {
       "id": "Racial Trait:Blessing of the Raven Queen",

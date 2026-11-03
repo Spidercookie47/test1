@@ -6,6 +6,13 @@
       "name": "Gith",
       "desc": "Typically spoken by githyanki and githzerai.",
       "rules": []
+    },
+    {
+      "id": "Language:Aquan",
+      "type": "Language",
+      "name": "Aquan",
+      "desc": "The language of water elementals and aquatic creatures, a dialect of Primordial.",
+      "rules": []
     }
   ]
 }
