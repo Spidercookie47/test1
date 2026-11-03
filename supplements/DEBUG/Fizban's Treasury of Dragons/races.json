@@ -5,7 +5,16 @@
    "type": "Racial Trait",
    "name": "Chromatic Warding",
    "desc": "Starting at 5th level, you can channel your draconic essence to ward off harm. As an action, you gain immunity to the damage type associated with your chromatic ancestry for 1 minute. Once you use this trait, you can't use it again until you finish a long rest.",
-   "rules": []
+   "rules": [
+    {
+     "resource": {
+      "id": "chromatic-warding",
+      "name": "Chromatic Warding",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
   },
   {
    "id": "Racial Trait:Psionic Mind",
@@ -19,14 +28,32 @@
    "type": "Racial Trait",
    "name": "Gem Flight",
    "desc": "Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest.",
-   "rules": []
+   "rules": [
+    {
+     "resource": {
+      "id": "gem-flight",
+      "name": "Gem Flight",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
   },
   {
    "id": "Racial Trait:Metallic Breath Weapon",
    "type": "Racial Trait",
    "name": "Metallic Breath Weapon",
    "desc": "Starting at 5th level, you can use your action to exhale a secondary breath weapon. Choose one of the following options: Enervating Breath (15-foot cone; Constitution saving throw; failure = incapacitated until the end of its next turn) or Repulsion Breath (15-foot cone; Strength saving throw; failure = pushed 20 feet away from you and knocked prone). Once you use this trait, you can't use it again until you finish a long rest.",
-   "rules": []
+   "rules": [
+    {
+     "resource": {
+      "id": "metallic-breath-weapon",
+      "name": "Metallic Breath Weapon",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
   },
   {
    "id": "Sub Race:Chromatic Dragonborn",

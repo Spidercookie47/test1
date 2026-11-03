@@ -5,7 +5,7 @@
    "type": "Subclass",
    "name": "Way of the Ascendant Dragon",
    "supports": "Class:Monk",
-   "desc": "The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving a spiritual unity with the essence of the Material Plane.\n\nAs a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.\n\nAscendant Dragon Origin\n\nd6 | Origin\n1 | You honed your abilities by aligning your spirit with a dragon's world-altering power.\n2 | A dragon personally took an active role in shaping your inner energy.\n3 | You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction, or one that is devoted to a dragon god.\n4 | You spent long stretches meditating in the region around an ancient dragon's lair, absorbing that lair's ambient magic.\n5 | You found a scroll written in Draconic that contained inspiring new techniques.\n6 | After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons.",
+   "desc": "The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving a spiritual unity with the essence of the Material Plane.\n\nAs a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.\n\nAscendant Dragon Origin\n\n1: You honed your abilities by aligning your spirit with a dragon's world-altering power.\n2: A dragon personally took an active role in shaping your inner energy.\n3: You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction, or one that is devoted to a dragon god.\n4: You spent long stretches meditating in the region around an ancient dragon's lair, absorbing that lair's ambient magic.\n5: You found a scroll written in Draconic that contained inspiring new techniques.\n6: After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons.",
    "rules": [
     {
      "grant": "Class Feature:Draconic Disciple",
@@ -34,7 +34,7 @@
    "type": "Subclass",
    "name": "Drakewarden",
    "supports": "Class:Ranger",
-   "desc": "Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake. As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride. Along the way, you gain an increasing share of the awe-inspiring power of dragons.\n\nConsider the source of the draconic spirit you have bonded with. The Drakewarden Origin table offers examples.\n\nDrakewarden Origin\n\nd6 | Origin\n1 | You studied a dragon’s scale or claw, or a trinket from a dragon’s hoard, creating your bond through that token’s lingering draconic magic.\n2 | A secret order of rangers who collect and guard draconic lore taught you their ways.\n3 | A dragon gave you a geode or gemstone to care for. To your surprise, the drake hatched from that stone.\n4 | You ingested a few drops of dragon blood, forever infusing your nature magic with draconic power.\n5 | An ancient Draconic inscription on a standing stone empowered you when you read it aloud.\n6 | You had a vivid dream of a mysterious figure accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you.",
+   "desc": "Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake. As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride. Along the way, you gain an increasing share of the awe-inspiring power of dragons.\n\nConsider the source of the draconic spirit you have bonded with. The Drakewarden Origin table offers examples.\n\nDrakewarden Origin\n\n1: You studied a dragon’s scale or claw, or a trinket from a dragon’s hoard, creating your bond through that token’s lingering draconic magic.\n2: A secret order of rangers who collect and guard draconic lore taught you their ways.\n3: A dragon gave you a geode or gemstone to care for. To your surprise, the drake hatched from that stone.\n4: You ingested a few drops of dragon blood, forever infusing your nature magic with draconic power.\n5: An ancient Draconic inscription on a standing stone empowered you when you read it aloud.\n6: You had a vivid dream of a mysterious figure accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you.",
    "rules": [
     {
      "grant": "Class Feature:Draconic Gift",
@@ -62,8 +62,25 @@
    "id": "Class Feature:Draconic Disciple",
    "type": "Class Feature",
    "name": "Draconic Disciple",
-   "desc": "3rd-level Way of the Ascendant Dragon feature.\n\nYou can channel draconic power to magnify your presence and imbue your unarmed strikes with the essence of a dragon’s breath. You gain the following benefits:\n\n- Draconic Presence. If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest.\n- Draconic Strike. When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.\n- Tongue of Dragons. You learn to speak, read, and write Draconic or one other language of your choice.",
-   "rules": []
+   "desc": "3rd-level Way of the Ascendant Dragon feature.\n\nYou can channel draconic power to magnify your presence and imbue your unarmed strikes with the essence of a dragon’s breath. You gain the following benefits:\n\nDraconic Presence. If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest.\nDraconic Strike. When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.\nTongue of Dragons. You learn to speak, read, and write Draconic or one other language of your choice.",
+   "rules": [
+    {
+     "resource": {
+      "id": "draconic-presence",
+      "name": "Draconic Presence",
+      "rest": "L",
+      "max": 1,
+      "note": "after it turns a failure into a success"
+     }
+    },
+    {
+     "select": {
+      "name": "Language (Draconic Disciple)",
+      "type": "Language",
+      "n": 1
+     }
+    }
+   ]
   },
   {
    "id": "Class Feature:Breath of the Dragon",
@@ -105,24 +122,38 @@
    "id": "Class Feature:Aspect of the Wyrm",
    "type": "Class Feature",
    "name": "Aspect of the Wyrm",
-   "desc": "11th-level Way of the Ascendant Dragon feature.\n\nThe dragon inside you grows stronger and more fearsome. As a bonus action, you can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:\n\n- Frightful Presence. When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.\n- Resistance. Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage type.\n\nOnce you create this aura, you can’t create it again until you finish a long rest, unless you expend 3 ki points to create it again.",
-   "rules": []
+   "desc": "11th-level Way of the Ascendant Dragon feature.\n\nThe dragon inside you grows stronger and more fearsome. As a bonus action, you can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:\n\nFrightful Presence. When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.\nResistance. Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage type.\n\nOnce you create this aura, you can’t create it again until you finish a long rest, unless you expend 3 ki points to create it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "aspect-of-the-wyrm",
+      "name": "Aspect of the Wyrm",
+      "rest": "L",
+      "max": 1,
+      "note": "or spend 3 ki points"
+     }
+    }
+   ]
   },
   {
    "id": "Class Feature:Ascendant Aspect",
    "type": "Class Feature",
    "name": "Ascendant Aspect",
-   "desc": "17th-level Way of the Ascendant Dragon feature.\n\nYour draconic spirit reaches its peak. You gain the following benefits:\n\n- Augment Breath. When you use your Breath of the Dragon, you can spend 1 ki point to augment its shape and power. The exhalation of draconic energy becomes either a 60-foot cone or a 90-foot line that is 5 feet wide (your choice), and each creature in that area takes damage equal to four rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.\n- Blindsight. You gain blindsight out to 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
+   "desc": "17th-level Way of the Ascendant Dragon feature.\n\nYour draconic spirit reaches its peak. You gain the following benefits:\n\nAugment Breath. When you use your Breath of the Dragon, you can spend 1 ki point to augment its shape and power. The exhalation of draconic energy becomes either a 60-foot cone or a 90-foot line that is 5 feet wide (your choice), and each creature in that area takes damage equal to four rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.\nBlindsight. You gain blindsight out to 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
    "rules": []
   },
   {
    "id": "Class Feature:Draconic Gift",
    "type": "Class Feature",
    "name": "Draconic Gift",
-   "desc": "3rd-level Drakewarden feature.\n\nThe bond you share with your drake creates a connection to dragonkind, granting you understanding and empowering your presence. You gain the following benefits:\n\n- Thaumaturgy. You learn the thaumaturgy cantrip, which is a ranger spell for you.\n- Tongue of Dragons. You learn to speak, read, and write Draconic or one other language of your choice.",
+   "desc": "3rd-level Drakewarden feature.\n\nThe bond you share with your drake creates a connection to dragonkind, granting you understanding and empowering your presence. You gain the following benefits:\n\nThaumaturgy. You learn the thaumaturgy cantrip, which is a ranger spell for you.\nTongue of Dragons. You learn to speak, read, and write Draconic or one other language of your choice.",
    "rules": [
     {
-     "grant": "Language:Draconic"
+     "select": {
+      "name": "Language (Draconic Gift)",
+      "type": "Language",
+      "n": 1
+     }
     }
    ],
    "featSpells": [
@@ -138,13 +169,23 @@
    "type": "Class Feature",
    "name": "Drake Companion",
    "desc": "3rd-level Drakewarden feature.\n\nYou can summon a drake companion. As an action, you can magically summon the drake that is bound to you. It appears in an unoccupied space of your choice within 30 feet of you.\n\nThe drake is friendly to you and your companions, and it obeys your commands. See its game statistics in the accompanying Drake Companion stat block, which uses your proficiency bonus (PB) in several places. Whenever you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake's damage immunity and the damage of its Infused Strikes trait.\n\nIn combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.\n\nThe drake remains until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when the drake vanishes.\n\nOnce you summon the drake, you can’t do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it.",
-   "rules": []
+   "rules": [
+    {
+     "resource": {
+      "id": "drake-companion",
+      "name": "Drake Companion",
+      "rest": "L",
+      "max": 1,
+      "note": "or expend a spell slot"
+     }
+    }
+   ]
   },
   {
    "id": "Class Feature:Bond of Fang and Scale",
    "type": "Class Feature",
    "name": "Bond of Fang and Scale",
-   "desc": "7th-level Drakewarden feature.\n\nThe bond you share with your drake intensifies, protecting you and stoking the drake's fury. When you summon your drake, it grows wings on its back and gains a flying speed equal to its walking speed, and you gain the following benefits:\n\n- Drake Mount. The drake grows to Medium size. Reflecting your special bond, you can use the drake as a mount if your size is Medium or smaller. While you are riding your drake, it can't use the flying speed of this feature.\n- Magic Fang. The drake's Bite attack deals an extra 1d6 damage of the type chosen for the drake's Draconic Essence.\n- Resistance. You gain resistance to the damage type chosen for the drake's Draconic Essence.",
+   "desc": "7th-level Drakewarden feature.\n\nThe bond you share with your drake intensifies, protecting you and stoking the drake's fury. When you summon your drake, it grows wings on its back and gains a flying speed equal to its walking speed, and you gain the following benefits:\n\nDrake Mount. The drake grows to Medium size. Reflecting your special bond, you can use the drake as a mount if your size is Medium or smaller. While you are riding your drake, it can't use the flying speed of this feature.\nMagic Fang. The drake's Bite attack deals an extra 1d6 damage of the type chosen for the drake's Draconic Essence.\nResistance. You gain resistance to the damage type chosen for the drake's Draconic Essence.",
    "rules": []
   },
   {
@@ -167,7 +208,7 @@
    "id": "Class Feature:Perfected Bond",
    "type": "Class Feature",
    "name": "Perfected Bond",
-   "desc": "15th-level Drakewarden feature.\n\nYour bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:\n\n- Empowered Bite. The drake's Bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence (for a total of 2d6 extra damage).\n- Large Drake. The drake grows to Large size. When you ride your drake, it is no longer prohibited from using the flying speed of Bond of Fang and Scale.\n- Reflexive Resistance. When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "15th-level Drakewarden feature.\n\nYour bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:\n\nEmpowered Bite. The drake's Bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence (for a total of 2d6 extra damage).\nLarge Drake. The drake grows to Large size. When you ride your drake, it is no longer prohibited from using the flying speed of Bond of Fang and Scale.\nReflexive Resistance. When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
    "rules": [
     {
      "resource": {

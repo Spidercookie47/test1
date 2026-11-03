@@ -4,7 +4,7 @@
    "id": "Magic:Dragon-Touched Focus",
    "type": "Magic",
    "name": "Dragon-Touched Focus",
-   "desc": "Wondrous item, rarity varies (requires attunement by a spellcaster)\n\nThis wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales. While you are holding the focus, it can function as a spellcasting focus for all your spells.\n\n**Slumbering (Uncommon).** You have advantage on initiative rolls.\n\n**Stirring (Rare).** The Stirring focus has the Slumbering property, and it gains an additional property determined by the family of the dragon in whose hoard it became Stirring:\n- *Chromatic.* Whenever you use a spell slot to cast a spell that deals acid, cold, fire, lightning, or poison damage, roll a d6, and you gain a bonus equal to the number rolled to one of the spell's damage rolls.\n- *Gem.* Whenever you use a spell slot to cast a spell, you can immediately teleport to an unoccupied space you can see within 15 feet of you.\n- *Metallic.* When a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw.\n\n**Wakened (Very Rare).** The Wakened focus has the Slumbering and Stirring properties, and while you are holding a Wakened focus, you can use it to cast certain spells. Once the item is used to cast a given spell, it can't be used to cast that spell again until the next dawn. The spells are determined by the family of the dragon in whose hoard it became Wakened:\n- *Chromatic.* Hold Monster, Rime's Binding Ice\n- *Gem.* Rary's Telepathic Bond, Raulothim's Psychic Lance\n- *Metallic.* Fizban's Platinum Shield, Legend Lore\n\n**Ascendant (Legendary).** The Ascendant focus has the Slumbering, Stirring, and Wakened properties. In addition, when you cast a spell of 1st level or higher while holding this focus, you can treat the spell as if it were cast using a 9th-level spell slot. Once this property is used, it can't be used again until the next dawn.",
+   "desc": "Wondrous item, rarity varies (requires attunement by a spellcaster)\n\nThis wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales. While you are holding the focus, it can function as a spellcasting focus for all your spells.\n\nSlumbering (Uncommon). You have advantage on initiative rolls.\n\nStirring (Rare). The Stirring focus has the Slumbering property, and it gains an additional property determined by the family of the dragon in whose hoard it became Stirring:\nChromatic. Whenever you use a spell slot to cast a spell that deals acid, cold, fire, lightning, or poison damage, roll a d6, and you gain a bonus equal to the number rolled to one of the spell's damage rolls.\nGem. Whenever you use a spell slot to cast a spell, you can immediately teleport to an unoccupied space you can see within 15 feet of you.\nMetallic. When a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw.\n\nWakened (Very Rare). The Wakened focus has the Slumbering and Stirring properties, and while you are holding a Wakened focus, you can use it to cast certain spells. Once the item is used to cast a given spell, it can't be used to cast that spell again until the next dawn. The spells are determined by the family of the dragon in whose hoard it became Wakened:\nChromatic. Hold Monster, Rime's Binding Ice\nGem. Rary's Telepathic Bond, Raulothim's Psychic Lance\nMetallic. Fizban's Platinum Shield, Legend Lore\n\nAscendant (Legendary). The Ascendant focus has the Slumbering, Stirring, and Wakened properties. In addition, when you cast a spell of 1st level or higher while holding this focus, you can treat the spell as if it were cast using a 9th-level spell slot. Once this property is used, it can't be used again until the next dawn.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
@@ -30,7 +30,7 @@
    "id": "Magic:Dragon's Wrath Weapon",
    "type": "Magic",
    "name": "Dragon's Wrath Weapon",
-   "desc": "Weapon, rarity varies (requires attunement)\n\nThis weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.\n\n**Slumbering (Uncommon).** The weapon deals an extra 1d6 damage of the dragon's type on a hit.\n\n**Stirring (Rare).** The bonus to attack and damage rolls is +1. When you hit with it, the target takes an extra 1d6 damage of the dragon's type. When you roll a 20 on an attack roll with this weapon, each creature within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon.\n\n**Wakened (Very Rare).** The bonus to attack and damage rolls is +2. The extra damage increases to 2d6. You can use an action to spew a 30-foot cone of destructive energy (DC 15, 8d6 damage).\n\n**Ascendant (Legendary).** The bonus is +3, extra damage is 3d6. The cone increases to 60 feet, the save DC increases to 18, and the damage increases to 12d6.",
+   "desc": "Weapon, rarity varies (requires attunement)\n\nThis weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.\n\nSlumbering (Uncommon). The weapon deals an extra 1d6 damage of the dragon's type on a hit.\n\nStirring (Rare). The bonus to attack and damage rolls is +1. When you hit with it, the target takes an extra 1d6 damage of the dragon's type. When you roll a 20 on an attack roll with this weapon, each creature within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon.\n\nWakened (Very Rare). The bonus to attack and damage rolls is +2. The extra damage increases to 2d6. You can use an action to spew a 30-foot cone of destructive energy (DC 15, 8d6 damage).\n\nAscendant (Legendary). The bonus is +3, extra damage is 3d6. The cone increases to 60 feet, the save DC increases to 18, and the damage increases to 12d6.",
    "rules": [],
    "cg": "Magic Weapons",
    "cp": 0,
@@ -43,7 +43,7 @@
    "id": "Magic:Scaled Ornament",
    "type": "Magic",
    "name": "Scaled Ornament",
-   "desc": "Wondrous item, rarity varies (requires attunement)\n\nThis ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.\n\n**Slumbering (Uncommon).** You have advantage on saving throws you make to avoid being charmed or frightened or to end those conditions on you.\n\n**Stirring (Rare).** You gain a +1 bonus to AC, and you can't be charmed or frightened.\n\n**Wakened (Very Rare).** When you take damage of the type dealt by the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead. Once this property is used, it can't be used again until the next dawn.\n\n**Ascendant (Legendary).** You have resistance to the damage type dealt by the dragon in whose hoard the ornament became Ascendant.",
+   "desc": "Wondrous item, rarity varies (requires attunement)\n\nThis ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.\n\nSlumbering (Uncommon). You have advantage on saving throws you make to avoid being charmed or frightened or to end those conditions on you.\n\nStirring (Rare). You gain a +1 bonus to AC, and you can't be charmed or frightened.\n\nWakened (Very Rare). When you take damage of the type dealt by the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead. Once this property is used, it can't be used again until the next dawn.\n\nAscendant (Legendary). You have resistance to the damage type dealt by the dragon in whose hoard the ornament became Ascendant.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
@@ -56,7 +56,7 @@
    "id": "Magic:Dragon Vessel",
    "type": "Magic",
    "name": "Dragon Vessel",
-   "desc": "Wondrous item, rarity varies (requires attunement)\n\nThis vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.\n\n**Slumbering (Uncommon).** As a bonus action, if the vessel is empty, you can speak its command word to fill it with a liquid of your choice, such as mead or wine, up to 1 gallon. The liquid is nonmagical and lasts for 24 hours.\n\n**Stirring (Rare).** In addition to the options for a Slumbering vessel, you can fill a Stirring vessel with a potion of fire breath or a potion of hill giant strength.\n\n**Wakened (Very Rare).** In addition to the options for a Stirring vessel, you can fill a Wakened vessel with a potion of superior healing or a potion of invisibility.\n\n**Ascendant (Legendary).** In addition to the options for a Wakened vessel, you can fill an Ascendant vessel with a Potion of Dragon's Majesty or a supreme potion of healing.",
+   "desc": "Wondrous item, rarity varies (requires attunement)\n\nThis vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.\n\nSlumbering (Uncommon). As a bonus action, if the vessel is empty, you can speak its command word to fill it with a liquid of your choice, such as mead or wine, up to 1 gallon. The liquid is nonmagical and lasts for 24 hours.\n\nStirring (Rare). In addition to the options for a Slumbering vessel, you can fill a Stirring vessel with a potion of fire breath or a potion of hill giant strength.\n\nWakened (Very Rare). In addition to the options for a Stirring vessel, you can fill a Wakened vessel with a potion of superior healing or a potion of invisibility.\n\nAscendant (Legendary). In addition to the options for a Wakened vessel, you can fill an Ascendant vessel with a Potion of Dragon's Majesty or a supreme potion of healing.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
@@ -95,7 +95,7 @@
    "id": "Magic:Crystal Blade",
    "type": "Magic",
    "name": "Crystal Blade",
-   "desc": "Weapon (any sword), rare (requires attunement)\n\nThis magic sword's blade is fashioned from a horn or crystal. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 1d6 psychic damage.\n\n**Psionic Strike.** When you hit a creature with this weapon, you can force the target to make a DC 15 Intelligence saving throw. On a failed save, the target is stunned until the end of its next turn. Once this property is used, it can't be used again until the next dawn.",
+   "desc": "Weapon (any sword), rare (requires attunement)\n\nThis magic sword's blade is fashioned from a horn or crystal. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 1d6 psychic damage.\n\nPsionic Strike. When you hit a creature with this weapon, you can force the target to make a DC 15 Intelligence saving throw. On a failed save, the target is stunned until the end of its next turn. Once this property is used, it can't be used again until the next dawn.",
    "rules": [],
    "cg": "Magic Weapons",
    "cp": 0,
@@ -104,14 +104,15 @@
    "rar": "Rare",
    "att": true,
    "effect": {
-    "att": 1
+    "att": true,
+    "wpn": 1
    }
   },
   {
    "id": "Magic:Topaz Annihilator",
    "type": "Magic",
    "name": "Topaz Annihilator",
-   "desc": "Weapon (firearm), legendary\n\nThis magic ranged weapon resembles a musket, but it is crafted from a strange, golden-hued metal and set with a large topaz that pulses with a sickly yellow light. It deals an extra 2d6 necrotic damage on a hit.\n\n**Annihilation.** As an action, you can fire a beam of pure annihilation from the topaz at a target you can see within 120 feet of you. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 10d10 force damage and its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. If the target's hit point maximum drops to 0 as a result, it is disintegrated. On a successful save, the target takes half as much damage and its hit point maximum isn't reduced. Once this property is used, it can't be used again until the next dawn.",
+   "desc": "Weapon (firearm), legendary\n\nThis magic ranged weapon resembles a musket, but it is crafted from a strange, golden-hued metal and set with a large topaz that pulses with a sickly yellow light. It deals an extra 2d6 necrotic damage on a hit.\n\nAnnihilation. As an action, you can fire a beam of pure annihilation from the topaz at a target you can see within 120 feet of you. The target must make a DC 18 Dexterity saving throw. On a failed save, the target takes 10d10 force damage and its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. If the target's hit point maximum drops to 0 as a result, it is disintegrated. On a successful save, the target takes half as much damage and its hit point maximum isn't reduced. Once this property is used, it can't be used again until the next dawn.",
    "rules": [],
    "cg": "Magic Weapons",
    "cp": 0,
@@ -124,27 +125,36 @@
    "id": "Magic:Sapphire Buckler",
    "type": "Magic",
    "name": "Sapphire Buckler",
-   "desc": "Armor (shield), very rare (requires attunement)\n\nThis crystalline blue shield is fashioned from a single sapphire and encrusted with smaller gems. While holding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.\n\n**Cold Resistance.** You have resistance to cold damage while holding this shield.\n\n**Frost Ward.** When a creature you can see hits you with an attack, you can use your reaction to force the attacker to make a DC 15 Constitution saving throw. On a failed save, the attacker takes 4d6 cold damage and its speed is reduced to 0 until the start of its next turn. Once this property is used, it can't be used again until the next dawn.",
+   "desc": "Armor (shield), very rare (requires attunement)\n\nThis crystalline blue shield is fashioned from a single sapphire and encrusted with smaller gems. While holding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.\n\nCold Resistance. You have resistance to cold damage while holding this shield.\n\nFrost Ward. When a creature you can see hits you with an attack, you can use your reaction to force the attacker to make a DC 15 Constitution saving throw. On a failed save, the attacker takes 4d6 cold damage and its speed is reduced to 0 until the start of its next turn. Once this property is used, it can't be used again until the next dawn.",
    "rules": [],
    "cg": "Magic Armor",
    "cp": 0,
    "price": 0,
    "wt": 6,
    "rar": "Very Rare",
-   "att": true
+   "att": true,
+   "effect": {
+    "att": true,
+    "ac": 2
+   }
   },
   {
    "id": "Magic:Platinum Scarf",
    "type": "Magic",
    "name": "Platinum Scarf",
-   "desc": "Wondrous item, legendary (requires attunement)\n\nThis scarf is made of sturdy cloth and covered in platinum-colored scales. While wearing it, you gain a +1 bonus to AC and saving throws.\n\n**Draconic Majesty.** You have advantage on Charisma (Persuasion) checks made to interact with dragons.\n\n**Breath Weapon.** While wearing the scarf, you can use an action to exhale destructive energy in a 30-foot cone. Each creature in the area must make a DC 18 Dexterity saving throw, taking 8d8 damage of a type of your choice (acid, cold, fire, lightning, or poison) on a failed save, or half as much damage on a successful one. Once this property is used, it can't be used again until the next dawn.",
+   "desc": "Wondrous item, legendary (requires attunement)\n\nThis scarf is made of sturdy cloth and covered in platinum-colored scales. While wearing it, you gain a +1 bonus to AC and saving throws.\n\nDraconic Majesty. You have advantage on Charisma (Persuasion) checks made to interact with dragons.\n\nBreath Weapon. While wearing the scarf, you can use an action to exhale destructive energy in a 30-foot cone. Each creature in the area must make a DC 18 Dexterity saving throw, taking 8d8 damage of a type of your choice (acid, cold, fire, lightning, or poison) on a failed save, or half as much damage on a successful one. Once this property is used, it can't be used again until the next dawn.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
    "price": 0,
    "wt": 1,
    "rar": "Legendary",
-   "att": true
+   "att": true,
+   "effect": {
+    "att": true,
+    "ac": 1,
+    "saves": 1
+   }
   },
   {
    "id": "Magic:Ruby Weave Gem",
@@ -163,7 +173,7 @@
    "id": "Magic:Flail of Tiamat",
    "type": "Magic",
    "name": "Flail of Tiamat",
-   "desc": "Weapon (flail), legendary (requires attunement)\n\nThis flail is made in the image of Tiamat, with five dragon heads at the end of its chain. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 2d6 damage of a type determined by the head that strikes (acid, cold, fire, lightning, or poison).\n\n**Breath Weapon.** While holding the flail, you can use an action to exhale destructive energy in a 60-foot cone. Each creature in the area must make a DC 18 Dexterity saving throw, taking 12d6 damage of a type of your choice (acid, cold, fire, lightning, or poison) on a failed save, or half as much damage on a successful one. Once this property is used, it can't be used again until the next dawn.",
+   "desc": "Weapon (flail), legendary (requires attunement)\n\nThis flail is made in the image of Tiamat, with five dragon heads at the end of its chain. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 2d6 damage of a type determined by the head that strikes (acid, cold, fire, lightning, or poison).\n\nBreath Weapon. While holding the flail, you can use an action to exhale destructive energy in a 60-foot cone. Each creature in the area must make a DC 18 Dexterity saving throw, taking 12d6 damage of a type of your choice (acid, cold, fire, lightning, or poison) on a failed save, or half as much damage on a successful one. Once this property is used, it can't be used again until the next dawn.",
    "rules": [],
    "cg": "Magic Weapons",
    "cp": 0,
@@ -172,7 +182,8 @@
    "rar": "Legendary",
    "att": true,
    "effect": {
-    "att": 3
+    "att": true,
+    "wpn": 3
    }
   },
   {
@@ -192,7 +203,7 @@
    "id": "Magic:Amethyst Lodestone",
    "type": "Magic",
    "name": "Amethyst Lodestone",
-   "desc": "Wondrous item, very rare (requires attunement)\n\nThis fist-sized chunk of amethyst thrums with an inner light. While holding it, you can use an action to cast the Telekinesis spell from it (save DC 17). Once used, this property can't be used again until the next dawn.\n\n**Gem Flight.** While holding the lodestone, you can use a bonus action to manifest spectral wings. You gain a flying speed of 30 feet for 1 minute. Once used, this property can't be used again until the next dawn.",
+   "desc": "Wondrous item, very rare (requires attunement)\n\nThis fist-sized chunk of amethyst thrums with an inner light. While holding it, you can use an action to cast the Telekinesis spell from it (save DC 17). Once used, this property can't be used again until the next dawn.\n\nGem Flight. While holding the lodestone, you can use a bonus action to manifest spectral wings. You gain a flying speed of 30 feet for 1 minute. Once used, this property can't be used again until the next dawn.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
