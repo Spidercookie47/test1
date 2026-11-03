@@ -1,0 +1,17 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "bpgg",
+  "name": "Bigby Presents: Glory of the Giants",
+  "short": "BPGotG",
+  "license": "Proprietary",
+  "credit": "Content from Bigby Presents: Glory of the Giants, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "subclasses.json",
+  "feats.json",
+  "backgrounds.json",
+  "magic-items.json"
+ ]
+}

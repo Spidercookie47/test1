@@ -1,0 +1,46 @@
+{
+ "elements": [
+  {
+   "id": "Background:Giant Foundling",
+   "type": "Background",
+   "name": "Giant Foundling",
+   "desc": "You were raised among giants or sheltered by them, and you bear traces of their culture and primal magic.\n\n**Skill Proficiencies:** Intimidation, Survival\n**Languages:** One of your choice\n**Feat:** You gain the Strike of the Giants feat.\n**Equipment:** A set of traveler's clothes, a giant-made trinket, and a pouch containing 10 gp.",
+   "rules": [
+    {
+     "grant": "skill:Intimidation"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Language (Giant Foundling)",
+      "type": "Language",
+      "n": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Background:Rune Carver",
+   "type": "Background",
+   "name": "Rune Carver",
+   "desc": "You studied the ancient runecraft of the giants, learning to inscribe magical runes onto objects.\n\n**Skill Proficiencies:** History, Perception\n**Languages:** One of your choice\n**Feat:** You gain the Rune Shaper feat.\n**Equipment:** A set of artisan's tools (your choice), a rune-carved trinket, and a pouch containing 10 gp.",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "select": {
+      "name": "Language (Rune Carver)",
+      "type": "Language",
+      "n": 1
+     }
+    }
+   ]
+  }
+ ]
+}
