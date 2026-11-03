@@ -17,7 +17,7 @@
      "grant": "Language:Common"
     },
     {
-     "grant": "Racial Trait:Flight (Aarakocra)"
+     "grant": "Racial Trait:Flight"
     },
     {
      "grant": "Racial Trait:Talons"
@@ -230,34 +230,6 @@
    ]
   },
   {
-   "id": "Race:Eladrin",
-   "type": "Race",
-   "name": "Eladrin",
-   "desc": "Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision"
-    },
-    {
-     "grant": "Racial Trait:Fey Ancestry"
-    },
-    {
-     "grant": "Racial Trait:Keen Senses"
-    },
-    {
-     "grant": "Racial Trait:Fey Step"
-    }
-   ]
-  },
-  {
    "id": "Race:Fairy",
    "type": "Race",
    "name": "Fairy",
@@ -275,7 +247,7 @@
      "grant": "Racial Trait:Fairy Magic"
     },
     {
-     "grant": "Racial Trait:Flight (Fairy)"
+     "grant": "Racial Trait:Flight"
     }
    ],
    "featSpells": [
@@ -337,14 +309,14 @@
    ]
   },
   {
-   "id": "Race:Air Genasi",
+   "id": "Race:Genasi",
    "type": "Race",
-   "name": "Air Genasi",
-   "desc": "Tracing their ancestry to djinn of the Elemental Plane of Air, air genasi are often restless and dream of far-off places.",
+   "name": "Genasi",
+   "desc": "Genasi are descendants of humans and genies. They are a varied people, with traits that reflect their elemental ancestry.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
-      "speed": 35
+      "speed": 30
      }
     },
     {
@@ -352,6 +324,27 @@
     },
     {
      "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Genasi"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Air Genasi",
+   "type": "Sub Race",
+   "name": "Air Genasi",
+   "desc": "Tracing their ancestry to djinn of the Elemental Plane of Air, air genasi are often restless and dream of far-off places.",
+   "supports": "Race:Genasi",
+   "rules": [
+    {
+     "stat": {
+      "speed": 35
+     }
     },
     {
      "grant": "Racial Trait:Unending Breath"
@@ -382,22 +375,12 @@
    ]
   },
   {
-   "id": "Race:Earth Genasi",
-   "type": "Race",
+   "id": "Sub Race:Earth Genasi",
+   "type": "Sub Race",
    "name": "Earth Genasi",
    "desc": "Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao's steadfast strength.",
+   "supports": "Race:Genasi",
    "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision"
-    },
     {
      "grant": "Racial Trait:Earth Walk"
     },
@@ -419,22 +402,12 @@
    ]
   },
   {
-   "id": "Race:Fire Genasi",
-   "type": "Race",
+   "id": "Sub Race:Fire Genasi",
+   "type": "Sub Race",
    "name": "Fire Genasi",
    "desc": "Tracing their ancestry to efreeti of the Elemental Plane of Fire, fire genasi are passionate and quick to act.",
+   "supports": "Race:Genasi",
    "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision"
-    },
     {
      "grant": "Racial Trait:Fire Resistance"
     },
@@ -461,22 +434,12 @@
    ]
   },
   {
-   "id": "Race:Water Genasi",
-   "type": "Race",
+   "id": "Sub Race:Water Genasi",
+   "type": "Sub Race",
    "name": "Water Genasi",
    "desc": "Tracing their ancestry to marids of the Elemental Plane of Water, water genasi are calm and contemplative.",
+   "supports": "Race:Genasi",
    "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision"
-    },
     {
      "grant": "Racial Trait:Acid Resistance"
     },
@@ -858,41 +821,31 @@
    ]
   },
   {
-   "id": "Race:Sea Elf",
-   "type": "Race",
+   "id": "Sub Race:Sea Elf",
+   "type": "Sub Race",
    "name": "Sea Elf",
    "desc": "Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse.",
+   "supports": "Race:Elf",
    "rules": [
     {
      "stat": {
       "speed": 30
      }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision"
-    },
-    {
-     "grant": "Racial Trait:Fey Ancestry"
     },
     {
      "grant": "Racial Trait:Child of the Sea"
     },
     {
      "grant": "Racial Trait:Friend of the Sea"
-    },
-    {
-     "grant": "Racial Trait:Keen Senses"
     }
    ]
   },
   {
-   "id": "Race:Shadar-kai",
-   "type": "Race",
+   "id": "Sub Race:Shadar-kai",
+   "type": "Sub Race",
    "name": "Shadar-kai",
    "desc": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen.",
+   "supports": "Race:Elf",
    "rules": [
     {
      "stat": {
@@ -900,22 +853,27 @@
      }
     },
     {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision"
-    },
-    {
-     "grant": "Racial Trait:Fey Ancestry"
-    },
-    {
-     "grant": "Racial Trait:Keen Senses"
-    },
-    {
      "grant": "Racial Trait:Blessing of the Raven Queen"
     },
     {
      "grant": "Racial Trait:Necrotic Resistance"
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Eladrin",
+   "type": "Sub Race",
+   "name": "Eladrin",
+   "desc": "Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic.",
+   "supports": "Race:Elf",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Step"
     }
    ]
   },
@@ -1267,16 +1225,9 @@
    "rules": []
   },
   {
-   "id": "Racial Trait:Flight (Aarakocra)",
+   "id": "Racial Trait:Flight",
    "type": "Racial Trait",
-   "name": "Flight (Aarakocra)",
-   "desc": "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Flight (Fairy)",
-   "type": "Racial Trait",
-   "name": "Flight (Fairy)",
+   "name": "Flight",
    "desc": "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
    "rules": []
   },
