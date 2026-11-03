@@ -1,0 +1,18 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "ftod",
+  "name": "Fizban's Treasury of Dragons",
+  "short": "FToD",
+  "license": "Proprietary",
+  "credit": "Content from Fizban's Treasury of Dragons, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "spells.json",
+  "subclasses.json",
+  "feats.json",
+  "magic-items.json"
+ ]
+}

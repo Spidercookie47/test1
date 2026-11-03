@@ -1,0 +1,143 @@
+{
+ "elements": [
+  {
+   "id": "Spell:Ashardalon's Stride",
+   "type": "Spell",
+   "name": "Ashardalon's Stride",
+   "desc": "The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet, and moving doesn't provoke opportunity attacks.\n\nWhen you move within 5 feet of a creature or an object that isn't being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.\n\nAt Higher Levels. When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional 1d6 fire damage for each slot level above 3rd.",
+   "rules": [],
+   "lvl": 3,
+   "school": "transmutation",
+   "comp": "V,S",
+   "cast": "1 bonus action",
+   "range": "Self",
+   "dur": "Concentration, up to 1 minute",
+   "ritual": false,
+   "lists": [
+    "Artificer",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": ""
+  },
+  {
+   "id": "Spell:Draconic Transformation",
+   "type": "Spell",
+   "name": "Draconic Transformation",
+   "desc": "With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:\n\n- Blindsight. You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness.\n- Breath Weapon. Once per turn, you can use your breath weapon. Choose one of the following damage types: acid, cold, fire, lightning, or poison. You exhale energy of the chosen type in a 60-foot cone. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 6d8 damage of the chosen type, and on a successful save, it takes half as much damage.\n- Wings. You sprout draconic wings. With these wings, you gain a flying speed of 60 feet and can hover.",
+   "rules": [],
+   "lvl": 7,
+   "school": "transmutation",
+   "comp": "V,S,M",
+   "cast": "1 bonus action",
+   "range": "Self",
+   "dur": "Concentration, up to 1 minute",
+   "ritual": false,
+   "lists": [
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": "A statuette of a dragon, worth at least 500 gp"
+  },
+  {
+   "id": "Spell:Fizban's Platinum Shield",
+   "type": "Spell",
+   "name": "Fizban's Platinum Shield",
+   "desc": "You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:\n\n- Cover. The creature has half cover.\n- Damage Resistance. The creature has resistance to acid, cold, fire, lightning, and poison damage.\n- Evasion. If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.\n\nAs a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.",
+   "rules": [],
+   "lvl": 6,
+   "school": "abjuration",
+   "comp": "V,S,M",
+   "cast": "1 action",
+   "range": "60 feet",
+   "dur": "Concentration, up to 1 minute",
+   "ritual": false,
+   "lists": [
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": "A platinum-plated dragon scale, worth at least 500 gp"
+  },
+  {
+   "id": "Spell:Nathair's Mischief",
+   "type": "Spell",
+   "name": "Nathair's Mischief",
+   "desc": "You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.\n\nMischievous Surge\nd4 | Effect\n1 | The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or be charmed by you until the start of your next turn.\n2 | A burst of flowers and confetti fills the area, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn.\n3 | A sweet, sticky syrup covers the ground, making the area difficult terrain until the end of your next turn.\n4 | The area is filled with the sound of a rousing song, and each creature in the cube must succeed on a Charisma saving throw or be forced to dance, using all its movement to dance in place on its next turn.",
+   "rules": [],
+   "lvl": 2,
+   "school": "illusion",
+   "comp": "S,M",
+   "cast": "1 action",
+   "range": "60 feet",
+   "dur": "Concentration, up to 1 minute",
+   "ritual": false,
+   "lists": [
+    "Bard",
+    "Wizard"
+   ],
+   "mat": "A piece of crust from an apple pie"
+  },
+  {
+   "id": "Spell:Raulothim's Psychic Lance",
+   "type": "Spell",
+   "name": "Raulothim's Psychic Lance",
+   "desc": "You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature’s name. If the named target is within range, it becomes the spell’s target even if you can’t see it. If the named target isn’t within range, the lance dissipates without effect.\n\nThe target must make an Intelligence saving throw. On a failed save, the target takes 7d6 psychic damage and is incapacitated until the start of your next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.\n\nAt Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.",
+   "rules": [],
+   "lvl": 4,
+   "school": "enchantment",
+   "comp": "V",
+   "cast": "1 action",
+   "range": "120 feet",
+   "dur": "Instantaneous",
+   "ritual": false,
+   "lists": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+   ],
+   "mat": ""
+  },
+  {
+   "id": "Spell:Rime's Binding Ice",
+   "type": "Spell",
+   "name": "Rime's Binding Ice",
+   "desc": "A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses an action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn’t hindered by ice.\n\nAt Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.",
+   "rules": [],
+   "lvl": 2,
+   "school": "evocation",
+   "comp": "S,M",
+   "cast": "1 action",
+   "range": "Self (30-foot cone)",
+   "dur": "Instantaneous",
+   "ritual": false,
+   "lists": [
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": "A vial of meltwater"
+  },
+  {
+   "id": "Spell:Summon Draconic Spirit",
+   "type": "Spell",
+   "name": "Summon Draconic Spirit",
+   "desc": "You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast the spell, choose a family of dragon: Chromatic, Gem, or Metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.\n\nAt Higher Levels. When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell’s level appears in the stat block.\n\n<table style='width: 100%; border-collapse: collapse; font-family: sans-serif; text-align: left; background-color: #f9e7d0; padding: 10px;'>\n  <tr style='border-bottom: 2px solid #8b0000;'>\n    <th colspan='6' style='font-size: 1.2em; color: #8b0000; padding-bottom: 5px;'>DRACONIC SPIRIT</th>\n  </tr>\n  <tr>\n    <td colspan='6' style='font-style: italic; padding-bottom: 5px;'>Large Dragon, Neutral</td>\n  </tr>\n  <tr style='border-top: 1px solid #8b0000; border-bottom: 1px solid #8b0000;'>\n    <td colspan='6' style='padding: 5px 0;'>\n      <strong>Armor Class</strong> 14 + the level of the spell (natural armor)<br>\n      <strong>Hit Points</strong> 50 + 10 for each spell level above 5th (the dragon has a number of Hit Dice [d10s] equal to the level of the spell)<br>\n      <strong>Speed</strong> 30 ft., fly 60 ft., swim 30 ft.\n    </td>\n  </tr>\n  <tr style='border-bottom: 1px solid #8b0000; text-align: center;'>\n    <th style='padding: 5px;'>STR</th><th style='padding: 5px;'>DEX</th><th style='padding: 5px;'>CON</th><th style='padding: 5px;'>INT</th><th style='padding: 5px;'>WIS</th><th style='padding: 5px;'>CHA</th>\n  </tr>\n  <tr style='border-bottom: 1px solid #8b0000; text-align: center;'>\n    <td>19 (+4)</td><td>14 (+2)</td><td>17 (+3)</td><td>10 (+0)</td><td>14 (+2)</td><td>14 (+2)</td>\n  </tr>\n  <tr style='border-bottom: 1px solid #8b0000;'>\n    <td colspan='6' style='padding: 5px 0;'>\n      <strong>Damage Resistances</strong> (Chromatic and Metallic Only) acid, cold, fire, lightning, poison<br>\n      <strong>Damage Resistances</strong> (Gem Only) force, necrotic, psychic, radiant, thunder<br>\n      <strong>Condition Immunities</strong> charmed, frightened, poisoned<br>\n      <strong>Senses</strong> blindsight 30 ft., darkvision 60 ft., passive Perception 12<br>\n      <strong>Languages</strong> Draconic, understands the languages you speak<br>\n      <strong>Challenge</strong> — Proficiency Bonus equals your bonus\n    </td>\n  </tr>\n  <tr>\n    <td colspan='6' style='padding-top: 10px;'>\n      <p style='font-style: italic; font-weight: bold; margin: 5px 0;'>Shared Resistances.</p>\n      <p style='margin: 0 0 10px 0;'>When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends.</p>\n      \n      <h3 style='color: #8b0000; border-bottom: 1px solid #8b0000; margin: 5px 0;'>Actions</h3>\n      \n      <p style='font-style: italic; font-weight: bold; margin: 5px 0;'>Multiattack.</p>\n      <p style='margin: 0 0 10px 0;'>The dragon makes a number of Rend attacks equal to half the spell's level (rounded down), and it uses Breath Weapon.</p>\n      \n      <p style='font-style: italic; font-weight: bold; margin: 5px 0;'>Rend.</p>\n      <p style='margin: 0 0 10px 0;'>Melee Weapon Attack: your spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell's level piercing damage.</p>\n      \n      <p style='font-style: italic; font-weight: bold; margin: 5px 0;'>Breath Weapon.</p>\n      <p style='margin: 0 0 10px 0;'>The dragon exhales destructive energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC. A creature takes 2d6 damage of a type this dragon has resistance to (your choice) on a failed save, or half as much damage on a successful one.</p>\n    </td>\n  </tr>\n</table>",
+   "rules": [],
+   "lvl": 5,
+   "school": "conjuration",
+   "comp": "V,S,M",
+   "cast": "1 action",
+   "range": "60 feet",
+   "dur": "Concentration, up to 1 hour",
+   "ritual": false,
+   "lists": [
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": "An object with the image of a dragon engraved on it, worth at least 500 gp"
+  }
+ ]
+}

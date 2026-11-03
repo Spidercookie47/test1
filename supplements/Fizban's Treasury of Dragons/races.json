@@ -1,0 +1,52 @@
+{
+ "elements": [
+  {
+   "id": "Race:Chromatic Dragonborn",
+   "type": "Race",
+   "name": "Chromatic Dragonborn",
+   "desc": "Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn's scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.\n\n**Ability Score Increase.** Increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Draconic Ancestry.** You have draconic ancestry. Choose one type of dragon from the Chromatic Dragon Ancestry table. Your breath weapon and damage resistance are determined by the dragon type.\n**Breath Weapon.** When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your draconic ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Damage Resistance.** You have resistance to the damage type associated with your chromatic ancestry.\n**Chromatic Warding.** Starting at 5th level, you can channel your draconic essence to ward off harm. As an action, you gain immunity to the damage type associated with your chromatic ancestry for 1 minute. Once you use this trait, you can't use it again until you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Race:Gem Dragonborn",
+   "type": "Race",
+   "name": "Gem Dragonborn",
+   "desc": "Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons—amethyst, crystal, emerald, sapphire, and topaz—gleam in their scaled skin and in the crystalline energy of their breath weapons. Theirs is the psionic power of the mind and the resilience of the earth.\n\n**Ability Score Increase.** Increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Draconic Ancestry.** You have draconic ancestry. Choose one type of dragon from the Gem Dragon Ancestry table. Your breath weapon and damage resistance are determined by the dragon type.\n**Breath Weapon.** When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your draconic ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Damage Resistance.** You have resistance to the damage type associated with your gem ancestry.\n**Psionic Mind.** You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.\n**Gem Flight.** Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can't do so again until you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Race:Metallic Dragonborn",
+   "type": "Race",
+   "name": "Metallic Dragonborn",
+   "desc": "Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons—brass, bronze, copper, gold, and silver—whose hues glint in their scales. Theirs is the fire of hearth and forge, the breath of the storm, and the enduring strength of the mountain.\n\n**Ability Score Increase.** Increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Draconic Ancestry.** You have draconic ancestry. Choose one type of dragon from the Metallic Dragon Ancestry table. Your breath weapon and damage resistance are determined by the dragon type.\n**Breath Weapon.** When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your draconic ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Damage Resistance.** You have resistance to the damage type associated with your metallic ancestry.\n**Metallic Breath Weapon.** Starting at 5th level, you can use your action to exhale a secondary breath weapon. Choose one of the following options: **Enervating Breath** (15-foot cone; Constitution saving throw; failure = incapacitated until the end of its next turn) or **Repulsion Breath** (15-foot cone; Strength saving throw; failure = pushed 20 feet away from you and knocked prone). Once you use this trait, you can't use it again until you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  }
+ ]
+}
