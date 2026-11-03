@@ -77,7 +77,9 @@
    "wt": 325,
    "rar": "Legendary",
    "att": true,
-   "effect": { "wpn": 1 }
+   "effect": {
+    "wpn": 1
+   }
   },
   {
    "id": "Magic:Ingot of the Skold Rune",
@@ -91,7 +93,9 @@
    "wt": 0,
    "rar": "Very Rare",
    "att": true,
-   "effect": { "ac": 1 }
+   "effect": {
+    "ac": 1
+   }
   },
   {
    "id": "Magic:Korolnor Scepter",
@@ -105,7 +109,9 @@
    "wt": 0,
    "rar": "Legendary",
    "att": true,
-   "effect": { "wpn": 3 }
+   "effect": {
+    "wpn": 3
+   }
   },
   {
    "id": "Magic:Navigation Orb",
@@ -125,9 +131,7 @@
    "type": "Magic",
    "name": "Opal of the Ild Rune",
    "desc": "Wondrous item, rare (requires attunement)\n\nThis triangular fire opal measures about three inches on each side and is half an inch thick. The ild (fire) rune shimmers within its core, causing it to be slightly warm to the touch. The opal has the following properties, which work only while it's on your person.\n\n***Ignite.*** As an action, you can ignite an object within 10 feet of you. The object must be flammable, and the fire starts in a circle no larger than 1 foot in diameter.\n\n***Fire's Friend.*** You have resistance to cold damage.\n\n***Fire Tamer.*** As an action, you can extinguish any open flame within 10 feet of you. You choose how much fire to extinguish in that radius.\n\n***Gift of Flame.*** You can transfer the opal's magic to a nonmagical item — a weapon or a suit of armor — by tracing the ild rune there with your finger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the opal is destroyed, and the rune appears in red on the chosen item, which gains a benefit based on its form:\n\n***Weapon.*** The weapon is now an uncommon magic weapon. It deals an extra 1d6 fire damage to any target it hits.\n\n***Armor.*** The armor is now a rare magic item that requires attunement. You have resistance to cold damage while wearing the armor.",
-   "rules": [
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" }
-   ],
+   "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
    "price": 0,
@@ -205,9 +209,7 @@
    "type": "Magic",
    "name": "Shard of the Ise Rune",
    "desc": "Wondrous item, rare (requires attunement)\n\nThis shard of ice is long and slender, roughly the size of a dagger. The ise (ice) rune glows within it. The shard has the following properties, which work only while it's on your person.\n\n***Frigid Touch.*** As an action, you can touch a body of water and freeze the water in a 10-foot-radius sphere around the spot you touched. Once you use this property, you can't use it again until you finish a short or long rest.\n\n***Frost Friend.*** You have resistance to fire damage.\n\n***Icy Mantle.*** As an action, you can touch yourself or another creature with water on your finger. The water creates an icy mantle of protection. The next time within the next minute that the target takes bludgeoning, slashing, or piercing damage, that damage is reduced to 0, and the mantle is destroyed. Once you use this property, you can't use it again until you finish a short or long rest.\n\n***Winter's Howl.*** As an action, you can cast sleet storm (spell save DC 17). You regain this ability after you finish a short or long rest.\n\n***Gift of Frost.*** You can transfer the shard's magic to a nonmagical item — a cloak or a pair of boots — by tracing the ise rune there with your finger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the shard is destroyed, and the rune appears in blue on the chosen item, which gains a benefit based on its form:\n\n***Cloak.*** The cloak is now a rare magic item that requires attunement. While wearing it, you have resistance to fire damage, and you have advantage on Dexterity (Stealth) checks made while in snowy terrain.\n\n***Boots.*** The pair of boots is now a rare magic item that requires attunement. While wearing it, you ignore difficult terrain while walking, and you can walk on water.",
-   "rules": [
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" }
-   ],
+   "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
    "price": 0,
