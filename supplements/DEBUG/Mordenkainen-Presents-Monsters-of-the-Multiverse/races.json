@@ -4,7 +4,7 @@
    "id": "Race:Aarakocra",
    "type": "Race",
    "name": "Aarakocra",
-   "desc": "A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander.\n\n**Ability Score Increase.** Increase your Dexterity score by 2, and your Wisdom score by 1.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Flight.** Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.\n**Talons.** You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Wind Caller.** Starting at 3rd level, you can cast the Gust of Wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast it with this trait (choose when you select this race).\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
+   "desc": "A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander.\n\nAbility Score Increase. Increase your Dexterity score by 2, and your Wisdom score by 1.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nFlight. Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.\nTalons. You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.\nWind Caller. Starting at 3rd level, you can cast the Gust of Wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast it with this trait (choose when you select this race).\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
    "rules": [
     {
      "stat": {
@@ -15,6 +15,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
@@ -29,7 +35,7 @@
    "id": "Race:Aasimar",
    "type": "Race",
    "name": "Aasimar",
-   "desc": "Aasimar are placed in the world to serve as guardians of law and good.\n\n**Ability Score Increase.** Increase your Charisma score by 2, and your Wisdom score by 1.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Celestial Resistance.** You have resistance to necrotic damage and radiant damage.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Healing Hands.** As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest.\n**Light Bearer.** You know the Light cantrip. Charisma is your spellcasting ability for it.\n**Celestial Revelation.** When you reach 3rd level, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Choose one of the following options: Necrotic Shroud, Radiant Soul, or Radiant Consumption. Once you use this trait, you can't do so again until you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
+   "desc": "Aasimar are placed in the world to serve as guardians of law and good.\n\nAbility Score Increase. Increase your Charisma score by 2, and your Wisdom score by 1.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nCelestial Resistance. You have resistance to necrotic damage and radiant damage.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nHealing Hands. As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest.\nLight Bearer. You know the Light cantrip. Charisma is your spellcasting ability for it.\nCelestial Revelation. When you reach 3rd level, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Choose one of the following options: Necrotic Shroud, Radiant Soul, or Radiant Consumption. Once you use this trait, you can't do so again until you finish a long rest.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
    "rules": [
     {
      "stat": {
@@ -40,6 +46,20 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "healing-hands",
+      "name": "Healing Hands",
+      "rest": "L",
+      "max": 1
+     }
     }
    ],
    "featSpells": [
@@ -54,7 +74,7 @@
    "id": "Race:Bugbear",
    "type": "Race",
    "name": "Bugbear",
-   "desc": "Bugbears are born for battle and mayhem.\n\n**Ability Score Increase.** Increase your Strength score by 2, and your Dexterity score by 1.\n**Creature Type.** You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Fey Ancestry.** You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\n**Long-Limbed.** When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.\n**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n**Sneaky.** You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.\n**Surprise Attack.** If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
+   "desc": "Bugbears are born for battle and mayhem.\n\nAbility Score Increase. Increase your Strength score by 2, and your Dexterity score by 1.\nCreature Type. You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nFey Ancestry. You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\nLong-Limbed. When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.\nPowerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nSneaky. You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.\nSurprise Attack. If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
    "rules": [
     {
      "stat": {
@@ -68,6 +88,12 @@
     },
     {
      "grant": "skill:Stealth"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ]
   },
@@ -75,7 +101,7 @@
    "id": "Race:Centaur",
    "type": "Race",
    "name": "Centaur",
-   "desc": "Centaurs gallop into the fray, their hooves thundering across the battlefield.\n\n**Ability Score Increase.** Increase your Strength score by 2, and your Wisdom score by 1.\n**Creature Type.** You are a Fey.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 40 feet.\n**Charge.** If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.\n**Hooves.** You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Equine Build.** You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.\n**Natural Affinity.** You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
+   "desc": "Centaurs gallop into the fray, their hooves thundering across the battlefield.\n\nAbility Score Increase. Increase your Strength score by 2, and your Wisdom score by 1.\nCreature Type. You are a Fey.\nSize. You are Medium.\nSpeed. Your walking speed is 40 feet.\nCharge. If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.\nHooves. You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.\nEquine Build. You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.\nNatural Affinity. You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
    "rules": [
     {
      "stat": {
@@ -86,6 +112,24 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Natural Affinity",
+      "n": 1,
+      "from": [
+       "Animal Handling",
+       "Medicine",
+       "Nature",
+       "Survival"
+      ]
+     }
     }
    ]
   },
@@ -93,7 +137,7 @@
    "id": "Race:Changeling",
    "type": "Race",
    "name": "Changeling",
-   "desc": "Changelings are shapechangers by nature, capable of altering their appearance at will.\n\n**Ability Score Increase.** Increase your Charisma score by 2, and your Dexterity score by 1.\n**Creature Type.** You are a Fey.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Shapechanger.** As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait.\nYou stay in the new form until you use an action to revert to your true form or until you die.\n**Changeling Instincts.** You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
+   "desc": "Changelings are shapechangers by nature, capable of altering their appearance at will.\n\nAbility Score Increase. Increase your Charisma score by 2, and your Dexterity score by 1.\nCreature Type. You are a Fey.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nShapechanger. As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait.\nYou stay in the new form until you use an action to revert to your true form or until you die.\nChangeling Instincts. You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.",
    "rules": [
     {
      "stat": {
@@ -104,6 +148,25 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Changeling Instincts",
+      "n": 2,
+      "from": [
+       "Deception",
+       "Insight",
+       "Intimidation",
+       "Performance",
+       "Persuasion"
+      ]
+     }
     }
    ]
   },
@@ -111,7 +174,7 @@
    "id": "Race:Deep Gnome",
    "type": "Race",
    "name": "Deep Gnome",
-   "desc": "Deep gnomes, or svirfneblin, are natives of the Underdark and are suffused with that subterranean realm's magic.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.\n**Superior Darkvision.** You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Gnomish Magic Resistance.** You have advantage on Intelligence, Wisdom, and Charisma saving throws against spells.\n**Svirfneblin Camouflage.** When you make a Dexterity (Stealth) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Deep gnomes, or svirfneblin, are natives of the Underdark and are suffused with that subterranean realm's magic.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.\nSize. You are Small.\nSpeed. Your walking speed is 30 feet.\nSuperior Darkvision. You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nGnomish Magic Resistance. You have advantage on Intelligence, Wisdom, and Charisma saving throws against spells.\nSvirfneblin Camouflage. When you make a Dexterity (Stealth) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -120,6 +183,22 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "svirfneblin-camouflage",
+      "name": "Svirfneblin Camouflage",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -127,7 +206,7 @@
    "id": "Race:Duergar",
    "type": "Race",
    "name": "Duergar",
-   "desc": "Duergar are dwarves whose ancestors were transformed by centuries living in the deepest places of the Underdark.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Superior Darkvision.** You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Dwarven Resilience.** You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.\n**Psionic Fortitude.** You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.\n**Duergar Magic.** Starting at 3rd level, you can cast the Enlarge/Reduce spell (the enlarge option only) with this trait, without requiring a material component. Starting at 5th level, you can also cast the Invisibility spell with it, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Duergar are dwarves whose ancestors were transformed by centuries living in the deepest places of the Underdark.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nSuperior Darkvision. You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nDwarven Resilience. You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.\nPsionic Fortitude. You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.\nDuergar Magic. Starting at 3rd level, you can cast the Enlarge/Reduce spell (the enlarge option only) with this trait, without requiring a material component. Starting at 5th level, you can also cast the Invisibility spell with it, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -136,13 +215,19 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
     [
      3,
-     "Enlarge/Reduce (Enlarge Only)",
-     "1/long rest"
+     "Enlarge/Reduce",
+     "1/long rest, enlarge only"
     ],
     [
      5,
@@ -155,7 +240,7 @@
    "id": "Race:Fairy",
    "type": "Race",
    "name": "Fairy",
-   "desc": "The Feywild is home to many fantastic peoples, including fairies.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Fey.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.\n**Fairy Magic.** You know the Druidcraft cantrip. Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\n**Flight.** Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "The Feywild is home to many fantastic peoples, including fairies.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Fey.\nSize. You are Small.\nSpeed. Your walking speed is 30 feet.\nFairy Magic. You know the Druidcraft cantrip. Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\nFlight. Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -164,6 +249,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
@@ -188,7 +279,7 @@
    "id": "Race:Firbolg",
    "type": "Race",
    "name": "Firbolg",
-   "desc": "Firbolgs are humanoids related to giants, with a connection to the natural world.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Firbolg Magic.** You can cast the Detect Magic and Disguise Self spells with this trait. When you use this version of Disguise Self, you can seem up to 3 feet shorter or taller. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\n**Hidden Step.** As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.\n**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n**Speech of Beast and Leaf.** You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Firbolgs are humanoids related to giants, with a connection to the natural world.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nFirbolg Magic. You can cast the Detect Magic and Disguise Self spells with this trait. When you use this version of Disguise Self, you can seem up to 3 feet shorter or taller. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\nHidden Step. As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.\nPowerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nSpeech of Beast and Leaf. You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -197,6 +288,20 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "hidden-step",
+      "name": "Hidden Step",
+      "rest": "S",
+      "max": 1
+     }
     }
    ],
    "featSpells": [
@@ -216,7 +321,7 @@
    "id": "Race:Genasi",
    "type": "Race",
    "name": "Genasi",
-   "desc": "Genasi are descendants of humans and genies. They are a varied people, with traits that reflect their elemental ancestry.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Genasi are descendants of humans and genies. They are a varied people, with traits that reflect their elemental ancestry.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -228,9 +333,8 @@
     },
     {
      "select": {
-      "name": "Subrace",
-      "type": "Sub Race",
-      "supports": "Race:Genasi"
+      "name": "Language",
+      "type": "Language"
      }
     }
    ]
@@ -239,7 +343,7 @@
    "id": "Sub Race:Air Genasi",
    "type": "Sub Race",
    "name": "Air Genasi",
-   "desc": "Tracing their ancestry to djinn of the Elemental Plane of Air, air genasi are often restless and dream of far-off places.\n\n**Speed.** Your walking speed is 35 feet.\n**Unending Breath.** You can hold your breath indefinitely while you're not incapacitated.\n**Lightning Resistance.** You have resistance to lightning damage.\n**Mingle with the Wind.** You know the Shocking Grasp cantrip. Starting at 3rd level, you can cast the Feather Fall spell with this trait. Starting at 5th level, you can also cast the Levitate spell with this trait, without requiring a material component. Once you cast Feather Fall or Levitate with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
+   "desc": "Tracing their ancestry to djinn of the Elemental Plane of Air, air genasi are often restless and dream of far-off places.\n\nSpeed. Your walking speed is 35 feet.\nUnending Breath. You can hold your breath indefinitely while you're not incapacitated.\nLightning Resistance. You have resistance to lightning damage.\nMingle with the Wind. You know the Shocking Grasp cantrip. Starting at 3rd level, you can cast the Feather Fall spell with this trait. Starting at 5th level, you can also cast the Levitate spell with this trait, without requiring a material component. Once you cast Feather Fall or Levitate with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
    "supports": "Race:Genasi",
    "rules": [
     {
@@ -270,9 +374,20 @@
    "id": "Sub Race:Earth Genasi",
    "type": "Sub Race",
    "name": "Earth Genasi",
-   "desc": "Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao's steadfast strength.\n\n**Earth Walk.** You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.\n**Merge with Stone.** You know the Blade Ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. Starting at 5th level, you can cast the Pass without Trace spell with this trait, without requiring a material component. Once you cast Pass without Trace with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
+   "desc": "Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao's steadfast strength.\n\nEarth Walk. You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.\nMerge with Stone. You know the Blade Ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. Starting at 5th level, you can cast the Pass without Trace spell with this trait, without requiring a material component. Once you cast Pass without Trace with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast this spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
    "supports": "Race:Genasi",
-   "rules": [],
+   "rules": [
+    {
+     "resource": {
+      "id": "merge-with-stone",
+      "name": "Merge with Stone",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ],
    "featSpells": [
     [
      1,
@@ -281,7 +396,7 @@
     ],
     [
      5,
-     "Pass without Trace",
+     "Pass Without Trace",
      "1/long rest"
     ]
    ]
@@ -290,7 +405,7 @@
    "id": "Sub Race:Fire Genasi",
    "type": "Sub Race",
    "name": "Fire Genasi",
-   "desc": "Tracing their ancestry to efreeti of the Elemental Plane of Fire, fire genasi are passionate and quick to act.\n\n**Fire Resistance.** You have resistance to fire damage.\n**Reach to the Blaze.** You know the Produce Flame cantrip. Starting at 3rd level, you can cast the Burning Hands spell with this trait. Starting at 5th level, you can also cast the Flame Blade spell with this trait, without requiring a material component. Once you cast Burning Hands or Flame Blade with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
+   "desc": "Tracing their ancestry to efreeti of the Elemental Plane of Fire, fire genasi are passionate and quick to act.\n\nFire Resistance. You have resistance to fire damage.\nReach to the Blaze. You know the Produce Flame cantrip. Starting at 3rd level, you can cast the Burning Hands spell with this trait. Starting at 5th level, you can also cast the Flame Blade spell with this trait, without requiring a material component. Once you cast Burning Hands or Flame Blade with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
    "supports": "Race:Genasi",
    "rules": [],
    "featSpells": [
@@ -315,7 +430,7 @@
    "id": "Sub Race:Water Genasi",
    "type": "Sub Race",
    "name": "Water Genasi",
-   "desc": "Tracing their ancestry to marids of the Elemental Plane of Water, water genasi are calm and contemplative.\n\n**Acid Resistance.** You have resistance to acid damage.\n**Amphibious.** You can breathe air and water.\n**Call to the Wave.** You know the Acid Splash cantrip. Starting at 3rd level, you can cast the Create or Destroy Water spell with this trait. Starting at 5th level, you can also cast the Water Walk spell with this trait, without requiring a material component. Once you cast Create or Destroy Water or Water Walk with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
+   "desc": "Tracing their ancestry to marids of the Elemental Plane of Water, water genasi are calm and contemplative.\n\nAcid Resistance. You have resistance to acid damage.\nAmphibious. You can breathe air and water.\nCall to the Wave. You know the Acid Splash cantrip. Starting at 3rd level, you can cast the Create or Destroy Water spell with this trait. Starting at 5th level, you can also cast the Water Walk spell with this trait, without requiring a material component. Once you cast Create or Destroy Water or Water Walk with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).",
    "supports": "Race:Genasi",
    "rules": [],
    "featSpells": [
@@ -340,7 +455,7 @@
    "id": "Race:Githyanki",
    "type": "Race",
    "name": "Githyanki",
-   "desc": "Githyanki are a lanky people with skin tones of yellows, greens, and browns.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Astral Knowledge.** You can mystically access a reservoir of experiences of your kind. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player's Handbook. These proficiencies last until the end of your next long rest.\n**Githyanki Psionics.** You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Starting at 3rd level, you can cast the Jump spell with this trait. Starting at 5th level, you can also cast the Misty Step spell with this trait. Once you cast Jump or Misty Step with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\n**Psychic Resilience.** You have resistance to psychic damage.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Githyanki are a lanky people with skin tones of yellows, greens, and browns.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nAstral Knowledge. You can mystically access a reservoir of experiences of your kind. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player's Handbook. These proficiencies last until the end of your next long rest.\nGithyanki Psionics. You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Starting at 3rd level, you can cast the Jump spell with this trait. Starting at 5th level, you can also cast the Misty Step spell with this trait. Once you cast Jump or Misty Step with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\nPsychic Resilience. You have resistance to psychic damage.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -349,6 +464,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
@@ -373,7 +494,7 @@
    "id": "Race:Githzerai",
    "type": "Race",
    "name": "Githzerai",
-   "desc": "Githzerai are generally slender, with speckled skin in shades of yellow, green, or brown.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Mental Discipline.** You have advantage on saving throws you make to avoid or end the charmed and frightened conditions on yourself.\n**Githzerai Psionics.** You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Starting at 3rd level, you can cast the Shield spell with this trait. Starting at 5th level, you can also cast the Detect Thoughts spell with this trait. Once you cast Shield or Detect Thoughts with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\n**Psychic Resilience.** You have resistance to psychic damage.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Githzerai are generally slender, with speckled skin in shades of yellow, green, or brown.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nMental Discipline. You have advantage on saving throws you make to avoid or end the charmed and frightened conditions on yourself.\nGithzerai Psionics. You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Starting at 3rd level, you can cast the Shield spell with this trait. Starting at 5th level, you can also cast the Detect Thoughts spell with this trait. Once you cast Shield or Detect Thoughts with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\nPsychic Resilience. You have resistance to psychic damage.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -382,6 +503,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
@@ -406,7 +533,7 @@
    "id": "Race:Goblin",
    "type": "Race",
    "name": "Goblin",
-   "desc": "Goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Fey Ancestry.** You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\n**Fury of the Small.** When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.\n**Nimble Escape.** You can take the Disengage or Hide action as a bonus action on each of your turns.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.\nSize. You are Small.\nSpeed. Your walking speed is 30 feet.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nFey Ancestry. You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\nFury of the Small. When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.\nNimble Escape. You can take the Disengage or Hide action as a bonus action on each of your turns.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -415,6 +542,22 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "fury-of-the-small",
+      "name": "Fury of the Small",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -422,7 +565,7 @@
    "id": "Race:Goliath",
    "type": "Race",
    "name": "Goliath",
-   "desc": "Distantly related to giants and infused with the supernatural essence of their ancestors' mountainous home.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Little Giant.** You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n**Mountain Born.** You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.\n**Stone's Endurance.** You can supernaturally draw on unyielding stone to shrug off harm. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Distantly related to giants and infused with the supernatural essence of their ancestors' mountainous home.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nLittle Giant. You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nMountain Born. You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet.\nStone's Endurance. You can supernaturally draw on unyielding stone to shrug off harm. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -434,6 +577,22 @@
     },
     {
      "grant": "skill:Athletics"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "stones-endurance",
+      "name": "Stone's Endurance",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -441,7 +600,7 @@
    "id": "Race:Harengon",
    "type": "Race",
    "name": "Harengon",
-   "desc": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Hare-Trigger.** You can add your proficiency bonus to your initiative rolls.\n**Leporine Senses.** You have proficiency in the Perception skill.\n**Lucky Footwork.** When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.\n**Rabbit Hop.** As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nHare-Trigger. You can add your proficiency bonus to your initiative rolls.\nLeporine Senses. You have proficiency in the Perception skill.\nLucky Footwork. When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.\nRabbit Hop. As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -453,6 +612,22 @@
     },
     {
      "grant": "skill:Perception"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "rabbit-hop",
+      "name": "Rabbit Hop",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -460,7 +635,7 @@
    "id": "Race:Hobgoblin",
    "type": "Race",
    "name": "Hobgoblin",
-   "desc": "Hobgoblins are a goblinoid people who value discipline, honor, and community.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Fey Ancestry.** You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\n**Fortune from the Many.** If you miss with an attack roll or fail an ability check or a saving throw, you can draw on the bonds of solidarity to fuel your effort. Roll a d4 and add the number rolled to the attack roll, ability check, or saving throw, potentially turning the miss or failure into a success. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Saving Face.** When you or a creature you can see within 30 feet of you fails a saving throw, you can use your reaction to expend one use of your Fortune from the Many trait to add the number rolled to the saving throw, potentially turning the failure into a success.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Hobgoblins are a goblinoid people who value discipline, honor, and community.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nFey Ancestry. You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\nFortune from the Many. If you miss with an attack roll or fail an ability check or a saving throw, you can draw on the bonds of solidarity to fuel your effort. Roll a d4 and add the number rolled to the attack roll, ability check, or saving throw, potentially turning the miss or failure into a success. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nSaving Face. When you or a creature you can see within 30 feet of you fails a saving throw, you can use your reaction to expend one use of your Fortune from the Many trait to add the number rolled to the saving throw, potentially turning the failure into a success.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -469,6 +644,22 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "fortune-from-the-many",
+      "name": "Fortune from the Many",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -476,7 +667,7 @@
    "id": "Race:Kenku",
    "type": "Race",
    "name": "Kenku",
-   "desc": "Feathered folk who resemble ravens, kenku are blessed with keen observation and supernaturally accurate memories.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Expert Duplication.** When you copy writing or craftwork produced by yourself or others, you can produce an exact duplicate of the original in half the normal time.\n**Kenku Recall.** Thanks to your supernaturally accurate memory, you have proficiency in two skills of your choice. In addition, when you make an ability check using a skill you're proficient in, you can give yourself advantage on the check. Once you use this trait, you can't do so again until you finish a short or long rest.\n**Mimicry.** You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Feathered folk who resemble ravens, kenku are blessed with keen observation and supernaturally accurate memories.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nExpert Duplication. When you copy writing or craftwork produced by yourself or others, you can produce an exact duplicate of the original in half the normal time.\nKenku Recall. Thanks to your supernaturally accurate memory, you have proficiency in two skills of your choice. In addition, when you make an ability check using a skill you're proficient in, you can give yourself advantage on the check. Once you use this trait, you can't do so again until you finish a short or long rest.\nMimicry. You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -485,6 +676,46 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Kenku Recall",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "kenku-recall",
+      "name": "Kenku Recall",
+      "rest": "S",
+      "max": 1
+     }
     }
    ]
   },
@@ -492,7 +723,7 @@
    "id": "Race:Kobold",
    "type": "Race",
    "name": "Kobold",
-   "desc": "Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Draconic Cry.** As a bonus action, you let out a cry at your enemies that echoes with draconic might. Until the start of your next turn, you and your allies have advantage on attack rolls against any creature within 10 feet of you that can hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Kobold Legacy.** You have draconic ancestry. Choose one of the following legacy options:\n- Craftiness: You have proficiency in one of the following skills: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.\n- Defiance: You have advantage on saving throws against being frightened.\n- Draconic Sorcery: You know one cantrip of your choice from the Sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Small.\nSpeed. Your walking speed is 30 feet.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nDraconic Cry. As a bonus action, you let out a cry at your enemies that echoes with draconic might. Until the start of your next turn, you and your allies have advantage on attack rolls against any creature within 10 feet of you that can hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nKobold Legacy. You have draconic ancestry. Choose one of the following legacy options:\nCraftiness: You have proficiency in one of the following skills: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.\nDefiance: You have advantage on saving throws against being frightened.\nDraconic Sorcery: You know one cantrip of your choice from the Sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -501,6 +732,22 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "draconic-cry",
+      "name": "Draconic Cry",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -508,7 +755,7 @@
    "id": "Race:Lizardfolk",
    "type": "Race",
    "name": "Lizardfolk",
-   "desc": "The saurian lizardfolk are thought by some sages to be distant cousins of dragonborn and kobolds.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.\n**Bite.** You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Hold Breath.** You can hold your breath for up to 15 minutes at a time.\n**Hungry Jaws.** You can throw yourself into a feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n**Natural Armor.** You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "The saurian lizardfolk are thought by some sages to be distant cousins of dragonborn and kobolds.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.\nBite. You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.\nHold Breath. You can hold your breath for up to 15 minutes at a time.\nHungry Jaws. You can throw yourself into a feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nNatural Armor. You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -517,6 +764,22 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "hungry-jaws",
+      "name": "Hungry Jaws",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -524,7 +787,7 @@
    "id": "Race:Minotaur",
    "type": "Race",
    "name": "Minotaur",
-   "desc": "Minotaurs are barrel-chested humanoids with heads resembling those of bulls.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Horns.** You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Goring Rush.** Immediately after you take the Dash action on your turn, you can make one melee attack with your horns as a bonus action.\n**Hammering Horns.** Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that creature with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.\n**Labyrinthine Recall.** You always know which direction is north, and you have advantage on any Wisdom (Survival) check you make to navigate or track.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Minotaurs are barrel-chested humanoids with heads resembling those of bulls.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nHorns. You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.\nGoring Rush. Immediately after you take the Dash action on your turn, you can make one melee attack with your horns as a bonus action.\nHammering Horns. Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that creature with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.\nLabyrinthine Recall. You always know which direction is north, and you have advantage on any Wisdom (Survival) check you make to navigate or track.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -533,6 +796,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ]
   },
@@ -540,7 +809,7 @@
    "id": "Race:Orc",
    "type": "Race",
    "name": "Orc",
-   "desc": "Orcs are a people of gray skin, sharply pointed ears, and prominent lower canines that resemble small tusks.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Adrenaline Rush.** You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Relentless Endurance.** When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Orcs are a people of gray skin, sharply pointed ears, and prominent lower canines that resemble small tusks.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nAdrenaline Rush. You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nRelentless Endurance. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -549,6 +818,30 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "resource": {
+      "id": "adrenaline-rush",
+      "name": "Adrenaline Rush",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    },
+    {
+     "resource": {
+      "id": "relentless-endurance-orc",
+      "name": "Relentless Endurance",
+      "rest": "L",
+      "max": 1
+     }
     }
    ]
   },
@@ -556,7 +849,7 @@
    "id": "Race:Satyr",
    "type": "Race",
    "name": "Satyr",
-   "desc": "Originating in the Feywild—a realm of pure emotion—satyrs thrive on the energy of merriment.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Fey.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 35 feet.\n**Ram.** You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Magic Resistance.** You have advantage on saving throws against spells.\n**Mirthful Leaps.** Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when you make a standing jump. This extra distance costs movement as normal.\n**Reveler.** You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Originating in the Feywild—a realm of pure emotion—satyrs thrive on the energy of merriment.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Fey.\nSize. You are Medium.\nSpeed. Your walking speed is 35 feet.\nRam. You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.\nMagic Resistance. You have advantage on saving throws against spells.\nMirthful Leaps. Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when you make a standing jump. This extra distance costs movement as normal.\nReveler. You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -571,6 +864,12 @@
     },
     {
      "grant": "skill:Persuasion"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ]
   },
@@ -578,7 +877,7 @@
    "id": "Sub Race:Sea Elf",
    "type": "Sub Race",
    "name": "Sea Elf",
-   "desc": "Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse.\n\n**Child of the Sea.** You can breathe air and water, and you have resistance to cold damage.\n**Friend of the Sea.** Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.",
+   "desc": "Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse.\n\nChild of the Sea. You can breathe air and water, and you have resistance to cold damage.\nFriend of the Sea. Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.",
    "supports": "Race:Elf",
    "rules": [
     {
@@ -592,12 +891,22 @@
    "id": "Sub Race:Shadar-kai",
    "type": "Sub Race",
    "name": "Shadar-kai",
-   "desc": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen.\n\n**Blessing of the Raven Queen.** As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.\n**Necrotic Resistance.** You have resistance to necrotic damage.",
+   "desc": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen.\n\nBlessing of the Raven Queen. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.\nNecrotic Resistance. You have resistance to necrotic damage.",
    "supports": "Race:Elf",
    "rules": [
     {
      "stat": {
       "speed": 30
+     }
+    },
+    {
+     "resource": {
+      "id": "blessing-of-the-raven-queen",
+      "name": "Blessing of the Raven Queen",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
      }
     }
    ]
@@ -606,12 +915,22 @@
    "id": "Sub Race:Eladrin",
    "type": "Sub Race",
    "name": "Eladrin",
-   "desc": "Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic.\n\n**Fey Step.** As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. When you reach 3rd level, your Fey Step gains an additional effect based on your season:\n- Autumn: Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it.\n- Winter: When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.\n- Spring: When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.\n- Summer: Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your proficiency bonus.",
+   "desc": "Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic.\n\nFey Step. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. When you reach 3rd level, your Fey Step gains an additional effect based on your season:\nAutumn: Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it.\nWinter: When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.\nSpring: When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.\nSummer: Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your proficiency bonus.",
    "supports": "Race:Elf",
    "rules": [
     {
      "stat": {
       "speed": 30
+     }
+    },
+    {
+     "resource": {
+      "id": "fey-step",
+      "name": "Fey Step",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
      }
     }
    ]
@@ -620,7 +939,7 @@
    "id": "Race:Shifter",
    "type": "Race",
    "name": "Shifter",
-   "desc": "Shifters—sometimes called \"weretouched\"—descend from people who contracted full or partial lycanthropy.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Bestial Instincts.** Channeling the beast within, you have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Shifting.** As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 × your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you shift, you gain an additional benefit based on one of the following options (choose when you select this race):\n- Beasthide: You gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your AC.\n- Longtooth: You gain a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier piercing damage. Immediately after you take the Attack action on your turn, you can make one attack with your fangs as a bonus action.\n- Swiftstride: While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks.\n- Wildhunt: While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you're incapacitated.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Shifters—sometimes called \"weretouched\"—descend from people who contracted full or partial lycanthropy.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet.\nBestial Instincts. Channeling the beast within, you have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nShifting. As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 × your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you shift, you gain an additional benefit based on one of the following options (choose when you select this race):\nBeasthide: You gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your AC.\nLongtooth: You gain a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier piercing damage. Immediately after you take the Attack action on your turn, you can make one attack with your fangs as a bonus action.\nSwiftstride: While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks.\nWildhunt: While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you're incapacitated.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -629,6 +948,34 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Bestial Instincts",
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Athletics",
+       "Intimidation",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "shifting",
+      "name": "Shifting",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -636,7 +983,7 @@
    "id": "Race:Tabaxi",
    "type": "Race",
    "name": "Tabaxi",
-   "desc": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Cat's Claws.** You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Cat's Talent.** You have proficiency in the Perception and Stealth skills.\n**Feline Agility.** Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nCat's Claws. You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.\nCat's Talent. You have proficiency in the Perception and Stealth skills.\nFeline Agility. Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -651,6 +998,12 @@
     },
     {
      "grant": "skill:Stealth"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ]
   },
@@ -658,7 +1011,7 @@
    "id": "Race:Tortle",
    "type": "Race",
    "name": "Tortle",
-   "desc": "Tortles have a saying: \"We wear our homes on our backs.\"\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Claws.** You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.\n**Hold Breath.** You can hold your breath for up to 1 hour.\n**Natural Armor.** Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.\n**Nature's Intuition.** Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.\n**Shell Defense.** You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Tortles have a saying: \"We wear our homes on our backs.\"\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nClaws. You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.\nHold Breath. You can hold your breath for up to 1 hour.\nNatural Armor. Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.\nNature's Intuition. Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.\nShell Defense. You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -667,6 +1020,26 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Nature's Intuition",
+      "n": 1,
+      "from": [
+       "Animal Handling",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Stealth",
+       "Survival"
+      ]
+     }
     }
    ]
   },
@@ -674,7 +1047,7 @@
    "id": "Race:Triton",
    "type": "Race",
    "name": "Triton",
-   "desc": "Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Amphibious.** You can breathe air and water.\n**Control Air and Water.** You can cast the Fog Cloud spell with this trait. Starting at 3rd level, you can also cast the Gust of Wind spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\n**Emissary of the Sea.** Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.\n**Guardian of the Depths.** Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium.\nSpeed. Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nAmphibious. You can breathe air and water.\nControl Air and Water. You can cast the Fog Cloud spell with this trait. Starting at 3rd level, you can also cast the Gust of Wind spell with it. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\nEmissary of the Sea. Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.\nGuardian of the Depths. Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -683,6 +1056,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
@@ -702,7 +1081,7 @@
    "id": "Race:Yuan-ti",
    "type": "Race",
    "name": "Yuan-ti",
-   "desc": "Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Magic Resistance.** You have advantage on saving throws against spells.\n**Poison Resilience.** You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.\n**Serpentine Spellcasting.** You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nDarkvision. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\nMagic Resistance. You have advantage on saving throws against spells.\nPoison Resilience. You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.\nSerpentine Spellcasting. You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race).\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -711,6 +1090,12 @@
     },
     {
      "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
     }
    ],
    "featSpells": [
@@ -721,8 +1106,8 @@
     ],
     [
      1,
-     "Animal Friendship (Snakes Only)",
-     "at will"
+     "Animal Friendship",
+     "at will, snakes only"
     ],
     [
      3,
