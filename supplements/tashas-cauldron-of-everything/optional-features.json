@@ -1,0 +1,284 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Primal Knowledge (Optional)",
+   "type": "Class Feature",
+   "name": "Primal Knowledge (Optional)",
+   "desc": "3rd-level barbarian feature\n\nWhen you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Instinctive Pounce (Optional)",
+   "type": "Class Feature",
+   "name": "Instinctive Pounce (Optional)",
+   "desc": "7th-level barbarian feature\n\nAs part of the bonus action you take to enter your rage, you can move up to half your speed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Bard Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Bard Spells (Optional)",
+   "desc": "1st-level bard feature\n\nThe spells in the following list expand the bard spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\n1st | Color spray, Command\n2nd | Aid, Enlarge/reduce, Mirror image\n3rd | Intellect fortress*, Mass healing word, Slow\n4th | Phantasmal killer\n5th | Rary's telepathic bond (ritual)\n6th | Heroes' feast\n7th | Dream of the blue veil*, Prismatic spray\n8th | Antipathy/sympathy\n9th | Prismatic wall",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magical Inspiration (Optional)",
+   "type": "Class Feature",
+   "name": "Magical Inspiration (Optional)",
+   "desc": "2nd-level bard feature\n\nIf a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bardic Versatility (Optional)",
+   "type": "Class Feature",
+   "name": "Bardic Versatility (Optional)",
+   "desc": "4th-level bard feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:\n\n- Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Cleric Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Cleric Spells (Optional)",
+   "desc": "1st-level cleric feature\n\nThe spells in the following list expand the cleric spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\n3rd | Aura of vitality, Spirit shroud*\n4th | Aura of life, Aura of purity\n5th | Summon celestial*\n6th | Sunbeam\n8th | Sunburst\n9th | Power word heal",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Harness Divine Power (Cleric) (Optional)",
+   "type": "Class Feature",
+   "name": "Harness Divine Power (Cleric) (Optional)",
+   "desc": "2nd-level cleric feature\n\nYou can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cantrip Versatility (Cleric) (Optional)",
+   "type": "Class Feature",
+   "name": "Cantrip Versatility (Cleric) (Optional)",
+   "desc": "4th-level cleric feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blessed Strikes (Optional)",
+   "type": "Class Feature",
+   "name": "Blessed Strikes (Optional)",
+   "desc": "8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Druid Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Druid Spells (Optional)",
+   "desc": "1st-level druid feature\n\nThe spells in the following list expand the druid spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\n1st | Protection from evil and good\n2nd | Augury (ritual), Continual flame, Enlarge/Reduce, Summon beast*\n3rd | Aura of vitality, Elemental weapon, Revivify, Summon fey*\n4th | Divination (ritual), Fire shield, Summon elemental*\n5th | Cone of cold\n6th | Flesh to stone\n7th | Symbol\n8th | Incendiary cloud",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wild Companion (Optional)",
+   "type": "Class Feature",
+   "name": "Wild Companion (Optional)",
+   "desc": "2nd-level druid feature\n\nYou gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.\n\nWhen you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cantrip Versatility (Druid) (Optional)",
+   "type": "Class Feature",
+   "name": "Cantrip Versatility (Druid) (Optional)",
+   "desc": "4th-level druid feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Martial Versatility (Fighter) (Optional)",
+   "type": "Class Feature",
+   "name": "Martial Versatility (Fighter) (Optional)",
+   "desc": "4th-level fighter feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:\n\n- Replace a fighting style you know with another fighting style available to fighters.\n- If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dedicated Weapon (Optional)",
+   "type": "Class Feature",
+   "name": "Dedicated Weapon (Optional)",
+   "desc": "2nd-level monk feature\n\nYou train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.\n\nThe chosen weapon must meet these criteria:\n\n- The weapon must be a simple or martial weapon.\n- You must be proficient with it.\n- It must lack the heavy and special properties.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ki-Fueled Attack (Optional)",
+   "type": "Class Feature",
+   "name": "Ki-Fueled Attack (Optional)",
+   "desc": "3rd-level monk feature\n\nIf you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Quickened Healing (Optional)",
+   "type": "Class Feature",
+   "name": "Quickened Healing (Optional)",
+   "desc": "4th-level monk feature\n\nAs an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Focused Aim (Optional)",
+   "type": "Class Feature",
+   "name": "Focused Aim (Optional)",
+   "desc": "5th-level monk feature\n\nWhen you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Paladin Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Paladin Spells (Optional)",
+   "desc": "2nd-level paladin feature\n\nThe spells in the following list expand the paladin spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\n2nd | Gentle repose, Prayer of healing, Warding bond\n3rd | Spirit shroud*\n5th | Summon celestial*",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Harness Divine Power (Paladin) (Optional)",
+   "type": "Class Feature",
+   "name": "Harness Divine Power (Paladin) (Optional)",
+   "desc": "3rd-level paladin feature\n\nYou can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Martial Versatility (Paladin) (Optional)",
+   "type": "Class Feature",
+   "name": "Martial Versatility (Paladin) (Optional)",
+   "desc": "4th-level ranger feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Deft Explorer (Optional)",
+   "type": "Class Feature",
+   "name": "Deft Explorer (Optional)",
+   "desc": "1st-level ranger feature, which replaces the Natural Explorer feature\n\nYou are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.\n\nCANNY (1ST LEVEL)\n\nChoose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.\n\nYou can also speak, read, and write two additional languages of your choice.\n\nROVING (6TH LEVEL)\n\nYour walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.\n\nTIRELESS (10TH LEVEL)\n\nAs an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nIn addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Canny (Optional)",
+   "type": "Class Feature",
+   "name": "Canny (Optional)",
+   "desc": "Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.\n\nYou can also speak, read, and write two additional languages of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roving (Optional)",
+   "type": "Class Feature",
+   "name": "Roving (Optional)",
+   "desc": "Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Tireless (Optional)",
+   "type": "Class Feature",
+   "name": "Tireless (Optional)",
+   "desc": "As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nIn addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Favored Foe (Optional)",
+   "type": "Class Feature",
+   "name": "Favored Foe (Optional)",
+   "desc": "1st-level ranger feature, which replaces the Favored Enemy feature and works with the Foe Slayer feature\n\nWhen you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).\n\nThe first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by 1d4.\n\nYou can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nThis feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Ranger Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Ranger Spells (Optional)",
+   "desc": "2nd-level ranger feature\n\nThe spells in the following list expand the ranger spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\n1st | Entangle, Searing smite\n2nd | Aid, Enhance ability, Gust of wind, Magic weapon, Summon beast*\n3rd | Elemental weapon, Meld into stone, Revivify, Summon fey*\n4th | Dominate beast, Summon elemental*\n5th | Greater restoration",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spellcasting Focus (Ranger) (Optional)",
+   "type": "Class Feature",
+   "name": "Spellcasting Focus (Ranger) (Optional)",
+   "desc": "2nd-level ranger feature\n\nYou can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primal Awareness (Optional)",
+   "type": "Class Feature",
+   "name": "Primal Awareness (Optional)",
+   "desc": "3rd-level ranger feature, which replaces the Primeval Awareness feature\n\nYou can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.\n\nSpell Level | Spells\n3rd | speak with animals\n5th | beast sense\n9th | speak with plants\n13th | locate creature\n17th | commune with nature\n\nYou can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Martial Versatility (Ranger) (Optional)",
+   "type": "Class Feature",
+   "name": "Martial Versatility (Ranger) (Optional)",
+   "desc": "4th-level ranger feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Nature's Veil (Optional)",
+   "type": "Class Feature",
+   "name": "Nature's Veil (Optional)",
+   "desc": "10th-level ranger feature, which replaces the Hide in Plain Sight feature\n\nYou draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primal Companion (Optional)",
+   "type": "Class Feature",
+   "name": "Primal Companion (Optional)",
+   "desc": "3rd-level Beast Master feature, which replaces the Ranger's Companion feature\n\nYou magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.\n\nIn combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.\n\nIf the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.\n\nWhen you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Steady Aim (Optional)",
+   "type": "Class Feature",
+   "name": "Steady Aim (Optional)",
+   "desc": "3rd-level rogue feature\n\nAs a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Sorcerer Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Sorcerer Spells (Optional)",
+   "desc": "1st-level sorcerer feature\n\nThe spells in the following list expand the sorcerer spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\nCantrip | Booming blade*, Green-flame blade*, Lightning lure*, Mind sliver*, Sword burst*\n1st | Grease, Tasha's caustic brew*\n2nd | Flame blade, Flaming sphere, Magic weapon, Tasha's mind whip*\n3rd | Intellect fortress*, Vampiric touch\n4th | Fire shield\n5th | Bigby's hand\n6th | Flesh to stone, Otiluke's freezing sphere, Tasha's otherworldly guise\n7th | Dream of the blue veil*\n8th | Demiplane\n9th | Blade of disaster*",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Sorcerous Versatility (Optional)",
+   "type": "Class Feature",
+   "name": "Sorcerous Versatility (Optional)",
+   "desc": "4th-level sorcerer feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:\n\n- Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magical Guidance (Optional)",
+   "type": "Class Feature",
+   "name": "Magical Guidance (Optional)",
+   "desc": "5th-level sorcerer feature\n\nYou can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Warlock Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Warlock Spells (Optional)",
+   "desc": "1st-level warlock feature\n\nThe spells in the following list expand the warlock spell list in the Player's Handbook. The list is organized by spell level, not character level. If a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\nCantrip | Booming blade*, Green-flame blade*, Lightning lure*, Mind sliver*, Sword burst*\n3rd | Intellect fortress*, Spirit shroud*, Summon fey*, Summon shadowspawn*, Summon undead*\n4th | Summon aberration*\n5th | Mislead, Planar binding, Teleportation circle\n6th | Summon fiend*, Tasha's otherworldly guise\n7th | Dream of the blue veil*\n9th | Blade of disaster*, Gate, Weird",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Eldritch Versatility (Optional)",
+   "type": "Class Feature",
+   "name": "Eldritch Versatility (Optional)",
+   "desc": "4th-level warlock feature\n\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:\n\n- Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.\n- Replace the option you chose for the Pact Boon feature with one of that feature's other options.\n- If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level.\n\nIf this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Additional Wizard Spells (Optional)",
+   "type": "Class Feature",
+   "name": "Additional Wizard Spells (Optional)",
+   "desc": "1st-level wizard feature\n\nThe spells in the following list expand the wizard spell list in the Player's Handbook. The list is organized by spell level, not character level. A spell's school of magic is noted, and if a spell can be cast as a ritual, the ritual tag appears after the spell's name. Each spell is in the Player's Handbook, unless it has an asterisk (a spell in chapter 3 of Tasha’s Cauldron of Everything). Xanathar's Guide to Everything also offers more spells.\n\nSpell Level | Spells\nCantrip | Booming blade* (evoc.), Green-flame blade* (evoc.), Lightning lure* (evoc.), Mind sliver* (ench.), Sword burst* (conj.)\n1st | Tasha's caustic brew* (evoc.)\n2nd | Augury (divin., ritual), Enhance ability (trans.), Tasha's mind whip* (ench.)\n3rd | Intellect fortress* (abjur.), Speak with dead (necro.), Spirit shroud* (necro.), Summon fey* (conj.), Summon shadowspawn* (conj.), Summon undead* (conj.)\n4th | Divination (divin., ritual), Summon aberration* (conj.), Summon construct* (conj.), Summon elemental* (conj.)\n6th | Summon fiend* (conj.), Tasha's otherworldly guise* (trans.)\n7th | Dream of the blue veil* (conj.)\n9th | Blade of disaster* (conj.)",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cantrip Formulas (Optional)",
+   "type": "Class Feature",
+   "name": "Cantrip Formulas (Optional)",
+   "desc": "3rd-level wizard feature\n\nYou have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Maneuver Select (Optional)",
+   "type": "Class Feature",
+   "name": "Maneuver Select (Optional)",
+   "desc": "If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+   "rules": []
+  }
+ ]
+}

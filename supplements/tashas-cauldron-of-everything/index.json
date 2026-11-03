@@ -9,8 +9,11 @@
   "credit": "Content from Tasha’s Cauldron of Everything, © Wizards of the Coast LLC."
  },
  "files": [
+  "races.json",
+  "spells.json",
   "subclasses.json",
   "class-options.json",
+  "optional-features.json",
   "feats.json",
   "magic-items.json"
  ]

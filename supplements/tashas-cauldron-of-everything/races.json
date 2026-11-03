@@ -1,0 +1,206 @@
+{
+ "elements": [
+  {
+   "id": "Race:Custom Lineage",
+   "type": "Race",
+   "name": "Custom Lineage",
+   "desc": "Instead of choosing one of the game's races for your character at 1st level, you can use the following traits to represent your character's lineage, giving you full control over how your character's origin shaped them:\n\nCreature Type.You are a humanoid. You determine your appearance and whether you resemble any of your kin. Size.You are Small or Medium (your choice). Speed.Your base walking speed is 30 feet. Ability Score Increase.One ability score of your choice increases by 2. Feat. You gain one feat of your choice for which you qualify. Variable Trait.You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice. Languages.You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.\n\nYour race is considered to be a Custom Lineage for any game feature that requires a certain race, such as elf or dwarf.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Racial Trait",
+      "supports": "Custom Lineage Ability",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Size",
+      "type": "Racial Trait",
+      "supports": "Custom Lineage Size",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Variable Trait",
+      "type": "Racial Trait",
+      "supports": "Custom Lineage Variable Trait",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Feat",
+      "type": "Feat",
+      "n": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Strength (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Strength (Custom Lineage)",
+   "supports": "Custom Lineage Ability",
+   "desc": "Your Strength score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Dexterity (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Dexterity (Custom Lineage)",
+   "supports": "Custom Lineage Ability",
+   "desc": "Your Dexterity score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Constitution (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Constitution (Custom Lineage)",
+   "supports": "Custom Lineage Ability",
+   "desc": "Your Constitution score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "con": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Intelligence (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Intelligence (Custom Lineage)",
+   "supports": "Custom Lineage Ability",
+   "desc": "Your Intelligence score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "int": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Wisdom (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Wisdom (Custom Lineage)",
+   "supports": "Custom Lineage Ability",
+   "desc": "Your Wisdom score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Charisma (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Charisma (Custom Lineage)",
+   "supports": "Custom Lineage Ability",
+   "desc": "Your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Small (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Small (Custom Lineage)",
+   "supports": "Custom Lineage Size",
+   "desc": "You are Small.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Medium (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Medium (Custom Lineage)",
+   "supports": "Custom Lineage Size",
+   "desc": "You are Medium.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Darkvision (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Darkvision (Custom Lineage)",
+   "supports": "Custom Lineage Variable Trait",
+   "desc": "You have darkvision with a range of 60 feet.",
+   "rules": [
+    {
+     "grant": "Racial Trait:Darkvision"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Skill Proficiency (Custom Lineage)",
+   "type": "Racial Trait",
+   "name": "Skill Proficiency (Custom Lineage)",
+   "supports": "Custom Lineage Variable Trait",
+   "desc": "You gain proficiency in one skill of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
