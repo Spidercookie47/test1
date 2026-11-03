@@ -6,13 +6,31 @@
       "name": "Leonin",
       "desc": "The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers.",
       "rules": [
-        { "stat": { "con": 2, "str": 1, "speed": 35 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Leonin" },
-        { "grant": "Racial Trait:Darkvision" },
-        { "grant": "Racial Trait:Claws" },
-        { "grant": "Racial Trait:Hunter's Instincts" },
-        { "grant": "Racial Trait:Daunting Roar" }
+        {
+          "stat": {
+            "con": 2,
+            "str": 1,
+            "speed": 35
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Leonin"
+        },
+        {
+          "grant": "Racial Trait:Darkvision"
+        },
+        {
+          "grant": "Racial Trait:Claws"
+        },
+        {
+          "grant": "Racial Trait:Hunter's Instincts"
+        },
+        {
+          "grant": "Racial Trait:Daunting Roar"
+        }
       ]
     },
     {
@@ -32,7 +50,12 @@
           "select": {
             "name": "Hunter's Instincts",
             "type": "Skill",
-            "from": ["Athletics", "Intimidation", "Perception", "Survival"],
+            "from": [
+              "Athletics",
+              "Intimidation",
+              "Perception",
+              "Survival"
+            ],
             "n": 1
           }
         }
@@ -51,14 +74,34 @@
       "name": "Satyr",
       "desc": "Satyrs have a well-earned reputation for their good spirits, gregarious personalities, and love of revels. Most satyrs are driven by simple desires, to see the world and to sample its every pleasure.",
       "rules": [
-        { "stat": { "cha": 2, "dex": 1, "speed": 30 } },
-        { "grant": "Language:Common" },
-        { "grant": "Language:Sylvan" },
-        { "grant": "Racial Trait:Fey" },
-        { "grant": "Racial Trait:Ram" },
-        { "grant": "Racial Trait:Magic Resistance" },
-        { "grant": "Racial Trait:Mirthful Leaps" },
-        { "grant": "Racial Trait:Reveler" }
+        {
+          "stat": {
+            "cha": 2,
+            "dex": 1,
+            "speed": 30
+          }
+        },
+        {
+          "grant": "Language:Common"
+        },
+        {
+          "grant": "Language:Sylvan"
+        },
+        {
+          "grant": "Racial Trait:Fey"
+        },
+        {
+          "grant": "Racial Trait:Ram"
+        },
+        {
+          "grant": "Racial Trait:Magic Resistance"
+        },
+        {
+          "grant": "Racial Trait:Mirthful Leaps"
+        },
+        {
+          "grant": "Racial Trait:Reveler"
+        }
       ]
     },
     {
@@ -95,18 +138,29 @@
       "name": "Reveler",
       "desc": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.",
       "rules": [
-        { "grant": "skill:Performance" },
-        { "grant": "skill:Persuasion" },
+        {
+          "grant": "skill:Performance"
+        },
+        {
+          "grant": "skill:Persuasion"
+        },
         {
           "select": {
             "name": "Musical Instrument",
             "type": "Tool",
-            "from": [
-              "Tool:Bagpipes", "Tool:Drum", "Tool:Dulcimer", "Tool:Flute",
-              "Tool:Lute", "Tool:Lyre", "Tool:Horn", "Tool:Pan Flute",
-              "Tool:Shawm", "Tool:Viol"
-            ],
-            "n": 1
+            "n": 1,
+            "ids": [
+              "Tool:Bagpipes (PHB)",
+              "Tool:Drum (PHB)",
+              "Tool:Dulcimer (PHB)",
+              "Tool:Flute (PHB)",
+              "Tool:Lute (PHB)",
+              "Tool:Lyre (PHB)",
+              "Tool:Horn (PHB)",
+              "Tool:Pan flute (PHB)",
+              "Tool:Shawm (PHB)",
+              "Tool:Viol (PHB)"
+            ]
           }
         }
       ]

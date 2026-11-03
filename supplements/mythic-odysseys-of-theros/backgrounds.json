@@ -6,11 +6,22 @@
       "name": "Athlete",
       "desc": "You strive to perfect yourself physically and in execution of everything you do. The thrill of competition lights fire in your blood, and the roar of the crowd drives you forward. Tales of your exploits precede you and might open doors or loosen tongues.",
       "rules": [
-        { "grant": "skill:Acrobatics" },
-        { "grant": "skill:Athletics" },
-        { "grant": "Tool:Vehicles (Land)" },
-        { "select": { "name": "Language", "type": "Language", "n": 1 } },
-        { "grant": "Background Feature:Echoes of Victory" }
+        {
+          "grant": "skill:Acrobatics"
+        },
+        {
+          "grant": "skill:Athletics"
+        },
+        {
+          "select": {
+            "name": "Language",
+            "type": "Language",
+            "n": 1
+          }
+        },
+        {
+          "grant": "Background Feature:Echoes of Victory"
+        }
       ],
       "chars": {
         "traits": [

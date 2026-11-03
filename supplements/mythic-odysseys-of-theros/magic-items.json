@@ -5,9 +5,7 @@
       "type": "Magic",
       "name": "Anvilwrought",
       "desc": "Supernatural Gift\n\nYou were forged in the fires of Purphoros's forge. Your appearance bears a metallic sheen and visible joints.\n\nConstructed Resilience: You have advantage on saving throws against being poisoned, and you have resistance to poison damage. You don't need to eat, drink, or breathe. You are immune to disease. You don't need to sleep, and magic can't put you to sleep.\n\nSentry's Rest: When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.",
-      "rules": [
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" }
-      ],
+      "rules": [],
       "cg": "Wondrous Items",
       "cp": 0,
       "price": 0,
@@ -46,9 +44,7 @@
       "type": "Magic",
       "name": "Inscrutable",
       "desc": "Supernatural Gift\n\nLike a sphinx, you have a mind like a maze, impenetrable to mortal scrutiny.\n\nPsychic Shield: You have resistance to psychic damage.\n\nSphinx's Shroud: You are immune to any effect that allows other creatures to sense your emotions or read your thoughts. Wisdom (Insight) checks made to ascertain your intentions or sincerity have disadvantage.",
-      "rules": [
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" }
-      ],
+      "rules": [],
       "cg": "Wondrous Items",
       "cp": 0,
       "price": 0,
@@ -74,10 +70,7 @@
       "type": "Magic",
       "name": "Nyxborn",
       "desc": "Supernatural Gift\n\nBorn from the minds of the gods, the creatures that populate the gods' realm are called Nyxborn. A Nyxborn is like a fragment of divinity, an idea or a dream that is incarnate.\n\nCloak of Stars: As an action, you wrap yourself in a starry cloak, appearing like a silhouette formed of the night sky. When you do, attack rolls have disadvantage against you. This cloak lasts for 1 minute, until you doff it (no action required), or until you die. Once you use this trait, you can't use it again until you finish a long rest.\n\nNyxborn Resistance: You have resistance to necrotic and radiant damage.",
-      "rules": [
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" },
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" }
-      ],
+      "rules": [],
       "cg": "Wondrous Items",
       "cp": 0,
       "price": 0,
@@ -91,7 +84,9 @@
       "name": "Oracle",
       "desc": "Supernatural Gift\n\nYou possess a precious gift coveted not just by mortals but by the gods themselves: the gift of clear communication between the mortal and divine realms.\n\nEars of the Oracle: You can speak, read, and write Celestial, the language of the gods. In addition, a god might deliver a message through you.\n\nOracle's Insight: When you make an ability check, you can roll a d10 and add the number rolled to the check. You can wait until after you roll the d20 before deciding to add the d10, but you must decide before the DM says whether the roll succeeds or fails. Once you use this trait, you can't use it again until you finish a short or long rest.\n\nOracle's Piety: Instead of gaining piety benefits associated with any god, you gain the following traits when you reach the specified piety score. Wisdom is your spellcasting ability for any spell cast through these traits.\n\nPiety 3+: You can cast augury as a ritual. Once you do so, you can't cast it this way again until you finish a long rest.\n\nPiety 10+: You can cast divination as a ritual. Once you do so, you can't cast it this way again until you finish a long rest.\n\nPiety 25+: You can cast commune as a ritual. Once you do so, you can't cast it this way again until you finish a long rest. You also can't be surprised, provided you aren't incapacitated.\n\nPiety 50+: You can increase your Intelligence or Wisdom score by 2, as well as increasing your maximum for the chosen score by 2.",
       "rules": [
-        { "grant": "Language:Celestial" }
+        {
+          "grant": "Language:Celestial"
+        }
       ],
       "cg": "Wondrous Items",
       "cp": 0,
@@ -274,9 +269,7 @@
       "type": "Magic",
       "name": "Molten Bronze Skin",
       "desc": "Armor (breastplate, half plate, or plate), rare (requires attunement)\n\nThis magical armor appears as a jug of molten bronze. When you attune to it, the bronze adheres and contours to your skin. The armor can be worn under normal clothes, but it doesn't impede bodily functions. Once you put it on, it can't be removed unless you choose to do so.\n\nWhile wearing the armor, you have resistance to fire damage. The armor also doesn't impose disadvantage on Dexterity (Stealth) checks.",
-      "rules": [
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" }
-      ],
+      "rules": [],
       "cg": "Magic Armor",
       "cp": 0,
       "price": 0,
@@ -303,8 +296,11 @@
       "name": "Akmon, Hammer of Purphoros",
       "desc": "Weapon (warhammer), artifact (requires attunement)\n\nHammer of the Forge: This magic warhammer grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using it, the target takes an extra 3d10 fire damage.\n\nBlessing of the Forge: If you are a worshiper of Purphoros, you gain additional randomly determined beneficial properties as your piety increases (see the Dungeon Master's Guide for details). If you aren't a worshiper of Purphoros, the hammer has 2 randomly determined minor detrimental properties.\n\nReforged: While holding the hammer, you have resistance to fire damage and are immune to exhaustion. Additionally, you have proficiency with smith's tools and have advantage on all ability checks made using them.\n\nSpells: While the hammer is on your person, you can use an action to cast one of the following spells (save DC 18): animate objects, heat metal, fabricate, magic weapon, mending, shatter. Once you use the hammer to cast a spell, the spell can't be cast again from it until the next dusk.",
       "rules": [
-        { "grant": "Condition", "id": "ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" },
-        { "grant": "Tool:Smith's Tools" }
+        {
+          "pf": [
+            "t:Smith’s tools"
+          ]
+        }
       ],
       "cg": "Magic Weapons",
       "cp": 0,
@@ -370,9 +366,7 @@
       "type": "Magic",
       "name": "Orestes's Clay Burial Mask",
       "desc": "Wondrous item, uncommon (requires attunement)\n\nThis mask is sculpted with a look of wide-eyed shock.\n\nWhile you wear this mask, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the mask doesn't allow you to move this way on a slippery surface, such as one covered by ice or oil.",
-      "rules": [
-        { "stat": { "speed:climb": "speed" } }
-      ],
+      "rules": [],
       "cg": "Wondrous Items",
       "cp": 0,
       "price": 0,
