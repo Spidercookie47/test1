@@ -4,14 +4,14 @@
    "id": "Feat:Strike of the Giants",
    "type": "Feat",
    "name": "Strike of the Giants",
-   "desc": "You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder. Once per turn when you hit a creature with a weapon attack, you can deal an extra 1d6 damage of the chosen type to the target.\n\n**Giant Strike Options.** You can choose one of the following options when you take this feat:\n- **Cloud Strike (Thunder).** The target must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have disadvantage on its next attack roll before the end of its next turn.\n- **Fire Strike (Fire).** The target takes an extra 1d6 fire damage.\n- **Frost Strike (Cold).** The target must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have its speed reduced to 0 until the end of its next turn.\n- **Hill Strike (Bludgeoning).** The target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or be knocked prone.\n- **Stone Strike (Force).** The target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or be pushed 10 feet away from you.\n- **Storm Strike (Lightning).** The target must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have disadvantage on its next saving throw before the end of its next turn.",
+   "desc": "You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder. Once per turn when you hit a creature with a weapon attack, you can deal an extra 1d6 damage of the chosen type to the target.\n\nGiant Strike Options. You can choose one of the following options when you take this feat:\nCloud Strike (Thunder). The target must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have disadvantage on its next attack roll before the end of its next turn.\nFire Strike (Fire). The target takes an extra 1d6 fire damage.\nFrost Strike (Cold). The target must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have its speed reduced to 0 until the end of its next turn.\nHill Strike (Bludgeoning). The target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or be knocked prone.\nStone Strike (Force). The target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or be pushed 10 feet away from you.\nStorm Strike (Lightning). The target must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or have disadvantage on its next saving throw before the end of its next turn.",
    "rules": []
   },
   {
    "id": "Feat:Ember of the Fire Giant",
    "type": "Feat",
    "name": "Ember of the Fire Giant",
-   "desc": "Prerequisite: Strike of the Giants (Fire Strike)\n\nYou've manifested the fiery combat emblematic of fire giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\n- **Born of Flame.** You have resistance to fire damage.\n- **Searing Ignition.** As an action, you can replace one of your attacks with a magical burst of flame. Each creature of your choice within 15 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature takes 1d8 + your proficiency bonus fire damage and is blinded until the start of your next turn. On a successful save, it takes half as much damage and isn't blinded. You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "Prerequisite: Strike of the Giants (Fire Strike). You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\nBorn of Flame. You have resistance to fire damage.\nSearing Ignition. As an action, you can replace one of your attacks with a magical burst of flame. Each creature of your choice within 15 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature takes 1d8 + your proficiency bonus fire damage and is blinded until the start of your next turn. On a successful save, it takes half as much damage and isn't blinded. You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
    "rules": [
     {
      "select": {
@@ -24,6 +24,16 @@
        "Ability Score Improvement:Wisdom"
       ]
      }
+    },
+    {
+     "resource": {
+      "id": "searing-ignition",
+      "name": "Searing Ignition",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -31,7 +41,7 @@
    "id": "Feat:Fury of the Frost Giant",
    "type": "Feat",
    "name": "Fury of the Frost Giant",
-   "desc": "Prerequisite: Strike of the Giants (Frost Strike)\n\nYou've manifested the icy might emblematic of frost giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\n- **Born of Ice.** You have resistance to cold damage.\n- **Frigid Retaliation.** Immediately after a creature you can see within 30 feet of you hits you with an attack roll, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, it takes 1d8 + your proficiency bonus cold damage and its speed is reduced to 0 until the end of its next turn. On a successful save, it takes half as much damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "Prerequisite: Strike of the Giants (Frost Strike). You've manifested the icy might emblematic of frost giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\nBorn of Ice. You have resistance to cold damage.\nFrigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, it takes 1d8 + your proficiency bonus cold damage and its speed is reduced to 0 until the end of its next turn. On a successful save, it takes half as much damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
    "rules": [
     {
      "select": {
@@ -44,6 +54,16 @@
        "Ability Score Improvement:Wisdom"
       ]
      }
+    },
+    {
+     "resource": {
+      "id": "frigid-retaliation",
+      "name": "Frigid Retaliation",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -51,7 +71,7 @@
    "id": "Feat:Guile of the Cloud Giant",
    "type": "Feat",
    "name": "Guile of the Cloud Giant",
-   "desc": "Prerequisite: Strike of the Giants (Cloud Strike)\n\nYou've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.\n- **Cloudy Escape.** When a creature you can see hits you with an attack roll, you can use your reaction to halve the attack's damage against you. Once you use this reaction, you can't do so again until you finish a short or long rest.",
+   "desc": "Prerequisite: Strike of the Giants (Cloud Strike). You've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.\nCloudy Escape. When a creature you can see hits you with an attack roll, you can use your reaction to halve the attack's damage against you. Once you use this reaction, you can't do so again until you finish a short or long rest.",
    "rules": [
     {
      "select": {
@@ -64,6 +84,14 @@
        "Ability Score Improvement:Charisma"
       ]
      }
+    },
+    {
+     "resource": {
+      "id": "cloudy-escape",
+      "name": "Cloudy Escape",
+      "rest": "S",
+      "max": 1
+     }
     }
    ]
   },
@@ -71,7 +99,7 @@
    "id": "Feat:Keenness of the Stone Giant",
    "type": "Feat",
    "name": "Keenness of the Stone Giant",
-   "desc": "Prerequisite: Strike of the Giants (Stone Strike)\n\nYou've manifested the physical talents emblematic of stone giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\n- **Stone Camouflage.** You have advantage on Dexterity (Stealth) checks made to hide in rocky terrain.\n- **Stone's Throw.** As a bonus action, you can touch a rock or similar object of at least 1 pound and no larger than 5 pounds and magically imbue it with power. For the next minute, the object can be used as a thrown weapon with a normal range of 60 feet and no long range. On a hit, it deals 1d6 + your Strength modifier bludgeoning damage, and the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.",
+   "desc": "Prerequisite: Strike of the Giants (Stone Strike). You've manifested the physical talents emblematic of stone giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\nStone Camouflage. You have advantage on Dexterity (Stealth) checks made to hide in rocky terrain.\nStone's Throw. As a bonus action, you can touch a rock or similar object of at least 1 pound and no larger than 5 pounds and magically imbue it with power. For the next minute, the object can be used as a thrown weapon with a normal range of 60 feet and no long range. On a hit, it deals 1d6 + your Strength modifier bludgeoning damage, and the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.",
    "rules": [
     {
      "select": {
@@ -91,7 +119,7 @@
    "id": "Feat:Outsize Strength",
    "type": "Feat",
    "name": "Outsize Strength",
-   "desc": "Prerequisite: Strike of the Giants (Hill Strike)\n\nYou've manifested the raw physical power emblematic of hill giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\n- **Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n- **Unarmed Strike.** Your unarmed strikes deal 1d6 + your Strength modifier bludgeoning damage. If you aren't wielding any weapons or a shield, the d6 becomes a d8.",
+   "desc": "Prerequisite: Strike of the Giants (Hill Strike). You've manifested the raw physical power emblematic of hill giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\nPowerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\nUnarmed Strike. Your unarmed strikes deal 1d6 + your Strength modifier bludgeoning damage. If you aren't wielding any weapons or a shield, the d6 becomes a d8.",
    "rules": [
     {
      "select": {
@@ -111,7 +139,7 @@
    "id": "Feat:Soul of the Storm Giant",
    "type": "Feat",
    "name": "Soul of the Storm Giant",
-   "desc": "Prerequisite: Strike of the Giants (Storm Strike)\n\nYou've manifested the tempestuous magic emblematic of storm giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.\n- **Maelstrom Aura.** As a bonus action, you can surround yourself with a 10-foot-radius aura of swirling wind and lightning for 1 minute. While the aura is active, you have a flying speed of 15 feet, and any creature that starts its turn in the aura takes 1d6 lightning damage. Once you use this bonus action, you can't do so again until you finish a long rest.",
+   "desc": "Prerequisite: Strike of the Giants (Storm Strike). You've manifested the tempestuous magic emblematic of storm giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.\nMaelstrom Aura. As a bonus action, you can surround yourself with a 10-foot-radius aura of swirling wind and lightning for 1 minute. While the aura is active, you have a flying speed of 15 feet, and any creature that starts its turn in the aura takes 1d6 lightning damage. Once you use this bonus action, you can't do so again until you finish a long rest.",
    "rules": [
     {
      "select": {
@@ -124,6 +152,14 @@
        "Ability Score Improvement:Charisma"
       ]
      }
+    },
+    {
+     "resource": {
+      "id": "maelstrom-aura",
+      "name": "Maelstrom Aura",
+      "rest": "L",
+      "max": 1
+     }
     }
    ]
   },
@@ -131,7 +167,7 @@
    "id": "Feat:Vigor of the Hill Giant",
    "type": "Feat",
    "name": "Vigor of the Hill Giant",
-   "desc": "Prerequisite: Strike of the Giants (Hill Strike)\n\nYou've manifested the resilience emblematic of hill giants, granting you the following benefits:\n\n- **Ability Score Increase.** Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\n- **Bulwark.** When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "Prerequisite: Strike of the Giants (Hill Strike). You've manifested the resilience emblematic of hill giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.\nBulwark. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
    "rules": [
     {
      "select": {
@@ -144,6 +180,16 @@
        "Ability Score Improvement:Wisdom"
       ]
      }
+    },
+    {
+     "resource": {
+      "id": "bulwark",
+      "name": "Bulwark",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
     }
    ]
   },
@@ -151,8 +197,15 @@
    "id": "Feat:Rune Shaper",
    "type": "Feat",
    "name": "Rune Shaper",
-   "desc": "Prerequisite: Level 4+, Spellcasting or Pact Magic feature, or Rune Carver background\n\nYou've studied the magic of Giant runes, granting you the following benefits:\n\n- **Comprehend Languages.** You learn the Comprehend Languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.\n- **Rune Magic.** You learn a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have. You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you select this feat). Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table.\n\n**Rune Spells**\n| Rune | Spell |\n|---|---|\n| Cloud | Fog Cloud |\n| Death | Inflict Wounds |\n| Dragon | Chromatic Orb |\n| Enemy | Disguise Self |\n| Fire | Burning Hands |\n| Friend | Speak with Animals |\n| Frost | Armor of Agathys |\n| Hill | Goodberry |\n| Journey | Longstrider |\n| King | Command |\n| Mountain | Entangle |\n| Stone | Sanctuary |\n| Storm | Thunderwave |",
-   "rules": []
+   "desc": "Prerequisite: Level 4+, Spellcasting or Pact Magic feature, or Rune Carver background. You've studied the magic of Giant runes, granting you the following benefits:\n\nComprehend Languages. You learn the Comprehend Languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.\nRune Magic. You learn a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have. You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you select this feat). Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table.\n\nRune Spells\nRune: Spell\nCloud: Fog Cloud\nDeath: Inflict Wounds\nDragon: Chromatic Orb\nEnemy: Disguise Self\nFire: Burning Hands\nFriend: Speak with Animals\nFrost: Armor of Agathys\nHill: Goodberry\nJourney: Longstrider\nKing: Command\nMountain: Entangle\nStone: Sanctuary\nStorm: Thunderwave",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Comprehend Languages",
+     "1/long rest"
+    ]
+   ]
   }
  ]
 }

@@ -33,7 +33,7 @@
    "id": "Class Feature:Giant's Power",
    "type": "Class Feature",
    "name": "Giant's Power",
-   "desc": "3rd-level Path of the Giant feature.\n\nYou learn how to imbue yourself with the immense strength of giants. As a bonus action, you can enter a state of giant's power for 1 minute. While in this state, you gain the following benefits:\n\n- **Size.** If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn't change.\n- **Reach.** Your reach increases by 5 feet.\n- **Elemental Strike.** Once on each of your turns when you hit a creature with a weapon or an unarmed strike, you can deal an extra 1d6 damage to the target. The damage type is your choice of acid, cold, fire, lightning, or thunder.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "3rd-level Path of the Giant feature.\n\nYou learn how to imbue yourself with the immense strength of giants. As a bonus action, you can enter a state of giant's power for 1 minute. While in this state, you gain the following benefits:\n\nSize. If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn't change.\nReach. Your reach increases by 5 feet.\nElemental Strike. Once on each of your turns when you hit a creature with a weapon or an unarmed strike, you can deal an extra 1d6 damage to the target. The damage type is your choice of acid, cold, fire, lightning, or thunder.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
    "rules": [
     {
      "resource": {
@@ -51,7 +51,7 @@
    "id": "Class Feature:Giant's Havoc",
    "type": "Class Feature",
    "name": "Giant's Havoc",
-   "desc": "3rd-level Path of the Giant feature.\n\nYour primal connection to giants manifests in a variety of ways. You gain the following benefits:\n\n- **Druidcraft.** You learn the Druidcraft cantrip, which doesn't count against the number of barbarian cantrips you know. Constitution is your spellcasting ability for this cantrip.\n- **Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "desc": "3rd-level Path of the Giant feature.\n\nYour primal connection to giants manifests in a variety of ways. You gain the following benefits:\n\nDruidcraft. You learn the Druidcraft cantrip, which doesn't count against the number of barbarian cantrips you know. Constitution is your spellcasting ability for this cantrip.\nPowerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
    "rules": [],
    "featSpells": [
     [
@@ -79,7 +79,7 @@
    "id": "Class Feature:Demiurgic Colossus",
    "type": "Class Feature",
    "name": "Demiurgic Colossus",
-   "desc": "14th-level Path of the Giant feature.\n\nYour connection to giants allows you to become a truly colossal force of nature. While you are in your giant's power state, you gain the following benefits:\n\n- **Colossal Size.** Your size can increase to Huge, along with anything you are wearing. If you lack the room to become Huge, your size doesn't change.\n- **Colossal Reach.** Your reach increases by an additional 5 feet (for a total of 10 feet while in this state).\n- **Colossal Strike.** The extra damage of your Elemental Strike increases to 1d8.",
+   "desc": "14th-level Path of the Giant feature.\n\nYour connection to giants allows you to become a truly colossal force of nature. While you are in your giant's power state, you gain the following benefits:\n\nColossal Size. Your size can increase to Huge, along with anything you are wearing. If you lack the room to become Huge, your size doesn't change.\nColossal Reach. Your reach increases by an additional 5 feet (for a total of 10 feet while in this state).\nColossal Strike. The extra damage of your Elemental Strike increases to 1d8.",
    "rules": []
   }
  ]

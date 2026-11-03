@@ -4,7 +4,7 @@
    "id": "Magic:Adze of Annam",
    "type": "Magic",
    "name": "Adze of Annam",
-   "desc": "Weapon (greataxe), artifact (requires attunement)\n\nThis massive adze is said to have been wielded by All-Father Annam, not as a weapon but as the tool he used to shape the various worlds of the Material Plane eons ago. It functions as a +3 greataxe.\n\n**Random Properties.** The artifact has the following random properties:\n- 2 minor beneficial properties\n- 1 major beneficial property\n- 1 minor detrimental property\n\n**World-Shaping.** You can use an action to strike the ground with the adze, casting the Move Earth spell from it. Once used, this property can't be used again until the next dawn.\n\n**Forge of Creation.** You can use the adze to cast the Fabricate spell at will, shaping raw materials into finished goods.\n\n**Destroying the Adze.** The adze can be destroyed if it is used to strike the heart of a primordial earth elemental on the Elemental Plane of Earth.",
+   "desc": "Weapon (greataxe), artifact (requires attunement)\n\nThis massive adze is said to have been wielded by All-Father Annam, not as a weapon but as the tool he used to shape the various worlds of the Material Plane eons ago. It functions as a +3 greataxe.\n\nRandom Properties. The artifact has the following random properties:\n2 minor beneficial properties\n1 major beneficial property\n1 minor detrimental property\n\nWorld-Shaping. You can use an action to strike the ground with the adze, casting the Move Earth spell from it. Once used, this property can't be used again until the next dawn.\n\nForge of Creation. You can use the adze to cast the Fabricate spell at will, shaping raw materials into finished goods.\n\nDestroying the Adze. The adze can be destroyed if it is used to strike the heart of a primordial earth elemental on the Elemental Plane of Earth.",
    "rules": [],
    "cg": "Artifacts",
    "cp": 0,
@@ -13,7 +13,8 @@
    "rar": "Artifact",
    "att": true,
    "effect": {
-    "att": 3
+    "att": true,
+    "wpn": 3
    }
   },
   {
@@ -29,7 +30,8 @@
    "rar": "Rare",
    "att": true,
    "effect": {
-    "att": 1
+    "att": true,
+    "wpn": 1
    }
   },
   {
@@ -45,14 +47,15 @@
    "rar": "Very Rare",
    "att": true,
    "effect": {
-    "att": 2
+    "att": true,
+    "wpn": 2
    }
   },
   {
    "id": "Magic:Prehistoric Figurine of Wondrous Power",
    "type": "Magic",
    "name": "Prehistoric Figurine of Wondrous Power",
-   "desc": "Wondrous item, rarity varies\n\nThese figurines are carved from bone or stone and depict prehistoric beasts. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. The creature is friendly to you and your companions and obeys your commands. The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form.\n\n**Types.**\n- **Mammoth (Rare).** Can become a mammoth for up to 8 hours. Once used, can't be used again until 5 days have passed.\n- **Saber-Toothed Tiger (Uncommon).** Can become a saber-toothed tiger for up to 4 hours. Once used, can't be used again until 3 days have passed.\n- **Woolly Rhinoceros (Rare).** Can become a woolly rhinoceros for up to 6 hours. Once used, can't be used again until 4 days have passed.",
+   "desc": "Wondrous item, rarity varies\n\nThese figurines are carved from bone or stone and depict prehistoric beasts. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. The creature is friendly to you and your companions and obeys your commands. The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form.\n\nTypes.\nMammoth (Rare). Can become a mammoth for up to 8 hours. Once used, can't be used again until 5 days have passed.\nSaber-Toothed Tiger (Uncommon). Can become a saber-toothed tiger for up to 4 hours. Once used, can't be used again until 3 days have passed.\nWoolly Rhinoceros (Rare). Can become a woolly rhinoceros for up to 6 hours. Once used, can't be used again until 4 days have passed.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
@@ -74,7 +77,8 @@
    "rar": "Very Rare",
    "att": true,
    "effect": {
-    "att": 2
+    "att": true,
+    "wpn": 2
    }
   },
   {
@@ -107,7 +111,7 @@
    "id": "Magic:Orb of Skoraeus",
    "type": "Magic",
    "name": "Orb of Skoraeus",
-   "desc": "Wondrous item, artifact (requires attunement)\n\nThis smooth, stone orb is carved with runes that pulse with a faint inner light. It functions as a spellcasting focus.\n\n**Random Properties.** The artifact has the following random properties:\n- 2 minor beneficial properties\n- 1 major beneficial property\n- 1 minor detrimental property\n\n**Spells.** The orb has 6 charges. While holding it, you can use an action to expend 1 or more charges to cast one of the following spells (save DC 18): Stone Shape (2 charges), Wall of Stone (3 charges), or Move Earth (4 charges). It regains 1d6 expended charges daily at dawn.\n\n**Petrifying Gaze.** As an action, you can target one creature you can see within 60 feet of you. The target must make a Constitution saving throw (DC 18). On a failed save, the target is restrained as its flesh begins to harden. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is petrified for 1 hour. Once used, this property can't be used again until the next dawn.",
+   "desc": "Wondrous item, artifact (requires attunement)\n\nThis smooth, stone orb is carved with runes that pulse with a faint inner light. It functions as a spellcasting focus.\n\nRandom Properties. The artifact has the following random properties:\n2 minor beneficial properties\n1 major beneficial property\n1 minor detrimental property\n\nSpells. The orb has 6 charges. While holding it, you can use an action to expend 1 or more charges to cast one of the following spells (save DC 18): Stone Shape (2 charges), Wall of Stone (3 charges), or Move Earth (4 charges). It regains 1d6 expended charges daily at dawn.\n\nPetrifying Gaze. As an action, you can target one creature you can see within 60 feet of you. The target must make a Constitution saving throw (DC 18). On a failed save, the target is restrained as its flesh begins to harden. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is petrified for 1 hour. Once used, this property can't be used again until the next dawn.",
    "rules": [],
    "cg": "Artifacts",
    "cp": 0,
@@ -120,7 +124,7 @@
    "id": "Magic:Wand of the Great Magister",
    "type": "Magic",
    "name": "Wand of the Great Magister",
-   "desc": "Wand, artifact (requires attunement by a spellcaster)\n\nThis wand is carved from the heartwood of the World Tree and tipped with a crystal that holds the essence of a storm giant's magic.\n\n**Random Properties.** The artifact has the following random properties:\n- 2 minor beneficial properties\n- 1 major beneficial property\n- 1 minor detrimental property\n\n**Spells.** The wand has 7 charges. While holding it, you can use an action to expend 1 or more charges to cast one of the following spells (save DC 18): Lightning Bolt (3 charges), Chain Lightning (6 charges), or Control Weather (7 charges). It regains 1d6 + 1 expended charges daily at dawn.\n\n**Storm Aura.** While holding the wand, you can use an action to surround yourself with a 15-foot-radius aura of stormy wind for 1 minute. While the aura is active, you have resistance to lightning and thunder damage, and any creature that starts its turn in the aura takes 2d6 lightning damage.",
+   "desc": "Wand, artifact (requires attunement by a spellcaster)\n\nThis wand is carved from the heartwood of the World Tree and tipped with a crystal that holds the essence of a storm giant's magic.\n\nRandom Properties. The artifact has the following random properties:\n2 minor beneficial properties\n1 major beneficial property\n1 minor detrimental property\n\nSpells. The wand has 7 charges. While holding it, you can use an action to expend 1 or more charges to cast one of the following spells (save DC 18): Lightning Bolt (3 charges), Chain Lightning (6 charges), or Control Weather (7 charges). It regains 1d6 + 1 expended charges daily at dawn.\n\nStorm Aura. While holding the wand, you can use an action to surround yourself with a 15-foot-radius aura of stormy wind for 1 minute. While the aura is active, you have resistance to lightning and thunder damage, and any creature that starts its turn in the aura takes 2d6 lightning damage.",
    "rules": [],
    "cg": "Artifacts",
    "cp": 0,

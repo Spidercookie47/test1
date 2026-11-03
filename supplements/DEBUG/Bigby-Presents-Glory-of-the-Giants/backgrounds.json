@@ -4,13 +4,16 @@
    "id": "Background:Giant Foundling",
    "type": "Background",
    "name": "Giant Foundling",
-   "desc": "You were raised among giants or sheltered by them, and you bear traces of their culture and primal magic.\n\n**Skill Proficiencies:** Intimidation, Survival\n**Languages:** One of your choice\n**Feat:** You gain the Strike of the Giants feat.\n**Equipment:** A set of traveler's clothes, a giant-made trinket, and a pouch containing 10 gp.",
+   "desc": "You were raised among giants or sheltered by them, and you bear traces of their culture and primal magic.\n\nSkill Proficiencies: Intimidation, Survival\nLanguages: One of your choice\nFeat: You gain the Strike of the Giants feat.\nEquipment: A set of traveler's clothes, a giant-made trinket, and a pouch containing 10 gp.",
    "rules": [
     {
      "grant": "skill:Intimidation"
     },
     {
      "grant": "skill:Survival"
+    },
+    {
+     "grant": "Feat:Strike of the Giants"
     },
     {
      "select": {
@@ -25,13 +28,16 @@
    "id": "Background:Rune Carver",
    "type": "Background",
    "name": "Rune Carver",
-   "desc": "You studied the ancient runecraft of the giants, learning to inscribe magical runes onto objects.\n\n**Skill Proficiencies:** History, Perception\n**Languages:** One of your choice\n**Feat:** You gain the Rune Shaper feat.\n**Equipment:** A set of artisan's tools (your choice), a rune-carved trinket, and a pouch containing 10 gp.",
+   "desc": "You studied the ancient runecraft of the giants, learning to inscribe magical runes onto objects.\n\nSkill Proficiencies: History, Perception\nLanguages: One of your choice\nFeat: You gain the Rune Shaper feat.\nEquipment: A set of artisan's tools (your choice), a rune-carved trinket, and a pouch containing 10 gp.",
    "rules": [
     {
      "grant": "skill:History"
     },
     {
      "grant": "skill:Perception"
+    },
+    {
+     "grant": "Feat:Rune Shaper"
     },
     {
      "select": {
