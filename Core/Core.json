@@ -3,7 +3,7 @@
   "packs": [
     {
       "name": "Player’s Handbook (2014)",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/PHB/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Core/PHB/index.json"
     },
     {
       "name": "Dungeon Master’s Guide (2014)",
