@@ -4,7 +4,7 @@
    "id": "Background:Rewarded",
    "type": "Background",
    "name": "Rewarded",
-   "desc": "You were living a difficult life before your destiny suddenly changed through a miraculous turn of good fortune. Perhaps a benevolent deity gave you precisely what you most desired. You might have been down on your luck before a stranger handed you a fortune. Whatever the cause, your life was forever altered by a stroke of incredible luck.\n\n**Skill Proficiencies:** Insight, Persuasion\n**Tool Proficiencies:** A gaming set (matching your chosen proficiency)\n**Languages:** One of your choice\n**Feat:** You gain the Skilled, Lucky, or Magic Initiate feat (your choice).\n**Equipment:** A bottle of black ink, an ink pen, five sheets of paper, a gaming set (matching your proficiency), a set of fine clothes, and a pouch containing 25 gp.",
+   "desc": "You were living a difficult life before your destiny suddenly changed through a miraculous turn of good fortune. Perhaps a benevolent deity gave you precisely what you most desired. You might have been down on your luck before a stranger handed you a fortune. Whatever the cause, your life was forever altered by a stroke of incredible luck.\n\nSkill Proficiencies: Insight, Persuasion\nTool Proficiencies: A gaming set (matching your chosen proficiency)\nLanguages: One of your choice\nFeat: You gain the Skilled, Lucky, or Magic Initiate feat (your choice).\nEquipment: A bottle of black ink, an ink pen, five sheets of paper, a gaming set (matching your proficiency), a set of fine clothes, and a pouch containing 25 gp.",
    "rules": [
     {
      "grant": "skill:Insight"
@@ -18,6 +18,18 @@
       "type": "Language",
       "n": 1
      }
+    },
+    {
+     "select": {
+      "name": "Feat (Rewarded)",
+      "type": "Feat",
+      "n": 1,
+      "ids": [
+       "Feat:Skilled",
+       "Feat:Lucky",
+       "Feat:Magic Initiate"
+      ]
+     }
     }
    ]
   },
@@ -25,7 +37,7 @@
    "id": "Background:Ruined",
    "type": "Background",
    "name": "Ruined",
-   "desc": "You were on top of the world before misfortune struck. You might have been wealthy, surrounded by friends and family, or famous. Then, in a single calamitous moment—perhaps a draw from the Deck of Many Things—you lost everything. Your desperation has driven you to the life of an adventurer.\n\n**Skill Proficiencies:** Stealth, Survival\n**Tool Proficiencies:** A gaming set (matching your chosen proficiency)\n**Languages:** One of your choice\n**Feat:** You gain the Alert, Skilled, or Tough feat (your choice).\n**Equipment:** A cracked hourglass, a set of rusty manacles, a gaming set (matching your proficiency), a set of common clothes, and a pouch containing 10 gp.",
+   "desc": "You were on top of the world before misfortune struck. You might have been wealthy, surrounded by friends and family, or famous. Then, in a single calamitous moment—perhaps a draw from the Deck of Many Things—you lost everything. Your desperation has driven you to the life of an adventurer.\n\nSkill Proficiencies: Stealth, Survival\nTool Proficiencies: A gaming set (matching your chosen proficiency)\nLanguages: One of your choice\nFeat: You gain the Alert, Skilled, or Tough feat (your choice).\nEquipment: A cracked hourglass, a set of rusty manacles, a gaming set (matching your proficiency), a set of common clothes, and a pouch containing 10 gp.",
    "rules": [
     {
      "grant": "skill:Stealth"
@@ -38,6 +50,18 @@
       "name": "Language (Ruined)",
       "type": "Language",
       "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Feat (Ruined)",
+      "type": "Feat",
+      "n": 1,
+      "ids": [
+       "Feat:Alert",
+       "Feat:Skilled",
+       "Feat:Tough"
+      ]
      }
     }
    ]

@@ -39,7 +39,8 @@
    "rar": "Rare",
    "att": true,
    "effect": {
-    "att": 1
+    "att": true,
+    "wpn": 1
    }
   },
   {
@@ -68,7 +69,8 @@
    "rar": "Legendary",
    "att": true,
    "effect": {
-    "att": 3
+    "att": true,
+    "wpn": 3
    }
   },
   {
