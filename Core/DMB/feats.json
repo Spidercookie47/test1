@@ -1,0 +1,26 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Firearms Proficiency",
+   "type": "Feat",
+   "name": "Firearms Proficiency",
+   "desc": "You have trained with modern and futuristic weaponry. You gain proficiency with Renaissance firearms (pistols, muskets), modern firearms (automatic pistols, revolvers, hunting rifles, automatic rifles, shotguns), and futuristic firearms (laser pistols, antimatter rifles, laser rifles).",
+   "rules": [
+    {
+     "pf": [
+      "w:Pistol",
+      "w:Musket",
+      "w:Pistol, Automatic",
+      "w:Revolver",
+      "w:Rifle, Hunting",
+      "w:Rifle, Automatic",
+      "w:Shotgun",
+      "w:Laser Pistol",
+      "w:Antimatter Rifle",
+      "w:Laser Rifle"
+     ]
+    }
+   ]
+  }
+ ]
+}
