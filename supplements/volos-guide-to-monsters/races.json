@@ -34,7 +34,9 @@
    "name": "Sneaky",
    "desc": "You are proficient in the Stealth skill.",
    "rules": [
-    { "grant": "skill:Stealth" }
+    {
+     "grant": "skill:Stealth"
+    }
    ]
   },
   {
@@ -50,14 +52,34 @@
    "name": "Bugbear",
    "desc": "In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. +2 Strength, +1 Dexterity, speed 30 ft.",
    "rules": [
-    { "stat": { "str": 2, "dex": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Goblin" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Long-Limbed" },
-    { "grant": "Racial Trait:Powerful Build" },
-    { "grant": "Racial Trait:Sneaky" },
-    { "grant": "Racial Trait:Surprise Attack" }
+    {
+     "stat": {
+      "str": 2,
+      "dex": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Goblin"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Long-Limbed"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    },
+    {
+     "grant": "Racial Trait:Sneaky"
+    },
+    {
+     "grant": "Racial Trait:Surprise Attack"
+    }
    ]
   },
   {
@@ -80,12 +102,28 @@
    "name": "Goblin",
    "desc": "In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. +2 Dexterity, +1 Constitution, speed 30 ft.",
    "rules": [
-    { "stat": { "dex": 2, "con": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Goblin" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Fury of the Small" },
-    { "grant": "Racial Trait:Nimble Escape" }
+    {
+     "stat": {
+      "dex": 2,
+      "con": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Goblin"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fury of the Small"
+    },
+    {
+     "grant": "Racial Trait:Nimble Escape"
+    }
    ]
   },
   {
@@ -94,7 +132,11 @@
    "name": "Martial Training",
    "desc": "You are proficient with two martial weapons of your choice and with light armor. Workaround: light armor proficiency is granted automatically; choose your two martial weapons manually on the sheet.",
    "rules": [
-    { "pf": ["a:Light armor"] }
+    {
+     "pf": [
+      "a:Light armor"
+     ]
+    }
    ]
   },
   {
@@ -110,12 +152,28 @@
    "name": "Hobgoblin",
    "desc": "In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. +2 Constitution, +1 Intelligence, speed 30 ft.",
    "rules": [
-    { "stat": { "con": 2, "int": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Goblin" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Martial Training" },
-    { "grant": "Racial Trait:Saving Face" }
+    {
+     "stat": {
+      "con": 2,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Goblin"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Martial Training"
+    },
+    {
+     "grant": "Racial Trait:Saving Face"
+    }
    ]
   },
   {
@@ -138,13 +196,30 @@
    "name": "Kobold",
    "desc": "In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. +2 Dexterity, speed 30 ft.",
    "rules": [
-    { "stat": { "dex": 2, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Draconic" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Grovel, Cower, and Beg" },
-    { "grant": "Racial Trait:Pack Tactics" },
-    { "grant": "Racial Trait:Sunlight Sensitivity" }
+    {
+     "stat": {
+      "dex": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Draconic"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Grovel, Cower, and Beg"
+    },
+    {
+     "grant": "Racial Trait:Pack Tactics"
+    },
+    {
+     "grant": "Racial Trait:Sunlight Sensitivity"
+    }
    ]
   },
   {
@@ -165,8 +240,13 @@
       "name": "Primal Intuition",
       "n": 2,
       "from": [
-       "Animal Handling", "Insight", "Intimidation", "Medicine",
-       "Nature", "Perception", "Survival"
+       "Animal Handling",
+       "Insight",
+       "Intimidation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Survival"
       ]
      }
     }
@@ -178,13 +258,31 @@
    "name": "Orc",
    "desc": "In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. +2 Strength, +1 Constitution, speed 30 ft.\n\nNote: Uses errata — Primal Intuition replaces the original Menacing trait.",
    "rules": [
-    { "stat": { "str": 2, "con": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Orc" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Aggressive" },
-    { "grant": "Racial Trait:Primal Intuition" },
-    { "grant": "Racial Trait:Powerful Build" }
+    {
+     "stat": {
+      "str": 2,
+      "con": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Orc"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Aggressive"
+    },
+    {
+     "grant": "Racial Trait:Primal Intuition"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    }
    ]
   },
   {
@@ -194,9 +292,21 @@
    "desc": "You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
    "rules": [],
    "featSpells": [
-    [1, "Poison Spray", "at will"],
-    [1, "Animal Friendship", "at will, snakes only"],
-    [3, "Suggestion", "1/long rest"]
+    [
+     1,
+     "Poison Spray",
+     "at will"
+    ],
+    [
+     1,
+     "Animal Friendship",
+     "at will, snakes only"
+    ],
+    [
+     3,
+     "Suggestion",
+     "1/long rest"
+    ]
    ]
   },
   {
@@ -211,9 +321,7 @@
    "type": "Racial Trait",
    "name": "Poison Immunity",
    "desc": "You are immune to poison damage and the poisoned condition.",
-   "rules": [
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" }
-   ]
+   "rules": []
   },
   {
    "id": "Race:Yuan-Ti Pureblood",
@@ -221,14 +329,34 @@
    "name": "Yuan-Ti Pureblood",
    "desc": "In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. +2 Charisma, +1 Intelligence, speed 30 ft.",
    "rules": [
-    { "stat": { "cha": 2, "int": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Abyssal" },
-    { "grant": "Language:Draconic" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Innate Spellcasting (Yuan-Ti)" },
-    { "grant": "Racial Trait:Magic Resistance" },
-    { "grant": "Racial Trait:Poison Immunity" }
+    {
+     "stat": {
+      "cha": 2,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Abyssal"
+    },
+    {
+     "grant": "Language:Draconic"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Innate Spellcasting (Yuan-Ti)"
+    },
+    {
+     "grant": "Racial Trait:Magic Resistance"
+    },
+    {
+     "grant": "Racial Trait:Poison Immunity"
+    }
    ]
   },
   {
@@ -236,10 +364,7 @@
    "type": "Racial Trait",
    "name": "Celestial Resistance",
    "desc": "You have resistance to necrotic damage and radiant damage.",
-   "rules": [
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" },
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" }
-   ]
+   "rules": []
   },
   {
    "id": "Racial Trait:Healing Hands",
@@ -255,7 +380,11 @@
    "desc": "You know the light cantrip. Charisma is your spellcasting ability for it.",
    "rules": [],
    "featSpells": [
-    [1, "Light", "at will"]
+    [
+     1,
+     "Light",
+     "at will"
+    ]
    ]
   },
   {
@@ -264,13 +393,30 @@
    "name": "Aasimar",
    "desc": "Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. +2 Charisma, speed 30 ft.",
    "rules": [
-    { "stat": { "cha": 2, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Celestial" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Celestial Resistance" },
-    { "grant": "Racial Trait:Healing Hands" },
-    { "grant": "Racial Trait:Light Bearer" },
+    {
+     "stat": {
+      "cha": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Celestial"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Celestial Resistance"
+    },
+    {
+     "grant": "Racial Trait:Healing Hands"
+    },
+    {
+     "grant": "Racial Trait:Light Bearer"
+    },
     {
      "select": {
       "name": "Subrace",
@@ -286,9 +432,10 @@
    "name": "Protector Aasimar",
    "desc": "Protector aasimar are charged by the powers of good to guard the weak, to strike at evil wherever it arises, and to stand vigilant against the darkness. +1 Wisdom, plus Radiant Soul.",
    "rules": [
-    { "stat": { "wis": 1 } },
     {
-     "grant": "Class Feature:Placeholder Skip"
+     "stat": {
+      "wis": 1
+     }
     }
    ],
    "supports": "Race:Aasimar"
@@ -306,7 +453,11 @@
    "name": "Scourge Aasimar",
    "desc": "Scourge aasimar are imbued with a divine energy that blazes intensely within them. It feeds a powerful desire to destroy evil. +1 Constitution, plus Radiant Consumption.",
    "rules": [
-    { "stat": { "con": 1 } }
+    {
+     "stat": {
+      "con": 1
+     }
+    }
    ],
    "supports": "Race:Aasimar"
   },
@@ -323,7 +474,11 @@
    "name": "Fallen Aasimar",
    "desc": "An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen — a group of aasimar whose inner light has been replaced by shadow. +1 Strength, plus Necrotic Shroud.",
    "rules": [
-    { "stat": { "str": 1 } }
+    {
+     "stat": {
+      "str": 1
+     }
+    }
    ],
    "supports": "Race:Aasimar"
   },
@@ -341,8 +496,16 @@
    "desc": "You can cast detect magic and disguise self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.",
    "rules": [],
    "featSpells": [
-    [1, "Detect Magic", "1/short or long rest"],
-    [1, "Disguise Self", "1/short or long rest"]
+    [
+     1,
+     "Detect Magic",
+     "1/short or long rest"
+    ],
+    [
+     1,
+     "Disguise Self",
+     "1/short or long rest"
+    ]
    ]
   },
   {
@@ -365,14 +528,34 @@
    "name": "Firbolg",
    "desc": "Firbolg tribes cloister in remote forest strongholds, preferring to spend their days in quiet harmony with the woods. +2 Wisdom, +1 Strength, speed 30 ft.",
    "rules": [
-    { "stat": { "wis": 2, "str": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Elvish" },
-    { "grant": "Language:Giant" },
-    { "grant": "Racial Trait:Firbolg Magic" },
-    { "grant": "Racial Trait:Hidden Step" },
-    { "grant": "Racial Trait:Powerful Build" },
-    { "grant": "Racial Trait:Speech of Beast and Leaf" }
+    {
+     "stat": {
+      "wis": 2,
+      "str": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Elvish"
+    },
+    {
+     "grant": "Language:Giant"
+    },
+    {
+     "grant": "Racial Trait:Firbolg Magic"
+    },
+    {
+     "grant": "Racial Trait:Hidden Step"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    },
+    {
+     "grant": "Racial Trait:Speech of Beast and Leaf"
+    }
    ]
   },
   {
@@ -381,7 +564,9 @@
    "name": "Natural Athlete",
    "desc": "You have proficiency in the Athletics skill.",
    "rules": [
-    { "grant": "skill:Athletics" }
+    {
+     "grant": "skill:Athletics"
+    }
    ]
   },
   {
@@ -396,9 +581,7 @@
    "type": "Racial Trait",
    "name": "Mountain Born",
    "desc": "You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.",
-   "rules": [
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" }
-   ]
+   "rules": []
   },
   {
    "id": "Race:Goliath",
@@ -406,13 +589,31 @@
    "name": "Goliath",
    "desc": "At the highest mountain peaks dwell the reclusive goliaths. Their bodies look as if they are carved from mountain stone and give them great physical power. +2 Strength, +1 Constitution, speed 30 ft.",
    "rules": [
-    { "stat": { "str": 2, "con": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Giant" },
-    { "grant": "Racial Trait:Natural Athlete" },
-    { "grant": "Racial Trait:Stone's Endurance" },
-    { "grant": "Racial Trait:Powerful Build" },
-    { "grant": "Racial Trait:Mountain Born" }
+    {
+     "stat": {
+      "str": 2,
+      "con": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Giant"
+    },
+    {
+     "grant": "Racial Trait:Natural Athlete"
+    },
+    {
+     "grant": "Racial Trait:Stone's Endurance"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    },
+    {
+     "grant": "Racial Trait:Mountain Born"
+    }
    ]
   },
   {
@@ -432,7 +633,12 @@
      "select": {
       "name": "Kenku Training",
       "n": 2,
-      "from": ["Acrobatics", "Deception", "Stealth", "Sleight of Hand"]
+      "from": [
+       "Acrobatics",
+       "Deception",
+       "Stealth",
+       "Sleight of Hand"
+      ]
      }
     }
    ]
@@ -450,12 +656,28 @@
    "name": "Kenku",
    "desc": "Haunted by an ancient crime that robbed them of their wings, the kenku wander the world as vagabonds and burglars who live at the edge of human society. +2 Dexterity, +1 Wisdom, speed 30 ft.",
    "rules": [
-    { "stat": { "dex": 2, "wis": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Auran" },
-    { "grant": "Racial Trait:Expert Forgery" },
-    { "grant": "Racial Trait:Kenku Training" },
-    { "grant": "Racial Trait:Mimicry" }
+    {
+     "stat": {
+      "dex": 2,
+      "wis": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Auran"
+    },
+    {
+     "grant": "Racial Trait:Expert Forgery"
+    },
+    {
+     "grant": "Racial Trait:Kenku Training"
+    },
+    {
+     "grant": "Racial Trait:Mimicry"
+    }
    ]
   },
   {
@@ -489,7 +711,13 @@
      "select": {
       "name": "Hunter's Lore",
       "n": 2,
-      "from": ["Animal Handling", "Nature", "Perception", "Stealth", "Survival"]
+      "from": [
+       "Animal Handling",
+       "Nature",
+       "Perception",
+       "Stealth",
+       "Survival"
+      ]
      }
     }
    ]
@@ -514,16 +742,46 @@
    "name": "Lizardfolk",
    "desc": "Only a fool looks at the lizardfolk and sees nothing more than scaly humanoids. Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a different set of basic principles. +2 Constitution, +1 Wisdom, speed 30 ft., swim 30 ft.",
    "rules": [
-    { "stat": { "con": 2, "wis": 1, "speed": 30 } },
-    { "acFormula": { "base": 13, "add": ["dex"], "noShield": false } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Draconic" },
-    { "grant": "Racial Trait:Bite" },
-    { "grant": "Racial Trait:Cunning Artisan" },
-    { "grant": "Racial Trait:Hold Breath" },
-    { "grant": "Racial Trait:Hunter's Lore" },
-    { "grant": "Racial Trait:Natural Armor (Lizardfolk)" },
-    { "grant": "Racial Trait:Hungry Jaws" }
+    {
+     "stat": {
+      "con": 2,
+      "wis": 1,
+      "speed": 30
+     }
+    },
+    {
+     "acFormula": {
+      "base": 13,
+      "add": [
+       "dex"
+      ],
+      "noShield": false
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Draconic"
+    },
+    {
+     "grant": "Racial Trait:Bite"
+    },
+    {
+     "grant": "Racial Trait:Cunning Artisan"
+    },
+    {
+     "grant": "Racial Trait:Hold Breath"
+    },
+    {
+     "grant": "Racial Trait:Hunter's Lore"
+    },
+    {
+     "grant": "Racial Trait:Natural Armor (Lizardfolk)"
+    },
+    {
+     "grant": "Racial Trait:Hungry Jaws"
+    }
    ]
   },
   {
@@ -546,8 +804,12 @@
    "name": "Cat's Talent",
    "desc": "You have proficiency in the Perception and Stealth skills.",
    "rules": [
-    { "grant": "skill:Perception" },
-    { "grant": "skill:Stealth" }
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "skill:Stealth"
+    }
    ]
   },
   {
@@ -556,13 +818,35 @@
    "name": "Tabaxi",
    "desc": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity to collect interesting artifacts, gather tales and stories, and lay eyes on all the world's wonders. +2 Dexterity, +1 Charisma, speed 30 ft.",
    "rules": [
-    { "stat": { "dex": 2, "cha": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "select": { "name": "Language", "type": "Language", "n": 1 } },
-    { "grant": "Racial Trait:Feline Agility" },
-    { "grant": "Racial Trait:Cat's Claws" },
-    { "grant": "Racial Trait:Cat's Talent" }
+    {
+     "stat": {
+      "dex": 2,
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Feline Agility"
+    },
+    {
+     "grant": "Racial Trait:Cat's Claws"
+    },
+    {
+     "grant": "Racial Trait:Cat's Talent"
+    }
    ]
   },
   {
@@ -579,9 +863,21 @@
    "desc": "A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
    "rules": [],
    "featSpells": [
-    [1, "Fog Cloud", "1/long rest"],
-    [3, "Gust of Wind", "1/long rest"],
-    [5, "Wall of Water", "1/long rest"]
+    [
+     1,
+     "Fog Cloud",
+     "1/long rest"
+    ],
+    [
+     3,
+     "Gust of Wind",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Wall of Water",
+     "1/long rest"
+    ]
    ]
   },
   {
@@ -596,9 +892,7 @@
    "type": "Racial Trait",
    "name": "Guardians of the Depths",
    "desc": "Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.",
-   "rules": [
-    { "grant": "Condition:ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" }
-   ]
+   "rules": []
   },
   {
    "id": "Race:Triton",
@@ -606,14 +900,35 @@
    "name": "Triton",
    "desc": "Tritons guard the ocean depths, building small settlements beside deep trenches, portals to the elemental planes, and other dangerous spots far from the eyes of land-bound folk. +1 Strength, +1 Constitution, +1 Charisma, speed 30 ft., swim 30 ft.",
    "rules": [
-    { "stat": { "str": 1, "con": 1, "cha": 1, "speed": 30 } },
-    { "grant": "Language:Common" },
-    { "grant": "Language:Primordial" },
-    { "grant": "Racial Trait:Darkvision" },
-    { "grant": "Racial Trait:Amphibious" },
-    { "grant": "Racial Trait:Control Air and Water" },
-    { "grant": "Racial Trait:Emissary of the Sea" },
-    { "grant": "Racial Trait:Guardians of the Depths" }
+    {
+     "stat": {
+      "str": 1,
+      "con": 1,
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Primordial"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Amphibious"
+    },
+    {
+     "grant": "Racial Trait:Control Air and Water"
+    },
+    {
+     "grant": "Racial Trait:Emissary of the Sea"
+    },
+    {
+     "grant": "Racial Trait:Guardians of the Depths"
+    }
    ]
   }
  ]
