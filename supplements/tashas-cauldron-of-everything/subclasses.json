@@ -1,0 +1,1813 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Path of the Beast",
+   "type": "Subclass",
+   "name": "Path of the Beast",
+   "supports": "Class:Barbarian",
+   "desc": "Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.\n\nSuch a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.\n\nOrigin of the Beast\n\nd4 | Origin\n1 | One of your parents is a lycanthrope, and you’ve inherited some of their curse.\n2 | You are descended from an archdruid and inherited the ability to partially change shape.\n3 | A few spirits gifted you with the ability to adopt different bestial aspects.\n4 | An ancient animal spirit dwells within you, allowing you to walk this path.",
+   "rules": [
+    {
+     "grant": "Class Feature:Form of the Beast",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Bestial Soul",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Infectious Fury",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Call the Hunt",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Path of Wild Magic",
+   "type": "Subclass",
+   "name": "Path of Wild Magic",
+   "supports": "Class:Barbarian",
+   "desc": "Many places in the multiverse abound with beauty, intense emotion, and rampant magic; the Feywild, the Upper Planes, and other realms of supernatural power radiate with such forces and can profoundly influence people. As folk of deep feeling, barbarians are especially susceptible to these wild influences, with some barbarians being transformed by the magic. These magic-suffused barbarians walk the Path of Wild Magic. Elf, tieflings, aasimar, and genasi barbarians often seek this path, eager to manifest the otherworldly magic of their ancestors.\n\nWild Magic\n\nd8 | Magical Effect\n1 | Shadowy tendrils lash around you. Each creature of your choice that you can see within 30 feet of you must succeed on a Constitution saving throw or take 1d12 necrotic damage. You also gain 1d12 temporary hit points.\n2 | You teleport up to 30 feet to an unoccupied space you can see. Until your rage ends, you can use this effect again on each of your turns as a bonus action.\n3 | An intangible spirit, which looks like a flumph or a pixie (your choice), appears within 5 feet of one creature of your choice that you can see within 30 feet of you. At the end of the current turn, the spirit explodes, and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 1d6 force damage. Until your rage ends, you can use this effect again, summoning another spirit, on each of your turns as a bonus action.\n4 | Magic infuses one weapon of your choice that you are holding. Until your rage ends, the weapon's damage type changes to force, and it gains the light and thrown properties, with a normal range of 20 feet and a long range of 60 feet. If the weapon leaves your hand, the weapon reappears in your hand at the end of the current turn.\n5 | Whenever a creature hits you with an attack roll before your rage ends, that creature takes 1d6 force damage, as magic lashes out in retribution.\n6 | Until your rage ends, you are surrounded by multicolored, protective lights; you gain a +l bo­nus to AC, and while within 10 feet of you, your allies gain the same bonus.\n7 | Flowers and vines temporarily grow around you; until your rage ends, the ground within l5 feet of you is difficult terrain for your enemies.\n8 | A bolt of light shoots from your chest. Another creature of your choice that you can see within 30 feet of you must succeed on a Constitution saving throw or take 1d6 radiant damage and be blinded until the start of your next turn. Until your rage ends, you can use this effect again on each of your turns as a bonus action.",
+   "rules": [
+    {
+     "grant": "Class Feature:Magic Awareness",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Wild Surge",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Bolstering Magic",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Unstable Backlash",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Controlled Surge",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:College of Creation",
+   "type": "Subclass",
+   "name": "College of Creation",
+   "supports": "Class:Bard",
+   "desc": "Bards believe the cosmos is a work of art—the creation of the first dragons and gods. That creative work included harmonies that continue to resound through existence today, a power known as the Song of Creation. The bards of the College of Creation draw on that primeval song through dance, music, and poetry, and their teachers share this lesson: “Before the sun and the moon, there was the Song, and its music awoke the first dawn. Its melodies so delighted the stones and trees that some of them gained a voice of their own. And now they sing too. Learn the Song, students, and you too can teach the mountains to sing and dance.”\n\nDwarves and gnomes often encourage their bards to become students of the Song of Creation. And among dragonborn, the Song of Creation is revered, for legends portray Bahamut and Tiamat—the greatest of dragons—as two of the song’s first singers.",
+   "rules": [
+    {
+     "grant": "Class Feature:Mote of Potential",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Performance of Creation",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Animating Performance",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Creative Crescendo",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:College of Eloquence",
+   "type": "Subclass",
+   "name": "College of Eloquence",
+   "supports": "Class:Bard",
+   "desc": "Adherents of the College of Eloquence master the art of oratory. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.",
+   "rules": [
+    {
+     "grant": "Class Feature:Silver Tongue",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Unsettling Words",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Unfailing Inspiration",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Universal Speech",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Infectious Inspiration",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Order Domain",
+   "type": "Subclass",
+   "name": "Order Domain",
+   "supports": "Class:Cleric",
+   "desc": "The Order Domain represents discipline, as well as devotion to the laws that govern a society, an institution, or a philosophy. Clerics of Order meditate on logic and justice as they serve their gods, examples of which appear in the Order Deities table.\n\nClerics of Order believe that well-crafted laws establish legitimate hierarchies, and those selected by law to lead must be obeyed. Those who obey must do so to the best of their ability, and if those who lead fail to protect the law, they must be replaced. In this manner, law weaves a web of obligations that create order and security in a chaotic multiverse.\n\nOrder Deities\n\nExample Deity | Pantheon\nAureon | Eberron\nBane | Forgotten Realms\nMajere | Dragonlance\nPholtus | Greyhawk\nTyr | Forgotten Realms\nWee Jas | Greyhawk",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells (Order Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Order Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Voice of Authority",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Order's Demand",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Embodiment of the Law",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (Order Domain)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Order's Wrath",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Command",
+      "Heroism"
+     ],
+     "3": [
+      "Hold Person",
+      "Zone of Truth"
+     ],
+     "5": [
+      "Mass Healing Word",
+      "Slow"
+     ],
+     "7": [
+      "Compulsion",
+      "Locate Creature"
+     ],
+     "9": [
+      "Commune",
+      "Dominate Person"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Peace Domain",
+   "type": "Subclass",
+   "name": "Peace Domain",
+   "supports": "Class:Cleric",
+   "desc": "The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.\n\nClerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clerics’ blessings draw people together and help them shoulder one another’s burdens, and the clerics’ magic aids those who are driven to fight for the way of peace.\n\nPeace Deities\n\nExample Deity | Pantheon\nAngharradh | Elven\nBerronar Truesilver | Dwarven\nBoldrei | Eberron\nCyrrollalee | Halfling\nEldath | Forgotten Realms\nGaerdal | Ironhand Gnomish\nPaladine | Dragonlance\nRao | Greyhawk",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells (Peace Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Implement of Peace",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Emboldening Bond",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Balm of Peace",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Protective Bond",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Potent Spellcasting (Peace Domain)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Expansive Bond",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Heroism",
+      "Sanctuary"
+     ],
+     "3": [
+      "Aid",
+      "Warding Bond"
+     ],
+     "5": [
+      "Beacon of Hope",
+      "Sending"
+     ],
+     "7": [
+      "Aura of Purity",
+      "Otiluke's Resilient Sphere"
+     ],
+     "9": [
+      "Greater Restoration",
+      "Rary's Telepathic Bond"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Twilight Domain",
+   "type": "Subclass",
+   "name": "Twilight Domain",
+   "supports": "Class:Cleric",
+   "desc": "The twilit transition from light into darkness often brings calm and even joy, as the day’s labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night.\n\nClerics who serve these deities—examples of which appear on the Twilight Deities table—bring comfort to those who seek rest and protect them by venturing into the encroaching darkness to ensure that the dark is a comfort, not a terror.\n\nTwilight Deities\n\nExample Deities | Pantheon\nBoldrei | Eberron\nCelestian | Greyhawk\nDol Arrah | Eberron\nHelm | Forgotten Realms\nIlmater | Forgotten Realms\nMishakal | Dragonlance\nSelune | Forgotten Realms\nYondalla | Halfling",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells (Twilight Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Twilight Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Eyes of Night",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Vigilant Blessing",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Twilight Sanctuary",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Steps of Night",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike (Twilight Domain)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Twilight Shroud",
+     "level": 17
+    }
+   ],
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Faerie Fire",
+      "Sleep"
+     ],
+     "3": [
+      "Moonbeam",
+      "See Invisibility"
+     ],
+     "5": [
+      "Aura of Vitality",
+      "Leomund's Tiny Hut"
+     ],
+     "7": [
+      "Aura of Life",
+      "Greater Invisibility"
+     ],
+     "9": [
+      "Circle of Power",
+      "Mislead"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Spores",
+   "type": "Subclass",
+   "name": "Circle of Spores",
+   "supports": "Class:Druid",
+   "desc": "These druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn’t the end of life, but instead a change of state that sees life shift into a new form.\n\nDruids of this circle have a complex relationship with the undead. They see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells (Circle of Spores)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Halo of Spores",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Symbiotic Entity",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Fungal Infestation",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Spreading Spores",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Fungal Body",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "2": [
+      "Chill Touch"
+     ],
+     "3": [
+      "Blindness Deafness",
+      "Gentle Repose"
+     ],
+     "5": [
+      "Animate Dead",
+      "Gaseous Form"
+     ],
+     "7": [
+      "Blight",
+      "Confusion"
+     ],
+     "9": [
+      "Cloudkill",
+      "Contagion"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Stars",
+   "type": "Subclass",
+   "name": "Circle of Stars",
+   "supports": "Class:Druid",
+   "desc": "The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of Stars seeks to harness the powers of the cosmos.\n\nMany druids of this circle keep records of the constellations and the stars’ effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples—any construction durable enough to protect the circle’s sacred knowledge even against a great cataclysm.",
+   "rules": [
+    {
+     "grant": "Class Feature:Star Map",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Starry Form",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Cosmic Omen",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Twinkling Constellations",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Full of Stars",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Circle of Wildfire",
+   "type": "Subclass",
+   "name": "Circle of Wildfire",
+   "supports": "Class:Druid",
+   "desc": "Druids within the Circle of Wildfire understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells (Circle of Wildfire)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Summon Wildfire Spirit",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Enhanced Bond",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Cauterizing Flames",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Blazing Revival",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "2": [
+      "Burning Hands",
+      "Cure Wounds"
+     ],
+     "3": [
+      "Flaming Sphere",
+      "Scorching Ray"
+     ],
+     "5": [
+      "Plant Growth",
+      "Revivify"
+     ],
+     "7": [
+      "Aura of Life",
+      "Fire Shield"
+     ],
+     "9": [
+      "Flame Strike",
+      "Mass Cure Wounds"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Psi Warrior",
+   "type": "Subclass",
+   "name": "Psi Warrior",
+   "supports": "Class:Fighter",
+   "desc": "Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such warriors, as do some of the most disciplined high elves. In the world of Eberron, many young kalashtar dream of becoming Psi Warriors.\n\nAs a Psi Warrior, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mud’s power as both weapon and shield.",
+   "rules": [
+    {
+     "grant": "Class Feature:Psionic Power",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Telekinetic Adept",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Guarded Mind",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Bulwark of Force",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Telekinetic Master",
+     "level": 18
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Rune Knight",
+   "type": "Subclass",
+   "name": "Rune Knight",
+   "supports": "Class:Fighter",
+   "desc": "Rune Knights enhance their martial prowess using the supernatural power of runes, and ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant’s work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant’s craft and learned how to apply magic runes to empower your equipment.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Rune Knight)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Rune Carver",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Giant's Might",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Runic Shield",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Great Stature",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Master of Runes",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Runic Juggernaut",
+     "level": 18
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Armorer",
+   "type": "Subclass",
+   "name": "Armorer",
+   "supports": "Class:Artificer",
+   "desc": "An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armorer Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcane Armor",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armor Model",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack (Armorer)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Armor Modifications",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Perfected Armor",
+     "level": 15
+    }
+   ],
+   "prepared": {
+    "class": "Artificer",
+    "levels": {
+     "3": [
+      "Magic Missile",
+      "Thunderwave"
+     ],
+     "5": [
+      "Mirror Image",
+      "Shatter"
+     ],
+     "9": [
+      "Hypnotic Pattern",
+      "Lightning Bolt"
+     ],
+     "13": [
+      "Fire Shield",
+      "Greater Invisibility"
+     ],
+     "17": [
+      "Passwall",
+      "Wall of Force"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Form of the Beast",
+   "type": "Class Feature",
+   "name": "Form of the Beast",
+   "desc": "3rd-level Path of the Beast feature.\n\nWhen you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.\n\nYou choose the weapon’s form each time you rage:\n\nBite. Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.\n\nClaws. Each of your hands transforms into a claw, which you can use as a weapon if it’s empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.\n\nTail. You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.",
+   "rules": [
+    {
+     "grant": "Class Feature:Bite (Path of the Beast)"
+    },
+    {
+     "grant": "Class Feature:Claws (Path of the Beast)"
+    },
+    {
+     "grant": "Class Feature:Tail (Path of the Beast)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Bite (Path of the Beast)",
+   "type": "Class Feature",
+   "name": "Bite (Path of the Beast)",
+   "desc": "Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Claws (Path of the Beast)",
+   "type": "Class Feature",
+   "name": "Claws (Path of the Beast)",
+   "desc": "Each of your hands transforms into a claw, which you can use as a weapon if it’s empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Tail (Path of the Beast)",
+   "type": "Class Feature",
+   "name": "Tail (Path of the Beast)",
+   "desc": "You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bestial Soul",
+   "type": "Class Feature",
+   "name": "Bestial Soul",
+   "desc": "6th-level Path of the Beast feature.\n\nThe feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nYou can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:\n\n- You gain a swimming speed equal to your walking speed, and you can breathe underwater.\n- You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n- When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infectious Fury",
+   "type": "Class Feature",
+   "name": "Infectious Fury",
+   "desc": "10th-level Path of the Beast feature.\n\nWhen you hit a creature with your natural weapons while you are raging, the beast within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):\n\n- The target must use its reaction to make a melee attack against another creature of your choice that you can see.\n- The target takes 2d12 psychic damage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "infectious-fury",
+      "name": "Infectious Fury",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Call the Hunt",
+   "type": "Class Feature",
+   "name": "Call the Hunt",
+   "desc": "14th-level Path of the Beast feature.\n\nThe beast within you grows so powerful that you can spread its ferocity to others and gain resilience from them joining your hunt. When you enter your rage, you can choose a number of other willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature).\n\nYou gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a d6 and gain a bonus to the damage equal to the number rolled.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "call-the-hunt",
+      "name": "Call the Hunt",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Magic Awareness",
+   "type": "Class Feature",
+   "name": "Magic Awareness",
+   "desc": "3rd-level Path of Wild Magic feature.\n\nAs an action, you can open your awareness to the presence of concentrated magic. Until the end of your next turn, you know the location of any spell or magic item within 60 feet of you that isn’t behind total cover. When you sense a spell, you learn which school of magic it belongs to.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "magic-awareness",
+      "name": "Magic Awareness",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Wild Surge",
+   "type": "Class Feature",
+   "name": "Wild Surge",
+   "desc": "3rd-level Path of Wild Magic feature.\n\nThe magical energy rolling inside you sometimes erupts from you. When you enter your rage, roll on the Wild Magic table to determine the magical effect produced.\n\nIf the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bolstering Magic",
+   "type": "Class Feature",
+   "name": "Bolstering Magic",
+   "desc": "6th-level Path of Wild Magic feature.\n\nYou can harness your wild magic to bolster yourself or a companion. As an action, you can touch one creature (which can be yourself) and confer one of the following benefits of your choice to that creature:\n\n- For 10 minutes, the creature can roll a d3 whenever making an attack roll or an ability check and add the number rolled to the d20 roll.\n- Roll a d3. The creature regains one expended spell slot, the level of which equals the number rolled or lower (the creature’s choice). Once a creature receives this benefit, that creature can’t receive it again until after a long rest.\n\nYou can take this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "bolstering-magic",
+      "name": "Bolstering Magic",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Unstable Backlash",
+   "type": "Class Feature",
+   "name": "Unstable Backlash",
+   "desc": "10th-level Path of Wild Magic feature.\n\nWhen you are imperiled during your rage, the magic within you can lash out; immediately after you take damage or fail a saving throw while raging, you can use your reaction to roll on the Wild Magic table and immediately produce the effect rolled. This effect replaces your current Wild Magic effect.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Controlled Surge",
+   "type": "Class Feature",
+   "name": "Controlled Surge",
+   "desc": "14th-level Path of Wild Magic feature.\n\nWhenever you roll on the Wild Magic table, you can roll the die twice and choose which of the two effects to unleash. If you roll the same number on both dice, you can ignore the number and choose any effect on the table.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mote of Potential",
+   "type": "Class Feature",
+   "name": "Mote of Potential",
+   "desc": "3rd-level College of Creation feature.\n\nWhenever you give a creature a Bardic Inspiration die, you can utter a note from the Song of Creation to create a Tiny mote of potential, which orbits within 5 feet of that creature. The mote is intangible and invulnerable, and it lasts until the Bardic Inspiration die is lost. The mote looks like a musical note, a star, a flower, or another symbol of art or life that you choose.\n\nWhen the creature uses the Bardic Inspiration die, the mote provides an additional effect based on whether the die benefits an ability check, an attack roll, or a saving throw, as detailed below:\n\nAbility Check. When the creature rolls the Bardic Inspiration die to add it to an ability check, the creature can roll the Bardic Inspiration die again and choose which roll to use, as the mote pops and emits colorful, harmless sparks for a moment.\n\nAttack Roll. Immediately after the creature rolls the Bardic Inspiration die to add it to an attack roll against a target, the mote thunderously shatters. The target and each creature of your choice that you can see within 5 feet of it must succeed on a Constitution saving throw against your spell save DC or take thunder damage equal to the number rolled on the Bardic Inspiration die.\n\nSaving Throw. Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, the mote vanishes with the sound of soft music, causing the creature to gain temporary hit points equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier (minimum of 1 temporary hit point).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Performance of Creation",
+   "type": "Class Feature",
+   "name": "Performance of Creation",
+   "desc": "3rd-level College of Creation feature.\n\nAs an action, you can channel the magic of the Song of Creation to create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can’t be more than 20 times your bard level, and the item must be Medium or smaller. The item glimmers softly, and a creature can faintly hear music when touching it. The created item disappears after a number of hours equal to your proficiency bonus. For examples of items you can create, see the equipment chapter of the Player’s Handbook.\n\nOnce you create an item with this feature, you can’t do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to use this feature again. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.\n\nThe size of the item you can create with this feature increases by one size category when you reach 6th level (Large) and 14th level (Huge).",
+   "rules": [
+    {
+     "resource": {
+      "id": "performance-of-creation",
+      "name": "Performance of Creation",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Animating Performance",
+   "type": "Class Feature",
+   "name": "Animating Performance",
+   "desc": "6th-level College of Creation feature.\n\nAs an action, you can animate one Large or smaller nonmagical item within 30 feet of you that isn’t being worn or carried. The animate item uses the Dancing Item stat block, which uses your proficiency bonus (PB). The item is friendly to you and your companions and obeys your commands. It lives for 1 hour, until it is reduced to 0 hit points, or until you die.\n\nIn combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turns is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the item can take any action of its choice, not just Dodge.\n\nWhen you use your Bardic Inspiration feature, you can command the item as part of the same bonus action you use for Bardic Inspiration.\n\nOnce you animate an item with this feature, you can’t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use this feature again. You can have only one item animated by this feature at a time; if you use this action and already have a dancing item from this feature, the first one immediately becomes inanimate.",
+   "rules": [
+    {
+     "resource": {
+      "id": "animating-performance",
+      "name": "Animating Performance",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Creative Crescendo",
+   "type": "Class Feature",
+   "name": "Creative Crescendo",
+   "desc": "14th-level College of Creation feature.\n\nWhen you use your Performance of Creation feature, you can create more than one item at once. The number of items equals your Charisma modifier (minimum of two items). If you create an item that would exceed that number, you choose which of the previously created items disappears. Only one of these items can be of the maximum size you can create; the rest must be Small or Tiny.\n\nYou are no longer limited by gp value when creating items with Performance of Creation.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Silver Tongue",
+   "type": "Class Feature",
+   "name": "Silver Tongue",
+   "desc": "3rd-level College of Eloquence feature.\n\nYou are a master at saying the right thing at the right time. When you make a Charisma (Persuasion) or Charisma (Deception) check, you can treat a d20 roll of 9 or lower as a 10.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsettling Words",
+   "type": "Class Feature",
+   "name": "Unsettling Words",
+   "desc": "3rd-level College of Eloquence feature.\n\nYou can spin words laced with magic that unsettle a creature and cause it to doubt itself. As a bonus action, you can expend one use of your Bardic Inspiration and choose one creature you can see within 60 feet of you. Roll the Bardic Inspiration die. The creature must subtract the number rolled from the next saving throw it makes before the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unfailing Inspiration",
+   "type": "Class Feature",
+   "name": "Unfailing Inspiration",
+   "desc": "6th-level College of Eloquence feature.\n\nYour inspiring words are so persuasive that others feel driven to succeed. When a creature adds one of your Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll fails, the creature can keep the Bardic Inspiration die.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Universal Speech",
+   "type": "Class Feature",
+   "name": "Universal Speech",
+   "desc": "6th-level College of Eloquence feature.\n\nYou have gained the ability to make your speech intelligible to any creature. As an action, choose one or more creatures within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). The chosen creatures can magically understand you, regardless of the language you speak, for 1 hour. Once you use this feature, you can’t use it again until you finish a long rest, unless you expend a spell slot to use it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "universal-speech",
+      "name": "Universal Speech",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Infectious Inspiration",
+   "type": "Class Feature",
+   "name": "Infectious Inspiration",
+   "desc": "14th-level College of Eloquence feature.\n\nWhen you successfully inspire someone, the power of your eloquence can now spread to someone else. When a creature within 60 feet of you adds one of your Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll succeeds, you can use your reaction to encourage a different creature (other than yourself) that can hear you within 60 feet of you, giving it a Bardic Inspiration die without expending any of your Bardic Inspiration uses.\n\nYou can use this reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "infectious-inspiration",
+      "name": "Infectious Inspiration",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "cha"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Domain Spells (Order Domain)",
+   "type": "Class Feature",
+   "name": "Domain Spells (Order Domain)",
+   "desc": "1st-level Order Domain feature.\n\nYou gain domain spells at the cleric levels listed in the Order Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.\n\nOrder Domain Spells\n\nCleric Level | Spells\n1st | command, heroism\n3rd | hold person, zone of truth\n5th | mass healing word, slow\n7th | compulsion, locate creature\n9th | commune, dominate person",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bonus Proficiencies (Order Domain)",
+   "type": "Class Feature",
+   "name": "Bonus Proficiencies (Order Domain)",
+   "desc": "1st-level Order Domain feature.\n\nYou gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice).",
+   "rules": [
+    {
+     "pf": [
+      "a:Heavy armor"
+     ]
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency (Order Domain)",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Intimidation",
+       "Persuasion"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Voice of Authority",
+   "type": "Class Feature",
+   "name": "Voice of Authority",
+   "desc": "1st-level Order Domain feature.\n\nYou can invoke the power of law to embolden an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.\n\nIf the spell targets more than one ally, you choose the ally who can make the attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Order's Demand",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Order's Demand",
+   "desc": "2nd-level Order Domain feature.\n\nYou can use your Channel Divinity to exert an intimidating presence over others.\n\nAs an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Embodiment of the Law",
+   "type": "Class Feature",
+   "name": "Embodiment of the Law",
+   "desc": "6th-level Order Domain feature.\n\nYou have become remarkably adept at channeling magical energy to compel others.\n\nIf you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell’s casting time to 1 bonus action for this casting, provided the spell’s casting time is normally 1 action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "embodiment-of-the-law",
+      "name": "Embodiment of the Law",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Divine Strike (Order Domain)",
+   "type": "Class Feature",
+   "name": "Divine Strike (Order Domain)",
+   "desc": "8th-level Order Domain feature.\n\nYou gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Order's Wrath",
+   "type": "Class Feature",
+   "name": "Order's Wrath",
+   "desc": "17th-level Order Domain feature.\n\nEnemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Domain Spells (Peace Domain)",
+   "type": "Class Feature",
+   "name": "Domain Spells (Peace Domain)",
+   "desc": "1st-level Peace Domain feature.\n\nYou gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.\n\nPeace Domain Spells\n\nCleric Level | Spells\n1st | heroism, sanctuary\n3rd | aid, warding bond\n5th | beacon of hope, sending\n7th | aura of purity, Otiluke’s resilient sphere\n9th | greater restoration, Rary’s telepathic bond",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Implement of Peace",
+   "type": "Class Feature",
+   "name": "Implement of Peace",
+   "desc": "1st-level Peace Domain feature.\n\nYou gain proficiency in the Insight, Performance, or Persuasion skill (your choice).",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency (Implement of Peace)",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Insight",
+       "Performance",
+       "Persuasion"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Emboldening Bond",
+   "type": "Class Feature",
+   "name": "Emboldening Bond",
+   "desc": "1st-level Peace Domain feature.\n\nYou can forge an empowering bond among people who are at peace with one another. As an action, you can choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "emboldening-bond",
+      "name": "Emboldening Bond",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Balm of Peace",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Balm of Peace",
+   "desc": "2nd-level Peace Domain feature.\n\nYou can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking an opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Protective Bond",
+   "type": "Class Feature",
+   "name": "Protective Bond",
+   "desc": "6th-level Peace Domain feature.\n\nThe bond you forge between people helps them protect each other. When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 30 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Potent Spellcasting (Peace Domain)",
+   "type": "Class Feature",
+   "name": "Potent Spellcasting (Peace Domain)",
+   "desc": "8th-level Peace Domain feature.\n\nYou add your Wisdom modifier to the damage you deal with any cleric cantrip.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expansive Bond",
+   "type": "Class Feature",
+   "name": "Expansive Bond",
+   "desc": "17th-level Peace Domain feature.\n\nThe benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone else’s damage, the creature has resistance to that damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Domain Spells (Twilight Domain)",
+   "type": "Class Feature",
+   "name": "Domain Spells (Twilight Domain)",
+   "desc": "1st-level Twilight Domain feature.\n\nYou gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.\n\nTwilight Domain Spells\n\nCleric Level | Spells\n1st | faerie fire, sleep\n3rd | moonbeam, see invisibility\n5th | aura of vitality, Leomund’s tiny hut\n7th | aura of life, greater invisibility\n9th | circle of power, mislead",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bonus Proficiencies (Twilight Domain)",
+   "type": "Class Feature",
+   "name": "Bonus Proficiencies (Twilight Domain)",
+   "desc": "1st-level Twilight Domain feature.\n\nYou gain proficiency with martial weapons and heavy armor.",
+   "rules": [
+    {
+     "pf": [
+      "w:Martial weapons"
+     ]
+    },
+    {
+     "pf": [
+      "a:Heavy armor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Eyes of Night",
+   "type": "Class Feature",
+   "name": "Eyes of Night",
+   "desc": "1st-level Twilight Domain feature.\n\nYou can see through the deepest gloom. You have darkvision out to a range of 300 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.\n\nAs an action, you can magically share the darkvision of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). The shared darkvision lasts for 1 hour. Once you share it, you can’t do so again until you finish a long rest, unless you expend a spell slot of any level to share it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "eyes-of-night",
+      "name": "Eyes of Night",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Vigilant Blessing",
+   "type": "Class Feature",
+   "name": "Vigilant Blessing",
+   "desc": "1st-level Twilight Domain feature.\n\nThe night has taught you to be vigilant. As an action, you give one creature you touch (including possibly yourself) advantage on the next initiative roll the creature makes. This benefit ends immediately after the roll or if you use this feature again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Twilight Sanctuary",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Twilight Sanctuary",
+   "desc": "2nd-level Twilight Domain feature.\n\nYou can use your Channel Divinity to refresh your allies with soothing twilight.\n\nAs an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:\n\n- You grant it temporary hit points equal to 1d6 plus your cleric level.\n- You end one effect on it causing it to be charmed or frightened.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Steps of Night",
+   "type": "Class Feature",
+   "name": "Steps of Night",
+   "desc": "6th-level Twilight Domain feature.\n\nYou can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "steps-of-night",
+      "name": "Steps of Night",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Divine Strike (Twilight Domain)",
+   "type": "Class Feature",
+   "name": "Divine Strike (Twilight Domain)",
+   "desc": "8th-level Twilight Domain feature.\n\nYou gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage. When you reach 14th level, the extra damage increases to 2d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Twilight Shroud",
+   "type": "Class Feature",
+   "name": "Twilight Shroud",
+   "desc": "17th-level Twilight Domain feature.\n\nThe twilight that you summon offers a protective embrace: you and your allies have half cover while in the sphere created by your Twilight Sanctuary.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Circle Spells (Circle of Spores)",
+   "type": "Class Feature",
+   "name": "Circle Spells (Circle of Spores)",
+   "desc": "2nd-level Circle of Spores feature.\n\nYour symbiotic link to fungi and your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the chill touch cantrip.\n\nAt 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\nCircle of Spores Spells\n\nDruid Level | Spells\n3rd | blindness/deafness, gentle repose\n5th | animate dead, gaseous form\n7th | blight, confusion\n9th | cloudkill, contagion",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Halo of Spores",
+   "type": "Class Feature",
+   "name": "Halo of Spores",
+   "desc": "2nd-level Circle of Spores feature.\n\nYou are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to 1d6 at 6th level, 1d8 at 10th level, and 1d10 at 14th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Symbiotic Entity",
+   "type": "Class Feature",
+   "name": "Symbiotic Entity",
+   "desc": "2nd-level Circle of Spores feature.\n\nYou gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:\n\n- When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.\n- Your melee weapon attacks deal an extra 1d6 necrotic damage to any target they hit.\n\nThese benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fungal Infestation",
+   "type": "Class Feature",
+   "name": "Fungal Infestation",
+   "desc": "6th-level Circle of Spores feature.\n\nYour spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the Zombie stat block in the Monster Manual. It remains animate for 1 hour, after which time it collapses and dies.\n\nIn combat, the zombie’s turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "fungal-infestation",
+      "name": "Fungal Infestation",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Spreading Spores",
+   "type": "Class Feature",
+   "name": "Spreading Spores",
+   "desc": "10th-level Circle of Spores feature.\n\nYou gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away, where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active.\n\nWhenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn.\n\nWhile the cube of spores persists, you can’t use your Halo of Spores reaction.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fungal Body",
+   "type": "Class Feature",
+   "name": "Fungal Body",
+   "desc": "14th-level Circle of Spores feature.\n\nThe fungal spores in your body alter you: you can’t be blinded, deafened, frightened, or poisoned, and any critical hit against you counts as a normal hit instead, unless you’re incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Star Map",
+   "type": "Class Feature",
+   "name": "Star Map",
+   "desc": "2nd-level Circle of Stars feature.\n\nYou’ve created a star chart as part of your heavenly studies. It is a Tiny object and can serve as a spellcasting focus for your druid spells. You determine its form by rolling on the Star Map table or by choosing one.\n\nWhile holding this map, you have these benefits:\n\n- You know the guidance cantrip.\n- You have the guiding bolt spell prepared. It counts as a druid spell for you, and it doesn’t count against the number of spells you can have prepared.\n- You can cast guiding bolt without expending a spell slot. You can do so a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nIf you lose the map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.\n\nStar Map\n\nd6 | Map Form\n1 | A scroll covered with depictions of constellations\n2 | A stone tablet with fine holes drilled through it\n3 | A speckled owlbear hide, tooled with raised marks\n4 | A collection of maps bound in an ebony cover\n5 | A crystal that projects starry patterns when placed before a light\n6 | Glass disks that depict constellations",
+   "rules": [],
+   "featSpells": [
+    [
+     2,
+     "Guidance",
+     "bonus"
+    ],
+    [
+     2,
+     "Guiding Bolt",
+     "bonus"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Starry Form",
+   "type": "Class Feature",
+   "name": "Starry Form",
+   "desc": "2nd-level Circle of Stars feature.\n\nAs a bonus action, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.\n\nWhile in a starry form, you retain your game statistics, but your body becomes luminous; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes. It ends early if you dismiss it (no action required), are incapacitated, die, or use this feature again.\n\nWhenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:\n\nArcher. A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to 1d8 + your Wisdom modifier.\n\nChalice. A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + your Wisdom modifier.\n\nDragon. A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10.",
+   "rules": [
+    {
+     "grant": "Class Feature:Archer (Circle of Stars)"
+    },
+    {
+     "grant": "Class Feature:Chalice (Circle of Stars)"
+    },
+    {
+     "grant": "Class Feature:Dragon (Circle of Stars)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Archer (Circle of Stars)",
+   "type": "Class Feature",
+   "name": "Archer (Circle of Stars)",
+   "desc": "A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to 1d8 + your Wisdom modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chalice (Circle of Stars)",
+   "type": "Class Feature",
+   "name": "Chalice (Circle of Stars)",
+   "desc": "A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + your Wisdom modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dragon (Circle of Stars)",
+   "type": "Class Feature",
+   "name": "Dragon (Circle of Stars)",
+   "desc": "A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cosmic Omen",
+   "type": "Class Feature",
+   "name": "Cosmic Omen",
+   "desc": "6th-level Circle of Stars feature.\n\nWhenever you finish a long rest, you can consult your Star Map for omens. When you do so, roll a die. Until you finish your next long rest, you gain access to a special reaction based on whether you rolled an even or an odd number on the die:\n\nWeal (even). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use your reaction to roll a d6 and add the number rolled to the total.\n\nWoe (odd). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use your reaction to roll a d6 and subtract the number rolled to the total.\n\nYou can use your reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "cosmic-omen",
+      "name": "Cosmic Omen",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Twinkling Constellations",
+   "type": "Class Feature",
+   "name": "Twinkling Constellations",
+   "desc": "10th-level Circle of Stars feature.\n\nThe constellations of your Starry Form improve. The 1d8 of the Archer and the Chalice becomes 2d8, and while the Dragon is active, you have a flying speed of 20 feet and can hover.\n\nMoreover, at the start of each of your turns while in Starry Form, you can change which constellation glimmers on your body.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Full of Stars",
+   "type": "Class Feature",
+   "name": "Full of Stars",
+   "desc": "14th-level Circle of Stars feature.\n\nWhile in your Starry Form, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Circle Spells (Circle of Wildfire)",
+   "type": "Class Feature",
+   "name": "Circle Spells (Circle of Wildfire)",
+   "desc": "2nd-level Circle of Wildfire feature.\n\nYou have formed a bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to some spells when you reach certain levels in this class, as shown on the Circle of Wildfire Spells table.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\nCircle of Wildfire Spells\n\nDruid Level | Spells\n2nd | burning hands, cure wounds\n3rd | flaming sphere, scorching ray\n5th | plant growth, revivify\n7th | aura of life, fire shield\n9th | flame strike, mass cure wounds",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Summon Wildfire Spirit",
+   "type": "Class Feature",
+   "name": "Summon Wildfire Spirit",
+   "desc": "2nd-level Circle of Wildfire feature.\n\nYou can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.\n\nThe spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take 2d6 fire damage.\n\nThe spirit is friendly to you and your companions and obeys your commands. See this creature’s game statistics in the Wildfire Spirit stat block, which uses your proficiency bonus (PB) in several places. You determine the spirit’s appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.\n\nIn combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.\n\nThe spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Enhanced Bond",
+   "type": "Class Feature",
+   "name": "Enhanced Bond",
+   "desc": "6th-level Circle of Wildfire feature.\n\nThe bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.\n\nIn addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cauterizing Flames",
+   "type": "Class Feature",
+   "name": "Cauterizing Flames",
+   "desc": "10th-level Circle of Wildfire feature.\n\nYou gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature’s space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals 2d10 + your Wisdom modifier.\n\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "cauterizing-flames",
+      "name": "Cauterizing Flames",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blazing Revival",
+   "type": "Class Feature",
+   "name": "Blazing Revival",
+   "desc": "14th-level Circle of Wildfire feature.\n\nThe bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall unconscious, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "blazing-revival",
+      "name": "Blazing Revival",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Psionic Power",
+   "type": "Class Feature",
+   "name": "Psionic Power",
+   "desc": "3rd-level Psi Warrior feature.\n\nYou harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a d6. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.\n\nSome of your powers expend the Psionic Energy die they use, as specified in a power’s description, and you can’t use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can’t do so again until you finish a short or long rest.\n\nWhen you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level (d8), 11th level (d10), and 17th level (d12).\n\nThe powers below use your Psionic Energy dice.\n\nProtective Field. When you or another creature you can see within 30 feet of you takes damage, you can use your reaction to expend one Psionic Energy die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.\n\nPsionic Strike. You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of you with an attack and deal damage to it with a weapon, you can expend one Psionic Energy die, rolling it and dealing force damage to the target equal to the number rolled plus your Intelligence modifier.\n\nTelekinetic Movement. You can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. Once you take this action, you can’t do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.",
+   "rules": [
+    {
+     "grant": "Class Feature:Protective Field"
+    },
+    {
+     "grant": "Class Feature:Psionic Strike"
+    },
+    {
+     "grant": "Class Feature:Telekinetic Movement"
+    },
+    {
+     "resource": {
+      "id": "psionic-energy",
+      "name": "Psionic Energy dice",
+      "rest": "L",
+      "max": {
+       "class": "Fighter",
+       "table": [
+        0,
+        0,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        8,
+        8,
+        8,
+        8,
+        10,
+        10,
+        10,
+        10,
+        12,
+        12,
+        12,
+        12
+       ]
+      },
+      "note": "d6 (d8 at 5th, d10 at 11th, d12 at 17th)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Protective Field",
+   "type": "Class Feature",
+   "name": "Protective Field",
+   "desc": "When you or another creature you can see within 30 feet of you takes damage, you can use your reaction to expend one Psionic Energy die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Psionic Strike",
+   "type": "Class Feature",
+   "name": "Psionic Strike",
+   "desc": "You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of you with an attack and deal damage to it with a weapon, you can expend one Psionic Energy die, rolling it and dealing force damage to the target equal to the number rolled plus your Intelligence modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Telekinetic Movement",
+   "type": "Class Feature",
+   "name": "Telekinetic Movement",
+   "desc": "You can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. Once you take this action, you can’t do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "telekinetic-movement",
+      "name": "Telekinetic Movement",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Telekinetic Adept",
+   "type": "Class Feature",
+   "name": "Telekinetic Adept",
+   "desc": "7th-level Psi Warrior feature.\n\nYou have mastered new ways to use your telekinetic abilities, detailed below.\n\nPsi-Powered Leap. As a bonus action, you can propel your body with your mind. You gain a flying speed equal to twice your walking speed until the end of the current turn. Once you take this bonus action, you can’t do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.\n\nTelekinetic Thrust. When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. If the save fails, you can knock the target prone or move it up to 10 feet in any direction horizontally.",
+   "rules": [
+    {
+     "grant": "Class Feature:Psi-Powered Leap"
+    },
+    {
+     "grant": "Class Feature:Telekinetic Thrust"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Psi-Powered Leap",
+   "type": "Class Feature",
+   "name": "Psi-Powered Leap",
+   "desc": "As a bonus action, you can propel your body with your mind. You gain a flying speed equal to twice your walking speed until the end of the current turn. Once you take this bonus action, you can’t do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "psi-powered-leap",
+      "name": "Psi-Powered Leap",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Telekinetic Thrust",
+   "type": "Class Feature",
+   "name": "Telekinetic Thrust",
+   "desc": "When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. If the save fails, you can knock the target prone or move it up to 10 feet in any direction horizontally.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Guarded Mind",
+   "type": "Class Feature",
+   "name": "Guarded Mind",
+   "desc": "10th-level Psi Warrior feature.\n\nThe psionic energy flowing through you has bolstered your mind. You have resistance to psychic damage. Moreover, if you start your turn charmed or frightened, you can expend a Psionic Energy die and end every effect on yourself subjecting you to those conditions.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bulwark of Force",
+   "type": "Class Feature",
+   "name": "Bulwark of Force",
+   "desc": "15th-level Psi Warrior feature.\n\nYou can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you’re incapacitated.\n\nOnce you take this bonus action, you can’t do so again until you finish a long rest, unless you spend a Psionic Energy die to take it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "bulwark-of-force",
+      "name": "Bulwark of Force",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Telekinetic Master",
+   "type": "Class Feature",
+   "name": "Telekinetic Master",
+   "desc": "18th-level Psi Warrior feature.\n\nYour ability to move creatures and objects with your mind is matched by few. You can cast the telekinesis spell, requiring no components, and your spellcasting ability for the spell is Intelligence. On each of your turns while you concentrate on the spell, including the turn when you cast it, you can make one attack with a weapon as a bonus action.\n\nOnce you cast the spell with this feature, you can’t do so again until you finish a long rest, unless you expend a Psionic Energy die to cast it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "telekinetic-master",
+      "name": "Telekinetic Master",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Bonus Proficiencies (Rune Knight)",
+   "type": "Class Feature",
+   "name": "Bonus Proficiencies (Rune Knight)",
+   "desc": "3rd-level Rune Knight feature.\n\nYou gain proficiency with smith’s tools, and you learn to speak, read, and write Giant.",
+   "rules": [
+    {
+     "pf": [
+      "t:Smith’s tools"
+     ]
+    },
+    {
+     "grant": "Language:Giant"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Rune Carver",
+   "type": "Class Feature",
+   "name": "Rune Carver",
+   "desc": "3rd-level Rune Knight feature.\n\nYou can use magic runes to enhance your gear. You learn two runes of your choice, from among the runes described below, and each time you gain a level in this class, you can replace one rune you know with a different one from this feature. When you reach certain levels in this class, you learn additional runes, as shown in the Runes Known table.\n\nRunes Known\n\nFighter Level | Number of Runes\n3rd | 2\n7th | 3\n10th | 4\n15th | 5\n\nWhenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes at a time.\n\nThe following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level in this class to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier.\n\nCloud Rune. This rune emulates the deceptive magic used by some cloud giants. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.\n\nIn addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and choose a different creature within 30 feet of you, other than the attacker. The chosen creature becomes the target of the attack, using the same roll. This magic can transfer the attack’s effects regardless of the attack’s range. Once you invoke this rune, you can’t do so again until you finish a short or long rest.\n\nFire Rune. This rune’s magic channels the masterful craftsmanship of great smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.\n\nIn addition, when you hit a creature with an attack using a weapon, you can invoke the rune to summon fiery shackles: the target takes an extra 2d6 fire damage, and it must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke this rune, you can’t do so again until you finish a short or long rest.\n\nFrost Rune. This rune’s magic evokes the might of those who survive in the wintry wilderness, such as frost giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.\n\nIn addition, you can invoke the rune as a bonus action to increase your sturdiness. For 10 minutes, you gain a +2 bonus to all ability checks and saving throws that use Strength or Constitution. Once you invoke this rune, you can’t do so again until you finish a short or long rest.\n\nStone Rune. This rune’s magic channels the judiciousness associated with stone giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 120 feet.\n\nIn addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The creature repeats the saving throw at the end of each of its turns, ending the effect on a success. Once you invoke this rune, you can’t do so again until you finish a short or long rest.\n\nHill Rune (7th Level or Higher). This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object that bears this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.\n\nIn addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke this rune, you can’t do so again until you finish a short or long rest.\n\nStorm Rune (7th Level or Higher). Using this rune, you can glimpse the future like a storm giant seer. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you aren’t incapacitated.\n\nIn addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune (Rune Carver) (level 3)",
+      "type": "Class Feature",
+      "n": 2,
+      "ids": [
+       "Class Feature:Cloud Rune",
+       "Class Feature:Fire Rune",
+       "Class Feature:Frost Rune",
+       "Class Feature:Hill Rune",
+       "Class Feature:Stone Rune",
+       "Class Feature:Storm Rune"
+      ]
+     },
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Rune (Rune Carver) (level 7)",
+      "type": "Class Feature",
+      "n": 1,
+      "ids": [
+       "Class Feature:Cloud Rune",
+       "Class Feature:Fire Rune",
+       "Class Feature:Frost Rune",
+       "Class Feature:Hill Rune",
+       "Class Feature:Stone Rune",
+       "Class Feature:Storm Rune"
+      ]
+     },
+     "level": 7
+    },
+    {
+     "select": {
+      "name": "Rune (Rune Carver) (level 10)",
+      "type": "Class Feature",
+      "n": 1,
+      "ids": [
+       "Class Feature:Cloud Rune",
+       "Class Feature:Fire Rune",
+       "Class Feature:Frost Rune",
+       "Class Feature:Hill Rune",
+       "Class Feature:Stone Rune",
+       "Class Feature:Storm Rune"
+      ]
+     },
+     "level": 10
+    },
+    {
+     "select": {
+      "name": "Rune (Rune Carver) (level 15)",
+      "type": "Class Feature",
+      "n": 1,
+      "ids": [
+       "Class Feature:Cloud Rune",
+       "Class Feature:Fire Rune",
+       "Class Feature:Frost Rune",
+       "Class Feature:Hill Rune",
+       "Class Feature:Stone Rune",
+       "Class Feature:Storm Rune"
+      ]
+     },
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Giant's Might",
+   "type": "Class Feature",
+   "name": "Giant's Might",
+   "desc": "3rd-level Rune Knight feature.\n\nYou have learned how to imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:\n\n- If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change.\n- You have advantage on Strength checks and Strength saving throws.\n- Once on each of your turns, one of your attacks with a weapon or an unarmed strike can deal an extra 1d6 damage to a target on a hit.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "giant-s-might",
+      "name": "Giant's Might",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Runic Shield",
+   "type": "Class Feature",
+   "name": "Runic Shield",
+   "desc": "7th-level Rune Knight feature.\n\nYou learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to force the attacker to reroll the d20 and use the new roll.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "runic-shield",
+      "name": "Runic Shield",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Great Stature",
+   "type": "Class Feature",
+   "name": "Great Stature",
+   "desc": "10th-level Rune Knight feature.\n\nThe magic of your runes permanently alters you. When you gain this feature, roll 3d4. You grow a number of inches in height equal to the roll.\n\nMoreover, the extra damage you deal with your Giant’s Might feature increases to 1d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master of Runes",
+   "type": "Class Feature",
+   "name": "Master of Runes",
+   "desc": "15th-level Rune Knight feature.\n\nYou can invoke each rune you know from your Rune Carver feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Juggernaut",
+   "type": "Class Feature",
+   "name": "Runic Juggernaut",
+   "desc": "18th-level Rune Knight feature.\n\nYou learn to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant’s Might feature increases to 1d10. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cloud Rune",
+   "type": "Class Feature",
+   "name": "Cloud Rune",
+   "desc": "This rune emulates the deceptive magic used by some cloud giants. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.\n\nIn addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and choose a different creature within 30 feet of you, other than the attacker. The chosen creature becomes the target of the attack, using the same roll. This magic can transfer the attack’s effects regardless of the attack’s range. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "cloud-rune",
+      "name": "Cloud Rune",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Fire Rune",
+   "type": "Class Feature",
+   "name": "Fire Rune",
+   "desc": "This rune’s magic channels the masterful craftsmanship of great smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.\n\nIn addition, when you hit a creature with an attack using a weapon, you can invoke the rune to summon fiery shackles: the target takes an extra 2d6 fire damage, and it must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "fire-rune",
+      "name": "Fire Rune",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Frost Rune",
+   "type": "Class Feature",
+   "name": "Frost Rune",
+   "desc": "This rune’s magic evokes the might of those who survive in the wintry wilderness, such as frost giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.\n\nIn addition, you can invoke the rune as a bonus action to increase your sturdiness. For 10 minutes, you gain a +2 bonus to all ability checks and saving throws that use Strength or Constitution. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "frost-rune",
+      "name": "Frost Rune",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Hill Rune",
+   "type": "Class Feature",
+   "name": "Hill Rune",
+   "desc": "Prerequisite: 7th level\n\nThis rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object that bears this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.\n\nIn addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "hill-rune",
+      "name": "Hill Rune",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Stone Rune",
+   "type": "Class Feature",
+   "name": "Stone Rune",
+   "desc": "This rune’s magic channels the judiciousness associated with stone giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 120 feet.\n\nIn addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The creature repeats the saving throw at the end of each of its turns, ending the effect on a success. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "stone-rune",
+      "name": "Stone Rune",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Storm Rune",
+   "type": "Class Feature",
+   "name": "Storm Rune",
+   "desc": "Prerequisite: 7th level\n\nUsing this rune, you can glimpse the future like a storm giant seer. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you aren’t incapacitated.\n\nIn addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke this rune, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "storm-rune",
+      "name": "Storm Rune",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Tools of the Trade",
+   "type": "Class Feature",
+   "name": "Tools of the Trade",
+   "desc": "3rd-level Armorer feature.\n\nYou gain proficiency with heavy armor. You also gain proficiency with smith’s tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan’s tools of your choice.",
+   "rules": [
+    {
+     "pf": [
+      "a:Heavy armor"
+     ]
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency (Tools of the Trade)",
+      "type": "Tool",
+      "n": 1,
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Armorer Spells",
+   "type": "Class Feature",
+   "name": "Armorer Spells",
+   "desc": "3rd-level Armorer feature.\n\nYou always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.\n\nArmorer Spells\n\nArtificer Level | Spells\n3rd | magic missile, thunderwave\n5th | mirror image, shatter\n9th | hypnotic pattern, lightning bolt\n13th | fire shield, greater invisibility\n17th | passwall, wall of force",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Armor",
+   "type": "Class Feature",
+   "name": "Arcane Armor",
+   "desc": "3rd-level Armorer feature.\n\nYour metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have smith’s tools in hand.\n\nYou gain the following benefits while wearing this armor:\n\n- If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.\n- You can use the arcane armor as a spellcasting focus for your artificer spells.\n- The armor attaches to you and can’t be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to a limb it replaces.\n- You can doff or don the armor as an action.\n\nThe armor continues to be Arcane Armor until you don another suit of armor or you die.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Armor Model",
+   "type": "Class Feature",
+   "name": "Armor Model",
+   "desc": "3rd-level Armorer feature.\n\nYou can customize your Arcane Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.\n\nEach model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.\n\nYou can change the armor’s model whenever you finish a short or long rest, provided you have smith’s tools in hand.\n\nGuardian. You design your armor to be in the front line of conflict. It has the following features:\n\nThunder Gauntlets. Each of the armor’s gauntlets counts as a simple melee weapon while you aren’t holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.\n\nDefensive Field. As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nInfiltrator. You can customize your armor for subtle undertakings. It has the following features:\n\nLightning Launcher. A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.\n\nPowered Steps. Your walking speed increases by 5 feet.\n\nDampening Field. You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.",
+   "rules": [
+    {
+     "select": {
+      "name": "Armor Model (Armorer)",
+      "type": "Class Feature",
+      "n": 1,
+      "ids": [
+       "Class Feature:Guardian (Armorer)",
+       "Class Feature:Infiltrator (Armorer)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Guardian (Armorer)",
+   "type": "Class Feature",
+   "name": "Guardian (Armorer)",
+   "desc": "You design your armor to be in the front line of conflict. It has the following features:\n\nThunder Gauntlets. Each of the armor’s gauntlets counts as a simple melee weapon while you aren’t holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.\n\nDefensive Field. As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "grant": "Class Feature:Thunder Gauntlets"
+    },
+    {
+     "grant": "Class Feature:Defensive Field"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Thunder Gauntlets",
+   "type": "Class Feature",
+   "name": "Thunder Gauntlets",
+   "desc": "Each of the armor’s gauntlets counts as a simple melee weapon while you aren’t holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Defensive Field",
+   "type": "Class Feature",
+   "name": "Defensive Field",
+   "desc": "As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "defensive-field",
+      "name": "Defensive Field",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Infiltrator (Armorer)",
+   "type": "Class Feature",
+   "name": "Infiltrator (Armorer)",
+   "desc": "You can customize your armor for subtle undertakings. It has the following features:\n\nLightning Launcher. A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.\n\nPowered Steps. Your walking speed increases by 5 feet.\n\nDampening Field. You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.",
+   "rules": [
+    {
+     "grant": "Class Feature:Lightning Launcher"
+    },
+    {
+     "grant": "Class Feature:Powered Steps"
+    },
+    {
+     "grant": "Class Feature:Dampening Field"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lightning Launcher",
+   "type": "Class Feature",
+   "name": "Lightning Launcher",
+   "desc": "A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Powered Steps",
+   "type": "Class Feature",
+   "name": "Powered Steps",
+   "desc": "Your walking speed increases by 5 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dampening Field",
+   "type": "Class Feature",
+   "name": "Dampening Field",
+   "desc": "You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Attack (Armorer)",
+   "type": "Class Feature",
+   "name": "Extra Attack (Armorer)",
+   "desc": "5th-level Armorer feature.\n\nYou can attack twice, rather than once, whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Armor Modifications",
+   "type": "Class Feature",
+   "name": "Armor Modifications",
+   "desc": "9th-level Armorer feature.\n\nYou learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor’s special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor’s model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Perfected Armor",
+   "type": "Class Feature",
+   "name": "Perfected Armor",
+   "desc": "15th-level Armorer feature.\n\nYour Arcane Armor gains additional benefits based on its model, as shown below.\n\nGuardian. When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force it to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.\n\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.\n\nInfiltrator. Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage.\n\nPerfected Guardian Armor.\nWhen a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force it to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.\n\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.\n\nPerfected Infiltrator Armor.\nAny creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage.",
+   "rules": []
+  }
+ ]
+}

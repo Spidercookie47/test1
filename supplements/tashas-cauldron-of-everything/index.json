@@ -1,0 +1,17 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "tcoe",
+  "name": "Tasha’s Cauldron of Everything",
+  "short": "TCoE",
+  "license": "Proprietary",
+  "credit": "Content from Tasha’s Cauldron of Everything, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "subclasses.json",
+  "class-options.json",
+  "feats.json",
+  "magic-items.json"
+ ]
+}
