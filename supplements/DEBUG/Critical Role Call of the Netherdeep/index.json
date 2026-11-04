@@ -1,0 +1,15 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "cotn",
+  "name": "Critical Role: Call of the Netherdeep",
+  "short": "CotN",
+  "license": "Proprietary",
+  "credit": "Content from Critical Role: Call of the Netherdeep, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "backgrounds.json",
+  "magic-items.json"
+ ]
+}

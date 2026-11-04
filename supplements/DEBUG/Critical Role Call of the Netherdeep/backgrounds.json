@@ -1,0 +1,32 @@
+{
+ "elements": [
+  {
+   "id": "Background:Ruidusborn",
+   "type": "Background",
+   "name": "Ruidusborn",
+   "desc": "You were born under the flare of the red moon Ruidus, marking you with a strange destiny. While some view this as an omen of disaster, others believe it signifies a person fated for greatness.\n\n**Skill Proficiencies:** Insight, and either Arcana or Religion\n**Languages:** Two of your choice\n**Equipment:** A set of traveler's clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 15 gp\n\n**Feature: Ruidusborn.** The moon Ruidus has a strange influence on your fate. You occasionally experience vivid dreams or visions tied to the red moon. When you finish a long rest, you can roll a d20. On a 20, you receive a prophetic vision of a future event (as determined by the DM).",   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "select": {
+      "name": "Secondary Skill (Ruidusborn)",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Arcana",
+       "Religion"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language (Ruidusborn)",
+      "type": "Language",
+      "n": 2
+     }
+    }
+   ]
+  }
+ ]
+}
