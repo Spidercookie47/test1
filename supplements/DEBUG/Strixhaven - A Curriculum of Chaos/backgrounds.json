@@ -254,95 +254,6 @@
    "id": "Background:Witherbloom Student",
    "type": "Background",
    "name": "Witherbloom Student",
-   "desc": "You've spent your studies learning to tap into the essence of life and death, honing your skills in the college of Witherbloom. You may be a student of botany, medicine, or the darker arts of necromancy, but whatever your focus, you understand the delicate balance of the natural cycle.\n\n**Skill Proficiencies:** Nature, Survival\n**Tool Proficiencies:** Herbalism kit\n**Languages:** One of your choice\n**Equipment:** A bottle of black ink, an ink pen, an herbalism kit, a book of botanical lore, a school uniform, and a pouch containing 10 gp",
-   "rules": [
-    {
-     "grant": "skill:Nature"
-    },
-    {
-     "grant": "skill:Survival"
-    },
-    {
-     "pf": [
-      "t:Herbalism kit"
-     ]
-    },
-    {
-     "select": {
-      "name": "Language (Witherbloom)",
-      "type": "Language",
-      "n": 1
-     }
-    },
-    {
-     "grant": "Background Feature:Witherbloom Initiate"
-    }
-   ],
-   "prepared": {
-    "class": "Witherbloom Spells",
-    "levels": {
-     "1": [
-      "Cure Wounds",
-      "Inflict Wounds"
-     ],
-     "2": [
-      "Lesser Restoration",
-      "Wither and Bloom"
-     ],
-     "3": [
-      "Revivify",
-      "Vampiric Touch"
-     ],
-     "4": [
-      "Blight",
-      "Death Ward"
-     ],
-     "5": [
-      "Mass Cure Wounds",
-      "Greater Restoration"
-     ]
-    }
-   }
-  },
-  {
-   "id": "Background Feature:Lorehold Initiate",
-   "type": "Background Feature",
-   "name": "Lorehold Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Lorehold within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
-  },
-  {
-   "id": "Background Feature:Prismari Initiate",
-   "type": "Background Feature",
-   "name": "Prismari Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Prismari within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
-  },
-  {
-   "id": "Background Feature:Quandrix Initiate",
-   "type": "Background Feature",
-   "name": "Quandrix Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Quandrix within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
-  },
-  {
-   "id": "Background Feature:Silverquill Initiate",
-   "type": "Background Feature",
-   "name": "Silverquill Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Silverquill within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
-  },
-  {
-   "id": "Background Feature:Witherbloom Initiate",
-   "type": "Background Feature",
-   "name": "Witherbloom Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Witherbloom within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
-  }
-   {
-   "id": "Background:Witherbloom Student",
-   "type": "Background",
-   "name": "Witherbloom Student",
    "desc": "You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College.\n\n**Skill Proficiencies:** Nature, Survival\n**Tool Proficiencies:** Herbalism kit\n**Languages:** One of your choice\n**Equipment:** A bottle of black ink, an ink pen, a book about plant identification, an iron pot, an herbalism kit, a school uniform, and a pouch containing 15 gp",
    "rules": [
     {
@@ -402,6 +313,34 @@
      ]
     }
    }
+  },
+  {
+   "id": "Background Feature:Lorehold Initiate",
+   "type": "Background Feature",
+   "name": "Lorehold Initiate",
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Lorehold within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Prismari Initiate",
+   "type": "Background Feature",
+   "name": "Prismari Initiate",
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Prismari within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Quandrix Initiate",
+   "type": "Background Feature",
+   "name": "Quandrix Initiate",
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Quandrix within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Silverquill Initiate",
+   "type": "Background Feature",
+   "name": "Silverquill Initiate",
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Silverquill within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class.",
+   "rules": []
   },
   {
    "id": "Background Feature:Witherbloom Initiate",
