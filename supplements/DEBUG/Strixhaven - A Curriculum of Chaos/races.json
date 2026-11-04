@@ -4,7 +4,7 @@
    "id": "Race:Owlin",
    "type": "Race",
    "name": "Owlin",
-   "desc": "Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.\n\nLike owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.\n\nYour owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
+   "desc": "Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.\n\nLike owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.\n\nYour owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.\n\nAbility Score Increase. Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\nCreature Type. You are a Humanoid.\nSize. You are Medium or Small. You choose the size when you select this race.\nSpeed. Your walking speed is 30 feet.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate.",
    "rules": [
     {
      "stat": {
@@ -18,7 +18,7 @@
      "grant": "Racial Trait:Owlin Darkvision"
     },
     {
-     "grant": "Racial Trait:Flight"
+     "grant": "Racial Trait:Flight (SCC)"
     },
     {
      "grant": "Racial Trait:Silent Feathers"
@@ -33,9 +33,9 @@
    "rules": []
   },
   {
-   "id": "Racial Trait:Flight",
+   "id": "Racial Trait:Flight (SCC)",
    "type": "Racial Trait",
-   "name": "Flight",
+   "name": "Flight (SCC)",
    "desc": "Thanks to your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.",
    "rules": []
   },

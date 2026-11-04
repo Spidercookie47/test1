@@ -4,7 +4,7 @@
    "id": "Background:Lorehold Student",
    "type": "Background",
    "name": "Lorehold Student",
-   "desc": "You have spent your youth preparing to be a student of Lorehold College, reading every book on the college's recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age.\n\n**Skill Proficiencies:** History, Religion\n**Languages:** Two of your choice\n**Equipment:** A bottle of black ink, an ink pen, a hammer, a hooded lantern, a tinderbox, a tome of history, a school uniform, and a pouch containing 15 gp",
+   "desc": "You have spent your youth preparing to be a student of Lorehold College, reading every book on the college's recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age.\n\nSkill Proficiencies: History, Religion\nLanguages: Two of your choice\nEquipment: A bottle of black ink, an ink pen, a hammer, a hooded lantern, a tinderbox, a tome of history, a school uniform, and a pouch containing 15 gp",
    "rules": [
     {
      "grant": "skill:History"
@@ -32,38 +32,13 @@
      "I can speak eloquently about the historical ramifications of an ancient war. But ask me to add two-digit numbers together, and I'm a mess.",
      "In the end, it's all just entropy. Everything falls apart someday."
     ]
-   },
-   "prepared": {
-    "class": "Lorehold Spells",
-    "levels": {
-     "1": [
-      "Comprehend Languages",
-      "Identify"
-     ],
-     "2": [
-      "Borrowed Knowledge",
-      "Locate Object"
-     ],
-     "3": [
-      "Speak with Dead",
-      "Spirit Guardians"
-     ],
-     "4": [
-      "Arcane Eye",
-      "Stone Shape"
-     ],
-     "5": [
-      "Flame Strike",
-      "Legend Lore"
-     ]
-    }
    }
   },
   {
    "id": "Background:Prismari Student",
    "type": "Background",
    "name": "Prismari Student",
-   "desc": "You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College. Whatever your medium—sculpture, dance, paint, music, drama, architecture, or any other field—you have grand visions of bringing your art to life in a fusion of magic and creativity.\n\n**Skill Proficiencies:** Acrobatics, Performance\n**Tool Proficiencies:** One type of musical instrument or artisan's tools\n**Languages:** One of your choice\n**Equipment:** A bottle of black ink, an ink pen, a set of artisan's tools or a musical instrument (one of your choice), a school uniform, and a pouch containing 10 gp",
+   "desc": "You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College. Whatever your medium—sculpture, dance, paint, music, drama, architecture, or any other field—you have grand visions of bringing your art to life in a fusion of magic and creativity.\n\nSkill Proficiencies: Acrobatics, Performance\nTool Proficiencies: One type of musical instrument or artisan's tools\nLanguages: One of your choice\nEquipment: A bottle of black ink, an ink pen, a set of artisan's tools or a musical instrument (one of your choice), a school uniform, and a pouch containing 10 gp",
    "rules": [
     {
      "grant": "skill:Acrobatics"
@@ -75,7 +50,36 @@
      "select": {
       "name": "Tool (Prismari)",
       "type": "Tool",
-      "n": 1
+      "n": 1,
+      "ids": [
+       "Tool:Bagpipes (PHB)",
+       "Tool:Drum (PHB)",
+       "Tool:Dulcimer (PHB)",
+       "Tool:Flute (PHB)",
+       "Tool:Lute (PHB)",
+       "Tool:Lyre (PHB)",
+       "Tool:Horn (PHB)",
+       "Tool:Pan flute (PHB)",
+       "Tool:Shawm (PHB)",
+       "Tool:Viol (PHB)",
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
@@ -98,38 +102,13 @@
      "I'm beset with such an overwhelming sense of ennui regarding my art. Nothing quite captures my attention anymore.",
      "Instead of confronting my negative emotions, I channel them into explosive artistic displays."
     ]
-   },
-   "prepared": {
-    "class": "Prismari Spells",
-    "levels": {
-     "1": [
-      "Chromatic Orb",
-      "Thunderwave"
-     ],
-     "2": [
-      "Flaming Sphere",
-      "Kinetic Jaunt"
-     ],
-     "3": [
-      "Haste",
-      "Water Walk"
-     ],
-     "4": [
-      "Freedom of Movement",
-      "Wall of Fire"
-     ],
-     "5": [
-      "Cone of Cold",
-      "Conjure Elemental"
-     ]
-    }
    }
   },
   {
    "id": "Background:Quandrix Student",
    "type": "Background",
    "name": "Quandrix Student",
-   "desc": "In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns of magic. You might lean more toward mathematics or physics, or you may delve into abstract studies of metaphysics, arcana, or logic.\n\n**Skill Proficiencies:** Arcana, Nature\n**Tool Proficiencies:** One type of artisan's tools\n**Languages:** One of your choice\n**Equipment:** A bottle of black ink, an ink pen, an abacus, a book of arcane theory, a school uniform, and a pouch containing 15 gp",
+   "desc": "In preparation to become a student of Quandrix College, you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns of magic. You might lean more toward mathematics or physics, or you may delve into abstract studies of metaphysics, arcana, or logic.\n\nSkill Proficiencies: Arcana, Nature\nTool Proficiencies: One type of artisan's tools\nLanguages: One of your choice\nEquipment: A bottle of black ink, an ink pen, an abacus, a book of arcane theory, a school uniform, and a pouch containing 15 gp",
    "rules": [
     {
      "grant": "skill:Arcana"
@@ -141,7 +120,26 @@
      "select": {
       "name": "Tool (Quandrix)",
       "type": "Tool",
-      "n": 1
+      "n": 1,
+      "ids": [
+       "Tool:Alchemist’s supplies (PHB)",
+       "Tool:Brewer’s supplies (PHB)",
+       "Tool:Calligrapher’s supplies (PHB)",
+       "Tool:Carpenter’s tools (PHB)",
+       "Tool:Cartographer’s tools (PHB)",
+       "Tool:Cobbler’s tools (PHB)",
+       "Tool:Cook’s utensils (PHB)",
+       "Tool:Glassblower’s tools (PHB)",
+       "Tool:Jeweler’s tools (PHB)",
+       "Tool:Leatherworker’s tools (PHB)",
+       "Tool:Mason’s tools (PHB)",
+       "Tool:Painter’s supplies (PHB)",
+       "Tool:Potter’s tools (PHB)",
+       "Tool:Smith’s tools (PHB)",
+       "Tool:Tinker’s tools (PHB)",
+       "Tool:Weaver’s tools (PHB)",
+       "Tool:Woodcarver’s tools (PHB)"
+      ]
      }
     },
     {
@@ -164,38 +162,13 @@
      "If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?",
      "Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!"
     ]
-   },
-   "prepared": {
-    "class": "Quandrix Spells",
-    "levels": {
-     "1": [
-      "Entangle",
-      "Guiding Bolt"
-     ],
-     "2": [
-      "Enlarge/Reduce",
-      "Vortex Warp"
-     ],
-     "3": [
-      "Aura of Vitality",
-      "Haste"
-     ],
-     "4": [
-      "Control Water",
-      "Freedom of Movement"
-     ],
-     "5": [
-      "Circle of Power",
-      "Passwall"
-     ]
-    }
    }
   },
   {
    "id": "Background:Silverquill Student",
    "type": "Background",
    "name": "Silverquill Student",
-   "desc": "You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits.\n\n**Skill Proficiencies:** Intimidation, Persuasion\n**Languages:** Two of your choice\n**Equipment:** A bottle of black ink, an ink pen, a book of poetry, a school uniform, and a pouch containing 15 gp",
+   "desc": "You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits.\n\nSkill Proficiencies: Intimidation, Persuasion\nLanguages: Two of your choice\nEquipment: A bottle of black ink, an ink pen, a book of poetry, a school uniform, and a pouch containing 15 gp",
    "rules": [
     {
      "grant": "skill:Intimidation"
@@ -223,38 +196,13 @@
      "I always have a plan for seizing the situation for whichever angle is most advantageous to my goals.",
      "No one knows about all the nightmares I've pulled to keep my magic looking effortless, and I'm going to keep it that way."
     ]
-   },
-   "prepared": {
-    "class": "Silverquill Spells",
-    "levels": {
-     "1": [
-      "Dissonant Whispers",
-      "Silvery Barbs"
-     ],
-     "2": [
-      "Calm Emotions",
-      "Darkness"
-     ],
-     "3": [
-      "Beacon of Hope",
-      "Daylight"
-     ],
-     "4": [
-      "Compulsion",
-      "Confusion"
-     ],
-     "5": [
-      "Dominate Person",
-      "Rary's Telepathic Bond"
-     ]
-    }
    }
   },
   {
    "id": "Background:Witherbloom Student",
    "type": "Background",
    "name": "Witherbloom Student",
-   "desc": "You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College.\n\n**Skill Proficiencies:** Nature, Survival\n**Tool Proficiencies:** Herbalism kit\n**Languages:** One of your choice\n**Equipment:** A bottle of black ink, an ink pen, a book about plant identification, an iron pot, an herbalism kit, a school uniform, and a pouch containing 15 gp",
+   "desc": "You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College.\n\nSkill Proficiencies: Nature, Survival\nTool Proficiencies: Herbalism kit\nLanguages: One of your choice\nEquipment: A bottle of black ink, an ink pen, a book about plant identification, an iron pot, an herbalism kit, a school uniform, and a pouch containing 15 gp",
    "rules": [
     {
      "grant": "skill:Nature"
@@ -287,67 +235,62 @@
      "I know we just met, but when you die, may I have your bones? For research.",
      "Don't interrupt me; I'm brooding."
     ]
-   },
-   "prepared": {
-    "class": "Witherbloom Spells",
-    "levels": {
-     "1": [
-      "Cure Wounds",
-      "Inflict Wounds"
-     ],
-     "2": [
-      "Lesser Restoration",
-      "Wither and Bloom"
-     ],
-     "3": [
-      "Revivify",
-      "Vampiric Touch"
-     ],
-     "4": [
-      "Blight",
-      "Death Ward"
-     ],
-     "5": [
-      "Antilife Shell",
-      "Greater Restoration"
-     ]
-    }
    }
   },
   {
    "id": "Background Feature:Lorehold Initiate",
    "type": "Background Feature",
    "name": "Lorehold Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Lorehold within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Lorehold within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class.\n\nLorehold Spells\nSpell level | Spells\n1st | Comprehend Languages, Identify\n2nd | Borrowed Knowledge, Locate Object\n3rd | Speak with Dead, Spirit Guardians\n4th | Arcane Eye, Stone Shape\n5th | Flame Strike, Legend Lore",
+   "rules": [
+    {
+     "grant": "Feat:Strixhaven Initiate"
+    }
+   ]
   },
   {
    "id": "Background Feature:Prismari Initiate",
    "type": "Background Feature",
    "name": "Prismari Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Prismari within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Prismari within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class.\n\nPrismari Spells\nSpell level | Spells\n1st | Chromatic Orb, Thunderwave\n2nd | Flaming Sphere, Kinetic Jaunt\n3rd | Haste, Water Walk\n4th | Freedom of Movement, Wall of Fire\n5th | Cone of Cold, Conjure Elemental",
+   "rules": [
+    {
+     "grant": "Feat:Strixhaven Initiate"
+    }
+   ]
   },
   {
    "id": "Background Feature:Quandrix Initiate",
    "type": "Background Feature",
    "name": "Quandrix Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Quandrix within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Quandrix within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class.\n\nQuandrix Spells\nSpell level | Spells\n1st | Entangle, Guiding Bolt\n2nd | Enlarge/Reduce, Vortex Warp\n3rd | Aura of Vitality, Haste\n4th | Control Water, Freedom of Movement\n5th | Circle of Power, Passwall",
+   "rules": [
+    {
+     "grant": "Feat:Strixhaven Initiate"
+    }
+   ]
   },
   {
    "id": "Background Feature:Silverquill Initiate",
    "type": "Background Feature",
    "name": "Silverquill Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Silverquill within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class.",
-   "rules": []
+   "desc": "You gain the Strixhaven Initiate feat (presented later in this chapter) and must choose Silverquill within it. In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class.\n\nSilverquill Spells\nSpell level | Spells\n1st | Dissonant Whispers, Silvery Barbs\n2nd | Calm Emotions, Darkness\n3rd | Beacon of Hope, Daylight\n4th | Compulsion, Confusion\n5th | Dominate Person, Rary's Telepathic Bond",
+   "rules": [
+    {
+     "grant": "Feat:Strixhaven Initiate"
+    }
+   ]
   },
   {
    "id": "Background Feature:Witherbloom Initiate",
    "type": "Background Feature",
    "name": "Witherbloom Initiate",
-   "desc": "You gain the Strixhaven Initiate feat (presented later in the chapter) and must choose Witherbloom within it.\n\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)",
-   "rules": []
+   "desc": "You gain the Strixhaven Initiate feat (presented later in the chapter) and must choose Witherbloom within it.\n\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\n\nWitherbloom Spells\nSpell level | Spells\n1st | Cure Wounds, Inflict Wounds\n2nd | Lesser Restoration, Wither and Bloom\n3rd | Revivify, Vampiric Touch\n4th | Blight, Death Ward\n5th | Antilife Shell, Greater Restoration",
+   "rules": [
+    {
+     "grant": "Feat:Strixhaven Initiate"
+    }
+   ]
   }
  ]
 }

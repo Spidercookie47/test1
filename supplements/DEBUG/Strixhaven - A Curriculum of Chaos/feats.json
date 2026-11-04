@@ -4,15 +4,220 @@
    "id": "Feat:Strixhaven Initiate",
    "type": "Feat",
    "name": "Strixhaven Initiate",
-   "desc": "You have studied some magical theory and have learned a few spells associated with Strixhaven University.\n\nChoose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.\n\nYou can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.\n\nYour spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).\n\n**Strixhaven Spells**\n\n| College | Cantrips | 1st-Level Spell |\n|---|---|---|\n| Lorehold | Choose two from light, sacred flame, and thaumaturgy. | Choose one 1st-level cleric or wizard spell. |\n| Prismari | Choose two from fire bolt, prestidigitation, and ray of frost. | Choose one 1st-level bard or sorcerer spell. |\n| Quandrix | Choose two from druidcraft, guidance, and mage hand. | Choose one 1st-level druid or wizard spell. |\n| Silverquill | Choose two from sacred flame, thaumaturgy, and vicious mockery. | Choose one 1st-level bard or cleric spell. |\n| Witherbloom | Choose two from chill touch, druidcraft, and spare the dying. | Choose one 1st-level druid or wizard spell. |",
-   "rules": []
+   "desc": "You have studied some magical theory and have learned a few spells associated with Strixhaven University.\n\nChoose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.\n\nYou can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.\n\nYour spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).\n\nStrixhaven Spells\n\nCollege | Cantrips | 1st-Level Spell\nLorehold | Choose two from light, sacred flame, and thaumaturgy. | Choose one 1st-level cleric or wizard spell.\nPrismari | Choose two from fire bolt, prestidigitation, and ray of frost. | Choose one 1st-level bard or sorcerer spell.\nQuandrix | Choose two from druidcraft, guidance, and mage hand. | Choose one 1st-level druid or wizard spell.\nSilverquill | Choose two from sacred flame, thaumaturgy, and vicious mockery. | Choose one 1st-level bard or cleric spell.\nWitherbloom | Choose two from chill touch, druidcraft, and spare the dying. | Choose one 1st-level druid or wizard spell.",
+   "rules": [
+    {
+     "select": {
+      "name": "College",
+      "type": "Class Feature",
+      "n": 1,
+      "ids": [
+       "Class Feature:Lorehold (Strixhaven Initiate)",
+       "Class Feature:Prismari (Strixhaven Initiate)",
+       "Class Feature:Quandrix (Strixhaven Initiate)",
+       "Class Feature:Silverquill (Strixhaven Initiate)",
+       "Class Feature:Witherbloom (Strixhaven Initiate)"
+      ]
+     }
+    }
+   ]
   },
   {
    "id": "Feat:Strixhaven Mascot",
    "type": "Feat",
    "name": "Strixhaven Mascot",
-   "desc": "Prerequisite: 4th Level, Strixhaven Initiate Feat\n\nYou have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:\n\n- You can cast the **Find Familiar** spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a **spirit statue mascot** (Lorehold), an **elemental mascot** (Prismari), a **fractal mascot** (Quandrix), an **inkling mascot** (Silverquill), or a **pest mascot** (Witherbloom). Stat blocks for these creatures appear in chapter 7.\n- When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.\n- If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.",
+   "desc": "Prerequisite: 4th Level, Strixhaven Initiate Feat\n\nYou have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:\n\n- You can cast the Find Familiar spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a spirit statue mascot (Lorehold), an elemental mascot (Prismari), a fractal mascot (Quandrix), an inkling mascot (Silverquill), or a pest mascot (Witherbloom). Stat blocks for these creatures appear in chapter 7.\n- When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.\n- If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.",
    "rules": []
+  },
+  {
+   "id": "Class Feature:Lorehold (Strixhaven Initiate)",
+   "type": "Class Feature",
+   "name": "Lorehold (Strixhaven Initiate)",
+   "desc": "You chose Lorehold. You learn two cantrips from its list and one 1st-level spell from the Cleric or Wizard spell lists.",
+   "rules": [
+    {
+     "select": {
+      "name": "Lorehold Cantrips",
+      "type": "Spell",
+      "n": 2,
+      "ids": [
+       "Spell:Light",
+       "Spell:Sacred Flame",
+       "Spell:Thaumaturgy"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Cleric Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Cleric",
+      "lvl": 1
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Wizard Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Wizard",
+      "lvl": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Prismari (Strixhaven Initiate)",
+   "type": "Class Feature",
+   "name": "Prismari (Strixhaven Initiate)",
+   "desc": "You chose Prismari. You learn two cantrips from its list and one 1st-level spell from the Bard or Sorcerer spell lists.",
+   "rules": [
+    {
+     "select": {
+      "name": "Prismari Cantrips",
+      "type": "Spell",
+      "n": 2,
+      "ids": [
+       "Spell:Fire Bolt",
+       "Spell:Prestidigitation",
+       "Spell:Ray of Frost"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Bard Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Bard",
+      "lvl": 1
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Sorcerer Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Sorcerer",
+      "lvl": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Quandrix (Strixhaven Initiate)",
+   "type": "Class Feature",
+   "name": "Quandrix (Strixhaven Initiate)",
+   "desc": "You chose Quandrix. You learn two cantrips from its list and one 1st-level spell from the Druid or Wizard spell lists.",
+   "rules": [
+    {
+     "select": {
+      "name": "Quandrix Cantrips",
+      "type": "Spell",
+      "n": 2,
+      "ids": [
+       "Spell:Druidcraft",
+       "Spell:Guidance",
+       "Spell:Mage Hand"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Druid Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Druid",
+      "lvl": 1
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Wizard Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Wizard",
+      "lvl": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Silverquill (Strixhaven Initiate)",
+   "type": "Class Feature",
+   "name": "Silverquill (Strixhaven Initiate)",
+   "desc": "You chose Silverquill. You learn two cantrips from its list and one 1st-level spell from the Bard or Cleric spell lists.",
+   "rules": [
+    {
+     "select": {
+      "name": "Silverquill Cantrips",
+      "type": "Spell",
+      "n": 2,
+      "ids": [
+       "Spell:Sacred Flame",
+       "Spell:Thaumaturgy",
+       "Spell:Vicious Mockery"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Bard Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Bard",
+      "lvl": 1
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Cleric Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Cleric",
+      "lvl": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Witherbloom (Strixhaven Initiate)",
+   "type": "Class Feature",
+   "name": "Witherbloom (Strixhaven Initiate)",
+   "desc": "You chose Witherbloom. You learn two cantrips from its list and one 1st-level spell from the Druid or Wizard spell lists.",
+   "rules": [
+    {
+     "select": {
+      "name": "Witherbloom Cantrips",
+      "type": "Spell",
+      "n": 2,
+      "ids": [
+       "Spell:Chill Touch",
+       "Spell:Druidcraft",
+       "Spell:Spare the Dying"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Druid Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Druid",
+      "lvl": 1
+     }
+    },
+    {
+     "select": {
+      "name": "1st-Level Wizard Spell (choose one, either list)",
+      "type": "Spell",
+      "n": 1,
+      "spl": "Wizard",
+      "lvl": 1
+     }
+    }
+   ]
   }
  ]
 }
