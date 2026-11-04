@@ -1,0 +1,53 @@
+{
+ "elements": [
+  {
+   "id": "Language:Aven",
+   "type": "Language",
+   "name": "Aven",
+   "desc": "Aven is the language of the bird-like humanoids native to Amonkhet. It consists of sharp clicks, whistles, and complex vocalizations.",
+   "rules": []
+  },
+  {
+   "id": "Language:Khenra",
+   "type": "Language",
+   "name": "Khenra",
+   "desc": "Khenra is the language of the jackal-headed twins of Amonkhet. It is characterized by sharp barks, growls, and yips.",
+   "rules": []
+  },
+  {
+   "id": "Language:Merfolk",
+   "type": "Language",
+   "name": "Merfolk",
+   "desc": "Merfolk is the language of the aquatic humanoids of Ixalan and Zendikar. It sounds melodic and flowing, carrying easily through water.",
+   "rules": []
+  },
+  {
+   "id": "Language:Naga",
+   "type": "Language",
+   "name": "Naga",
+   "desc": "Naga is the language of the serpentine people of Amonkhet. It is characterized by long, sibilant hisses and complex tongue movements.",
+   "rules": []
+  },
+  {
+   "id": "Language:Siren",
+   "type": "Language",
+   "name": "Siren",
+   "desc": "Siren is the language of the bird-like merfolk of Ixalan. It is highly musical, filled with trills and soaring notes.",
+   "rules": []
+  },
+  {
+   "id": "Language:Vampire",
+   "type": "Language",
+   "name": "Vampire",
+   "desc": "The ancient language of the vampires of Ixalan and Zendikar. It is a harsh, guttural tongue used for rituals and commanding lesser creatures.",
+   "rules": []
+  },
+  {
+   "id": "Language:Kor Silent Speech",
+   "type": "Language",
+   "name": "Kor Silent Speech",
+   "desc": "The silent speech of the kor is a complex nonverbal language of hand signs and gestures that allows communication despite significant distance or howling winds.",
+   "rules": []
+  }
+ ]
+}
