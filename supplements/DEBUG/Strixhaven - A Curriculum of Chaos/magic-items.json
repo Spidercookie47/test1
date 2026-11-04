@@ -1,0 +1,108 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Bottle of Boundless Coffee",
+   "type": "Magic",
+   "name": "Bottle of Boundless Coffee",
+   "desc": "Wondrous Item, Common\n\nThis metal bottle carries delicious, warm coffee. The bottle comes with a stopper, which is attached to the bottle by a little chain. Even when open, the bottle won't accept any liquid other than the coffee it produces. The coffee inside is always comfortably warm, and none of the heat can be felt through the bottle.\n\nEach time you drink the coffee, roll a d20. On a 1, the bottle refuses to dispense coffee for the next hour. If you pour coffee from the bottle, rather than drinking from it, the coffee vanishes the moment it leaves the bottle.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 10000,
+   "price": 100,
+   "wt": 1,
+   "rar": "Common",
+   "att": false
+  },
+  {
+   "id": "Magic:Cuddly Strixhaven Mascot",
+   "type": "Magic",
+   "name": "Cuddly Strixhaven Mascot",
+   "desc": "Wondrous Item, Common\n\nRepresenting one of the mascots of Strixhaven, this soft, Tiny, magic toy is perfect for cuddling. If you press it to your arm, shoulder, or leg as an action, the toy stays attached there for 1 hour or until you use an action to remove it.\n\nThe toy also can be used to fight off fear. When you make a saving throw to avoid or end the frightened condition on yourself, you can give yourself advantage on the save if the toy is attached to you. You must decide to do so before rolling the d20. If the save succeeds, you can't use the toy in this way again until you finish a long rest.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 10000,
+   "price": 100,
+   "wt": 1,
+   "rar": "Common",
+   "att": false
+  },
+  {
+   "id": "Magic:Lorehold Primer",
+   "type": "Magic",
+   "name": "Lorehold Primer",
+   "desc": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nThe Lorehold Primer is a magic textbook created at Strixhaven's Lorehold College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (History) or an Intelligence (Religion) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.\n\nIn addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the cleric or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 30000,
+   "price": 300,
+   "wt": 3,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Prismari Primer",
+   "type": "Magic",
+   "name": "Prismari Primer",
+   "desc": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nThe Prismari Primer is a magic textbook created at Strixhaven's Prismari College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make a Dexterity (Acrobatics) or a Charisma (Performance) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.\n\nIn addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or sorcerer spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 30000,
+   "price": 300,
+   "wt": 3,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Quandrix Primer",
+   "type": "Magic",
+   "name": "Quandrix Primer",
+   "desc": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nThe Quandrix Primer is a magic textbook created at Strixhaven's Quandrix College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (Arcana) or an Intelligence (Nature) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.\n\nIn addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 30000,
+   "price": 300,
+   "wt": 3,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Silverquill Primer",
+   "type": "Magic",
+   "name": "Silverquill Primer",
+   "desc": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nThe Silverquill Primer is a magic textbook created at Strixhaven's Silverquill College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make a Charisma (Intimidation) or a Charisma (Persuasion) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.\n\nIn addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or cleric spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 30000,
+   "price": 300,
+   "wt": 3,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Strixhaven Pennant",
+   "type": "Magic",
+   "name": "Strixhaven Pennant",
+   "desc": "Wondrous Item, Common\n\nThis magic pennant bears the symbol of Strixhaven or one of its colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. While you wave the pennant, the symbol on it glitters, and the pennant sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 10000,
+   "price": 100,
+   "wt": 1,
+   "rar": "Common",
+   "att": false
+  },
+  {
+   "id": "Magic:Witherbloom Primer",
+   "type": "Magic",
+   "name": "Witherbloom Primer",
+   "desc": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nThe Witherbloom Primer is a magic textbook created at Strixhaven's Witherbloom College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (Nature) or Wisdom (Survival) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.\n\nIn addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 30000,
+   "price": 300,
+   "wt": 3,
+   "rar": "Uncommon",
+   "att": true
+  }
+ ]
+}

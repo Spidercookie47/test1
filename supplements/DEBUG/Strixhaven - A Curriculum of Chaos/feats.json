@@ -1,0 +1,18 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Strixhaven Initiate",
+   "type": "Feat",
+   "name": "Strixhaven Initiate",
+   "desc": "You have studied some magical theory and have learned a few spells associated with Strixhaven University.\n\nChoose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.\n\nYou can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.\n\nYour spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).\n\n**Strixhaven Spells**\n\n| College | Cantrips | 1st-Level Spell |\n|---|---|---|\n| Lorehold | Choose two from light, sacred flame, and thaumaturgy. | Choose one 1st-level cleric or wizard spell. |\n| Prismari | Choose two from fire bolt, prestidigitation, and ray of frost. | Choose one 1st-level bard or sorcerer spell. |\n| Quandrix | Choose two from druidcraft, guidance, and mage hand. | Choose one 1st-level druid or wizard spell. |\n| Silverquill | Choose two from sacred flame, thaumaturgy, and vicious mockery. | Choose one 1st-level bard or cleric spell. |\n| Witherbloom | Choose two from chill touch, druidcraft, and spare the dying. | Choose one 1st-level druid or wizard spell. |",
+   "rules": []
+  },
+  {
+   "id": "Feat:Strixhaven Mascot",
+   "type": "Feat",
+   "name": "Strixhaven Mascot",
+   "desc": "Prerequisite: 4th Level, Strixhaven Initiate Feat\n\nYou have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:\n\n- You can cast the **Find Familiar** spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a **spirit statue mascot** (Lorehold), an **elemental mascot** (Prismari), a **fractal mascot** (Quandrix), an **inkling mascot** (Silverquill), or a **pest mascot** (Witherbloom). Stat blocks for these creatures appear in chapter 7.\n- When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.\n- If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.",
+   "rules": []
+  }
+ ]
+}

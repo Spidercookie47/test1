@@ -1,0 +1,18 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "scc",
+  "name": "Strixhaven: A Curriculum of Chaos",
+  "short": "SCC",
+  "license": "Proprietary",
+  "credit": "Content from Strixhaven: A Curriculum of Chaos, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "feats.json",
+  "spells.json",
+  "magic-items.json"
+ ]
+}
