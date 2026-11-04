@@ -1,0 +1,45 @@
+{
+ "elements": [
+  {
+   "id": "Spell:Air Bubble",
+   "type": "Spell",
+   "name": "Air Bubble",
+   "desc": "You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid suffocation, assuming that all its heads share the same respiratory system).\n\nAt Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can create two additional globes of fresh air for each slot level above 2nd.",
+   "rules": [],
+   "lvl": 2,
+   "school": "conjuration",
+   "comp": "S",
+   "cast": "1 action",
+   "range": "60 feet",
+   "dur": "24 hours",
+   "ritual": false,
+   "lists": [
+    "Artificer",
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": ""
+  },
+  {
+   "id": "Spell:Create Spelljamming Helm",
+   "type": "Spell",
+   "name": "Create Spelljamming Helm",
+   "desc": "Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm (see \"Magic Items\" below).",
+   "rules": [],
+   "lvl": 5,
+   "school": "transmutation",
+   "comp": "V,S,M",
+   "cast": "1 action",
+   "range": "Touch",
+   "dur": "Instantaneous",
+   "ritual": false,
+   "lists": [
+    "Artificer",
+    "Wizard"
+   ],
+   "mat": "A crystal rod worth at least 5,000 gp, which the spell consumes"
+  }
+ ]
+}

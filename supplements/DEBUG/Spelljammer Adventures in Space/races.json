@@ -1,0 +1,354 @@
+{
+ "elements": [
+  {
+   "id": "Sub Race:Astral Elf",
+   "type": "Sub Race",
+   "name": "Astral Elf",
+   "desc": "Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.\n\nBecause nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell on the Astral Plane can live to be more than 750 years old.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet.\n**Astral Fire.** You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).\n**Darkvision.** You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+   "supports": "Race:Elf",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Keen Senses"
+    },
+    {
+     "grant": "Racial Trait:Starlight Step"
+    },
+    {
+     "grant": "Racial Trait:Astral Trance"
+    }
+   ]
+  },
+  {
+   "id": "Race:Autognome",
+   "type": "Race",
+   "name": "Autognome",
+   "desc": "Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or an unusual circumstance, an autognome becomes separated from its creator and strikes out on its own.\n\nAn autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by starlight or intricate clockwork gears.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Construct.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.\n**Armored Casing.** You are encased in thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier.\n**Mechanical Nature.** You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Gnomish"
+    },
+    {
+     "grant": "Racial Trait:Built for Success"
+    },
+    {
+     "grant": "Racial Trait:Healing Machine"
+    },
+    {
+     "grant": "Racial Trait:Sentry's Rest"
+    },
+    {
+     "grant": "Racial Trait:Specialized Design"
+    }
+   ]
+  },
+  {
+   "id": "Race:Giff",
+   "type": "Race",
+   "name": "Giff",
+   "desc": "Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go.\n\nMost giff believe they originated on one world, but their home world is now the stuff of legend, because no living giff has seen it or knows where it is. The divine beings who created giff have likewise been forgotten. Their titanic petrified bodies drift on the Astral Sea, isolated and unrecognizable in their current form.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium.\n**Speed.** Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Astral Spark"
+    },
+    {
+     "grant": "Racial Trait:Firearms Mastery"
+    },
+    {
+     "grant": "Racial Trait:Hippo Build"
+    }
+   ]
+  },
+  {
+   "id": "Race:Hadozee",
+   "type": "Race",
+   "name": "Hadozee",
+   "desc": "The first hadozees were timid mammals no bigger than housecats. Hunted by larger natural predators, the hadozees took to the trees and evolved wing-like flaps that enabled them to glide from branch to branch.\n\nSeveral hundred years ago, a wizard visited Yazir, the hadozee home world, with a small fleet of spelljamming ships. Under the wizard's direction, apprentices laid magic traps and captured dozens of hadozees. The wizard felt the experiments a spectacular success: the altered creatures emerged as intelligent, bipedal beings. The elixir had the side effect of intensifying the hadozees' panic response, making them more resilient when harmed. And when it was discovered that enhanced hadozees were excellent warriors and workers, the wizard's apprentices grew fond of the hadozees and helped them escape.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Dexterous Feet"
+    },
+    {
+     "grant": "Racial Trait:Glide"
+    },
+    {
+     "grant": "Racial Trait:Hadozee Resilience"
+    }
+   ]
+  },
+  {
+   "id": "Race:Plasmoid",
+   "type": "Race",
+   "name": "Plasmoid",
+   "desc": "Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are flexible enough to grasp and manipulate weapons and tools.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are an Ooze.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.\n**Hold Breath.** You can hold your breath for 1 hour.\n**Natural Resilience.** You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Amorphous"
+    },
+    {
+     "grant": "Racial Trait:Shape Self"
+    }
+   ]
+  },
+  {
+   "id": "Race:Thri-kreen",
+   "type": "Race",
+   "name": "Thri-kreen",
+   "desc": "Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings.\n\nAlthough thri-kreen don't sleep, they do require periods of inactivity to revitalize themselves. During these periods, they are fully aware of what's happening around them.\n\nThri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy.\n\n**Ability Score Increase.** Increase one score by 2 and a different score by 1, or increase three different scores by 1. You can't raise any score above 20.\n**Creature Type.** You are a Monstrosity.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.\n**Darkvision.** You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Chameleon Carapace"
+    },
+    {
+     "grant": "Racial Trait:Secondary Arms"
+    },
+    {
+     "grant": "Racial Trait:Sleepless"
+    },
+    {
+     "grant": "Racial Trait:Thri-kreen Telepathy"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Fey Ancestry",
+   "type": "Racial Trait",
+   "name": "Fey Ancestry",
+   "desc": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Keen Senses",
+   "type": "Racial Trait",
+   "name": "Keen Senses",
+   "desc": "You have proficiency in the Perception skill.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Starlight Step",
+   "type": "Racial Trait",
+   "name": "Starlight Step",
+   "desc": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Astral Trance",
+   "type": "Racial Trait",
+   "name": "Astral Trance",
+   "desc": "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.\n\nWhenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.",
+   "rules": [
+    {
+     "select": {
+      "name": "Astral Trance Skill",
+      "type": "Skill",
+      "n": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Built for Success",
+   "type": "Racial Trait",
+   "name": "Built for Success",
+   "desc": "You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "built-for-success",
+      "name": "Built for Success",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Healing Machine",
+   "type": "Racial Trait",
+   "name": "Healing Machine",
+   "desc": "If the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).\n\nIn addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sentry's Rest",
+   "type": "Racial Trait",
+   "name": "Sentry's Rest",
+   "desc": "When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Specialized Design",
+   "type": "Racial Trait",
+   "name": "Specialized Design",
+   "desc": "You gain two tool proficiencies of your choice, selected from the Player's Handbook.",
+   "rules": [
+    {
+     "select": {
+      "name": "Tool Proficiency (Autognome)",
+      "type": "Tool",
+      "n": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Astral Spark",
+   "type": "Racial Trait",
+   "name": "Astral Spark",
+   "desc": "Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.\n\nYou can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "astral-spark",
+      "name": "Astral Spark",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Firearms Mastery",
+   "type": "Racial Trait",
+   "name": "Firearms Mastery",
+   "desc": "You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hippo Build",
+   "type": "Racial Trait",
+   "name": "Hippo Build",
+   "desc": "You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Dexterous Feet",
+   "type": "Racial Trait",
+   "name": "Dexterous Feet",
+   "desc": "As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Glide",
+   "type": "Racial Trait",
+   "name": "Glide",
+   "desc": "When you aren't incapacitated or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers:\n- You can move up to 5 feet horizontally for every 1 foot you descend in the air, at no movement cost to you.\n- When you would take damage from a fall, you can use your reaction to reduce the fall's damage to 0.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hadozee Resilience",
+   "type": "Racial Trait",
+   "name": "Hadozee Resilience",
+   "desc": "The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a d6. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).\n\nYou can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "hadozee-resilience",
+      "name": "Hadozee Resilience",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Amorphous",
+   "type": "Racial Trait",
+   "name": "Amorphous",
+   "desc": "You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You have advantage on ability checks you make to initiate or escape a grapple.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shape Self",
+   "type": "Racial Trait",
+   "name": "Shape Self",
+   "desc": "As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size.\n\nAs a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Chameleon Carapace",
+   "type": "Racial Trait",
+   "name": "Chameleon Carapace",
+   "desc": "While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.\n\nAs an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Secondary Arms",
+   "type": "Racial Trait",
+   "name": "Secondary Arms",
+   "desc": "You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sleepless",
+   "type": "Racial Trait",
+   "name": "Sleepless",
+   "desc": "You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Thri-kreen Telepathy",
+   "type": "Racial Trait",
+   "name": "Thri-kreen Telepathy",
+   "desc": "Without the assistance of magic, you can't speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures you can see within 120 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).",
+   "rules": []
+  }
+ ]
+}

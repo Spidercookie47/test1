@@ -1,0 +1,17 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "sais",
+  "name": "Spelljammer: Adventures in Space",
+  "short": "SAiS",
+  "license": "Proprietary",
+  "credit": "Content from Spelljammer: Adventures in Space, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "spells.json",
+  "magic-items.json"
+ ]
+}
