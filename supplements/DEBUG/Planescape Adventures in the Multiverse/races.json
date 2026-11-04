@@ -157,10 +157,10 @@
    ]
   },
   {
-   "id": "Race:Merfolk (Ixalan)",
+   "id": "Race:Merfolk",
    "type": "Race",
-   "name": "Merfolk (Ixalan)",
-   "desc": "The River Heralds are merfolk—a race of amphibious humanoids at home throughout the oceans, rivers, and rain forests of Ixalan. They stand between seven and eight feet tall, with skin that ranges from deep burgundy through many shades of violet and blue, to green, bright orange, and yellow. They are humanlike in shape, but have long fins extending from their shoulders, forearms, middle backs, and calves. Frills of fins also protrude from the backs of their heads. All merfolk can breathe air or filter oxygen from the water, and they can walk on land or swim with equal ease.\n\n**Ability Score Increase.** Your Charisma score increases by 1.\n**Age.** Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n**Size.** Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.\n**Amphibious.** You can breathe air and water.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign), Merfolk and one additional language of your choice.",
+   "name": "Merfolk",
+   "desc": "Merfolk are amphibious humanoids at home throughout the oceans, rivers, and rain forests of the multiverse. They are humanlike in shape, but have long fins extending from their shoulders, forearms, middle backs, and calves. Frills of fins also protrude from the backs of their heads. All merfolk can breathe air or filter oxygen from the water, and they can walk on land or swim with equal ease.\n\n**Ability Score Increase.** Your Charisma score increases by 1.\n**Age.** Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n**Size.** Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.\n**Amphibious.** You can breathe air and water.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign), Merfolk and one additional language of your choice.",
    "rules": [
     {
      "stat": {
@@ -185,7 +185,7 @@
      "select": {
       "name": "Subrace",
       "type": "Sub Race",
-      "supports": "Race:Merfolk (Ixalan)"
+      "supports": "Race:Merfolk"
      }
     }
    ]
@@ -195,7 +195,7 @@
    "type": "Sub Race",
    "name": "Green Merfolk",
    "desc": "Green merfolk generally have yellow chests and pale green faces, shading to dark blues and purples on their backs and limbs. The patterns on their skin suggest the colors of the tree frogs common in the rain forest, as do their eyes of orange, lime green, or sky blue. Their fins are relatively short and thick. They climb trees with ease, move through undergrowth unhindered, and often wield magic to shape vines and branches to their will.\n\n**Ability Score Increase.** Your Wisdom score increases by 2.\n**Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.\n**Cantrip.** You know one cantrip of your choice from the Druid spell list. Wisdom is your spellcasting ability for it.",
-   "supports": "Race:Merfolk (Ixalan)",
+   "supports": "Race:Merfolk",
    "rules": [
     {
      "stat": {
@@ -209,7 +209,7 @@
    "type": "Sub Race",
    "name": "Blue Merfolk",
    "desc": "Blue merfolk often have burgundy or magenta on their faces and chests, with lighter shades of blue and purple elsewhere. Their eyes are red, orange, or blue, and their long, thin, and elegant fins resemble veils of fine fabric. They swim easily, even upstream, and clamber over rocks and through rapids with ease. They prefer to dwell in shallow waters, but spend a fair amount of time on land as well.\n\n**Ability Score Increase.** Your Intelligence score increases by 2.\n**Lore of the Waters.** You gain proficiency in History and Nature.\n**Cantrip.** You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
-   "supports": "Race:Merfolk (Ixalan)",
+   "supports": "Race:Merfolk",
    "rules": [
     {
      "stat": {
@@ -225,45 +225,11 @@
    ]
   },
   {
-   "id": "Race:Merfolk (Zendikar)",
-   "type": "Race",
-   "name": "Merfolk (Zendikar)",
-   "desc": "Curious, thoughtful, and analytical, the merfolk of Zendikar are natural scholars and explorers. In the past, merfolk society was organized around their belief in three deities. In the wake of the reappearance of the Eldrazi, the merfolk have realized that their faith was a web of lies, built on a corrupted memory of the Eldrazi titans handed down from generation to generation.\n\nMerfolk are associated with knowledge, logic, and strategy, though the traditional merfolk creeds express this connection in different ways.\n\n**Ability Score Increase.** Your Charisma score increases by 1.\n**Age.** Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n**Size.** Merfolk are about the same size and build as humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.\n**Amphibious.** You can breathe air and water.\n**Languages.** You can speak, read, and write Common, Merfolk and one additional language of your choice.",
-   "rules": [
-    {
-     "stat": {
-      "cha": 1,
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Language:Merfolk"
-    },
-    {
-     "select": {
-      "name": "Language (Merfolk Zendikar)",
-      "type": "Language",
-      "n": 1
-     }
-    },
-    {
-     "select": {
-      "name": "Subrace",
-      "type": "Sub Race",
-      "supports": "Race:Merfolk (Zendikar)"
-     }
-    }
-   ]
-  },
-  {
    "id": "Sub Race:Emeria (Wind) Creed",
    "type": "Sub Race",
    "name": "Emeria (Wind) Creed",
    "desc": "Merfolk who followed Emeria's creed seek wisdom and truth in the Wind Realm, exploring the mystical forces—rather than natural causes—behind historical events. They are evasive and intentionally enigmatic in their interactions with others, and are often described as manipulative and deceptive.\n\n**Ability Score Increase.** Your Wisdom score increases by 2.\n**Wind Creed Manipulation.** You have proficiency in the Deception and Persuasion skills.\n**Cantrip.** You know one cantrip of your choice from the Druid spell list. Wisdom is your spellcasting ability for it.",
-   "supports": "Race:Merfolk (Zendikar)",
+   "supports": "Race:Merfolk",
    "rules": [
     {
      "stat": {
@@ -283,7 +249,7 @@
    "type": "Sub Race",
    "name": "Ula (Water) Creed",
    "desc": "Ula-creed merfolk emphasize intellectual pursuits, stressing hard evidence and reason over passion. They are analytical scholars, chroniclers, explorers, and navigators who pride themselves on being blunt and straightforward.\n\n**Ability Score Increase.** Your Intelligence score increases by 2.\n**Water Creed Navigation.** You have proficiency with navigator's tools and in the Survival skill.\n**Cantrip.** You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
-   "supports": "Race:Merfolk (Zendikar)",
+   "supports": "Race:Merfolk",
    "rules": [
     {
      "stat": {
@@ -305,7 +271,7 @@
    "type": "Sub Race",
    "name": "Cosi Creed",
    "desc": "No merfolk will openly admit to following the creed of the trickster, but those who do view Cosi as an ally who can grant them control over the chaotic forces of the world.\n\n**Ability Score Increase.** Your Charisma score increases by an additional 1 (for a total of 2), and your Intelligence score increases by 1.\n**Creed of the Trickster.** You have proficiency in the Sleight of Hand and Stealth skills.\n**Cantrip.** You know one cantrip of your choice from the Bard spell list. Charisma is your spellcasting ability for it.",
-   "supports": "Race:Merfolk (Zendikar)",
+   "supports": "Race:Merfolk",
    "rules": [
     {
      "stat": {
@@ -322,10 +288,10 @@
    ]
   },
   {
-   "id": "Race:Vampire (Ixalan)",
+   "id": "Race:Vampire",
    "type": "Race",
-   "name": "Vampire (Ixalan)",
-   "desc": "Vampires are associated with necromancy. Their existence is predicated on draining the life from others to fuel their own existence, and on putting their own lives ahead of all other concerns. Philosophically, they do not constrain themselves with artificial rules of morality, but believe that the strong can and should take what they need from the weak.\n\n**Ability Score Increase.** Your Charisma score increases by 2, and your Intelligence score increases by 1.\n**Age.** Vampires don't mature and age in the same way that other races do.\n**Size.** Vampires are about the same size and build as humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet.\n**Darkvision.** Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n**Vampiric Resistance.** You have resistance to necrotic damage.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign) and Vampire.",
+   "name": "Vampire",
+   "desc": "Vampires are associated with necromancy. Their existence is predicated on draining the life from others to fuel their own existence, and on putting their own lives ahead of all other concerns. Philosophically, they do not constrain themselves with artificial rules of morality, but believe that the strong can and should take what they need from the weak.\n\nVampires are about the same size and build as humans. Your size is Medium.\n\n**Ability Score Increase.** Your Charisma score increases by 2, and your Intelligence score increases by 1.\n**Age.** Vampires don't mature and age in the same way that other races do.\n**Speed.** Your base walking speed is 30 feet.\n**Darkvision.** Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n**Vampiric Resistance.** You have resistance to necrotic damage.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign) and Vampire.",
    "rules": [
     {
      "stat": {
@@ -340,6 +306,22 @@
     {
      "grant": "Language:Vampire"
     },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Vampire"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Vampire (Ixalan)",
+   "type": "Sub Race",
+   "name": "Vampire (Ixalan)",
+   "desc": "The vampires of Ixalan are associated with the Legion of Dusk. They are conquistadors and zealots who believe their curse is a gift from the sun god, allowing them to conquer new lands in his name.",
+   "supports": "Race:Vampire",
+   "rules": [
     {
      "grant": "Racial Trait:Bloodthirst (Ixalan)"
     },
@@ -349,28 +331,12 @@
    ]
   },
   {
-   "id": "Race:Vampire (Zendikar)",
-   "type": "Race",
+   "id": "Sub Race:Vampire (Zendikar)",
+   "type": "Sub Race",
    "name": "Vampire (Zendikar)",
-   "desc": "Vampires are associated with necromancy. Their existence is predicated on draining the life from others to fuel their own existence, and on putting their own lives ahead of all other concerns. Philosophically, they do not constrain themselves with artificial rules of morality, but believe that the strong can and should take what they need from the weak.\n\n**Ability Score Increase.** Your Intelligence score increases by 1, and your Charisma score increases by 2.\n**Age.** Vampires don't mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by the Eldrazi's influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.\n**Size.** Vampires are about the same size and build as humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet.\n**Darkvision.** Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n**Vampiric Resistance.** You have resistance to necrotic damage.\n**Languages.** You can speak, read, and write Common and Vampire.",
-   "rules": [
-    {
-     "stat": {
-      "cha": 2,
-      "int": 1,
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Language:Vampire"
-    },
-    {
-     "grant": "Racial Trait:Bloodthirst (Zendikar)"
-    }
-   ]
+   "desc": "The vampires of Zendikar are the result of the Eldrazi's corrupting influence. They are organized into bloodchiefs, ancient vampires who rule over the lesser spawn.\n\n**Bloodthirst (Zendikar).** You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target, using either Strength or Dexterity for your attack roll. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid killed in this way becomes a null.",
+   "supports": "Race:Vampire",
+   "rules": []
   },
   {
    "id": "Race:Khenra",
@@ -447,13 +413,6 @@
    "type": "Racial Trait",
    "name": "Bloodthirst (Ixalan)",
    "desc": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Bloodthirst (Zendikar)",
-   "type": "Racial Trait",
-   "name": "Bloodthirst (Zendikar)",
-   "desc": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target, using either Strength or Dexterity for your attack roll. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid killed in this way becomes a null.",
    "rules": []
   },
   {
