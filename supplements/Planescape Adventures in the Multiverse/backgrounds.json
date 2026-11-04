@@ -1,0 +1,118 @@
+{
+ "elements": [
+  {
+   "id": "Background:Gate Warden",
+   "type": "Background",
+   "name": "Gate Warden",
+   "desc": "Prerequisite: Planescape Campaign. You spent a significant amount of time somewhere influenced by intense planar forces or a portal to another plane of existence, such as one of the gate-towns in the Outlands. You're accustomed to experiences that would leave others reeling in terror or enthralled by otherworldly beauty, and you're as comfortable dealing with Celestials and Fiends as you are with vendors in town (who might be one and the same).\n\nSkill Proficiencies: Persuasion, Survival\nLanguages: Two of your choice (Abyssal, Celestial, Infernal recommended)\nEquipment: A ring of keys to unknown locks, a blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, and a pouch containing 10 gp\n\nGate Warden Trinkets. When you make your character, you may roll once on the Gate Warden Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.\n\n1: A tiny vial pendant, filled with a drip of honey that glows faintly\n2: A small lead ingot with a strange thumbprint pressed into it that whispers when held tightly\n3: Two lodestone spheres that chime when they attract each other\n4: A smoldering pebble of coal that, while always hot, doesn't burn skin, fur, scales, or clothing\n5: A feather that sheds dim light in a 5-foot radius.\n6: A ring made from a chain link that, once donned, won't come off without pulling painfully hard",
+   "rules": [
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Language (Gate Warden)",
+      "type": "Language",
+      "n": 2
+     }
+    },
+    {
+     "grant": "Background Feature:Planar Infusion"
+    }
+   ],
+   "chars": {
+    "traits": [
+     "Strange events and otherworldly creatures don't faze me.",
+     "I think in terms of exchange, something for something, nothing for nothing.",
+     "I speak with an unusual cadence.",
+     "I pepper my speech with borrowed words or curses from planar languages.",
+     "I've seen enough to know that you can't take anyone at face value, so I scrutinize everyone.",
+     "I have a superstitious habit I picked up, such as touching iron when I'm nervous or arranging objects in a specific order."
+    ]
+   }
+  },
+  {
+   "id": "Background:Planar Philosopher",
+   "type": "Background",
+   "name": "Planar Philosopher",
+   "desc": "Prerequisite: Planescape Campaign. You subscribe to a philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse. You draw strength from your conviction and, perhaps, a network of like-minded thinkers, such as the factions of Sigil. In your travels, you explore the depths of your understanding and spread your philosophy wherever you go.\n\nSkill Proficiencies: Arcana, the skill associated with your faction (see the Sigil Faction Affinities table) or one skill of your choice.\nLanguages: Two of your choice\nEquipment: A portal key (such as a bag of golden tea leaves or the tooth of a planar beast), a manifesto of your guiding philosophy, a set of common clothes in your faction's style, and a pouch containing 10 gp worth of coins from different worlds and planes.\n\nSigil Faction Affinities\nAthar: Religion\nBleak Cabal: Insight\nDoomguard: Nature\nFated: Intimidation\nFraternity of Order: History\nHands of Havoc: Stealth\nHarmonium: Perception\nHeralds of Dust: Medicine\nMercykillers: Survival\nMind's Eye: Persuasion\nSociety of Sensation: Performance\nTranscendent Order: Athletics\n\nPlanar Philosopher Trinkets. When you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.\n\n1: A locket with a picture of my mentor and an inscription I can't read\n2: A bleached cranium rat skull with colored glass beads in its eye sockets.\n3: A torn parchment with half a rebus puzzle painted on it\n4: A bracelet of twisted razorvine stems\n5: Fragments of a bronze blade covered in verdigris\n6: A broken holy symbol of a forgotten god",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "select": {
+      "name": "Faction Skill",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language (Planar Philosopher)",
+      "type": "Language",
+      "n": 2
+     }
+    },
+    {
+     "grant": "Background Feature:Conviction"
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I don't venerate any gods. With time, we can be as powerful as them or greater.",
+     "Experience is everything; live in the moment.",
+     "When things crumble, I find meaning in the dust.",
+     "Life thrives through order, and I seek to maintain that order.",
+     "When others make plans, the multiverse laughs and so do I.",
+     "I know what's right, and no one will stand in my way."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Planar Infusion",
+   "type": "Background Feature",
+   "name": "Planar Infusion",
+   "desc": "Living in a gate-town or similar location steeped you in planar energy. You gain the Scion of the Outer Planes feat. In addition, you know where to find free, modest lodging and food in the community you grew up in.",
+   "rules": [
+    {
+     "grant": "Feat:Scion of the Outer Planes"
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Conviction",
+   "type": "Background Feature",
+   "name": "Conviction",
+   "desc": "You gain the Scion of the Outer Planes feat. In addition, members of your organization provide you free, modest lodging and food at any of their holdings or the homes of other faction members.",
+   "rules": [
+    {
+     "grant": "Feat:Scion of the Outer Planes"
+    }
+   ]
+  }
+ ]
+}

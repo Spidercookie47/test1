@@ -13,7 +13,8 @@
    "rar": "Rare",
    "att": true,
    "effect": {
-    "att": 1
+    "att": true,
+    "wpn": 1
    }
   },
   {
@@ -111,7 +112,7 @@
    "id": "Magic:Mind Crystal (Twinned)",
    "type": "Magic",
    "name": "Mind Crystal (Twinned)",
-   "desc": "Wondrous item, rare\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that targets only one creature and doesn't have a range of self, you can expend the crystal's magic to target a second creature in range with the same spell (1 crystal if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. \n\nOnce used, the crystal is destroyed.",
+   "desc": "Wondrous item, rare\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that targets only one creature and doesn't have a range of self, you can expend the crystal's magic to target a second creature in range with the same spell (1 crystal if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level.\n\nOnce used, the crystal is destroyed.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,

@@ -1,0 +1,27 @@
+{
+ "elements": [
+  {
+   "id": "Psionic Discipline:Adaptive Body (UA)",
+   "type": "Psionic Discipline",
+   "name": "Adaptive Body (UA)",
+   "desc": "Psionic Discipline.\n\n**Psychic Focus.** While focused on this discipline, you have advantage on saving throws against poison and disease.\n\n**Adaptive Body (2 psi).** [effect at 2 psi]\n\n**Adaptive Body (4 psi).** [effect at 4 psi]\n\n**Adaptive Body (6 psi).** [effect at 6 psi]\n\n**Engine note:** psi points are not tracked per-discipline by the engine. Spend from your Psi Points resource on the sheet.",
+   "cls": "Immortal",
+   "rules": []
+  },
+  {
+   "id": "Psionic Discipline:Mind Meld (UA)",
+   "type": "Psionic Discipline",
+   "name": "Mind Meld (UA)",
+   "desc": "Psionic Discipline.\n\n**Psychic Focus.** While focused on this discipline, you have advantage on Charisma checks against creatures you can telepathically communicate with.\n\n**Mind Meld (2 psi).** [effect]\n\n**Mind Meld (4 psi).** [effect]\n\n**Engine note:** psi points are not tracked per-discipline by the engine.",
+   "cls": "Awakened",
+   "rules": []
+  },
+  {
+   "id": "Psionic Talent:Mind Thrust (UA)",
+   "type": "Psionic Talent",
+   "name": "Mind Thrust (UA)",
+   "desc": "Psionic Talent.\n\nAs an action, you can target one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes 1d8 psychic damage. On a successful save, it takes half as much damage. This damage increases by 1d8 when you reach 5th, 11th, and 17th level in this class.\n\n**Engine note:** talents cost 0 psi points and are at-will.",
+   "rules": []
+  }
+ ]
+}

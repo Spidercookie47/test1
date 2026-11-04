@@ -1,0 +1,19 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "psaitm",
+  "name": "Planescape: Adventures in the Multiverse (with Plane Shift races)",
+  "short": "PSAitM",
+  "license": "Proprietary",
+  "credit": "Content from Planescape: Adventures in the Multiverse and from the Plane Shift series (Kaladesh, Zendikar, Ixalan, Amonkhet), © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "languages.json",
+  "backgrounds.json",
+  "feats.json",
+  "spells.json",
+  "magic-items.json"
+ ]
+}
