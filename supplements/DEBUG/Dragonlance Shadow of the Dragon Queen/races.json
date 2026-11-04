@@ -4,7 +4,7 @@
    "id": "Race:Kender",
    "type": "Race",
    "name": "Kender",
-   "desc": "Kender are a race of diminutive, pointed-eared humanoids known for their insatiable curiosity and supernatural fearlessness. They are native to the world of Krynn.\n\n**Ability Score Increase.** Choose one of: (a) Choose any +2; choose any other +1 (b) Choose three different +1.\n**Creature Type.** You are a Humanoid.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.\n**Kender Curiosity.** Thanks to the mystical origin of your people, you gain proficiency in one of the following skills of your choice: Insight, Investigation, Sleight of Hand, Stealth, or Survival.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.",
+   "desc": "Kender are a race of diminutive, pointed-eared humanoids known for their insatiable curiosity and supernatural fearlessness. They are native to the world of Krynn.\n\nAbility Score Increase. Choose one of: (a) Choose any +2; choose any other +1 (b) Choose three different +1.\nCreature Type. You are a Humanoid.\nSize. You are Small.\nSpeed. Your walking speed is 30 feet.\nKender Curiosity. Thanks to the mystical origin of your people, you gain proficiency in one of the following skills of your choice: Insight, Investigation, Sleight of Hand, Stealth, or Survival.\nLanguages. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.",
    "rules": [
     {
      "stat": {

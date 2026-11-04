@@ -4,7 +4,7 @@
    "id": "Background:Knight of Solamnia",
    "type": "Background",
    "name": "Knight of Solamnia",
-   "desc": "Prerequisite: Dragonlance Campaign\n\n**Skill Proficiencies:** Athletics, Survival\n**Languages:** Two of your choice\n**Equipment:** An insignia of rank, a deck of cards, a set of common clothes, and a pouch containing 10 gp\n\n**Knight of Solamnia Trinkets.** When you make your character, roll once on the Knight of Solamnia Trinkets table instead of on the Trinkets table in the Player's Handbook for your starting trinket.\n\n| d6 | Trinket |\n|---|---|\n| 1 | A flat silver disk you record your heroics upon |\n| 2 | A piece of a fallen knight's armor |\n| 3 | A pendant featuring a crown, a rose, or a sword |\n| 4 | The pommel of your mentor's sword |\n| 5 | A meaningful favor from someone you defended—perhaps a handkerchief or glove |\n| 6 | A locket with a sketch of a silver dragon inside |",
+   "desc": "Prerequisite: Dragonlance Campaign\n\nSkill Proficiencies: Athletics, Survival\nLanguages: Two of your choice\nEquipment: An insignia of rank, a deck of cards, a set of common clothes, and a pouch containing 10 gp\n\nKnight of Solamnia Trinkets. When you make your character, roll once on the Knight of Solamnia Trinkets table instead of on the Trinkets table in the Player's Handbook for your starting trinket.\n\nd6 | Trinket\n1 | A flat silver disk you record your heroics upon\n2 | A piece of a fallen knight's armor\n3 | A pendant featuring a crown, a rose, or a sword\n4 | The pommel of your mentor's sword\n5 | A meaningful favor from someone you defended—perhaps a handkerchief or glove\n6 | A locket with a sketch of a silver dragon inside",
    "rules": [
     {
      "grant": "skill:Athletics"
@@ -28,7 +28,7 @@
    "id": "Background:Mage of High Sorcery",
    "type": "Background",
    "name": "Mage of High Sorcery",
-   "desc": "Prerequisite: Dragonlance Campaign\n\n**Skill Proficiencies:** Arcana, History\n**Languages:** Two of your choice\n**Equipment:** A bottle of colored ink, an ink pen, a set of common clothes, and a pouch containing 10 gp\n\n**Mage of High Sorcery Trinkets.** When you make your character, roll once on the Mage of High Sorcery Trinkets table instead of on the Trinkets table in the Player's Handbook for your starting trinket.\n\n| d6 | Trinket |\n|---|---|\n| 1 | An unopened letter from your first teacher |\n| 2 | A broken wand made of black, red, or white wood |\n| 3 | A scroll bearing an incomprehensible formula |\n| 4 | A purposeless device covered in colored stones that can fold into various enigmatic shapes |\n| 5 | A pouch or spellbook emblazoned with the triple moon symbol of the Mages of High Sorcery |\n| 6 | A lens through which you can see Krynn's invisible black moon, Nuitari |",
+   "desc": "Prerequisite: Dragonlance Campaign\n\nSkill Proficiencies: Arcana, History\nLanguages: Two of your choice\nEquipment: A bottle of colored ink, an ink pen, a set of common clothes, and a pouch containing 10 gp\n\nMage of High Sorcery Trinkets. When you make your character, roll once on the Mage of High Sorcery Trinkets table instead of on the Trinkets table in the Player's Handbook for your starting trinket.\n\nd6 | Trinket\n1 | An unopened letter from your first teacher\n2 | A broken wand made of black, red, or white wood\n3 | A scroll bearing an incomprehensible formula\n4 | A purposeless device covered in colored stones that can fold into various enigmatic shapes\n5 | A pouch or spellbook emblazoned with the triple moon symbol of the Mages of High Sorcery\n6 | A lens through which you can see Krynn's invisible black moon, Nuitari",
    "rules": [
     {
      "grant": "skill:Arcana"
@@ -53,14 +53,22 @@
    "type": "Background Feature",
    "name": "Squire of Solamnia",
    "desc": "You gain the Squire of Solamnia feat.\n\nIn addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments.",
-   "rules": []
+   "rules": [
+    {
+     "grant": "Feat:Squire of Solamnia"
+    }
+   ]
   },
   {
    "id": "Background Feature:Initiate of High Sorcery",
    "type": "Background Feature",
    "name": "Initiate of High Sorcery",
    "desc": "You gain the Initiate of High Sorcery feat.\n\nIn addition, the Mages of High Sorcery provide you with free, modest lodging and food indefinitely at any occupied Tower of High Sorcery and for one night at the home of an organization member.",
-   "rules": []
+   "rules": [
+    {
+     "grant": "Feat:Initiate of High Sorcery"
+    }
+   ]
   }
  ]
 }

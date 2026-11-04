@@ -1,6 +1,84 @@
 {
  "elements": [
   {
+   "id": "Ability Score Improvement:Charisma",
+   "type": "Ability Score Improvement",
+   "name": "Charisma",
+   "desc": "Increase your Charisma score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Score Improvement:Wisdom",
+   "type": "Ability Score Improvement",
+   "name": "Wisdom",
+   "desc": "Increase your Wisdom score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Score Improvement:Intelligence",
+   "type": "Ability Score Improvement",
+   "name": "Intelligence",
+   "desc": "Increase your Intelligence score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Score Improvement:Constitution",
+   "type": "Ability Score Improvement",
+   "name": "Constitution",
+   "desc": "Increase your Constitution score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Score Improvement:Dexterity",
+   "type": "Ability Score Improvement",
+   "name": "Dexterity",
+   "desc": "Increase your Dexterity score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Score Improvement:Strength",
+   "type": "Ability Score Improvement",
+   "name": "Strength",
+   "desc": "Increase your Strength score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
    "id": "Feat:Strike of the Giants",
    "type": "Feat",
    "name": "Strike of the Giants",

@@ -4,7 +4,7 @@
    "id": "Magic:Alchemy Jug (Blue)",
    "type": "Magic",
    "name": "Alchemy Jug (Blue)",
-   "desc": "Wondrous item, uncommon\n\n(This jug functions as an Alchemy Jug, except that it neither produces acid or poison. It can produce 1 quart of boiling hot tea instead.)\n\nThis ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.\n\nYou can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.\n\nOnce the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.\n\n**Liquid** | **Max Amount**\n---|---\nBoiling Hot Tea | 1 quart\nBeer | 4 gallons\nHoney | 1 gallon\nMayonnaise | 2 gallons\nOil | 1 quart\nVinegar | 2 gallons\nWater, fresh | 8 gallons\nWater, salt | 12 gallons\nWine | 1 gallon",
+   "desc": "Wondrous item, uncommon\n\n(This jug functions as an Alchemy Jug, except that it neither produces acid or poison. It can produce 1 quart of boiling hot tea instead.)\n\nThis ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.\n\nYou can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.\n\nOnce the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.\n\nLiquid | Max Amount\nBoiling Hot Tea | 1 quart\nBeer | 4 gallons\nHoney | 1 gallon\nMayonnaise | 2 gallons\nOil | 1 quart\nVinegar | 2 gallons\nWater, fresh | 8 gallons\nWater, salt | 12 gallons\nWine | 1 gallon",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
@@ -88,7 +88,7 @@
    "id": "Magic:Staff of Fate",
    "type": "Magic",
    "name": "Staff of Fate",
-   "desc": "Staff (quarterstaff), very rare (requires attunement)\n\nThis transparent crystal staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.\n\n**Altered Outcome.** The staff has 6 charges. As a bonus action, you can expend 1 of the staff's charges to give yourself or one other creature that you can see a d4. The recipient can roll this d4 and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes before the start of your next turn. If this extra die is not used before then, it is lost.\n\nIf you expend the staff's last charge, roll a d20. On a roll of 9 or lower, the staff becomes a nonmagical quarterstaff that breaks the first time it scores a hit and deals damage. On a roll of 10 or higher, the staff regains 1d6 of its expended charges.",
+   "desc": "Staff (quarterstaff), very rare (requires attunement)\n\nThis transparent crystal staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.\n\nAltered Outcome. The staff has 6 charges. As a bonus action, you can expend 1 of the staff's charges to give yourself or one other creature that you can see a d4. The recipient can roll this d4 and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes before the start of your next turn. If this extra die is not used before then, it is lost.\n\nIf you expend the staff's last charge, roll a d20. On a roll of 9 or lower, the staff becomes a nonmagical quarterstaff that breaks the first time it scores a hit and deals damage. On a roll of 10 or higher, the staff regains 1d6 of its expended charges.",
    "rules": [],
    "cg": "Staffs",
    "cp": 0,
@@ -97,7 +97,8 @@
    "rar": "Very Rare",
    "att": true,
    "effect": {
-    "att": 3
+    "wpn": 3,
+    "att": 1
    }
   },
   {
@@ -113,7 +114,8 @@
    "rar": "Very Rare",
    "att": true,
    "effect": {
-    "ac": 1
+    "ac": 1,
+    "att": 1
    }
   }
  ]
