@@ -1,0 +1,18 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "dsotdq",
+  "name": "Dragonlance: Shadow of the Dragon Queen",
+  "short": "DSotDQ",
+  "license": "Proprietary",
+  "credit": "Content from Dragonlance: Shadow of the Dragon Queen, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "subclasses.json",
+  "feats.json",
+  "magic-items.json"
+ ]
+}

@@ -1,0 +1,488 @@
+{
+ "elements": [
+  {
+   "id": "Race:Aetherborn",
+   "type": "Race",
+   "name": "Aetherborn",
+   "desc": "Aetherborn come into being spontaneously as part of the aether refinement process. Their bodies and minds are apparently formed out of some interaction between the volatile elements of aether that are removed during refinement and the psychic impressions created by the people involved in the process. But each aetherborn is a unique individual, not a mere copy of some other person's mind and shape. This race is little understood, and few aetherborn are willing to waste any of their short lives allowing vedalken scholars to study their biological and psychological characteristics.\n\nAetherborn are a strange living by-product of the process of aether refinement, cast in humanoid form but lacking any of the biological qualities of other races. They don't eat or sleep, and they don't reproduce—nor do they have any physical sexual characteristics.\n\n**Ability Score Increase.** Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.\n**Age.** Aetherborn come into being as adults and live no more than a few years.\n**Size.** Aetherborn are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet.\n**Darkvision.** Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n**Born of Aether.** You have resistance to necrotic damage.\n**Menacing.** You gain proficiency in the Intimidation skill.\n**Languages.** You can speak, read, and write Common and two other languages of your choice.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Aetherborn)",
+      "type": "Ability Score Improvement",
+      "n": 2,
+      "ids": [
+       "Ability Score Improvement:Strength",
+       "Ability Score Improvement:Dexterity",
+       "Ability Score Improvement:Constitution",
+       "Ability Score Improvement:Intelligence",
+       "Ability Score Improvement:Wisdom"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language (Aetherborn)",
+      "type": "Language",
+      "n": 2
+     }
+    },
+    {
+     "grant": "skill:Intimidation"
+    }
+   ]
+  },
+  {
+   "id": "Race:Kor",
+   "type": "Race",
+   "name": "Kor",
+   "desc": "Deeply reverent of the land and its sacred sites, the nomadic kor live a spare existence defined by their constant travels. Masters of ropes and hooks, they scale sheer cliffs and cross yawning chasms with such skill and agility that they sometimes seem almost to take flight.\n\nKor are tall, slender humanoids with light hair and gray, blue-gray, or ivory skin. All kor have slightly pointed ears, and males have short, fleshy barbs on their chins.\n\n**Ability Score Increase.** Your Dexterity score increases by 2, and your Wisdom score increases by 1.\n**Age.** Kor mature at the same rate as humans and live about as long.\n**Size.** Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet. You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor.\n**Kor Climbing.** You have proficiency in the Athletics and Acrobatics skills.\n**Languages.** You can speak, read, and write Common, and communicate in the silent speech of the kor.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "wis": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    }
+   ]
+  },
+  {
+   "id": "Race:Siren",
+   "type": "Race",
+   "name": "Siren",
+   "desc": "Sirens are at home along the waters of the Stormwreck Sea. They settle on rocky coasts and remote islands, and even on floating piles of kelp. Sirens are mercurial creatures who can turn in an instant from lonely to repulsed, from desirous to hateful, from welcoming to irritated, from loving to murderous—and then back again. They are fascinated with ships, and enjoy toying with them.\n\nSirens are humanoid creatures with birdlike features. Their long, slender arms extend into powerful wings that easily carry their light frames into the air. Their fingers bear sharp claws but are nimble enough to wield weapons and perform fine manipulation. Crests of feathery plumage start between their eyes and cover the backs of their heads.\n\n**Ability Score Increase.** Your Charisma score increases by 2.\n**Size.** Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium.\n**Speed.** Your base walking speed is 25 feet.\n**Flight.** You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)\n**Siren's Song.** You know the Friends cantrip and can cast it without material components.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign) and Siren.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Siren"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Friends",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Aven",
+   "type": "Race",
+   "name": "Aven",
+   "desc": "Aven have humanlike bodies, arms, and legs, along with birdlike wings and heads. Two distinct varieties of aven are found in Naktamun. One has the head of a hawk or similar bird of prey, with short wings allowing fast flight. The other variety has the head of an ibis atop a long neck, with wide, angular wings better suited to soaring. All aven have lean bodies with feathers extending from their heads down to their shoulders.\n\n**Ability Score Increase.** Your Dexterity score increases by 2.\n**Size.** Aven stand from 5 to 6 feet tall, but their bodies are slender and their bones are partially hollow to facilitate their flight. Your size is Medium.\n**Speed.** Your base walking speed is 25 feet. You have a flying speed of 30 feet. You can't use your flying speed while you wear medium or heavy armor. (If your campaign uses the variant rule for encumbrance, you can't use your flying speed if you are encumbered.)\n**Languages.** You can speak, read, and write Common and Aven.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Aven"
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Aven"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Ibis-Headed Aven",
+   "type": "Sub Race",
+   "name": "Ibis-Headed Aven",
+   "desc": "A majority of ibis-headed aven, drawn to the teachings of Kefnet, specialize in spellcasting. They take great pride in all the qualities they share with the god of knowledge—not just their avian heads, but their quick wit, self-confidence, cunning, and spellcasting prowess.\n\n**Ability Score Increase.** Your Intelligence score increases by 1.\n**Kefnet's Blessing.** You can add half your proficiency bonus, rounded down, to any Intelligence check you make that doesn't already include your proficiency bonus.",
+   "supports": "Race:Aven",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Hawk-Headed Aven",
+   "type": "Sub Race",
+   "name": "Hawk-Headed Aven",
+   "desc": "Following the example of Oketra, hawkheaded aven often focus on the techniques of long-range combat. Most prefer javelins, but some are skilled with bows, spears, and throwing axes.\n\n**Ability Score Increase.** Your Wisdom score increases by 2.\n**Hawkeyed.** You have proficiency in the Perception skill. In addition, attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+   "supports": "Race:Aven",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    },
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Race:Merfolk (Ixalan)",
+   "type": "Race",
+   "name": "Merfolk (Ixalan)",
+   "desc": "The River Heralds are merfolk—a race of amphibious humanoids at home throughout the oceans, rivers, and rain forests of Ixalan. They stand between seven and eight feet tall, with skin that ranges from deep burgundy through many shades of violet and blue, to green, bright orange, and yellow. They are humanlike in shape, but have long fins extending from their shoulders, forearms, middle backs, and calves. Frills of fins also protrude from the backs of their heads. All merfolk can breathe air or filter oxygen from the water, and they can walk on land or swim with equal ease.\n\n**Ability Score Increase.** Your Charisma score increases by 1.\n**Age.** Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n**Size.** Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.\n**Amphibious.** You can breathe air and water.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign), Merfolk and one additional language of your choice.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Merfolk"
+    },
+    {
+     "select": {
+      "name": "Language (Merfolk)",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Merfolk (Ixalan)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Green Merfolk",
+   "type": "Sub Race",
+   "name": "Green Merfolk",
+   "desc": "Green merfolk generally have yellow chests and pale green faces, shading to dark blues and purples on their backs and limbs. The patterns on their skin suggest the colors of the tree frogs common in the rain forest, as do their eyes of orange, lime green, or sky blue. Their fins are relatively short and thick. They climb trees with ease, move through undergrowth unhindered, and often wield magic to shape vines and branches to their will.\n\n**Ability Score Increase.** Your Wisdom score increases by 2.\n**Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.\n**Cantrip.** You know one cantrip of your choice from the Druid spell list. Wisdom is your spellcasting ability for it.",
+   "supports": "Race:Merfolk (Ixalan)",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Blue Merfolk",
+   "type": "Sub Race",
+   "name": "Blue Merfolk",
+   "desc": "Blue merfolk often have burgundy or magenta on their faces and chests, with lighter shades of blue and purple elsewhere. Their eyes are red, orange, or blue, and their long, thin, and elegant fins resemble veils of fine fabric. They swim easily, even upstream, and clamber over rocks and through rapids with ease. They prefer to dwell in shallow waters, but spend a fair amount of time on land as well.\n\n**Ability Score Increase.** Your Intelligence score increases by 2.\n**Lore of the Waters.** You gain proficiency in History and Nature.\n**Cantrip.** You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
+   "supports": "Race:Merfolk (Ixalan)",
+   "rules": [
+    {
+     "stat": {
+      "int": 2
+     }
+    },
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Nature"
+    }
+   ]
+  },
+  {
+   "id": "Race:Merfolk (Zendikar)",
+   "type": "Race",
+   "name": "Merfolk (Zendikar)",
+   "desc": "Curious, thoughtful, and analytical, the merfolk of Zendikar are natural scholars and explorers. In the past, merfolk society was organized around their belief in three deities. In the wake of the reappearance of the Eldrazi, the merfolk have realized that their faith was a web of lies, built on a corrupted memory of the Eldrazi titans handed down from generation to generation.\n\nMerfolk are associated with knowledge, logic, and strategy, though the traditional merfolk creeds express this connection in different ways.\n\n**Ability Score Increase.** Your Charisma score increases by 1.\n**Age.** Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.\n**Size.** Merfolk are about the same size and build as humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.\n**Amphibious.** You can breathe air and water.\n**Languages.** You can speak, read, and write Common, Merfolk and one additional language of your choice.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Merfolk"
+    },
+    {
+     "select": {
+      "name": "Language (Merfolk Zendikar)",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Merfolk (Zendikar)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Emeria (Wind) Creed",
+   "type": "Sub Race",
+   "name": "Emeria (Wind) Creed",
+   "desc": "Merfolk who followed Emeria's creed seek wisdom and truth in the Wind Realm, exploring the mystical forces—rather than natural causes—behind historical events. They are evasive and intentionally enigmatic in their interactions with others, and are often described as manipulative and deceptive.\n\n**Ability Score Increase.** Your Wisdom score increases by 2.\n**Wind Creed Manipulation.** You have proficiency in the Deception and Persuasion skills.\n**Cantrip.** You know one cantrip of your choice from the Druid spell list. Wisdom is your spellcasting ability for it.",
+   "supports": "Race:Merfolk (Zendikar)",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    },
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Persuasion"
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Ula (Water) Creed",
+   "type": "Sub Race",
+   "name": "Ula (Water) Creed",
+   "desc": "Ula-creed merfolk emphasize intellectual pursuits, stressing hard evidence and reason over passion. They are analytical scholars, chroniclers, explorers, and navigators who pride themselves on being blunt and straightforward.\n\n**Ability Score Increase.** Your Intelligence score increases by 2.\n**Water Creed Navigation.** You have proficiency with navigator's tools and in the Survival skill.\n**Cantrip.** You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
+   "supports": "Race:Merfolk (Zendikar)",
+   "rules": [
+    {
+     "stat": {
+      "int": 2
+     }
+    },
+    {
+     "pf": [
+      "t:Navigator's tools"
+     ]
+    },
+    {
+     "grant": "skill:Survival"
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Cosi Creed",
+   "type": "Sub Race",
+   "name": "Cosi Creed",
+   "desc": "No merfolk will openly admit to following the creed of the trickster, but those who do view Cosi as an ally who can grant them control over the chaotic forces of the world.\n\n**Ability Score Increase.** Your Charisma score increases by an additional 1 (for a total of 2), and your Intelligence score increases by 1.\n**Creed of the Trickster.** You have proficiency in the Sleight of Hand and Stealth skills.\n**Cantrip.** You know one cantrip of your choice from the Bard spell list. Charisma is your spellcasting ability for it.",
+   "supports": "Race:Merfolk (Zendikar)",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "int": 1
+     }
+    },
+    {
+     "grant": "skill:Sleight of Hand"
+    },
+    {
+     "grant": "skill:Stealth"
+    }
+   ]
+  },
+  {
+   "id": "Race:Vampire (Ixalan)",
+   "type": "Race",
+   "name": "Vampire (Ixalan)",
+   "desc": "Vampires are associated with necromancy. Their existence is predicated on draining the life from others to fuel their own existence, and on putting their own lives ahead of all other concerns. Philosophically, they do not constrain themselves with artificial rules of morality, but believe that the strong can and should take what they need from the weak.\n\n**Ability Score Increase.** Your Charisma score increases by 2, and your Intelligence score increases by 1.\n**Age.** Vampires don't mature and age in the same way that other races do.\n**Size.** Vampires are about the same size and build as humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet.\n**Darkvision.** Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n**Vampiric Resistance.** You have resistance to necrotic damage.\n**Languages.** You can speak, read, and write Common (if it exists in your campaign) and Vampire.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Vampire"
+    },
+    {
+     "grant": "Racial Trait:Bloodthirst (Ixalan)"
+    },
+    {
+     "grant": "Racial Trait:Feast of Blood"
+    }
+   ]
+  },
+  {
+   "id": "Race:Vampire (Zendikar)",
+   "type": "Race",
+   "name": "Vampire (Zendikar)",
+   "desc": "Vampires are associated with necromancy. Their existence is predicated on draining the life from others to fuel their own existence, and on putting their own lives ahead of all other concerns. Philosophically, they do not constrain themselves with artificial rules of morality, but believe that the strong can and should take what they need from the weak.\n\n**Ability Score Increase.** Your Intelligence score increases by 1, and your Charisma score increases by 2.\n**Age.** Vampires don't mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by the Eldrazi's influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.\n**Size.** Vampires are about the same size and build as humans. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet.\n**Darkvision.** Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n**Vampiric Resistance.** You have resistance to necrotic damage.\n**Languages.** You can speak, read, and write Common and Vampire.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Vampire"
+    },
+    {
+     "grant": "Racial Trait:Bloodthirst (Zendikar)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Khenra",
+   "type": "Race",
+   "name": "Khenra",
+   "desc": "The khenra of Amonkhet are tall and lean, with graceful bodies and heads that strongly resemble jackals. Their snouts are long and sharp, and their angular ears rise straight above their heads. Their bodies are covered in dark, sleek hair that ranges from the brown of the desert sands to ebony black. Despite their sharp teeth, they consider biting to be an uncouth and unworthy combat tactic.\n\nNearly every khenra is born a fraternal or identical twin, and a pair of khenra twins forms an extremely close emotional bond unknown to most other residents of Amonkhet. The death of one twin in training or the trials causes a tremendous shock to the survivor, who typically grows more aggressive and foolhardy in battle.\n\n**Ability Score Increase.** Your Dexterity score increases by 2, and your Strength score increases by 1.\n**Age.** Khenra mature quickly, reaching adulthood in their early teens. Khenra initiates are usually the youngest in a crop, completing the trials by their late teens. Even without a violent death, they rarely live past 60.\n**Size.** Khenra have similar builds to humans. Your size is Medium.\n**Speed.** Your base walking speed is 35 feet.\n**Khenra Weapon Training.** You have proficiency with the khopesh, spear, and javelin.\n**Languages.** You can speak, read, and write Common and Khenra.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "str": 1,
+      "speed": 35
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Khenra"
+    },
+    {
+     "grant": "Racial Trait:Khenra Twins"
+    }
+   ]
+  },
+  {
+   "id": "Race:Naga",
+   "type": "Race",
+   "name": "Naga",
+   "desc": "Naga resemble enormous snakes with shoulders, arms, and a torso that resembles a humanoid form. They typically hold their heads and torsos off the ground while moving, but they can increase their speed by lowering their bodies and using their hands for extra propulsion. They adorn their torsos with armor, jewelry, and a vague nod toward the clothing worn by other races. Male naga have broad hoods, wider than their shoulders, while females have narrower hoods and longer faces.\n\n**Ability Score Increase.** Your Constitution score increases by 2, and your Intelligence score increases by 1.\n**Age.** Like humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century.\n**Size.** Naga stand about 5 feet tall when upright, but the total length of their bodies, head to tail, ranges from 10 to as much as 20 feet. Your size is Medium.\n**Speed.** Your base walking speed is 30 feet.\n**Poison Immunity.** You are immune to poison damage and can't be poisoned.\n**Poison Affinity.** You gain proficiency with the poisoner's kit.\n**Languages.** You can speak, read, and write Common and Naga.",
+   "rules": [
+    {
+     "stat": {
+      "con": 2,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Naga"
+    },
+    {
+     "pf": [
+      "t:Poisoner's kit"
+     ]
+    },
+    {
+     "grant": "Racial Trait:Speed Burst"
+    },
+    {
+     "grant": "Racial Trait:Natural Weapons (Naga)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Lucky",
+   "type": "Racial Trait",
+   "name": "Lucky",
+   "desc": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Brave",
+   "type": "Racial Trait",
+   "name": "Brave",
+   "desc": "You have advantage on saving throws against being frightened.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Bloodthirst (Ixalan)",
+   "type": "Racial Trait",
+   "name": "Bloodthirst (Ixalan)",
+   "desc": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Bloodthirst (Zendikar)",
+   "type": "Racial Trait",
+   "name": "Bloodthirst (Zendikar)",
+   "desc": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target, using either Strength or Dexterity for your attack roll. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid killed in this way becomes a null.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Feast of Blood",
+   "type": "Racial Trait",
+   "name": "Feast of Blood",
+   "desc": "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Khenra Twins",
+   "type": "Racial Trait",
+   "name": "Khenra Twins",
+   "desc": "If your twin is alive and you can see your twin, whenever you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. If your twin is dead (or if you were born without a twin), you can't be frightened.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Speed Burst",
+   "type": "Racial Trait",
+   "name": "Speed Burst",
+   "desc": "By lowering your body to the ground and propelling yourself with your arms, you can move more quickly for a time. As a bonus action on your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Weapons (Naga)",
+   "type": "Racial Trait",
+   "name": "Natural Weapons (Naga)",
+   "desc": "Your fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes.\n- If you hit with your bite, you deal piercing damage equal to 1d4 + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes 1d4 poison damage.\n- If you hit with your constrict attack, you deal bludgeoning damage equal to 1d6 + your Strength modifier, and the target is grappled (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is restrained, and you can't constrict another target.",
+   "rules": []
+  }
+ ]
+}
