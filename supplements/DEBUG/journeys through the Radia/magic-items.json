@@ -1,0 +1,73 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Apotropaic Armor",
+   "type": "Magic",
+   "name": "Apotropaic Armor",
+   "desc": "Armor (medium or heavy), rare\n\nThis armor is decorated with symbols and charms meant to ward off evil. While wearing it, you have resistance to necrotic damage. In addition, you have advantage on saving throws against spells and other magical effects created by Fiends or Undead.",
+   "rules": [],
+   "cg": "Magic Armor",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Bitterleaf Oil",
+   "type": "Magic",
+   "name": "Bitterleaf Oil",
+   "desc": "Potion, uncommon\n\nThis pungent, dark green oil is distilled from the bitterleaf plant. As an action, you can apply this oil to one melee weapon or up to 5 pieces of ammunition. For 1 hour, the coated weapon deals an extra 1d4 poison damage on a hit. The oil remains potent for 1 hour after application or until it is used on a weapon.",
+   "rules": [],
+   "cg": "Potions",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Crimson Essence",
+   "type": "Magic",
+   "name": "Crimson Essence",
+   "desc": "Wondrous item, uncommon\n\nThis small vial contains a glowing, crimson liquid that smells faintly of iron and spices. As an action, you can pour the contents of the vial onto a weapon or up to 5 pieces of ammunition. For 1 minute, the coated weapon deals an extra 1d6 fire damage on a hit.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Godsbreath",
+   "type": "Magic",
+   "name": "Godsbreath",
+   "desc": "Wondrous item, legendary\n\nThis massive brass horn is decorated with images of storms and lightning. It has 3 charges and regains 1d3 expended charges daily at dawn. While holding the horn, you can use an action to expend 1 charge and blow it. When you do, the horn emits a deafening blast that summons a powerful storm. \n\nWhen you blow the horn, you cast the Control Weather spell. Alternatively, you can expend 3 charges to cast the Storm of Vengeance spell. Once the horn is used to cast Storm of Vengeance, it cannot do so again until 7 days have passed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 10,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Nightbringer's Cloak",
+   "type": "Magic",
+   "name": "Nightbringer's Cloak",
+   "desc": "Wondrous item, very rare (requires attunement)\n\nThis black cloak shimmers with a faint, shadowy iridescence. While wearing it, you gain a +1 bonus to AC and saving throws.\n\nIn addition, while you are in dim light or darkness, you can use a bonus action to wrap the cloak around yourself, magically turning invisible until the start of your next turn. Once you use this property, it can't be used again until the next dawn.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Very Rare",
+   "att": true,
+   "effect": {
+    "ac": 1,
+    "saves": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "jttrc",
+  "name": "Journeys through the Radiant Citadel",
+  "short": "JTtRC",
+  "license": "Proprietary",
+  "credit": "Content from Journeys through the Radiant Citadel, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "magic-items.json"
+ ]
+}

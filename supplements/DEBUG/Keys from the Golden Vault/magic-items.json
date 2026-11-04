@@ -1,0 +1,17 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Jade Macaque",
+   "type": "Magic",
+   "name": "Jade Macaque",
+   "desc": "Wondrous item, uncommon\n\nThis tiny statuette of a monkey is carved from a single piece of jade. If you use an action to speak the command word and toss the statuette to a point on the ground within 30 feet of you, it becomes a living monkey for 1 hour. The monkey is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the monkey defends itself but takes no other actions.\n\nWhile the monkey is animate, you can use an action to see through its eyes and hear what it hears until the start of your next turn. During this time, you are deaf and blind with regard to your own senses.\n\nThe monkey reverts to its statuette form early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the monkey becomes a statuette again, its property can't be used again until the next dawn.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Uncommon",
+   "att": false
+  }
+ ]
+}

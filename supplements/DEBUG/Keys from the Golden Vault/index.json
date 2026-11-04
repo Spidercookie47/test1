@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "kgv",
+  "name": "Keys from the Golden Vault",
+  "short": "KGV",
+  "license": "Proprietary",
+  "credit": "Content from Keys from the Golden Vault, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "magic-items.json"
+ ]
+}
