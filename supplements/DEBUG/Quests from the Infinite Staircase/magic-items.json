@@ -1,0 +1,46 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Daoud's Wondrous Lanthorn",
+   "type": "Magic",
+   "name": "Daoud's Wondrous Lanthorn",
+   "desc": "Wondrous item, Legendary\n\nThis ornate brass lantern is set with several gemstone lenses. As an action, you can spend a number of gold pieces (up to 500 gp) to activate one of the lantern's lenses, casting a spell based on the lens and the amount spent. The spell's save DC is 18. Once a lens is used, it can't be used again until the next dawn.\n\n- **Diamond Lens (500 gp).** The lantern casts the Prismatic Wall spell.\n- **Emerald Lens (300 gp).** The lantern casts the Reverse Gravity spell.\n- **Ruby Lens (250 gp).** The lantern casts the Disintegrate spell.\n- **Sapphire Lens (150 gp).** The lantern casts the Haste spell.\n- **Topaz Lens (100 gp).** The lantern casts the Slow spell.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 5,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Heretic",
+   "type": "Magic",
+   "name": "Heretic",
+   "desc": "Weapon (Longsword), Legendary (Requires Attunement by a Non-good Creature)\n\nThe blasphemous weapon Heretic was created by a cult to steal power from good-aligned gods. The blade hungers to strike down servants of the Upper Planes and weaken the forces of good.\n\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon.\n\n**Sentience.** Heretic is a sentient, chaotic evil weapon with an Intelligence of 14, a Wisdom of 12, and a Charisma of 16. It has hearing and darkvision out to a range of 120 feet. The weapon can speak, read, and understand Common and Abyssal, and it can communicate with its wielder telepathically. While you are attuned to it, Heretic also understands every language you know.\n\n**Personality.** Heretic speaks in a smooth, silken voice that sounds almost reasonable. It is patient and calculating, and it urges its wielder to commit acts of cruelty and betrayal in the name of power.\n\n**Destroy Devotion.** Once per turn, when you hit a creature with an attack using this weapon, you can force the target to make a DC 18 Wisdom saving throw. On a failed save, the target is paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\n**Spellcasting.** Heretic has 6 charges and regains 1d4 + 1 expended charges daily at dawn. While holding the sword, you can use an action to expend some of its charges to cast one of the following spells (save DC 18): Bane (1 charge), Bestow Curse (3 charges), or Dominate Person (5 charges).",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 3,
+   "rar": "Legendary",
+   "att": true,
+   "effect": {
+    "att": 3
+   }
+  },
+  {
+   "id": "Magic:Staff of Ruling",
+   "type": "Magic",
+   "name": "Staff of Ruling",
+   "desc": "Staff, Rare (Requires Attunement)\n\nThis staff is carved from dark wood and adorned with a serpent whose scales shimmer like a flowing river.\n\nThe staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it (save DC 15):\n\n- **Orb of Lightning (3 charges).** You create a 5-foot-diameter sphere of lightning at a point you can see within 60 feet of you. The orb lasts for 1 minute or until you lose concentration. When you create the orb, and as a bonus action on each of your turns, you can move the orb up to 30 feet. When the orb enters a creature's space or a creature enters the orb's space, the creature must make a Dexterity saving throw. On a failed save, it takes 3d6 lightning damage. The orb's damage increases by 1d6 for each round it has persisted, to a maximum of 10d6.\n- **Giant Snake (5 charges).** You throw the staff to a point on the ground within 60 feet of you. The staff becomes a Giant Poisonous Snake for 1 hour. The snake is friendly to you and your allies. As a bonus action, you can speak the staff's command word to return it to its staff form.\n- **Thunderclap (2 charges).** You cast the Thunderwave spell at 2nd level.",
+   "rules": [],
+   "cg": "Staffs",
+   "cp": 0,
+   "price": 0,
+   "wt": 4,
+   "rar": "Rare",
+   "att": true
+  }
+ ]
+}

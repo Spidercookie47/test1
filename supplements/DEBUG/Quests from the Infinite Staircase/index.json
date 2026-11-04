@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "qftis",
+  "name": "Quests from the Infinite Staircase",
+  "short": "QFtIS",
+  "license": "Proprietary",
+  "credit": "Content from Quests from the Infinite Staircase, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "magic-items.json"
+ ]
+}
