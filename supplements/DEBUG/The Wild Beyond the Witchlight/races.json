@@ -1,0 +1,142 @@
+{
+ "elements": [
+  {
+   "id": "Race:Fairy",
+   "type": "Race",
+   "name": "Fairy",
+   "desc": "The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well.\n\nInfused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You're also free to come up with your own characteristic if none of the suggestions below fit your character.\n\n**Fey Characteristics**\n| d8 | Characteristic |\n|---|---|\n| 1 | Your wings are like those of a bird. |\n| 2 | You have shimmering, multicolored skin. |\n| 3 | You have exceptionally large ears. |\n| 4 | A glittering mist constantly surrounds you. |\n| 5 | You have a small spectral horn on your forehead, like a little unicorn horn. |\n| 6 | Your legs are insectile. |\n| 7 | You smell like fresh brownies. |\n| 8 | A noticeable, harmless chill surrounds you. |\n\n**Ability Score Increase.** Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.\n**Creature Type.** You are a Fey.\n**Life Span.** Fairies have a life span of about a century.\n**Size.** You are Small.\n**Speed.** Your walking speed is 30 feet.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language (Fairy)",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Fairy Magic"
+    },
+    {
+     "grant": "Racial Trait:Flight (Fairy)"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Druidcraft",
+     "at will"
+    ],
+    [
+     3,
+     "Faerie Fire",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Enlarge/Reduce",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Harengon",
+   "type": "Race",
+   "name": "Harengon",
+   "desc": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went.\n\nHarengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.\n\n**Ability Score Increase.** Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1.\n**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.\n**Creature Type.** You are a Humanoid.\n**Life Span.** Harengons have a life span of about a century.\n**Size.** You are Medium or Small. You choose the size when you select this race.\n**Speed.** Your walking speed is 30 feet.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language (Harengon)",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Hare-Trigger"
+    },
+    {
+     "grant": "Racial Trait:Leporine Senses"
+    },
+    {
+     "grant": "Racial Trait:Lucky Footwork"
+    },
+    {
+     "grant": "Racial Trait:Rabbit Hop"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Fairy Magic",
+   "type": "Racial Trait",
+   "name": "Fairy Magic",
+   "desc": "You know the Druidcraft cantrip. Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Flight (Fairy)",
+   "type": "Racial Trait",
+   "name": "Flight (Fairy)",
+   "desc": "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hare-Trigger",
+   "type": "Racial Trait",
+   "name": "Hare-Trigger",
+   "desc": "You can add your proficiency bonus to your initiative rolls.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Leporine Senses",
+   "type": "Racial Trait",
+   "name": "Leporine Senses",
+   "desc": "You have proficiency in the Perception skill.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Lucky Footwork",
+   "type": "Racial Trait",
+   "name": "Lucky Footwork",
+   "desc": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Rabbit Hop",
+   "type": "Racial Trait",
+   "name": "Rabbit Hop",
+   "desc": "As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "rabbit-hop",
+      "name": "Rabbit Hop",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "twbtw",
+  "name": "The Wild Beyond the Witchlight",
+  "short": "TWBTW",
+  "license": "Proprietary",
+  "credit": "Content from The Wild Beyond the Witchlight, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "magic-items.json"
+ ]
+}
