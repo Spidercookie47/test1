@@ -1,0 +1,379 @@
+{
+ "elements": [
+  {
+   "id": "Racial Trait:Elf Weapon Training (PHB)",
+   "type": "Racial Trait",
+   "name": "Elf Weapon Training",
+   "desc": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fleet of Foot",
+   "type": "Racial Trait",
+   "name": "Fleet of Foot",
+   "desc": "Your base walking speed increases to 35 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mask of the Wild",
+   "type": "Racial Trait",
+   "name": "Mask of the Wild",
+   "desc": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Wood Elf",
+   "type": "Sub Race",
+   "name": "Wood Elf",
+   "supports": "Race:Elf",
+   "desc": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerun, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves' skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel. Ability Score Increase: your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "stat": {
+      "speed": 35
+     }
+    },
+    {
+     "pf": [
+      "w:Longsword",
+      "w:Shortsword",
+      "w:Shortbow",
+      "w:Longbow"
+     ]
+    },
+    {
+     "grant": "Racial Trait:Elf Weapon Training (PHB)"
+    },
+    {
+     "grant": "Racial Trait:Fleet of Foot"
+    },
+    {
+     "grant": "Racial Trait:Mask of the Wild"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Dwarven Armor Training",
+   "type": "Racial Trait",
+   "name": "Dwarven Armor Training",
+   "desc": "You have proficiency with light and medium armor.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Mountain Dwarf",
+   "type": "Sub Race",
+   "name": "Mountain Dwarf",
+   "supports": "Race:Dwarf",
+   "desc": "As a mountain dwarf, you are strong and hardy, accustomed to a difficult life in rugged terrain. You are probably on the tall side (for a dwarf), and tend toward lighter coloration. Ability Score Increase: your Strength score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2
+     }
+    },
+    {
+     "pf": [
+      "a:Light armor",
+      "a:Medium armor"
+     ]
+    },
+    {
+     "grant": "Racial Trait:Dwarven Armor Training"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Superior Darkvision",
+   "type": "Racial Trait",
+   "name": "Superior Darkvision",
+   "desc": "Your darkvision has a radius of 120 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sunlight Sensitivity",
+   "type": "Racial Trait",
+   "name": "Sunlight Sensitivity",
+   "desc": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Drow Magic",
+   "type": "Racial Trait",
+   "name": "Drow Magic",
+   "desc": "You know the dancing lights cantrip. When you reach 3rd level, you can cast faerie fire once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast darkness once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Spell:Dancing Lights",
+     "cantrip, Charisma"
+    ],
+    [
+     3,
+     "Spell:Faerie Fire",
+     "once per long rest"
+    ],
+    [
+     5,
+     "Spell:Darkness",
+     "once per long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Drow Weapon Training",
+   "type": "Racial Trait",
+   "name": "Drow Weapon Training",
+   "desc": "You have proficiency with rapiers, shortswords, and hand crossbows.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Dark Elf (Drow)",
+   "type": "Sub Race",
+   "name": "Dark Elf (Drow)",
+   "supports": "Race:Elf",
+   "desc": "Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark. With their jet-black skin and white or pale hair, they are often called dark elves. Ability Score Increase: your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "pf": [
+      "w:Rapier",
+      "w:Shortsword",
+      "w:Hand crossbow"
+     ]
+    },
+    {
+     "grant": "Racial Trait:Superior Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Sunlight Sensitivity"
+    },
+    {
+     "grant": "Racial Trait:Drow Magic"
+    },
+    {
+     "grant": "Racial Trait:Drow Weapon Training"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Stout Resilience",
+   "type": "Racial Trait",
+   "name": "Stout Resilience",
+   "desc": "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Stout Halfling",
+   "type": "Sub Race",
+   "name": "Stout Halfling",
+   "supports": "Race:Halfling",
+   "desc": "As a stout halfling, you are hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. Ability Score Increase: your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Stout Resilience"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Natural Illusionist",
+   "type": "Racial Trait",
+   "name": "Natural Illusionist",
+   "desc": "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Spell:Minor Illusion",
+     "cantrip, Intelligence"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Speak with Small Beasts",
+   "type": "Racial Trait",
+   "name": "Speak with Small Beasts",
+   "desc": "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Forest Gnome",
+   "type": "Sub Race",
+   "name": "Forest Gnome",
+   "supports": "Race:Gnome",
+   "desc": "As a forest gnome, you have a natural knack for illusion and inherent quickness and stealth. In the forests of the world, forest gnomes live in secret, hiding from predators and evil in the deep wood. Ability Score Increase: your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Natural Illusionist"
+    },
+    {
+     "grant": "Racial Trait:Speak with Small Beasts"
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Variant Human Strength",
+   "type": "Ability Increase",
+   "name": "Strength",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Variant Human Dexterity",
+   "type": "Ability Increase",
+   "name": "Dexterity",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Variant Human Constitution",
+   "type": "Ability Increase",
+   "name": "Constitution",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Variant Human Intelligence",
+   "type": "Ability Increase",
+   "name": "Intelligence",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Variant Human Wisdom",
+   "type": "Ability Increase",
+   "name": "Wisdom",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Variant Human Charisma",
+   "type": "Ability Increase",
+   "name": "Charisma",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race Variant:Variant Human",
+   "type": "Race Variant",
+   "name": "Variant Human",
+   "supports": "Race:Human",
+   "desc": "Instead of the standard human traits, a variant human increases two ability scores of your choice by 1, gains proficiency in one skill of your choice, and gains one feat of your choice. The standard +1 to every ability is cancelled by this variant.",
+   "rules": [
+    {
+     "stat": {
+      "str": -1,
+      "dex": -1,
+      "con": -1,
+      "int": -1,
+      "wis": -1,
+      "cha": -1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability score increases",
+      "type": "Ability Increase",
+      "n": 2,
+      "ids": [
+       "Ability Increase:Variant Human Strength",
+       "Ability Increase:Variant Human Dexterity",
+       "Ability Increase:Variant Human Constitution",
+       "Ability Increase:Variant Human Intelligence",
+       "Ability Increase:Variant Human Wisdom",
+       "Ability Increase:Variant Human Charisma"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Skill",
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Feat",
+      "type": "Feat",
+      "n": 1
+     }
+    }
+   ]
+  }
+ ]
+}

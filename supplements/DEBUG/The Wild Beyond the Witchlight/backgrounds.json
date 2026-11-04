@@ -1,10 +1,23 @@
 {
  "elements": [
   {
+   "id": "Tool:Disguise kit (TWBTW)",
+   "type": "Tool",
+   "name": "Disguise kit (TWBTW)",
+   "desc": "You gain proficiency with Disguise kit.",
+   "rules": [
+    {
+     "pf": [
+      "t:Disguise kit"
+     ]
+    }
+   ]
+  },
+  {
    "id": "Background:Witchlight Hand",
    "type": "Background",
    "name": "Witchlight Hand",
-   "desc": "You crept into the Witchlight Carnival as a child or youth and never looked back, earning a place among those who work behind the scenes to keep the carnival in business. As a hand, you work hard and party hard. The carnival has borne you to many fantastic worlds, circling back around to your home world once every eight years, but you know almost nothing about these worlds because you spend all your time in the carnival. You know the other hands well, but the carnival's owners—Mister Witch and Mister Light—remain mysterious to you even after all these years.\n\nMaybe you joined the carnival to escape a dismal life at home, or maybe you were enchanted by the idea of visiting new places or the dream of becoming one of the carnival's star attractions. Now that you're older, carnival life has lost some of its appeal. The daily routine has grown tedious, the cyclical nature of the carnival's journey monotonous. The carnival no longer fills your heart with a sense of wonder. Perhaps greater adventures await you beyond the carnival's gates.\n\n**Skill Proficiencies:** Performance, Sleight of Hand\n**Tool Proficiencies:** Disguise kit or one type of musical instrument\n**Languages:** One of your choice\n**Equipment:** A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets table), and a pouch containing 8gp",
+   "desc": "You crept into the Witchlight Carnival as a child or youth and never looked back, earning a place among those who work behind the scenes to keep the carnival in business. As a hand, you work hard and party hard. The carnival has borne you to many fantastic worlds, circling back around to your home world once every eight years, but you know almost nothing about these worlds because you spend all your time in the carnival. You know the other hands well, but the carnival's owners—Mister Witch and Mister Light—remain mysterious to you even after all these years.\n\nMaybe you joined the carnival to escape a dismal life at home, or maybe you were enchanted by the idea of visiting new places or the dream of becoming one of the carnival's star attractions. Now that you're older, carnival life has lost some of its appeal. The daily routine has grown tedious, the cyclical nature of the carnival's journey monotonous. The carnival no longer fills your heart with a sense of wonder. Perhaps greater adventures await you beyond the carnival's gates.\n\nSkill Proficiencies: Performance, Sleight of Hand\nTool Proficiencies: Disguise kit or one type of musical instrument\nLanguages: One of your choice\nEquipment: A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets table), and a pouch containing 8gp",
    "rules": [
     {
      "grant": "skill:Performance"
@@ -14,11 +27,21 @@
     },
     {
      "select": {
-      "name": "Tool Proficiency (Witchlight Hand)",
+      "name": "Disguise kit or musical instrument",
       "type": "Tool",
       "n": 1,
       "ids": [
-       "Gear:Disguise Kit"
+       "Tool:Disguise kit (TWBTW)",
+       "Tool:Bagpipes (PHB)",
+       "Tool:Drum (PHB)",
+       "Tool:Dulcimer (PHB)",
+       "Tool:Flute (PHB)",
+       "Tool:Lute (PHB)",
+       "Tool:Lyre (PHB)",
+       "Tool:Horn (PHB)",
+       "Tool:Pan flute (PHB)",
+       "Tool:Shawm (PHB)",
+       "Tool:Viol (PHB)"
       ]
      }
     },
@@ -48,14 +71,14 @@
      "I can't bring myself to trust most adults."
     ],
     "ideals": [
-     "**Friendship.** I never leave a friend behind. (Good)",
-     "**Empathy.** No creature should be made to suffer. (Good)",
-     "**Wanderlust.** I prefer to take the less traveled path. (Chaotic)",
-     "**Changeability.** Change is good, which is why I live by an ever-changing set of rules. (Chaotic)",
-     "**Honor.** A deal is a deal, and I would never break one. (Lawful)",
-     "**Rule of Three.** Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)",
-     "**Obsession.** I won't let go of a grudge. (Evil)",
-     "**Greed.** I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
+     "Friendship. I never leave a friend behind. (Good)",
+     "Empathy. No creature should be made to suffer. (Good)",
+     "Wanderlust. I prefer to take the less traveled path. (Chaotic)",
+     "Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)",
+     "Honor. A deal is a deal, and I would never break one. (Lawful)",
+     "Rule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere. (Lawful)",
+     "Obsession. I won't let go of a grudge. (Evil)",
+     "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)"
     ],
     "bonds": [
      "I would never break my word.",
@@ -83,7 +106,7 @@
    "id": "Background Feature:Carnival Companion",
    "type": "Background Feature",
    "name": "Carnival Companion",
-   "desc": "Over the years, you have earned the friendship of another carnival fixture. Roll a d8 and consult the Carnival Companion table to determine whom or what you've befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival.\n\nThe DM can use the Witchlight Hand stat block to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the Monster Manual.\n\n| d6 | Companion |\n|---|---|\n| 1 | Old, cantankerous Witchlight hand |\n| 2 | Young, impressionable Witchlight hand |\n| 3 | Performer (such as an acrobat, a clown, or a musician) |\n| 4 | Retired performer |\n| 5 | Seasoned animal trainer |\n| 6 | Old blink dog |\n| 7 | Cheery sprite |\n| 8 | Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet |",
+   "desc": "Over the years, you have earned the friendship of another carnival fixture. Roll a d8 to determine whom or what you've befriended, or choose an option you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival. (Open this feature to see the table.)",
    "rules": []
   },
   {
