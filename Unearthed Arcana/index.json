@@ -1,0 +1,36 @@
+{
+  "format": "hearthscribe-index",
+  "version": 1,
+  "source": {
+    "id": "UA2014",
+    "name": "Unearth Arcana(2014 5E)",
+    "short": "UA"
+  },
+  "files": [
+    "Artificer.json",
+    "backgrounds.json",
+    "Barbarian.json",
+    "magic-items.json",
+    "info.json",
+    "Bard.json",
+    "classes.json",
+    "Cleric.json",
+    "disciplines.json",
+    "Druid.json",
+    "feat1.json",
+    "feat2.json",
+    "feat3.json",
+    "Fighter.json",
+    "index.json",
+    "Monk.json",
+    "Mystic.json",
+    "Paladin.json",
+    "Ranger.json",
+    "Ranger-NoSpells.json",
+    "Rogue.json",
+    "Rune.json",
+    "Sorcerer.json",
+    "Warlock.json",
+    "Wizard.json"
+  ]
+}
