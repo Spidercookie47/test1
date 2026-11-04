@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "cm",
+  "name": "Candlekeep Mysteries",
+  "short": "CM",
+  "license": "Proprietary",
+  "credit": "Content from Candlekeep Mysteries, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "magic-items.json"
+ ]
+}

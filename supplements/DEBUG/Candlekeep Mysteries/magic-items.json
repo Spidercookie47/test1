@@ -1,0 +1,120 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Alchemy Jug (Blue)",
+   "type": "Magic",
+   "name": "Alchemy Jug (Blue)",
+   "desc": "Wondrous item, uncommon\n\n(This jug functions as an Alchemy Jug, except that it neither produces acid or poison. It can produce 1 quart of boiling hot tea instead.)\n\nThis ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.\n\nYou can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.\n\nOnce the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.\n\n**Liquid** | **Max Amount**\n---|---\nBoiling Hot Tea | 1 quart\nBeer | 4 gallons\nHoney | 1 gallon\nMayonnaise | 2 gallons\nOil | 1 quart\nVinegar | 2 gallons\nWater, fresh | 8 gallons\nWater, salt | 12 gallons\nWine | 1 gallon",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 12,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Cracked Driftglobe",
+   "type": "Magic",
+   "name": "Cracked Driftglobe",
+   "desc": "Wondrous item, uncommon\n\nThis small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word cause it to emanate the Light spell.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Gloves of Soul Catching",
+   "type": "Magic",
+   "name": "Gloves of Soul Catching",
+   "desc": "Wondrous item, legendary (requires attunement)\n\nYour Constitution score is 20 while you wear these gloves. This property of the gloves has no effect on you if your Constitution is already 20 or higher.\n\nAfter making a successful unarmed strike while wearing these gloves, you can use the gloves to deal an extra 2d10 force damage to the target, and you regain a number of hit points equal to the force damage dealt. Alternatively, instead of regaining hit points in this way, you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Legendary",
+   "att": true,
+   "effect": {
+    "set": {
+     "con": 20
+    },
+    "att": 1
+   }
+  },
+  {
+   "id": "Magic:Nether Scroll of Azumar",
+   "type": "Magic",
+   "name": "Nether Scroll of Azumar",
+   "desc": "Scroll, legendary\n\nUnlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated study—at least 8 hours per day—to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence (Arcana) check. If this check fails, you take 16d10 psychic damage, and you can attempt the check again after another 30 days of concentrated study.\n\nWhen you succeed on the check, you gain the following benefits:\n\n- Your Intelligence score increases by 2, to a maximum of 22. Once you gain this benefit, you can't use this scroll to increase your Intelligence again.\n- You gain advantage on saving throws against spells and other magical effects.\n\nWhen you gain the scroll's benefits, a stone golem magically appears in an unoccupied space within 60 feet of you and acts as your ally. If you die, the golem turns to dust.",
+   "rules": [],
+   "cg": "Scrolls",
+   "cp": 0,
+   "price": 0,
+   "wt": 1,
+   "rar": "Legendary",
+   "att": false
+  },
+  {
+   "id": "Magic:Serpent Scale Armor",
+   "type": "Magic",
+   "name": "Serpent Scale Armor",
+   "desc": "Armor (scale mail), uncommon\n\nThis suit of magic armor is made from shimmering scales. While wearing it, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks.",
+   "rules": [],
+   "cg": "Magic Armor",
+   "cp": 0,
+   "price": 0,
+   "wt": 45,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Serpent's Fang",
+   "type": "Magic",
+   "name": "Serpent's Fang",
+   "desc": "Weapon (longsword), rare\n\nThis single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra 1d10 poison damage to any target it hits.",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 3,
+   "rar": "Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Staff of Fate",
+   "type": "Magic",
+   "name": "Staff of Fate",
+   "desc": "Staff (quarterstaff), very rare (requires attunement)\n\nThis transparent crystal staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.\n\n**Altered Outcome.** The staff has 6 charges. As a bonus action, you can expend 1 of the staff's charges to give yourself or one other creature that you can see a d4. The recipient can roll this d4 and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes before the start of your next turn. If this extra die is not used before then, it is lost.\n\nIf you expend the staff's last charge, roll a d20. On a roll of 9 or lower, the staff becomes a nonmagical quarterstaff that breaks the first time it scores a hit and deals damage. On a roll of 10 or higher, the staff regains 1d6 of its expended charges.",
+   "rules": [],
+   "cg": "Staffs",
+   "cp": 0,
+   "price": 0,
+   "wt": 4,
+   "rar": "Very Rare",
+   "att": true,
+   "effect": {
+    "att": 3
+   }
+  },
+  {
+   "id": "Magic:Watchful Helm",
+   "type": "Magic",
+   "name": "Watchful Helm",
+   "desc": "Wondrous item, very rare (requires attunement)\n\nWhile you wear this helm, you gain a +1 bonus to AC and remain aware of your surroundings even while you're asleep, and you have advantage on Wisdom (Perception) checks that rely on sight.\n\nAs a bonus action, you can cast the See Invisibility spell from the helm. Once this property of the helm is used, it can't be used again until the next dawn.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 2,
+   "rar": "Very Rare",
+   "att": true,
+   "effect": {
+    "ac": 1
+   }
+  }
+ ]
+}
