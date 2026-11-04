@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "veor",
+  "name": "Vecna: Eve of Ruin",
+  "short": "VEoR",
+  "license": "Proprietary",
+  "credit": "Content from Vecna: Eve of Ruin, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "magic-items.json"
+ ]
+}

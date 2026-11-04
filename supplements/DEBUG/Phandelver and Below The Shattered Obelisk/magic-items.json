@@ -1,0 +1,124 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Mindblade",
+   "type": "Magic",
+   "name": "Mindblade",
+   "desc": "Weapon (any sword), rare (requires attunement)\n\nThis weapon is forged from a crystalline substance that seems to hum with psionic energy. You gain a +1 bonus to attack and damage rolls made with this magic weapon.\n\nAs a bonus action, you can cause a shimmering, psychic blade to spring forth from the weapon's hilt or blade, granting it the finesse property. When you hit with an attack using this weapon, the target takes an extra 1d6 psychic damage. This property lasts until you use a bonus action to dismiss it.",
+   "rules": [],
+   "cg": "Magic Weapons",
+   "cp": 0,
+   "price": 0,
+   "wt": 3,
+   "rar": "Rare",
+   "att": true,
+   "effect": {
+    "att": 1
+   }
+  },
+  {
+   "id": "Magic:Mind Crystal (Careful)",
+   "type": "Magic",
+   "name": "Mind Crystal (Careful)",
+   "desc": "Wondrous item, uncommon\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that forces other creatures to make a saving throw, you can expend the crystal's magic to protect some of those creatures from the spell's full force. To do so, you choose a number of those creatures up to your spellcasting ability modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Distant)",
+   "type": "Magic",
+   "name": "Mind Crystal (Distant)",
+   "desc": "Wondrous item, uncommon\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that has a range of 5 feet or greater, you can expend the crystal's magic to double the range of the spell. When you cast a spell that has a range of touch, you can expend the crystal's magic to make the range of the spell 30 feet.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Empowered)",
+   "type": "Magic",
+   "name": "Mind Crystal (Empowered)",
+   "desc": "Wondrous item, uncommon\n\nThis gemstone contains a shard of psionic energy. When you roll damage for a spell, you can expend the crystal's magic to reroll a number of the damage dice up to your spellcasting ability modifier (minimum of one). You must use the new rolls.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Extended)",
+   "type": "Magic",
+   "name": "Mind Crystal (Extended)",
+   "desc": "Wondrous item, uncommon\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that has a duration of 1 minute or longer, you can expend the crystal's magic to double its duration, to a maximum duration of 24 hours.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Heightened)",
+   "type": "Magic",
+   "name": "Mind Crystal (Heightened)",
+   "desc": "Wondrous item, rare\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that forces a creature to make a saving throw to resist its effects, you can expend the crystal's magic to give one target of the spell disadvantage on its first saving throw made against the spell.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Quickened)",
+   "type": "Magic",
+   "name": "Mind Crystal (Quickened)",
+   "desc": "Wondrous item, rare\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that has a casting time of 1 action, you can expend the crystal's magic to change the casting time to 1 bonus action for this casting.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Subtle)",
+   "type": "Magic",
+   "name": "Mind Crystal (Subtle)",
+   "desc": "Wondrous item, uncommon\n\nThis gemstone contains a shard of psionic energy. When you cast a spell, you can expend the crystal's magic to cast it without any somatic or verbal components.\n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Mind Crystal (Twinned)",
+   "type": "Magic",
+   "name": "Mind Crystal (Twinned)",
+   "desc": "Wondrous item, rare\n\nThis gemstone contains a shard of psionic energy. When you cast a spell that targets only one creature and doesn't have a range of self, you can expend the crystal's magic to target a second creature in range with the same spell (1 crystal if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. \n\nOnce used, the crystal is destroyed.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Rare",
+   "att": false
+  }
+ ]
+}
