@@ -1,0 +1,170 @@
+{
+ "elements": [
+  {
+   "id": "Class:Ranger, No Spells (UA)",
+   "type": "Class",
+   "name": "Ranger, No Spells (UA)",
+   "desc": "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.\n\nThis variant trades the ranger's spellcasting for martial maneuvers (like a Battle Master fighter) and herbal poultices. **Source:** Unearthed Arcana.\n\n**Optional class features.** The source lists three optional swap-ins: Favored Foe (replaces Favored Enemy), Deft Explorer (replaces Natural Explorer), and Nature's Veil (replaces Hide in Plain Sight). Select the optional version at the appropriate level to swap.\n\n**Subclass compatibility.** This class uses the standard Ranger conclave list. Any subclass tagged `supports: \"Class:Ranger\"` will appear in the picker — including Hunter from the SRD, plus any UA Ranger subclasses you have loaded. If you create subclasses specifically for this variant, tag them `supports: \"Class:Ranger\"`.\n\n**Missing source text.** The class table lists \"Primal Awareness (Optional)\" at 3rd level, but no description is included in the provided UA text. \"Martial Versatility (Optional)\" is a fighting-style swap and is not modeled as a separate feature here.",
+   "rules": [
+    { "grant": "save:str" },
+    { "grant": "save:dex" },
+    { "select": { "name": "Skills (choose 3)", "n": 3, "from": ["Animal Handling", "Athletics", "Insight", "Investigation", "Nature", "Perception", "Stealth", "Survival"] } },
+
+    { "grant": "Class Feature:Favored Enemy (No Spells UA)", "level": 1 },
+    { "select": { "name": "Favored Enemy", "type": "Favored Enemy", "n": 1 }, "level": 1 },
+    { "select": { "name": "Favored Foe (replaces Favored Enemy)", "type": "Class Feature", "ids": ["Class Feature:Favored Foe (No Spells UA)"] }, "level": 1 },
+
+    { "grant": "Class Feature:Natural Explorer (No Spells UA)", "level": 1 },
+    { "select": { "name": "Favored Terrain", "type": "Favored Terrain", "n": 1 }, "level": 1 },
+    { "select": { "name": "Deft Explorer (replaces Natural Explorer)", "type": "Class Feature", "ids": ["Class Feature:Deft Explorer (No Spells UA)"] }, "level": 1 },
+
+    { "select": { "name": "Fighting Style", "type": "Fighting Style", "cls": "R" }, "level": 2 },
+    { "grant": "Class Feature:Combat Superiority (No Spells UA)", "level": 2 },
+
+    { "grant": "Class Feature:Poultices (No Spells UA)", "level": 3 },
+    { "select": { "name": "Ranger Conclave", "type": "Subclass", "supports": "Class:Ranger" }, "level": 3 },
+
+    { "asi": 1, "level": 4 },
+
+    { "grant": "Class Feature:Extra Attack", "level": 5 },
+
+    { "select": { "name": "Favored Enemy (6th)", "type": "Favored Enemy", "n": 1 }, "level": 6 },
+    { "select": { "name": "Favored Terrain (6th)", "type": "Favored Terrain", "n": 2 }, "level": 6 },
+
+    { "asi": 1, "level": 8 },
+    { "grant": "Class Feature:Land's Stride", "level": 8 },
+
+    { "grant": "Class Feature:Natural Antivenom (No Spells UA)", "level": 9 },
+
+    { "grant": "Class Feature:Hide in Plain Sight", "level": 10 },
+    { "select": { "name": "Favored Terrain (10th)", "type": "Favored Terrain", "n": 2 }, "level": 10 },
+    { "select": { "name": "Nature's Veil (replaces Hide in Plain Sight)", "type": "Class Feature", "ids": ["Class Feature:Nature's Veil (No Spells UA)"] }, "level": 10 },
+
+    { "asi": 1, "level": 12 },
+
+    { "grant": "Class Feature:Call Natural Allies (No Spells UA)", "level": 13 },
+
+    { "select": { "name": "Favored Enemy (14th)", "type": "Favored Enemy", "n": 1 }, "level": 14 },
+    { "grant": "Class Feature:Vanish", "level": 14 },
+
+    { "asi": 1, "level": 16 },
+
+    { "grant": "Class Feature:Relentless (No Spells UA)", "level": 17 },
+
+    { "grant": "Class Feature:Feral Senses", "level": 18 },
+
+    { "asi": 1, "level": 19 },
+
+    { "grant": "Class Feature:Foe Slayer", "level": 20 }
+   ],
+   "hd": 10,
+   "wp": ["simple", "martial"],
+   "ap": ["a:Light armor", "a:Medium armor", "a:Shields", "w:Simple weapons", "w:Martial weapons"],
+   "mp": ["a:Light armor", "a:Medium armor", "a:Shields", "w:Simple weapons", "w:Martial weapons"],
+   "prereq": ["&", "dex", "wis"],
+   "start": {
+    "f": [],
+    "g": [
+     { "d": "(a) scale mail or (b) leather armor", "o": [
+       [{ "i": "Armor:Scale Mail", "q": 1 }],
+       [{ "i": "Armor:Leather Armor", "q": 1 }]
+     ] },
+     { "d": "(a) two shortswords or (b) two simple melee weapons", "o": [
+       [{ "i": "Weapon:Shortsword", "q": 2 }],
+       [{ "c": "simple-melee-weapons", "q": 2 }]
+     ] },
+     { "d": "(a) a dungeoneer's pack or (b) an explorer's pack", "o": [
+       [{ "i": "Gear:Dungeoneer's Pack", "q": 1 }],
+       [{ "i": "Gear:Explorer's Pack", "q": 1 }]
+     ] },
+     { "d": "a longbow and a quiver of 20 arrows", "o": [
+       [{ "i": "Weapon:Longbow", "q": 1 }, { "i": "Gear:Arrow", "q": 20 }]
+     ] }
+    ]
+   }
+  },
+  {
+   "id": "Class Feature:Favored Enemy (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Favored Enemy (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature.\n\nBeginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.\n\nChoose a type of favored enemy (see the Favored Enemy selection on the Class tab). You gain the benefits shown below.\n\nYou have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.\n\nWhen you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.\n\nYou choose one additional favored enemy, as well as an associated language, at 6th and 14th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Natural Explorer (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Natural Explorer (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature.\n\nYou are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain (see the Favored Terrain selection on the Class tab).\n\nWhen you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n- Difficult terrain doesn't slow your group's travel.\n- Your group can't become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nYou choose additional favored terrain types at 6th and 10th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Favored Foe (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Favored Foe (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature (optional).\n\n**This feature replaces the Favored Enemy feature.** You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it. It does work with the Foe Slayer feature.\n\nWhen you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).\n\nThe first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you increase that damage by 1d4.\n\nYou can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nThis feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.\n\n**Note:** If you take this feature, ignore the Favored Enemy improvements offered at 6th and 14th level.",
+   "rules": [
+    { "resource": { "id": "no-spells-favored-foe", "name": "Favored Foe", "rest": "L", "max": { "pb": true } } }
+   ]
+  },
+  {
+   "id": "Class Feature:Deft Explorer (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Deft Explorer (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature (optional).\n\n**This feature replaces the Natural Explorer feature.** You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it.\n\nYou are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit when you reach 6th level and 10th level in this class.\n\n**Canny (1st Level).** Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make using the chosen skill. You can also speak, read, and write 2 additional languages of your choice.\n\n**Roving (6th Level).** Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.\n\n**Tireless (10th Level).** As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.\n\n**Note:** If you take this feature, ignore the Favored Terrain selections offered at 1st, 6th, and 10th level.",
+   "rules": [
+    { "expertise": 1, "level": 1 },
+    { "select": { "name": "Deft Explorer languages", "type": "Language", "n": 2 }, "level": 1 },
+    { "stat": { "speed": 5 }, "level": 6 },
+    { "resource": { "id": "no-spells-tireless", "name": "Tireless", "rest": "L", "max": { "pb": true } }, "level": 10 }
+   ]
+  },
+  {
+   "id": "Class Feature:Combat Superiority (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Combat Superiority (No Spells UA)",
+   "desc": "2nd-level Ranger, No Spells feature.\n\nAt 2nd level, you learn maneuvers that are fueled by special dice called superiority dice.\n\n**Maneuvers.** You learn two maneuvers of your choice, which are chosen from the list of maneuvers available to fighters with the Battle Master archetype. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack. You learn one additional maneuver of your choice at 5th, 9th, 13th, and 17th levels. Each time you learn a new maneuver, you can also replace one maneuver you know with a different one.\n\n**Superiority Dice.** You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest. You gain another superiority die at 9th level and one more at 17th level.\n\n**Saving Throws.** Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:\n\nManeuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)\n\n**Engine note:** Battle Master maneuvers are not yet defined as elements in this data set. Record your chosen maneuvers on the character sheet.",
+   "rules": [
+    { "resource": { "id": "no-spells-superiority-dice", "name": "Superiority Dice", "rest": "S", "max": { "class": "Ranger, No Spells (UA)", "table": [4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6] } } }
+   ]
+  },
+  {
+   "id": "Class Feature:Poultices (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Poultices (No Spells UA)",
+   "desc": "3rd-level Ranger, No Spells feature.\n\nAt 3rd level, you can create special herbal poultices that have healing power comparable to some potions. You can spend 1 hour gathering herbs and preparing herbal poultices using treated bandages to create a number of such poultices equal to your Wisdom modifier (minimum 1). You can carry a number of poultices at one time equal to your Wisdom modifier (minimum 1). The poultices you create cannot be applied by anyone but you. After 24 hours, any poultices that you have not used lose their potency.\n\nIf you spend 1 minute applying one of your poultices to a wounded humanoid creature, thereby expending its use, that creature regains 1d6 hit points for every two ranger levels you have (rounded up).",
+   "rules": [
+    { "resource": { "id": "no-spells-poultices", "name": "Poultices", "rest": "L", "min": 1, "max": { "mod": "wis" } } }
+   ]
+  },
+  {
+   "id": "Class Feature:Natural Antivenom (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Natural Antivenom (No Spells UA)",
+   "desc": "9th-level Ranger, No Spells feature.\n\nStarting at 9th level, you have advantage on saving throws against poison and have resistance to poison damage. Additionally, you can use one of your poultices to cure one poison effect on the creature you are applying it to, in addition to restoring hit points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Nature's Veil (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Nature's Veil (No Spells UA)",
+   "desc": "10th-level Ranger, No Spells feature (optional).\n\n**This feature replaces the Hide in Plain Sight feature.** You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it.\n\nYou draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    { "resource": { "id": "no-spells-natures-veil", "name": "Nature's Veil", "rest": "L", "max": { "pb": true } } }
+   ]
+  },
+  {
+   "id": "Class Feature:Call Natural Allies (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Call Natural Allies (No Spells UA)",
+   "desc": "13th-level Ranger, No Spells feature.\n\nStarting at 13th level, when you are in an area of your favored terrain, you can call natural creatures from that terrain to fight on your behalf, using your attunement to the natural world to convince them to aid you. The DM chooses beasts appropriate to the terrain to come to your aid from among those that could hear you and that are within 1 mile of you, in one of the following groups:\n- One beast of challenge rating 2 or lower\n- Two beasts of challenge rating 1 or lower\n- Four beasts of challenge rating 1/2 or lower\n- Eight beasts of challenge rating 1/4 or lower\n\nThese beasts approach you from their current location, and will fight alongside you, attacking any creatures that are hostile to you. They are friendly to you and your comrades, and you roll initiative for the called creatures as a group, which takes its own turns. The DM has the creatures' statistics.\n\nAfter 1 hour, these beasts return to their previous location. Once you use this feature, you cannot use it again in the same general area for 24 hours, since the same animals will not repeatedly heed your call.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Relentless (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Relentless (No Spells UA)",
+   "desc": "17th-level Ranger, No Spells feature.\n\nStarting at 17th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.",
+   "rules": []
+  }
+ ]
+}

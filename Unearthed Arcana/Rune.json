@@ -1,0 +1,74 @@
+{
+ "elements": [
+  {
+   "id": "Class:Rune Scribe (UA)",
+   "type": "Class",
+   "name": "Rune Scribe (UA)",
+   "desc": "A rune scribe masters the secrets of the runes of power – ancient sigils that embody the fundamental magic of creation. Rune magic is exceedingly rare: some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune.\n\n**Source:** Unearthed Arcana 9 — Prestige Classes and Rune Magic\n\n**Prestige class.** Prerequisites must be met to gain levels. The engine enforces the ability-score requirements (Dexterity 13, Intelligence 13). Verify the rest yourself: proficiency in the Arcana skill, character level 5 or higher, and a completed special task (find a rune and present it to an NPC tutor to qualify — you may need additional runes and more skilled tutors to reach 5th level in this class).\n\n**Spell slots, not spells.** Rune scribes gain spell slots but no spells known. For multiclassing, add your rune scribe levels to those of any class with the Spellcasting feature to determine total spell slots. Slots are expended to empower runes.\n\n**Missing rune data.** Master runes, rare runes, and their properties are not defined in this data set. Track attuned runes manually on the sheet. If you later add a runes pack, the Runic Discovery and Rune Mastery features can be wired up properly.",
+   "rules": [
+    { "grant": "Class Feature:Rune Lore (UA)", "level": 1 },
+    { "grant": "Class Feature:Runic Magic (UA)", "level": 1 },
+    { "grant": "Class Feature:Runic Discovery (UA)", "level": 2 },
+    { "grant": "Class Feature:Living Rune (UA)", "level": 4 },
+    { "grant": "Class Feature:Rune Mastery (UA)", "level": 5 }
+   ],
+   "hd": 8,
+   "wp": [],
+   "ap": ["t:Calligrapher's Supplies", "t:Mason's Tools", "t:Woodcarver's Tools"],
+   "mp": ["t:Calligrapher's Supplies", "t:Mason's Tools", "t:Woodcarver's Tools"],
+   "prereq": ["&", "dex", "int"],
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "half": false,
+    "rows": [
+     [0, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+     [0, 3, 0, 0, 0, 0, 0, 0, 0, 0],
+     [0, 4, 2, 0, 0, 0, 0, 0, 0, 0],
+     [0, 4, 3, 0, 0, 0, 0, 0, 0, 0],
+     [0, 4, 3, 2, 0, 0, 0, 0, 0, 0]
+    ],
+    "known": null
+   },
+   "start": {
+    "f": [],
+    "g": [{ "d": "The rune scribe prestige class does not grant any special equipment.", "o": [[]] }]
+   }
+  },
+  {
+   "id": "Class Feature:Rune Lore (UA)",
+   "type": "Class Feature",
+   "name": "Rune Lore (UA)",
+   "desc": "1st-level Rune Scribe feature.\n\nAt 1st level, you learn the basics of scribing runes, and are able to activate a master rune's full range of properties when you are properly attuned to it. The Rune Magic section contains information on master runes and descriptions of runes and their properties.\n\nThe first rune you master is the rune you found and presented to your tutor to qualify for this prestige class. Your entrance to the class includes the process of mastering that rune's secrets.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Magic (UA)",
+   "type": "Class Feature",
+   "name": "Runic Magic (UA)",
+   "desc": "1st-level Rune Scribe feature.\n\nRunes can make use of your own magical power to augment some of their effects. You gain a number of spell slots as specified on the Rune Scribe table, but this prestige class does not grant spells known. Instead, as a rune scribe, you can expend your spell slots to empower runes, as described in the \"Rune Magic\" section.\n\nFor the purpose of multiclassing, to determine your total spell slots, add your levels in rune scribe to your levels in classes that grant you the Spellcasting feature. For example, if you are a rune scribe 4/wizard 6, you would have the spell slots of a 10th-level character, in addition to having the cantrips and spellbook of a 6th-level wizard.\n\n**Engine note:** the class casting block handles slot progression. Because there are no rune elements in this data set, the Magic tab will show spell slots but no selectable spells for this class.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Discovery (UA)",
+   "type": "Class Feature",
+   "name": "Runic Discovery (UA)",
+   "desc": "2nd-, 3rd-, and 5th-level Rune Scribe feature.\n\nYour continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 2nd, 3rd, and 5th level, choose a rare rune. You can attune to that rune even if you do not possess the master rune for it. (See the \"Rune Magic\" section for information on rune rarity and master runes.)\n\nIn order to attune to a rune in this manner, you must spend a short rest doing nothing but meditating on the rune. At the end of the short rest, you are attuned to the rune. You are considered to always have the rune on your person for the purpose of determining whether you can use its features.\n\nYou can spend another short rest doing nothing but meditating on the rune to end your attunement to it.\n\n**Engine note:** no rare-rune elements exist in this data set. Track your discovered runes manually — you should have three by the time you reach 5th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Living Rune (UA)",
+   "type": "Class Feature",
+   "name": "Living Rune (UA)",
+   "desc": "4th-level Rune Scribe feature.\n\nRunes are a part of the living world, and your studies allow you to connect to their magic in increasingly powerful ways. At 4th level, you learn to incorporate rune magic into your identity, allowing you to augment your body and mind.\n\nAt the end of a long rest, you can choose to increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. At the end of each subsequent long rest, you can alter this choice, reducing the scores you previously increased and improving different scores. (If you chose to increase two abilities, you can opt to alter only one of those choices.)\n\n**Engine note:** the engine cannot model a per-long-rest re-allocation. Track this daily choice manually on the sheet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rune Mastery (UA)",
+   "type": "Class Feature",
+   "name": "Rune Mastery (UA)",
+   "desc": "5th-level Rune Scribe feature.\n\nAt 5th level, you attain the ability to master an ever-greater range of runic magic. When you attune to a rune, you can choose to have it not count toward your limit of attuned magic items. You can be attuned to only one such rune in this manner at a time. You can use this ability again after you end your attunement to a rune.",
+   "rules": []
+  }
+ ]
+}

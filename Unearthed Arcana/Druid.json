@@ -1,0 +1,527 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Circle of Stars (UA)",
+   "type": "Subclass",
+   "name": "Circle of Stars (UA)",
+   "supports": "Class:Druid",
+   "desc": "An ancient lineage, the Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
+   "rules": [
+    {
+     "grant": "Class Feature:Star Map (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Starry Form (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Cosmic Omen (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Full of Stars (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Star Flare (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Circle of Twilight (UA)",
+   "type": "Subclass",
+   "name": "Circle of Twilight (UA)",
+   "supports": "Class:Druid",
+   "desc": "The Circle of Twilight seeks to exterminate undead creatures and preserve the natural cycle of life and death that rules over the cosmos. Their magic allows them to manipulate the boundary between life and death, sending their foes to their final rest while keeping their allies from that fate.\n\nThese druids seek out lands that have been tainted by undeath. Such places are grim and foreboding. Once vibrant forests become gloomy, haunted places devoid of animals and filled with plants dying a slow, lingering death. The Circle of Twilight goes to such places to banish undeath and restore life.",
+   "rules": [
+    {
+     "grant": "Class Feature:Harvest's Scythe",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Speech Beyond the Grave",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Watcher at the Threshold",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Paths of the Dead",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Circle of Wildfire (UA)",
+   "type": "Subclass",
+   "name": "Circle of Wildfire (UA)",
+   "supports": "Class:Druid",
+   "desc": "Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth. These druids bond with a primal spirit that harbors destructive tendencies, allowing the druids to use their power to create controlled flames that help flora and fauna reproduce and grow.",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells (Wildfire UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Summon Wildfire (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Enhanced Bond (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Flames of Life (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Blazing Endurance (UA)",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "3": [
+      "Locate Animals or Plants",
+      "Scorching Ray"
+     ],
+     "5": [
+      "Fireball",
+      "Plant Growth"
+     ],
+     "7": [
+      "Aura of Life",
+      "Fire Shield"
+     ],
+     "9": [
+      "Flame Strike",
+      "Raise Dead"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Mage of Prismari (UA)",
+   "type": "Subclass",
+   "name": "Mage of Prismari (UA)",
+   "supports": "Class:Druid",
+   "desc": "Mages of Prismari use surges of elemental energy to express who they are and how they see the world. To them, magic and motion are one and the same; both are exhibitions of raw creativity through which masterpieces are made. In their pursuit of the arts, some Prismari mages focus on perfecting the fine details of their technique, while others prefer to unleash their wild creative visions in dazzling spectacles of elemental power.\n\n**Using This Subclass.** Upon selecting the Mage of Prismari subclass, you gain two features: Creative Skills and Kinetic Artistry. In this subclass’s features, any reference to your class refers to the class from which you gained the subclass. If you’re a druid, the College of Prismari counts as your circle. When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+   "rules": [
+    {
+     "grant": "Class Feature:Creative Skills (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Kinetic Artistry (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Favored Medium (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Focused Expression (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Impeccable Physicality (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Mage of Witherbloom (UA)",
+   "type": "Subclass",
+   "name": "Mage of Witherbloom (UA)",
+   "supports": "Class:Druid",
+   "desc": "Mages of Witherbloom draw their magic from the energy that endlessly flows from life to death, and back again. They see the duality of thriving life and inevitable death in all things, tapping and manipulating the transition of energy between these states. Some Witherbloom adherents focus on vital energies to nurture life and empower others, while others embrace the drain of vitality into decay to sap and strike down their foes.\n\n**Using This Subclass.** Upon selecting the Mage of Witherbloom subclass, you gain two features: Witherbloom Spells and Essence Tap. In this subclass’s features, any reference to your class refers to the class from which you gained the subclass. If you’re a druid, the College of Witherbloom counts as your circle. When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+   "rules": [
+    {
+     "grant": "Class Feature:Witherbloom Spells (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Essence Tap (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Witherbloom Brew (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Witherbloom Adept (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Withering Vortex (UA)",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "1": [
+      "Spare the Dying",
+      "Cure Wounds",
+      "Inflict Wounds"
+     ],
+     "3": [
+      "Lesser Restoration",
+      "Ray of Enfeeblement"
+     ],
+     "5": [
+      "Revivify",
+      "Vampiric Touch"
+     ],
+     "7": [
+      "Blight",
+      "Greater Restoration"
+     ],
+     "9": [
+      "Antilife Shell",
+      "Mass Cure Wounds"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Star Map (UA)",
+   "type": "Class Feature",
+   "name": "Star Map (UA)",
+   "desc": "2nd-level Circle of Stars feature.\n\nAt 2nd level, you've created a star map as part of your study of the heavens. The map is a Tiny object and can serve as a spellcasting focus for your druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.\n\n| d6 | Map Form |\n|---|---|\n| 1 | A scroll of living wood that aligns with heavenly bodies |\n| 2 | A stone tablet with fine holes drilled through it |\n| 3 | A speckled owlbear hide, tooled with raised marks |\n| 4 | A collection of maps bound in an ebony cover |\n| 5 | A crystal that projects starry patterns when placed before a light |\n| 6 | Tempered glass disks that align to depict constellations |\n\nIf you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.\n\nYou can cast the Augury and Guiding Bolt spells without expending a spell slot and without preparing the spell, provided you use the star map as the spellcasting focus. You can cast a spell from the map in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "star-map-casts",
+      "name": "Star Map Casts",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     2,
+     "Augury",
+      "Wis mod / long rest"
+    ],
+    [
+     2,
+     "Guiding Bolt",
+      "Wis mod / long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Starry Form (UA)",
+   "type": "Class Feature",
+   "name": "Starry Form (UA)",
+   "desc": "2nd-level Circle of Stars feature.\n\nAt 2nd level, you gain the ability to harness constellations’ power to alter your form. As an action, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.\n\nWhile in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you’re incapacitated.\n\nWhenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:\n\n- **Chalice.** A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + half your level in this class.\n- **Archer.** A constellation of an archer appears on you. You gain a bonus action that you can use to make a ranged spell attack, hurling a luminous arrow that targets a creature you can see within 60 feet of you. On a hit, the attack deals radiant damage equal to 1d8 + your Wisdom modifier.\n- **Dragon.** A constellation of a wise, ancient dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cosmic Omen (UA)",
+   "type": "Class Feature",
+   "name": "Cosmic Omen (UA)",
+   "desc": "6th-level Circle of Stars feature.\n\nWhen you reach 6th level, you learn to use your star map to divine the will of the cosmos. Whenever you finish a long rest, you can consult your star map for omens. When you do so, roll a d6. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the d6:\n\n- **Weal (even).** Whenever a creature you can see within 30 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to roll a d6 and add the number rolled to the total.\n- **Woe (odd).** Whenever a creature you can see within 30 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to roll a d6 and subtract the number rolled from the total.\n\nYou can use this reaction a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "cosmic-omen-ua",
+      "name": "Cosmic Omen",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Full of Stars (UA)",
+   "type": "Class Feature",
+   "name": "Full of Stars (UA)",
+   "desc": "10th-level Circle of Stars feature.\n\nAt 10th level, while your Starry Form feature is active, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Star Flare (UA)",
+   "type": "Class Feature",
+   "name": "Star Flare (UA)",
+   "desc": "14th-level Circle of Stars feature.\n\nAt 14th level, your connection to the cosmos allows you to conjure brilliant starlight. As an action, you conjure a burst of light in a 30-foot-radius sphere centered on a point you can see within 120 feet of you. You can immediately teleport each willing creature in the sphere to an unoccupied space within 30 feet of it. Each creature remaining in the sphere must succeed on a Constitution saving throw against your spell save DC or take 4d10 radiant damage and be blinded until the end of your next turn.\n\nOnce you have used this action, you can’t use it again until you finish a long rest or until you expend a spell slot of 5th level or higher to use it again.",
+   "rules": [
+    {
+     "resource": {
+      "id": "star-flare-ua",
+      "name": "Star Flare",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Harvest's Scythe",
+   "type": "Class Feature",
+   "name": "Harvest's Scythe",
+   "desc": "2nd-level Circle of Twilight feature.\n\nStarting at 2nd level, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. You have a pool of energy represented by a number of d10s equal to your druid level.\n\nWhen you roll damage for a spell, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic damage. If you kill one or more hostile creatures with a spell augmented in this way, you or an ally of your choice that you can see within 30 feet of you regains 2 hit points per die spent to increase the spell’s damage, or 5 hit points per die if at least one of the slain creatures was undead.\n\nYou regain the expended dice when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "harvests-scythe",
+      "name": "Harvest's Scythe Dice (d10)",
+      "rest": "L",
+      "max": {
+       "class": "Druid"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Speech Beyond the Grave",
+   "type": "Class Feature",
+   "name": "Speech Beyond the Grave",
+   "desc": "6th-level Circle of Twilight feature.\n\nAt 6th level, you gain the ability to reach beyond death’s veil in search of knowledge. Using this feature, you can cast Speak with Dead without material components, and you understand what the target of this casting says. It can understand your questions, even if you don’t share a language or it is not intelligent enough to speak.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "speech-beyond-grave",
+      "name": "Speech Beyond the Grave",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     6,
+     "Speak with Dead",
+     "1/short rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Watcher at the Threshold",
+   "type": "Class Feature",
+   "name": "Watcher at the Threshold",
+   "desc": "10th-level Circle of Twilight feature.\n\nAt 10th level, you gain resistance to necrotic and radiant damage. In addition, while you aren’t incapacitated, any ally within 30 feet of you has advantage on death saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Paths of the Dead",
+   "type": "Class Feature",
+   "name": "Paths of the Dead",
+   "desc": "14th-level Circle of Twilight feature.\n\nAt 14th level, your mastery of death allows you to tread the paths used by ghosts and other spirits. Using this feature, you can cast Etherealness. Once the spell ends, you can’t cast it with this feature again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "paths-of-the-dead",
+      "name": "Paths of the Dead",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     14,
+     "Etherealness",
+     "1/short rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Circle Spells (Wildfire UA)",
+   "type": "Class Feature",
+   "name": "Circle Spells (Wildfire UA)",
+   "desc": "2nd-level Circle of Wildfire feature.\n\nYou have formed a mystical bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to certain spells. At 2nd level, you learn the Fire Bolt cantrip. When you reach certain levels in this class, you gain access to the spells listed for that level in the Circle of Wildfire Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+   "rules": [],
+   "featSpells": [
+    [
+     2,
+     "Fire Bolt",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Summon Wildfire (UA)",
+   "type": "Class Feature",
+   "name": "Summon Wildfire (UA)",
+   "desc": "2nd-level Circle of Wildfire feature.\n\nAt 2nd level, you can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.\n\nThe spirit appears in an unoccupied space of your choice you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take 2d10 fire damage.\n\nThe wildfire spirit is friendly to you and your companions and obeys your commands. See this creature’s game statistics in the wildfire spirit stat block. You determine the spirit’s appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.\n\nIn combat, the wildfire spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the Dash, Disengage, Help, or Hide action.\n\nThe wildfire spirit manifests for 1 hour, until it is reduced to 0 hit points, or until you use your Wild Shape again.\n\n**Wildfire Spirit**\n*Small elemental, any chaotic alignment*\n\n**Armor Class** 13 (natural armor)\n**Hit Points** equal to the wildfire spirit’s Constitution modifier + your Wisdom modifier + five times your level in this class\n**Speed** 20 ft., fly 30 ft. (hover)\n\n| STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|\n| 10 (+0) | 14 (+2) | 14 (+2) | 13 (+1) | 15 (+2) | 11 (+0) |\n\n**Saving Throws** Dex +4, Con +4, Wis +4\n**Skills** Nature +4\n**Damage Immunities** fire\n**Condition Immunities** charmed, frightened, grappled, prone, restrained\n**Senses** darkvision 60 ft., passive Perception 12\n**Languages** understands the languages you speak\n\n**Soul Bond.** The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.\n\n**Actions (Require Your Bonus Action)**\n\n**Flame Send.** Ranged Weapon Attack: +4, range 30ft., one target you can see. Hit: 1d6 + 2 fire damage.\n\n**Fiery Teleportation (Recharges after a Short or Long Rest).** The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + 2 fire damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Enhanced Bond (UA)",
+   "type": "Class Feature",
+   "name": "Enhanced Bond (UA)",
+   "desc": "6th-level Circle of Wildfire feature.\n\nAt 6th level, the bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus to one roll of the spell equal to the number rolled.\n\nIn addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Flames of Life (UA)",
+   "type": "Class Feature",
+   "name": "Flames of Life (UA)",
+   "desc": "10th-level Circle of Wildfire feature.\n\nYou gain the ability to turn death into flames of vitality. When a Small or larger creature that you can see dies within 30 feet of you or your wildfire spirit, you can use your reaction to cause primal flames to spring from the body. When a creature you can see touches these flames, the creature regains hit points or takes fire damage (your choice) equal to 2d10 + your Wisdom modifier. The flames vanish after a creature has touched them or after 1 minute.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "flames-of-life",
+      "name": "Flames of Life",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blazing Endurance (UA)",
+   "type": "Class Feature",
+   "name": "Blazing Endurance (UA)",
+   "desc": "14th-level Circle of Wildfire feature.\n\nAt 14th level, the bond with your wildfire spirit is exceptionally strong, even fatal blows only fuel your defiance. If you drop to 0 hit points and don’t die outright, you drop to 1 hit point instead and gain temporary hit points equal to five times your druid level, and each creature of your choice within 30 feet of you that you can see takes fire damage equal to 2d10 + your druid level.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "blazing-endurance",
+      "name": "Blazing Endurance",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Creative Skills (UA)",
+   "type": "Class Feature",
+   "name": "Creative Skills (UA)",
+   "desc": "Level 1+ Mage of Prismari Feature\n\nYou gain proficiency in two of the following skills of your choice: Acrobatics, Athletics, Nature, or Performance.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiencies (Creative Skills)",
+      "type": "Skill",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Athletics",
+       "Nature",
+       "Performance"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Kinetic Artistry (UA)",
+   "type": "Class Feature",
+   "name": "Kinetic Artistry (UA)",
+   "desc": "Level 1+ Mage of Prismari Feature\n\nYou can Dash as a bonus action. When you take this bonus action, choose one of the following additional effects:\n\n- **Boreal Sweep.** Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is knocked prone. A creature can be affected by the water only once each turn.\n- **Scorching Whirl.** Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to 1d4 + your spellcasting modifier.\n- **Thunderlight Jaunt.** You take on a nimble lightning form. Until the end of your turn, you can move through the space of other creatures, and you do not provoke opportunity attacks. If you end your turn inside a creature’s space, you are pushed into the nearest unoccupied space.\n\nYou can use a bonus action in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "kinetic-artistry",
+      "name": "Kinetic Artistry",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Favored Medium (UA)",
+   "type": "Class Feature",
+   "name": "Favored Medium (UA)",
+   "desc": "Level 6+ Mage of Prismari Feature\n\nYou have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type.\n\nAdditionally, when you cast a spell using a spell slot that deals the chosen damage type, you emit a spectacular aura of artistry, which extends 5 feet from you in every direction (but not through total cover) and lasts until the end of your next turn. While the aura is active, each creature of your choice has resistance to your chosen damage type while within the aura, as you shape your favored elemental medium around them.\n\nYou can change your choice of damage type whenever you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Focused Expression (UA)",
+   "type": "Class Feature",
+   "name": "Focused Expression (UA)",
+   "desc": "Level 10+ Mage of Prismari Feature\n\nHoning your talents, you skillfully infuse your motions with even more potent expressions of elemental might. Once per turn when you deal damage to at least one target, you gain an additional effect determined by the damage type chosen for your Favored Medium feature:\n\n- **Cold.** One of the targets of your choice takes an additional 1d6 cold damage and must make a Constitution saving throw against your spell save DC. On a failed save, the target’s speed is reduced by 10 feet until the end of its next turn, as ice mires it. A target can be affected by the ice only once per round.\n- **Fire.** One of the targets of your choice takes an additional 1d6 fire damage. Fortifying flames then dance around one creature of your choice within 30 feet of you. The chosen creature gains 1d6 temporary hit points.\n- **Lightning.** One of the targets of your choice takes an additional 1d6 lightning damage and must make a Dexterity saving throw against your spell save DC. On a failed save, the target is unable to take reactions until the end of its next turn, as residual lightning shocks its form.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Impeccable Physicality (UA)",
+   "type": "Class Feature",
+   "name": "Impeccable Physicality (UA)",
+   "desc": "Level 14+ Mage of Prismari Feature\n\nYour relentless dedication and training have instilled an outstanding sense of precision and grace in your art. You gain proficiency in Dexterity saving throws if you do not already have it. Additionally, when you make a Dexterity saving throw, you can treat a d20 roll of a 9 or lower as a 10.",
+   "rules": [
+    {
+     "grant": "save:dex"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Witherbloom Spells (UA)",
+   "type": "Class Feature",
+   "name": "Witherbloom Spells (UA)",
+   "desc": "Level 1+ Mage of Witherbloom Feature\n\nYou learn the cantrip Spare the Dying and the 1st level spells Cure Wounds and Inflict Wounds. You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.\n\nEach of these spells count as a class spell for you, but it doesn’t count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don’t count against the number of spells you can prepare each day.\n\n**Witherbloom Spells**\n| Class Level | Spells |\n|---|---|\n| 3rd | Lesser Restoration, Ray of Enfeeblement |\n| 5th | Revivify, Vampiric Touch |\n| 7th | Blight, Greater Restoration |\n| 9th | Antilife Shell, Mass Cure Wounds |",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Essence Tap (UA)",
+   "type": "Class Feature",
+   "name": "Essence Tap (UA)",
+   "desc": "Level 1+ Mage of Witherbloom Feature\n\nAs a bonus action, you can draw on a reservoir of life essence to empower yourself for 1 minute, or until you use this feature again. For the duration, you gain one of the following benefits of your choice:\n\n- **Overgrowth.** When you choose this benefit, and as a bonus action on subsequent turns while the benefit lasts, you can expend and roll one Hit Die. You regain a number of hit points equal to the number rolled plus your spellcasting ability modifier.\n- **Withering Strike.** When you deal damage, you can change the damage type to necrotic, and you ignore resistance to necrotic damage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "essence-tap",
+      "name": "Essence Tap",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Witherbloom Brew (UA)",
+   "type": "Class Feature",
+   "name": "Witherbloom Brew (UA)",
+   "desc": "Level 6+ Mage of Witherbloom Feature\n\nYou gain proficiency with herbalism kits if you don’t already have it.\n\nWhen you finish a long rest, you can use an herbalism kit and a pot or cauldron to create magical brews. You create a number of brews equal to your proficiency bonus. Each brew requires its own flask. A brew retains its magical potency for 24 hours or until it is used. For each brew, choose one of the following effects:\n\n- **Fortifying.** When you create this brew, choose a damage type from the following list: cold, fire, necrotic, poison, or radiant. A creature can drink this brew or administer it to another creature as an action. The recipient gains resistance to the chosen damage type for 1 hour.\n- **Quickening.** A creature can drink this brew or administer it to another creature as an action. The recipient regains 2d6 hit points, and one disease or condition from the following list affecting the recipient ends (brew user’s choice): charmed, frightened, paralyzed, poisoned, stunned.\n- **Toxifying.** As an action, a creature can apply this brew to a simple or martial weapon. The next time the weapon or a piece of ammunition fired by it hits a creature within 1 hour, the target takes 2d6 poison damage and must succeed on a Constitution saving throw against your spell save DC or be poisoned for 1 minute.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Witherbloom Adept (UA)",
+   "type": "Class Feature",
+   "name": "Witherbloom Adept (UA)",
+   "desc": "Level 10+ Mage of Witherbloom Feature\n\nYour connection to the flow of life force deepens. Once per turn when you deal necrotic damage or restore hit points using a spell, one target of the spell takes additional damage or regains additional hit points equal to your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Withering Vortex (UA)",
+   "type": "Class Feature",
+   "name": "Withering Vortex (UA)",
+   "desc": "Level 14+ Mage of Witherbloom Feature\n\nWhen you cast a spell using a spell slot that deals necrotic damage to any number of creatures that aren’t Undead or Constructs, choose one of the creatures that took damage. You drain an amount of life energy equal to half the damage dealt to the chosen creature. One creature other than yourself that you can see within 30 feet of you regains a number of hit points equal to the life energy drained.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "withering-vortex",
+      "name": "Withering Vortex",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
