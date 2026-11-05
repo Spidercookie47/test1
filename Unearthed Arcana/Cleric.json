@@ -8,31 +8,31 @@
    "desc": "The City domain is concerned with the citizenry, commerce, traffic, and even architecture of modern civilization. In the eyes of a cleric of the city, the center of modern life is a sense and spirit of community, and the gravest enemies of the city are those who seek to harm the common weal of its citizens.",
    "rules": [
     {
-     "grant": "Class Feature:Bonus Cantrip (City)",
+     "grant": "Class Feature:Bonus Cantrip (City) (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Bonus Proficiencies (City)",
+     "grant": "Class Feature:Bonus Proficiencies (City) (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Heart of the City",
+     "grant": "Class Feature:Heart of the City (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Channel Divinity: Spirits of the City",
+     "grant": "Class Feature:Channel Divinity: Spirits of the City (UA)",
      "level": 2
     },
     {
-     "grant": "Class Feature:Block Watch",
+     "grant": "Class Feature:Block Watch (UA)",
      "level": 6
     },
     {
-     "grant": "Class Feature:Divine Strike (City)",
+     "grant": "Class Feature:Divine Strike (City) (UA)",
      "level": 8
     },
     {
-     "grant": "Class Feature:Express Transit",
+     "grant": "Class Feature:Express Transit (UA)",
      "level": 17
     }
    ],
@@ -70,27 +70,27 @@
    "desc": "The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods’ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind.",
    "rules": [
     {
-     "grant": "Class Feature:Bonus Proficiency (Protection)",
+     "grant": "Class Feature:Bonus Proficiency (Protection) (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Shield of the Faithful",
+     "grant": "Class Feature:Shield of the Faithful (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Channel Divinity: Radiant Defense",
+     "grant": "Class Feature:Channel Divinity: Radiant Defense (UA)",
      "level": 2
     },
     {
-     "grant": "Class Feature:Blessed Healer (Protection)",
+     "grant": "Class Feature:Blessed Healer (Protection) (UA)",
      "level": 6
     },
     {
-     "grant": "Class Feature:Divine Strike (Protection)",
+     "grant": "Class Feature:Divine Strike (Protection) (UA)",
      "level": 8
     },
     {
-     "grant": "Class Feature:Indomitable Defense",
+     "grant": "Class Feature:Indomitable Defense (UA)",
      "level": 17
     }
    ],
@@ -128,31 +128,31 @@
    "desc": "The Twilight Domain governs the transition and blending of light into darkness. It is a time of rest and comfort, but also the threshold between safety and the unknown. Deities of healing or respite, bravery or protection, travel or transition, or the night and dreams might grant their clerics the Twilight Domain. Clerics who serve these deities tend to be brave, delving into the dark to hold its dangers at bay and to bring comfort to those lost far from the light.",
    "rules": [
     {
-     "grant": "Class Feature:Bonus Proficiencies (Twilight)",
+     "grant": "Class Feature:Bonus Proficiencies (Twilight) (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Eyes of Night",
+     "grant": "Class Feature:Eyes of Night (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Vigilant Blessing",
+     "grant": "Class Feature:Vigilant Blessing (UA)",
      "level": 1
     },
     {
-     "grant": "Class Feature:Channel Divinity: Twilight Sanctuary",
+     "grant": "Class Feature:Channel Divinity: Twilight Sanctuary (UA)",
      "level": 2
     },
     {
-     "grant": "Class Feature:Steps of the Brave",
+     "grant": "Class Feature:Steps of the Brave (UA)",
      "level": 6
     },
     {
-     "grant": "Class Feature:Divine Strike (Twilight)",
+     "grant": "Class Feature:Divine Strike (Twilight) (UA)",
      "level": 8
     },
     {
-     "grant": "Class Feature:Midnight Shroud",
+     "grant": "Class Feature:Midnight Shroud (UA)",
      "level": 17
     }
    ],
@@ -194,7 +194,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Channel Divinity: Shared Burden",
+     "grant": "Class Feature:Channel Divinity: Shared Burden (UA)",
      "level": 2
     },
     {
@@ -202,11 +202,11 @@
      "level": 6
     },
     {
-     "grant": "Class Feature:Potent Spellcasting (Unity)",
+     "grant": "Class Feature:Potent Spellcasting (Unity) (UA)",
      "level": 8
     },
     {
-     "grant": "Class Feature:Enduring Unity",
+     "grant": "Class Feature:Enduring Unity (UA)",
      "level": 17
     }
    ],
@@ -237,21 +237,28 @@
    }
   },
   {
-   "id": "Class Feature:Bonus Cantrip (City)",
+   "id": "Class Feature:Bonus Cantrip (City) (UA)",
    "type": "Class Feature",
    "name": "Bonus Cantrip (City)",
    "desc": "1st-level City Domain feature.\n\nWhen you choose this domain at 1st level, you gain the On/Off cantrip in addition to your chosen cantrips.",
    "rules": []
   },
   {
-   "id": "Class Feature:Bonus Proficiencies (City)",
+   "id": "Class Feature:Bonus Proficiencies (City) (UA)",
    "type": "Class Feature",
    "name": "Bonus Proficiencies (City)",
    "desc": "1st-level City Domain feature.\n\nAlso starting at 1st level, you gain proficiency with sidearms and proficiency with vehicles (land).",
-   "rules": []
+   "rules": [
+    {
+     "pf": [
+      "w:Sidearms",
+      "t:Vehicles (land)"
+     ]
+    }
+   ]
   },
   {
-   "id": "Class Feature:Heart of the City",
+   "id": "Class Feature:Heart of the City (UA)",
    "type": "Class Feature",
    "name": "Heart of the City",
    "desc": "1st-level City Domain feature.\n\nFrom 1st level, you are able to tap into the spirit of community found in the city. While you are within any city, you can gain advantage on a single Charisma (Deception, Intimidation, or Persuasion) check, and you are considered proficient in the appropriate skill. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.",
@@ -270,28 +277,28 @@
    ]
   },
   {
-   "id": "Class Feature:Channel Divinity: Spirits of the City",
+   "id": "Class Feature:Channel Divinity: Spirits of the City (UA)",
    "type": "Class Feature",
    "name": "Channel Divinity: Spirits of the City",
    "desc": "2nd-level City Domain feature.\n\nStarting at 2nd level, you can use your Channel Divinity to call on the city for aid. As an action, you present your holy symbol, and any city utility within 30 feet of you either works perfectly or shuts down entirely for 1 minute (your choice).\n\nAdditionally, each hostile creature within 30 feet of you must make a Charisma saving throw. On a failed save, the creature is knocked prone or restrained (your choice) by hazards such as entangling wires, high-pressure water erupting from fire hydrants, pavement collapsing to unseen potholes, and so on. A restrained creature can escape by making a successful Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC.\n\nThis effect is entirely local and affects only utilities within 30 feet of you. Determination of what utilities are available within range and how the physical effects of those utilities manifest are left to the DM.",
    "rules": []
   },
   {
-   "id": "Class Feature:Block Watch",
+   "id": "Class Feature:Block Watch (UA)",
    "type": "Class Feature",
    "name": "Block Watch",
    "desc": "6th-level City Domain feature.\n\nStarting at 6th level, your awareness while in the city extends preternaturally. While in an urban environment, you are considered proficient in the Insight and Perception skills, and you add double your proficiency bonus to Wisdom (Insight) and Wisdom (Perception) checks, instead of your normal proficiency bonus.",
    "rules": []
   },
   {
-   "id": "Class Feature:Divine Strike (City)",
+   "id": "Class Feature:Divine Strike (City) (UA)",
    "type": "Class Feature",
    "name": "Divine Strike (City)",
    "desc": "8th-level City Domain feature.\n\nAt 8th level, you gain the ability to infuse your weapon strikes with psychic energy borrowed from the citizens of your city. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra psychic damage increases to 2d8.",
    "rules": []
   },
   {
-   "id": "Class Feature:Express Transit",
+   "id": "Class Feature:Express Transit (UA)",
    "type": "Class Feature",
    "name": "Express Transit",
    "desc": "17th-level City Domain feature.\n\nAt 17th level, you can use mass transit routes to transport instantaneously to other points in the city. Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a Teleport spell whose destination is a permanent Teleportation Circle you know. Once you use this feature, you must finish a short or long rest before using it again.",
@@ -307,56 +314,69 @@
    ]
   },
   {
-   "id": "Class Feature:Bonus Proficiency (Protection)",
+   "id": "Class Feature:Bonus Proficiency (Protection) (UA)",
    "type": "Class Feature",
    "name": "Bonus Proficiency (Protection)",
    "desc": "1st-level Protection Domain feature.\n\nWhen you choose this domain at 1st level, you gain proficiency with heavy armor.",
-   "rules": []
+   "rules": [
+    {
+     "pf": [
+      "a:Heavy armor"
+     ]
+    }
+   ]
   },
   {
-   "id": "Class Feature:Shield of the Faithful",
+   "id": "Class Feature:Shield of the Faithful (UA)",
    "type": "Class Feature",
    "name": "Shield of the Faithful",
    "desc": "1st-level Protection Domain feature.\n\nStarting at 1st level, you gain the ability to hinder attacks intended for others. When a creature attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. To do so, you must be able to see both the attacker and the target. You interpose an arm, a shield, or some other part of yourself to try to throw the attack off target.",
    "rules": []
   },
   {
-   "id": "Class Feature:Channel Divinity: Radiant Defense",
+   "id": "Class Feature:Channel Divinity: Radiant Defense (UA)",
    "type": "Class Feature",
    "name": "Channel Divinity: Radiant Defense",
    "desc": "2nd-level Protection Domain feature.\n\nStarting at 2nd level, you can use your Channel Divinity to cloak your allies in radiant armor.\n\nAs an action, you channel blessed energy into an ally that you can see within 30 feet of you. The first time that ally is hit by an attack within the next minute, the attacker takes radiant damage equal to 2d10 + your cleric level.",
    "rules": []
   },
   {
-   "id": "Class Feature:Blessed Healer (Protection)",
+   "id": "Class Feature:Blessed Healer (Protection) (UA)",
    "type": "Class Feature",
    "name": "Blessed Healer (Protection)",
    "desc": "6th-level Protection Domain feature.\n\nBeginning at 6th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell’s level.",
    "rules": []
   },
   {
-   "id": "Class Feature:Divine Strike (Protection)",
+   "id": "Class Feature:Divine Strike (Protection) (UA)",
    "type": "Class Feature",
    "name": "Divine Strike (Protection)",
    "desc": "8th-level Protection Domain feature.\n\nAt 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
    "rules": []
   },
   {
-   "id": "Class Feature:Indomitable Defense",
+   "id": "Class Feature:Indomitable Defense (UA)",
    "type": "Class Feature",
    "name": "Indomitable Defense",
    "desc": "17th-level Protection Domain feature.\n\nAt 17th level, you gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing. Whenever you finish a short or long rest, you can change the damage types you chose.\n\nAs an action, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until the end of your next short or long rest or until you transfer it back to yourself as a bonus action.",
    "rules": []
   },
   {
-   "id": "Class Feature:Bonus Proficiencies (Twilight)",
+   "id": "Class Feature:Bonus Proficiencies (Twilight) (UA)",
    "type": "Class Feature",
    "name": "Bonus Proficiencies (Twilight)",
    "desc": "1st-level Twilight Domain feature.\n\nAt 1st level, you gain proficiency with martial weapons and heavy armor.",
-   "rules": []
+   "rules": [
+    {
+     "pf": [
+      "w:Martial weapons",
+      "a:Heavy armor"
+     ]
+    }
+   ]
   },
   {
-   "id": "Class Feature:Eyes of Night",
+   "id": "Class Feature:Eyes of Night (UA)",
    "type": "Class Feature",
    "name": "Eyes of Night",
    "desc": "1st-level Twilight Domain feature.\n\nStarting at 1st level, your eyes are blessed, allowing you to see through the deepest gloom. You have darkvision with no maximum range; you can see in dim light as if it were bright light and in darkness as if it were dim light.\n\nAs an action, you can magically give the benefit of this feature to any number of creatures you can see within 10 feet of you. The shared benefit lasts for 10 minutes. You can extend this benefit a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
@@ -375,35 +395,35 @@
    ]
   },
   {
-   "id": "Class Feature:Vigilant Blessing",
+   "id": "Class Feature:Vigilant Blessing (UA)",
    "type": "Class Feature",
    "name": "Vigilant Blessing",
    "desc": "1st-level Twilight Domain feature.\n\nAt 1st level, the night has taught you to be vigilant. As an action, you give one creature you touch (including possibly yourself) advantage on your next initiative roll the creature makes. This benefit ends immediately after the roll or if you use this feature again.",
    "rules": []
   },
   {
-   "id": "Class Feature:Channel Divinity: Twilight Sanctuary",
+   "id": "Class Feature:Channel Divinity: Twilight Sanctuary (UA)",
    "type": "Class Feature",
    "name": "Channel Divinity: Twilight Sanctuary",
    "desc": "2nd-level Twilight Domain feature.\n\nAt 2nd level, you can use your Channel Divinity to refresh your allies with soothing twilight.\n\nAs an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:\n- Give it 1d8 temporary hit points\n- End one effect causing it to be charmed or frightened.",
    "rules": []
   },
   {
-   "id": "Class Feature:Steps of the Brave",
+   "id": "Class Feature:Steps of the Brave (UA)",
    "type": "Class Feature",
    "name": "Steps of the Brave",
    "desc": "6th-level Twilight Domain feature.\n\nStarting at 6th level, you draw strength from your connection to twilight and find yourself at home within its dark embrace, gaining two benefits.\n\n- You have advantage on saving throws against being frightened.\n- If you are in dim light or darkness, you can use a bonus action to magically give yourself a flying speed equal to your walking speed until the end of your next turn.",
    "rules": []
   },
   {
-   "id": "Class Feature:Divine Strike (Twilight)",
+   "id": "Class Feature:Divine Strike (Twilight) (UA)",
    "type": "Class Feature",
    "name": "Divine Strike (Twilight)",
    "desc": "8th-level Twilight Domain feature.\n\nAt 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage. When you reach 14th level, the extra damage increases to 2d8.",
    "rules": []
   },
   {
-   "id": "Class Feature:Midnight Shroud",
+   "id": "Class Feature:Midnight Shroud (UA)",
    "type": "Class Feature",
    "name": "Midnight Shroud",
    "desc": "17th-level Twilight Domain feature.\n\nAt 17th level, you can harness the shrouding power of night to protect your allies and stymie your foes. Whenever you cast the Darkness spell using a spell slot, you can choose a number of creatures that you can see (including yourself) equal to your Wisdom modifier (minimum of one). The chosen creatures can see through the darkness.",
@@ -426,7 +446,7 @@
    ]
   },
   {
-   "id": "Class Feature:Channel Divinity: Shared Burden",
+   "id": "Class Feature:Channel Divinity: Shared Burden (UA)",
    "type": "Class Feature",
    "name": "Channel Divinity: Shared Burden",
    "desc": "2nd-level Unity Domain feature.\n\nStarting at 2nd level, you can use your Channel Divinity to protect your allies through the strength of your shared bonds.\n\nWhen a creature you can see within 30 feet of you takes damage, you can use your reaction to choose a number of other willing creatures you can see, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). Distribute the damage taken between the original target and the chosen creatures. Each creature must take at least 1 damage. Apply any damage resistance or vulnerability of the creatures involved after you distribute the damage.",
@@ -440,14 +460,14 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Potent Spellcasting (Unity)",
+   "id": "Class Feature:Potent Spellcasting (Unity) (UA)",
    "type": "Class Feature",
    "name": "Potent Spellcasting (Unity)",
    "desc": "8th-level Unity Domain feature.\n\nBeginning at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.",
    "rules": []
   },
   {
-   "id": "Class Feature:Enduring Unity",
+   "id": "Class Feature:Enduring Unity (UA)",
    "type": "Class Feature",
    "name": "Enduring Unity",
    "desc": "17th-level Unity Domain feature.\n\nAt 17th level, the bonds you create endure across vast distances. Creatures affected by your Emboldening Bond feature gain its benefits, as well as those of your Protective Bond feature, while they are on the same plane of existence as each other.\n\nAdditionally, when a creature chosen for your Emboldening Bond is reduced to 0 hit points, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hit point:\n- The creature has advantage on attack rolls, ability checks, and saving throws\n- The creature gains resistance to all damage\n- As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled.",

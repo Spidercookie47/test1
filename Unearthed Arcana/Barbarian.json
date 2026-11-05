@@ -87,7 +87,7 @@
    "id": "Class Feature:Form of the Beast (UA)",
    "type": "Class Feature",
    "name": "Form of the Beast (UA)",
-   "desc": "3rd-level Path of the Beast feature.\n\nStarting when you choose this path at 3rd level, when you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:\n\n**Bite.** Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).\n\n**Claws.** Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.\n\n**Tail.** You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.",
+   "desc": "3rd-level Path of the Beast feature.\n\nStarting when you choose this path at 3rd level, when you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:\n\nBite. Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).\n\nClaws. Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.\n\nTail. You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.",
    "rules": []
   },
   {
@@ -143,21 +143,32 @@
    "rules": [
     {
      "grant": "Language:Giant"
+    },
+    {
+     "select": {
+      "name": "Extra language (only if you already know Giant)",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Cantrip (Wisdom)",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Druidcraft",
+       "Spell:Thaumaturgy"
+      ]
+     }
     }
-   ],
-   "featSpells": [
-    [
-     3,
-     "Druidcraft or Thaumaturgy",
-     "at will"
-    ]
    ]
   },
   {
    "id": "Class Feature:Giant's Havoc (UA)",
    "type": "Class Feature",
    "name": "Giant's Havoc (UA)",
-   "desc": "3rd-Level Path of the Giant Feature\n\nYour rages pull strength from the primal might of giants, transforming you into a hulking force of destruction. While raging, you gain the following benefits:\n\n- **Crushing Hurl.** When you make a successful ranged attack with a thrown weapon using Strength, you can add your Rage Damage bonus to the attack’s damage roll.\n- **Giant Stature.** Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn’t enough room for you to become Large, your size doesn’t change.",
+   "desc": "3rd-Level Path of the Giant Feature\n\nYour rages pull strength from the primal might of giants, transforming you into a hulking force of destruction. While raging, you gain the following benefits:\n\n- Crushing Hurl. When you make a successful ranged attack with a thrown weapon using Strength, you can add your Rage Damage bonus to the attack’s damage roll.\n- Giant Stature. Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn’t enough room for you to become Large, your size doesn’t change.",
    "rules": []
   },
   {
@@ -203,7 +214,7 @@
     [
      3,
      "Detect Magic",
-      "1/long rest"
+     "1/long rest"
     ]
    ]
   },
@@ -211,7 +222,7 @@
    "id": "Class Feature:Wild Surge (UA)",
    "type": "Class Feature",
    "name": "Wild Surge (UA)",
-   "desc": "3rd-level Path of the Wild Soul feature.\n\nStarting at 3rd level, magic erupts from you as you rage. When you enter your rage, roll on the Wild Surge table to determine the magical effect produced. If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.\n\n**Wild Surge**\n| d8 | Effect |\n|---|---|\n| 1 | Necrotic energy bursts from you. Each creature within 30 feet of you takes 1d10 necrotic damage, and you gain temporary hit points equal to the sum of the necrotic damage dealt to the creatures. |\n| 2 | You teleport up to 20 feet to an unoccupied space you can see. Until your rage ends, you can activate this effect again on each of your turns as a bonus action. |\n| 3 | You conjure 1d4 intangible spirits that look like flumphs in unoccupied spaces within 30 feet of you. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them must succeed on a Dexterity saving throw or take 2d8 force damage |\n| 4 | Arcane energy enshrouds you. Until your rage ends, you gain a +2 bonus to AC, and whenever a creature within 10 feet of you hits you with an attack, that creature takes force damage equal to your Constitution modifier |\n| 5 | Plant life temporarily grows around you: until your rage ends, the ground within 10 feet of you is difficult terrain. |\n| 6 | Arcane energy taps into the minds of those around you. Each creature within 30 feet of you must succeed on a Wisdom saving throw or you see a glimpse of the creature’s thoughts, learning how it plans to attack you. As a result, the creature has disadvantage on attack rolls against you until the start of your next turn |\n| 7 | Shadows weave around a weapon of your choice you are holding. Until your rage ends, your weapon deals psychic damage instead of its bludgeoning, slashing, or piercing damage, and it gains the light and thrown properties with a normal range of 20 feet and a long range of 60 feet. If you drop the weapon or throw it, the weapon dissipates and reappears in your hand at the end of your turn. |\n| 8 | A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line must succeed on a Constitution saving throw or take 2d8 radiant damage and be blinded until the start of your next turn. |",
+   "desc": "3rd-level Path of the Wild Soul feature.\n\nStarting at 3rd level, magic erupts from you as you rage. When you enter your rage, roll on the Wild Surge table to determine the magical effect produced. If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
    "rules": []
   },
   {

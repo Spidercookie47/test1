@@ -29,7 +29,7 @@
    "desc": "Bards of the College of Satire are called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.\n\nWhile jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester’s barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.\n\nJesters are loyal to only one cause: the pursuit and propagation of the truth. They use their comedy and innocuous appearance to break down social barriers and expose corruption, incompetence, and stupidity among the rich and powerful. Whether revealing a con artist’s treachery or exposing a baron’s plans for war as driven by greed and bloodlust, a jester serves as the conscience of a realm.",
    "rules": [
     {
-     "grant": "Class Feature:Bonus Proficiencies (Satire)",
+     "grant": "Class Feature:Bonus Proficiencies (Satire) (UA)",
      "level": 3
     },
     {
@@ -80,7 +80,7 @@
    "type": "Subclass",
    "name": "Mage of Silverquill (UA)",
    "supports": "Class:Bard",
-   "desc": "Mages of Silverquill hone the power of words. They channel the magic of light and shadow through words, whether spoken aloud, written, or signed through gestures. The words of a mage of Silverquill bring salvation to their allies and despair to their enemies.\n\n**Using This Subclass.** Upon selecting the Mage of Silverquill subclass, you gain two features: Eloquent Apprentice and Silvery Barbs. In this subclass’s features, any reference to your class refers to the class from which you gained the subclass. If you’re a bard, the College of Silverquill counts as your college, if you’re a warlock, the college counts as your patron, and if you’re a wizard, the college counts as your tradition. When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+   "desc": "Mages of Silverquill hone the power of words. They channel the magic of light and shadow through words, whether spoken aloud, written, or signed through gestures. The words of a mage of Silverquill bring salvation to their allies and despair to their enemies.\n\nUsing This Subclass. Upon selecting the Mage of Silverquill subclass, you gain two features: Eloquent Apprentice and Silvery Barbs. In this subclass’s features, any reference to your class refers to the class from which you gained the subclass. If you’re a bard, the College of Silverquill counts as your college, if you’re a warlock, the college counts as your patron, and if you’re a wizard, the college counts as your tradition. When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
    "rules": [
     {
      "grant": "Class Feature:Eloquent Apprentice (UA)",
@@ -108,14 +108,14 @@
    "id": "Class Feature:Note of Potential (UA)",
    "type": "Class Feature",
    "name": "Note of Potential (UA)",
-   "desc": "3rd-level College of Creation feature.\n\nWhen you join the College of Creation at 3rd level, you can manipulate the Song of Creation to summon a floating musical note of possibility:\n\nWhenever you give a creature a Bardic Inspiration die, you can create a Note of Potential. The note orbits within 5 feet of the creature. The note is a Tiny object that is intangible and invulnerable, and it lasts until the Bardic Inspiration die is lost. A creature with a note can use it in the following ways.\n\n**Note of Destruction.** Immediately after the creature rolls the Bardic Inspiration die to add it to an attack roll, the creature can expend the note to create a burst of sound. Each other creature within 5 feet of it must succeed on a Constitution saving throw against your spell save DC or take thunder damage equal to the number rolled on the Bardic Inspiration die.\n\n**Note of Protection.** Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, the creature can expend the note to gain temporary hit points equal to the number rolled on the Bardic Inspiration die + your Charisma modifier, provided the creature doesn't already have temporary hit points.\n\n**Note of Ingenuity.** When the creature rolls the Bardic Inspiration die to add it to an ability check, the creature can expend the note to roll the Bardic Inspiration die again and choose which roll to use.",
+   "desc": "3rd-level College of Creation feature.\n\nWhen you join the College of Creation at 3rd level, you can manipulate the Song of Creation to summon a floating musical note of possibility:\n\nWhenever you give a creature a Bardic Inspiration die, you can create a Note of Potential. The note orbits within 5 feet of the creature. The note is a Tiny object that is intangible and invulnerable, and it lasts until the Bardic Inspiration die is lost. A creature with a note can use it in the following ways.\n\nNote of Destruction. Immediately after the creature rolls the Bardic Inspiration die to add it to an attack roll, the creature can expend the note to create a burst of sound. Each other creature within 5 feet of it must succeed on a Constitution saving throw against your spell save DC or take thunder damage equal to the number rolled on the Bardic Inspiration die.\n\nNote of Protection. Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, the creature can expend the note to gain temporary hit points equal to the number rolled on the Bardic Inspiration die + your Charisma modifier, provided the creature doesn't already have temporary hit points.\n\nNote of Ingenuity. When the creature rolls the Bardic Inspiration die to add it to an ability check, the creature can expend the note to roll the Bardic Inspiration die again and choose which roll to use.",
    "rules": []
   },
   {
    "id": "Class Feature:Animating Performance (UA)",
    "type": "Class Feature",
    "name": "Animating Performance (UA)",
-   "desc": "6th-level College of Creation feature.\n\nBy 6th level, your mastery over the Song of Creation allows you to magically bring items to life. As an action, you can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. The animate item uses the Dancing Item stat block and is under your control for 1 hour or until it is reduced to 0 hit points.\n\nIn combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action. When you use your Bardic Inspiration feature, you can command which action your animated item takes as part of the same bonus action.\n\nOnce you animate an item with this feature, you can’t do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a dancing item from this feature, the first one immediately becomes inanimate.\n\n**Dancing Item**\n*Large or smaller construct, neutral*\n\n**Armor Class** 16 (natural armor)\n**Hit Points** equal to dancing object's Constitution modifier + your Charisma modifier + five times your level in this class\n**Speed** 40 ft.\n\n| STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|\n| 18 (+4) | 14 (+2) | 16 (+3) | 4 (−4) | 10 (+0) | 6 (−2) |\n\n**Damage Immunities** poison\n**Condition Immunities** charmed, exhaustion, poisoned\n**Senses** darkvision 60 ft., passive Perception 10\n**Languages** understands the languages you speak\n\n**Endless Waltz.** Immediately after the item makes a slam attack, it can take the Dodge action as a bonus action.\n\n**Immutable Form.** The item is immune to any spell or effect that would alter its form.\n\n**Actions (Require Your Bonus Action)**\n\n**Force-Empowered Slam.** Melee Weapon Attack: your spell attack modifier, reach 5ft., one target you can see. Hit: 1d8 + your Charisma modifier force damage.",
+   "desc": "6th-level College of Creation feature.\n\nBy 6th level, your mastery over the Song of Creation allows you to magically bring items to life. As an action, you can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. The animate item uses the Dancing Item stat block and is under your control for 1 hour or until it is reduced to 0 hit points.\n\nIn combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action. When you use your Bardic Inspiration feature, you can command which action your animated item takes as part of the same bonus action.\n\nOnce you animate an item with this feature, you can’t do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a dancing item from this feature, the first one immediately becomes inanimate.\n\nDancing Item\nLarge or smaller construct, neutral\n\nArmor Class 16 (natural armor)\nHit Points equal to dancing object's Constitution modifier + your Charisma modifier + five times your level in this class\nSpeed 40 ft.\n\nDamage Immunities poison\nCondition Immunities charmed, exhaustion, poisoned\nSenses darkvision 60 ft., passive Perception 10\nLanguages understands the languages you speak\n\nEndless Waltz. Immediately after the item makes a slam attack, it can take the Dodge action as a bonus action.\n\nImmutable Form. The item is immune to any spell or effect that would alter its form.\n\nActions (Require Your Bonus Action)\n\nForce-Empowered Slam. Melee Weapon Attack: your spell attack modifier, reach 5ft., one target you can see. Hit: 1d8 + your Charisma modifier force damage.",
    "rules": []
   },
   {
@@ -126,14 +126,14 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Bonus Proficiencies (Satire)",
+   "id": "Class Feature:Bonus Proficiencies (Satire) (UA)",
    "type": "Class Feature",
    "name": "Bonus Proficiencies (Satire)",
    "desc": "3rd-level College of Satire feature.\n\nWhen you join the College of Satire at 3rd level, you gain proficiency with thieves’ tools. You also gain proficiency in Sleight of Hand and one additional skill of your choice. If you are already proficient with thieves’ tools or in Sleight of Hand, choose another skill proficiency for each proficiency you already have.",
    "rules": [
     {
      "pf": [
-      "t:Thieves' tools"
+      "t:Thieves’ tools"
      ]
     },
     {
@@ -143,7 +143,27 @@
      "select": {
       "name": "Additional Skill (Satire)",
       "type": "Skill",
-      "n": 1
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
      }
     }
    ]
@@ -212,7 +232,7 @@
    "id": "Class Feature:Tales from Beyond (UA)",
    "type": "Class Feature",
    "name": "Tales from Beyond (UA)",
-   "desc": "3rd-level College of Spirits feature.\n\nAt 3rd level, you reach out to spirits who tell their tales through you. While you are holding your Spiritual Focus, you can use a bonus action to expend one use of your Bardic Inspiration and roll on the Spirits’ Tales table using your Bardic Inspiration die to determine the tale told. You retain the tale in mind until you bestow the tale’s effect or you finish a short or long rest.\n\nYou can use an action to choose one creature you can see within 30 feet of you (this can be you) to be the target of the tale’s effect. Once you do so, you can’t bestow the tale’s effect again until you roll it again.\n\nYou can retain only one of these tales in mind at a time, and rolling on the Spirits’ Tales table immediately ends the effect of the previous tale.\n\nIf the tale requires a saving throw, the DC equals your spell save DC.\n\n**Spirits' Tales**\n| Insp. Die | Tale |\n|---|---|\n| 1 | **Beast:** You recite the tale of a clever animal. For 1 minute, the target has advantage on Wisdom (Perception) checks and advantage on attack rolls against a creature if another enemy is within 5 feet of it, and that enemy isn’t incapacitated. |\n| 2 | **Warrior:** You recount the story of a renowned duelist. Make a melee spell attack against the target as an attacking spectral warrior briefly appears in an unoccupied space within 5 feet of the target before vanishing. On a hit, the target takes force damage equal to two rolls of your Bardic Inspiration die + your Charisma modifier. |\n| 3 | **Friends:** You recite the tale of friends who found each other in the afterlife. The target and another creature of its choice it can see within 5 feet of it regains hit points equal to a roll of your Bardic Inspiration die + your Charisma modifier |\n| 4 | **Runaway:** You tell the tale of an adventurer that could escape any confinement. The target can immediately use its reaction to teleport up to 30 feet to an unoccupied space it can see. When the target teleports, it can choose a number of creatures it can see within 30 feet of it up to your Charisma modifier (minimum of 1) to immediately use the same reaction. |\n| 5 | **Avenger:** You recount the tale of an avenging knight. For 1 minute, whenever a creature the target can see within 30 feet of it is damaged by a creature, the target can use its reaction to deal force damage equal to a roll of your Bardic Inspiration die to the attacker. |\n| 6 | **Hero:** You speak the tale of an epic hero. Choose a creature you can see within 30 feet of you. The target gains temporary hit points equal to a roll of your Bardic Inspiration die + your bard level. While it has these temporary hit points, the target’s walking speed increases by 10 feet. |\n| 7 | **Fey:** You recount the tale of a mischievous fey. The target must succeed on a Wisdom saving throw or become charmed by you until the end of its next turn. The charmed target must use its action to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no other creature. |\n| 8 | **Dark Spirit:** You speak a dreadful tale of a slayer in the dark. The target becomes invisible until the end of its next turn or until it hits a creature with an attack. If it hits a creature with an attack during this invisibility, that creature takes necrotic damage equal to a roll of your Bardic Inspiration die and is frightened of the target until the end of its next turn. |\n| 9 | **Giant:** You speak of the deeds of a mighty giant. Each creature of the target’s choice it can see within 30 feet of it must make a Strength saving throw, taking force damage equal to two rolls of your Bardic Inspiration die on a failed save and is knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone. |\n| 10 | **Dragon:** You breathe a poem of a wrathful dragon. The target magically spews fire from their mouth in a 30-foot cone. Each creature in that area must make a Dexterity saving throw, taking fire damage equal to three rolls of your Bardic Inspiration die on a failed save, or half as much damage on a successful one. |\n| 11 | **Celestial:** You speak of the exalted deeds of a celestial. The target regains hit points equal to two rolls of your Bardic Inspiration die + your bard level, and you end one disease or a condition from the following list affecting the target: blinded, deafened, paralyzed, petrified, or poisoned. |\n| 12 | **Unknown:** You utter an incomprehensible fable from a being beyond the stars. Choose a creature you can see within 30 feet of you. The target must succeed on an Intelligence saving throw or take psychic damage equal to three rolls of your Bardic Inspiration die, and the target is unable to speak any language for 1 minute. |",
+   "desc": "3rd-level College of Spirits feature.\n\nAt 3rd level, you reach out to spirits who tell their tales through you. While you are holding your Spiritual Focus, you can use a bonus action to expend one use of your Bardic Inspiration and roll on the Spirits’ Tales table using your Bardic Inspiration die to determine the tale told. You retain the tale in mind until you bestow the tale’s effect or you finish a short or long rest.\n\nYou can use an action to choose one creature you can see within 30 feet of you (this can be you) to be the target of the tale’s effect. Once you do so, you can’t bestow the tale’s effect again until you roll it again.\n\nYou can retain only one of these tales in mind at a time, and rolling on the Spirits’ Tales table immediately ends the effect of the previous tale.\n\nIf the tale requires a saving throw, the DC equals your spell save DC.",
    "rules": []
   },
   {
@@ -305,7 +325,7 @@
    "id": "Class Feature:Infusion of Eloquence (UA)",
    "type": "Class Feature",
    "name": "Infusion of Eloquence (UA)",
-   "desc": "Level 10+ Mage of Silverquill Feature\n\nWhen you cast a spell that deals damage, you can invoke additional words of power to change the spell’s damage type to your choice of psychic or radiant. Any creature damaged by the spell takes extra damage equal to your proficiency bonus and has its emotions swayed with despair or adoration, based on the damage type dealt:\n\n- **Psychic.** The creature is frightened of you until the start of your next turn.\n- **Radiant.** The creature is charmed by you until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "Level 10+ Mage of Silverquill Feature\n\nWhen you cast a spell that deals damage, you can invoke additional words of power to change the spell’s damage type to your choice of psychic or radiant. Any creature damaged by the spell takes extra damage equal to your proficiency bonus and has its emotions swayed with despair or adoration, based on the damage type dealt:\n\n- Psychic. The creature is frightened of you until the start of your next turn.\n- Radiant. The creature is charmed by you until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
    "rules": [
     {
      "resource": {
@@ -323,7 +343,7 @@
    "id": "Class Feature:Word of Power (UA)",
    "type": "Class Feature",
    "name": "Word of Power (UA)",
-   "desc": "Level 14+ Mage of Silverquill Feature\n\nYou can invoke a word of power that is the pinnacle of your magical study. You gain the following options:\n\n- **Deadly Despair.** When the target of your Silvery Barbs fails an attack roll, an ability check, or a saving throw because of the reroll, you can invoke a word of despair to give the target vulnerability to one damage type of your choice until the start of your next turn.\n- **Selfless Invocation.** When a creature you can see within 60 feet of you takes damage, you can invoke a word of power using your reaction to grant the creature resistance to that damage, and you take an amount of psychic damage equal to the damage that creature takes.",
+   "desc": "Level 14+ Mage of Silverquill Feature\n\nYou can invoke a word of power that is the pinnacle of your magical study. You gain the following options:\n\n- Deadly Despair. When the target of your Silvery Barbs fails an attack roll, an ability check, or a saving throw because of the reroll, you can invoke a word of despair to give the target vulnerability to one damage type of your choice until the start of your next turn.\n- Selfless Invocation. When a creature you can see within 60 feet of you takes damage, you can invoke a word of power using your reaction to grant the creature resistance to that damage, and you take an amount of psychic damage equal to the damage that creature takes.",
    "rules": []
   }
  ]
