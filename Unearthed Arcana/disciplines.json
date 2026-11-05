@@ -4,7 +4,7 @@
    "id": "Psionic Discipline:Adaptive Body (UA)",
    "type": "Psionic Discipline",
    "name": "Adaptive Body (UA)",
-   "desc": "Psionic Discipline.\n\nPsychic Focus. While focused on this discipline, you have advantage on saving throws against poison and disease.\n\nPsi point options: not yet entered.",
+   "desc": "Psionic Discipline.\n\nPsychic Focus. While focused on this discipline, you have advantage on saving throws against poison and disease.",
    "cls": "Immortal",
    "rules": []
   },
@@ -12,7 +12,7 @@
    "id": "Psionic Discipline:Mind Meld (UA)",
    "type": "Psionic Discipline",
    "name": "Mind Meld (UA)",
-   "desc": "Psionic Discipline.\n\nPsychic Focus. While focused on this discipline, you have advantage on Charisma checks against creatures you can telepathically communicate with.\n\nPsi point options: not yet entered.",
+   "desc": "Psionic Discipline.\n\nPsychic Focus. While focused on this discipline, you have advantage on Charisma checks against creatures you can telepathically communicate with.",
    "cls": "Awakened",
    "rules": []
   },
