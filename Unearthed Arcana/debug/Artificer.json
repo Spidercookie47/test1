@@ -1,0 +1,274 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Archivist (UA)",
+   "type": "Subclass",
+   "name": "Archivist (UA)",
+   "supports": "Class:Artificer",
+   "desc": "What are the best ways to store vast amounts of information? That question has occupied chroniclers and librarians for centuries. Scrolls and books were the finest information-storing methods for a long time, but the first Archivists imagined something greater: storing information in a real or an artificial mind. What library could match a mental archive capable of accessing information in seconds? As they work towards this goal, Archivists have become masters of storing knowledge and creating artificial intelligences fueled by magic. These techniques have yet to be perfected and institutionalized, and of all artificers, archivists are on the cutting edge of arcane science.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade (Archivist)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Archivist Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Artificial Mind",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mind Network",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Pure Information",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Artificer",
+    "levels": {
+     "3": [
+      "Comprehend Languages",
+      "Dissonant Whispers"
+     ],
+     "5": [
+      "Detect Thoughts",
+      "Locate Object"
+     ],
+     "9": [
+      "Hypnotic Pattern",
+      "Tongues"
+     ],
+     "13": [
+      "Locate Creature",
+      "Phantasmal Killer"
+     ],
+     "17": [
+      "Legend Lore",
+      "Modify Memory"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Armorer (UA)",
+   "type": "Subclass",
+   "name": "Armorer (UA)",
+   "supports": "Class:Artificer",
+   "desc": "An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tool Proficiency (Armorer)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armorer Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Power Armor",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armor Model",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack (Armorer)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Armor Modifications",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Perfected Armor",
+     "level": 15
+    }
+   ],
+   "prepared": {
+    "class": "Artificer",
+    "levels": {
+     "3": [
+      "Magic Missile",
+      "Shield"
+     ],
+     "5": [
+      "Mirror Image",
+      "Shatter"
+     ],
+     "9": [
+      "Hypnotic Pattern",
+      "Lightning Bolt"
+     ],
+     "13": [
+      "Fire Shield",
+      "Greater Invisibility"
+     ],
+     "17": [
+      "Passwall",
+      "Wall of Force"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Tools of the Trade (Archivist)",
+   "type": "Class Feature",
+   "name": "Tools of the Trade (Archivist)",
+   "desc": "3rd-level Archivist feature.\n\nBy the time you adopt this specialty at 3rd level, you’re deeply familiar with employing its tools. See the side panel for the full text.",
+   "rules": [
+    {
+     "pf": [
+      "t:Calligrapher’s supplies",
+      "t:Forgery kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Archivist Spells",
+   "type": "Class Feature",
+   "name": "Archivist Spells",
+   "desc": "3rd-level Archivist feature.\n\nYou always have certain spells prepared after you reach particular levels in this class, as shown in the Archivist Spells table. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Artificial Mind",
+   "type": "Class Feature",
+   "name": "Artificial Mind",
+   "desc": "3rd-level Archivist feature.\n\nAt 3rd level, you discover how to awaken a mind inside an object. See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Telepathic Advisor Skills",
+      "type": "Skill",
+      "n": 2,
+      "from": [
+       "Animal Handling",
+       "Insight",
+       "Medicine",
+       "Perception",
+       "Survival",
+       "Deception",
+       "Intimidation",
+       "Performance",
+       "Persuasion",
+       "Arcana",
+       "History",
+       "Investigation",
+       "Nature",
+       "Religion"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "manifest-mind",
+      "name": "Manifest Mind (Cast through)",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "int"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Mind Network",
+   "type": "Class Feature",
+   "name": "Mind Network",
+   "desc": "5th-level Archivist feature.\n\nYou’ve learned how to use your artifices to access minds, both to communicate and to harm. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pure Information",
+   "type": "Class Feature",
+   "name": "Pure Information",
+   "desc": "14th-level Archivist feature.\n\nYour Artificial Mind is able to receive and transmit more information than ever before. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "infoportation",
+      "name": "Infoportation (Free Use)",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Tool Proficiency (Armorer)",
+   "type": "Class Feature",
+   "name": "Tool Proficiency (Armorer)",
+   "desc": "3rd-level Armorer feature.\n\nWhen you adopt this specialization at 3rd level, you gain proficiency with heavy armor. You also gain proficiency with smith’s tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan’s tools of your choice.",
+   "rules": [
+    {
+     "pf": [
+      "a:Heavy armor",
+      "t:Smith’s tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Armorer Spells",
+   "type": "Class Feature",
+   "name": "Armorer Spells",
+   "desc": "3rd-level Armorer feature.\n\nYou always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Power Armor",
+   "type": "Class Feature",
+   "name": "Power Armor",
+   "desc": "3rd-level Armorer feature.\n\nBeginning at 3rd level, your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have smith’s tools in hand. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Armor Model",
+   "type": "Class Feature",
+   "name": "Armor Model",
+   "desc": "3rd-level Armorer feature.\n\nBeginning at 3rd level, you can customize your power armor. When you do so, choose one of the following armor models: guardian or infiltrator. The model you choose gives you special benefits while you wear it. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Attack (Armorer)",
+   "type": "Class Feature",
+   "name": "Extra Attack (Armorer)",
+   "desc": "5th-level Armorer feature.\n\nStarting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Armor Modifications",
+   "type": "Class Feature",
+   "name": "Armor Modifications",
+   "desc": "9th-level Armorer feature.\n\nAt 9th level, you learn how to use your artificer infusions to specially modify the armor enhanced by your Power Armor feature. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Perfected Armor",
+   "type": "Class Feature",
+   "name": "Perfected Armor",
+   "desc": "15th-level Armorer feature.\n\nAt 15th level, your power armor gains additional benefits based on its model, as shown below. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "perfected-armor-reaction",
+      "name": "Perfected Armor Reaction",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "int"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

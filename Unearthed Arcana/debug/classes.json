@@ -1,0 +1,582 @@
+{
+ "elements": [
+  {
+   "id": "Class:Ranger, Revised (UA)",
+   "type": "Class",
+   "name": "Ranger, Revised (UA)",
+   "desc": "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.",
+   "rules": [
+    {
+     "grant": "save:str"
+    },
+    {
+     "grant": "save:dex"
+    },
+    {
+     "select": {
+      "name": "Skills (choose 3)",
+      "n": 3,
+      "from": [
+       "Animal Handling",
+       "Athletics",
+       "Insight",
+       "Investigation",
+       "Nature",
+       "Perception",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Favored Enemy (Revised UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Natural Explorer (Revised UA)",
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Fighting Style",
+      "cls": "R"
+     },
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Ranger Spellcasting (Revised UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Primeval Awareness (Revised UA)",
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Ranger Conclave",
+      "type": "Subclass",
+      "supports": "Class:Ranger, Revised (UA)"
+     },
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Greater Favored Enemy (Revised UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Fleet of Foot (Revised UA)",
+     "level": 8
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Hide in Plain Sight (Revised UA)",
+     "level": 10
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "grant": "Class Feature:Vanish (Revised UA)",
+     "level": 14
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "grant": "Class Feature:Feral Senses (Revised UA)",
+     "level": 18
+    },
+    {
+     "asi": 1,
+     "level": 19
+    },
+    {
+     "grant": "Class Feature:Foe Slayer (Revised UA)",
+     "level": 20
+    }
+   ],
+   "hd": 10,
+   "wp": [
+    "simple",
+    "martial"
+   ],
+   "ap": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons"
+   ],
+   "mp": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons"
+   ],
+   "casting": {
+    "ability": "wis",
+    "mode": "known",
+    "half": true,
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "known": [
+     0,
+     2,
+     3,
+     3,
+     4,
+     4,
+     5,
+     5,
+     6,
+     6,
+     7,
+     7,
+     8,
+     8,
+     9,
+     9,
+     10,
+     10,
+     11,
+     11
+    ]
+   },
+   "prereq": [
+    "&",
+    "dex",
+    "wis"
+   ],
+   "start": {
+    "f": [
+     [
+      "Weapon:Longbow",
+      1
+     ],
+     [
+      "Gear:Arrow",
+      20
+     ]
+    ],
+    "g": [
+     {
+      "d": "(a) scale mail or (b) leather armor",
+      "o": [
+       [
+        {
+         "i": "Armor:Scale Mail",
+         "q": 1
+        }
+       ],
+       [
+        {
+         "i": "Armor:Leather Armor",
+         "q": 1
+        }
+       ]
+      ]
+     },
+     {
+      "d": "(a) two shortswords or (b) two simple melee weapons",
+      "o": [
+       [
+        {
+         "i": "Weapon:Shortsword",
+         "q": 2
+        }
+       ],
+       [
+        {
+         "c": "simple-melee-weapons",
+         "q": 2
+        }
+       ]
+      ]
+     },
+     {
+      "d": "(a) a dungeoneer's pack or (b) an explorer's pack",
+      "o": [
+       [
+        {
+         "i": "Gear:Dungeoneer's Pack",
+         "q": 1
+        }
+       ],
+       [
+        {
+         "i": "Gear:Explorer's Pack",
+         "q": 1
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "Class Feature:Favored Enemy (Revised UA)",
+   "type": "Class Feature",
+   "name": "Favored Enemy (Revised UA)",
+   "desc": "1st-level Ranger, Revised feature.\n\nBeginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds. See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Favored Enemy (Revised UA)",
+      "type": "Favored Enemy",
+      "n": 1,
+      "ids": [
+       "Favored Enemy:Beasts",
+       "Favored Enemy:Fey",
+       "Favored Enemy:Humanoids (two races)",
+       "Favored Enemy:Monstrosities",
+       "Favored Enemy:Undead"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language (Favored Enemy)",
+      "type": "Language"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Natural Explorer (Revised UA)",
+   "type": "Class Feature",
+   "name": "Natural Explorer (Revised UA)",
+   "desc": "1st-level Ranger, Revised feature.\n\nYou are a master of navigating the natural world, and you react with swift and decisive action when attacked. This grants you the following benefits: See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ranger Spellcasting (Revised UA)",
+   "type": "Class Feature",
+   "name": "Ranger Spellcasting (Revised UA)",
+   "desc": "2nd-level Ranger, Revised feature.\n\nBy the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primeval Awareness (Revised UA)",
+   "type": "Class Feature",
+   "name": "Primeval Awareness (Revised UA)",
+   "desc": "3rd-level Ranger, Revised feature.\n\nBeginning at 3rd level, your mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Greater Favored Enemy (Revised UA)",
+   "type": "Class Feature",
+   "name": "Greater Favored Enemy (Revised UA)",
+   "desc": "6th-level Ranger, Revised feature.\n\nAt 6th level, you are ready to hunt even deadlier game. Choose a type of greater favored enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Greater Favored Enemy",
+      "type": "Favored Enemy",
+      "n": 1,
+      "ids": [
+       "Favored Enemy:Aberrations",
+       "Favored Enemy:Celestials",
+       "Favored Enemy:Constructs",
+       "Favored Enemy:Dragons",
+       "Favored Enemy:Elementals",
+       "Favored Enemy:Fiends",
+       "Favored Enemy:Giants"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language (Greater Favored Enemy)",
+      "type": "Language"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Fleet of Foot (Revised UA)",
+   "type": "Class Feature",
+   "name": "Fleet of Foot (Revised UA)",
+   "desc": "8th-level Ranger, Revised feature.\n\nBeginning at 8th level, you can use the Dash action as a bonus action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hide in Plain Sight (Revised UA)",
+   "type": "Class Feature",
+   "name": "Hide in Plain Sight (Revised UA)",
+   "desc": "10th-level Ranger, Revised feature.\n\nStarting at 10th level, you can remain perfectly still for long periods of time to set up ambushes. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vanish (Revised UA)",
+   "type": "Class Feature",
+   "name": "Vanish (Revised UA)",
+   "desc": "14th-level Ranger, Revised feature.\n\nStarting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Feral Senses (Revised UA)",
+   "type": "Class Feature",
+   "name": "Feral Senses (Revised UA)",
+   "desc": "18th-level Ranger, Revised feature.\n\nAt 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Foe Slayer (Revised UA)",
+   "type": "Class Feature",
+   "name": "Foe Slayer (Revised UA)",
+   "desc": "20th-level Ranger, Revised feature.\n\nAt 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make. See the side panel for the full text.",
+   "rules": []
+  }
+ ]
+}

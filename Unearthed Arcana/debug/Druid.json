@@ -1,0 +1,527 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Circle of Stars (UA)",
+   "type": "Subclass",
+   "name": "Circle of Stars (UA)",
+   "supports": "Class:Druid",
+   "desc": "An ancient lineage, the Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
+   "rules": [
+    {
+     "grant": "Class Feature:Star Map (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Starry Form (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Cosmic Omen (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Full of Stars (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Star Flare (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Circle of Twilight (UA)",
+   "type": "Subclass",
+   "name": "Circle of Twilight (UA)",
+   "supports": "Class:Druid",
+   "desc": "The Circle of Twilight seeks to exterminate undead creatures and preserve the natural cycle of life and death that rules over the cosmos. Their magic allows them to manipulate the boundary between life and death, sending their foes to their final rest while keeping their allies from that fate.\n\nThese druids seek out lands that have been tainted by undeath. Such places are grim and foreboding. Once vibrant forests become gloomy, haunted places devoid of animals and filled with plants dying a slow, lingering death. The Circle of Twilight goes to such places to banish undeath and restore life.",
+   "rules": [
+    {
+     "grant": "Class Feature:Harvest's Scythe (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Speech Beyond the Grave (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Watcher at the Threshold (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Paths of the Dead (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Circle of Wildfire (UA)",
+   "type": "Subclass",
+   "name": "Circle of Wildfire (UA)",
+   "supports": "Class:Druid",
+   "desc": "Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth. These druids bond with a primal spirit that harbors destructive tendencies, allowing the druids to use their power to create controlled flames that help flora and fauna reproduce and grow.",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells (Wildfire UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Summon Wildfire (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Enhanced Bond (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Flames of Life (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Blazing Endurance (UA)",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "3": [
+      "Locate Animals or Plants",
+      "Scorching Ray"
+     ],
+     "5": [
+      "Fireball",
+      "Plant Growth"
+     ],
+     "7": [
+      "Aura of Life",
+      "Fire Shield"
+     ],
+     "9": [
+      "Flame Strike",
+      "Raise Dead"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Mage of Prismari (UA)",
+   "type": "Subclass",
+   "name": "Mage of Prismari (UA)",
+   "supports": "Class:Druid",
+   "desc": "Mages of Prismari use surges of elemental energy to express who they are and how they see the world. To them, magic and motion are one and the same; both are exhibitions of raw creativity through which masterpieces are made. In their pursuit of the arts, some Prismari mages focus on perfecting the fine details of their technique, while others prefer to unleash their wild creative visions in dazzling spectacles of elemental power.\n\nUsing This Subclass. Upon selecting the Mage of Prismari subclass, you gain two features: Creative Skills and Kinetic Artistry. In this subclass’s features, any reference to your class refers to the class from which you gained the subclass. If you’re a druid, the College of Prismari counts as your circle. When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+   "rules": [
+    {
+     "grant": "Class Feature:Creative Skills (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Kinetic Artistry (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Favored Medium (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Focused Expression (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Impeccable Physicality (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Mage of Witherbloom (UA)",
+   "type": "Subclass",
+   "name": "Mage of Witherbloom (UA)",
+   "supports": "Class:Druid",
+   "desc": "Mages of Witherbloom draw their magic from the energy that endlessly flows from life to death, and back again. They see the duality of thriving life and inevitable death in all things, tapping and manipulating the transition of energy between these states. Some Witherbloom adherents focus on vital energies to nurture life and empower others, while others embrace the drain of vitality into decay to sap and strike down their foes.\n\nUsing This Subclass. Upon selecting the Mage of Witherbloom subclass, you gain two features: Witherbloom Spells and Essence Tap. In this subclass’s features, any reference to your class refers to the class from which you gained the subclass. If you’re a druid, the College of Witherbloom counts as your circle. When you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+   "rules": [
+    {
+     "grant": "Class Feature:Witherbloom Spells (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Essence Tap (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Witherbloom Brew (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Witherbloom Adept (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Withering Vortex (UA)",
+     "level": 14
+    }
+   ],
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "1": [
+      "Spare the Dying",
+      "Cure Wounds",
+      "Inflict Wounds"
+     ],
+     "3": [
+      "Lesser Restoration",
+      "Ray of Enfeeblement"
+     ],
+     "5": [
+      "Revivify",
+      "Vampiric Touch"
+     ],
+     "7": [
+      "Blight",
+      "Greater Restoration"
+     ],
+     "9": [
+      "Antilife Shell",
+      "Mass Cure Wounds"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Star Map (UA)",
+   "type": "Class Feature",
+   "name": "Star Map (UA)",
+   "desc": "2nd-level Circle of Stars feature.\n\nAt 2nd level, you've created a star map as part of your study of the heavens. The map is a Tiny object and can serve as a spellcasting focus for your druid spells. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "star-map-casts",
+      "name": "Star Map Casts",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     2,
+     "Augury",
+     "Wis mod / long rest"
+    ],
+    [
+     2,
+     "Guiding Bolt",
+     "Wis mod / long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Starry Form (UA)",
+   "type": "Class Feature",
+   "name": "Starry Form (UA)",
+   "desc": "2nd-level Circle of Stars feature.\n\nAt 2nd level, you gain the ability to harness constellations’ power to alter your form. As an action, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cosmic Omen (UA)",
+   "type": "Class Feature",
+   "name": "Cosmic Omen (UA)",
+   "desc": "6th-level Circle of Stars feature.\n\nWhen you reach 6th level, you learn to use your star map to divine the will of the cosmos. Whenever you finish a long rest, you can consult your star map for omens. When you do so, roll a d6. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "cosmic-omen-ua",
+      "name": "Cosmic Omen",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Full of Stars (UA)",
+   "type": "Class Feature",
+   "name": "Full of Stars (UA)",
+   "desc": "10th-level Circle of Stars feature.\n\nAt 10th level, while your Starry Form feature is active, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Star Flare (UA)",
+   "type": "Class Feature",
+   "name": "Star Flare (UA)",
+   "desc": "14th-level Circle of Stars feature.\n\nAt 14th level, your connection to the cosmos allows you to conjure brilliant starlight. As an action, you conjure a burst of light in a 30-foot-radius sphere centered on a point you can see within 120 feet of you. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "star-flare-ua",
+      "name": "Star Flare",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Harvest's Scythe (UA)",
+   "type": "Class Feature",
+   "name": "Harvest's Scythe (UA)",
+   "desc": "2nd-level Circle of Twilight feature.\n\nStarting at 2nd level, you learn to unravel and harvest the life energy of other creatures. You can augment your spells to drain the life force from creatures. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "harvests-scythe",
+      "name": "Harvest's Scythe Dice (d10)",
+      "rest": "L",
+      "max": {
+       "class": "Druid"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Speech Beyond the Grave (UA)",
+   "type": "Class Feature",
+   "name": "Speech Beyond the Grave (UA)",
+   "desc": "6th-level Circle of Twilight feature.\n\nAt 6th level, you gain the ability to reach beyond death’s veil in search of knowledge. Using this feature, you can cast Speak with Dead without material components, and you understand what the target of this casting says. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "speech-beyond-grave",
+      "name": "Speech Beyond the Grave",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     6,
+     "Speak with Dead",
+     "1/short rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Watcher at the Threshold (UA)",
+   "type": "Class Feature",
+   "name": "Watcher at the Threshold (UA)",
+   "desc": "10th-level Circle of Twilight feature.\n\nAt 10th level, you gain resistance to necrotic and radiant damage. In addition, while you aren’t incapacitated, any ally within 30 feet of you has advantage on death saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Paths of the Dead (UA)",
+   "type": "Class Feature",
+   "name": "Paths of the Dead (UA)",
+   "desc": "14th-level Circle of Twilight feature.\n\nAt 14th level, your mastery of death allows you to tread the paths used by ghosts and other spirits. Using this feature, you can cast Etherealness. Once the spell ends, you can’t cast it with this feature again until you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "paths-of-the-dead",
+      "name": "Paths of the Dead",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     14,
+     "Etherealness",
+     "1/short rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Circle Spells (Wildfire UA)",
+   "type": "Class Feature",
+   "name": "Circle Spells (Wildfire UA)",
+   "desc": "2nd-level Circle of Wildfire feature.\n\nYou have formed a mystical bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to certain spells. At 2nd level, you learn the Fire Bolt cantrip. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     2,
+     "Fire Bolt",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Summon Wildfire (UA)",
+   "type": "Class Feature",
+   "name": "Summon Wildfire (UA)",
+   "desc": "2nd-level Circle of Wildfire feature.\n\nAt 2nd level, you can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Enhanced Bond (UA)",
+   "type": "Class Feature",
+   "name": "Enhanced Bond (UA)",
+   "desc": "6th-level Circle of Wildfire feature.\n\nAt 6th level, the bond with your wildfire spirit enhances your destructive and restorative spells. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Flames of Life (UA)",
+   "type": "Class Feature",
+   "name": "Flames of Life (UA)",
+   "desc": "10th-level Circle of Wildfire feature.\n\nYou gain the ability to turn death into flames of vitality. When a Small or larger creature that you can see dies within 30 feet of you or your wildfire spirit, you can use your reaction to cause primal flames to spring from the body. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "flames-of-life",
+      "name": "Flames of Life",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blazing Endurance (UA)",
+   "type": "Class Feature",
+   "name": "Blazing Endurance (UA)",
+   "desc": "14th-level Circle of Wildfire feature.\n\nAt 14th level, the bond with your wildfire spirit is exceptionally strong, even fatal blows only fuel your defiance. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "blazing-endurance",
+      "name": "Blazing Endurance",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Creative Skills (UA)",
+   "type": "Class Feature",
+   "name": "Creative Skills (UA)",
+   "desc": "Level 1+ Mage of Prismari Feature\n\nYou gain proficiency in two of the following skills of your choice: Acrobatics, Athletics, Nature, or Performance.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiencies (Creative Skills)",
+      "type": "Skill",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Athletics",
+       "Nature",
+       "Performance"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Kinetic Artistry (UA)",
+   "type": "Class Feature",
+   "name": "Kinetic Artistry (UA)",
+   "desc": "Level 1+ Mage of Prismari Feature\n\nYou can Dash as a bonus action. When you take this bonus action, choose one of the following additional effects: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "kinetic-artistry",
+      "name": "Kinetic Artistry",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Favored Medium (UA)",
+   "type": "Class Feature",
+   "name": "Favored Medium (UA)",
+   "desc": "Level 6+ Mage of Prismari Feature\n\nYou have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Focused Expression (UA)",
+   "type": "Class Feature",
+   "name": "Focused Expression (UA)",
+   "desc": "Level 10+ Mage of Prismari Feature\n\nHoning your talents, you skillfully infuse your motions with even more potent expressions of elemental might. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Impeccable Physicality (UA)",
+   "type": "Class Feature",
+   "name": "Impeccable Physicality (UA)",
+   "desc": "Level 14+ Mage of Prismari Feature\n\nYour relentless dedication and training have instilled an outstanding sense of precision and grace in your art. You gain proficiency in Dexterity saving throws if you do not already have it. Additionally, when you make a Dexterity saving throw, you can treat a d20 roll of a 9 or lower as a 10.",
+   "rules": [
+    {
+     "grant": "save:dex"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Witherbloom Spells (UA)",
+   "type": "Class Feature",
+   "name": "Witherbloom Spells (UA)",
+   "desc": "Level 1+ Mage of Witherbloom Feature\n\nYou learn the cantrip Spare the Dying and the 1st level spells Cure Wounds and Inflict Wounds. You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Essence Tap (UA)",
+   "type": "Class Feature",
+   "name": "Essence Tap (UA)",
+   "desc": "Level 1+ Mage of Witherbloom Feature\n\nAs a bonus action, you can draw on a reservoir of life essence to empower yourself for 1 minute, or until you use this feature again. For the duration, you gain one of the following benefits of your choice: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "essence-tap",
+      "name": "Essence Tap",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Witherbloom Brew (UA)",
+   "type": "Class Feature",
+   "name": "Witherbloom Brew (UA)",
+   "desc": "Level 6+ Mage of Witherbloom Feature\n\nYou gain proficiency with herbalism kits if you don’t already have it. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Witherbloom Adept (UA)",
+   "type": "Class Feature",
+   "name": "Witherbloom Adept (UA)",
+   "desc": "Level 10+ Mage of Witherbloom Feature\n\nYour connection to the flow of life force deepens. Once per turn when you deal necrotic damage or restore hit points using a spell, one target of the spell takes additional damage or regains additional hit points equal to your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Withering Vortex (UA)",
+   "type": "Class Feature",
+   "name": "Withering Vortex (UA)",
+   "desc": "Level 14+ Mage of Witherbloom Feature\n\nWhen you cast a spell using a spell slot that deals necrotic damage to any number of creatures that aren’t Undead or Constructs, choose one of the creatures that took damage. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "withering-vortex",
+      "name": "Withering Vortex",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

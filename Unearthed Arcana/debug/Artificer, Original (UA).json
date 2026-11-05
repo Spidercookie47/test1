@@ -1,0 +1,103 @@
+{
+ "elements": [
+  {
+   "id": "Class:Artificer, Original (UA)",
+   "type": "Class",
+   "name": "Artificer, Original (UA)",
+   "desc": "Artificers are a key part of the world of Eberron. They illustrate the evolution of magic from a wild, unpredictable force to one that is becoming available to the masses. Magic items are part of everyday life in the Five Nations of Khorvaire; with an artificer in your party, they become part of every adventuring expedition.\n\nSource: Unearthed Arcana 1 — Eberron",
+   "rules": [
+    {
+     "grant": "Class Feature:Infuse Potions (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Infuse Scrolls (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Infuse Weapons and Armor (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Superior Artificer (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Master Artificer (UA)",
+     "level": 14
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "asi": 1,
+     "level": 19
+    }
+   ],
+   "hd": 8,
+   "wp": [
+    "simple"
+   ],
+   "ap": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons"
+   ],
+   "mp": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons"
+   ]
+  },
+  {
+   "id": "Class Feature:Infuse Potions (UA)",
+   "type": "Class Feature",
+   "name": "Infuse Potions (UA)",
+   "desc": "2nd-level Artificer feature.\n\nStarting at 2nd level, you can produce magic potions. You spend 10 minutes focusing your magic on a vial of mundane water and expend a spell slot to transform it into a potion. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infuse Scrolls (UA)",
+   "type": "Class Feature",
+   "name": "Infuse Scrolls (UA)",
+   "desc": "2nd-level Artificer feature.\n\nAt 2nd level, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended spell slots. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infuse Weapons and Armor (UA)",
+   "type": "Class Feature",
+   "name": "Infuse Weapons and Armor (UA)",
+   "desc": "6th-level Artificer feature.\n\nBeginning at 6th level, you can produce magic weapons and armor. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Superior Artificer (UA)",
+   "type": "Class Feature",
+   "name": "Superior Artificer (UA)",
+   "desc": "10th-level Artificer feature.\n\nStarting at 10th level, you can create a second magic weapon, suit of armor, shield, or bundle of ammunition using your Infuse Weapons and Armor ability. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master Artificer (UA)",
+   "type": "Class Feature",
+   "name": "Master Artificer (UA)",
+   "desc": "14th-level Artificer feature.\n\nOn reaching 14th level, your mastery of arcane magic allows you to produce a variety of magic items. You can create a single item chosen from Magic Item Tables A and B in chapter 7 of the Dungeon Master's Guide. See the side panel for the full text.",
+   "rules": []
+  }
+ ]
+}

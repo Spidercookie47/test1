@@ -1,0 +1,243 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Path of the Beast (UA)",
+   "type": "Subclass",
+   "name": "Path of the Beast (UA)",
+   "supports": "Class:Barbarian",
+   "desc": "Barbarians who walk the Path of Beast draw their rage from a bestial spark burning within their souls. That beast howls to be released and bursts forth in the throes of rage.",
+   "rules": [
+    {
+     "grant": "Class Feature:Form of the Beast (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Bestial Soul (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Infectious Fury (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Call the Hunt (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Path of the Giant (UA)",
+   "type": "Subclass",
+   "name": "Path of the Giant (UA)",
+   "supports": "Class:Barbarian",
+   "desc": "Barbarians who walk the Path of the Giant draw strength from the primal forces that are the Giants and their elemental ilk. Their rages surge with elemental power and cause these barbarians to grow in size, transforming them into avatars of primordial might.\n\nDuring their rage, a barbarian may take after a legendary storm giant, hair turning white and eyes crackling with lightning. Others adopt the monstrous features of apocalyptic titans, rending the world around them so that it may be made anew.",
+   "rules": [
+    {
+     "grant": "Class Feature:Giant Power (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Giant's Havoc (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Elemental Cleaver (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Mighty Impel (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Demiurgic Colossus (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Path of the Wild Soul (UA)",
+   "type": "Subclass",
+   "name": "Path of the Wild Soul (UA)",
+   "supports": "Class:Barbarian",
+   "desc": "The realm of the Feywild abounds with beauty, unpredictable emotion, and rampant magic. A barbarian exposed to this realm feels emotions powerfully and magic saturates their body. When a barbarian who follows this path rages, it is a bellowing roar for freedom, an explosion of expression, manifesting in unpredictable ways.",
+   "rules": [
+    {
+     "grant": "Class Feature:Lingering Magic (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Wild Surge (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Magic Reserves (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Arcane Rebuke (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Chaotic Fury (UA)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Form of the Beast (UA)",
+   "type": "Class Feature",
+   "name": "Form of the Beast (UA)",
+   "desc": "3rd-level Path of the Beast feature.\n\nStarting when you choose this path at 3rd level, when you enter your rage, you can transform, revealing the bestial power within you. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bestial Soul (UA)",
+   "type": "Class Feature",
+   "name": "Bestial Soul (UA)",
+   "desc": "6th-level Path of the Beast feature.\n\nBeginning at 6th level, the feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infectious Fury (UA)",
+   "type": "Class Feature",
+   "name": "Infectious Fury (UA)",
+   "desc": "10th-level Path of the Beast feature.\n\nAt 10th level, when you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "infectious-fury-ua",
+      "name": "Infectious Fury (UA)",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "con"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Call the Hunt (UA)",
+   "type": "Class Feature",
+   "name": "Call the Hunt (UA)",
+   "desc": "14th-level Path of the Beast feature.\n\nAt 14th level, the beast within grows so powerful that you can spread its ferocity to your allies. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "call-the-hunt-ua",
+      "name": "Call the Hunt (UA)",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "con"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Giant Power (UA)",
+   "type": "Class Feature",
+   "name": "Giant Power (UA)",
+   "desc": "3rd-Level Path of the Giant Feature\n\nWhen you choose this path, you learn to speak, read, and write Giant or one other language of your choice if you already know Giant. Additionally, you learn either the druidcraft or thaumaturgy cantrip (your choice). Wisdom is your spellcasting ability for this spell.",
+   "rules": [
+    {
+     "grant": "Language:Giant"
+    },
+    {
+     "select": {
+      "name": "Cantrip (Giant Power)",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Druidcraft",
+       "Spell:Thaumaturgy"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Giant's Havoc (UA)",
+   "type": "Class Feature",
+   "name": "Giant's Havoc (UA)",
+   "desc": "3rd-Level Path of the Giant Feature\n\nYour rages pull strength from the primal might of giants, transforming you into a hulking force of destruction. While raging, you gain the following benefits: See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Cleaver (UA)",
+   "type": "Class Feature",
+   "name": "Elemental Cleaver (UA)",
+   "desc": "6th-Level Path of the Giant Feature\n\nYour bond with the elemental might of giants and their ilk grows, and you learn to infuse weapons with primordial energy. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mighty Impel (UA)",
+   "type": "Class Feature",
+   "name": "Mighty Impel (UA)",
+   "desc": "10th-Level Path of the Giant Feature\n\nYour connection to giant strength now allows you to hurl both allies and enemies on the battlefield. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Demiurgic Colossus (UA)",
+   "type": "Class Feature",
+   "name": "Demiurgic Colossus (UA)",
+   "desc": "14th-Level Path of the Giant Feature\n\nThe primordial power of your rage intensifies. When you rage, your reach now increases by 10 feet, your size can increase to Huge, and you can now use your Mighty Impel to move creatures that are Large or smaller. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lingering Magic (UA)",
+   "type": "Class Feature",
+   "name": "Lingering Magic (UA)",
+   "desc": "3rd-level Path of the Wild Soul feature.\n\nAt 3rd level, your body reacts to the presence of magic. You can cast the detect magic spell without using a spell slot or components. Constitution is your spellcasting ability for this spell. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "lingering-magic-ua",
+      "name": "Lingering Magic (UA)",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "con"
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     3,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Wild Surge (UA)",
+   "type": "Class Feature",
+   "name": "Wild Surge (UA)",
+   "desc": "3rd-level Path of the Wild Soul feature.\n\nStarting at 3rd level, magic erupts from you as you rage. When you enter your rage, roll on the Wild Surge table to determine the magical effect produced. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magic Reserves (UA)",
+   "type": "Class Feature",
+   "name": "Magic Reserves (UA)",
+   "desc": "6th-level Path of the Wild Soul feature.\n\nAt 6th level, you can channel the magic surging inside you into other creatures. As an action, you can touch a creature and roll a d4. The creature recovers an expended spell slot of a level equal to the number rolled. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Rebuke (UA)",
+   "type": "Class Feature",
+   "name": "Arcane Rebuke (UA)",
+   "desc": "10th-level Path of the Wild Soul feature.\n\nAt 10th level, the magic crackling within your soul lashes out. When a creature forces you to make a saving throw while you are raging, you can use your reaction to deal 3d6 force damage to that creature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chaotic Fury (UA)",
+   "type": "Class Feature",
+   "name": "Chaotic Fury (UA)",
+   "desc": "14th-level Path of the Wild Soul feature.\n\nAt 14th level, you become a wellspring of wild magic while you are raging. As a bonus action, you can reroll on the Wild Surge table, replacing your current effect with the new one.",
+   "rules": []
+  }
+ ]
+}

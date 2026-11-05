@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "races-extra",
+  "name": "Races (Fizban's, Monsters of the Multiverse, Van Richten's, Planescape/Plane Shift, Spelljammer)",
+  "short": "Races",
+  "license": "Proprietary",
+  "credit": "Races from Fizban's Treasury of Dragons, Mordenkainen Presents: Monsters of the Multiverse, Van Richten's Guide to Ravenloft, the Plane Shift series The Wild Beyond the Witchlight and Spelljammer: Adventures in Space, © Wizards of the Coast LLC."
+ },
+ "files": [
+  "races.json"
+ ]
+}

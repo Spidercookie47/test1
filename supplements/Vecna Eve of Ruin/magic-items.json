@@ -4,7 +4,7 @@
    "id": "Magic:Rod of Seven Parts",
    "type": "Magic",
    "name": "Rod of Seven Parts",
-   "desc": "Rod, Artifact (Requires Attunement)\n\nThis rod is a potent artifact of law, shattered into seven pieces during an ancient war. Each piece has its own properties, and the rod grows in power as the pieces are reassembled. While holding one piece of the broken rod, you know the general location of the next consecutive piece, as the rod yearns to be a complete artifact.\n\n**Random Properties.** While attuned to the rod, you gain the following benefits:\n- You have advantage on saving throws against spells.\n- The rod has 7 charges and regains 1d6 + 1 expended charges daily at dawn.\n\n**Piece Spells.** Each piece of the rod has a spell associated with it. You can expend charges to cast these spells (save DC 20): First Piece (Commune, 1 charge), Second Piece (Arcane Gate, 2 charges), Third Piece (Reverse Gravity, 3 charges), Fourth Piece (Regenerate, 4 charges), Fifth Piece (Demiplane, 5 charges), Sixth Piece (Meteor Swarm, 6 charges), Seventh Piece (Time Stop, 7 charges).\n\n**Destroying the Rod.** The rod can be destroyed only if all seven pieces are brought together and then subjected to the combined power of a wish spell and the breath weapon of a metallic dragon.",
+   "desc": "Rod, Artifact (Requires Attunement)\n\nThis rod is a potent artifact of law, shattered into seven pieces during an ancient war. Each piece has its own properties, and the rod grows in power as the pieces are reassembled. While holding one piece of the broken rod, you know the general location of the next consecutive piece, as the rod yearns to be a complete artifact.\n\nRandom Properties. While attuned to the rod, you gain the following benefits:\nYou have advantage on saving throws against spells.\nThe rod has 7 charges and regains 1d6 + 1 expended charges daily at dawn.\n\nPiece Spells. Each piece of the rod has a spell associated with it. You can expend charges to cast these spells (save DC 20): First Piece (Commune, 1 charge), Second Piece (Arcane Gate, 2 charges), Third Piece (Reverse Gravity, 3 charges), Fourth Piece (Regenerate, 4 charges), Fifth Piece (Demiplane, 5 charges), Sixth Piece (Meteor Swarm, 6 charges), Seventh Piece (Time Stop, 7 charges).\n\nDestroying the Rod. The rod can be destroyed only if all seven pieces are brought together and then subjected to the combined power of a wish spell and the breath weapon of a metallic dragon.",
    "rules": [],
    "cg": "Artifacts",
    "cp": 0,
@@ -30,7 +30,7 @@
    "id": "Magic:Crown of Lies",
    "type": "Magic",
    "name": "Crown of Lies",
-   "desc": "Wondrous item, Legendary (Requires Attunement)\n\nThis jagged, obsidian crown is cold to the touch and whispers dark secrets to its wearer. While attuned to the crown, you can use an action to transform yourself to look like another creature of your general size and shape. This effect lasts for 1 hour or until you use an action to end it.\n\n**Deception.** While wearing the crown, you have advantage on Charisma (Deception) checks.\n\n**Secrets.** The crown has 3 charges and regains 1d3 expended charges daily at dawn. You can expend 1 charge to cast the Detect Thoughts spell (save DC 18).\n\n**False Vision.** As an action, you can expend 2 charges to cast the Mislead spell. Once used, this property can't be used again until the next dawn.",
+   "desc": "Wondrous item, Legendary (Requires Attunement)\n\nThis jagged, obsidian crown is cold to the touch and whispers dark secrets to its wearer. While attuned to the crown, you can use an action to transform yourself to look like another creature of your general size and shape. This effect lasts for 1 hour or until you use an action to end it.\n\nDeception. While wearing the crown, you have advantage on Charisma (Deception) checks.\n\nSecrets. The crown has 3 charges and regains 1d3 expended charges daily at dawn. You can expend 1 charge to cast the Detect Thoughts spell (save DC 18).\n\nFalse Vision. As an action, you can expend 2 charges to cast the Mislead spell. Once used, this property can't be used again until the next dawn.",
    "rules": [],
    "cg": "Wondrous Items",
    "cp": 0,
@@ -76,19 +76,6 @@
    "price": 0,
    "wt": 0,
    "rar": "Varies",
-   "att": false
-  },
-  {
-   "id": "Magic:Elemental Gem",
-   "type": "Magic",
-   "name": "Elemental Gem",
-   "desc": "Wondrous item, Uncommon\n\nThis gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the Conjure Elemental spell, and the gem's magic is lost.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Uncommon",
    "att": false
   },
   {
@@ -144,19 +131,6 @@
    "att": false
   },
   {
-   "id": "Magic:Ring of Feather Falling",
-   "type": "Magic",
-   "name": "Ring of Feather Falling",
-   "desc": "Ring, Rare (Requires Attunement)\n\nWhen you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.",
-   "rules": [],
-   "cg": "Rings",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Rare",
-   "att": true
-  },
-  {
    "id": "Magic:Stone of Good Luck",
    "type": "Magic",
    "name": "Stone of Good Luck",
@@ -167,7 +141,11 @@
    "price": 0,
    "wt": 0,
    "rar": "Uncommon",
-   "att": true
+   "att": true,
+   "effect": {
+    "att": true,
+    "saves": 1
+   }
   },
   {
    "id": "Magic:Driftglobe",
@@ -183,32 +161,6 @@
    "att": false
   },
   {
-   "id": "Magic:Necklace of Adaptation",
-   "type": "Magic",
-   "name": "Necklace of Adaptation",
-   "desc": "Wondrous item, Uncommon (Requires Attunement)\n\nWhile wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as Cloudkill and Stinking Cloud effects, inhaled poisons, and the breath weapons of some dragons).",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 1,
-   "rar": "Uncommon",
-   "att": true
-  },
-  {
-   "id": "Magic:Sword of Sharpness",
-   "type": "Magic",
-   "name": "Sword of Sharpness",
-   "desc": "Weapon (any sword that deals slashing damage), Very Rare (Requires Attunement)\n\nWhen you attack an object with this magic sword and hit, maximize your weapon damage dice against the target. When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 4d6 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the GM.",
-   "rules": [],
-   "cg": "Magic Weapons",
-   "cp": 0,
-   "price": 0,
-   "wt": 3,
-   "rar": "Very Rare",
-   "att": true
-  },
-  {
    "id": "Magic:Crystal Ball of Scrying",
    "type": "Magic",
    "name": "Crystal Ball of Scrying",
@@ -220,32 +172,6 @@
    "wt": 3,
    "rar": "Very Rare",
    "att": true
-  },
-  {
-   "id": "Magic:Tome of Leadership and Influence",
-   "type": "Magic",
-   "name": "Tome of Leadership and Influence",
-   "desc": "Wondrous item, Very Rare\n\nThis book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 5,
-   "rar": "Very Rare",
-   "att": false
-  },
-  {
-   "id": "Magic:Manual of Bodily Health",
-   "type": "Magic",
-   "name": "Manual of Bodily Health",
-   "desc": "Wondrous item, Very Rare\n\nThis book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 5,
-   "rar": "Very Rare",
-   "att": false
   },
   {
    "id": "Magic:All-Purpose Tool",
@@ -284,7 +210,10 @@
    "price": 0,
    "wt": 6,
    "rar": "Very Rare",
-   "att": false
+   "att": false,
+   "effect": {
+    "ac": 3
+   }
   },
   {
    "id": "Magic:Survival Mantle",
@@ -298,19 +227,6 @@
    "wt": 5,
    "rar": "Uncommon",
    "att": false
-  },
-  {
-   "id": "Magic:Staff of Power",
-   "type": "Magic",
-   "name": "Staff of Power",
-   "desc": "Staff, Very Rare (Requires Attunement by a Sorcerer, Warlock, or Wizard)\n\nThis staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls. The staff has 20 charges for various spells (Cone of Cold, Fireball, Globe of Invulnerability, etc.).",
-   "rules": [],
-   "cg": "Staffs",
-   "cp": 0,
-   "price": 0,
-   "wt": 4,
-   "rar": "Very Rare",
-   "att": true
   },
   {
    "id": "Magic:Far Gear",
@@ -336,7 +252,11 @@
    "price": 0,
    "wt": 2,
    "rar": "Very Rare",
-   "att": true
+   "att": true,
+   "effect": {
+    "att": true,
+    "spA": 3
+   }
   },
   {
    "id": "Magic:Amulet of the Devout, +3",
@@ -349,85 +269,11 @@
    "price": 0,
    "wt": 1,
    "rar": "Very Rare",
-   "att": true
-  },
-  {
-   "id": "Magic:Robe of Stars",
-   "type": "Magic",
-   "name": "Robe of Stars",
-   "desc": "Wondrous item, Very Rare (Requires Attunement)\n\nThis black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it. Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast Magic Missile as a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 1,
-   "rar": "Very Rare",
-   "att": true
-  },
-  {
-   "id": "Magic:Flame Tongue",
-   "type": "Magic",
-   "name": "Flame Tongue",
-   "desc": "Weapon (any sword), Rare (Requires Attunement)\n\nYou can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits.",
-   "rules": [],
-   "cg": "Magic Weapons",
-   "cp": 0,
-   "price": 0,
-   "wt": 3,
-   "rar": "Rare",
-   "att": true
-  },
-  {
-   "id": "Magic:Ring of Evasion",
-   "type": "Magic",
-   "name": "Ring of Evasion",
-   "desc": "Ring, Rare (Requires Attunement)\n\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead.",
-   "rules": [],
-   "cg": "Rings",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Rare",
-   "att": true
-  },
-  {
-   "id": "Magic:Lantern of Revealing",
-   "type": "Magic",
-   "name": "Lantern of Revealing",
-   "desc": "Wondrous item, Uncommon\n\nWhile lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 2,
-   "rar": "Uncommon",
-   "att": false
-  },
-  {
-   "id": "Magic:Potion of Mind Reading",
-   "type": "Magic",
-   "name": "Potion of Mind Reading",
-   "desc": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Detect Thoughts spell (save DC 13).",
-   "rules": [],
-   "cg": "Potions",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Rare",
-   "att": false
-  },
-  {
-   "id": "Magic:Spell Scroll",
-   "type": "Magic",
-   "name": "Spell Scroll",
-   "desc": "Scroll, Varies\n\nA spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity. (Specific scrolls found in this adventure include Bless, Protection from Poison, Spiritual Weapon, and Knock.)",
-   "rules": [],
-   "cg": "Scrolls",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Varies",
-   "att": false
+   "att": true,
+   "effect": {
+    "att": true,
+    "spA": 3
+   }
   },
   {
    "id": "Magic:Head of Vecna",
@@ -481,7 +327,8 @@
    "rar": "Artifact",
    "att": true,
    "effect": {
-    "att": 3
+    "att": true,
+    "wpn": 3
    }
   },
   {
@@ -498,58 +345,6 @@
    "att": true
   },
   {
-   "id": "Magic:Bead of Force",
-   "type": "Magic",
-   "name": "Bead of Force",
-   "desc": "Wondrous item, Rare\n\nThis small black sphere measures 3/4 of an inch in diameter. You can use an action to throw the bead up to 60 feet. The bead explodes on impact, and each creature within a 10-foot radius must make a DC 15 Dexterity saving throw or take 5d4 force damage. A Sphere of transparent force then encloses the area for 1 minute.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Rare",
-   "att": false
-  },
-  {
-   "id": "Magic:Bracers of Defense",
-   "type": "Magic",
-   "name": "Bracers of Defense",
-   "desc": "Wondrous item, Rare (Requires Attunement)\n\nWhile wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.",
-   "rules": [],
-   "cg": "Wondrous Items",
-   "cp": 0,
-   "price": 0,
-   "wt": 1,
-   "rar": "Rare",
-   "att": true
-  },
-  {
-   "id": "Magic:Rod of Rulership",
-   "type": "Magic",
-   "name": "Rod of Rulership",
-   "desc": "Rod, Rare (Requires Attunement)\n\nYou can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be charmed by you for 8 hours.",
-   "rules": [],
-   "cg": "Rods",
-   "cp": 0,
-   "price": 0,
-   "wt": 2,
-   "rar": "Rare",
-   "att": true
-  },
-  {
-   "id": "Magic:Ring of Spell Storing",
-   "type": "Magic",
-   "name": "Ring of Spell Storing",
-   "desc": "Ring, Rare (Requires Attunement)\n\nThis ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time.",
-   "rules": [],
-   "cg": "Rings",
-   "cp": 0,
-   "price": 0,
-   "wt": 0,
-   "rar": "Rare",
-   "att": true
-  },
-  {
    "id": "Magic:Rod of the Pact Keeper, +2",
    "type": "Magic",
    "name": "Rod of the Pact Keeper, +2",
@@ -560,7 +355,11 @@
    "price": 0,
    "wt": 2,
    "rar": "Rare",
-   "att": true
+   "att": true,
+   "effect": {
+    "att": true,
+    "spA": 2
+   }
   }
  ]
 }
