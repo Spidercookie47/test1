@@ -1,0 +1,358 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Aria of Suspense (Ansia)",
+   "type": "Class Feature",
+   "name": "Aria of Suspense (Ansia)",
+   "desc": "You build an air of tension and paranoia with subtle, droning tones. As an action, you expend and roll a Bardic Inspiration die. For the next 10 minutes, any creatures of your choice within 60 feet cannot be surprised, and gain a bonus on saving throws against traps and environmental hazards equal to your Bardic Inspiration die roll.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Crash (Marcato)",
+   "type": "Class Feature",
+   "name": "Crash (Marcato)",
+   "desc": "You learn how to harness and amplify the roar of a well-placed blow into a violent explosion of sound. When a creature other than yourself within 60 feet of you hits with an attack, you can use your reaction to expend and roll a Bardic Inspiration die. The target of the triggering attack must make a Strength saving throw against your Spell save DC or take thunder damage equal to half of the number rolled and be knocked prone.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Dirge of Dread (Finale)",
+   "type": "Class Feature",
+   "name": "Dirge of Dread (Finale)",
+   "desc": "You play a terrifying dirge to accompany a deathblow, striking fear into the hearts of your nearby enemies. When an ally brings a creature within 60 feet to 0 hitpoints, you can use your reaction to expend and roll a Bardic Inspiration die. Select a number of creatures within 15 feet of the triggering ally equal to half of the number rolled (minimum 1). Each target must make a Wisdom saving throw against your Spell save DC or becomed frightened of the triggering ally until the end of that ally's next turn. After the effect ends, or the save is successful, targeted creatures are immune to Dirge of Dread for the next 24 hours.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Dissonance (Discordia)",
+   "type": "Class Feature",
+   "name": "Dissonance (Discordia)",
+   "desc": "Summoning a harsh, discordant tone, you muddle the mind of an opponent, lessening their defenses. When a creature within 60 feet is forced to make a saving throw, you can use your reaction to expend and roll a Bardic Inspiration die. You reduce their saving throw by half of the number rolled. You can use this feature after the creature makes its saving throw roll, but before the DM determines a success or failure.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Guiding Tone (Fermata)",
+   "type": "Class Feature",
+   "name": "Guiding Tone (Fermata)",
+   "desc": "You drag a sharp, powerful chord through the mind of a creature, forcing it to suddenly stumble in a direction you wish. As a bonus action, you expend and roll a of Bardic Inspiration die and select a creature other than yourself within 60 feet. The target must succeed on a Wisdom saving throw against your Spell save DC or take psychic damage equal to half of the number rolled and be pushed 10 feet in a direction you choose. A target can fail the saving throw voluntarily.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Hasten Tempo (Accelerando)",
+   "type": "Class Feature",
+   "name": "Hasten Tempo (Accelerando)",
+   "desc": "Your manipulation of tempo and song can inspire others to act more quickly. You can use a Bonus action on your turn to choose one creature other than yourself within 60 feet. Expend and roll a Bardic Inspiration die, adding the number rolled to the creature's initiative and moving them up the initiative order accordingly. If this would move them higher than you, they immediately take their turn after you this round. A creature cannot be affected by Hasten Tempo again until they've finished a short or long rest.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Hymn of Harmony (Armonia)",
+   "type": "Class Feature",
+   "name": "Hymn of Harmony (Armonia)",
+   "desc": "The melodies surrounding your allies promote rapid recovery. When a creature that has a Bardic Inspiration die from you regains any hitpoints, they can expend and roll their inspiration die to regain additional hitpoints equal to the number rolled.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Majestic Anthem (Maestoso)",
+   "type": "Class Feature",
+   "name": "Majestic Anthem (Maestoso)",
+   "desc": "Pulled from the chaos, you muster an uplifting melody that bolsters the resolve of your allies. You can expend and roll a Bardic Inspiration die as an action, and all other creatures you choose within 60 ft gain temporary hitpoints equal to the number rolled plus your Charisma modifier (minimum of 1 ). These temporary hitpoints last until the end of your next turn.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Resonance (Risonanza)",
+   "type": "Class Feature",
+   "name": "Resonance (Risonanza)",
+   "desc": "You shape the harmonie vibrations of a weapon's movements into a dangerous, sonic enhancement. Using a bonus action, you can expend and roll a Bardic Inspiration die, choosing one weapon within 60 feet of you. Until the end of your next turn, all attacks with that weapon deal additional thunder damage equal to half of number rolled (minimum of 1).",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Sprint (Presto)",
+   "type": "Class Feature",
+   "name": "Sprint (Presto)",
+   "desc": "The song you conjure can stir the winds, pushing along those who require expedient travel. A creature that has a Bardic Inspiration die from you can expend and roll their inspiration to increase their speed for that turn. A roll of 1-4 increases their speed by 10 feet, a roll of 5-8 increases their speed by 15 feet, and a roll of 9-12 increases their speed by 20 feet.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Rite of the Flame",
+   "type": "Class Feature",
+   "name": "Rite of the Flame",
+   "desc": "Your rite damage is fire type.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Rite of the Frozen",
+   "type": "Class Feature",
+   "name": "Rite of the Frozen",
+   "desc": "Your rite damage is cold type.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Rite of the Storm",
+   "type": "Class Feature",
+   "name": "Rite of the Storm",
+   "desc": "Your rite damage is lightning type.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Rite of the Roar",
+   "type": "Class Feature",
+   "name": "Rite of the Roar",
+   "desc": "Your rite damage is thunder type.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Rite of the Oracle",
+   "type": "Class Feature",
+   "name": "Rite of the Oracle",
+   "desc": "Your rite damage is psychic type.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Rite of the Dead",
+   "type": "Class Feature",
+   "name": "Rite of the Dead",
+   "desc": "Your rite damage is necrotic type.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Blood Curse of Binding",
+   "type": "Class Feature",
+   "name": "Blood Curse of Binding",
+   "desc": "As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.\n\nAmplify. This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Eyeless",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Eyeless",
+   "desc": "When an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.\n\nAmplify. Following the triggering attack, the affected enemy has disadvantage on the next attack roll they make.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Fallen Puppet",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Fallen Puppet",
+   "desc": "The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.\n\nAmplify. You grant a bonus to the attack roll and damage roll of the cursed creature’s attack equal to your Wisdom modifier (minimum of 1).",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Fending Rite",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Fending Rite",
+   "desc": "When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equall to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.\n\nAmplify. You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Marked",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Marked",
+   "desc": "As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.\n\nAmplify. You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of Mutual Suffering",
+   "type": "Class Feature",
+   "name": "Blood Curse of Mutual Suffering",
+   "desc": "As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.\n\nAmplify. This curse instead deals damage equal to the damage you suffered, and it ignores Necrotic resistance.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of Purgation",
+   "type": "Class Feature",
+   "name": "Blood Curse of Purgation",
+   "desc": "As a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.\n\nAmplify. Your target can instead immediately make a saving throw against one othercondition afflicting it. This condition can be linded, deafened, or paralyzed.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Blood Curse of Spell Sunder",
+   "type": "Class Feature",
+   "name": "Blood Curse of Spell Sunder",
+   "desc": "When an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.\n\nAmplify. You make a Wisdom ability check. The DC equals 10 + the spell’s level. On a success, the creature’s spel misses you automatically.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:The Fiend",
+   "type": "Class Feature",
+   "name": "The Fiend",
+   "desc": "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Archfey",
+   "type": "Class Feature",
+   "name": "The Archfey",
+   "desc": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Great Old One",
+   "type": "Class Feature",
+   "name": "The Great Old One",
+   "desc": "Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it.\n\nEntities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Undying",
+   "type": "Class Feature",
+   "name": "The Undying",
+   "desc": "Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize- like all power- comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.\n\nIn the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Celestial",
+   "type": "Class Feature",
+   "name": "The Celestial",
+   "desc": "Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.\n\nBeing connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Hexblade",
+   "type": "Class Feature",
+   "name": "The Hexblade",
+   "desc": "You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexbade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.\n\nBecause the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aether",
+   "type": "Class Feature",
+   "name": "Aether",
+   "desc": "Prerequisite: 11th level\n\nYou gain a flying speed of 20 feet.\n\nSide effect: You have disadvantage on all Strength and Dexterity ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Celerity",
+   "type": "Class Feature",
+   "name": "Celerity",
+   "desc": "Your Dexterity score increases by an amount equal to your mutation score, as does your Dexterity maximum.\n\nSide effect: Your Wisdom score decreases by amount equal to your mutation score.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Conversant",
+   "type": "Class Feature",
+   "name": "Conversant",
+   "desc": "You gain advantage on Intelligence ability checks.\n\nSide effect: You have disadvantage on Charisma ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Cruelty",
+   "type": "Class Feature",
+   "name": "Cruelty",
+   "desc": "Prerequisite: 11th level\n\nYou can make a single weapon attack as a bonus action on each of your turns.\n\nSide effect: You have disadvantage on all saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Impermeable",
+   "type": "Class Feature",
+   "name": "Impermeable",
+   "desc": "You gain resistance to piercing damage.\n\nSide effect: You gain vulnerability to slashing damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Mobility",
+   "type": "Class Feature",
+   "name": "Mobility",
+   "desc": "You gain immunity to the grappled and restrained conditions. At 11th level, you also are immune to the paralyzed condition.\n\nSide effect: You gain a penalty to initiative equal to 2 times your mutation score.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Nighteye",
+   "type": "Class Feature",
+   "name": "Nighteye",
+   "desc": "You gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet.\n\nSide effect: You gain sunlight sensitivity.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Potency",
+   "type": "Class Feature",
+   "name": "Potency",
+   "desc": "Your Strength score increases by an amount equal to your mutation score, as does your Strength maximum.\n\nSide effect: Your Dexterity score decreases by amount equal to your mutation score.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Precision",
+   "type": "Class Feature",
+   "name": "Precision",
+   "desc": "Prerequisite: 11th level\n\nYour weapon attacks score a critical hit on a roll of 19-20.\n\nSide effect: All healing you receive is halved.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Rapidity",
+   "type": "Class Feature",
+   "name": "Rapidity",
+   "desc": "Your speed increases by 15 feet. At 15th level, your speed increases by 20 feet instead.\n\nSide effect: You have disadvantage on Dexterity ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Reconstruction",
+   "type": "Class Feature",
+   "name": "Reconstruction",
+   "desc": "Prerequisite: 7th level\n\nWhile conscious and in combat, you regenerate hit points equal to 2 times your mutation score at the start of your turn as long as you are above 0 hit points.\n\nSide effect: Your speed decreases by 10 feet.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Sagacity",
+   "type": "Class Feature",
+   "name": "Sagacity",
+   "desc": "Your Wisdom score increases by an amount equal to your mutation score, as does your Wisdom maximum.\n\nSide effect: Your armor class score decreases by amount equal to your mutation score.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Shielded",
+   "type": "Class Feature",
+   "name": "Shielded",
+   "desc": "You gain resistance to slashing damage.\n\nSide effect: You gain vulnerability to bludgeoning damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Unbreakable",
+   "type": "Class Feature",
+   "name": "Unbreakable",
+   "desc": "You gain resistance to bludgeoning damage.\n\nSide effect: You gain vulnerability to piercing damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Wariness",
+   "type": "Class Feature",
+   "name": "Wariness",
+   "desc": "You gain a bonus to initiative equal to 2 times your mutation score.\n\nSide effect: You have disadvantage on Wisdom (Perception) checks.",
+   "rules": [],
+   "lv": 3
+  }
+ ]
+}

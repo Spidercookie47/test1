@@ -1,0 +1,161 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Path of the Juggernaut",
+   "type": "Subclass",
+   "name": "Path of the Juggernaut",
+   "desc": "When the Herd of Storms led their terrible raids across the continent under the leadership of Kevdak, tales spread of their bloodlust, brutality, and nigh...",
+   "rules": [
+    {
+     "grant": "Class Feature:Thunderous Blows",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Stance of the Mountain",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Demolishing Might",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Overwhelming Cleave",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Unstoppable",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:Blood Domain",
+   "type": "Subclass",
+   "name": "Blood Domain",
+   "desc": "Originally developed in Wildemount by the Claret Orders, the Blood domain centers around the understanding of the natural life force within one’s own...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bloodletting Focus",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Blood Puppet",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Crimson Bond",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Sanguine Recall",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Order’s Wrath",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Sleep",
+      "Ray of Sickness"
+     ],
+     "3": [
+      "Ray of Enfeeblement",
+      "Crown of Madness"
+     ],
+     "5": [
+      "Haste",
+      "Slow"
+     ],
+     "7": [
+      "Blight",
+      "Stoneskin"
+     ],
+     "9": [
+      "Dominate Person",
+      "Hold Monster"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Runechild",
+   "type": "Subclass",
+   "name": "Runechild",
+   "desc": "The weave and flow of magic is mysterious and feared by many across Exandria. Many study the nature of the arcane in hopes of learning to harness it, while...",
+   "rules": [
+    {
+     "grant": "Class Feature:Essence Runes",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Glyphs of Aegis",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Sigilic Augmentation",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Manifest Inscriptions",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Runic Torrent",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Arcane Examplar Form",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  },
+  {
+   "id": "Subclass:Way of the Cobalt Soul",
+   "type": "Subclass",
+   "name": "Way of the Cobalt Soul",
+   "desc": "Driven by the pursuit of knowledge and their worship of the Knowing Mistress, the monastery of the Cobalt Soul (known as the library of the Cobalt Reserve)...",
+   "rules": [
+    {
+     "grant": "Class Feature:Mystical Erudition",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extract Aspects",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extort Truth",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Mind of Mercury",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Preternatural Counter",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Debilitating Barage",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  }
+ ]
+}

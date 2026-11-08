@@ -1,0 +1,17 @@
+Converted: 4 Background, 4 Background Feature, 24 Class Feature, 9 Feat, 4 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (4)
+  Thunderous Blows: thunderblow
+  Essence Runes: essence runes
+  Extract Aspects: extract aspects
+  Mystic Conflux: attunement
+
+== ids not in this pack (assumed to be in another pack, check the name) (1)
+  Class Feature:Thieves' Cant  (from ID_WOTC_PHB_CLASS_FEATURE_ROGUE_THIEVES_CANT)
+
+== selects not understood (1)
+  Thrown Arms Master: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
+
+== grants pointing outside these packs (needs another pack) (1)
+  Background:Clasp Member -> Class Feature:Thieves' Cant
+

@@ -1,0 +1,17 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "cr",
+  "name": "Critical Role",
+  "short": "CRIT"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "equipment.json",
+  "feats.json",
+  "info.json"
+ ]
+}

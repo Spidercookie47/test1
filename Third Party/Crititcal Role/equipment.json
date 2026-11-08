@@ -1,0 +1,76 @@
+{
+ "elements": [
+  {
+   "id": "Weapon:Pistol",
+   "type": "Weapon",
+   "name": "Pistol",
+   "desc": "Damage 1d10 piercing. Reload 4, Misfire 1. Martial Ranged weapon.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 25000,
+   "price": 250.0,
+   "wt": 3.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Musket",
+   "type": "Weapon",
+   "name": "Musket",
+   "desc": "Damage 1d12 piercing. Reload 1, Misfire 2, Twohanded. Martial Ranged weapon.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 50000,
+   "price": 500.0,
+   "wt": 10.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Pepperbox",
+   "type": "Weapon",
+   "name": "Pepperbox",
+   "desc": "Damage 1d10 piercing. Reload 6, Misfire 2. Martial Ranged weapon.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 45000,
+   "price": 450.0,
+   "wt": 5.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Scattergun",
+   "type": "Weapon",
+   "name": "Scattergun",
+   "desc": "Damage 1d8 piercing. Reload 2, Misfire 3, Scatter. Martial Ranged weapon.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 50000,
+   "price": 500.0,
+   "wt": 10.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Bad News",
+   "type": "Weapon",
+   "name": "Bad News",
+   "desc": "Damage 2d12 piercing. Reload 1, Misfire 3, Twohanded. Martial Ranged weapon.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 25.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Hand Mortar",
+   "type": "Weapon",
+   "name": "Hand Mortar",
+   "desc": "Damage 2d8 fire. Reload 1, Misfire 3, Explosive. Martial Ranged weapon.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 10.0,
+   "cat": "martial"
+  }
+ ]
+}

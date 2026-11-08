@@ -1,0 +1,40 @@
+Converted: 1 Class, 127 Class Feature, 1 Feat, 6 Subclass, 6 Weapon
+
+== damage resistances (no pack field for characters, the text already says it) (1)
+  Aspect of the Beast (Duck): acid
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (22)
+  Aspect of the Beast (Duck): speed
+  Totemic Attunement (Duck): flapflap
+  Battle Muse: bardic-inspiration
+  Majestic Anthem (Maestoso): majestic anthem
+  Journeyman Conductor: bardic-inspiration, journeyman conductor
+  Feral Might: feral might
+  Predatory Strikes: predatory strikes
+  Lycan Regeneration: lycan regeneration
+  Blood Curse of the Howl: blood curse howl
+  Crimson Rite: crimson rite
+  Blood Maledict: blood maledict
+  Extra Attack: extra attack
+  Pact Magic: profane soul
+  Rite Focus (The Celestial): celestial-rite-focus
+  Mutagen Craft: mutagen craft, mutation score
+  Advanced Mutagen Craft: mutagen craft
+  Mobility: mobility formula
+  Reconstruction: reconstruction formula
+  Wariness: wariness formula
+  Grit: grit-points
+  Quickdraw: initiative
+  Trick Shot: trick-shot
+
+== grants of other kinds (skipped) (3)
+  Blood Hunter: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Dark Velocity: Vision ID_VISION_DARKVISION
+  Robust Physiology: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+
+== class starting equipment (not converted, add `start` by hand) (1)
+  Blood Hunter
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (1)
+  Order of the Profane Soul
+

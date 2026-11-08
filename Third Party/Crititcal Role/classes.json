@@ -1,0 +1,1215 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Totem Spirit (Duck)",
+   "type": "Class Feature",
+   "name": "Totem Spirit (Duck)",
+   "desc": "You must make or acquire a physical totem object- an amulet or similar adornment- that incorporates feathers, bones, iconography, or crude, cartoonish drawings of a duck. At your option, you also gain minor physical or mental attributes that are reminiscent of a duck. For example, you may develop feather in certain areas of your body that require consstent grooming, or subconsciously quack to yourself when confused or met with an unnerving sound.\n\nWhile raging, when an attacker that you can see targets you with an attack, you can use your reaction to impose disadvantage on the attack roll, helping you to shrug off the blow. Like water off a duck's back.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aspect of the Beast (Duck)",
+   "type": "Class Feature",
+   "name": "Aspect of the Beast (Duck)",
+   "desc": "You don't have to chose the duck... But we all know you will.\n\nYou gain resistance to acid damage, as the liquid mostly slides off your strangely waxy exterior. In addition, you gain a swim speed equal to your walking speed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Totemic Attunement (Duck)",
+   "type": "Class Feature",
+   "name": "Totemic Attunement (Duck)",
+   "desc": "You could chose another totem, but if you came this far, don't be a dick and chose the duck.\n\nWhile raging, if you hit a creature with a melee attack on your turn, you can forgo one of your other attacks to flap your arms while honking and flailing at that same time. The creature must succeed on a Wisdom saving throw(DC = 8 + your proficiency modifier + your charisma modifier) or be frigthened of you until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Battle Muse",
+   "type": "Class Feature",
+   "name": "Battle Muse",
+   "desc": "When you join the College of the Maestro at 3rd level, you gain one additional use of your Bardic Inspiration feature.\n\nThis feature grants you another additional use of Bardic Inspiration at 6th level, and again at 14th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Symphony of Conflict",
+   "type": "Class Feature",
+   "name": "Symphony of Conflict",
+   "desc": "You've been trained in the bardic art of magically manipulating the sounds of combat into a concert of powerful melodies that can alter the very battlefield around you.\n\nWhen you select this bardic school at 3rd level, you learn 2 conducting techniques of your choice, which are detailed under \"Conducting Techniques\" below. All techniques require at least one free hand, baton, or wand to utilize. For these techniques to function, you must be able to see your target, and they must be able to hear you.\n\nYou learn 1 additional conducting technique of your choice at 6th and 14th level. Each time you learn a new technique, you can also replace one technique you know with a different one.",
+   "rules": [
+    {
+     "select": {
+      "name": "Symphony of Conflict, 3",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aria of Suspense (Ansia)",
+       "Class Feature:Crash (Marcato)",
+       "Class Feature:Dirge of Dread (Finale)",
+       "Class Feature:Dissonance (Discordia)",
+       "Class Feature:Guiding Tone (Fermata)",
+       "Class Feature:Hasten Tempo (Accelerando)",
+       "Class Feature:Hymn of Harmony (Armonia)",
+       "Class Feature:Majestic Anthem (Maestoso)",
+       "Class Feature:Resonance (Risonanza)",
+       "Class Feature:Sprint (Presto)"
+      ]
+     },
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Symphony of Conflict, 6",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aria of Suspense (Ansia)",
+       "Class Feature:Crash (Marcato)",
+       "Class Feature:Dirge of Dread (Finale)",
+       "Class Feature:Dissonance (Discordia)",
+       "Class Feature:Guiding Tone (Fermata)",
+       "Class Feature:Hasten Tempo (Accelerando)",
+       "Class Feature:Hymn of Harmony (Armonia)",
+       "Class Feature:Majestic Anthem (Maestoso)",
+       "Class Feature:Resonance (Risonanza)",
+       "Class Feature:Sprint (Presto)"
+      ]
+     },
+     "level": 6
+    },
+    {
+     "select": {
+      "name": "Symphony of Conflict, 14",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aria of Suspense (Ansia)",
+       "Class Feature:Crash (Marcato)",
+       "Class Feature:Dirge of Dread (Finale)",
+       "Class Feature:Dissonance (Discordia)",
+       "Class Feature:Guiding Tone (Fermata)",
+       "Class Feature:Hasten Tempo (Accelerando)",
+       "Class Feature:Hymn of Harmony (Armonia)",
+       "Class Feature:Majestic Anthem (Maestoso)",
+       "Class Feature:Resonance (Risonanza)",
+       "Class Feature:Sprint (Presto)"
+      ]
+     },
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Frenetic Crescendo",
+   "type": "Class Feature",
+   "name": "Frenetic Crescendo",
+   "desc": "At 6th level, you can harness the beat of battle, whipping it into a frenzy of drums, chants, and glory. You can use your action to expend any number of uses of your Bardic Inspiration feature. For each expended use, you can immediately grant a Bardic Inspiration die to a creature other than yourself within 60 feet that you can see. A creature can have only one Bardic Inspiration die at a time.\n\nOnce you use this feature, you must finish a long rest before you can use it again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Virtuoso of Captivation",
+   "type": "Class Feature",
+   "name": "Virtuoso of Captivation",
+   "desc": "Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical sleep.\n\nIn addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.\n\nIn combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Heightened Senses",
+   "type": "Class Feature",
+   "name": "Heightened Senses",
+   "desc": "Starting when you choose this archetype at 3rd level, you begin to adopt to the improved abilities or a natural predator. You gain advantage on any Wisdom (Perception) checks that rely on hearing or smell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hybrid Transformation",
+   "type": "Class Feature",
+   "name": "Hybrid Transformation",
+   "desc": "Upon choosing this archetype at 3rd level, you begin to learn to control the lycanthropic curse that now lives in your blood. As an action, you can transform into your Hybrid form. This form lasts for 10 minutes. You can speak, use equipment, and wear armor in this form. You can revert to your normal form earlier by using an action on your turn. You automatically revert to your normal form in you fall unconscious, drop to 0 hit points, or die. The benefits of this form replace the rules for Lucanthropy withing the Monster Manual.\n\nYou can use this feature twice. You regain expended uses when you finish a short or long rest. While you are transformed, you gain the following features:\n\nFeral Might. You gain a bonus to melee damage rolls equal to half your proficiency bonus (rounded down). You also have advantage on Strength checks and Strength saving throws.\n\nResilient Hide. You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren’t silvered. While you are not wearing heavy armor, you gain a +1 bonus to your AC.\n\nPredatory Strikes. Your unarmed strikes are considered a single weapon in regards to your crimson rite feature. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes. When you use the Attack action with an unarmed strikem you can make another unarmed strike as a bonus action.\n\nYour unarmed strikes deal 1d6 slashing damage. This die increases to 1d8 at 11th level, and 1d10 at 18th level.\n\nCursed Weakness. You have vulnerability to damage from silvered weapons.\n\nBloodlust. At the start of your turn, if you’ve taken any damage since the beginning of your last turn, you must make a Wisdom saving throw to maintain control. The DC equals 10, or half of the total damage you’ve taken from attacks since your last turn, whichever number is higher. On a failed save, you must move directly towards the nearest creature to you and use the Attack action against the creature. If there is more than one possible target, the DM chooses the target. You then regain control for the remainder of your turn.\n\nIf you are under an effect that prevents you from concentrating (like the Barbarian’s rage feature), you automatically fail this saving throw.",
+   "rules": [
+    {
+     "grant": "Class Feature:Feral Might"
+    },
+    {
+     "grant": "Class Feature:Resilient Hide"
+    },
+    {
+     "grant": "Class Feature:Predatory Strikes"
+    },
+    {
+     "grant": "Class Feature:Cursed Weakness"
+    },
+    {
+     "grant": "Class Feature:Bloodlust"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Stalker’s Prowess",
+   "type": "Class Feature",
+   "name": "Stalker’s Prowess",
+   "desc": "At 7th level, your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance.\n\nIn addition, your hybrid form gains the Improved predatory Strikes feature.\n\nImproved Predatory Strikes. When you have an active rite while in your hybrid form, your unarmed strikes are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 10
+     }
+    },
+    {
+     "grant": "Class Feature:Improved Predatory Strikes"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Advanced Transformation",
+   "type": "Class Feature",
+   "name": "Advanced Transformation",
+   "desc": "Starting at 11th level, you learn to unleash and control more of the beast within. You can now transform into your hybrid form as a bonus action, and your hybrid transformation now lasts for up to 30 minutes.\n\nIn addition, your hybrid form gains the Lycan Regeneration and Beastly Precision features.\n\nLycan Regeneration. At the start of each of your turns, you regain hit points equal to 1 + your Constitution modifier (minimum of 1) if you have no more than half of your hit points left. You don’t gain this benefit if you have 0 hit points.\n\nBeastly Precision. You gain a bonus to melee attack rolls made with your unarmed strikes equal to half of your proficiency bonus (rounded down).",
+   "rules": [
+    {
+     "grant": "Class Feature:Lycan Regeneration"
+    },
+    {
+     "grant": "Class Feature:Beastly Precision"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Iron Volition",
+   "type": "Class Feature",
+   "name": "Iron Volition",
+   "desc": "Beginning at 15th level, you've honed your willpower to better resist the violent urges of your lycanthropic curse. Whenever you make a Wisdom saving throw to maintain control of your hybrid form, you do so with advantage.\n\nIn addition, your hybrid form gains the Pack Hunter feature.\n\nPack Hunter. You have advantage on an attack roll against a creature if at least one of your allies is withing 5 feet of the creature and the ally isn’t incapacitated.",
+   "rules": [
+    {
+     "grant": "Class Feature:Pack Hunter"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Hybrid Transformation Mastery",
+   "type": "Class Feature",
+   "name": "Hybrid Transformation Mastery",
+   "desc": "At 18th level, you have wrestled your inner predator and mastered it. You can now use your hybrid transformation feature three times between rests.\n\nYou also gain the Blood Curse of the Howl for your blood malediction feature. This does not count against your blood curses known.\n\nBlood Curse of the Howl. As an action, you howl at any number of creatures within 30 feet, chilling their blood and stunning them with fear. Any of the target creatures that can hear you must succeed on a Wisdom saving throw (DC equal to 8 + proficiency bonus + your Wisdom modifier) or become frightened of you until the end of your next turn instead. A creature that succeeds on this saving throw is immune to this blood curse for the next 24 hours.\n\nAmplify. This curse can target any number of creature within 60 feet of you.",
+   "rules": [
+    {
+     "grant": "Class Feature:Blood Curse of the Howl"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Feral Might",
+   "type": "Class Feature",
+   "name": "Feral Might",
+   "desc": "You gain a bonus to melee damage rolls equal to half your proficiency bonus (rounded down). You also have advantage on Strength checks and Strength saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient Hide",
+   "type": "Class Feature",
+   "name": "Resilient Hide",
+   "desc": "You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren’t silvered. While you are not wearing heavy armor, you gain a +1 bonus to your AC.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Predatory Strikes",
+   "type": "Class Feature",
+   "name": "Predatory Strikes",
+   "desc": "Your unarmed strikes are considered a single weapon in regards to your crimson rite feature. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes. When you use the Attack action with an unarmed strike you can make another unarmed strike as a bonus action.\n\nYour unarmed strikes deal 1d6 slashing damage. This die increases to 1d8 at 11th level, and 1d10 at 18th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cursed Weakness",
+   "type": "Class Feature",
+   "name": "Cursed Weakness",
+   "desc": "You have vulnerability to damage from silvered weapons.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bloodlust",
+   "type": "Class Feature",
+   "name": "Bloodlust",
+   "desc": "At the start of your turn, if you’ve taken any damage since the beginning of your last turn, you must make a Wisdom saving throw to maintain control. The DC equals 10, or half of the total damage you’ve taken from attacks since your last turn, whichever number is higher. On a failed save, you must move directly towards the nearest creature to you and use the Attack action against the creature. If there is more than one possible target, the DM chooses the target. You then regain control for the remainder of your turn.\n\nIf you are under an effect that prevents you from concentrating (like the Barbarian’s rage feature), you automatically fail this saving throw.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Predatory Strikes",
+   "type": "Class Feature",
+   "name": "Improved Predatory Strikes",
+   "desc": "When you have an active rite while in your hybrid form, your unarmed strikes are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lycan Regeneration",
+   "type": "Class Feature",
+   "name": "Lycan Regeneration",
+   "desc": "At the start of each of your turns, you regain hit points equal to 1 + your Constitution modifier (minimum of 1) if you have no more than half of your hit points left. You don’t gain this benefit if you have 0 hit points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Beastly Precision",
+   "type": "Class Feature",
+   "name": "Beastly Precision",
+   "desc": "You gain a bonus to melee attack rolls made with your unarmed strikes equal to half of your proficiency bonus (rounded down).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pack Hunter",
+   "type": "Class Feature",
+   "name": "Pack Hunter",
+   "desc": "You have advantage on an attack roll against a creature if at least one of your allies is withing 5 feet of the creature and the ally isn’t incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Howl",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Howl",
+   "desc": "As an action, you howl at any number of creatures within 30 feet, chilling their blood and stunning them with fear. Any of the target creatures that can hear you must succeed on a Wisdom saving throw (DC equal to 8 + proficiency bonus + your Wisdom modifier) or become frightened of you until the end of your next turn instead. A creature that succeeds on this saving throw is immune to this blood curse for the next 24 hours.\n\nAmplify. This curse can target any number of creature within 60 feet of you.",
+   "rules": []
+  },
+  {
+   "id": "Class:Blood Hunter",
+   "type": "Class",
+   "name": "Blood Hunter",
+   "desc": "A hunter that sacrifices his own vitality and humanity to protect the realms.",
+   "hd": 10,
+   "ap": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons",
+    "t:Alchemist’s supplies"
+   ],
+   "wp": [
+    "simple",
+    "martial"
+   ],
+   "mp": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons",
+    "t:Alchemist’s supplies"
+   ],
+   "prereq": [
+    "&",
+    "str",
+    "wis"
+   ],
+   "rules": [
+    {
+     "grant": "save:str"
+    },
+    {
+     "grant": "save:wis"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Athletics",
+       "Acrobatics",
+       "Arcana",
+       "History",
+       "Insight",
+       "Investigation",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Hunter’s Bane",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Crimson Rite",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fighting Style",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Blood Maledict",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Blood Hunter Order",
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Grim Psychometry",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Dark Velocity",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Hardened Soul",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Sanguine Mastery",
+     "level": 20
+    },
+    {
+     "select": {
+      "name": "Blood Hunter Order",
+      "type": "Subclass",
+      "supports": "Class:Blood Hunter"
+     },
+     "level": 3
+    }
+   ],
+   "casting": "None"
+  },
+  {
+   "id": "Class Feature:Hunter’s Bane",
+   "type": "Class Feature",
+   "name": "Hunter’s Bane",
+   "desc": "Beginning at 1st level, you have survived the inbibing of the Hunter’s Bane, a poisonous alchemical concoction that alters your life’s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.\n\nUpon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to a roll of your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Crimson Rite",
+   "type": "Class Feature",
+   "name": "Crimson Rite",
+   "desc": "At 1st level, you learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit points loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a seperate weapon for the purposes of this feature. A rite can be allowed to fade at any time on your turn (no action required).\n\nYou gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level.",
+   "rules": [
+    {
+     "select": {
+      "name": "Primal Rite",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Rite of the Flame",
+       "Class Feature:Rite of the Frozen",
+       "Class Feature:Rite of the Storm"
+      ]
+     },
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Primal Rite",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Rite of the Flame",
+       "Class Feature:Rite of the Frozen",
+       "Class Feature:Rite of the Storm"
+      ]
+     },
+     "level": 6
+    },
+    {
+     "select": {
+      "name": "Primal Rite",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Rite of the Flame",
+       "Class Feature:Rite of the Frozen",
+       "Class Feature:Rite of the Storm"
+      ]
+     },
+     "level": 11
+    },
+    {
+     "select": {
+      "name": "Esoteric Rite",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Rite of the Roar",
+       "Class Feature:Rite of the Oracle",
+       "Class Feature:Rite of the Dead"
+      ]
+     },
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Fighting Style",
+   "type": "Class Feature",
+   "name": "Fighting Style",
+   "desc": "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.\n\nARCHERY\n\nYou gain a +2 bonus to attack rolls you make with ranged weapons.\n\nDUELING\n\nWhen you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\nGREAT WEAPON FIGHTING\n\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\nTWO-WEAPON FIGHTING\n\nWhen you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+   "rules": [
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Fighting Style",
+      "ids": [
+       "Fighting Style:Archery",
+       "Fighting Style:Dueling",
+       "Fighting Style:Great Weapon Fighting",
+       "Fighting Style:Two-Weapon Fighting"
+      ]
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blood Maledict",
+   "type": "Class Feature",
+   "name": "Blood Maledict",
+   "desc": "At 2nd level, you gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the “blood curses” section below. You learned one additional blood curse of your choice at 5th, 9th, 13th, 16th, and 20th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse’s description. Creatures that do not have blood in their bodies are immune to the blood curses (DM’s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests, and at 17th level you can use it four times between rests.",
+   "rules": [
+    {
+        
+     "select": {
+      "name": "Blood Curse",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blood Curse of Binding",
+       "Class Feature:Blood Curse of the Eyeless",
+       "Class Feature:Blood Curse of the Fallen Puppet",
+       "Class Feature:Blood Curse of the Fending Rite",
+       "Class Feature:Blood Curse of the Marked",
+       "Class Feature:Blood Curse of Mutual Suffering",
+       "Class Feature:Blood Curse of Purgation",
+       "Class Feature:Blood Curse of Spell Sunder"
+      ],
+    "resource": {
+     "id": "blood-maledict",
+     "name": "Blood Maledict",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "class": "Blood Hunter",
+       "table": [
+        1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4
+       ]
+      }
+     ],
+     "note": "Uses per rest"
+    }
+     },
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Blood Curse (5)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blood Curse of Binding",
+       "Class Feature:Blood Curse of the Eyeless",
+       "Class Feature:Blood Curse of the Fallen Puppet",
+       "Class Feature:Blood Curse of the Fending Rite",
+       "Class Feature:Blood Curse of the Marked",
+       "Class Feature:Blood Curse of Mutual Suffering",
+       "Class Feature:Blood Curse of Purgation",
+       "Class Feature:Blood Curse of Spell Sunder"
+      ]
+     },
+     "level": 5
+    },
+    {
+     "select": {
+      "name": "Blood Curse (9)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blood Curse of Binding",
+       "Class Feature:Blood Curse of the Eyeless",
+       "Class Feature:Blood Curse of the Fallen Puppet",
+       "Class Feature:Blood Curse of the Fending Rite",
+       "Class Feature:Blood Curse of the Marked",
+       "Class Feature:Blood Curse of Mutual Suffering",
+       "Class Feature:Blood Curse of Purgation",
+       "Class Feature:Blood Curse of Spell Sunder"
+      ]
+     },
+     "level": 9
+    },
+    {
+     "select": {
+      "name": "Blood Curse (13)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blood Curse of Binding",
+       "Class Feature:Blood Curse of the Eyeless",
+       "Class Feature:Blood Curse of the Fallen Puppet",
+       "Class Feature:Blood Curse of the Fending Rite",
+       "Class Feature:Blood Curse of the Marked",
+       "Class Feature:Blood Curse of Mutual Suffering",
+       "Class Feature:Blood Curse of Purgation",
+       "Class Feature:Blood Curse of Spell Sunder"
+      ]
+     },
+     "level": 13
+    },
+    {
+     "select": {
+      "name": "Blood Curse (16)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blood Curse of Binding",
+       "Class Feature:Blood Curse of the Eyeless",
+       "Class Feature:Blood Curse of the Fallen Puppet",
+       "Class Feature:Blood Curse of the Fending Rite",
+       "Class Feature:Blood Curse of the Marked",
+       "Class Feature:Blood Curse of Mutual Suffering",
+       "Class Feature:Blood Curse of Purgation",
+       "Class Feature:Blood Curse of Spell Sunder"
+      ]
+     },
+     "level": 16
+    },
+    {
+     "select": {
+      "name": "Blood Curse (20)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blood Curse of Binding",
+       "Class Feature:Blood Curse of the Eyeless",
+       "Class Feature:Blood Curse of the Fallen Puppet",
+       "Class Feature:Blood Curse of the Fending Rite",
+       "Class Feature:Blood Curse of the Marked",
+       "Class Feature:Blood Curse of Mutual Suffering",
+       "Class Feature:Blood Curse of Purgation",
+       "Class Feature:Blood Curse of Spell Sunder"
+      ]
+     },
+     "level": 20
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blood Hunter Order",
+   "type": "Class Feature",
+   "name": "Blood Hunter Order",
+   "desc": "At 3rd level, you commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, or Order of the Profane Soul, all detailed at the end of the class description. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.",
+   "rules": [
+    {
+     "select": {
+      "name": "Blood Hunter Order",
+      "type": "Subclass",
+      "supports": "Class:Blood Hunter"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Extra Attack",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Grim Psychometry",
+   "type": "Class Feature",
+   "name": "Grim Psychometry",
+   "desc": "When you reach 9th level, you can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make a Wisdom ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints towards a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dark Velocity",
+   "type": "Class Feature",
+   "name": "Dark Velocity",
+   "desc": "Upon reaching 10th level, you beckon the surrounding shadows to grant you unnatural swiftness on the battlefield. You gain darkvision out to 30 feet, or if you have darkvision, extend it out an additional 30 feet. While in dim light or darkness, your speed increases by 10 feet, and attacks of opportunity made against you have disadvantage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hardened Soul",
+   "type": "Class Feature",
+   "name": "Hardened Soul",
+   "desc": "When you reach 14th level, you can no longer become Frightened, and you have advantage on saving throws against magical Charm effects.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Sanguine Mastery",
+   "type": "Class Feature",
+   "name": "Sanguine Mastery",
+   "desc": "Upon becoming 20th level, your ability to harness your pain, and the pain of your foes, is perfected. When you are below one fourth of your current maximum hit points, all of your crimson rite damage dice are maximized.\n\nIn addition, when you critically hit when a weapon attack that bears your crimson rite, you regain a use of your blood maledict feature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite of the Dawn (Order of the Ghostslayer)",
+   "type": "Class Feature",
+   "name": "Rite of the Dawn (Order of the Ghostslayer)",
+   "desc": "When you join this order at 3rd level, you learn the esoteric rite Rite of the Dawn (detailed below).\n\nRite of the Dawn. Your rite damage is radiant type.\n\nIf you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your Wisdom modifier.\n\nUpon reaching 11th level, any creature you hit with your Rite of the Dawn suffers this additional radiant damage.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rite of the Dawn (Rite of the Dawn)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Rite of the Dawn (Rite of the Dawn)",
+   "type": "Class Feature",
+   "name": "Rite of the Dawn (Rite of the Dawn)",
+   "desc": "Your rite damage is radiant type.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hallowed Veins",
+   "type": "Class Feature",
+   "name": "Hallowed Veins",
+   "desc": "Beginning at 7th level, your blood curses become honed to the fabric of a creature’s essence. Your blood curses can now affect any creature, regardless of their form or lack of blood.\n\nIn addition, when you target an undead creature with a blood curse, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or it cannot target you with an attack until the end of your next turn.",
+     "rules": [
+   {
+    "resource": {
+     "id": "supernal-surge",
+     "name": "Supernal Surge",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "mod": "wis"
+      }
+     ],
+     "note": "Become spectral"
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Supernal Surge",
+   "type": "Class Feature",
+   "name": "Supernal Surge",
+   "desc": "Upon reaching 11th level, you’ve learned to briefly step into the spirit world, enabling a swift and deadly strike. When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Gravesight",
+   "type": "Class Feature",
+   "name": "Gravesight",
+   "desc": "At 15th level, you can see in magical darkness up to 30 feet, as well as see invisible creatures and object up to 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vengeful Spirit",
+   "type": "Class Feature",
+   "name": "Vengeful Spirit",
+   "desc": "Upon reaching 18th level, you learn to project your spirit to fight on while on the edge of death. Whenever your hit points drop to 0, you can choose to let your soul emerge from your body to fight on. Your body remains unconscious and subject to death saving throws per normal. At the beginning of your next turn, you manifest a spirit form in your space that picks up your weapons and continues fighting on, acting on your turn and every one of your subsequent turns under your control. Your spirit form has your physical attributes and armor class, as well as your weapons and ammunition, and can move through other creatures and objects as if they were difficult terrain. This form is immune to cold, necrotic, and non-magical weapon damage. Your spirit form has access to all of your abilities and suffers no damage from your Crimson Rite feature.\n\nIf your spirit form takes any damage, your body dies, or you regain any hit points, your spirit form vanishes. If your spirit form vanishes, it drops your weapons in its space.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Otherworldly Patron",
+   "type": "Class Feature",
+   "name": "Otherworldly Patron",
+   "desc": "At 3rd level, you strike a bargan with an other-worldy being of your choice: the Archfey, the Fiend, or the Great Old One, each detailed on page 109 of the PHB, the Undying on page 139 of the Sword Coast Adventurer’s Guide, and the Hexblade or Celestial on page 54 of Xanathar’s Guide to Everything. Your choice augments some of your order features.",
+   "rules": [
+    {
+     "select": {
+      "name": "Otherworldly Patron",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:The Fiend",
+       "Class Feature:The Archfey",
+       "Class Feature:The Great Old One",
+       "Class Feature:The Undying",
+       "Class Feature:The Celestial",
+       "Class Feature:The Hexblade"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Pact Magic",
+   "type": "Class Feature",
+   "name": "Pact Magic",
+   "desc": "When you reach 3rd level, you can augment your combat techniques with the ability to cast spells. See chapter 10 (phb) for the general rules of spellcasting and chapter 11 (phb) for the Warlock spell list.\n\nCantrips. You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.\n\nSpell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 8th level, you have two 2nd­-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.\n\nSpells Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Profane Soul table shows when you learn more warlock spells of your choice of 1st-level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 11th-level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus",
+   "type": "Class Feature",
+   "name": "Rite Focus",
+   "desc": "Begining at 3rd level, your weapon becomes a core to your pact with your chosen dark patron. While you have an active rite, you can use your weapon as a spellcasting focus (found in chapter 5, player’s hand book) for your spells. Your chosen pact also enhances your rite (outlined below).\n\nThe Archfey. If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn.\n\nThe Fiend. While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack.\n\nThe Great Old One. Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.\n\nThe Undying. Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die.\n\nThe Celestial. You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1).\n\nThe Hexblade. Whenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the d20.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rite Focus (The Fiend)"
+    },
+    {
+     "grant": "Class Feature:Rite Focus (The Archfey)"
+    },
+    {
+     "grant": "Class Feature:Rite Focus (The Great Old One)"
+    },
+    {
+     "grant": "Class Feature:Rite Focus (The Undying)"
+    },
+    {
+     "grant": "Class Feature:Rite Focus (The Celestial)"
+    },
+    {
+     "grant": "Class Feature:Rite Focus (The Hexblade)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Mystic Frenzy",
+   "type": "Class Feature",
+   "name": "Mystic Frenzy",
+   "desc": "Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana",
+   "type": "Class Feature",
+   "name": "Revealed Arcana",
+   "desc": "At 7th level, your dark patron grants you the rare use of a dangerous arcane spell based on your pact.\n\nThe Archfey. You can cast blur once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Fiend. You can cast scorching ray once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Great Old One. You can cast detect thoughts once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Undying. You can cast blindness/deafness once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Celestial. You can cast lesser restoration once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Hexblade. You can cast branding smite once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": [
+    {
+     "grant": "Class Feature:Revealed Arcana (The Fiend)"
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana (The Archfey)"
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana (The Great Old One)"
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana (The Undying)"
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana (The Celestial)"
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana (The Hexblade)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Diabolic Channel",
+   "type": "Class Feature",
+   "name": "Diabolic Channel",
+   "desc": "At 11th level, you can temporarily infuse your rite with the seed of a powerful spell. As an action, you can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target’s initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target’s space.\n\nThe spell must be of 1st level or higher, have a casting time of 1 action, or require an action to activate an already active concentration spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana",
+   "desc": "At 15th level, your dark patron grants you the rare use of an additional arcane spell based on your pact.\n\nThe Archfey. You can cast slow once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Fiend. You can cast fireball once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Great Old One. You can cast haste once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Undying. You can cast bestow curse once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Celestial. You can cast revivify once using a profane soul spell slot. You can’t do so again until you finish a long rest.\n\nThe Hexblade. You can cast blink once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": [
+    {
+     "grant": "Class Feature:Unsealed Arcana (The Fiend)"
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana (The Archfey)"
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana (The Great Old One)"
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana (The Undying)"
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana (The Celestial)"
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana (The Hexblade)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Soul Syphon",
+   "type": "Class Feature",
+   "name": "Soul Syphon",
+   "desc": "When you reach 18th level, your learn to sacrifice the souls of powerful foes to your dark patron in exchange for immediate power. When you recduce a creature to 0 hit points with an attack, kill the creature, and they have a challenge rating of 15 or above, you recover an expended spell slot.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus (The Fiend)",
+   "type": "Class Feature",
+   "name": "Rite Focus (The Fiend)",
+   "desc": "While you have an active rite, you can use your weapon as a spellcasting focus for your spells.\n\nIf you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus (The Archfey)",
+   "type": "Class Feature",
+   "name": "Rite Focus (The Archfey)",
+   "desc": "While you have an active rite, you can use your weapon as a spellcasting focus for your spells.\n\nWhile using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus (The Great Old One)",
+   "type": "Class Feature",
+   "name": "Rite Focus (The Great Old One)",
+   "desc": "While you have an active rite, you can use your weapon as a spellcasting focus for your spells.\n\nWhenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus (The Undying)",
+   "type": "Class Feature",
+   "name": "Rite Focus (The Undying)",
+   "desc": "While you have an active rite, you can use your weapon as a spellcasting focus for your spells.\n\nWhenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus (The Celestial)",
+   "type": "Class Feature",
+   "name": "Rite Focus (The Celestial)",
+   "desc": "While you have an active rite, you can use your weapon as a spellcasting focus for your spells.\n\nYou can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite Focus (The Hexblade)",
+   "type": "Class Feature",
+   "name": "Rite Focus (The Hexblade)",
+   "desc": "While you have an active rite, you can use your weapon as a spellcasting focus for your spells.\n\nWhenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the d20.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana (The Fiend)",
+   "type": "Class Feature",
+   "name": "Revealed Arcana (The Fiend)",
+   "desc": "You can cast blur once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana (The Archfey)",
+   "type": "Class Feature",
+   "name": "Revealed Arcana (The Archfey)",
+   "desc": "You can cast scorching ray once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana (The Great Old One)",
+   "type": "Class Feature",
+   "name": "Revealed Arcana (The Great Old One)",
+   "desc": "You can cast detect thoughts once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana (The Undying)",
+   "type": "Class Feature",
+   "name": "Revealed Arcana (The Undying)",
+   "desc": "You can cast blindness/deafness once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana (The Celestial)",
+   "type": "Class Feature",
+   "name": "Revealed Arcana (The Celestial)",
+   "desc": "You can cast lesser restoration once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Revealed Arcana (The Hexblade)",
+   "type": "Class Feature",
+   "name": "Revealed Arcana (The Hexblade)",
+   "desc": "You can cast branding smite once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana (The Fiend)",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana (The Fiend)",
+   "desc": "You can cast slow once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana (The Archfey)",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana (The Archfey)",
+   "desc": "You can cast fireball once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana (The Great Old One)",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana (The Great Old One)",
+   "desc": "You can cast haste once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana (The Undying)",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana (The Undying)",
+   "desc": "You can cast bestow curse once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana (The Celestial)",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana (The Celestial)",
+   "desc": "You can cast revivify once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unsealed Arcana (The Hexblade)",
+   "type": "Class Feature",
+   "name": "Unsealed Arcana (The Hexblade)",
+   "desc": "You can cast blink once using a profane soul spell slot. You can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Formulas",
+   "type": "Class Feature",
+   "name": "Formulas",
+   "desc": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this description. You gain an additional formula at 7th level, 11th level, 15th level, and 18th level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula.",
+   "rules": [
+    {
+     "select": {
+      "name": "Mutagen Formula (3)",
+      "n": 3,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aether",
+       "Class Feature:Celerity",
+       "Class Feature:Conversant",
+       "Class Feature:Cruelty",
+       "Class Feature:Impermeable",
+       "Class Feature:Mobility",
+       "Class Feature:Nighteye",
+       "Class Feature:Potency",
+       "Class Feature:Precision",
+       "Class Feature:Rapidity",
+       "Class Feature:Reconstruction",
+       "Class Feature:Sagacity",
+       "Class Feature:Shielded",
+       "Class Feature:Unbreakable",
+       "Class Feature:Wariness"
+      ]
+     },
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Mutagen Formula (7)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aether",
+       "Class Feature:Celerity",
+       "Class Feature:Conversant",
+       "Class Feature:Cruelty",
+       "Class Feature:Impermeable",
+       "Class Feature:Mobility",
+       "Class Feature:Nighteye",
+       "Class Feature:Potency",
+       "Class Feature:Precision",
+       "Class Feature:Rapidity",
+       "Class Feature:Reconstruction",
+       "Class Feature:Sagacity",
+       "Class Feature:Shielded",
+       "Class Feature:Unbreakable",
+       "Class Feature:Wariness"
+      ]
+     },
+     "level": 7
+    },
+    {
+     "select": {
+      "name": "Mutagen Formula (11)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aether",
+       "Class Feature:Celerity",
+       "Class Feature:Conversant",
+       "Class Feature:Cruelty",
+       "Class Feature:Impermeable",
+       "Class Feature:Mobility",
+       "Class Feature:Nighteye",
+       "Class Feature:Potency",
+       "Class Feature:Precision",
+       "Class Feature:Rapidity",
+       "Class Feature:Reconstruction",
+       "Class Feature:Sagacity",
+       "Class Feature:Shielded",
+       "Class Feature:Unbreakable",
+       "Class Feature:Wariness"
+      ]
+     },
+     "level": 11
+    },
+    {
+     "select": {
+      "name": "Mutagen Formula (15)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aether",
+       "Class Feature:Celerity",
+       "Class Feature:Conversant",
+       "Class Feature:Cruelty",
+       "Class Feature:Impermeable",
+       "Class Feature:Mobility",
+       "Class Feature:Nighteye",
+       "Class Feature:Potency",
+       "Class Feature:Precision",
+       "Class Feature:Rapidity",
+       "Class Feature:Reconstruction",
+       "Class Feature:Sagacity",
+       "Class Feature:Shielded",
+       "Class Feature:Unbreakable",
+       "Class Feature:Wariness"
+      ]
+     },
+     "level": 15
+    },
+    {
+     "select": {
+      "name": "Mutagen Formula (18)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Aether",
+       "Class Feature:Celerity",
+       "Class Feature:Conversant",
+       "Class Feature:Cruelty",
+       "Class Feature:Impermeable",
+       "Class Feature:Mobility",
+       "Class Feature:Nighteye",
+       "Class Feature:Potency",
+       "Class Feature:Precision",
+       "Class Feature:Rapidity",
+       "Class Feature:Reconstruction",
+       "Class Feature:Sagacity",
+       "Class Feature:Shielded",
+       "Class Feature:Unbreakable",
+       "Class Feature:Wariness"
+      ]
+     },
+     "level": 18
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Mutagen Craft",
+   "type": "Class Feature",
+   "name": "Mutagen Craft",
+   "desc": "At 3rd level, you can take a short rest to concoct a single mutagen. Consuming a single mutagen requires a bonus action, and the effects (including side effects) last until you complete a short or long rest to meditate and flush the toxins from your system.\n\nMutagens are designed for your biology. They have no effect on large or larger creatures, and only impart the side effects on other medium or smaller creatures that drink the entire mutagen. They are also unstable by nature, losing their potency over time and becoming inert if not swallowed before you finish your next short or long rest.\n\nYour body will begin to better utilize the toxins you instill it with as you grow in power and experience. These advancing mutations may be signified by a Mutagen score.\n\nMutation Score = your bood hunter level divided by 4, rounded up.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Advanced Mutagen Craft",
+   "type": "Class Feature",
+   "name": "Advanced Mutagen Craft",
+   "desc": "Upon reaching 7th level, when you take a short rest to concoct a mutagen, you can now create two. Mutagens must be different forumlas, and can be ingested with overlapping effects that last until you finish your next short or long rest. Each mutagent still takes a seperate bonus action to imbibe.\n\nOnce you reach 15th level, you can now create three mutagens during a short rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Strange Metabolism",
+   "type": "Class Feature",
+   "name": "Strange Metabolism",
+   "desc": "Beginning at 11th level, you can use a bonus action to instill a burst of adrenaline to temporarily restist the negative effects of a mutagen. You can choose to ignore the side effect of a mutagen affecting you for 1 minute.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Robust Physiology",
+   "type": "Class Feature",
+   "name": "Robust Physiology",
+   "desc": "At 15th level, your body has begun to adapt to toxins and venoms, ignoring their corroding effects. You gain immunity to poison damage and the poisoned condition.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Exalted Mutation",
+   "type": "Class Feature",
+   "name": "Exalted Mutation",
+   "desc": "At 18th level, your body has begun producing one of your toxins naturally. Choose one of your known mutagen formulas. You gain the benefits and side effects of this mutagen permanently, at all times. You cannot change this choice of formula after this feature is aqcuired.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Firearm Proficiency",
+   "type": "Class Feature",
+   "name": "Firearm Proficiency",
+   "desc": "Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms.",
+   "rules": [
+    {
+     "pf": [
+      "w:Firearms"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Gunsmith",
+   "type": "Class Feature",
+   "name": "Gunsmith",
+   "desc": "Upon choosing this archetype at 3rd level. you gain proficiency with Tinker’s Tools. You may use them to craft ammunition, repair damaged firearms, or even draft and create new ones (DM’s discretion). Some extremely intricate and experimental firearms are only available through crafting.",
+   "rules": [
+    {
+     "pf": [
+      "t:Tinker’s tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Grit",
+   "type": "Class Feature",
+   "name": "Grit",
+   "desc": "Also starting at 3rd level, you gain a number of grit points equal to your Wisdom modifier (minimum of 1). You can spend grit points to perform various \"shot\" attacks with your firearms. An attack can only be affected by a single shot feature. You can regain spent Grit points in the following ways:\n\nCritical hit with a firearm. Each time you score a critical hit with a firearm attack while in the heat of combat, you regain 1 spent grit point. Critical hits gained outside of die rolls (via enemy conditions) do not generate grit.\n\nKilling blow with a firearm. Each time you reduce a dangerous creature of significant threat (DM’s discretion) to 0 hit points with a firearm attack, and kill them, you regain 1 spent grit point.\n\nYou also regain all spent grit points after finishing a short or long rest.",
+   "rules": [
+   {
+    "resource": {
+     "id": "grit",
+     "name": "Grit Points",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "mod": "wis"
+      }
+     ],
+     "note": "Regain on crit or kill"
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Deadeye Shot",
+   "type": "Class Feature",
+   "name": "Deadeye Shot",
+   "desc": "Beginning at 3rd level, you can spend 1 grit point to gain advantage on the next attack roll you make with a firearm this round.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Quickdraw",
+   "type": "Class Feature",
+   "name": "Quickdraw",
+   "desc": "When you reach 7th level, you add your proficiency bonus to your initiative. You can also stow a firearm, then draw another firearm as a single object interaction on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Violent Shot",
+   "type": "Class Feature",
+   "name": "Violent Shot",
+   "desc": "Starting at 7th level, you’ve discovered ways to push your firearms past their intended potential at the peril of damaging them. You can spend 1 or more grit points before making an attack roll with a firearm. For each grit point spent, that attack gains +2 to the firearm’s misfire score.\n\nIf the attack hits. you can roll one additional weapon damage die per grit point spent when determining damage of the attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Trick Shot",
+   "type": "Class Feature",
+   "name": "Trick Shot",
+   "desc": "By 10th level, you’ve honed your aim to fire off targeted shots to disable an opponent. You can spend 1 grit point before making an attack roll to target a specific location on the target’s body. If the specified body part cannot be seen, or the target lacks the part in question, only normal damage is suffered with no additional effect.\n\nTrick Shot DC = 8 + your proficiency bonus + your Dexterity modifier\n\nHead. On a hit, the target takes normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of their next turn.\n\nArms. On a hit, the target takes normal damage and must make a Strength saving throw or drop 1 held item of your choice.\n\nTorso. On a hit, the target takes normal damage and is pushed up to 10 feet directly away from you.\n\nLegs/Wings. On a hit, the target takes normal damage and must make a Strength saving throw or get knocked prone.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lightning Reload",
+   "type": "Class Feature",
+   "name": "Lightning Reload",
+   "desc": "Starting at 15th level, you can reload any firearm as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Piercing Shot",
+   "type": "Class Feature",
+   "name": "Piercing Shot",
+   "desc": "By 15th level, you’ve refined your deadly gunplay to allow certain shots to pierce through foes and continue on to damage others. You can spend 1 grit point before making an attack roll with a firearm that deals piercing damage. If the attack hits, you make an attack roll against every creature in a line directly behind the target within your first range increment. Only the initial attack can misfire.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vicious Intent",
+   "type": "Class Feature",
+   "name": "Vicious Intent",
+   "desc": "At 18th level, your firearm attacks score a critical hit on a roll of 19-20.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Relentless",
+   "type": "Class Feature",
+   "name": "Relentless",
+   "desc": "Upon reaching 18th level, whenever you score a critical hit on an attack with a firearm, the target additionally suffers half of the damage from the attack at the end of its next turn.",
+   "rules": []
+  }
+ ]
+}

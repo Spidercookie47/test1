@@ -1,0 +1,465 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:College of the Maestro",
+   "type": "Subclass",
+   "name": "College of the Maestro",
+   "desc": "Music is a powerful thing. It can bolster a burning passion, inspire the meek to bravery, and sooth a cluttered mind. Wandering bards have mastered the art...",
+   "rules": [
+    {
+     "grant": "Class Feature:Battle Muse",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Symphony of Conflict",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Frenetic Crescendo",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Virtuoso of Captivation",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:Order of the Lycan",
+   "type": "Subclass",
+   "name": "Order of the Lycan",
+   "desc": "Of the many terrible curses that plague the realm, few are as ancient or as feared Lycanthropy. Passed through blood, this affliction seeds a host with the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Heightened Senses",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hybrid Transformation",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Stalker’s Prowess",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Advanced Transformation",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Iron Volition",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Hybrid Transformation Mastery",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter"
+  },
+  {
+   "id": "Subclass:Order of the Ghostslayer",
+   "type": "Subclass",
+   "name": "Order of the Ghostslayer",
+   "desc": "The Order of the Ghostslayer is the oldest and most driven of the orders, having rediscovered the secrets of blood magic and refined them for combat against...",
+   "rules": [
+    {
+     "grant": "Class Feature:Rite of the Dawn (Order of the Ghostslayer)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hallowed Veins",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Supernal Surge",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Gravesight",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Vengeful Spirit",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter"
+  },
+  {
+   "id": "Subclass:Order of the Profane Soul",
+   "type": "Subclass",
+   "name": "Order of the Profane Soul",
+   "desc": "The magics adopted by the wayward blood hunter prove formidable against many an evil across the realm. However, the darkest of abominations draw from an...",
+   "rules": [
+    {
+     "grant": "Class Feature:Otherworldly Patron",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Pact Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Rite Focus",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mystic Frenzy",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Diabolic Channel",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Soul Syphon",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter",
+   "casting": {
+    "ability": "wis",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Warlock"
+   }
+  },
+  {
+   "id": "Subclass:Order of the Mutant",
+   "type": "Subclass",
+   "name": "Order of the Mutant",
+   "desc": "The process of consuming the Hunter’s Bane is a painful, scarring, and often fatal experience. Those that survive find themselves irrevocably changed,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Formulas",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mutagen Craft",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Advanced Mutagen Craft",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Strange Metabolism",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Robust Physiology",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Exalted Mutation",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter"
+  },
+  {
+   "id": "Subclass:Gunslinger",
+   "type": "Subclass",
+   "name": "Gunslinger",
+   "desc": "Most warriors and combat specialists spend their years perfecting the classic arts of swordplay, archery, or polearm tactics. Whether duelist or infantry,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Firearm Proficiency",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Gunsmith",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Grit",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Deadeye Shot",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Quickdraw",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Violent Shot",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Trick Shot",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Lightning Reload",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Piercing Shot",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Vicious Intent",
+     "level": 18
+    },
+    {
+     "grant": "Class Feature:Relentless",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter"
+  }
+ ]
+}

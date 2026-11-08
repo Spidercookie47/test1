@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "tdcs",
+  "name": "Critical Role: Tal’Dorei Campaign Setting",
+  "short": "TDCS"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "backgrounds.json",
+  "feats.json",
+  "info.json"
+ ]
+}

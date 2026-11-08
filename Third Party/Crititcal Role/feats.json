@@ -1,0 +1,44 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Journeyman Conductor",
+   "type": "Feat",
+   "name": "Journeyman Conductor",
+   "desc": "You have spent some time in the bardic teachings of a maestro, granting you minor command over the music of combat. You gain the following benefits.\n\n- You learn 2 conducting techniques of your choice from among those available to the College of the Maestro in the bard class. If a technique you use requires your target to make a saving throw to resist the technique's effects, the saving throw DC equals 8 + proficiency bonus + your Charisma modifier.\n- If you already have Bardic Inspiration dice, you gain one more; otherwise, you have one Bardic Inspiration die, which is a d6. This die can be given to others as a bonus action (per the bard feature, Bardic Inspiration), or can be used to fuel your techniques. A Bardic Inspiration die is expended when you use it. You regain this expended bardic inspiration die when you finish a short or long rest.",
+     "rules": [
+   {
+    "select": {
+     "name": "Journeyman Conductor",
+     "n": 2,
+     "type": "Class Feature",
+     "ids": [
+      "Class Feature:Aria of Suspense (Ansia)",
+      "Class Feature:Crash (Marcato)",
+      "Class Feature:Dirge of Dread (Finale)",
+      "Class Feature:Dissonance (Discordia)",
+      "Class Feature:Guiding Tone (Fermata)",
+      "Class Feature:Hasten Tempo (Accelerando)",
+      "Class Feature:Hymn of Harmony (Armonia)",
+      "Class Feature:Majestic Anthem (Maestoso)",
+      "Class Feature:Resonance (Risonanza)",
+      "Class Feature:Sprint (Presto)"
+     ]
+    }
+   },
+   {
+    "resource": {
+     "id": "bardic-inspiration-feat",
+     "name": "Bardic Inspiration (d6)",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "mod": "cha"
+      }
+     ]
+    }
+   }
+  ]
+  }
+ ]
+}

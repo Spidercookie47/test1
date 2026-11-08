@@ -1,0 +1,86 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Cruel",
+   "type": "Feat",
+   "name": "Cruel",
+   "desc": "The challenges and struggles you’ve faced throughout your life have left you ruthless in combat, relishing in the pain you inflict. You have a number of cruelty points equal to your proficiency modifier. Regaining all cruelty points on a long or short rest.\n\n- Once per turn, whenever you deal damage to a creature with an attack, you can spend one cruelty point to deal an additional 1d6 damage of the attack damage type to that creature.\n- You can also spend one cruelty point when you score a critical hit against a creature to regain 1d6 hit points.\n- While making a Charisma (Intimidation) check that involves inflicting pain, you can spend one cruelty point to gain advantage on the roll.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Dual-Focused",
+   "type": "Feat",
+   "name": "Dual-Focused",
+   "desc": "Prerequisite: The ability to cast at least one spell\n\nCountless hours have been spent training your mind to maintain focus on concurrent incantations, taxing as the process may be.\n\n- If you attempt to cast a spell that requires concentration while already concentrating on an existing spell, you can maintain concentration on both spells simultaneously. You must spend a standard action each subsequent round on maintaining this concentration, or lose concentration for both spells.\n- At the end of each turn where you have two spells you are concentrating on, you must make a Constitution saving throw (DC equals 10 + the number of complete rounds you’ve been concentrating on two spells). On a failure, you lose concentration for both spells. You can drop concentration on one of your spells during your turn as a free action to avoid this saving throw.\n- Any time you would be forced to make a Constitution saving throw to maintain concentration due to taking damage, the DC equals 10 + both spells’ levels combined, or half the damage you take, whichever number is higher. On a failure, you lose concentration on both spells.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Flash Recall",
+   "type": "Feat",
+   "name": "Flash Recall",
+   "desc": "Prerequisite: The ability to cast at least one spell\n\nYou’ve developed the ability to instantly recall an unprepared spell in moments of sudden necessity. As an action, you can instantly prepare a spell from your available class spell list (or spellbook, if you prepare spells from one) that you did not have prepared. This spell choice must be of a level for which you have spell slots. You then lose preparation of a different spell of your choice of equal or higher spell level. If you are multiclassed, you can only Flash Recall spells from a class that prepares spells. Once you use this ability, you must finish a short or long rest before you can use it again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Gambler",
+   "type": "Feat",
+   "name": "Gambler",
+   "desc": "Spending countless hours winning and losing coin in alestained taverns has forged you into a consummate gambler and chance-seeking addict. You gain the following benefits and features:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n- You gain proficiency with two types of gaming sets of your choice.\n- You have advantage on Charisma (Deception) checks to bluff opponents in games of chance, and Charisma (Persuasion) checks to convince others to join you for a game.\n- You have a reputation as a card shark in some circles. Some folks may avoid playing you for this reason, while other gamblers may seek you out specifically.\n- When you take the Carousing downtime action, you may reroll your result once, but must keep the results of the second roll.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Gaming Set",
+      "n": 2,
+      "type": "Tool"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Mending Affinity",
+   "type": "Feat",
+   "name": "Mending Affinity",
+   "desc": "Your body has begun to adapt extremely well to healing itself through extraordinary means, gifting you the following benefits:\n\n- Increase your Constitution score by 1, to a maximum of 20.\n- When a creature uses a healer’s kit to stabilize you when you are dying, you also regain hit points equal to your proficiency modifier.\n- Whenever you regain hit points as a result of a spell, potion, or class ability, you regain additional hit points equal to your proficiency modifier.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Mystic Conflux",
+   "type": "Feat",
+   "name": "Mystic Conflux",
+   "desc": "Through your repeated exposure to the natural flow of arcane magic throughout Exandria, you’ve adapted to attune with additional enchantments, though the process can be physically taxing. You gain the following benefits:\n\n- You have advantage on Intelligence (Arcana) checks when investigating the nature of a magical object or device.\n- You can now be attuned to a maximum of four magical items, rather than the normal limit of three. Other attunement limitations still apply.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Rapid Drinker",
+   "type": "Feat",
+   "name": "Rapid Drinker",
+   "desc": "Through a lifestyle of hard, competitive drinking, you’ve learned how to quaff drinks at an incredibly accelerated pace. You gain the following benefits:\n\n- You can drink a potion as a bonus action, instead of as an action.\n- You have advantage on any saving throws triggered by ingesting an alcoholic or dangerous substance.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Spelldriver",
+   "type": "Feat",
+   "name": "Spelldriver",
+   "desc": "Through intense focus, training, and dedication, you’ve harnessed the techniques of rapid spellcasting. You are no longer limited to only one non-cantrip spell per turn. However, should you cast two or more spells in a single turn, only one of them can be of 3rd level or higher.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Thrown Arms Master",
+   "type": "Feat",
+   "name": "Thrown Arms Master",
+   "desc": "You’ve honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- Simple and martial melee weapons without the thrown property can be treated as if they have the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30.\n- Weapons that naturally have the thrown property increase their range by +20/+40.\n- When you miss with a thrown weapon attack using a light weapon, the weapon immediately boomerangs back into your grasp.",
+   "rules": []
+  }
+ ]
+}
