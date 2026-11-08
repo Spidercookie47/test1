@@ -1,0 +1,425 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Herculean Path",
+   "type": "Subclass",
+   "name": "Herculean Path",
+   "desc": "Some individuals are born with seemingly impossible strength, exhibiting rippling muscles even before they learn to speak or walk. Such men and women...",
+   "rules": [
+    {
+     "grant": "Class Feature:Precocious Wrestler",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mighty Marksman",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Herculean Rage",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Earthshaker",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:College of Epic Poetry",
+   "type": "Subclass",
+   "name": "College of Epic Poetry",
+   "desc": "Bards who study the College of Epic Poetry are devoted to the creation of a singular masterpiece in the tradition of the epic poets. All the greatest...",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Verses",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Inspirational Verses",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armored Poet",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Protective Epithets",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:Prophecy Domain",
+   "type": "Subclass",
+   "name": "Prophecy Domain",
+   "desc": "The Prophecy domain focuses on foretelling danger and preventing harmful outcomes. Clerics of this domain are also known as “oracles.” Oracles pay special...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Mindful Senses",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Blessing of Foresight",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Prophetic Trance",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Visions of Danger",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Healing Vapors",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Perfect Foresight",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Detect Magic",
+      "Identify"
+     ],
+     "3": [
+      "Augury",
+      "Locate Object"
+     ],
+     "5": [
+      "Beacon of Hope",
+      "Clairvoyance"
+     ],
+     "7": [
+      "Death Ward",
+      "Divination"
+     ],
+     "9": [
+      "Dream",
+      "Scrying"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Sacrifice",
+   "type": "Subclass",
+   "name": "Circle of Sacrifice",
+   "desc": "Druids of the Circle of Sacrifice believe that nature connects one to the entire universe, including the stars and the astral void between planes. They know...",
+   "rules": [
+    {
+     "grant": "Class Feature:Ritual of Sacrifice",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Ritual of Mistletoe",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Keeper of the Law",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Astrological Wisdom",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid",
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "14": [
+      "Teleportation Circle"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Hoplite",
+   "type": "Subclass",
+   "name": "Hoplite",
+   "desc": "The rank-and-file warriors of large cities are sometimes trained to fight in large armies of identically-outfitted soldiers called hoplites. Hoplites fight...",
+   "rules": [
+    {
+     "grant": "Class Feature:Phalanx (Shield Wall)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Spear Mastery",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Disciplined Defense",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Shield Buster",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Phalanx Wrecker",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Way of the Shield",
+   "type": "Subclass",
+   "name": "Way of the Shield",
+   "desc": "Some monasteries teach a specialized form of combat that is very different from traditional monk fighting techniques. This style is known as the Way of the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Aresian Technique",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Shield Dancer",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Shell of the Dragon Turtle",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Undaunted Spirit",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of the Dragonlord",
+   "type": "Subclass",
+   "name": "Oath of the Dragonlord",
+   "desc": "Dragonlords are paladins who seek to extend their reach across the land by binding a dragon into their service. Such a task should never be undertaken...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Pseudodragon Familiar",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dragonlord's Bond",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Young Dragon",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Unbreakable Bond",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Hunters Mark",
+      "Find Familiar"
+     ],
+     "5": [
+      "Gust of Wind",
+      "Levitate"
+     ],
+     "9": [
+      "Fly",
+      "Haste"
+     ],
+     "13": [
+      "Freedom of Movement",
+      "Stoneskin"
+     ],
+     "17": [
+      "Hold Monster",
+      "Rarys Telepathic Bond"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Amazonian",
+   "type": "Subclass",
+   "name": "Amazonian",
+   "desc": "The Amazons are a warrior culture that emphasize the strength of the individual, in contrast to societies that defend themselves with large armies of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Amazonian Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Stimfay Companion",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Amazonian Battlecry",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Bracer Reflection",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Chakram Technique",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Improved Falconry",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Pressure Points",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Odyssean",
+   "type": "Subclass",
+   "name": "Odyssean",
+   "desc": "Odysseans are legendary tricksters who at first glance seem like common soldiers. They carry spears and shields like any rank-and-file hoplite, but rather...",
+   "rules": [
+    {
+     "grant": "Class Feature:Vagrant Soldier",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Clever as the Gods",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Notorious Trickster",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Tenacious Survivor",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Legendary Cunning",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Demigod",
+   "type": "Subclass",
+   "name": "Demigod",
+   "desc": "Your magic springs from the divine blood that flows through your veins. The gods have often been known to consort with mortals, and such unions sometimes...",
+   "rules": [
+    {
+     "grant": "Class Feature:Godly Ancestor",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Inherited Strength",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Empowered Magic",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Resistance",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Ascendant Sorcery",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  },
+  {
+   "id": "Subclass:The Fates",
+   "type": "Subclass",
+   "name": "The Fates",
+   "desc": "Your otherworldy patron is actually a trio of ancient beings: the coven of hags known as the Fates. The Fates weave the destinies of all gods and mortals in...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fate's Bidding",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fate's Foretelling",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Fate's Demands",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Inescapable Fate",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Detect Evil and Good",
+     "Identify",
+     "Levitate",
+     "See Invisibility",
+     "Clairvoyance",
+     "Call Lightning",
+     "Arcane Eye",
+     "Divination",
+     "Planar Binding",
+     "Geas"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Academy Philosopher",
+   "type": "Subclass",
+   "name": "Academy Philosopher",
+   "desc": "Academy philosophers are great thinkers who do not specialize in any particular spell school, but rather spend their time analyzing the nature of reality...",
+   "rules": [
+    {
+     "grant": "Class Feature:Philosophical School",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Mathematical Principles",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Metaphysical Principles",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Magical Paradox",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  }
+ ]
+}

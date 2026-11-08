@@ -1,0 +1,19 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "ootd",
+  "name": "Odyssey of the Dragonlords",
+  "short": "OOTD"
+ },
+ "files": [
+  "races.json",
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "spells.json",
+  "equipment.json",
+  "magic-items.json",
+  "info.json"
+ ]
+}

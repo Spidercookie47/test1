@@ -1,0 +1,434 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Poem Rank 1",
+   "type": "Class Feature",
+   "name": "Poem Rank 1",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Poem Rank 2",
+   "type": "Class Feature",
+   "name": "Poem Rank 2",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 3",
+   "type": "Class Feature",
+   "name": "Poem Rank 3",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 4",
+   "type": "Class Feature",
+   "name": "Poem Rank 4",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 5",
+   "type": "Class Feature",
+   "name": "Poem Rank 5",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 6",
+   "type": "Class Feature",
+   "name": "Poem Rank 6",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    },
+    {
+     "grant": "Class Feature:Epic Determination"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 7",
+   "type": "Class Feature",
+   "name": "Poem Rank 7",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    },
+    {
+     "grant": "Class Feature:Epic Determination"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 8",
+   "type": "Class Feature",
+   "name": "Poem Rank 8",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    },
+    {
+     "grant": "Class Feature:Epic Determination"
+    },
+    {
+     "grant": "Class Feature:Epic Reflexes"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 9",
+   "type": "Class Feature",
+   "name": "Poem Rank 9",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    },
+    {
+     "grant": "Class Feature:Epic Determination"
+    },
+    {
+     "grant": "Class Feature:Epic Reflexes"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poem Rank 10",
+   "type": "Class Feature",
+   "name": "Poem Rank 10",
+   "desc": "Your poem increases in rank as the number of verses grows.\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "grant": "Class Feature:Epic Courage"
+    },
+    {
+     "grant": "Class Feature:Epic Foresight"
+    },
+    {
+     "grant": "Class Feature:Epic Determination"
+    },
+    {
+     "grant": "Class Feature:Epic Reflexes"
+    },
+    {
+     "grant": "Class Feature:Epic Resistance"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Death Domain",
+   "type": "Class Feature",
+   "name": "Death Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Bane",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Ray of Sickness",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Knowledge Domain",
+   "type": "Class Feature",
+   "name": "Knowledge Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Command",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Guiding Bolt",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Life Domain",
+   "type": "Class Feature",
+   "name": "Life Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Cure Wounds",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Bless",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Nature Domain",
+   "type": "Class Feature",
+   "name": "Nature Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Entangle",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Healing Word",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Light Domain",
+   "type": "Class Feature",
+   "name": "Light Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Burning Hands",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Faerie Fire",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Tempest Domain",
+   "type": "Class Feature",
+   "name": "Tempest Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Fog Cloud",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Thunderwave",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Trickery Domain",
+   "type": "Class Feature",
+   "name": "Trickery Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Charm Person",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Tashas Hideous Laughter",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:War Domain",
+   "type": "Class Feature",
+   "name": "War Domain",
+   "desc": "You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Shield of Faith",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Thunderous Smite",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:School: Cynicism",
+   "type": "Class Feature",
+   "name": "School: Cynicism",
+   "desc": "Cynics believe that one should reject material desires such as wealth and power. They advocate for an ascetic lifestyle, seeking to increase virtue by achieving harmony with nature.\n\nStarting when you choose this school at 2nd level, the gold and time you must spend to copy a spell into your spellbook is halved. Additionally, you may spend 10 minutes foraging to locate the material components for any spell, with a total value of 50 gp or less.",
+   "rules": [],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Eclecticism",
+   "type": "Class Feature",
+   "name": "School: Eclecticism",
+   "desc": "Eclectics believe that no single set of doctrines can be all-encompassing. They adapt the ideas of multiple philosophical schools by choosing what they think is most reasonable.\n\nStarting when you choose this school at 2nd level, you learn an additional language of your choice. Starting at 5th level, choose another philosophical school. You gain the abilities of that school.",
+   "rules": [
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Eclecticism, Philosophical School",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:School: Cynicism",
+       "Class Feature:School: Eclecticism",
+       "Class Feature:School: Empiricism",
+       "Class Feature:School: Epicureanism",
+       "Class Feature:School: Stoicism",
+       "Class Feature:School: Sophism",
+       "Class Feature:School: Hedonism",
+       "Class Feature:School: Skepticism"
+      ]
+     },
+     "level": 5
+    }
+   ],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Empiricism",
+   "type": "Class Feature",
+   "name": "School: Empiricism",
+   "desc": "Empiricists believe that the world must be observed to be understood, and that the goal of philosophy is to understand why things are as they are.\n\nStarting when you choose this school at 2nd level, you become proficient in the Perception skill. Additionally, you may cast the identify or detect magic spell once with this trait (without using a spell slot), and you regain the ability to do so after completing a short or long rest.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Identify",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Epicureanism",
+   "type": "Class Feature",
+   "name": "School: Epicureanism",
+   "desc": "Epicureans believe that the world is ruled by chance and that appealing to the gods is useless vanity. They believe that happiness is achieved by minimizing pain and living simple lives.\n\nStarting when you choose this school at 2nd level, when a creature you can see attacks you, you can use your reaction to impose disadvantage on the attack roll. You may use this ability a number of times equal to your Intelligence modifier, and it recharges when you complete a short or long rest.",
+   "rules": [],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Stoicism",
+   "type": "Class Feature",
+   "name": "School: Stoicism",
+   "desc": "Stoics believe that we must develop self-control and fortitude in order to overcome our own self-destructive emotions. They advocate for humility and faith as antidotes to suffering.\n\nStarting when you choose this school at 2nd level, whenever you take damage that reduces you to 0 hit points or less, you may spend a spell slot of 1st level or higher to be reduced to 1 hit point instead. Once you have used this feature, you may not use it again until you complete a short or long rest.",
+   "rules": [],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Sophism",
+   "type": "Class Feature",
+   "name": "School: Sophism",
+   "desc": "Sophists specialize in developing rhetorical and aesthetic powers, and they advocate for principles of excellence and virtue in all endeavors.\n\nStarting when you choose this school at 2nd level, you become proficient in the Persuasion skill and double your proficiency bonus when using that skill. Additionally, you gain the friends cantrip.",
+   "rules": [
+    {
+     "grant": "skill:Persuasion"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Friends",
+     "at will"
+    ]
+   ],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Hedonism",
+   "type": "Class Feature",
+   "name": "School: Hedonism",
+   "desc": "Hedonists believe that pleasure is the supreme good, and that everyone should seek to achieve the immediate gratification of their desires.\n\nStarting when you choose this school at 2nd level, when you regain hit points from a spell or ability, you may choose to add twice your wizard level to the number of hit points restored. Once you have used this feature, you may not use it again until you complete a short or long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "hedonism",
+     "name": "Hedonism Healing",
+     "rest": "S",
+     "max": 1
+    }
+   }
+  ],
+   "lv": 5
+  },
+  {
+   "id": "Class Feature:School: Skepticism",
+   "type": "Class Feature",
+   "name": "School: Skepticism",
+   "desc": "Skeptics believe that to truly possess knowledge of things is impossible. They believe that there are universal truths, but they cannot be understood well enough to shape dogmatic ideas about the world.\n\nStarting when you choose this school at 2nd level, you have advantage on ability checks to detect visual illusions and on saving throws against effects imposed by them. You also have advantage on saving throws against spells and effects that would charm you.",
+   "rules": [],
+   "lv": 5
+  }
+ ]
+}

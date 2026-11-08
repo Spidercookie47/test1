@@ -1,0 +1,548 @@
+{
+ "elements": [
+  {
+   "id": "Race:Thylean Centaur",
+   "type": "Race",
+   "name": "Thylean Centaur",
+   "desc": "A noble race that roams the great plains of the world, centaurs are both feared and respected by other intelligent creatures. Centaur legends claim that...",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "wis": 1,
+      "speed": 40
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "grant": "Racial Trait:Charge"
+    },
+    {
+     "grant": "Racial Trait:Mountable"
+    },
+    {
+     "grant": "Racial Trait:Quadrapedal Stride"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Charge",
+   "type": "Racial Trait",
+   "name": "Charge",
+   "desc": "If you move 30 feet straight toward a target and then hit them with a melee attack on the same turn, the target takes an extra 1d6 damage from the first attack.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mountable",
+   "type": "Racial Trait",
+   "name": "Mountable",
+   "desc": "As a bonus action on your turn, you may allow a single willing ally within 5 feet of you to hitch a brief ride on your back. They are carried on your back until the end of your turn, at which point they must disembark within 5 feet of you. While being carried, your rider is not considered to be mounted and they are not vulnerable to attacks of opportunity. Your rider must be a bipedal creature of your size or smaller.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Quadrapedal Stride",
+   "type": "Racial Trait",
+   "name": "Quadrapedal Stride",
+   "desc": "Climbing or maneuvering in tight spaces is considered difficult terrain for you.",
+   "rules": []
+  },
+  {
+   "id": "Race:Thylean Medusa",
+   "type": "Race",
+   "name": "Thylean Medusa",
+   "desc": "Medusa are humanoids that have made a bargain with dark powers to achieve beauty, eternal youth, great wealth, or some other mortal desire. As a...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Cursed"
+    },
+    {
+     "grant": "Racial Trait:Snake Hair"
+    },
+    {
+     "grant": "Racial Trait:Snake Blood"
+    },
+    {
+     "grant": "Racial Trait:Petrifying Gaze"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Cursed",
+   "type": "Racial Trait",
+   "name": "Cursed",
+   "desc": "You are afflicted by the curse of the medusa, but your transformation is already complete. Your curse can only be ended with the wish spell. If your curse ends, then your race changes to whichever race you were before you became cursed (usually a human).",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Snake Hair",
+   "type": "Racial Trait",
+   "name": "Snake Hair",
+   "desc": "You can attack with your snake hair. This is a melee weapon attack with an attack bonus equal to your proficiency modifier + your Dexterity modifier. It does 1d6 piercing damage on a hit, and your target must make a DC 12 Constitution saving throw or else they are poisoned until the beginning of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Snake Blood",
+   "type": "Racial Trait",
+   "name": "Snake Blood",
+   "desc": "You have advantage on saving throws against spells and abilities that inflict the poisoned condition.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Petrifying Gaze",
+   "type": "Racial Trait",
+   "name": "Petrifying Gaze",
+   "desc": "Starting at 5th level, you can use your action to force a creature within 30 feet that can see your eyes to make a DC 8 Constitution saving throw. On a failure, the creature is paralyzed until the end of its next turn. On your turn, you can use your bonus action to force the same creature to repeat this saving throw with disadvantage. Each time it fails, it is paralyzed again until the end of its next turn. When a creature is paralyzed in this way for the third time in a span of 10 minutes, it is instantly petrified.\nStarting at 10th level, the DC for this saving throw increases to 10. At 15th level, the DC increases to 12. At 20th level, the DC increases to 14.",
+   "rules": []
+  },
+  {
+   "id": "Race:Thylean Minotaur",
+   "type": "Race",
+   "name": "Thylean Minotaur",
+   "desc": "Minotaurs are the descendants of an ancient tribe of humans who were cursed by the gods, transforming them into half-human, half-bull monstrosities....",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "con": 1,
+      "speed": 40
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Abyssal"
+    },
+    {
+     "grant": "Racial Trait:Keen Snout"
+    },
+    {
+     "grant": "Racial Trait:Labyrinthine Vision"
+    },
+    {
+     "grant": "Racial Trait:Colorblindness"
+    },
+    {
+     "grant": "Racial Trait:Cursed Transformation"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Keen Snout",
+   "type": "Racial Trait",
+   "name": "Keen Snout",
+   "desc": "Despite your powerful demeanor, you have a delicate nose. You have advantage on Wisdom (Perception) checks that rely on smell, and you can detect strong odors from up to six miles away.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Labyrinthine Vision",
+   "type": "Racial Trait",
+   "name": "Labyrinthine Vision",
+   "desc": "Your eyes are adapted to the dark conditions of deep canyons and underground labyrinths, giving you darkvision out to 60 ft. You have advantage on skill checks made to solve maze-like puzzles. Additionally, you automatically succeed on saving throws against maze and hypnotic pattern.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Colorblindness",
+   "type": "Racial Trait",
+   "name": "Colorblindness",
+   "desc": "You see the world in shades of red and grey, leaving you incapable of discerning any color except for very bright reds.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Cursed Transformation",
+   "type": "Racial Trait",
+   "name": "Cursed Transformation",
+   "desc": "Starting at 5th level, you may use your bonus action to transform yourself into a bull using the rules of the polymorph spell (no concentration required). This ability recharges after a long rest. This ability automatically triggers if you suffer prolonged exposure to very bright shades of red. Starting at 9th level, this ability transforms you into a dire bull.",
+   "rules": []
+  },
+  {
+   "id": "Race:Thylean Nymph",
+   "type": "Race",
+   "name": "Thylean Nymph",
+   "desc": "Nymphs are fey spirits that manifest from the beauty of the elemental forces of creation. There are many kinds of nymphs—dryads of the forests, naiads of...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "wis": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "grant": "Racial Trait:Enthralling Beauty"
+    },
+    {
+     "grant": "Racial Trait:Nymph Ancestry"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Enthralling Beauty",
+   "type": "Racial Trait",
+   "name": "Enthralling Beauty",
+   "desc": "You possess unearthly grace and beauty, which allows you to dazzle and charm those who are susceptible to such things. You have proficiency in the Persuasion skill. Additionally, you can cast the charm person spell once with this trait and regain the ability to do so when you finish a short or long rest. Charisma is your spellcasting ability for this spell.",
+   "rules": [
+    {
+     "grant": "skill:Persuasion"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Charm Person",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Nymph Ancestry",
+   "type": "Racial Trait",
+   "name": "Nymph Ancestry",
+   "desc": "When you create your nymph, choose one of the following subraces: Aurae, Dryad, Naiad, Nereid, or Oread. You gain access to special traits and magic depending upon your ancestry.",
+   "rules": [
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Nymph Ancestry"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Thylean Aurae Nymph",
+   "type": "Sub Race",
+   "name": "Thylean Aurae Nymph",
+   "desc": "Aurae are associated with the breezes and the constellations of the night sky. They look like beautiful humans except that in dim lighting, their features...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Aurae Ancestry"
+    }
+   ],
+   "supports": "Race:Thylean Nymph Ancestry"
+  },
+  {
+   "id": "Racial Trait:Aurae Ancestry",
+   "type": "Racial Trait",
+   "name": "Aurae Ancestry",
+   "desc": "You have Darkvision out to 60 ft., and you have advantage on Wisdom (Survival) checks when navigating by the stars. Starting at 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so after a short or long rest. Starting at 7th level, you can cast the levitate spell once with this trait and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Faerie Fire",
+     "1/long rest"
+    ],
+    [
+     7,
+     "Levitate",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Thylean Dryad Nymph",
+   "type": "Sub Race",
+   "name": "Thylean Dryad Nymph",
+   "desc": "Dryads are associated with the forests and trees. They look like beautiful humans but with rough, bark-like skin that ranges in color from earthy browns and...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Dryad Ancestry"
+    }
+   ],
+   "supports": "Race:Thylean Nymph Ancestry"
+  },
+  {
+   "id": "Racial Trait:Dryad Ancestry",
+   "type": "Racial Trait",
+   "name": "Dryad Ancestry",
+   "desc": "You are fluent in the languages of beasts and plants, and you have advantage on Wisdom (Survival) checks in forested regions. Starting at 3rd level, you can cast the goodberry spell once with this trait and regain the ability to do so after a short or long rest. Starting at 7th level, you can cast the barkskin spell once with this trait and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Goodberry",
+     "1/long rest"
+    ],
+    [
+     7,
+     "Barkskin",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Thylean Naiad Nymph",
+   "type": "Sub Race",
+   "name": "Thylean Naiad Nymph",
+   "desc": "Naiads are associated with rivers, lakes, and rushing rapids. They look like beautiful humans but with long hair that coils and tumbles like a flowing...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Naiad Ancestry"
+    }
+   ],
+   "supports": "Race:Thylean Nymph Ancestry"
+  },
+  {
+   "id": "Racial Trait:Naiad Ancestry",
+   "type": "Racial Trait",
+   "name": "Naiad Ancestry",
+   "desc": "You can hold your breath for 1 hour, and you have a swimming speed of 40 ft. Starting at 3rd level, you may cast the create or destroy water spell once with this trait and regain the ability to do so after a short or long rest. Starting at 7th level, you can cast the control water spell once with this trait and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Create Or Destroy Water",
+     "1/long rest"
+    ],
+    [
+     7,
+     "Control Water",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Thylean Nereid Nymph",
+   "type": "Sub Race",
+   "name": "Thylean Nereid Nymph",
+   "desc": "Nereids are associated with the stormy seas and oceans. They look like beautiful humans but with pearlescent blue-green skin, luminous eyes, and webbed...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Nereid Ancestry"
+    }
+   ],
+   "supports": "Race:Thylean Nymph Ancestry"
+  },
+  {
+   "id": "Racial Trait:Nereid Ancestry",
+   "type": "Racial Trait",
+   "name": "Nereid Ancestry",
+   "desc": "You can breathe underwater, and you have a swimming speed of 40 ft. Starting at 3rd level, you may cast the fog cloud spell once with this trait and regain the ability to do so after a short or long rest. Starting at 7th level, you can cast the water walk spell once with this trait and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Fog Cloud",
+     "1/long rest"
+    ],
+    [
+     7,
+     "Water Walk",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Thylean Oread Nymph",
+   "type": "Sub Race",
+   "name": "Thylean Oread Nymph",
+   "desc": "Oreads are associated with rocky crags and the snowy peaks of mountains. They look like beautiful humans but with cat-shaped eyes. Oreads are fierce...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Oread Ancestry"
+    }
+   ],
+   "supports": "Race:Thylean Nymph Ancestry"
+  },
+  {
+   "id": "Racial Trait:Oread Ancestry",
+   "type": "Racial Trait",
+   "name": "Oread Ancestry",
+   "desc": "You have Darkvision out to 60 ft., and you have advantage on Wisdom (Survival) checks in steppes, rocky islands, and mountainous regions. Starting at 3rd level, you can cast the hunter’s mark spell once with this trait and regain the ability to do so after a short or long rest. Starting at 7th level, you can cast the misty step spell once with this trait and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Hunters Mark",
+     "1/long rest"
+    ],
+    [
+     7,
+     "Misty Step",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Thylean Satyr",
+   "type": "Race",
+   "name": "Thylean Satyr",
+   "desc": "Satyrs are a race of fey creatures with a strong link to the Feywild and all of the creatures and races that come from that place. They prefer forested...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "grant": "Racial Trait:Fey Heritage"
+    },
+    {
+     "grant": "Racial Trait:Memory for Music"
+    },
+    {
+     "grant": "Racial Trait:Enchanting Music"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Fey Heritage",
+   "type": "Racial Trait",
+   "name": "Fey Heritage",
+   "desc": "You have advantage on saving throws against being charmed or frightened, and spells can’t put you to sleep.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Memory for Music",
+   "type": "Racial Trait",
+   "name": "Memory for Music",
+   "desc": "You have proficiency with one instrument of your choice. You have advantage on Performance checks made with the selected instrument. You can also memorize and perform any song after hearing it only once.",
+   "rules": [
+    {
+     "select": {
+      "name": "Musical Instrument",
+      "type": "Tool"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Enchanting Music",
+   "type": "Racial Trait",
+   "name": "Enchanting Music",
+   "desc": "You can cast the minor illusion cantrip. When you reach 3rd level, you can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the suggestion spell with this trait and regain the ability to do so when you finish a long rest. Casting these spells requires access to an instrument that you are proficient with. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Minor Illusion",
+     "at will"
+    ],
+    [
+     3,
+     "Sleep",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Suggestion",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Thylean Siren",
+   "type": "Race",
+   "name": "Thylean Siren",
+   "desc": "Sirens are a race of winged, aquatic humanoids that typically dwell near rocky sea cliffs. They are famed for their beautiful voices, which they use to sing...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "cha": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Celestial"
+    },
+    {
+     "grant": "Racial Trait:Enthralling Voice"
+    },
+    {
+     "grant": "Racial Trait:Wavering Emotions"
+    },
+    {
+     "grant": "Racial Trait:Flight"
+    },
+    {
+     "grant": "Racial Trait:Songs of Sorrow"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Enthralling Voice",
+   "type": "Racial Trait",
+   "name": "Enthralling Voice",
+   "desc": "You have advantage on Performance and Persuasion checks made with your voice. Additionally, your powerful lungs allow you to hold your breath for up to 1 hour.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Wavering Emotions",
+   "type": "Racial Trait",
+   "name": "Wavering Emotions",
+   "desc": "Your mood affects your ability to sing and fly. After any short or long rest, you must choose whether you are feeling joyful or sad. While you are feeling sad, you lose your flying speed but gain songs of sorrow. While you are feeling joyful, you gain your flying speed but lose songs of sorrow. Your mood may change before the next time you rest, but it won’t affect which ability you have access to until after your next rest is completed.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Flight",
+   "type": "Racial Trait",
+   "name": "Flight",
+   "desc": "You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Songs of Sorrow",
+   "type": "Racial Trait",
+   "name": "Songs of Sorrow",
+   "desc": "Your lamentations have a powerful effect on anyone who can hear them. You can cast the charm person spell once with this trait and regain the ability to do so when you finish a short rest. When you reach 3rd level, you can cast the enthrall spell once with this trait and regain the ability to do so when you finish a short rest. When you reach 5th level, you can cast the hold person spell once with this trait and regain the ability to do so when you finish a short rest. Charisma is your spellcasting ability for these spells, and the targets of your spells must have the ability to hear you singing.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Charm Person",
+     "1/long rest"
+    ],
+    [
+     3,
+     "Enthrall",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Hold Person",
+     "1/long rest"
+    ]
+   ]
+  }
+ ]
+}

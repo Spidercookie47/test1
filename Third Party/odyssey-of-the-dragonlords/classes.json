@@ -1,0 +1,781 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Precocious Wrestler",
+   "type": "Class Feature",
+   "name": "Precocious Wrestler",
+   "desc": "Starting at 3rd level, you have learned to take advantage of your innate strength to wrestle foes into submission. You are proficient in the Athletics skill, and you are capable of grappling and shoving creatures that are up to two sizes larger than you. On your turn, you may use a bonus action to attempt to grapple a creature. While you are grappling a creature with one hand, you may use your free hand to attack that creature with two-handed weapons as if you were using both hands.",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Mighty Marksman",
+   "type": "Class Feature",
+   "name": "Mighty Marksman",
+   "desc": "Starting at 6th level, you leverage your immense strength when using ranged weapons. You can use heavy weapons without incurring disadvantage due to your size. Additionally, you may choose to use your Strength modifier for attack and damage rolls with longbows. When you make ranged attacks with longbows or thrown weapons while raging, you may add your rage damage bonus to the damage rolls.\n\nThunderous Shot. When you make a ranged attack, you may choose to add the effect of thunderwave to the projectile, centered on the location that the projectile hits. The DC for this effect is 8 + your proficiency bonus + your Strength modifier. Once you have used this feature, you may not use it again until you complete a short or long rest.",
+   "rules": [
+    {
+     "grant": "Class Feature:Thunderous Shot"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Thunderous Shot",
+   "type": "Class Feature",
+   "name": "Thunderous Shot",
+   "desc": "",
+     "rules": [
+   {
+    "resource": {
+     "id": "thunderous-shot",
+     "name": "Thunderous Shot",
+     "rest": "S",
+     "max": 1
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Herculean Rage",
+   "type": "Class Feature",
+   "name": "Herculean Rage",
+   "desc": "Starting at 10th level, your rages take on legendary qualities and grow more powerful the longer they endure. At the beginning of each of your turns, if you are already raging, your rage damage bonus increases by +1, up to a maximum of your Strength modifier. Additionally, while raging, you are immune to poison damage and you cannot be frightened.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Earthshaker",
+   "type": "Class Feature",
+   "name": "Earthshaker",
+   "desc": "Starting at 14th level, your colossal strength causes the ground itself to tremble and quake. On your turn, you can use your action to strike the ground and create the effects of an earthquake with a 40 ft. radius, centered on your location. This area becomes difficult terrain.\n\nEach creature on the ground in the affected area that is concentrating must make a Constitution saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the creature's concentration is broken. At the end of your turn, each creature on the ground in the area must make a Dexterity saving throw with the same DC as the previous one. On a failed save, the creature is knocked prone. You have advantage on this saving throw.\n\nAt the beginning of each of your subsequent turns, you may use your bonus action to stomp the ground and continue the effects of the earthquake until the beginning of your next turn, for a maximum duration of 1 minute. Once you have used this feature, you may not use it again until you complete a long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "earthshaker",
+     "name": "Earthshaker",
+     "rest": "L",
+     "max": 1
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Epic Verses",
+   "type": "Class Feature",
+   "name": "Epic Verses",
+   "desc": "Starting when you join the College of Epic Poetry at 3rd level, you begin composing your epic poem. When certain significant events occur during your travels or during combat, you may use your reaction to compose a new epic verse. Significant events are defined as any of the following things happening to you or one of your allies by chance (e.g. your party cannot deliberately force them to happen by repetition). You must be able to see or hear the event happen.\n\n- Comedy: Someone rolls a natural 1 on an attack or saving throw.\n- Hubris: Someone rolls a natural 20 on an attack or saving throw.\n- Irony: Someone fails a saving throw after adding a Bardic Inspiration die.\n- Tragedy: Someone is reduced to zero hit points by an enemy.\n\nAdditionally, any particularly exciting event that seems to warrant inclusion in your poem is eligible as long as the GM approves—but don’t push it.\n\nEach time you compose a new epic verse, you must declare that you are doing so. If the GM approves, then you may add 1 verse to your poem. You may also want to write down what happened and why, so that you can enjoy reading it later, but this is not required. Your poem increases in rank as the number of verses grows.",
+     "rules": [
+   {
+    "resource": {
+     "id": "epic-verses",
+     "name": "Epic Poem Verses",
+     "rest": "none",
+     "max": 60,
+     "note": "Track up to 60 verses"
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Inspirational Verses",
+   "type": "Class Feature",
+   "name": "Inspirational Verses",
+   "desc": "Starting at 3rd level, when you give someone Bardic Inspiration, you recite a portion of your epic poem, which improves the effect of the dice based upon the rank of your poem.\n\nImproved Rolls. Your Bardic Inspiration dice have a minimum result value based on the number of verses that you’ve collected. Whenever someone rolls one of your Bardic Inspiration dice, if they roll less than the minimum value for your poem rank, then the result is equal to the minimum value as determined by your poem rank.\n\nAdditional Effects. Your Bardic Inspiration dice have additional effects based on the number of verses that you’ve collected. When you give someone Bardic Inspiration, choose one of the following effects that you have unlocked. They gain the benefit of this effect as long as they have your Bardic Inspiration die. The effect is lost when they roll the die.\n\nEpic Courage: You gain advantage on saving throws against effects that would frighten you.\n\nEpic Determination: You gain advantage on death saving throws.\n\nEpic Foresight: You cannot be surprised, and your passive Perception increases by +5.\n\nEpic Reflexes: You gain advantage on saving throws against spells that affect multiple targets.\n\nEpic Resistance: You gain resistance to one damage type (Bard’s choice).\n\nEPIC POEM RANKS AND EFFECTS\n\nPoem Rank | Required Verse Count | Bardic Inspiration Improvement\n1 | 6 | Minimum Value = 2\n2 | 12 | Epic Courage\n3 | 18 | Minimum Value = 3\n4 | 24 | Epic Foresight\n5 | 30 | Minimum Value = 4\n6 | 36 | Epic Determination\n7 | 42 | Minimum Value = 5\n8 | 48 | Epic Reflexes\n9 | 54 | Minimum Value = 6\n10 | 60 | Epic Resistance",
+   "rules": [
+    {
+     "select": {
+      "name": "Poem Rank",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Poem Rank 1",
+       "Class Feature:Poem Rank 2",
+       "Class Feature:Poem Rank 3",
+       "Class Feature:Poem Rank 4",
+       "Class Feature:Poem Rank 5",
+       "Class Feature:Poem Rank 6",
+       "Class Feature:Poem Rank 7",
+       "Class Feature:Poem Rank 8",
+       "Class Feature:Poem Rank 9",
+       "Class Feature:Poem Rank 10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Armored Poet",
+   "type": "Class Feature",
+   "name": "Armored Poet",
+   "desc": "Starting at 6th level, you gain proficiency with medium armor, so that you can get close to the fighting while composing your poem. Additionally, if you are within 5 feet of an ally when you compose an epic verse about them, then you regain one expended Bardic Inspiration die.",
+   "rules": [
+    {
+     "pf": [
+      "a:Medium armor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Protective Epithets",
+   "type": "Class Feature",
+   "name": "Protective Epithets",
+   "desc": "Starting at 14th level, the lyrical epithets that you've selected for your allies take on magical properties, protecting them from death. Whenever a character with your Bardic Inspiration die would be reduced to 0 hit points, they may choose to roll their Bardic Inspiration die and be reduced to that number of hit points instead. The Bardic Inspiration die is then lost.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Epic Courage",
+   "type": "Class Feature",
+   "name": "Epic Courage",
+   "desc": "You gain advantage on saving throws against effects that would frighten you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Epic Foresight",
+   "type": "Class Feature",
+   "name": "Epic Foresight",
+   "desc": "You cannot be surprised, and your passive Perception increases by +5.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Epic Determination",
+   "type": "Class Feature",
+   "name": "Epic Determination",
+   "desc": "You gain advantage on death saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Epic Reflexes",
+   "type": "Class Feature",
+   "name": "Epic Reflexes",
+   "desc": "You gain advantage on saving throws against spells that affect multiple targets.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Epic Resistance",
+   "type": "Class Feature",
+   "name": "Epic Resistance",
+   "desc": "You gain resistance to one damage type (Bard’s choice).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Domain Spells",
+   "type": "Class Feature",
+   "name": "Domain Spells",
+   "desc": "You gain domain spells at the cleric levels listed in the Forge Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\nFORGE DOMAIN SPELLS\n\nCleric Level | Spells\n1st | detect magic, identify\n3rd | augury, locate object\n5th | beacon of hope, clairvoyance\n7th | death ward, divination\n9th | dream, scrying",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mindful Senses",
+   "type": "Class Feature",
+   "name": "Mindful Senses",
+   "desc": "When you choose this domain at 1st level, you gain the message cantrip if you don’t already know it. Additionally, you gain proficiency in the Perception skill.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Message",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Blessing of Foresight",
+   "type": "Class Feature",
+   "name": "Blessing of Foresight",
+   "desc": "Starting at 1st level, you use your divination spells to protect your allies from future events. Whenever you cast a divination spell of 1st level or higher, choose one creature you can see. That creature gains temporary hit points equal to your Wisdom modifier + your cleric level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Prophetic Trance",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Prophetic Trance",
+   "desc": "Starting at 2nd level, you can use your Channel Divinity to enter a prophetic trance. As an action, you inhale hallucinatory vapors and enter a trance-like state for 10 minutes. Roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these prophecy rolls. You must choose to do so before the roll is made. Each prophecy roll can be used only once. You lose the prophecy rolls when your trance ends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Visions of Danger",
+   "type": "Class Feature",
+   "name": "Visions of Danger",
+   "desc": "Starting at 6th level, you experience flashes of foresight that reveal to you when your allies will be harmed, allowing you to react with uncanny speed. When you ready a spell that restores hit points, it does not require or break concentration. Additionally, when one of your allies takes damage or fails a saving throw, you may use your reaction to move up to your speed and cast a beneficial spell that only targets your imperiled ally. The casting time of the spell must be a reaction, action, or bonus action. You may use this feature twice, and you regain any expended uses when you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Healing Vapors",
+   "type": "Class Feature",
+   "name": "Healing Vapors",
+   "desc": "Starting at 8th level, your healing spells are accompanied by a mist of restorative vapors. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your Wisdom modifier.\n\nAdditionally, when you cast a spell of 1st level or higher that restores hit points, you may choose to add the effect of fog cloud at the location of one of your targets. You must complete a long rest before you can create another fog cloud with this feature.",
+     "rules": [
+   {
+    "resource": {
+     "id": "healing-vapors-fog",
+     "name": "Healing Vapors (Fog Cloud)",
+     "rest": "L",
+     "max": 1
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Perfect Foresight",
+   "type": "Class Feature",
+   "name": "Perfect Foresight",
+   "desc": "Starting at 17th level, your prophetic powers are nearly infallible. When you enter a prophetic trance with Channel Divinity, you may choose to replace the result of either d20 prophecy roll with any number between 1 and 19 of your choice. Additionally, while you are in the trance, you gain darkvision out to a range of 60 feet, and you can see invisible creatures and objectives within 10 feet of you that are within line of sight.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ritual of Sacrifice",
+   "type": "Class Feature",
+   "name": "Ritual of Sacrifice",
+   "desc": "Starting at 2nd level, you learn how to perform a sacrificial ritual that pleases the gods. You know the produce flame cantrip. When you make an attack with produce flame, add your Wisdom modifier to the damage roll.\n\nImmolation. Whenever you reduce a creature to 0 hit points, you may choose to immolate them as a sacrificial offering. As the creature is engulfed in fire, you and every ally within 60 feet of the immolated creature gain the effects of the bless spell for 1 minute (concentration is not required). You may use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses after a short or long rest.",
+   "rules": [
+    {
+     "grant": "Class Feature:Immolation"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Produce Flame",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Immolation",
+   "type": "Class Feature",
+   "name": "Immolation",
+   "desc": "Immolation. Whenever you reduce a creature to 0 hit points, you may choose to immolate them as a sacrificial offering. As the creature is engulfed in fire, you and every ally within 60 feet of the immolated creature gain the effects of the bless spell for 1 minute (concentration is not required). You may use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses after a short or long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "immolation",
+     "name": "Immolation",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "mod": "wis"
+      }
+     ]
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Ritual of Mistletoe",
+   "type": "Class Feature",
+   "name": "Ritual of Mistletoe",
+   "desc": "Starting at 6th level, you carry a pouch full of mistletoe that you’ve collected with your sickle. You have sprigs of mistletoe represented by a number of d4s equal to your druid level. On your turn, you may use a bonus action to expend one of the sprigs of mistletoe and perform one of the following effects:\n\n- Divining Ritual: You cast detect magic without using a spell slot.\n- Healing Ritual: You cast cure wounds as a 1st-level spell without using a spell slot.\n- Purification Ritual: You cast purify food and drink without using a spell slot.\n- Song of the Solstice: You cast heroism as a 1st-level spell without using a spell slot.\n\nAdditionally, any time you cast a spell that restores hit points, you may expend any number of sprigs of mistletoe to roll those dice and add them to the number of hit points restored. You regain all expended sprigs of mistletoe after completing a long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "mistletoe",
+     "name": "Sprigs of Mistletoe",
+     "rest": "L",
+     "max": [
+      {
+       "class": "Druid"
+      }
+     ]
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Keeper of the Law",
+   "type": "Class Feature",
+   "name": "Keeper of the Law",
+   "desc": "Starting at 10th level, you are initiated into an ancient order of druidic judges who keep and enforce the laws of the cosmos. Your sprigs of mistletoe increase to d6s.\n\nSacrificial Offering. On your turn, you may use a bonus action to choose one creature that you can see. That creature is marked as a Sacrificial Offering for the next hour. Whenever any of your allies hit that creature with an attack, you may use a reaction to expend one of your sprigs of mistletoe to roll the die and add the result as fire damage. Additionally, whenever a Sacrificial Offering is reduced to 0 hit points, you may activate your Immolation feature on that creature.\n\nRestoration Ritual. On your turn, you may use an action to expend two sprigs of mistletoe to cast the lesser restoration spell.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sacrificial Offering"
+    },
+    {
+     "grant": "Class Feature:Restoration Ritual"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Sacrificial Offering",
+   "type": "Class Feature",
+   "name": "Sacrificial Offering",
+   "desc": "",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Restoration Ritual",
+   "type": "Class Feature",
+   "name": "Restoration Ritual",
+   "desc": "",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Astrological Wisdom",
+   "type": "Class Feature",
+   "name": "Astrological Wisdom",
+   "desc": "Starting at 14th level, you have studied the stars and memorized the pathways that connect the material plane to the astral plane. Your sprigs of mistletoe increase to d8s. Additionally, you gain access to the teleportation circle spell and always have it prepared.\n\nStone Circle. You know the ancient methods used to construct a circle of standing stones. You may spend 8 hours and 12,000 gp to construct a circle of twelve standing stones inscribed with druidic sigils, where each stone is 10 feet tall and weighs 1 ton. This stone circle may be used as a permanent anchor location for the teleportation circle spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Phalanx (Shield Wall)",
+   "type": "Class Feature",
+   "name": "Phalanx (Shield Wall)",
+   "desc": "Starting when you choose this archetype at 3rd level, you can use a bonus action to activate your Shield Wall ability. You may use this ability once, and you regain the ability to do so after completing a long rest.\n\nShield Wall. For 1 minute, you and every ally who can see or hear you gains +2 AC as long as they are standing within 5 feet of an ally who is using a shield. Additionally, your allies wielding shields gain an additional +1 AC from their own shields (this includes you). This ability does not stack with itself.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spear Mastery",
+   "type": "Class Feature",
+   "name": "Spear Mastery",
+   "desc": "Starting at 7th level, your damage dice with spears, tridents, and javelins increases to d8 (d10 when wielded with two hands), and your melee attack range with these weapons is increased to 10 feet. When you make an attack with one of these weapons, you may use a bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon’s damage die for this attack is a d4, and it deals bludgeoning damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Disciplined Defense",
+   "type": "Class Feature",
+   "name": "Disciplined Defense",
+   "desc": "Starting at 10th level, you are practiced at using your shield to intercede and protect allies. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to add your proficiency bonus to the target's AC until the beginning of your next turn. You must be wielding a shield.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shield Buster",
+   "type": "Class Feature",
+   "name": "Shield Buster",
+   "desc": "Starting at 15th level, your attacks score a critical hit on a roll of 19 or 20. When you score a critical hit with a melee weapon, you knock away your target’s shield if they are wielding one. The shield lands in a free space up to 10 ft. away. If your target is not wielding a shield, then they suffer an additional d6 damage from the sheer force of your weapon attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Phalanx Wrecker",
+   "type": "Class Feature",
+   "name": "Phalanx Wrecker",
+   "desc": "Starting at 18th level, you have become a whirling machine of death in close quarters combat. When you take the Attack action, you can forgo one of your attacks to make a single melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hoplite",
+   "type": "Class Feature",
+   "name": "Hoplite",
+   "desc": "While you are wielding a shield, you are alert to attacks made against nearby allies. Whenever a creature attacks an ally standing within 5 feet of you with a melee attack, you may use your reaction to make a melee opportunity attack against the offending creature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aresian Technique",
+   "type": "Class Feature",
+   "name": "Aresian Technique",
+   "desc": "Starting when you choose this tradition at 3rd level, you gain proficiency with shields. Additionally, wielding a shield does not impede your Martial Arts, Unarmored Movement, or Unarmored Defense features. You may also use your shield as a “free hand” to catch and hold missile weapons with your Deflect Missiles feature.\n\nAs long as you are wielding a shield, opportunity attacks against you are made with disadvantage.",
+   "rules": [
+    {
+     "pf": [
+      "a:Shields"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Shield Dancer",
+   "type": "Class Feature",
+   "name": "Shield Dancer",
+   "desc": "Starting at 6th level, you have learned new techniques for using shields on the battlefield.\n\nVaulting Strike. As a bonus action on your turn, you may spend 1 ki point to vault yourself into the air, leaping up to 15 feet in any direction. If you are wielding a shield, then this leap does not provoke opportunity attacks. If you take an Attack action immediately after leaping, then you have advantage on your first melee attack, and it scores a critical hit on a roll of 19 or 20.\n\nCounterattack. Whenever a creature makes an opportunity attack against you and misses, if you are using a shield, you may use your reaction to spin around and make a single melee weapon attack against that creature, without interrupting your movement.",
+   "rules": [
+    {
+     "grant": "Class Feature:Vaulting Strike"
+    },
+    {
+     "grant": "Class Feature:Counterattack"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Vaulting Strike",
+   "type": "Class Feature",
+   "name": "Vaulting Strike",
+   "desc": "",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Counterattack",
+   "type": "Class Feature",
+   "name": "Counterattack",
+   "desc": "",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shell of the Dragon Turtle",
+   "type": "Class Feature",
+   "name": "Shell of the Dragon Turtle",
+   "desc": "Starting at 11th level, you have learned to think of your shield as an extension of your body. As a reaction when you are attacked, you may spend 1 ki point to gain an additional +3 AC from your shield, including against the triggering attack, until the beginning of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Undaunted Spirit",
+   "type": "Class Feature",
+   "name": "Undaunted Spirit",
+   "desc": "Beginning at 17th level, you are fearless when faced with overwhelming enemies. You have advantage on all attacks made against creatures that are Huge in size or larger. Additionally, you cannot be frightened or paralyzed by spells or abilities used by such creatures.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Oath Spells",
+   "type": "Class Feature",
+   "name": "Oath Spells",
+   "desc": "Starting when you swear your oath at 3rd level, you gain Oath Spells at the listed levels and always have them prepared\n\nOATH OF THE DRAGONLORD SPELLS\n\nPaladin Level | Spells\n3rd | hunter's mark, find familiar\n5th | gust of wind, levitate\n9th | fly, haste\n13th | freedom of movement, stoneskin\n17th | hold monster, telepathic bond",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pseudodragon Familiar",
+   "type": "Class Feature",
+   "name": "Pseudodragon Familiar",
+   "desc": "When you cast the find familiar spell, you summon a pseudodragon instead of one of the normal forms described in the spell. The pseudodragon's primary purpose is to find you a dragon egg. The pseudodragon can smell dragon eggs if they are within one mile.\n\nThe pseudodragon is likely to find a dragon egg by the time you are 5th level, but it might be earlier. If your pseudodragon hasn’t found a dragon egg by 6th level, then it departs in search of one. In 3d6 days, the pseudodragon returns to you with a dragon egg of your choice from this list: brass, bronze, copper, or silver.\n\nIf at any time your dragon egg is lost or destroyed, your pseudodragon will depart in search of another one. It will return in 3d6 days with the lost egg or a suitable replacement. If you deliberately lose or destroy your egg, then your pseudodragon refuses to perform this service.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity",
+   "type": "Class Feature",
+   "name": "Channel Divinity",
+   "desc": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\nDragon's Wrath. As an action, you can mimic the frightful presence of a dragon, using your Channel Divinity. You issue a roar as loud as an adult dragon. Each creature of your choice that is within 60 ft. of you and aware of you must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nScorn the Unworthy. Your dragonlord oath elevates you above the multitudes of the corrupt and the weak. As an action, you can intone the Dragonlord’s oath, using your Channel Divinity. Enemy creatures within 30 feet that are Large or smaller in size must make a Charisma saving throw. On a failed save, the creature falls prone and loses concentration on any spells that it has active.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity: Dragon's Wrath"
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Scorn the Unworthy"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Dragonlord's Bond",
+   "type": "Class Feature",
+   "name": "Dragonlord's Bond",
+   "desc": "At 7th level, your dragon egg will hatch. You must cast the spell bond of the dragonlords while touching the newborn wyrmling within 24 hours of it hatching. The dragon wyrmling is now bonded to you. Additionally, you may cast the spells bond of the dragonlords and dirge of the dragonlords, and they require no material components when you cast them. Your wyrmling has hit points equal to 40 + twice your paladin level, and it adds your proficiency bonus to its saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Young Dragon",
+   "type": "Class Feature",
+   "name": "Young Dragon",
+   "desc": "By 15th level, your dragon grows into a young dragon of the appropriate type if five years have not yet passed since its hatching. The dragon will now allow itself to be used as a mount. In addition, while mounted on a dragon, you gain that dragon’s damage resistances, damage immunities, and senses (blindsight, darkvision, and its passive Perception if it is greater than yours).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unbreakable Bond",
+   "type": "Class Feature",
+   "name": "Unbreakable Bond",
+   "desc": "By 20th level, you and your dragon have learned to fight in unison on the battlefield. Your dragon gains access to its Multiattack feature, and its breath weapon now recharges using the normal rules each round instead of using the restriction outlined in bond of the dragonlords.\n\nAdditionally, when your dragon fails a saving throw, you may choose to have it succeed instead. This ability recharges after you and the dragon complete a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Dragon's Wrath",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Dragon's Wrath",
+   "desc": "As an action, you can mimic the frightful presence of a dragon, using your Channel Divinity. You issue a roar as loud as an adult dragon. Each creature of your choice that is within 60 ft. of you and aware of you must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Scorn the Unworthy",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Scorn the Unworthy",
+   "desc": "Your dragonlord oath elevates you above the multitudes of the corrupt and the weak. As an action, you can intone the Dragonlord’s oath, using your Channel Divinity. Enemy creatures within 30 feet that are Large or smaller in size must make a Charisma saving throw. On a failed save, the creature falls prone and loses concentration on any spells that it has active.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Amazonian Magic",
+   "type": "Class Feature",
+   "name": "Amazonian Magic",
+   "desc": "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Amazonian Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.\n\nAMAZONIAN SPELLS\n\nRanger Level | Spells\n3rd | command\n5rd | find steed\n9th | haste\n13th | confusion\n17th | mislead",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Command",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Find Steed",
+     "1/long rest"
+    ],
+    [
+     9,
+     "Haste",
+     "1/long rest"
+    ],
+    [
+     13,
+     "Confusion",
+     "1/long rest"
+    ],
+    [
+     17,
+     "Mislead",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Stimfay Companion",
+   "type": "Class Feature",
+   "name": "Stimfay Companion",
+   "desc": "At 3rd level, you construct a stimfay companion to accompany you on your travels. Stimfay are clockwork birds of prey that assist an Amazon with stalking her quarry. Choose from the following list of creatures for your stimfay’s appearance: eagle, harrier, hawk, kite, osprey, owl, or archaeopteryx. Your stimfay’s appearance does not affect its abilities, but it does influence its personality.\n\nIn areas that are open to the sky, you can direct your stimfay to spend 10 minutes scouting the surrounding 1 mile radius and report back to you with anything it has seen. It comprehends instructions that you give it in any language. It speaks in a series of clicks and squawks that only you can understand.\n\nThe stimfay obeys your commands to the best of its abilities, and it acts on your initiative in combat. If you are incapacitated, your stimfay acts on its own.\n\nYour stimfay has hit points equal to 15 + your ranger level, and it adds your proficiency bonus to its attacks, damage, saving throws, and ability save DCs. It regains any lost hit points during a long rest. If it is ever destroyed, you may spend 8 hours to fully repair it.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Amazonian Battlecry",
+   "type": "Class Feature",
+   "name": "Amazonian Battlecry",
+   "desc": "At 3rd level, you gain the ability to enter the legendary frenzy of the Amazons by shouting your signature battlecry. On your turn, you can use a bonus action to shout your battlecry and enter a frenzy. Your frenzy lasts for 1 minute and grants you the following benefits. It ends after you take damage—or when you are knocked unconscious.\n\n- You have advantage on attacks against creatures of your favored enemy type.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- You have advantage on saving throws against being frightened or paralyzed.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "amazonian-battlecry",
+     "name": "Amazonian Battlecry",
+     "rest": "L",
+     "min": 1,
+     "max": [
+      {
+       "mod": "wis"
+      }
+     ]
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Bracer Reflection",
+   "type": "Class Feature",
+   "name": "Bracer Reflection",
+   "desc": "Starting at 5th level, you've learned to reflect attacks with your bracers. Whenever you would be hit by an attack, you may use your reaction to shield yourself with your bracers. You gain a +5 bonus to AC against all attacks, including the attack that provoked this reaction, until the beginning of your next turn. You may use this feature a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a short or long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "bracer-reflection",
+     "name": "Bracer Reflection",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "mod": "wis"
+      }
+     ]
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Chakram Technique",
+   "type": "Class Feature",
+   "name": "Chakram Technique",
+   "desc": "Starting at 7th level, you’ve learned the famous Amazonian technique of ricocheting your chakram to hit multiple targets. You can also throw it at targets that are not in your line of sight, such as around corners.\n\nYou can use your action to make a ranged attack with your chakram against one target. If your attack hits, then any number of additional creatures of your choice within 10 feet of that target must make a Dexterity saving throw using your spell save DC. Each creature that fails the save takes the same amount of damage as your first target.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Falconry",
+   "type": "Class Feature",
+   "name": "Improved Falconry",
+   "desc": "At 11th level, your stimfay matures. It gains a bonus to its AC equal to your proficiency bonus, and it now has hit points equal to 30 + your ranger level. The damage dice for its Talons, Pinion Storm, and Piercing Screech increase to 2d6, and its attacks are now magical.\n\nAdditionally, any time you would take damage from an attack or an effect that you can see, you may use your reaction to have your stimfay intercept the attack or effect and take the damage instead of you. Your stimfay must be functional and ready to assist you in order to use this ability, and it must be located within 60 feet of you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pressure Points",
+   "type": "Class Feature",
+   "name": "Pressure Points",
+   "desc": "Starting at 15th level, you know how to attack pressure points in your opponent’s body that will cut off the blood supply to their brain. On your turn, you may use a bonus action to make a special melee attack against one creature. If the attack hits, the creature must make a Constitution saving throw versus your spell save DC. On a failure, the creature is paralyzed for 1 minute or until you use a bonus action to touch them and reverse the effect. At the end of each of the creature’s turns, it repeats the saving throw and the effect ends if it succeeds. You may use this ability a number of times equal to your Wisdom modifier, and you regain all expended uses after a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vagrant Soldier",
+   "type": "Class Feature",
+   "name": "Vagrant Soldier",
+   "desc": "Despite your roguish demeanor, you have all the training of a common soldier. When you choose this archetype at 3rd level, you gain proficiency with shields. Additionally, spears and tridents count as finesse weapons for you.",
+   "rules": [
+    {
+     "pf": [
+      "a:Shields"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Clever as the Gods",
+   "type": "Class Feature",
+   "name": "Clever as the Gods",
+   "desc": "Starting at 3rd level, you are rarely outwitted on the field of battle. On your turn, you may use your bonus action to devise a clever plan to trick an enemy. Choose one creature that you can see. Make a Charisma (Deception) roll contested by that creature’s Wisdom (Insight). If you win the contest, you and your allies have advantage on attacks against that creature until the beginning of your next turn. This feature cannot be used on the same creature more than once per combat encounter.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Notorious Trickster",
+   "type": "Class Feature",
+   "name": "Notorious Trickster",
+   "desc": "Starting at 9th level, you are famed for your cleverness, to the point where intelligent enemies are extremely wary of you. Creatures who are aware of your presence but cannot see you become too distracted to perform opportunity attacks until they can see you again. Additionally, when you hit a creature with a Sneak Attack, if that creature is concentrating on a spell, they have disadvantage on the roll to maintain concentration.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Tenacious Survivor",
+   "type": "Class Feature",
+   "name": "Tenacious Survivor",
+   "desc": "At 13th level, you’ve survived through so many ordeals that you face each new challenge with grim determination. You can add your Charisma bonus to your initiative rolls. Also, at the beginning of your first turn in combat, you may use a bonus action to take a deep breath and regain hit points equal to your rogue level. You may use this feature a number of times equal to your Charisma modifier, and you regain any expended uses when you finish a short or long rest.",
+     "rules": [
+   {
+    "resource": {
+     "id": "tenacious-survivor",
+     "name": "Tenacious Survivor",
+     "rest": "S",
+     "min": 1,
+     "max": [
+      {
+       "mod": "cha"
+      }
+     ]
+    }
+   }
+  ]
+  },
+  {
+   "id": "Class Feature:Legendary Cunning",
+   "type": "Class Feature",
+   "name": "Legendary Cunning",
+   "desc": "Starting at 17th level, you are able to instantly assess every opportunity to seize the upper hand in combat. Whenever any of your allies makes an opportunity attack against a creature, you may choose to make a ranged attack against that same creature with advantage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Godly Ancestor",
+   "type": "Class Feature",
+   "name": "Godly Ancestor",
+   "desc": "Starting at 1st level, choose the divine domain of your godly ancestor from the following list. You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.\n\nAdditionally, whenever you make a Charisma check when interacting with gods or celestials, your proficiency bonus is doubled if it applies to the check.\n\nDEMIGOD DOMAINS AND SPELLS\n\nDivine Domain | Spells\nDeath | bane, ray of sickness\nKnowledge | command, guiding bolt\nLife | cure wounds, bless\nNature | entangle, healing word\nLight | burning hands, faerie fire\nTempest | fog cloud, thunderwave\nTrickery | charm person, hideous laughter\nWar | shield of faith, thunderous smite",
+   "rules": [
+    {
+     "select": {
+      "name": "Divine Domain, Godly Ancestor",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Death Domain",
+       "Class Feature:Knowledge Domain",
+       "Class Feature:Life Domain",
+       "Class Feature:Nature Domain",
+       "Class Feature:Light Domain",
+       "Class Feature:Tempest Domain",
+       "Class Feature:Trickery Domain",
+       "Class Feature:War Domain"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Inherited Strength",
+   "type": "Class Feature",
+   "name": "Inherited Strength",
+   "desc": "Starting at 1st level, your godly lineage bestows you with extraordinary strength for someone without martial training. You are proficient in Strength saving throws. Additionally, you may choose to add your Charisma modifier to melee attack and damage rolls instead of your Strength.",
+   "rules": [
+    {
+     "grant": "save:str"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Empowered Magic",
+   "type": "Class Feature",
+   "name": "Empowered Magic",
+   "desc": "Starting at 6th level, echoes of divine power flow through your spells. When you cast a spell, you may spend 1 sorcery point to increase the spell's level by 1. You cannot use this feature to increase a spell’s level by more than 1. For example, if you use a 5th-level spell slot to cast fireball as a 5th-level spell, you may spend 1 sorcery point to cast the spell at 6th level instead.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Divine Resistance",
+   "type": "Class Feature",
+   "name": "Divine Resistance",
+   "desc": "Starting at 14th level, your divine blood allows you to shrug off effects that would destroy mere mortals. When you fail a saving throw, you may choose to succeed instead. You may use this feature once, and you regain the ability to do so after completing a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ascendant Sorcery",
+   "type": "Class Feature",
+   "name": "Ascendant Sorcery",
+   "desc": "Starting at 18th level, your power has begun to rival your divine ancestor’s. When you use the Empowered Magic feature, you may increase the spell’s level by more than 1. You must spend 1 sorcery point for each level that you add to the spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expanded Spell List",
+   "type": "Class Feature",
+   "name": "Expanded Spell List",
+   "desc": "The Fates let you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSpell Level | Spells\n1st | detect evil and good, identify\n2nd | levitate, see invisibility\n3rd | clairvoyance, call lightning\n4th | arcane eye, divination\n5th | planar binding, geas",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fate's Bidding",
+   "type": "Class Feature",
+   "name": "Fate's Bidding",
+   "desc": "Starting at 1st level, you are expected to consult with the Fates each morning to learn what they have planned for you. You can cast one divination spell without expending a spell slot immediately after completing a short or long rest. If you do so, you gain temporary hit points equal to your warlock level (minimum of 1). You must choose a spell that you could normally cast, and you must have the necessary material components.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fate's Foretelling",
+   "type": "Class Feature",
+   "name": "Fate's Foretelling",
+   "desc": "Starting at 6th level, you can call on the Fates to foretell future events. When you finish a short or long rest, roll 1d20 and record the number you rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with this roll. You must choose to do so before the roll. This foretelling roll can be used only once. When you finish a short or long rest, you lose any unused foretelling rolls.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fate's Demands",
+   "type": "Class Feature",
+   "name": "Fate's Demands",
+   "desc": "Starting at 10th level, the weight of your servitude grows heavy, and the burden only lessens when you help another creature meet its fate. Each time you reduce a creature to 0 hit points, you regain one expended spell slot. You may use this feature twice, and you regain any expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Inescapable Fate",
+   "type": "Class Feature",
+   "name": "Inescapable Fate",
+   "desc": "Starting at 14th level, you learn to accelerate the entropic power of fate. You can use an action to force a creature you can see to make a Wisdom saving throw. If the creature is unaware of your presence, then it has disadvantage on the roll. If the creature fails the saving throw, choose another creature that you can see. The first creature is compelled by fate to move toward the second creature for 1 minute.\n\nAt the beginning of each of the first creature’s turns, if it is not located within 5 feet of the second creature, then the first creature takes 2d10 psychic damage, and it must use its full movement to move closer to the second creature, dashing if necessary, even if it cannot reach them. This effect ends if you or either of the creatures are reduced to 0 hit points or knocked unconscious. Once you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Philosophical School",
+   "type": "Class Feature",
+   "name": "Philosophical School",
+   "desc": "Starting at 2nd level, you choose from one of several philosophical schools to specialize in at your academy. This school becomes deeply ingrained in your way of thinking about the world.",
+   "rules": [
+    {
+     "select": {
+      "name": "Philosophical School",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:School: Cynicism",
+       "Class Feature:School: Eclecticism",
+       "Class Feature:School: Empiricism",
+       "Class Feature:School: Epicureanism",
+       "Class Feature:School: Stoicism",
+       "Class Feature:School: Sophism",
+       "Class Feature:School: Hedonism",
+       "Class Feature:School: Skepticism"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Mathematical Principles",
+   "type": "Class Feature",
+   "name": "Mathematical Principles",
+   "desc": "Starting at 6th level, you have spent years solving complex mathematical equations, allowing you to shape your spells with precision and create pockets of safety for allies. When you cast a spell that affects other creatures that you can see, you may choose a number of them equal to your Intelligence modifier. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save. Additionally, when you cast a spell that has an area of effect radius, you may choose to increase or decrease the radius by 5 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Metaphysical Principles",
+   "type": "Class Feature",
+   "name": "Metaphysical Principles",
+   "desc": "Starting at 10th level, you gain new insights into the nature of causality. Whenever a creature casts a spell with a single target that you can see, you can use your reaction to choose a new target for the spell. The new target must be legal for that spell. Once you have used this feature, you may not use it again until you complete a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magical Paradox",
+   "type": "Class Feature",
+   "name": "Magical Paradox",
+   "desc": "Starting at 14th level, you’ve spent years studying philosophical paradoxes, which allows you to work seemingly impossible feats with magic. Whenever you would lose concentration on a spell for any reason, you may choose to maintain concentration instead, as long as you are not incapacitated. You may use this feature a number of times equal to your Intelligence modifier, and you regain any expended uses after a long rest.",
+   "rules": []
+  }
+ ]
+}

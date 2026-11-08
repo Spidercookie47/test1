@@ -1,0 +1,27 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Epic Poem Verse",
+   "type": "Gear",
+   "name": "Epic Poem Verse",
+   "desc": "Starting when you join the College of Epic Poetry, you begin composing your epic poem. When certain significant events occur during your travels or during combat, you may compose a new epic verse.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0.0
+  },
+  {
+   "id": "Weapon:Chakram",
+   "type": "Weapon",
+   "name": "Chakram",
+   "desc": "Damage 1d6 slashing. Light, Thrown, Finesse, Special Chakram. Martial Melee weapon.\n\nThis bladed circular disc is an unusual thrown weapon. It glides through the air, slicing through anything in its path. Warriors who specialize with the chakram can learn to throw it in such a way that it returns to them after cutting the enemy.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 1000,
+   "price": 10.0,
+   "wt": 2.0,
+   "cat": "martial"
+  }
+ ]
+}

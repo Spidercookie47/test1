@@ -1,0 +1,75 @@
+Converted: 100 Class Feature, 1 Gear, 45 Magic, 6 Race, 25 Racial Trait, 8 Spell, 5 Sub Race, 12 Subclass, 1 Weapon
+
+== grants of other kinds (skipped) (11)
+  Thylean Centaur: Size ID_SIZE_MEDIUM
+  Thylean Medusa: Size ID_SIZE_MEDIUM
+  Thylean Medusa: Vision ID_VISION_DARKVISION
+  Thylean Minotaur: Size ID_SIZE_MEDIUM
+  Labyrinthine Vision: Vision ID_VISION_DARKVISION
+  Thylean Nymph: Size ID_SIZE_MEDIUM
+  Aurae Ancestry: Vision ID_VISION_DARKVISION
+  Oread Ancestry: Vision ID_VISION_DARKVISION
+  Thylean Satyr: Size ID_SIZE_MEDIUM
+  Thylean Siren: Size ID_SIZE_MEDIUM
+  Golden Shield of Volkan: Grants ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE
+
+== ids not in this pack (assumed to be in another pack, check the name) (5)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Language:Sylvan  (from ID_LANGUAGE_SYLVAN)
+  Language:Abyssal  (from ID_LANGUAGE_ABYSSAL)
+  Language:Celestial  (from ID_LANGUAGE_CELESTIAL)
+  Language:Draconic  (from ID_LANGUAGE_DRACONIC)
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (34)
+  Snake Hair: snake hair
+  Enthralling Beauty: enthralling beauty
+  Aurae Ancestry: aurae ancestry
+  Naiad Ancestry: naiad ancestry
+  Nereid Ancestry: innate speed
+  Flight: innate speed
+  Mighty Marksman: mighty marksman
+  Thunderous Shot: mighty marksman
+  Earthshaker: earthshaker
+  Inspirational Verses: epic poetry
+  Poem Rank 1: epic poetry
+  Poem Rank 2: epic poetry
+  Poem Rank 3: epic poetry
+  Poem Rank 4: epic poetry
+  Poem Rank 5: epic poetry
+  Poem Rank 6: epic poetry
+  Poem Rank 7: epic poetry
+  Poem Rank 8: epic poetry
+  Poem Rank 9: epic poetry
+  Poem Rank 10: epic poetry
+  Blessing of Foresight: blessing of foresight
+  Healing Vapors: healing vapors
+  Ritual of Sacrifice: ritual of sacrifice
+  Immolation: immolation
+  Ritual of Mistletoe: mistletoe
+  Aresian Technique: ac, innate speed
+  Dragonlord's Bond: dragonlord bond
+  Amazonian Battlecry: amazonian battlecry
+  Bracer Reflection: bracer reflection
+  Tenacious Survivor: initiative
+  School: Sophism: persuasion
+  School: Hedonism: hedonism
+  Breastplate of Mytros: ac
+  Crown of Laurels: wisdom
+
+== selects not understood (1)
+  Stimfay Companion: type=Companion supports="Stimfay Companion"
+
+== grants pointing outside these packs (needs another pack) (12)
+  Race:Thylean Centaur -> Language:Common
+  Race:Thylean Centaur -> Language:Sylvan
+  Race:Thylean Medusa -> Language:Common
+  Race:Thylean Minotaur -> Language:Common
+  Race:Thylean Minotaur -> Language:Abyssal
+  Race:Thylean Nymph -> Language:Common
+  Race:Thylean Nymph -> Language:Sylvan
+  Race:Thylean Satyr -> Language:Common
+  Race:Thylean Satyr -> Language:Sylvan
+  Race:Thylean Siren -> Language:Common
+  Race:Thylean Siren -> Language:Celestial
+  Magic:Golden Shield of Volkan -> Language:Draconic
+
