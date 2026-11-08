@@ -5,14 +5,32 @@
    "type": "Subclass",
    "name": "School of Invention (UA)",
    "supports": "Class:Wizard",
-   "desc": "The School of Invention claims credit for inventing the other schools of magic – a claim other wizards find absurd. Wizards of this school push magic to its limits. They stretch the known laws of arcane power and strive to reveal important truths about the nature of the multiverse.\n\nAdherents of this school believe that innovation is best served through experimentation. They have a reputation for acting first, thinking second. Most wizards are scholars who have mastered their craft through careful study, rigorous practice, and endless hours of repetition. These wizards would rather throw spells together and see what happens.\n\nMany wizards of this tradition are gnomes, alchemists, or both, and they take pride in the magic-infused armor they don. The armor not only provides protection, but it is also designed to help the wizard channel magic in unpredictable ways.\n\nWizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.\n\n**Source:** Unearthed Arcana 47 — Three Subclasses",
+   "desc": "The School of Invention claims credit for inventing the other schools of magic – a claim other wizards find absurd. Wizards of this school push magic to its limits. They stretch the known laws of arcane power and strive to reveal important truths about the nature of the multiverse.\n\nAdherents of this school believe that innovation is best served through experimentation. They have a reputation for acting first, thinking second. Most wizards are scholars who have mastered their craft through careful study, rigorous practice, and endless hours of repetition. These wizards would rather throw spells together and see what happens.\n\nMany wizards of this tradition are gnomes, alchemists, or both, and they take pride in the magic-infused armor they don. The armor not only provides protection, but it is also designed to help the wizard channel magic in unpredictable ways.\n\nWizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.\n\nSource: Unearthed Arcana 47 — Three Subclasses",
    "rules": [
-    { "grant": "Class Feature:Tools of the Inventor (UA)", "level": 2 },
-    { "grant": "Class Feature:Arcanomechanical Armor (UA)", "level": 2 },
-    { "grant": "Class Feature:Reckless Casting (UA)", "level": 2 },
-    { "grant": "Class Feature:Alchemical Casting (Invention UA)", "level": 6 },
-    { "grant": "Class Feature:Prodigious Inspiration (UA)", "level": 10 },
-    { "grant": "Class Feature:Controlled Chaos (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Tools of the Inventor (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Arcanomechanical Armor (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Reckless Casting (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Alchemical Casting (Invention UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Prodigious Inspiration (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Controlled Chaos (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -20,13 +38,28 @@
    "type": "Subclass",
    "name": "Lore Mastery (UA)",
    "supports": "Class:Wizard",
-   "desc": "Lore Mastery is an arcane tradition fixated on understanding the underlying mechanics of magic. It is the most academic of all arcane traditions. The promise of uncovering new knowledge or proving (or discrediting) a theory of magic is usually required to rouse its practitioners from their laboratories, academies, and archives to pursue a life of adventure.\n\nKnown as savants, followers of this tradition are a bookish lot who see beauty and mystery in the application of magic. The results of a spell are less interesting to them than the process that creates it. Some savants take a haughty attitude toward those who follow a tradition focused on a single school of magic, seeing them as provincial and lacking the sophistication needed to master true magic. Other savants are generous teachers, countering ignorance and deception with deep knowledge and good humor.\n\n**Source:** Unearthed Arcana 29 — Warlock and Wizard",
+   "desc": "Lore Mastery is an arcane tradition fixated on understanding the underlying mechanics of magic. It is the most academic of all arcane traditions. The promise of uncovering new knowledge or proving (or discrediting) a theory of magic is usually required to rouse its practitioners from their laboratories, academies, and archives to pursue a life of adventure.\n\nKnown as savants, followers of this tradition are a bookish lot who see beauty and mystery in the application of magic. The results of a spell are less interesting to them than the process that creates it. Some savants take a haughty attitude toward those who follow a tradition focused on a single school of magic, seeing them as provincial and lacking the sophistication needed to master true magic. Other savants are generous teachers, countering ignorance and deception with deep knowledge and good humor.\n\nSource: Unearthed Arcana 29 — Warlock and Wizard",
    "rules": [
-    { "grant": "Class Feature:Lore Mastery (UA)", "level": 2 },
-    { "grant": "Class Feature:Spell Secrets (UA)", "level": 2 },
-    { "grant": "Class Feature:Alchemical Casting (Lore Mastery UA)", "level": 6 },
-    { "grant": "Class Feature:Prodigious Memory (UA)", "level": 10 },
-    { "grant": "Class Feature:Master of Magic (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Lore Mastery (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Spell Secrets (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Alchemical Casting (Lore Mastery UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Prodigious Memory (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Master of Magic (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -34,13 +67,28 @@
    "type": "Subclass",
    "name": "Mage of Lorehold (UA)",
    "supports": "Class:Wizard",
-   "desc": "Mages of Lorehold are particularly concerned with the forces that underlie and drive history. Drawing inspiration from the scholars and adventurers of old, they manifest the arcane power of the past through ethereal dioramas and fantastical battle prowess. Lorehold mages are often found with a long-dead spirit summoned at their side—for who better to learn ancient history from than one who has experienced it first-hand?\n\n**Source:** Unearthed Arcana 79 — Mages of Strixhaven\n\n**Note:** The source lists Bard, Warlock, and Wizard as eligible classes. This entry supports `Class:Wizard` only. If you want Bard or Warlock variants, they need `(Bard UA)` / `(Warlock UA)` suffix IDs.",
+   "desc": "Mages of Lorehold are particularly concerned with the forces that underlie and drive history. Drawing inspiration from the scholars and adventurers of old, they manifest the arcane power of the past through ethereal dioramas and fantastical battle prowess. Lorehold mages are often found with a long-dead spirit summoned at their side—for who better to learn ancient history from than one who has experienced it first-hand?\n\nSource: Unearthed Arcana 79 — Mages of Strixhaven\n\nSee the side panel for the notes and tables.",
    "rules": [
-    { "grant": "Class Feature:Lorehold Spells (UA)", "level": 2 },
-    { "grant": "Class Feature:Ancient Companion (UA)", "level": 2 },
-    { "grant": "Class Feature:Lessons of the Past (UA)", "level": 6 },
-    { "grant": "Class Feature:War Echoes (UA)", "level": 10 },
-    { "grant": "Class Feature:History's Whims (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Lorehold Spells (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Ancient Companion (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Lessons of the Past (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:War Echoes (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:History's Whims (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -48,14 +96,32 @@
    "type": "Subclass",
    "name": "Onomancy (UA)",
    "supports": "Class:Wizard",
-   "desc": "Practitioners of magic well know the power of names, but wizards who follow the tradition of Onomancy use their magic to manipulate the words that encompass existence. Onomancers expand their study into language itself, searching for threads of magical significance that weave through names. Something that is named stands out in the multiverse, distinct from the tapestry of creation all around it.\n\nThat distinction creates power that onomancers seek to tap. By speaking a target's true name, the wizard's spells slip between the cracks of the target's defenses, conforming to its essential nature through the power of its name. To protect themselves, wizards who follow this tradition often hide their true names, typically by adopting monikers and pseudonyms.\n\n**Source:** Unearthed Arcana 63 — Cleric, Druid, Wizard",
+   "desc": "Practitioners of magic well know the power of names, but wizards who follow the tradition of Onomancy use their magic to manipulate the words that encompass existence. Onomancers expand their study into language itself, searching for threads of magical significance that weave through names. Something that is named stands out in the multiverse, distinct from the tapestry of creation all around it.\n\nThat distinction creates power that onomancers seek to tap. By speaking a target's true name, the wizard's spells slip between the cracks of the target's defenses, conforming to its essential nature through the power of its name. To protect themselves, wizards who follow this tradition often hide their true names, typically by adopting monikers and pseudonyms.\n\nSource: Unearthed Arcana 63 — Cleric, Druid, Wizard",
    "rules": [
-    { "grant": "Class Feature:Bonus Proficiencies (Onomancy UA)", "level": 2 },
-    { "grant": "Class Feature:Extract Name (UA)", "level": 2 },
-    { "grant": "Class Feature:Fateful Naming (UA)", "level": 2 },
-    { "grant": "Class Feature:Resonant Utterance (UA)", "level": 6 },
-    { "grant": "Class Feature:Inexorable Pronouncement (UA)", "level": 10 },
-    { "grant": "Class Feature:Relentless Naming (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Onomancy UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Extract Name (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Fateful Naming (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Resonant Utterance (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Inexorable Pronouncement (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Relentless Naming (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -63,13 +129,28 @@
    "type": "Subclass",
    "name": "Order of Scribes (UA)",
    "supports": "Class:Wizard",
-   "desc": "Magic of the book—that's what many spellcasters call wizardry. The name is apt, given how much time wizards spend poring over their spellbooks, penning theories about the nature of magic, and exploring the farthest recesses of libraries. It's rare to see a wizard traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.\n\nAmong wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries in tomes and scrolls so that wizardry can flourish. And while every wizard values their spellbook, a scribe in the Order of Scribes dedicates themself to magically awakening their book, turning it into a trusted companion. All wizards study their spellbooks, but a wizardly scribe talks to theirs!\n\n**Source:** Unearthed Arcana 72 — Subclasses Revisited",
+   "desc": "Magic of the book—that's what many spellcasters call wizardry. The name is apt, given how much time wizards spend poring over their spellbooks, penning theories about the nature of magic, and exploring the farthest recesses of libraries. It's rare to see a wizard traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.\n\nAmong wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries in tomes and scrolls so that wizardry can flourish. And while every wizard values their spellbook, a scribe in the Order of Scribes dedicates themself to magically awakening their book, turning it into a trusted companion. All wizards study their spellbooks, but a wizardly scribe talks to theirs!\n\nSource: Unearthed Arcana 72 — Subclasses Revisited",
    "rules": [
-    { "grant": "Class Feature:Wizardly Quill (UA)", "level": 2 },
-    { "grant": "Class Feature:Awakened Spellbook (UA)", "level": 2 },
-    { "grant": "Class Feature:Master Scrivener (UA)", "level": 6 },
-    { "grant": "Class Feature:Manifest Mind (Scribes UA)", "level": 10 },
-    { "grant": "Class Feature:One with the Word (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Wizardly Quill (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Awakened Spellbook (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Master Scrivener (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Manifest Mind (Scribes UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:One with the Word (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -77,14 +158,32 @@
    "type": "Subclass",
    "name": "Psionics (UA)",
    "supports": "Class:Wizard",
-   "desc": "Wizards study magical power in all its forms, including the magic of psionics. Those wizards who follow the tradition of Psionics hone the magical potential of their own minds. Sometimes called psionicists or mentalists, these wizards interact with the multiverse through the lens of their psionic aptitude and awareness.\n\nPsionicists channel their magic by focusing their minds. By doing so they can transcend their physical bodies, adopting forms of pure thought, casting spells psionically to bypass the need for components, and perceiving the world with a broader range of senses.\n\nAs a member of the Psionics tradition, you might have awoken your psionic potential through the strain of your esoteric studies, or perhaps you joined a scholarly order dedicated to unlocking the magic of the mind.\n\n**Source:** Unearthed Arcana 66 — Fighter, Rogue, Wizard",
+   "desc": "Wizards study magical power in all its forms, including the magic of psionics. Those wizards who follow the tradition of Psionics hone the magical potential of their own minds. Sometimes called psionicists or mentalists, these wizards interact with the multiverse through the lens of their psionic aptitude and awareness.\n\nPsionicists channel their magic by focusing their minds. By doing so they can transcend their physical bodies, adopting forms of pure thought, casting spells psionically to bypass the need for components, and perceiving the world with a broader range of senses.\n\nAs a member of the Psionics tradition, you might have awoken your psionic potential through the strain of your esoteric studies, or perhaps you joined a scholarly order dedicated to unlocking the magic of the mind.\n\nSource: Unearthed Arcana 66 — Fighter, Rogue, Wizard",
    "rules": [
-    { "grant": "Class Feature:Psionic Focus (UA)", "level": 2 },
-    { "grant": "Class Feature:Psionic Devotion (UA)", "level": 2 },
-    { "grant": "Class Feature:Thought Form (UA)", "level": 6 },
-    { "grant": "Class Feature:Empowered Psionics (UA)", "level": 10 },
-    { "grant": "Class Feature:Mental Discipline (UA)", "level": 10 },
-    { "grant": "Class Feature:Thought Travel (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Psionic Focus (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Psionic Devotion (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Thought Form (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Empowered Psionics (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Mental Discipline (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Thought Travel (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -92,13 +191,28 @@
    "type": "Subclass",
    "name": "Technomancy (UA)",
    "supports": "Class:Wizard",
-   "desc": "Unlike the more common arcane traditions based around the schools of magic, the tradition of Technomancy does not focus on a singular type of spellcraft or magical energy. Rather, students of Technomancy concern themselves with how their spells interact with modern technology.\n\nTechnomancers can make use of technology as both a conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the Dungeon Master's Guide), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.\n\n**Source:** Unearthed Arcana 7 — Modern Magic\n\n**Note:** 'Sidearms' (a weapon proficiency from this UA) is not in the current equipment pack. Note it manually if it matters in your campaign.",
+   "desc": "Unlike the more common arcane traditions based around the schools of magic, the tradition of Technomancy does not focus on a singular type of spellcraft or magical energy. Rather, students of Technomancy concern themselves with how their spells interact with modern technology.\n\nTechnomancers can make use of technology as both a conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the Dungeon Master's Guide), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.\n\nSource: Unearthed Arcana 7 — Modern Magic\n\nSee the side panel for the notes and tables.",
    "rules": [
-    { "grant": "Class Feature:Bonus Proficiencies (Technomancy UA)", "level": 2 },
-    { "grant": "Class Feature:Technological Savant (UA)", "level": 2 },
-    { "grant": "Class Feature:Program Spell (UA)", "level": 6 },
-    { "grant": "Class Feature:Online Casting (UA)", "level": 10 },
-    { "grant": "Class Feature:Chained Device (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Technomancy UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Technological Savant (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Program Spell (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Online Casting (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Chained Device (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -106,15 +220,36 @@
    "type": "Subclass",
    "name": "Theurgy (UA)",
    "supports": "Class:Wizard",
-   "desc": "A number of deities claim arcane magic as their domain, for magic is as much a part of the fabric of the cosmos as wind, fire, lightning, and all other primal forces. Just as there are deities of the sea and gods of warfare, the arcane arts feature their own divine patrons.\n\nSuch deities often have clerics, but many gods of magic bid their followers to take up the study of wizardry. These religious magic-users follow the arcane tradition of Theurgy, and are commonly known as theurgists. Such spellcasters are as dedicated and scholarly as any other wizard, but they blend their arcane study with religious devotion.\n\n**Source:** Unearthed Arcana 33 — Wizard Revisited\n\n**Engine note:** domain-dependent benefits (Arcane Acolyte / Priest / High Priest) are desc-only. Only `Life Domain` exists in the current data set; other domain spell grants won't auto-populate.",
+   "desc": "A number of deities claim arcane magic as their domain, for magic is as much a part of the fabric of the cosmos as wind, fire, lightning, and all other primal forces. Just as there are deities of the sea and gods of warfare, the arcane arts feature their own divine patrons.\n\nSuch deities often have clerics, but many gods of magic bid their followers to take up the study of wizardry. These religious magic-users follow the arcane tradition of Theurgy, and are commonly known as theurgists. Such spellcasters are as dedicated and scholarly as any other wizard, but they blend their arcane study with religious devotion.\n\nSource: Unearthed Arcana 33 — Wizard Revisited\n\nSee the side panel for the notes and tables.",
    "rules": [
-    { "grant": "Class Feature:Divine Inspiration (UA)", "level": 2 },
-    { "grant": "Class Feature:Arcane Initiate (UA)", "level": 2 },
-    { "grant": "Class Feature:Channel Arcana (UA)", "level": 2 },
-    { "grant": "Class Feature:Divine Arcana (UA)", "level": 2 },
-    { "grant": "Class Feature:Arcane Acolyte (UA)", "level": 6 },
-    { "grant": "Class Feature:Arcane Priest (UA)", "level": 10 },
-    { "grant": "Class Feature:Arcane High Priest (UA)", "level": 14 }
+    {
+     "grant": "Class Feature:Divine Inspiration (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Arcane Initiate (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Arcana (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Divine Arcana (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Arcane Acolyte (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Arcane Priest (UA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Arcane High Priest (UA)",
+     "level": 14
+    }
    ]
   },
   {
@@ -123,30 +258,40 @@
    "name": "Tools of the Inventor (UA)",
    "desc": "2nd-level School of Invention feature.\n\nAt 2nd level, you gain proficiency with two tools of your choice.",
    "rules": [
-    { "select": { "name": "Tools of the Inventor", "type": "Tool", "n": 2 } }
+    {
+     "select": {
+      "name": "Tools of the Inventor",
+      "type": "Tool",
+      "n": 2
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Arcanomechanical Armor (UA)",
    "type": "Class Feature",
    "name": "Arcanomechanical Armor (UA)",
-   "desc": "2nd-level School of Invention feature.\n\nInnovation is a dangerous practice, at least as far as members of this school practice it. As a shield against this risk, you have developed a suit of arcane armor.\n\nStarting at 2nd level, you gain proficiency with light armor and gain a suit of arcanomechanical armor—a magic item that only you can attune to. While you are attuned to it and wearing it, it grants you resistance to force damage.\n\nThe armor is light armor and provides an AC of 12 + your Dexterity modifier. It weighs 8 pounds.\n\nYou can create a new suit of it at the end of a long rest by touching a nonmagical suit of studded leather armor, which magically transforms it. Doing so removes the magic from your previous arcanomechanical armor, turning it into nonmagical studded leather.\n\n**Engine note:** the AC formula does not override equipped armor. Equip Studded Leather Armor and note the +1 AC / force resistance manually on the sheet.",
+   "desc": "2nd-level School of Invention feature.\n\nInnovation is a dangerous practice, at least as far as members of this school practice it. As a shield against this risk, you have developed a suit of arcane armor. See the side panel for the full text.",
    "rules": [
-    { "pf": ["a:Light armor"] }
+    {
+     "pf": [
+      "a:Light armor"
+     ]
+    }
    ]
   },
   {
    "id": "Class Feature:Reckless Casting (UA)",
    "type": "Class Feature",
    "name": "Reckless Casting (UA)",
-   "desc": "2nd-level School of Invention feature.\n\nStarting at 2nd level, you can attempt to cast a spell you don't have prepared. When you use this ability, you use your action and choose one of the following options:\n\n- Roll on the Reckless Casting table for cantrips and cast the resulting spell as part of this action.\n- Expend a spell slot and roll twice on the Reckless Casting table for its level, or the 5th-level table if the slot is 6th level or higher. Pick which of the two results you want to use and cast the resulting spell as part of this action.\n\nIf the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for you when you cast it with this feature.\n\n**Reckless Casting — Cantrips**\n| d10 | Cantrip |\n|---|---|\n| 1 | Acid Splash |\n| 2 | Chill Touch |\n| 3 | Fire Bolt |\n| 4 | Light |\n| 5 | Poison Spray |\n| 6 | Ray of Frost |\n| 7 | Shocking Grasp |\n| 8 | Sacred Flame |\n| 9 | Thorn Whip |\n| 10 | Roll twice; if either roll is 10, you cast nothing, wasting your action. |\n\n**Reckless Casting — 1st-Level Spells**\n| d10 | Spell |\n|---|---|\n| 1 | Burning Hands |\n| 2 | Chromatic Orb |\n| 3 | Color Spray |\n| 4 | Faerie Fire |\n| 5 | False Life |\n| 6 | Fog Cloud |\n| 7 | Jump |\n| 8 | Magic Missile |\n| 9 | Thunderwave |\n| 10 | Roll twice; if either roll is 10, you cast nothing, wasting your action. |\n\n**Reckless Casting — 2nd-Level Spells**\n| d10 | Spell |\n|---|---|\n| 1 | Blur |\n| 2 | Darkness |\n| 3 | Enlarge/Reduce |\n| 4 | Gust of Wind |\n| 5 | Invisibility |\n| 6 | Levitate |\n| 7 | Melf's Acid Arrow |\n| 8 | Scorching Ray |\n| 9 | Shatter |\n| 10 | Roll twice; if either roll is 10, you cast nothing, wasting your action. |\n\n**Reckless Casting — 3rd-Level Spells**\n| d10 | Spell |\n|---|---|\n| 1 | Blink |\n| 2 | Fear |\n| 3 | Feign Death |\n| 4 | Fireball |\n| 5 | Fly |\n| 6 | Gaseous Form |\n| 7 | Lightning Bolt |\n| 8 | Sleet Storm |\n| 9 | Stinking Cloud |\n| 10 | Roll twice; if either roll is 10, you cast nothing, wasting your action. |\n\n**Reckless Casting — 4th-Level Spells**\n| d10 | Spell |\n|---|---|\n| 1 | Blight |\n| 2 | Confusion |\n| 3 | Evard's Black Tentacles |\n| 4 | Fire Shield |\n| 5 | Greater Invisibility |\n| 6 | Ice Storm |\n| 7 | Phantasmal Killer |\n| 8 | Stoneskin |\n| 9 | Wall of Fire |\n| 10 | Roll twice; if either roll is 10, you cast nothing, wasting your action. |\n\n**Reckless Casting — 5th-Level Spells**\n| d10 | Spell |\n|---|---|\n| 1 | Cloudkill |\n| 2 | Cone of Cold |\n| 3 | Destructive Wave |\n| 4 | Flame Strike |\n| 5 | Hold Monster |\n| 6 | Insect Plague |\n| 7 | Mass Cure Wounds |\n| 8 | Wall of Force |\n| 9 | Wall of Stone |\n| 10 | Roll twice; if either roll is 10, you cast nothing, wasting your action. |",
+   "desc": "2nd-level School of Invention feature.\n\nStarting at 2nd level, you can attempt to cast a spell you don't have prepared. When you use this ability, you use your action and choose one of the following options: See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:Alchemical Casting (Invention UA)",
    "type": "Class Feature",
    "name": "Alchemical Casting (Invention UA)",
-   "desc": "6th-level School of Invention feature.\n\nAt 6th level, you learn to channel magic through your arcanomechanical armor to augment spells in a variety of ways. When you cast a spell while wearing that armor and attuned to it, you can expend one additional spell slot of 1st or 2nd level to alter the spell. The effect depends on the spell slot you expend.\n\nA 1st-level slot allows you to manipulate the spell's energy. When you cast a spell that deals acid, cold, fire, lightning, or thunder damage, you can substitute that damage type for another one from that list.\n\nA 2nd-level slot increases the spell's raw force. If you roll damage for the spell when you cast it, increase that damage by 2d10 force damage against one of the spell's targets (your choice) this turn.",
+   "desc": "6th-level School of Invention feature.\n\nAt 6th level, you learn to channel magic through your arcanomechanical armor to augment spells in a variety of ways. When you cast a spell while wearing that armor and attuned to it, you can expend one additional spell slot of 1st or 2nd level to alter the spell. See the side panel for the full text.",
    "rules": []
   },
   {
@@ -155,7 +300,14 @@
    "name": "Prodigious Inspiration (UA)",
    "desc": "10th-level School of Invention feature.\n\nAt 10th level, you have attained a greater mastery of spell preparation. As a bonus action, you can replace one spell you have prepared with another spell from your spellbook. You can't use this ability again until you finish a short or long rest.",
    "rules": [
-    { "resource": { "id": "prodigious-inspiration-ua", "name": "Prodigious Inspiration", "rest": "S", "max": 1 } }
+    {
+     "resource": {
+      "id": "prodigious-inspiration-ua",
+      "name": "Prodigious Inspiration",
+      "rest": "S",
+      "max": 1
+     }
+    }
    ]
   },
   {
@@ -169,23 +321,30 @@
    "id": "Class Feature:Lore Mastery (UA)",
    "type": "Class Feature",
    "name": "Lore Mastery (UA)",
-   "desc": "2nd-level Lore Mastery feature.\n\nStarting at 2nd level, you become a compendium of knowledge on a vast array of topics. Your proficiency bonus is doubled for any ability check you make that uses the Arcana, History, Nature, or Religion skill if you are proficient in that skill.\n\nIn addition, your analytical abilities are so well-honed that your initiative in combat can be driven by mental agility, rather than physical agility. When you roll initiative, it is either an Intelligence check or a Dexterity check for you (your choice).",
+   "desc": "2nd-level Lore Mastery feature.\n\nStarting at 2nd level, you become a compendium of knowledge on a vast array of topics. Your proficiency bonus is doubled for any ability check you make that uses the Arcana, History, Nature, or Religion skill if you are proficient in that skill. See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:Spell Secrets (UA)",
    "type": "Class Feature",
    "name": "Spell Secrets (UA)",
-   "desc": "2nd-level Lore Mastery feature.\n\nAt 2nd level, you master the first in a series of arcane secrets uncovered by your extensive studies.\n\nWhen you cast a spell with a spell slot and the spell deals acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage, you can substitute that damage type with one other type from that list (you can change only one damage type per casting of a spell). You replace one energy type for another by altering the spell's formula as you cast it.\n\nWhen you cast a spell with a spell slot and the spell requires a saving throw, you can change the saving throw from one ability score to another of your choice. Once you change a saving throw in this way, you can't do so again until you finish a short or long rest.",
+   "desc": "2nd-level Lore Mastery feature.\n\nAt 2nd level, you master the first in a series of arcane secrets uncovered by your extensive studies. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "spell-secrets-save-change", "name": "Spell Secrets (save change)", "rest": "S", "max": 1 } }
+    {
+     "resource": {
+      "id": "spell-secrets-save-change",
+      "name": "Spell Secrets (save change)",
+      "rest": "S",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Alchemical Casting (Lore Mastery UA)",
    "type": "Class Feature",
    "name": "Alchemical Casting (Lore Mastery UA)",
-   "desc": "6th-level Lore Mastery feature.\n\nAt 6th level, you learn to augment spells in a variety of ways. When you cast a spell with a spell slot, you can expend one additional spell slot to augment its effects for this casting, mixing the raw stuff of magic into your spell to amplify it. The effect depends on the spell slot you expend.\n\n- An additional 1st-level spell slot can increase the spell's raw force. If you roll damage for the spell when you cast it, increase the damage against every target by 2d10 force damage. If the spell can deal damage on more than one turn, it deals this extra force damage only on the turn you cast the spell.\n- An additional 2nd-level spell slot can increase the spell's range. If the spell's range is at least 30 feet, it becomes 1 mile.\n- An additional 3rd-level spell slot can increase the spell's potency. Increase the spell's save DC by 2.",
+   "desc": "6th-level Lore Mastery feature.\n\nAt 6th level, you learn to augment spells in a variety of ways. When you cast a spell with a spell slot, you can expend one additional spell slot to augment its effects for this casting, mixing the raw stuff of magic into your spell to amplify it. The effect depends on the spell slot you expend. See the side panel for the full text.",
    "rules": []
   },
   {
@@ -194,67 +353,137 @@
    "name": "Prodigious Memory (UA)",
    "desc": "10th-level Lore Mastery feature.\n\nAt 10th level, you have attained a greater mastery of spell preparation. As a bonus action, you can replace one spell you have prepared with another spell from your spellbook. You can't use this feature again until you finish a short or long rest.",
    "rules": [
-    { "resource": { "id": "prodigious-memory-ua", "name": "Prodigious Memory", "rest": "S", "max": 1 } }
+    {
+     "resource": {
+      "id": "prodigious-memory-ua",
+      "name": "Prodigious Memory",
+      "rest": "S",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Master of Magic (UA)",
    "type": "Class Feature",
    "name": "Master of Magic (UA)",
-   "desc": "14th-level Lore Mastery feature.\n\nAt 14th level, your knowledge of magic allows you to duplicate almost any spell. As a bonus action, you can call to mind the ability to cast one spell of your choice from any class's spell list. The spell must be of a level for which you have spell slots, you mustn't have it prepared, and you follow the normal rules for casting it, including expending a spell slot. If the spell isn't a wizard spell, it counts as a wizard spell when you cast it. The ability to cast the spell vanishes from your mind when you cast it or when the current turn ends.\n\nYou can't use this feature again until you finish a long rest.",
+   "desc": "14th-level Lore Mastery feature.\n\nAt 14th level, your knowledge of magic allows you to duplicate almost any spell. As a bonus action, you can call to mind the ability to cast one spell of your choice from any class's spell list. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "master-of-magic-ua", "name": "Master of Magic", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "master-of-magic-ua",
+      "name": "Master of Magic",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Lorehold Spells (UA)",
    "type": "Class Feature",
    "name": "Lorehold Spells (UA)",
-   "desc": "2nd-level Mage of Lorehold feature.\n\nYou learn the cantrip Sacred Flame and the 1st-level spell Comprehend Languages. You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\n**Lorehold Spells**\n| Class Level | Spells |\n|---|---|\n| 2nd | Sacred Flame, Comprehend Languages |\n| 3rd | Knock, Locate Object |\n| 5th | Speak with Dead, Spirit Guardians |\n| 7th | Arcane Eye, Stone Shape |\n| 9th | Destructive Wave, Legend Lore |",
+   "desc": "2nd-level Mage of Lorehold feature.\n\nYou learn the cantrip Sacred Flame and the 1st-level spell Comprehend Languages. You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table. See the side panel for the full text.",
    "rules": [],
    "featSpells": [
-    [2, "Sacred Flame", "Lorehold Spells (cantrip)"],
-    [2, "Comprehend Languages", "Lorehold Spells"],
-    [3, "Knock", "Lorehold Spells"],
-    [3, "Locate Object", "Lorehold Spells"],
-    [5, "Speak with Dead", "Lorehold Spells"],
-    [5, "Spirit Guardians", "Lorehold Spells"],
-    [7, "Arcane Eye", "Lorehold Spells"],
-    [7, "Stone Shape", "Lorehold Spells"],
-    [9, "Destructive Wave", "Lorehold Spells"],
-    [9, "Legend Lore", "Lorehold Spells"]
+    [
+     2,
+     "Sacred Flame",
+     "Lorehold Spells (cantrip)"
+    ],
+    [
+     2,
+     "Comprehend Languages",
+     "Lorehold Spells"
+    ],
+    [
+     3,
+     "Knock",
+     "Lorehold Spells"
+    ],
+    [
+     3,
+     "Locate Object",
+     "Lorehold Spells"
+    ],
+    [
+     5,
+     "Speak with Dead",
+     "Lorehold Spells"
+    ],
+    [
+     5,
+     "Spirit Guardians",
+     "Lorehold Spells"
+    ],
+    [
+     7,
+     "Arcane Eye",
+     "Lorehold Spells"
+    ],
+    [
+     7,
+     "Stone Shape",
+     "Lorehold Spells"
+    ],
+    [
+     9,
+     "Destructive Wave",
+     "Lorehold Spells"
+    ],
+    [
+     9,
+     "Legend Lore",
+     "Lorehold Spells"
+    ]
    ]
   },
   {
    "id": "Class Feature:Ancient Companion (UA)",
    "type": "Class Feature",
    "name": "Ancient Companion (UA)",
-   "desc": "2nd-level Mage of Lorehold feature.\n\nYou learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.\n\nWhenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your ancient companion. See this creature's game statistics in the Ancient Companion stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit's appearance.\n\nThe ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n\nAs an action, you can touch the ancient companion and expend a spell slot of 1st level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.\n\nThe companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object.\n\n**Ancient Companion**\n*Medium construct, Any Alignment*\n\n**Armor Class** 14 (natural armor) + 2 (Warrior only)\n**Hit Points** 5 + 5 times your level in this class (the companion has a number of Hit Dice [d8s] equal to your level in this class)\n**Speed** 30 ft.\n\n| STR | DEX | CON | INT | WIS | CHA |\n|---|---|---|---|---|---|\n| 14 (+2) | 9 (−1) | 15 (+2) | 14 (+2) | 14 (+2) | 11 (+0) |\n\n**Saving Throws** Con +2 plus PB, Int +2 plus PB, Wis +2 plus PB\n**Skills** History +2 plus PB, Perception +2 plus (PB × 2)\n**Damage Immunities** poison\n**Condition Immunities** charmed, exhaustion\n**Senses** passive Perception 12 + (PB × 2)\n**Languages** speaks and understands the languages you speak\n**Challenge** —\n**Proficiency Bonus** equals your bonus\n\n**Ancient Fortitude.** If damage reduces the companion to 0 hit points, it can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the companion drops to 1 hit point instead.\n\n**Sage's Counsel (Sage Only).** While within 15 feet of the companion, you and your allies gain a +2 bonus to Intelligence and Wisdom checks.\n\n**Actions**\n\n**Spirit Strike.** Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 + PB force damage.\n\n**Healer's Light (Healer Only).** The companion chooses a creature it can see within 15 feet of itself and flares with invigorating light. The creature gains 1d8 + PB temporary hit points.\n\n**Reactions**\n\n**Warrior's Protection (Warrior Only).** When a creature within 5 feet of the companion makes a Strength or Dexterity saving throw, the companion imposes itself between the creature and the danger. The creature can roll a d4 and add the number rolled to the saving throw.",
+   "desc": "2nd-level Mage of Lorehold feature.\n\nYou learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle. See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:Lessons of the Past (UA)",
    "type": "Class Feature",
    "name": "Lessons of the Past (UA)",
-   "desc": "6th-level Mage of Lorehold feature.\n\nThrough your studies, you learn how to better listen and take to heart the teachings of history. When you bond with your ancient companion, you gain the following additional benefits depending on the type of spirit you chose:\n\n- **Healer.** Your hit point maximum increases by an amount equal to your level in this class, and you gain the same number of hit points. When you regain hit points from a spell, you regain an additional 1d8 hit points.\n- **Sage.** You have advantage on ability checks using the Arcana, History, Nature, and Religion skills. Additionally, once per turn, when you deal damage to a creature with a spell of 1st level or higher, you can deal an additional 1d8 force damage to that creature.\n- **Warrior.** If you use your action to cast a cantrip, you can make one weapon attack as part of that action. If that weapon attack hits, the target takes an additional 1d8 radiant damage.\n\nWhen you bond with a new ancient companion of a different type, you immediately lose the benefits of your previous companion and gain the benefits from the new companion's type.",
+   "desc": "6th-level Mage of Lorehold feature.\n\nThrough your studies, you learn how to better listen and take to heart the teachings of history. When you bond with your ancient companion, you gain the following additional benefits depending on the type of spirit you chose: See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:War Echoes (UA)",
    "type": "Class Feature",
    "name": "War Echoes (UA)",
-   "desc": "10th-level Mage of Lorehold feature.\n\nBy pulling from the magic of the past, you can cause your opponent's old wounds to resonate anew. Once per turn, when a creature you can see hits a target with an attack roll, you can use your reaction to force the target to make a Wisdom saving throw against your spell save DC. On a failure, the target becomes vulnerable to one of the damage types dealt by the attack. This vulnerability lasts until the end of the target's next turn and affects the damage dealt by the triggering attack.\n\nYou can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+   "desc": "10th-level Mage of Lorehold feature.\n\nBy pulling from the magic of the past, you can cause your opponent's old wounds to resonate anew. Once per turn, when a creature you can see hits a target with an attack roll, you can use your reaction to force the target to make a Wisdom saving throw against your spell save DC. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "war-echoes-ua", "name": "War Echoes", "rest": "L", "max": { "pb": true } } }
+    {
+     "resource": {
+      "id": "war-echoes-ua",
+      "name": "War Echoes",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:History's Whims (UA)",
    "type": "Class Feature",
    "name": "History's Whims (UA)",
-   "desc": "14th-level Mage of Lorehold feature.\n\nThrough steeping yourself in the chaotic whims of history, you learn how to briefly channel the wild nature of time itself. As a bonus action, you can enter a state of chronal chaos. When you enter this state, and at the start of each of your subsequent turns while in this state, you gain one of the following benefits of your choice:\n\n- **Luck.** You receive brief flashes of the future, steeling yourself against oncoming assaults. Whenever you make a saving throw against an effect that deals damage, you can roll a d6 and add the number rolled to the total.\n- **Resistance.** You rewind time, knitting together injuries as they occur. You have resistance to bludgeoning, piercing, and slashing damage.\n- **Swiftness.** Time stutters, slowing others but hurtling you forward. Your movement speed increases by 15 feet, and you do not provoke opportunity attacks.\n\nThe benefit lasts until the start of your next turn. You cannot choose the same benefit two rounds in a row.\n\nThe state lasts for 1 minute and ends early if you're incapacitated. Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot of 4th level or higher to use it again.",
+   "desc": "14th-level Mage of Lorehold feature.\n\nThrough steeping yourself in the chaotic whims of history, you learn how to briefly channel the wild nature of time itself. As a bonus action, you can enter a state of chronal chaos. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "historys-whims-ua", "name": "History's Whims", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "historys-whims-ua",
+      "name": "History's Whims",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
@@ -263,39 +492,87 @@
    "name": "Bonus Proficiencies (Onomancy UA)",
    "desc": "2nd-level Onomancy feature.\n\nAt 2nd level, you learn one language of your choice and gain proficiency with calligrapher's tools.",
    "rules": [
-    { "select": { "name": "Bonus language (Onomancy)", "type": "Language", "n": 1 } },
-    { "pf": ["t:Calligrapher's Supplies"] }
+    {
+     "select": {
+      "name": "Bonus language (Onomancy)",
+      "type": "Language",
+      "n": 1
+     }
+    },
+    {
+     "pf": [
+      "t:Calligrapher’s supplies"
+     ]
+    }
    ]
   },
   {
    "id": "Class Feature:Extract Name (UA)",
    "type": "Class Feature",
    "name": "Extract Name (UA)",
-   "desc": "2nd-level Onomancy feature.\n\nAt 2nd level, you can magically compel a creature to divulge its true name. As a bonus action, you target one creature you can see within 60 feet of you. The target must make a Wisdom saving throw against your spell save DC. On a successful save, you discern that this magic failed, and you can't use this feature on the target again. On a failed save, the target is charmed by you until the end of your next turn, and you mentally learn the charmed target's name or the fact that the target lacks a name.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
+   "desc": "2nd-level Onomancy feature.\n\nAt 2nd level, you can magically compel a creature to divulge its true name. As a bonus action, you target one creature you can see within 60 feet of you. The target must make a Wisdom saving throw against your spell save DC. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "extract-name-ua", "name": "Extract Name", "rest": "L", "min": 1, "max": { "mod": "int" } } }
+    {
+     "resource": {
+      "id": "extract-name-ua",
+      "name": "Extract Name",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "int"
+      }
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Fateful Naming (UA)",
    "type": "Class Feature",
    "name": "Fateful Naming (UA)",
-   "desc": "2nd-level Onomancy feature.\n\nStarting at 2nd level, you can bend magic to assist or hinder creatures through the power of their true names, and even use those names as an anchor to affect others around them. The Bane and Bless spells are wizard spells for you, and you add them to your spellbook. You always have them prepared, yet they don't count against the number of spells you can prepare.\n\nYou can cast either spell without expending a spell slot if you speak the true name of one target of the spell as part of casting it. You can cast the spells in this way a number of times equal to your Intelligence modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
+   "desc": "2nd-level Onomancy feature.\n\nStarting at 2nd level, you can bend magic to assist or hinder creatures through the power of their true names, and even use those names as an anchor to affect others around them. The Bane and Bless spells are wizard spells for you, and you add them to your spellbook. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "fateful-naming-ua", "name": "Fateful Naming (free cast)", "rest": "L", "min": 1, "max": { "mod": "int" } } }
+    {
+     "resource": {
+      "id": "fateful-naming-ua",
+      "name": "Fateful Naming (free cast)",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "int"
+      }
+     }
+    }
    ],
    "featSpells": [
-    [2, "Bane", "Fateful Naming (always prepared)"],
-    [2, "Bless", "Fateful Naming (always prepared)"]
+    [
+     2,
+     "Bane",
+     "Fateful Naming (always prepared)"
+    ],
+    [
+     2,
+     "Bless",
+     "Fateful Naming (always prepared)"
+    ]
    ]
   },
   {
    "id": "Class Feature:Resonant Utterance (UA)",
    "type": "Class Feature",
    "name": "Resonant Utterance (UA)",
-   "desc": "6th-level Onomancy feature.\n\nAt 6th level, you learn words of power called Resonants, which allow you to tailor your spells through the use of a target's true name.\n\n**Resonants Known.** When you gain this feature, you learn two Resonants of your choice, which are detailed in the \"Resonant Options\" section. Each time you gain a level in this class, you can replace one resonant you know with a different one.\n\n**Using a Resonant.** You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell.\n\nYou can use Resonants a number of times equal to half of your wizard level (round down), and you regain all expended uses when you finish a long rest.\n\n**Resonant Options.** Here are your options when choosing a Resonant:\n\n- **Absorption.** When you cast a spell that deals damage to the named target, you gain 3d6 temporary hit points. The number of temporary hit points you gain increases by 1d6 when you reach 10th level (4d6) and 14th level (5d6) in this class.\n- **Devastation.** If the spell requires the named creature to make a saving throw, that creature has disadvantage on the first save it makes against the spell.\n- **Dissolution.** The first time the named creature takes damage from the spell, that creature takes an extra 2d8 force damage. The extra force damage increases by 1d8 when you reach 10th level (3d8) and 14th level (4d8) in this class.\n- **Nullification.** If the named target is affected by any other spells, you know what those spells are, and you can attempt to end one of your choice by succeeding on an Intelligence check with a DC equal to 10 + the level of the chosen spell.\n- **Puppetry.** The first time the named creature takes damage from the spell, you can knock the creature prone or move it up to 10 feet, either directly toward you or away from you.\n- **Sympathy.** If the named creature is within range of the spell, you can target the creature with the spell even if you can't see the creature or it has total cover against the spell.",
+   "desc": "6th-level Onomancy feature.\n\nAt 6th level, you learn words of power called Resonants, which allow you to tailor your spells through the use of a target's true name. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "resonant-utterance-ua", "name": "Resonant Utterance", "rest": "L", "max": { "class": "Wizard", "div": 2 } } }
+    {
+     "resource": {
+      "id": "resonant-utterance-ua",
+      "name": "Resonant Utterance",
+      "rest": "L",
+      "max": {
+       "class": "Wizard",
+       "div": 2
+      }
+     }
+    }
    ]
   },
   {
@@ -316,68 +593,120 @@
    "id": "Class Feature:Wizardly Quill (UA)",
    "type": "Class Feature",
    "name": "Wizardly Quill (UA)",
-   "desc": "2nd-level Order of Scribes feature.\n\nAt 2nd level, as a bonus action, you can magically create a Tiny quill in your free hand. The magic quill has the following properties:\n\n- The quill doesn't require ink. When you write with it, it produces ink in a color of your choice on the writing surface.\n- The gold and time you must spend to copy a spell into your spellbook are halved if you use the quill for the transcription.\n- You can erase anything you write with the quill if you wave the feather over the text as a bonus action, provided the text is within 5 feet of you.\n\nThis quill disappears if you create another one or if you die.",
+   "desc": "2nd-level Order of Scribes feature.\n\nAt 2nd level, as a bonus action, you can magically create a Tiny quill in your free hand. The magic quill has the following properties: See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:Awakened Spellbook (UA)",
    "type": "Class Feature",
    "name": "Awakened Spellbook (UA)",
-   "desc": "2nd-level Order of Scribes feature.\n\nUsing specially prepared inks and ancient incantations passed down by your wizardly order, you have awakened an arcane sentience within your spellbook.\n\nAt 2nd level, while you are holding the book, it grants you the following benefits:\n\n- You can use the book as a spellcasting focus for your wizard spells.\n- When you cast a wizard spell with a spell slot, you can temporarily replace its damage type with the damage type of another spell in your spellbook, as your spellbook magically alters the spell's formula for this casting.\n- When you cast a wizard spell as a ritual, you can use the spell's normal casting time, rather than adding 10 minutes to it. Once you use this benefit, you can't do so again until you finish a long rest.\n\nIf necessary, you can replace the book over the course of a short rest by using your Wizardly Quill to write arcane sigils in a blank book or a magic spellbook to which you're attuned. At the end of the rest, your spellbook's consciousness is summoned into the new book, which the consciousness transforms into your spellbook, along with all its spells. If the previous book still existed somewhere, all the spells vanish from its pages.",
+   "desc": "2nd-level Order of Scribes feature.\n\nUsing specially prepared inks and ancient incantations passed down by your wizardly order, you have awakened an arcane sentience within your spellbook. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "awakened-spellbook-ritual", "name": "Awakened Spellbook (fast ritual)", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "awakened-spellbook-ritual",
+      "name": "Awakened Spellbook (fast ritual)",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Master Scrivener (UA)",
    "type": "Class Feature",
    "name": "Master Scrivener (UA)",
-   "desc": "6th-level Order of Scribes feature.\n\nAt 6th level, whenever you finish a long rest, you can create one magic scroll by touching your Wizardly Quill to a blank piece of paper or parchment and causing one spell from your Awakened Spellbook to be copied onto the scroll. The spellbook must be within 5 feet of you when you make the scroll.\n\nThe chosen spell must be of 1st or 2nd level and must have a casting time of 1 action. Once in the scroll, the spell's power is enhanced, counting as one level higher than normal. You can cast the spell from the scroll by reading it as an action. The scroll is unintelligible to anyone else, and the spell vanishes from the scroll when you cast it or when you finish your next long rest.\n\nYou are also adept at crafting spell scrolls, which are described in chapter 7 of the Dungeon Master's Guide. The gold and time you must spend to make such a scroll are halved if you use your Wizardly Quill.",
+   "desc": "6th-level Order of Scribes feature.\n\nAt 6th level, whenever you finish a long rest, you can create one magic scroll by touching your Wizardly Quill to a blank piece of paper or parchment and causing one spell from your Awakened Spellbook to be copied onto the scroll. The spellbook must be within 5 feet of you when you make the scroll. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "master-scrivener-ua", "name": "Master Scrivener scroll", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "master-scrivener-ua",
+      "name": "Master Scrivener scroll",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Manifest Mind (Scribes UA)",
    "type": "Class Feature",
    "name": "Manifest Mind (Scribes UA)",
-   "desc": "10th-level Order of Scribes feature.\n\nAt 10th level, you are now able to conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral construct, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (your choice). The spectral mind has a number of hit points equal to your wizard level plus your Intelligence modifier, and it uses your Armor Class and saving throw modifiers.\n\nWhile manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. As an action, you can hear and see using its senses, instead of your own, until your concentration ends (as if concentrating on a spell).\n\nWhenever you cast a wizard spell on your turn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nAs a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stops manifesting if it is ever more than 300 feet away from you, if it drops to 0 hit points, if you die, or if you dismiss it as a bonus action.",
+   "desc": "10th-level Order of Scribes feature.\n\nAt 10th level, you are now able to conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral construct, hovering in an unoccupied space of your choice within 60 feet of you. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "manifest-mind-scribes", "name": "Manifest Mind (cast through)", "rest": "L", "max": { "pb": true } } }
+    {
+     "resource": {
+      "id": "manifest-mind-scribes",
+      "name": "Manifest Mind (cast through)",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:One with the Word (UA)",
    "type": "Class Feature",
    "name": "One with the Word (UA)",
-   "desc": "14th-level Order of Scribes feature.\n\nAt 14th level, your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While you are holding the book and its spectral mind is manifest, you can take an action to cause the two of you to teleport, swapping places. You can teleport in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nMoreover, if you die but at least one spell remains in your Awakened Spellbook, you can return to life 1 minute later within 5 feet of the book. You revive with 1 hit point. Then roll 3d6. The book loses spells of your choice that have a combined spell level equal to that roll or higher. For example, if the roll's total is 9, spells vanish from the book that have a combined level of at least 9, which could mean one 9th-level spell, three 3rd-level spells, or some other combination.\n\nThereafter, you are incapable of casting the lost spells, even if you find them on a scroll or in another spellbook. The only way to restore your ability to cast one of the lost spells is through the wish spell, which can restore one spell to the book per casting.",
+   "desc": "14th-level Order of Scribes feature.\n\nAt 14th level, your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While you are holding the book and its spectral mind is manifest, you can take an action to cause the two of you to teleport, swapping places. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "one-with-the-word-teleport", "name": "One with the Word (teleport swap)", "rest": "L", "max": { "pb": true } } }
+    {
+     "resource": {
+      "id": "one-with-the-word-teleport",
+      "name": "One with the Word (teleport swap)",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Psionic Focus (UA)",
    "type": "Class Feature",
    "name": "Psionic Focus (UA)",
-   "desc": "2nd-level Psionics feature.\n\nAt 2nd level, you have learned to channel psionic energy through a special object: a psionic focus. You gain the object with this feature. While your psionic focus is on your person, you gain the following benefits:\n\n- The object is a spellcasting focus for you.\n- When you roll psychic or force damage for any of your wizard spells, you can reroll any of those damage dice that rolls a 1, but you must use the new roll.\n\nIf your psionic focus is lost, you can magically recreate it by meditating for 1 hour during a short or long rest, at the end of which the focus appears in your hand.",
+   "desc": "2nd-level Psionics feature.\n\nAt 2nd level, you have learned to channel psionic energy through a special object: a psionic focus. You gain the object with this feature. While your psionic focus is on your person, you gain the following benefits: See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:Psionic Devotion (UA)",
    "type": "Class Feature",
    "name": "Psionic Devotion (UA)",
-   "desc": "2nd-level Psionics feature.\n\nStarting at 2nd level, your study of psionics begins to unleash your mind's potential. When you gain this feature, choose one of the following cantrips: Friends, Mage Hand, or Message. You learn that cantrip if you don't already know it, and it doesn't count against the number of wizard cantrips you know.\n\nWhile your psionic focus is on your person, you can cast the chosen cantrip as a bonus action, requiring no components, and with the modification listed below.\n\n- **Friends.** When the spell ends, the target doesn't become hostile to you.\n- **Mage Hand.** You can make the hand invisible when you cast the spell, and controlling the spell is a bonus action for you.\n- **Message.** You don't need to point toward the target or whisper your message out loud.",
+   "desc": "2nd-level Psionics feature.\n\nStarting at 2nd level, your study of psionics begins to unleash your mind's potential. When you gain this feature, choose one of the following cantrips: Friends, Mage Hand, or Message. See the side panel for the full text.",
    "rules": [
-    { "select": { "name": "Psionic Devotion cantrip", "type": "Spell", "n": 1, "ids": ["Spell:Mage Hand"] } }
+    {
+     "select": {
+      "name": "Psionic Devotion cantrip",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Mage Hand",
+       "Spell:Message"
+      ]
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Thought Form (UA)",
    "type": "Class Feature",
    "name": "Thought Form (UA)",
-   "desc": "6th-level Psionics feature.\n\nAt 6th level, while you are carrying your psionic focus, you can use a bonus action to magically transform your body into pure psionic energy. The transformation lasts for 10 minutes, until you use a bonus action to assume your normal form, or until you are incapacitated or die.\n\nWhile in thought form, you are a figure of luminous psychic energy, with your psionic focus hovering within. Your form can appear as anything you wish, but it is obviously magical, is the same size as you, and sheds dim light in a 5-foot radius. Any other equipment you are wearing or carrying transforms with you and melds into your thought form. You also gain the following benefits:\n\n- **Psionic Spellcasting.** When you cast a spell while in thought form, you can cast the spell psionically. If you do so, the spell doesn't require verbal, somatic, or material components that lack a gold cost.\n- **Psychic Resilience.** You gain resistance to psychic damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks.\n\nYou can transform using this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+   "desc": "6th-level Psionics feature.\n\nAt 6th level, while you are carrying your psionic focus, you can use a bonus action to magically transform your body into pure psionic energy. The transformation lasts for 10 minutes, until you use a bonus action to assume your normal form, or until you are incapacitated or die. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "thought-form-ua", "name": "Thought Form", "rest": "L", "min": 1, "max": { "mod": "int" } } }
+    {
+     "resource": {
+      "id": "thought-form-ua",
+      "name": "Thought Form",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "int"
+      }
+     }
+    }
    ]
   },
   {
@@ -393,7 +722,14 @@
    "name": "Mental Discipline (UA)",
    "desc": "10th-level Psionics feature.\n\nStarting at 10th level, your mind's power expands to greater heights. When you gain this feature, choose one of the following spells: Dominate Person, Scrying, or Telekinesis. You can add the spell to your spellbook, and you can cast it without components. You can also cast the chosen spell once without expending a spell slot. After you do so, you regain the ability to cast the spell without a slot when you finish a long rest.",
    "rules": [
-    { "resource": { "id": "mental-discipline-ua", "name": "Mental Discipline (free cast)", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "mental-discipline-ua",
+      "name": "Mental Discipline (free cast)",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
@@ -407,7 +743,7 @@
    "id": "Class Feature:Bonus Proficiencies (Technomancy UA)",
    "type": "Class Feature",
    "name": "Bonus Proficiencies (Technomancy UA)",
-   "desc": "2nd-level Technomancy feature.\n\nBeginning when you select this arcane tradition at 2nd level, you gain proficiency with sidearms and hacking tools.\n\n**Engine note:** 'sidearms' is a modern-era weapon not in the current equipment pack. Note the proficiency manually if your campaign uses firearms.",
+   "desc": "2nd-level Technomancy feature.\n\nBeginning when you select this arcane tradition at 2nd level, you gain proficiency with sidearms and hacking tools.\n\nEngine note: 'sidearms' is a modern-era weapon not in the current equipment pack. Note the proficiency manually if your campaign uses firearms.",
    "rules": []
   },
   {
@@ -421,52 +757,113 @@
    "id": "Class Feature:Program Spell (UA)",
    "type": "Class Feature",
    "name": "Program Spell (UA)",
-   "desc": "6th-level Technomancy feature.\n\nAt 6th level, you can insert a spell within an electronic device of your choosing, so that by touching a key or flicking a switch using an action, the spell activates. All variables of the spell are set at the time of casting. The computing power of this device must be equal to or greater than a mobile phone.\n\nA programmed spell remains placed in its device for 48 hours, and is gone once it is discharged. You can use this feature to place a programmed spell in only one device at a time, and a device can hold only one programmed spell. Only you can activate the programmed spell in the device. If the device is destroyed, the programmed spell is lost.\n\nA concentration spell placed in a device cannot be activated while you are concentrating on another spell. Once you use this feature, you can't use it again until you finish a long rest.",
+   "desc": "6th-level Technomancy feature.\n\nAt 6th level, you can insert a spell within an electronic device of your choosing, so that by touching a key or flicking a switch using an action, the spell activates. All variables of the spell are set at the time of casting. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "program-spell-ua", "name": "Program Spell", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "program-spell-ua",
+      "name": "Program Spell",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Online Casting (UA)",
    "type": "Class Feature",
    "name": "Online Casting (UA)",
-   "desc": "10th-level Technomancy feature.\n\nAt 10th level, you can cast spells through networked electronic devices, including cameras, mobile phones, and computers. For example, if a creature is under the observation of a security camera and you can see the video feed from that camera on a computer, you can cast a spell into the computer and out through the security camera to target that creature.\n\nIf the spell requires the caster to be seen, the target must see you or a live image of you. If the spell requires the caster to be heard, the target must be able to hear you or a live audio transmission of you. The spell's range is determined using the distance from you to your device, and then from the target to its device. You must be able to see or otherwise determine the location of the target. This feature can be used to cast only spells that target specific creatures. Spells that affect an area are not subject to online casting.\n\nThis feature can be used a number of times per day equal to your Intelligence modifier (minimum of once).",
+   "desc": "10th-level Technomancy feature.\n\nAt 10th level, you can cast spells through networked electronic devices, including cameras, mobile phones, and computers. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "online-casting-ua", "name": "Online Casting", "rest": "L", "min": 1, "max": { "mod": "int" } } }
+    {
+     "resource": {
+      "id": "online-casting-ua",
+      "name": "Online Casting",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "int"
+      }
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Chained Device (UA)",
    "type": "Class Feature",
    "name": "Chained Device (UA)",
-   "desc": "14th-level Technomancy feature.\n\nBy 14th level, you have learned to imprint vestiges of your consciousness on electronic devices with significant computing power. When you cast a concentration spell, you can use a device whose computing power is equal to or greater than a tablet computer to maintain concentration of the spell on your behalf. The device must be held or worn by you to maintain this effect. If the device is destroyed, taken from you, dropped, or turned off, the concentration ends. Once you use this feature, you can't use it again until you finish a long rest.",
+   "desc": "14th-level Technomancy feature.\n\nBy 14th level, you have learned to imprint vestiges of your consciousness on electronic devices with significant computing power. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "chained-device-ua", "name": "Chained Device", "rest": "L", "max": 1 } }
+    {
+     "resource": {
+      "id": "chained-device-ua",
+      "name": "Chained Device",
+      "rest": "L",
+      "max": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Divine Inspiration (UA)",
    "type": "Class Feature",
    "name": "Divine Inspiration (UA)",
-   "desc": "2nd-level Theurgy feature.\n\nWhen you choose this tradition at 2nd level, choose a cleric domain from your chosen deity's list of eligible domains. The Knowledge and Light domains are especially appropriate choices for a theurgist.\n\n**Engine note:** the domain choice is not enforced by the engine. Use the Divine Domain select to indicate your choice; domain-specific spell grants will not auto-populate unless the domain is supported by the data set.",
+   "desc": "2nd-level Theurgy feature.\n\nWhen you choose this tradition at 2nd level, choose a cleric domain from your chosen deity's list of eligible domains. The Knowledge and Light domains are especially appropriate choices for a theurgist.\n\nEngine note: the domain choice is not enforced by the engine. Use the Divine Domain select to indicate your choice; domain-specific spell grants will not auto-populate unless the domain is supported by the data set.",
    "rules": [
-    { "select": { "name": "Domain (Theurgy)", "type": "Divine Domain", "n": 1 } }
+    {
+     "select": {
+      "name": "Domain (Theurgy)",
+      "type": "Divine Domain",
+      "n": 1
+     }
+    }
    ]
   },
   {
    "id": "Class Feature:Arcane Initiate (UA)",
    "type": "Class Feature",
    "name": "Arcane Initiate (UA)",
-   "desc": "2nd-level Theurgy feature.\n\nBeginning when you select this tradition at 2nd level, whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell for your chosen domain. The spell must be of a level for which you have spell slots.\n\nIf you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list instead. The spell must still be of a level for which you have spell slots.\n\nAny cleric spell you gain from this feature is considered a wizard spell for you, but other wizards can't copy cleric spells from your spellbook into their own spellbooks.\n\n**Engine note:** cleric domain spells cannot be auto-added to the wizard spellbook. Copy them manually if you want them in your spell list.",
+   "desc": "2nd-level Theurgy feature.\n\nBeginning when you select this tradition at 2nd level, whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell for your chosen domain. The spell must be of a level for which you have spell slots. See the side panel for the full text.",
    "rules": []
   },
   {
    "id": "Class Feature:Channel Arcana (UA)",
    "type": "Class Feature",
    "name": "Channel Arcana (UA)",
-   "desc": "2nd-level Theurgy feature.\n\nAt 2nd level, you gain the ability to channel arcane energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Divine Arcana and the Channel Divinity option granted at 2nd level by your chosen domain. You employ that Channel Divinity option by using your Channel Arcana ability.\n\nWhen you use your Channel Arcana, you choose which effect to create. You must then finish a short or long rest to use your Channel Arcana again.\n\nSome Channel Arcana effects require saving throws. When you use such an effect, the save DC equals your wizard spell save DC.\n\nBeginning at 6th level, you can use your Channel Arcana twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.\n\nIf you gain additional Channel Divinity options from your domain, you can employ them by using your Channel Arcana feature.",
+   "desc": "2nd-level Theurgy feature.\n\nAt 2nd level, you gain the ability to channel arcane energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Divine Arcana and the Channel Divinity option granted at 2nd level by your chosen domain. See the side panel for the full text.",
    "rules": [
-    { "resource": { "id": "channel-arcana-ua", "name": "Channel Arcana", "rest": "S", "max": { "class": "Wizard", "table": [1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3] } } }
+    {
+     "resource": {
+      "id": "channel-arcana-ua",
+      "name": "Channel Arcana",
+      "rest": "S",
+      "max": {
+       "class": "Wizard",
+       "table": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -480,21 +877,21 @@
    "id": "Class Feature:Arcane Acolyte (UA)",
    "type": "Class Feature",
    "name": "Arcane Acolyte (UA)",
-   "desc": "6th-level Theurgy feature.\n\nAt 6th level, you gain your chosen domain's 1st-level benefits. However, you do not gain any weapon or armor proficiencies from the domain.\n\n**Engine note:** domain features are not auto-granted. Note the specific 1st-level domain features on your sheet (for Life Domain: Disciple of Life, but not the heavy-armor proficiency).",
+   "desc": "6th-level Theurgy feature.\n\nAt 6th level, you gain your chosen domain's 1st-level benefits. However, you do not gain any weapon or armor proficiencies from the domain.\n\nEngine note: domain features are not auto-granted. Note the specific 1st-level domain features on your sheet (for Life Domain: Disciple of Life, but not the heavy-armor proficiency).",
    "rules": []
   },
   {
    "id": "Class Feature:Arcane Priest (UA)",
    "type": "Class Feature",
    "name": "Arcane Priest (UA)",
-   "desc": "10th-level Theurgy feature.\n\nAt 10th level, you gain your chosen domain's 6th-level benefits. Your faith and your understanding of magic allow you to delve into your god's secrets.\n\n**Engine note:** domain features are not auto-granted. Note the specific 6th-level domain feature on your sheet (for Life Domain: Blessed Healer).",
+   "desc": "10th-level Theurgy feature.\n\nAt 10th level, you gain your chosen domain's 6th-level benefits. Your faith and your understanding of magic allow you to delve into your god's secrets.\n\nEngine note: domain features are not auto-granted. Note the specific 6th-level domain feature on your sheet (for Life Domain: Blessed Healer).",
    "rules": []
   },
   {
    "id": "Class Feature:Arcane High Priest (UA)",
    "type": "Class Feature",
    "name": "Arcane High Priest (UA)",
-   "desc": "14th-level Theurgy feature.\n\nAt 14th level, you gain your chosen domain's 17th-level benefits. Your academic nature and understanding of magic and doctrine allow you to master this ability sooner than a cleric of your domain.\n\n**Engine note:** domain features are not auto-granted. Note the specific 17th-level domain feature on your sheet (for Life Domain: Supreme Healing).",
+   "desc": "14th-level Theurgy feature.\n\nAt 14th level, you gain your chosen domain's 17th-level benefits. Your academic nature and understanding of magic and doctrine allow you to master this ability sooner than a cleric of your domain.\n\nEngine note: domain features are not auto-granted. Note the specific 17th-level domain feature on your sheet (for Life Domain: Supreme Healing).",
    "rules": []
   }
  ]

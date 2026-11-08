@@ -3,7 +3,7 @@
   "version": 1,
   "source": {
     "id": "UA2014",
-    "name": "Unearth Arcana(2014 5E)",
+    "name": "Unearthed Arcana (2014 5E)",
     "short": "UA"
   },
   "files": [
@@ -19,7 +19,6 @@
     "feat2.json",
     "feat3.json",
     "Fighter.json",
-    "index.json",
     "Monk.json",
     "Mystic.json",
     "Paladin.json",
@@ -30,6 +29,29 @@
     "Sorcerer.json",
     "Artificer, Original (UA).json",
     "Warlock.json",
-    "Wizard.json"
+    "Wizard.json",
+    "Artificer_info.json",
+    "backgrounds_info.json",
+    "Barbarian_info.json",
+    "Bard_info.json",
+    "classes_info.json",
+    "Cleric_info.json",
+    "disciplines_info.json",
+    "Druid_info.json",
+    "feat1_info.json",
+    "feat2_info.json",
+    "feat3_info.json",
+    "Fighter_info.json",
+    "Monk_info.json",
+    "Mystic_info.json",
+    "Paladin_info.json",
+    "Ranger_info.json",
+    "Ranger-NoSpells_info.json",
+    "Rogue_info.json",
+    "Rune_info.json",
+    "Sorcerer_info.json",
+    "Artificer, Original (UA)_info.json",
+    "Warlock_info.json",
+    "Wizard_info.json"
   ]
 }
