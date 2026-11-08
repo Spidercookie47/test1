@@ -9,6 +9,7 @@
   "files": [
     "races.json",
     "backgrounds.json",
+    "monsters.json",
     "subclasses.json",
     "spells.json",
     "magic-items.json",

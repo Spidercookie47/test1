@@ -1,0 +1,2125 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "pbtso",
+  "name": "Phandelver and Below: The Shattered Obelisk",
+  "short": "PBtSO"
+ },
+ "elements": [
+  {
+   "id": "Monster:Aberrant Zealot",
+   "type": "Monster",
+   "name": "Aberrant Zealot",
+   "desc": "Medium aberration, chaotic evil. Challenge 8.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "8",
+    "ab": {
+     "str": 15,
+     "dex": 18,
+     "con": 12,
+     "int": 13,
+     "wis": 8,
+     "cha": 19
+    },
+    "ac": 16,
+    "acNote": "studded leather armor",
+    "hpAuto": false,
+    "hp": 93,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "dex": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "blinded, charmed, frightened, grappled, restrained",
+    "sen": {
+     "darkvision": 60,
+     "truesight": 10
+    },
+    "langs": "Common, Deep Speech",
+    "traits": [
+     {
+      "n": "Aberrant Form",
+      "d": "The zealot exudes the chaos of the Far Realm. Any non-Aberration creature that starts its turn within 5 feet of the zealot must succeed on a DC 15 Wisdom saving throw or take 7 (2d6) psychic damage."
+     },
+     {
+      "n": "Weirdly Pliable",
+      "d": "The zealot, along with any equipment it is wearing or carrying, is unnaturally flexible. The zealot can move through any space as narrow as 1 inch without squeezing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The zealot makes one Psychic Rend attack and two Shortsword attacks."
+     },
+     {
+      "n": "Psychic Rend",
+      "d": "Melee or Ranged Spell Attack: +7 to hit, reach 15 ft. or range 120 ft., one target. Hit: 14 (3d6 + 4) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or have the stunned condition until the start of the zealot's next turn."
+     },
+     {
+      "n": "Shortsword",
+      "d": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) psychic damage."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The zealot casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save DC 15):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, minor illusion"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: arcane gate, hunger of Hadar"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Void Warp (Recharge 5–6)",
+      "d": "The zealot teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 120 feet of itself, leaving a churning void in the space it left. Immediately after it teleports, each creature within 30 feet of the void other than the zealot must make a DC 15 Strength saving throw. On a failed save, a creature takes 18 (4d8) force damage and is pulled to the unoccupied space closest to the void. On a successful save, the creature takes half as much damage only. The void then disappears."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Aberrant Zealot (Tentacled)",
+   "type": "Monster",
+   "name": "Aberrant Zealot (Tentacled)",
+   "desc": "Medium aberration, chaotic evil. Challenge 8.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "8",
+    "ab": {
+     "str": 15,
+     "dex": 18,
+     "con": 12,
+     "int": 13,
+     "wis": 8,
+     "cha": 19
+    },
+    "ac": 16,
+    "acNote": "studded leather armor",
+    "hpAuto": false,
+    "hp": 93,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "dex": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "blinded, charmed, frightened, grappled, restrained",
+    "sen": {
+     "darkvision": 60,
+     "truesight": 10
+    },
+    "langs": "Common, Deep Speech",
+    "traits": [
+     {
+      "n": "Aberrant Form",
+      "d": "The zealot exudes the chaos of the Far Realm. Any non-Aberration creature that starts its turn within 5 feet of the zealot must succeed on a DC 15 Wisdom saving throw or take 7 (2d6) psychic damage."
+     },
+     {
+      "n": "Weirdly Pliable",
+      "d": "The zealot, along with any equipment it is wearing or carrying, is unnaturally flexible. The zealot can move through any space as narrow as 1 inch without squeezing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The zealot makes one Psychic Rend attack and two Shortsword attacks."
+     },
+     {
+      "n": "Psychic Rend",
+      "d": "Melee or Ranged Spell Attack: +7 to hit, reach 15 ft. or range 120 ft., one target. Hit: 14 (3d6 + 4) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or have the stunned condition until the start of the zealot's next turn."
+     },
+     {
+      "n": "Shortsword",
+      "d": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) psychic damage."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "The zealot magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and have the stunned condition for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the stunned condition on itself on a success."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The zealot casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save DC 15):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, minor illusion"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: arcane gate, hunger of Hadar"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Void Warp (Recharge 5–6)",
+      "d": "The zealot teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 120 feet of itself, leaving a churning void in the space it left. Immediately after it teleports, each creature within 30 feet of the void other than the zealot must make a DC 15 Strength saving throw. On a failed save, a creature takes 18 (4d8) force damage and is pulled to the unoccupied space closest to the void. On a successful save, the creature takes half as much damage only. The void then disappears."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ash Zombie",
+   "type": "Monster",
+   "name": "Ash Zombie",
+   "desc": "Medium undead, neutral evil. Challenge 1/4.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 13,
+     "dex": 6,
+     "con": 16,
+     "int": 3,
+     "wis": 6,
+     "cha": 5
+    },
+    "ac": 8,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands all languages it spoke in life but can't speak",
+    "traits": [
+     {
+      "n": "Ash Cloud",
+      "d": "When the zombie dies, it leaves a cloud of ash that lasts for 5 minutes but does not obscure vision."
+     },
+     {
+      "n": "Undead Fortitude",
+      "d": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Brain Breaker",
+   "type": "Monster",
+   "name": "Brain Breaker",
+   "desc": "Large aberration (mind flayer), lawful evil. Challenge 12.",
+   "stat": {
+    "size": "Large",
+    "type": "aberration (mind flayer)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "12",
+    "ab": {
+     "str": 15,
+     "dex": 10,
+     "con": 20,
+     "int": 21,
+     "wis": 19,
+     "cha": 20
+    },
+    "ac": 14,
+    "acNote": "ring mail",
+    "hpAuto": false,
+    "hp": 189,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Insight": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "Telepathy 1 mile; understands Common, Deep Speech, and Undercommon but can't speak",
+    "traits": [
+     {
+      "n": "Creature Sense",
+      "d": "The brain breaker is aware of creatures within 1 mile of itself that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The brain breaker has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Telepathic Hub",
+      "d": "The brain breaker can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The brain breaker can let those creatures telepathically hear each other while connected in this way."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The brain breaker makes two Tentacle attacks."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The brain breaker casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, levitate"
+     },
+     {
+      "n": "Tentacle",
+      "d": "Melee Weapon Attack: +6 to hit, reach 30 ft., one target. Hit: 15 (3d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature, it has the grappled condition (escape DC 14) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The brain breaker can have up to four targets grappled at a time."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "Creatures of the brain breaker's choice within 60 feet of itself must succeed on a DC 17 Intelligence saving throw or take 32 (5d10 + 5) psychic damage and have the stunned condition for 1 minute. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Psychic Link",
+      "d": "The brain breaker targets one creature with the incapacitated condition that the brain breaker senses with its Creature Sense trait and establishes a psychic link with the target. Until the link ends, the brain breaker can perceive everything the target senses. The target becomes aware that something is linked to its mind once it no longer has the incapacitated condition, and the brain breaker can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the link, doing so with a successful DC 17 Charisma check. If the target breaks the link this way, the target takes 10 (3d6) psychic damage. The link also ends if the target and the brain breaker are more than 1 mile apart. The brain breaker can form psychic links with up to ten creatures at a time."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Cloaker Mutate",
+   "type": "Monster",
+   "name": "Cloaker Mutate",
+   "desc": "Large aberration, chaotic neutral. Challenge 10.",
+   "stat": {
+    "size": "Large",
+    "type": "aberration",
+    "tags": "",
+    "align": "chaotic neutral",
+    "cr": "10",
+    "ab": {
+     "str": 19,
+     "dex": 15,
+     "con": 12,
+     "int": 18,
+     "wis": 13,
+     "cha": 11
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 143,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "fly": 30
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "necrotic, poison, psychic",
+    "imm": "",
+    "cimm": "exhaustion, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Deep Speech, telepathy 60 ft., Undercommon",
+    "traits": [
+     {
+      "n": "Avoidance",
+      "d": "If the mutate is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+     },
+     {
+      "n": "Light Sensitivity",
+      "d": "While in bright light, the mutate has disadvantage on attack rolls."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mutate makes one Corpse Swipe attack and two Tail attacks, or it makes four Tail attacks."
+     },
+     {
+      "n": "Corpse Swipe",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or have the poisoned condition for 1 minute. While poisoned in this way, a creature can't regain hit points."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Phantasmal Duplicates",
+      "d": "The mutate magically projects up to four illusory copies of itself. These duplicates make it difficult to ascertain the mutate's true location and last until the end of the mutate's next turn. While the copies exist, attack rolls against the mutate are made with disadvantage."
+     },
+     {
+      "n": "Psychic Moan (Recharge 6)",
+      "d": "The mutate lets out a moan charged with psychic energy. Each creature within 60 feet of the mutate that isn't an Aberration must succeed on a DC 16 Wisdom saving throw or take 17 (5d6) psychic damage and have the frightened condition until the end of the mutate's next turn."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Dwarf Skeleton",
+   "type": "Monster",
+   "name": "Dwarf Skeleton",
+   "desc": "Medium undead, lawful evil. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 16,
+     "dex": 10,
+     "con": 15,
+     "int": 6,
+     "wis": 8,
+     "cha": 5
+    },
+    "ac": 13,
+    "acNote": "chain shirt",
+    "hpAuto": false,
+    "hp": 26,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "bludgeoning",
+    "res": "",
+    "imm": "poison",
+    "cimm": "exhaustion, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Dwarvish but can't speak",
+    "traits": [
+     {
+      "n": "Sure-Footed",
+      "d": "The skeleton has advantage on Strength and Dexterity saving throws made against effects that make it have the prone condition."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Battleaxe",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Encephalon Cluster",
+   "type": "Monster",
+   "name": "Encephalon Cluster",
+   "desc": "Large aberration, unaligned. Challenge 10.",
+   "stat": {
+    "size": "Large",
+    "type": "aberration",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "10",
+    "ab": {
+     "str": 23,
+     "dex": 10,
+     "con": 13,
+     "int": 5,
+     "wis": 17,
+     "cha": 7
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 110,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "blinded",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the cluster fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The cluster has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The cluster makes two Slam attacks. It can replace one of these attacks with Spawn Progeny if available."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage plus 10 (3d6) psychic damage, and if the target is a creature, the target must succeed on a DC 18 Strength saving throw or have the prone condition. If this attack reduces the target to 0 hit points, the target immediately dies and is consumed by the cluster."
+     },
+     {
+      "n": "Spawn Progeny (Recharges after a Short or Long Rest)",
+      "d": "The cluster bulges and spews 1d4 mature eggs. Each egg lands in an unoccupied space of the cluster's choice within 30 feet of itself and immediately transforms into an encephalon gemmule. The gemmules obey the cluster's commands and take their turns immediately after it."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Aggressive Hunger",
+      "d": "Immediately after being hit by an attack, the cluster moves up to its speed toward the attacker. This movement doesn't provoke opportunity attacks. If the cluster ends this movement within 5 feet of the attacker, it then makes one Slam attack against that attacker."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Encephalon Gemmule",
+   "type": "Monster",
+   "name": "Encephalon Gemmule",
+   "desc": "Tiny aberration, unaligned. Challenge 3.",
+   "stat": {
+    "size": "Tiny",
+    "type": "aberration",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "3",
+    "ab": {
+     "str": 1,
+     "dex": 18,
+     "con": 14,
+     "int": 5,
+     "wis": 12,
+     "cha": 7
+    },
+    "ac": 14,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 54,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "blinded",
+    "sen": {
+     "blindsight": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Encephalon Progeny",
+      "d": "The gemmule matures into an encephalon cluster if not killed within 30 (4d12 + 4) days of its creation."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The gemmule has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Psychic Slam",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 16 (3d10) psychic damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Leech",
+      "d": "The gemmule targets one creature within 5 feet of itself and forces the target to make a DC 14 Dexterity saving throw. On a failed save, the gemmule enters the target's space and attaches to the target. While the gemmule is attached, the target takes 7 (3d4) piercing damage at the start of each of its turns, and the gemmule can't use Leech again until it detaches. It can detach itself by spending 5 feet of its movement. As an action, the target or a creature within 5 feet of the target can detach the gemmule by succeeding on a DC 15 Strength check."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Feral Ashenwight",
+   "type": "Monster",
+   "name": "Feral Ashenwight",
+   "desc": "Medium undead, neutral evil. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "5",
+    "ab": {
+     "str": 19,
+     "dex": 13,
+     "con": 15,
+     "int": 4,
+     "wis": 14,
+     "cha": 6
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 65,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {
+     "str": true,
+     "con": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "necrotic, poison",
+    "imm": "",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned, unconscious",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Understands the languages it knew in life but can't speak",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The ashenwight makes two Necrotic Shard attacks."
+     },
+     {
+      "n": "Necrotic Shard",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d6 + 4) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Fiendish Auger",
+   "type": "Monster",
+   "name": "Fiendish Auger",
+   "desc": "Huge construct, neutral evil. Challenge 5.",
+   "stat": {
+    "size": "Huge",
+    "type": "construct",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "5",
+    "ab": {
+     "str": 23,
+     "dex": 10,
+     "con": 17,
+     "int": 6,
+     "wis": 12,
+     "cha": 5
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 85,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "burrow": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire, poison",
+    "cimm": "blinded, charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Siege Monster",
+      "d": "The auger deals double damage to objects and structures."
+     },
+     {
+      "n": "Tunneler",
+      "d": "The auger can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Flaming Drill",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 7 (2d6) fire damage. If the auger moves at least 20 feet in a straight line toward the target immediately before the hit, the target takes an additional 11 (2d10) piercing damage, and if the target is a creature, it must succeed on a DC 17 Strength saving throw or have the prone condition."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Burst of Heat (Recharge 5–6)",
+      "d": "The auger releases an intense burst of heat in a 30-foot-radius sphere centered on itself. This heat spreads around corners. Each creature in this area must make a DC 17 Constitution saving throw, taking 13 (3d8) fire damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Flesh Meld",
+   "type": "Monster",
+   "name": "Flesh Meld",
+   "desc": "Huge aberration, chaotic evil. Challenge 7.",
+   "stat": {
+    "size": "Huge",
+    "type": "aberration",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "7",
+    "ab": {
+     "str": 21,
+     "dex": 14,
+     "con": 17,
+     "int": 7,
+     "wis": 13,
+     "cha": 5
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 95,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {
+     "str": true,
+     "dex": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "blinded, prone",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "Understands all but can't speak",
+    "traits": [
+     {
+      "n": "Amorphous",
+      "d": "The flesh meld can move through a space as narrow as 1 inch without squeezing."
+     },
+     {
+      "n": "Aura of Death",
+      "d": "At the start of each of the flesh meld's turns, each creature within 5 feet of it must succeed on a DC 15 Constitution saving throw or take 3 (1d6) necrotic damage and have the poisoned condition until the start of the flesh meld's next turn."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The flesh meld has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The flesh meld can climb difficult surfaces, including ceilings, without needing to make an ability check."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The flesh meld makes two Bite attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +8 to hit, reach 30 ft., one target. Hit: 16 (2d10 + 5) piercing damage, and if the target is a Large or smaller creature, it has the grappled condition (escape DC 15) and is pulled up to 15 feet toward the flesh meld."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Consume Creature",
+      "d": "The flesh meld targets one Large or smaller creature within 5 feet of itself that it's grappling. The target must succeed on a DC 15 Dexterity saving throw or be swallowed by the flesh meld. The flesh meld can have one creature swallowed at a time."
+     },
+     {
+      "n": "A swallowed creature no longer has the grappled condition",
+      "d": "While swallowed, it has the blinded and restrained conditions, has total cover against attacks and other effects outside the flesh meld, and takes 10 (3d6) necrotic damage at the start of each of the flesh meld's turns. If this damage reduces a swallowed creature to 0 hit points, the creature dies, and the flesh meld consumes its body."
+     },
+     {
+      "n": "If the flesh meld takes 30 damage or more on a single turn from the swallowed creature, the flesh meld must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the creature, which falls with the prone condition in a space within 5 feet of the flesh meld",
+      "d": "If the flesh meld dies, the swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting with the prone condition."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Goblin Boss Archer",
+   "type": "Monster",
+   "name": "Goblin Boss Archer",
+   "desc": "Small humanoid (goblinoid), neutral evil. Challenge 1.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1",
+    "ab": {
+     "str": 10,
+     "dex": 14,
+     "con": 10,
+     "int": 10,
+     "wis": 8,
+     "cha": 10
+    },
+    "ac": 17,
+    "acNote": "chain shirt, shield",
+    "hpAuto": false,
+    "hp": 21,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin",
+    "traits": [
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The goblin makes two attacks with its scimitar. The second attack has disadvantage."
+     },
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+     },
+     {
+      "n": "Shortbow",
+      "d": "Ranged Weapon Attack: +4 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Redirect Attack",
+      "d": "When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Goblin Psi Brawler",
+   "type": "Monster",
+   "name": "Goblin Psi Brawler",
+   "desc": "Small aberration (goblinoid), any alignment. Challenge 2.",
+   "stat": {
+    "size": "Small",
+    "type": "aberration (goblinoid)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "2",
+    "ab": {
+     "str": 9,
+     "dex": 17,
+     "con": 12,
+     "int": 16,
+     "wis": 15,
+     "cha": 10
+    },
+    "ac": 15,
+    "acNote": "studded leather armor",
+    "hpAuto": false,
+    "hp": 31,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin, telepathy 30 ft.",
+    "traits": [
+     {
+      "n": "Mental Burst",
+      "d": "When the goblin dies, its pent-up mental energy explodes in a psychic blast. Each creature within 5 feet of it must succeed on a DC 13 Intelligence saving throw or take 5 (2d4) psychic damage."
+     },
+     {
+      "n": "Mental Fortitude",
+      "d": "The goblin has advantage on saving throws against effects that would make it have the charmed or frightened condition."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The goblin makes two Unarmed Strike attacks."
+     },
+     {
+      "n": "Unarmed Strike",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 3 (1d6) psychic damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin takes the Disengage or Hide action."
+     },
+     {
+      "n": "Telekinetic Shove",
+      "d": "The goblin targets one creature it can see within 30 feet of itself with a thrust of telekinetic force. The target must succeed on a DC 13 Strength saving throw or have the prone condition."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Goblin Psi Commander",
+   "type": "Monster",
+   "name": "Goblin Psi Commander",
+   "desc": "Small aberration (goblinoid), any alignment. Challenge 4.",
+   "stat": {
+    "size": "Small",
+    "type": "aberration (goblinoid)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "4",
+    "ab": {
+     "str": 12,
+     "dex": 19,
+     "con": 13,
+     "int": 17,
+     "wis": 15,
+     "cha": 10
+    },
+    "ac": 16,
+    "acNote": "studded leather armor",
+    "hpAuto": false,
+    "hp": 58,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin, telepathy 60 ft.",
+    "traits": [
+     {
+      "n": "Mental Burst",
+      "d": "When the goblin dies, its pent-up mental energy explodes in a psychic blast. Each creature within 5 feet of it must succeed on a DC 13 Intelligence saving throw or take 10 (4d4) psychic damage."
+     },
+     {
+      "n": "Mental Fortitude",
+      "d": "The goblin has advantage on saving throws against effects that would make it have the charmed or frightened conditions."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The goblin makes three Psychic Blade attacks."
+     },
+     {
+      "n": "Psychic Blade",
+      "d": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 60 ft., one creature. Hit: 11 (2d6 + 4) psychic damage, and the target must subtract 1d4 from the next attack roll or saving throw it makes before the end of the goblin's next turn."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The goblin casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 13):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: mage hand (the hand is invisible), minor illusion"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: charm person, dissonant whispers, telekinesis"
+     },
+     {
+      "n": "Synaptic Rend (Recharge 5–6)",
+      "d": "The goblin unleashes a 30-foot-radius sphere of psychic energy, centered on a point the goblin can see within 60 feet of itself. Each creature in that area must make a DC 13 Intelligence saving throw. On a failed save, a creature takes 14 (4d6) psychic damage and has the incapacitated condition until the end of the goblin's next turn. On a successful save, a creature takes half as much damage only."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin takes the Disengage or Hide action."
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Psionic Shield",
+      "d": "When the goblin or one of its allies within 15 feet of it is hit by an attack roll, the goblin conjures a shield of force. The target of the attack gains a +3 bonus to its AC against the triggering attack roll, potentially causing it to miss."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Grell Psychic",
+   "type": "Monster",
+   "name": "Grell Psychic",
+   "desc": "Medium aberration, chaotic evil. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "4",
+    "ab": {
+     "str": 17,
+     "dex": 14,
+     "con": 13,
+     "int": 12,
+     "wis": 11,
+     "cha": 14
+    },
+    "ac": 12,
+    "acNote": "15 with mage armor",
+    "hpAuto": false,
+    "hp": 66,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2,
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "lightning",
+    "cimm": "blinded, prone",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "Deep Speech, Grell",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The grell psychic makes one Tentacle attack and one Beak attack."
+     },
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (3d4 + 3) piercing damage."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The grell psychic casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 12):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, mage armor, mage hand (the hand is invisible)"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: confusion, fear"
+     },
+     {
+      "n": "Tentacle",
+      "d": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or have the poisoned condition for 1 minute. While the target is poisoned, it also has the paralyzed condition. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The target also has the grappled condition (escape DC 16). While grappling the target, the grell can't make Tentacle attacks against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Humanoid Mutate",
+   "type": "Monster",
+   "name": "Humanoid Mutate",
+   "desc": "Medium aberration, any alignment. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "4",
+    "ab": {
+     "str": 12,
+     "dex": 18,
+     "con": 14,
+     "int": 11,
+     "wis": 13,
+     "cha": 15
+    },
+    "ac": 14,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 65,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "charmed, frightened",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Common, telepathy 60 ft.",
+    "traits": [
+     {
+      "n": "Sunlight Sensitivity",
+      "d": "While in sunlight, the mutate has disadvantage on attack rolls."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mutate makes two Unarmed Strike or Nightmare Blast attacks."
+     },
+     {
+      "n": "Unarmed Strike",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 10 (3d6) psychic damage."
+     },
+     {
+      "n": "Nightmare Blast",
+      "d": "Ranged Weapon Attack: +6 to hit, range 60 ft., one creature. Hit: 7 (2d6) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or have the frightened condition until the start of the mutate's next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Defensive Flight",
+      "d": "Immediately after taking damage, the mutate flies up to its speed. This movement doesn't provoke opportunity attacks."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Infected Elder Brain",
+   "type": "Monster",
+   "name": "Infected Elder Brain",
+   "desc": "Large aberration (mind flayer), lawful evil. Challenge 11.",
+   "stat": {
+    "size": "Large",
+    "type": "aberration (mind flayer)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "11",
+    "ab": {
+     "str": 15,
+     "dex": 10,
+     "con": 20,
+     "int": 21,
+     "wis": 19,
+     "cha": 20
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 189,
+    "hdn": 0,
+    "spd": {
+     "walk": 5,
+     "swim": 10
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Insight": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "Telepathy 1 mile; understands Common, Deep Speech, and Undercommon but can't speak",
+    "traits": [
+     {
+      "n": "Creature Sense",
+      "d": "The elder brain is aware of creatures within 1 mile of itself that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The elder brain has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Telepathic Hub",
+      "d": "The elder brain can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The elder brain can let those creatures telepathically hear each other while connected in this way."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The elder brain makes two Tentacle attacks."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The elder brain casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, levitate"
+     },
+     {
+      "n": "Tentacle",
+      "d": "Melee Weapon Attack: +6 to hit, reach 30 ft., one target. Hit: 15 (3d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature, it has the grappled condition (escape DC 14) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets grappled at a time."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "Creatures of the elder brain's choice within 60 feet of itself must succeed on a DC 17 Intelligence saving throw or take 32 (5d10 + 5) psychic damage and have the stunned condition for 1 minute. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Psychic Link",
+      "d": "The elder brain targets one creature with the incapacitated condition that the elder brain senses with its Creature Sense trait and establishes a psychic link with the target. Until the link ends, the elder brain can perceive everything the target senses. The target becomes aware that something is linked to its mind once it no longer has the incapacitated condition, and the elder brain can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the link, doing so with a successful DC 17 Charisma check. If the target breaks the link this way, the target takes 10 (3d6) psychic damage. The link also ends if the target and the elder brain are more than 1 mile apart. The elder brain can form psychic links with up to ten creatures at a time."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Infected Townsperson",
+   "type": "Monster",
+   "name": "Infected Townsperson",
+   "desc": "Medium humanoid (any race), any chaotic alignment. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any chaotic alignment",
+    "cr": "2",
+    "ab": {
+     "str": 16,
+     "dex": 12,
+     "con": 17,
+     "int": 9,
+     "wis": 11,
+     "cha": 9
+    },
+    "ac": 13,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 67,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [
+     {
+      "n": "Reckless",
+      "d": "At the start of its turn, the townsperson can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Psychic Slam",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 3 (1d6) psychic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Intellect Snare",
+   "type": "Monster",
+   "name": "Intellect Snare",
+   "desc": "Small aberration, neutral evil. Challenge 8.",
+   "stat": {
+    "size": "Small",
+    "type": "aberration",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "8",
+    "ab": {
+     "str": 13,
+     "dex": 18,
+     "con": 15,
+     "int": 23,
+     "wis": 17,
+     "cha": 11
+    },
+    "ac": 14,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 99,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 45,
+     "hover": true
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "psychic",
+    "cimm": "blinded, charmed, frightened, prone",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "Deep Speech, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Cacophony of Minds",
+      "d": "Any creature that starts its turn within 30 feet of the intellect snare must succeed on a DC 17 Wisdom saving throw or have the incapacitated condition for 1 minute. An incapacitated creature can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success. A creature that succeeds on the saving throw is immune to this intellect snare's Cacophony of Minds for 24 hours."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The intellect snare has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The intellect snare makes two Tentacle attacks."
+     },
+     {
+      "n": "Tentacle",
+      "d": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 10 (1d8 + 6) force damage, and if the target is a Medium or smaller creature, the target has the grappled condition (escape DC 17)."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Siphon Thoughts",
+      "d": "The intellect snare targets one creature it is grappling. The target must make a DC 17 Intelligence saving throw, taking 21 (6d6) psychic damage on a failed save, or half as much damage on a successful one. The intellect snare then regains a number of hit points equal to the amount of damage taken."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Mind Flayer Clairvoyant",
+   "type": "Monster",
+   "name": "Mind Flayer Clairvoyant",
+   "desc": "Medium aberration, lawful evil. Challenge 11.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "11",
+    "ab": {
+     "str": 11,
+     "dex": 12,
+     "con": 15,
+     "int": 21,
+     "wis": 17,
+     "cha": 18
+    },
+    "ac": 15,
+    "acNote": "breastplate",
+    "hpAuto": false,
+    "hp": 156,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 60,
+     "hover": true
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Insight": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "blinded, charmed, frightened",
+    "sen": {
+     "darkvision": 120,
+     "truesight": 15
+    },
+    "langs": "Deep Speech, telepathy 120 ft., Undercommon",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the mind flayer fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The mind flayer has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mind flayer makes two Tentacle attacks."
+     },
+     {
+      "n": "Tentacle",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 21 (3d10 + 5) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 17) and must succeed on a DC 17 Intelligence saving throw or have the incapacitated condition until the grapple ends."
+     },
+     {
+      "n": "Extract Brain",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one incapacitated Humanoid grappled by the mind flayer. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills it by extracting and devouring its brain."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect magic, detect thoughts, mage hand (the hand is invisible)"
+     },
+     {
+      "n": "Action",
+      "d": "3/day each: clairvoyance (as an action), dispel magic"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: plane shift (self only)"
+     },
+     {
+      "n": "Unleash Void (Recharge 5–6)",
+      "d": "The mind flayer opens a rift into the Far Realm, centered on a point the mind flayer can see within 60 feet of itself, and a tentacle lashes across creatures near the rift. Each creature other than mind flayers within 30 feet of the rift must make a DC 17 Intelligence saving throw, after which the tentacle disappears and the rift closes. On a failed save, a creature takes 18 (4d8) cold damage from the rift plus 18 (4d8) psychic damage from the tentacle and has the stunned condition for 1 minute. On a successful save, a creature takes half as much damage only. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Warp Reality",
+      "d": "When hit by an attack roll, the mind flayer gains a +4 bonus to its AC against that attack roll, potentially causing it to miss. Then the mind flayer, along with any equipment it is wearing or carrying, magically teleports up to 60 feet to an unoccupied space it can see."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Mind Flayer Nothic",
+   "type": "Monster",
+   "name": "Mind Flayer Nothic",
+   "desc": "Medium aberration, neutral evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "2",
+    "ab": {
+     "str": 14,
+     "dex": 16,
+     "con": 16,
+     "int": 13,
+     "wis": 10,
+     "cha": 8
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 1,
+     "Insight": 2,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "Undercommon",
+    "traits": [
+     {
+      "n": "Keen Sight",
+      "d": "The nothic has advantage on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The nothic makes two claw attacks."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "The nothic magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 12 Intelligence saving throw or take 10 (2d8 + 1) psychic damage and have the stunned condition until the end of its next turn."
+     },
+     {
+      "n": "Weird Insight",
+      "d": "The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Mind Flayer Prophet",
+   "type": "Monster",
+   "name": "Mind Flayer Prophet",
+   "desc": "Medium aberration, lawful evil. Challenge 8.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "8",
+    "ab": {
+     "str": 15,
+     "dex": 14,
+     "con": 14,
+     "int": 20,
+     "wis": 17,
+     "cha": 17
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 97,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Insight": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Deep Speech, telepathy 120 ft., Undercommon",
+    "traits": [
+     {
+      "n": "Awareness",
+      "d": "The mind flayer has advantage on initiative rolls and can't be surprised as long as it doesn't have the incapacitated condition."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The mind flayer has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Tentacles",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 16) and must succeed on a DC 16 Intelligence saving throw or have the stunned condition until the grapple ends."
+     },
+     {
+      "n": "Extract Brain",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one Humanoid grappled by the mind flayer. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills it by extracting and devouring its brain."
+     },
+     {
+      "n": "Mind Whip (Recharge 5–6)",
+      "d": "The mind flayer lashes out with psychic energy, targeting up to two creatures it can see within 60 feet of itself. Each target must succeed on a DC 16 Intelligence saving throw or take 23 (4d8 + 5) psychic damage and have the stunned condition for 1 minute. A stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect magic, detect thoughts, levitate"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: dominate monster, plane shift (self only), true seeing"
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Oculorb",
+   "type": "Monster",
+   "name": "Oculorb",
+   "desc": "Large aberration, chaotic evil. Challenge 9.",
+   "stat": {
+    "size": "Large",
+    "type": "aberration",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "9",
+    "ab": {
+     "str": 13,
+     "dex": 10,
+     "con": 17,
+     "int": 14,
+     "wis": 15,
+     "cha": 19
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 127,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 60,
+     "hover": true
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Investigation": 1,
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "blinded, prone",
+    "sen": {
+     "truesight": 60
+    },
+    "langs": "Deep Speech, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The oculorb has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Watchful Eyes",
+      "d": "The oculorb has advantage on initiative rolls and can't be surprised."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The oculorb makes two Dreadful Contact attacks or four Eye Beam attacks."
+     },
+     {
+      "n": "Dreadful Contact",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 14 (3d6 + 4) psychic damage, or 25 (6d6 + 4) psychic damage if the target has the frightened condition."
+     },
+     {
+      "n": "Eye Beam",
+      "d": "Ranged Spell Attack: +8 to hit, range 120 ft., one creature. Hit: 14 (3d6 + 4) psychic damage."
+     },
+     {
+      "n": "Antipathic Flood (Recharge 5–6)",
+      "d": "The oculorb releases a wave of negative emotions, choosing one of the following options:"
+     },
+     {
+      "n": "Weeping Eyes",
+      "d": "The oculorb weeps, releasing a wave of crushing despair. Each creature within 30 feet of the oculorb must make a DC 16 Constitution saving throw. On a failed save, a creature's speed is reduced to 0 feet until the end of the oculorb's next turn, and if the creature was concentrating, its concentration is broken."
+     },
+     {
+      "n": "Withering Glare",
+      "d": "The oculorb's eyes unleash furious scarlet energy in a 60-foot cone. Each creature in that area must make a DC 16 Wisdom saving throw. On a failed save, a creature takes 33 (6d10) necrotic damage and has the frightened condition for 1 minute. On a successful save, a creature takes half as much damage and isn't frightened. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Obsessive Rebuke",
+      "d": "When the oculorb is damaged by a creature it can see within 60 feet of itself, it forces the creature to make a DC 16 Wisdom saving throw. The creature takes 10 (3d6) psychic damage on a failed save, or half as much damage on a successful one."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Otyugh Mutate",
+   "type": "Monster",
+   "name": "Otyugh Mutate",
+   "desc": "Large aberration, neutral. Challenge 6.",
+   "stat": {
+    "size": "Large",
+    "type": "aberration",
+    "tags": "",
+    "align": "neutral",
+    "cr": "6",
+    "ab": {
+     "str": 19,
+     "dex": 11,
+     "con": 18,
+     "int": 10,
+     "wis": 15,
+     "cha": 6
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 76,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "str": true,
+     "con": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Otyugh, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Virulent Breath",
+      "d": "Noxious gas from the mutate's digestion of previous meals spews from its mouth. At the start of the mutate's turn, each creature within 5 feet of it must succeed on a DC 15 Constitution saving throw or take 3 (1d6) poison damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mutate makes two Bite or Tentacle attacks. It can replace one of these attacks with Chitin Slam."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have the poisoned condition. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. On a successful save, the target is no longer poisoned. The target dies if its hit point maximum is reduced to 0. This reduction to the target's hit point maximum lasts until it no longer has the poisoned condition."
+     },
+     {
+      "n": "Tentacle",
+      "d": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and if the target is a Medium or smaller creature, it has the grappled condition (escape DC 15) and the restrained condition until this grapple ends. The mutate has two tentacles that can grapple one target each."
+     },
+     {
+      "n": "Chitin Slam",
+      "d": "The mutate targets one creature it is grappling, slamming the creature against its chitinous plating. The creature must succeed on a DC 15 Constitution saving throw or take 16 (3d10) bludgeoning damage and have the stunned condition until the end of the mutate's next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Psionic Ashenwight",
+   "type": "Monster",
+   "name": "Psionic Ashenwight",
+   "desc": "Medium undead, neutral. Challenge 7.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral",
+    "cr": "7",
+    "ab": {
+     "str": 19,
+     "dex": 13,
+     "con": 15,
+     "int": 17,
+     "wis": 14,
+     "cha": 6
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 78,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {
+     "str": true,
+     "con": true,
+     "int": true,
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "necrotic, poison, psychic",
+    "imm": "",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned, unconscious",
+    "sen": {},
+    "langs": "Telepathy 120 ft., understands the languages it knew in life but can't speak",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The ashenwight makes two Necrotic Shard attacks. It also uses Psionic Crown if available."
+     },
+     {
+      "n": "Necrotic Shard",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 9 (2d8) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
+     },
+     {
+      "n": "Psionic Crown (Recharge 5–6)",
+      "d": "The ashenwight wreathes the head of a creature it can see within 60 feet of itself with a crown of jagged, spectral crystals. The target must succeed on a DC 14 Wisdom saving throw or have the charmed condition for 1 minute. While charmed in this way, the target's thoughts are sluggish; it can't take reactions, its speed is halved, and it takes 9 (2d8) psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The ashenwight casts one of the following spells, requiring no spellcasting components and using Intelligence as the spellcasting ability (spell save DC 14):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: mage hand (the hand is invisible)"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: calm emotions"
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Psionic Shambling Mound",
+   "type": "Monster",
+   "name": "Psionic Shambling Mound",
+   "desc": "Large plant, unaligned. Challenge 5.",
+   "stat": {
+    "size": "Large",
+    "type": "plant",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "5",
+    "ab": {
+     "str": 18,
+     "dex": 8,
+     "con": 16,
+     "int": 5,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 136,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 20
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "cold, fire",
+    "imm": "lightning",
+    "cimm": "blinded, deafened, exhaustion",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Lightning Absorption",
+      "d": "Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+     },
+     {
+      "n": "Engulf",
+      "d": "The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The shambling mound casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 8):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: minor illusion"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: charm person (already cast)"
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Redbrand Ruffian",
+   "type": "Monster",
+   "name": "Redbrand Ruffian",
+   "desc": "Medium humanoid, neutral evil. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 14,
+     "dex": 10,
+     "con": 12,
+     "int": 9,
+     "wis": 9,
+     "cha": 11
+    },
+    "ac": 11,
+    "acNote": "leather armor",
+    "hpAuto": false,
+    "hp": 16,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Shortsword",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Refraction of Ilvaash",
+   "type": "Monster",
+   "name": "Refraction of Ilvaash",
+   "desc": "Huge aberration (mind flayer), lawful evil. Challenge 15.",
+   "stat": {
+    "size": "Huge",
+    "type": "aberration (mind flayer)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "15",
+    "ab": {
+     "str": 17,
+     "dex": 10,
+     "con": 17,
+     "int": 23,
+     "wis": 20,
+     "cha": 22
+    },
+    "ac": 11,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 199,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "fly": 30,
+     "swim": 10,
+     "hover": true
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Insight": 2,
+     "Intimidation": 1,
+     "Persuasion": 1
+    },
+    "vuln": "",
+    "res": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison, psychic",
+    "cimm": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "Common, Deep Speech, telepathy 100 miles, Undercommon",
+    "traits": [
+     {
+      "n": "Creature Sense",
+      "d": "The refraction is aware of creatures within 100 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+     },
+     {
+      "n": "Incorporeal Movement",
+      "d": "The refraction can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+     },
+     {
+      "n": "Legendary Resistance (5/Day)",
+      "d": "If the refraction fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The refraction has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The refraction makes two Dissonant Claw attacks."
+     },
+     {
+      "n": "Dissonant Claw",
+      "d": "Melee Weapon Attack: +11 to hit, reach 10 ft. or range 120 ft., one creature. Hit: 25 (3d12 + 6) psychic damage. If the target is a creature concentrating on a spell, its concentration is broken."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "Creatures of the refraction's choice within 60 feet of it must succeed on a DC 19 Intelligence saving throw or take 33 (5d10 + 6) psychic damage and have the stunned condition for 1 minute. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Spellcasting (Psionics)",
+      "d": "The refraction casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 19):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect magic, detect thoughts"
+     },
+     {
+      "n": "Action",
+      "d": "3/day each: dispel magic, modify memory"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: feeblemind, plane shift (self only)"
+     },
+     {
+      "n": "Teleport",
+      "d": "The refraction teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied place that it can see."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Mindbreaker",
+      "d": "The refraction targets a creature within 120 feet of itself and disrupts its mental processes, causing the target to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the target's next turn."
+     },
+     {
+      "n": "Projected Claw (Costs 2 Actions)",
+      "d": "The refraction makes one Dissonant Claw attack."
+     }
+    ],
+    "legN": 3
+   }
+  }
+ ]
+}

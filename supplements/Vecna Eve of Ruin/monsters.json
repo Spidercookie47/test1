@@ -1,0 +1,2087 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "veor",
+  "name": "Vecna: Eve of Ruin",
+  "short": "VEoR"
+ },
+ "elements": [
+  {
+   "id": "Monster:Black Rose Bearer",
+   "type": "Monster",
+   "name": "Black Rose Bearer",
+   "desc": "Medium undead, neutral evil. Challenge 6.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "6",
+    "ab": {
+     "str": 17,
+     "dex": 6,
+     "con": 18,
+     "int": 2,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 11,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 110,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages it knew in life but can't speak",
+    "traits": [
+     {
+      "n": "Berserk",
+      "d": "Whenever the bearer takes damage or makes a Strength or Dexterity saving throw, roll a d6. On a 5 or 6, the bearer goes berserk. On each of its turns while berserk, the bearer has advantage on melee attack rolls, it can Dash as a bonus action, and it must attack the nearest creature it can see. If no creature is near enough to move to and attack, the bearer attacks an object, with preference for an object smaller than itself. Once the bearer goes berserk, it remains berserk until it is destroyed or its creator gives it a pristine black rose."
+     },
+     {
+      "n": "Undead Fortitude",
+      "d": "If damage reduces the bearer to 0 hit points, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is radiant or from a critical hit. On a successful save, the bearer drops to 1 hit point instead."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The bearer makes two Slam attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 11 (2d10) necrotic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Blade Lieutenant",
+   "type": "Monster",
+   "name": "Blade Lieutenant",
+   "desc": "Medium construct (warforged), lawful evil. Challenge 9.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct (warforged)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "9",
+    "ab": {
+     "str": 18,
+     "dex": 13,
+     "con": 19,
+     "int": 14,
+     "wis": 14,
+     "cha": 17
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 153,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "cha": true
+    },
+    "skills": {
+     "Insight": 1,
+     "Intimidation": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "poison",
+    "imm": "",
+    "cimm": "exhaustion, poisoned",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The lieutenant has advantage on an attack roll against a creature if at least one of the lieutenant's allies is within 5 feet of the creature and the ally doesn't have the incapacitated condition."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The lieutenant makes three Longsword or Javelin Launcher attacks."
+     },
+     {
+      "n": "Longsword",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage, or 20 (3d10 + 4) slashing damage if used with two hands."
+     },
+     {
+      "n": "Javelin Launcher",
+      "d": "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit: 14 (3d6 + 4) piercing damage, and the target has the prone condition."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Command Ally",
+      "d": "The lieutenant targets one ally it can see within 30 feet of itself. If the target can see or hear the lieutenant, the target can make one melee attack using its reaction, if available, and has advantage on the attack roll."
+     },
+     {
+      "n": "Rally the Troops (1/Day)",
+      "d": "The lieutenant ends the charmed and frightened conditions on itself and each creature of its choice that it can see within 30 feet of itself."
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Parry",
+      "d": "The lieutenant adds 3 to its AC against one melee attack that would hit it. To do so, the lieutenant must see the attacker and be wielding a melee weapon."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Blade Scout",
+   "type": "Monster",
+   "name": "Blade Scout",
+   "desc": "Medium construct (warforged), lawful evil. Challenge 7.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct (warforged)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "7",
+    "ab": {
+     "str": 14,
+     "dex": 20,
+     "con": 16,
+     "int": 10,
+     "wis": 19,
+     "cha": 10
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 105,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "dex": true,
+     "wis": true
+    },
+    "skills": {
+     "Acrobatics": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "poison",
+    "imm": "",
+    "cimm": "exhaustion, poisoned",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The scout has advantage on an attack roll against a creature if at least one of the scout's allies is within 5 feet of the creature and the ally doesn't have the incapacitated condition."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The scout makes three Armblade or Bolt Launcher attacks. It can replace one of the attacks with a use of Snare Trap."
+     },
+     {
+      "n": "Armblade",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+     },
+     {
+      "n": "Bolt Launcher",
+      "d": "Ranged Weapon Attack: +8 to hit, range 80/320 ft., one target. Hit: 9 (1d8 + 5) piercing damage."
+     },
+     {
+      "n": "Snare Trap (1/Day)",
+      "d": "The scout deploys a Tiny mechanical trap on a solid surface within 5 feet of itself. The trap is hidden, requiring a successful DC 17 Intelligence (Investigation) check to find. The trap lasts for 1 minute. Whenever an enemy enters a space within 10 feet of the trap or starts its turn there, it must succeed on a DC 16 Dexterity saving throw or take 21 (6d6) piercing damage and have the prone condition. A creature makes this saving throw only once per turn."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Dash",
+      "d": "The scout moves up to its speed without provoking opportunity attacks."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Blazebear",
+   "type": "Monster",
+   "name": "Blazebear",
+   "desc": "Large monstrosity, unaligned. Challenge 12.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "12",
+    "ab": {
+     "str": 24,
+     "dex": 17,
+     "con": 21,
+     "int": 3,
+     "wis": 13,
+     "cha": 16
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 189,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "str": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The blazebear has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Mist Sight",
+      "d": "The blazebear can see normally through heavily obscured areas created by mist or fog, including areas created by spells such as Fog Cloud."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The blazebear makes two Bite attacks. It can replace one attack with Stunning Gaze if available."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (2d12 + 7) piercing damage plus 11 (2d10) force damage."
+     },
+     {
+      "n": "Stunning Gaze (Recharge 5–6)",
+      "d": "The blazebear targets two creatures it can see within 120 feet of itself. Each target must succeed on a DC 15 Wisdom saving throw or have the stunned condition until the start of the blazebear's next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Antimagic Swipe",
+      "d": "Melee Weapon Attack: +11 to hit, reach 10 ft., one creature casting a spell of 3rd level or lower. Hit: 22 (4d10) force damage, and the target must succeed on a DC 15 Intelligence saving throw or the spell fails and has no effect."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Bone Roc",
+   "type": "Monster",
+   "name": "Bone Roc",
+   "desc": "Huge undead, neutral evil. Challenge 8.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "8",
+    "ab": {
+     "str": 18,
+     "dex": 20,
+     "con": 16,
+     "int": 2,
+     "wis": 17,
+     "cha": 10
+    },
+    "ac": 15,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 133,
+    "hdn": 0,
+    "spd": {
+     "walk": 15,
+     "fly": 90
+    },
+    "saves": {
+     "dex": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "bludgeoning",
+    "res": "",
+    "imm": "poison",
+    "cimm": "exhaustion, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The bone roc makes one Beak attack and two Talons attacks."
+     },
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage."
+     },
+     {
+      "n": "Talons",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 10 (3d6) necrotic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Borthak",
+   "type": "Monster",
+   "name": "Borthak",
+   "desc": "Huge monstrosity, chaotic evil. Challenge 15.",
+   "stat": {
+    "size": "Huge",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "15",
+    "ab": {
+     "str": 25,
+     "dex": 16,
+     "con": 22,
+     "int": 4,
+     "wis": 14,
+     "cha": 15
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 200,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "str": true,
+     "con": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "acid, cold",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Glacial Aura",
+      "d": "At the end of the borthak's turn, slippery ice covers surfaces within 10 feet of the borthak. This ice is difficult terrain. When a creature other than the borthak enters the ice's area for the first time on a turn or starts its turn there, it must succeed on a DC 16 Dexterity saving throw or have the prone condition. The ice disappears at the start of the borthak's next turn."
+     },
+     {
+      "n": "Webbed Feet",
+      "d": "The borthak can move across icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The borthak makes one Bite attack or uses Noxious Regurgitation if available, and it makes two Stomp attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 16 (2d8 + 7) piercing damage plus 7 (2d6) acid damage."
+     },
+     {
+      "n": "Stomp",
+      "d": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 11 (1d8 + 7) bludgeoning damage."
+     },
+     {
+      "n": "Noxious Regurgitation (Recharge 5–6)",
+      "d": "The borthak spews acid at a creature it can see within 120 feet of itself. The target must make a DC 21 Constitution saving throw. On a failed save, the creature takes 24 (7d6) acid damage and has the poisoned condition until the start of the borthak's next turn. On a successful save, the creature takes half as much damage only."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Reactive Tail",
+      "d": "When a creature within 10 feet of the borthak hits the borthak with an attack roll, the borthak swings its tail in retaliation. The triggering creature and any creature within 5 feet of it must succeed on a DC 16 Dexterity saving throw or take 16 (2d8 + 7) bludgeoning damage."
+     }
+    ],
+    "leg": [
+     {
+      "n": "Move",
+      "d": "The borthak moves up to its speed without provoking opportunity attacks."
+     },
+     {
+      "n": "Bite (Costs 2 Actions)",
+      "d": "The borthak makes one Bite attack."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Citadel Spider",
+   "type": "Monster",
+   "name": "Citadel Spider",
+   "desc": "Gargantuan monstrosity, neutral evil. Challenge 18.",
+   "stat": {
+    "size": "Gargantuan",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "18",
+    "ab": {
+     "str": 26,
+     "dex": 10,
+     "con": 21,
+     "int": 6,
+     "wis": 12,
+     "cha": 9
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 310,
+    "hdn": 0,
+    "spd": {
+     "walk": 50,
+     "climb": 50
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "charmed, exhaustion, frightened",
+    "sen": {
+     "darkvision": 120,
+     "blindsight": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the spider fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The spider ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spider makes two Bite attacks. It can replace one of these attacks with a use of Web Bomb."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 7 (2d6) poison damage."
+     },
+     {
+      "n": "Web Bomb",
+      "d": "Ranged Weapon Attack: +14 to hit, range 300 ft./600 ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage, and the target and all creatures within 10 feet of it must succeed on a DC 19 Dexterity saving throw or take 10 (3d6) acid damage and have the restrained condition until the start of the spider's next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Absorb Blow",
+      "d": "In response to being hit with an attack roll, the spider's carapace absorbs some of the blow, reducing the damage it takes by 11 (2d10)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Deadbark Dryad",
+   "type": "Monster",
+   "name": "Deadbark Dryad",
+   "desc": "Medium fey, chaotic evil. Challenge 13.",
+   "stat": {
+    "size": "Medium",
+    "type": "fey",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "13",
+    "ab": {
+     "str": 17,
+     "dex": 16,
+     "con": 18,
+     "int": 11,
+     "wis": 16,
+     "cha": 18
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 187,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Elvish, Sylvan",
+    "traits": [
+     {
+      "n": "Bramble Walk",
+      "d": "Difficult terrain composed of vegetation, such as foliage or thorns, doesn't cost the dryad extra movement."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The dryad has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Speak with Beasts and Plants",
+      "d": "The dryad can communicate with Beasts and Plants as if they shared a language."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dryad makes two Poisonous Thorn attacks and one Sapping Vine attack."
+     },
+     {
+      "n": "Poisonous Thorn",
+      "d": "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 13 (4d4 + 3) piercing damage plus 10 (3d6) poison damage. If the target is a creature, it must succeed on a DC 17 Constitution saving throw or have the poisoned condition until the start of the dryad's next turn."
+     },
+     {
+      "n": "Sapping Vine",
+      "d": "Melee Weapon Attack: +8 to hit, reach 30 ft., one target. Hit: The target has the grappled condition (escape DC 16). Until the grapple ends, the target has the restrained condition, and the dryad can't use the same vine on another target. A creature restrained in this way takes 13 (3d8) necrotic damage at the start of its turn."
+     },
+     {
+      "n": "The dryad has six vines",
+      "d": "Each vine can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a vine deals no damage to the dryad, but any creature grappled by that vine no longer has the grappled condition. All vines immediately wither and disappear when the dryad is reduced to 0 hit points."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The dryad casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: Druidcraft"
+     },
+     {
+      "n": "Action",
+      "d": "2/day each: Pass without Trace, Spike Growth"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: Dispel Magic"
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Deathwolf",
+   "type": "Monster",
+   "name": "Deathwolf",
+   "desc": "Medium undead, chaotic evil. Challenge 15.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "15",
+    "ab": {
+     "str": 20,
+     "dex": 16,
+     "con": 18,
+     "int": 10,
+     "wis": 17,
+     "cha": 19
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 153,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {
+     "str": true,
+     "dex": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
+    "cimm": "charmed, exhaustion, frightened, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Legendary Resistance (2/Day)",
+      "d": "If the deathwolf fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Moon's Grace",
+      "d": "When the deathwolf falls, it descends at a rate of 60 feet per round and takes no falling damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The deathwolf makes one Bite attack and two Claw attacks. It can replace one of these attacks with Phantom Deathwolf if available."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 9 (2d8) necrotic damage. The target must succeed on a DC 16 Wisdom saving throw or have disadvantage on saving throws against the frightened condition. This curse lasts until removed by the Remove Curse spell or other magic."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 4 (1d8) necrotic damage."
+     },
+     {
+      "n": "Phantom Deathwolf (Recharge 5–6)",
+      "d": "The deathwolf creates a terrifying phantom of itself in the mind of a creature the deathwolf can see within 60 feet of itself. The target must succeed on a DC 17 Intelligence saving throw or have the frightened condition for 1 minute."
+     },
+     {
+      "n": "While the target is frightened, the phantom deals 21 (6d6) psychic damage to the target at the start of each of the target's turns",
+      "d": "A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Imposing Slash",
+      "d": "When a creature within 5 feet of the deathwolf makes an attack roll against it, the deathwolf forces the creature to succeed on a DC 17 Wisdom saving throw or have disadvantage on that roll. After the attack hits or misses, the deathwolf makes one Claw attack against the creature."
+     },
+     {
+      "n": "Phase Step",
+      "d": "Immediately after taking damage, the deathwolf teleports up to 30 feet to an unoccupied space it can see that is in dim light or darkness."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Degloth",
+   "type": "Monster",
+   "name": "Degloth",
+   "desc": "Large fiend (demon), chaotic evil. Challenge 11.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "11",
+    "ab": {
+     "str": 23,
+     "dex": 17,
+     "con": 18,
+     "int": 6,
+     "wis": 11,
+     "cha": 9
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 133,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "climb": 40
+    },
+    "saves": {
+     "str": true,
+     "con": true
+    },
+    "skills": {
+     "Athletics": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Abyssal, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The degloth has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The degloth makes two Razor Fist attacks."
+     },
+     {
+      "n": "Razor Fist",
+      "d": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) slashing damage, and if the target is a Medium or smaller creature, the target has the grappled condition (escape DC 18). Until this grapple ends, the target has the restrained condition, and the degloth can't use this fist to grapple another target. The degloth has two fists."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Crush",
+      "d": "The degloth targets one creature currently grappled by it. The target must make a DC 18 Strength saving throw, taking 15 (2d8 + 6) bludgeoning damage on a failed save or half as much damage on a successful one."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:False Lich",
+   "type": "Monster",
+   "name": "False Lich",
+   "desc": "Medium undead, neutral evil. Challenge 21.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "21",
+    "ab": {
+     "str": 10,
+     "dex": 16,
+     "con": 20,
+     "int": 25,
+     "wis": 19,
+     "cha": 15
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 199,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned, stunned",
+    "sen": {
+     "truesight": 60
+    },
+    "langs": "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the false lich fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The false lich has advantage on saving throws against spells and magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The false lich makes two Death Rend attacks and uses Bloodcurdling Lament if available."
+     },
+     {
+      "n": "Death Rend",
+      "d": "Melee Spell Attack: +14 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) necrotic damage."
+     },
+     {
+      "n": "Bloodcurdling Lament (Recharge 5–6)",
+      "d": "The false lich emits a hideous shriek charged with malignant energy. Each creature within 30 feet of the false lich must succeed on a DC 22 Wisdom saving throw or have the frightened condition for 1 minute. While frightened in this way, a creature also has the unconscious condition. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The false lich casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 22):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: Detect Magic, Fly, Mage Hand, Prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "3/day each: Dispel Magic, Invisibility (self only)"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: Globe of Invulnerability, Hold Monster"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Soul Siphon",
+      "d": "The false lich targets one creature it can see within 120 feet of itself. The target must make a DC 22 Charisma saving throw; if the target has the unconscious condition, it has disadvantage on this saving throw. The target takes 21 (6d6) force damage on a failed save or half as much damage on a successful one. The false lich then regains a number of hit points equal to the amount of force damage taken."
+     },
+     {
+      "n": "If this damage reduces the target to 0 hit points, the target immediately dies, its body disappears, and its soul is trapped inside one of the soul gems within the false lich's skull",
+      "d": "After 24 hours, the gem transfers the soul to the false lich's creator."
+     },
+     {
+      "n": "When the false lich is reduced to 0 hit points, it is destroyed and disintegrates, leaving behind the gems",
+      "d": "Crushing a gem releases any souls trapped within, at which point the soul's body re-forms in an unoccupied space nearest to the gem and in the same state as it was when its soul was trapped."
+     }
+    ],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Spiteful Teleport",
+      "d": "The false lich, along with anything it is wearing or carrying, teleports to an unoccupied space it can see within 60 feet of itself. It then makes one Death Rend attack if possible."
+     },
+     {
+      "n": "Cast a Spell (Costs 2 Actions)",
+      "d": "The false lich uses Spellcasting."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Granite Juggernaut",
+   "type": "Monster",
+   "name": "Granite Juggernaut",
+   "desc": "Large construct, unaligned. Challenge 12.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "12",
+    "ab": {
+     "str": 23,
+     "dex": 1,
+     "con": 20,
+     "int": 2,
+     "wis": 11,
+     "cha": 3
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 157,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The juggernaut has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Siege Monster",
+      "d": "The juggernaut deals double damage to objects and structures."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or have the prone condition."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Devastating Roll",
+      "d": "The juggernaut moves up to its speed. During this movement, the juggernaut can move through the spaces of creatures with the prone condition. When the juggernaut enters the space of a prone creature for the first time during this movement, the creature must make a DC 18 Dexterity saving throw, taking 55 (10d10) bludgeoning damage on a failed save or half as much damage on a successful one."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Hazvongel",
+   "type": "Monster",
+   "name": "Hazvongel",
+   "desc": "Huge fiend (demon), chaotic evil. Challenge 14.",
+   "stat": {
+    "size": "Huge",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "14",
+    "ab": {
+     "str": 21,
+     "dex": 20,
+     "con": 16,
+     "int": 12,
+     "wis": 15,
+     "cha": 11
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 237,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "fly": 60
+    },
+    "saves": {
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison",
+    "cimm": "exhaustion, poisoned",
+    "sen": {
+     "darkvision": 120,
+     "blindsight": 60
+    },
+    "langs": "Abyssal, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The hazvongel has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The hazvongel makes three Talon attacks."
+     },
+     {
+      "n": "Talon",
+      "d": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 18 (3d8 + 5) piercing damage."
+     },
+     {
+      "n": "Blood Barrage (Recharge 5–6)",
+      "d": "The hazvongel launches a spray of blood in a 90-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Hertilod",
+   "type": "Monster",
+   "name": "Hertilod",
+   "desc": "Huge monstrosity, unaligned. Challenge 17.",
+   "stat": {
+    "size": "Huge",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "17",
+    "ab": {
+     "str": 23,
+     "dex": 18,
+     "con": 20,
+     "int": 3,
+     "wis": 15,
+     "cha": 10
+    },
+    "ac": 14,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 241,
+    "hdn": 0,
+    "spd": {
+     "walk": 50,
+     "climb": 50
+    },
+    "saves": {
+     "str": true,
+     "dex": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "blindsight": 30,
+     "tremorsense": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Legendary Resistances (3/Day)",
+      "d": "If the hertilod fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The hertilod has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Shock Susceptibility",
+      "d": "If the hertilod takes lightning damage, its speed is halved until the end of its next turn, and it must succeed on a DC 15 Constitution saving throw or immediately regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the prone condition."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The hertilod can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The hertilod makes one Bite attack and two Claw attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 13 (2d12) poison damage. If the target is a Large or smaller creature, it must succeed on a DC 20 Strength saving throw or be swallowed by the hertilod. A swallowed creature has the blinded and restrained conditions, and it has total cover against attacks and other effects outside the hertilod. At the start of each of the hertilod's turns, each swallowed creature takes 13 (2d12) poison damage from the poisonous secretion in the hertilod's gullet."
+     },
+     {
+      "n": "The hertilod's gullet can hold up to two creatures at a time",
+      "d": "If the hertilod takes 40 damage or more on a single turn from a swallowed creature, the hertilod must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the prone condition. If the hertilod dies, a swallowed creature is no longer restrained and can escape from the corpse by using 10 feet of movement, exiting with the prone condition."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Sprint",
+      "d": "The hertilod moves up to its speed. This movement doesn't provoke opportunity attacks."
+     },
+     {
+      "n": "Feed (Costs 2 Actions)",
+      "d": "The hertilod drains life from the creatures in its gullet to bolster itself. Each creature in the hertilod's gullet takes 10 (3d6) necrotic damage, and the hertilod regains a number of hit points equal to the damage."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Kakkuu Spyder-Fiend",
+   "type": "Monster",
+   "name": "Kakkuu Spyder-Fiend",
+   "desc": "Medium fiend (demon), chaotic evil. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "5",
+    "ab": {
+     "str": 17,
+     "dex": 15,
+     "con": 14,
+     "int": 6,
+     "wis": 10,
+     "cha": 10
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 91,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "cold, fire, lightning",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Abyssal but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The kakkuu has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The kakkuu can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Web Sense",
+      "d": "When in contact with a web, the kakkuu knows the exact location of any other creature in contact with the same web."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The kakkuu ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The kakkuu makes a Web Snare attack, uses Reel, and makes a Bite attack."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) piercing damage plus 10 (3d6) poison damage."
+     },
+     {
+      "n": "Reel",
+      "d": "The kakkuu pulls each creature within 60 feet of itself that is grappled by its Web Snare up to 30 feet straight toward itself."
+     },
+     {
+      "n": "Web Snare",
+      "d": "Ranged Weapon Attack: +6 to hit, reach 30/60 ft., one Large or smaller creature. Hit: The target has the grappled condition (escape DC 13). While grappled, the target also has the restrained condition. A web snare grappling a creature can be attacked and destroyed (AC 10; 10 hit points; immunity to bludgeoning, poison, and psychic damage)."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Mirror Shade",
+   "type": "Monster",
+   "name": "Mirror Shade",
+   "desc": "Medium undead, chaotic evil. Challenge 10.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "10",
+    "ab": {
+     "str": 8,
+     "dex": 17,
+     "con": 14,
+     "int": 10,
+     "wis": 13,
+     "cha": 18
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 91,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {
+     "dex": true,
+     "wis": true
+    },
+    "skills": {
+     "Deception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "acid, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison, psychic, radiant",
+    "cimm": "blinded, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "False Appearance",
+      "d": "If the mirror shade is within 5 feet of a reflective surface—such as a mirror, glass pane, or still water—it has advantage on its initiative roll. If a creature hasn't observed the mirror shade move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mirror shade isn't the creature's own reflection."
+     },
+     {
+      "n": "Mirror Movement",
+      "d": "The mirror shade can move along the surface of reflective or translucent objects, such as mirrors, without provoking opportunity attacks. It can move through translucent objects as if they were difficult terrain."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mirror shade makes two Phantasmal Strike attacks and uses Reflect Fear."
+     },
+     {
+      "n": "Phantasmal Strike",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) radiant damage plus 7 (2d6) psychic damage."
+     },
+     {
+      "n": "Reflect Fear",
+      "d": "The mirror shade targets one creature it can see within 60 feet of itself and projects an illusion of that creature's greatest fear. The target must make a DC 16 Wisdom saving throw. On a failed save, the target takes 28 (8d6) psychic damage and has the frightened condition until the start of the mirror shade's next turn. On a successful save, the target takes half as much damage only."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Mirror Stealth",
+      "d": "While within 5 feet of a reflective surface, such as a mirror, the mirror shade takes the Hide action."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Moonlight Guardian",
+   "type": "Monster",
+   "name": "Moonlight Guardian",
+   "desc": "Medium construct, unaligned. Challenge 6.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "6",
+    "ab": {
+     "str": 19,
+     "dex": 9,
+     "con": 16,
+     "int": 6,
+     "wis": 12,
+     "cha": 6
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 105,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison, radiant",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Immutable Form",
+      "d": "The guardian is immune to any spell or other effect that would alter its form."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The guardian has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Radiant Absorption",
+      "d": "Whenever the guardian is subjected to radiant damage, it takes no damage and instead regains a number of hit points equal to the radiant damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The guardian makes two Moonlight Slam attacks."
+     },
+     {
+      "n": "Moonlight Slam",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 4 (1d8) radiant damage."
+     },
+     {
+      "n": "Moonlight Blast (Recharge 5–6)",
+      "d": "The guardian unleashes a magical blast of moonlight in a line 60 feet long and 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw. Creatures that aren't in their true form have disadvantage on the save. On a failed save, a creature takes 22 (5d8) radiant damage, and if it isn't in its true form, it is forced into its true form and can't change forms until the end of the guardian's next turn. On a successful save, a creature takes half as much damage only."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Phisarazu Spyder-Fiend",
+   "type": "Monster",
+   "name": "Phisarazu Spyder-Fiend",
+   "desc": "Large fiend (demon), chaotic evil. Challenge 13.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "13",
+    "ab": {
+     "str": 19,
+     "dex": 14,
+     "con": 17,
+     "int": 11,
+     "wis": 14,
+     "cha": 13
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 170,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "climb": 40
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "Abyssal, Common, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The phisarazu has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The phisarazu can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Web Sense",
+      "d": "When in contact with a web, the phisarazu knows the exact location of any other creature in contact with the same web."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The phisarazu ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The phisarazu makes one Bite attack and two Claw attacks. It can replace one of these attacks with Scintillating Spray if available."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 9 (2d8) poison damage, and the target has the poisoned condition until the start of the phisarazu's next turn."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) slashing damage."
+     },
+     {
+      "n": "Scintillating Spray (Recharge 5–6)",
+      "d": "The phisarazu expels shimmering webs in a 60-foot cone. Creatures and objects in that area are outlined by the glittering webs for 1 minute, during which time they emit dim light for 10 feet and can't benefit from the invisible condition. Additionally, creatures in that area must succeed on a DC 16 Wisdom saving throw or have the stunned condition for 1 minute. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Change Shape",
+      "d": "The phisarazu transforms into a crab, drider, or giant crab, or returns to its true form. Its game statistics, except for its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Quavilithku Spyder-Fiend",
+   "type": "Monster",
+   "name": "Quavilithku Spyder-Fiend",
+   "desc": "Large fiend (demon), chaotic evil. Challenge 17.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "17",
+    "ab": {
+     "str": 18,
+     "dex": 16,
+     "con": 19,
+     "int": 17,
+     "wis": 14,
+     "cha": 12
+    },
+    "ac": 19,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 256,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "climb": 40
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Investigation": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "cold, fire, lightning",
+    "imm": "acid, poison",
+    "cimm": "poisoned",
+    "sen": {
+     "truesight": 60
+    },
+    "langs": "Abyssal, Common, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The quavilithku has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The quavilithku can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Web Sense",
+      "d": "When in contact with a web, the quavilithku knows the exact location of any other creature in contact with the same web."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The quavilithku ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The quavilithku makes two Bite attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 17 (5d6) poison damage. If the target is a creature, it must succeed on a DC 18 Constitution saving throw or have the poisoned condition for 1 minute. While poisoned in this way, a creature can't regain hit points. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Dissolving Web (Recharge 5–6)",
+      "d": "The quavilithku expels acid-drenched webs in a 90-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 44 (8d10) acid damage on a failed save or half as much damage on a successful one. Nonmagical objects in the area that aren't being worn or carried take 44 (8d10) acid damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Assess Weakness",
+      "d": "The quavilithku sizes up a creature it can see within 40 feet of itself. Until the start of the quavilithku's next turn, it has advantage on attack rolls against the creature."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Raklupis Spyder-Fiend",
+   "type": "Monster",
+   "name": "Raklupis Spyder-Fiend",
+   "desc": "Large fiend (demon), chaotic evil. Challenge 19.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "19",
+    "ab": {
+     "str": 17,
+     "dex": 20,
+     "con": 14,
+     "int": 18,
+     "wis": 16,
+     "cha": 23
+    },
+    "ac": 19,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 210,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "climb": 40
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "cold, fire, lightning, poison",
+    "cimm": "poisoned",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "Abyssal, Common, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The raklupis has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The raklupis can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Web Sense",
+      "d": "When in contact with a web, the raklupis knows the exact location of any other creature in contact with the same web."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The raklupis ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The raklupis makes a Bite attack and two Serrated Sword attacks. It can use Venom Globe in place of one of these attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 18 (4d8) poison damage. If the target is a creature, it must succeed on a DC 20 Constitution saving throw or have the poisoned condition for 1 minute. While poisoned in this way, a creature has the incapacitated condition and can't regain hit points. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Serrated Sword",
+      "d": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) slashing damage plus 18 (4d8) poison damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The raklupis casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 20)."
+     },
+     {
+      "n": "Action",
+      "d": "At will: Disguise Self, Invisibility (self only), Mage Hand, Minor Illusion"
+     },
+     {
+      "n": "Action",
+      "d": "2/day each: Darkness, Dominate Monster, Mass Suggestion, Telekinesis, Teleport"
+     },
+     {
+      "n": "Venom Globe",
+      "d": "Ranged Weapon Attack: +11 to hit, range 60/180 ft., one target. Hit: 45 (10d8) poison damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Demand Loyalty",
+      "d": "The raklupis magically ends the charmed and frightened conditions on itself and on any number of allies within 60 feet of itself."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Relentless Impaler",
+   "type": "Monster",
+   "name": "Relentless Impaler",
+   "desc": "Large fiend, neutral evil. Challenge 15.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "15",
+    "ab": {
+     "str": 23,
+     "dex": 16,
+     "con": 22,
+     "int": 12,
+     "wis": 15,
+     "cha": 18
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 184,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "str": true,
+     "dex": true,
+     "cha": true
+    },
+    "skills": {
+     "Athletics": 1,
+     "Perception": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "charmed, exhaustion, frightened",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Understands all languages but can't speak",
+    "traits": [
+     {
+      "n": "Bloodheart Stake",
+      "d": "The impaler is magically bound to the ceremonial stake and the sacrificed corpse the ritual caster used to create it. If the impaler is reduced to 0 hit points, it disappears, then re-forms 1d8 hours later in the nearest unoccupied space to the stake and regains all its hit points. The impaler dies only if it is reduced to 0 hit points while either the ceremonial stake is removed from the sacrifice's corpse or the impaler is on a different plane of existence from that corpse."
+     },
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the impaler fails a saving throw, it can choose to succeed instead."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The impaler makes one Spike attack and two Wicked Spear attacks."
+     },
+     {
+      "n": "Spike",
+      "d": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage, and the target's speed is halved until the start of the impaler's next turn."
+     },
+     {
+      "n": "Wicked Spear",
+      "d": "Melee or Ranged Weapon Attack: +11 to hit, reach 10 ft. or range 20/40 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 13 (3d8) necrotic damage."
+     },
+     {
+      "n": "Spike Burst (Recharge 5–6)",
+      "d": "Twisted, spectral spikes shoot out from the impaler's body. Each creature within 30 feet of the impaler must make a DC 19 Dexterity saving throw, taking 40 (9d8) force damage on a failed save or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Speed Spike",
+      "d": "The impaler teleports up to 30 feet to an unoccupied space it can see. It can then make a Spike attack."
+     },
+     {
+      "n": "Deepen Wounds (Costs 2 Actions)",
+      "d": "Each creature whose speed is currently reduced by the impaler's Spike attack takes 18 (4d8) necrotic damage."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Spiderdragon",
+   "type": "Monster",
+   "name": "Spiderdragon",
+   "desc": "Huge monstrosity, chaotic evil. Challenge 11.",
+   "stat": {
+    "size": "Huge",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "11",
+    "ab": {
+     "str": 21,
+     "dex": 18,
+     "con": 16,
+     "int": 7,
+     "wis": 14,
+     "cha": 18
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 152,
+    "hdn": 0,
+    "spd": {
+     "walk": 50,
+     "climb": 60
+    },
+    "saves": {
+     "str": true,
+     "dex": true
+    },
+    "skills": {
+     "Intimidation": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "poison, psychic",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 90
+    },
+    "langs": "Abyssal, Draconic, Undercommon",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The spiderdragon has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The spiderdragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The spiderdragon ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spiderdragon makes one Bite attack and two Claw attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage plus 13 (2d12) poison damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+     },
+     {
+      "n": "Spiderling Breath (Recharge 5–6)",
+      "d": "The spiderdragon exhales venomous spiderlings in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 33 (6d10) piercing damage and 33 (6d10) poison damage on a failed save or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Stifling Webs (Recharge 5–6)",
+      "d": "The spiderdragon spins a 30-foot cube of strong, sticky webbing in an area adjacent to itself. The webbing lasts for 1 minute, is difficult terrain, and lightly obscures its area. A creature that starts its turn in the webbing or enters the webbing for the first time on its turn must succeed on a DC 15 Dexterity saving throw or have the restrained condition while in the web. As an action, a creature can free itself or another creature from the web by succeeding on a DC 15 Strength check."
+     },
+     {
+      "n": "A 5-foot cube of the web is destroyed if it takes at least 10 acid, fire, or slashing damage on a single turn",
+      "d": ""
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Star Angler",
+   "type": "Monster",
+   "name": "Star Angler",
+   "desc": "Large monstrosity, unaligned. Challenge 8.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "8",
+    "ab": {
+     "str": 21,
+     "dex": 15,
+     "con": 17,
+     "int": 3,
+     "wis": 14,
+     "cha": 6
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 119,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 40
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Avoidance",
+      "d": "If the star angler is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails."
+     },
+     {
+      "n": "Illumination",
+      "d": "The star angler's lure sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The star angler makes three Bite attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Lure Charm",
+      "d": "The star angler's lure flares with enchanting starlight, targeting one creature the star angler can see within 120 feet of itself. The target must succeed on a DC 13 Wisdom saving throw or have the charmed condition until the start of the star angler's next turn. While charmed in this way, the target has the incapacitated condition and must use its movement on its turn to move directly toward the star angler; a charmed target doesn't avoid opportunity attacks, but it does avoid damaging terrain. A target can be charmed by only one star angler at a time."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Vlazok",
+   "type": "Monster",
+   "name": "Vlazok",
+   "desc": "Large fiend (demon), chaotic evil. Challenge 11.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "11",
+    "ab": {
+     "str": 21,
+     "dex": 18,
+     "con": 16,
+     "int": 6,
+     "wis": 9,
+     "cha": 9
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 136,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {
+     "str": true,
+     "con": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "cold, fire, lightning",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Abyssal, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "All-Around Vision",
+      "d": "The vlazok can't be surprised."
+     },
+     {
+      "n": "Blood Frenzy",
+      "d": "The vlazok has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The vlazok has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The vlazok can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The vlazok makes two Gore attacks."
+     },
+     {
+      "n": "Gore",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23 (4d8 + 5) piercing damage, and if the target is a Large or smaller creature, it has the prone condition."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Stomp",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 27 (4d10 + 5) bludgeoning damage."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Warforged Warrior",
+   "type": "Monster",
+   "name": "Warforged Warrior",
+   "desc": "Medium construct, any alignment. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "1",
+    "ab": {
+     "str": 16,
+     "dex": 12,
+     "con": 16,
+     "int": 10,
+     "wis": 14,
+     "cha": 11
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 30,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Athletics": 1,
+     "Perception": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "poison",
+    "imm": "",
+    "cimm": "poisoned",
+    "sen": {},
+    "langs": "Common",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The warforged makes two Armblade attacks."
+     },
+     {
+      "n": "Armblade",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+     },
+     {
+      "n": "Javelin",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Protection",
+      "d": "When an attacker the warforged can see makes an attack roll against a creature within 5 feet of the warforged, the warforged can impose disadvantage on the attack roll."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Whirling Chandelier",
+   "type": "Monster",
+   "name": "Whirling Chandelier",
+   "desc": "Large construct, unaligned. Challenge 7.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "7",
+    "ab": {
+     "str": 18,
+     "dex": 15,
+     "con": 15,
+     "int": 3,
+     "wis": 5,
+     "cha": 1
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 105,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "fire",
+    "imm": "poison, psychic",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "Understands Common but can't speak",
+    "traits": [
+     {
+      "n": "False Appearance",
+      "d": "If the chandelier is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the chandelier move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the chandelier is animate."
+     },
+     {
+      "n": "Fiery Aura",
+      "d": "Any creature that starts its turn within 5 feet of the chandelier takes 7 (2d6) fire damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The chandelier makes three Chain attacks, three Lamp attacks, or a combination thereof."
+     },
+     {
+      "n": "Chain",
+      "d": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be pulled into an unoccupied space within 5 feet of the chandelier."
+     },
+     {
+      "n": "Lamp",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage plus 13 (3d8) fire damage."
+     },
+     {
+      "n": "Blazing Vortex (Recharge 5–6)",
+      "d": "Each creature within 20 feet of the chandelier and not behind total cover must succeed on a DC 14 Constitution saving throw or take 36 (8d8) fire damage and have the blinded condition until the start of the chandelier's next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

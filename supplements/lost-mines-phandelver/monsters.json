@@ -1,0 +1,80 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "lmop",
+  "name": "Lost Mine of Phandelver",
+  "short": "LMOP"
+ },
+ "elements": [
+  {
+   "id": "Monster:Evil Mage",
+   "type": "Monster",
+   "name": "Evil Mage",
+   "desc": "Medium humanoid (human), lawful evil. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1",
+    "ab": {
+     "str": 9,
+     "dex": 14,
+     "con": 11,
+     "int": 17,
+     "wis": 12,
+     "cha": 11
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "History": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Draconic, Dwarvish, Elvish",
+    "traits": [
+     {
+      "n": "Spellcasting",
+      "d": "The mage is a 4th-level spellcaster that uses Intelligence as its spellcasting ability (spell save DC 13; +5 to hit with spell attacks). The mage knows the following spells from the wizard's spell list:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): light, mage hand, shocking grasp"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): charm person, magic missile"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): hold person, misty step"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Quarterstaff",
+      "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 3 (1d8 - 1) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

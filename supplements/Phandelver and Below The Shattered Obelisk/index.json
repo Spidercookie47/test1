@@ -9,6 +9,7 @@
   "credit": "Content from Phandelver and Below: The Shattered Obelisk, © Wizards of the Coast LLC."
  },
  "files": [
-  "magic-items.json"
+  "magic-items.json",
+  "monsters.json"
  ]
 }

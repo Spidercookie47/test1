@@ -1,0 +1,391 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "hotdq",
+  "name": "Hoard of the Dragon Queen",
+  "short": "HOTDQ"
+ },
+ "elements": [
+  {
+   "id": "Monster:Ambush Drake",
+   "type": "Monster",
+   "name": "Ambush Drake",
+   "desc": "Medium dragon, unaligned. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "dragon",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/2",
+    "ab": {
+     "str": 13,
+     "dex": 15,
+     "con": 14,
+     "int": 4,
+     "wis": 11,
+     "cha": 6
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "poison",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Draconic but can't speak it",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     },
+     {
+      "n": "Surprise Attack",
+      "d": "If the drake surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Dragonclaw",
+   "type": "Monster",
+   "name": "Dragonclaw",
+   "desc": "Medium humanoid (human), lawful evil. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1",
+    "ab": {
+     "str": 9,
+     "dex": 16,
+     "con": 13,
+     "int": 11,
+     "wis": 10,
+     "cha": 12
+    },
+    "ac": 14,
+    "acNote": "leather armor",
+    "hpAuto": false,
+    "hp": 16,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Deception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Draconic",
+    "traits": [
+     {
+      "n": "Dragon Fanatic",
+      "d": "The dragonclaw has advantage on saving throws against being charmed or frightened. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being charmed or frightened."
+     },
+     {
+      "n": "Fanatic Advantage",
+      "d": "Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage."
+     },
+     {
+      "n": "Pack Tactics",
+      "d": "The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dragonclaw attacks twice with its scimitar."
+     },
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Dragonwing",
+   "type": "Monster",
+   "name": "Dragonwing",
+   "desc": "Medium humanoid (human), lawful evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "2",
+    "ab": {
+     "str": 11,
+     "dex": 16,
+     "con": 13,
+     "int": 11,
+     "wis": 11,
+     "cha": 13
+    },
+    "ac": 14,
+    "acNote": "leather armor",
+    "hpAuto": false,
+    "hp": 33,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Deception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "one of the following: acid, cold, fire, lightning, and poison",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Draconic",
+    "traits": [
+     {
+      "n": "Dragon Fanatic",
+      "d": "The dragonwing has advantage on saving throws against being charmed or frightened. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being charmed or frightened."
+     },
+     {
+      "n": "Fanatic Advantage",
+      "d": "Once per turn, if the dragonwing makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 7 (2d6) damage."
+     },
+     {
+      "n": "Limited Flight",
+      "d": "The dragonwing can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+     },
+     {
+      "n": "Pack Tactics",
+      "d": "The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwing's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dragonwing attacks twice with its scimitar."
+     },
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the cultist has resistance."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Four-Armed Troll",
+   "type": "Monster",
+   "name": "Four-Armed Troll",
+   "desc": "Large giant, chaotic evil. Challenge 6.",
+   "stat": {
+    "size": "Large",
+    "type": "giant",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "6",
+    "ab": {
+     "str": 18,
+     "dex": 13,
+     "con": 20,
+     "int": 7,
+     "wis": 9,
+     "cha": 7
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 84,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Giant",
+    "traits": [
+     {
+      "n": "Keen Smell",
+      "d": "The troll has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Regeneration",
+      "d": "The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The troll attacks five times, once with its bite and four times with its claws. If two or more claws hit the same target, the troll rends the target, dealing an extra 2d6 slashing damage."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Golden Stag",
+   "type": "Monster",
+   "name": "Golden Stag",
+   "desc": "Large beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 16,
+     "dex": 10,
+     "con": 12,
+     "int": 2,
+     "wis": 10,
+     "cha": 6
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 13,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Charge",
+      "d": "If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Ram",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+     },
+     {
+      "n": "Hooves",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Guard Drake",
+   "type": "Monster",
+   "name": "Guard Drake",
+   "desc": "Medium dragon, unaligned. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "dragon",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "2",
+    "ab": {
+     "str": 16,
+     "dex": 11,
+     "con": 16,
+     "int": 4,
+     "wis": 10,
+     "cha": 7
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 52,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Draconic but can't speak",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The guard drake makes one Bite attack and one Tail attack."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

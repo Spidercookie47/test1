@@ -1,0 +1,1561 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "vgtm",
+  "name": "Volo's Guide to Monsters",
+  "short": "VGTM"
+ },
+ "elements": [
+  {
+   "id": "Monster:Booyahg Booyahg Booyahg",
+   "type": "Monster",
+   "name": "Booyahg Booyahg Booyahg",
+   "desc": "Small humanoid (goblinoid), any alignment. Challenge 6.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "6",
+    "ab": {
+     "str": 9,
+     "dex": 14,
+     "con": 11,
+     "int": 17,
+     "wis": 12,
+     "cha": 11
+    },
+    "ac": 12,
+    "acNote": "15 with mage armor",
+    "hpAuto": false,
+    "hp": 40,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "History": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Any four languages, Goblin",
+    "traits": [
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The goblin is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The goblin has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): fire bolt, light, mage hand, prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): detect magic, mage armor, magic missile, shield"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): misty step, suggestion"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (3 slots): counterspell, fireball, fly"
+     },
+     {
+      "n": "Action",
+      "d": "4th level (3 slots): greater invisibility, ice storm"
+     },
+     {
+      "n": "Action",
+      "d": "5th level (1 slot): cone of cold"
+     },
+     {
+      "n": "Wild Magic",
+      "d": "Each time the goblin casts a spell (including cantrips), there is an accompanying surge of wild magic; roll on the Wild Magic Surge table in the Player's Handbook to determine the wild magic effect."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Booyahg Caster",
+   "type": "Monster",
+   "name": "Booyahg Caster",
+   "desc": "Small humanoid (goblinoid), neutral evil. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 8,
+     "dex": 14,
+     "con": 10,
+     "int": 10,
+     "wis": 8,
+     "cha": 8
+    },
+    "ac": 15,
+    "acNote": "leather armor, shield",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin",
+    "traits": [
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The goblin can cast a randomly determined 1st-level wizard spell once per day. Intelligence is its spellcasting ability (spell save DC 10, +2 to hit with spell attacks)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+     },
+     {
+      "n": "Shortbow",
+      "d": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Booyahg Slave of the Archfey",
+   "type": "Monster",
+   "name": "Booyahg Slave of the Archfey",
+   "desc": "Small humanoid (goblinoid), any alignment. Challenge 4.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "4",
+    "ab": {
+     "str": 9,
+     "dex": 13,
+     "con": 11,
+     "int": 11,
+     "wis": 12,
+     "cha": 18
+    },
+    "ac": 11,
+    "acNote": "14 with mage armor",
+    "hpAuto": false,
+    "hp": 49,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Deception": 1,
+     "Nature": 1,
+     "Persuasion": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "charmed",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Any two languages (usually Sylvan), Goblin",
+    "traits": [
+     {
+      "n": "Innate Spellcasting",
+      "d": "The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: disguise self, mage armor (self only), silent image, speak with animals"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: conjure fey"
+     },
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The goblin is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery"
+     },
+     {
+      "n": "Action",
+      "d": "1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Misty Escape (Recharges after a Short or Long Rest)",
+      "d": "In response to taking damage, the goblin turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Booyahg Slave of the Fiend",
+   "type": "Monster",
+   "name": "Booyahg Slave of the Fiend",
+   "desc": "Small humanoid (goblinoid), any alignment. Challenge 7.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "7",
+    "ab": {
+     "str": 10,
+     "dex": 14,
+     "con": 15,
+     "int": 12,
+     "wis": 12,
+     "cha": 18
+    },
+    "ac": 12,
+    "acNote": "15 with mage armor",
+    "hpAuto": false,
+    "hp": 78,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Deception": 1,
+     "Persuasion": 1,
+     "Religion": 1
+    },
+    "vuln": "",
+    "res": "slashing from nonmagical attacks not made with silvered weapons",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Any two languages (usually Abyssal or Infernal), Goblin",
+    "traits": [
+     {
+      "n": "Dark One's Own Luck (Recharges after a Short or Long Rest)",
+      "d": "When the goblin makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: alter self, false life, levitate (self only), mage armor (self only), silent image"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: feeblemind, finger of death, plane shift"
+     },
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The goblin is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp"
+     },
+     {
+      "n": "Action",
+      "d": "1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Mace",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Booyahg Slave of the Great Old One",
+   "type": "Monster",
+   "name": "Booyahg Slave of the Great Old One",
+   "desc": "Small humanoid (goblinoid), any alignment. Challenge 6.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "6",
+    "ab": {
+     "str": 9,
+     "dex": 14,
+     "con": 15,
+     "int": 12,
+     "wis": 12,
+     "cha": 18
+    },
+    "ac": 12,
+    "acNote": "15 with mage armor",
+    "hpAuto": false,
+    "hp": 91,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "History": 1
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Any two languages, telepathy 30 ft., Goblin",
+    "traits": [
+     {
+      "n": "Innate Spellcasting",
+      "d": "The goblin's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect magic, jump, levitate, mage armor (self only), speak with dead"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: arcane gate, true seeing"
+     },
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The goblin is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): chill touch, eldritch blast, guidance, mage hand, minor illusion, prestidigitation, shocking grasp"
+     },
+     {
+      "n": "Action",
+      "d": "1st-5th level (3 5th-level slots): armor of Agathys, arms of Hadar, crown of madness, clairvoyance, contact other plane, detect thoughts, dimension door, dissonant whispers, dominate beast, telekinesis, vampiric touch"
+     },
+     {
+      "n": "Whispering Aura",
+      "d": "At the start of each of the goblin's turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the goblin isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Booyahg Whip",
+   "type": "Monster",
+   "name": "Booyahg Whip",
+   "desc": "Small humanoid (goblinoid), neutral evil. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 8,
+     "dex": 14,
+     "con": 10,
+     "int": 10,
+     "wis": 8,
+     "cha": 8
+    },
+    "ac": 15,
+    "acNote": "leather armor, shield",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin",
+    "traits": [
+     {
+      "n": "Khurgorbaeyag's Gift",
+      "d": "Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has 1d3 other goblins that slavishly obey its orders."
+     },
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+     },
+     {
+      "n": "Shortbow",
+      "d": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Booyahg Wielder",
+   "type": "Monster",
+   "name": "Booyahg Wielder",
+   "desc": "Small humanoid (goblinoid), neutral evil. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 8,
+     "dex": 14,
+     "con": 10,
+     "int": 10,
+     "wis": 8,
+     "cha": 8
+    },
+    "ac": 15,
+    "acNote": "leather armor, shield",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin",
+    "traits": [
+     {
+      "n": "Special Equipment",
+      "d": "The goblin found a magic item (a necklace of fireballs, a circlet of blasting, or the like) and learned how to use it."
+     },
+     {
+      "n": "Nimble Escape",
+      "d": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+     },
+     {
+      "n": "Shortbow",
+      "d": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Cow",
+   "type": "Monster",
+   "name": "Cow",
+   "desc": "Large beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 18,
+     "dex": 10,
+     "con": 14,
+     "int": 2,
+     "wis": 10,
+     "cha": 4
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 15,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Charge",
+      "d": "If the cow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Gore",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Illithilich",
+   "type": "Monster",
+   "name": "Illithilich",
+   "desc": "Medium undead, any evil alignment. Challenge 22.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "any evil alignment",
+    "cr": "22",
+    "ab": {
+     "str": 11,
+     "dex": 16,
+     "con": 16,
+     "int": 20,
+     "wis": 14,
+     "cha": 16
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 135,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Arcana": 2,
+     "History": 1,
+     "Insight": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "cold, lightning, necrotic",
+    "imm": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "Deep Speech, Undercommon, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Innate Spellcasting (Psionics)",
+      "d": "The illithilich's innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no components."
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, levitate"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: dominate monster, plane shift (self only)"
+     },
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the illithilich fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The illithilich has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Rejuvenation",
+      "d": "If it has a phylactery, a destroyed illithilich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): mage hand, prestidigitation, ray of frost"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): detect magic, magic missile, shield, thunderwave"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (3 slots): animate dead, counterspell, dispel magic, fireball"
+     },
+     {
+      "n": "Action",
+      "d": "4th level (3 slots): blight, dimension door"
+     },
+     {
+      "n": "Action",
+      "d": "5th level (3 slots): cloudkill, scrying"
+     },
+     {
+      "n": "Action",
+      "d": "6th level (1 slot): disintegrate, globe of invulnerability"
+     },
+     {
+      "n": "Action",
+      "d": "7th level (1 slot): finger of death, plane shift"
+     },
+     {
+      "n": "Action",
+      "d": "8th level (1 slot): dominate monster, power word stun"
+     },
+     {
+      "n": "Action",
+      "d": "9th level (1 slot): power word kill"
+     },
+     {
+      "n": "Turn Resistance",
+      "d": "The illithilich has advantage on saving throws against any effect that turns undead."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Paralyzing Touch",
+      "d": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Tentacles",
+      "d": "Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: 21 (3d10 + 5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be stunned until this grapple ends."
+     },
+     {
+      "n": "Extract Brain",
+      "d": "Melee Weapon Attack: +12 to hit, reach 5 ft., one incapacitated humanoid grappled by the lich. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "The illithilich magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 18 Intelligence saving throw or take 27 (5d8 + 5) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Tentacles",
+      "d": "The illithilich makes one attack with its tentacles."
+     },
+     {
+      "n": "Extract Brain (Costs 2 Actions)",
+      "d": "The illithilich uses Extract Brain."
+     },
+     {
+      "n": "Mind Blast (Costs 3 Actions)",
+      "d": "The illithilich recharges its Mind Blast and uses it."
+     },
+     {
+      "n": "Cast Spell (Costs 1–3 Actions)",
+      "d": "The illithilich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has prepared. Doing so costs 1 legendary action per level of the spell."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Mind Flayer Psion",
+   "type": "Monster",
+   "name": "Mind Flayer Psion",
+   "desc": "Medium aberration, lawful evil. Challenge 8.",
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "8",
+    "ab": {
+     "str": 11,
+     "dex": 12,
+     "con": 12,
+     "int": 19,
+     "wis": 17,
+     "cha": 17
+    },
+    "ac": 15,
+    "acNote": "breastplate",
+    "hpAuto": false,
+    "hp": 71,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Deception": 1,
+     "Insight": 1,
+     "Perception": 1,
+     "Persuasion": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Deep Speech, Undercommon, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Innate Spellcasting (Psionics)",
+      "d": "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: guidance, mage hand, vicious mockery, true strike, detect thoughts, levitate"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: dominate monster, plane shift (self only)"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): charm person, command, comprehend languages, sanctuary"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): crown of madness, phantasmal force, see invisibility"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (3 slots): clairvoyance, fear, meld into stone"
+     },
+     {
+      "n": "Action",
+      "d": "4th level (3 slots): confusion, stone shape"
+     },
+     {
+      "n": "Action",
+      "d": "5th level (2 slots): scrying, telekinesis"
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The mind flayer has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Tentacles",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends."
+     },
+     {
+      "n": "Extract Brain",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Orc Blade of Ilneval",
+   "type": "Monster",
+   "name": "Orc Blade of Ilneval",
+   "desc": "Medium humanoid (orc), chaotic evil. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "4",
+    "ab": {
+     "str": 17,
+     "dex": 11,
+     "con": 17,
+     "int": 10,
+     "wis": 12,
+     "cha": 14
+    },
+    "ac": 18,
+    "acNote": "chain mail, shield",
+    "hpAuto": false,
+    "hp": 60,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Insight": 1,
+     "Intimidation": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Orc",
+    "traits": [
+     {
+      "n": "Aggressive",
+      "d": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+     },
+     {
+      "n": "Foe Smiter of Ilneval",
+      "d": "The orc deals an extra die of damage when it hits with a longsword attack (included in the attack)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval's Command is available to use, the orc can use it after these attacks."
+     },
+     {
+      "n": "Longsword",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage when used with two hands."
+     },
+     {
+      "n": "Javelin",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+     },
+     {
+      "n": "Ilneval's Command (Recharge 4–6)",
+      "d": "Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Orc Claw of Luthic",
+   "type": "Monster",
+   "name": "Orc Claw of Luthic",
+   "desc": "Medium humanoid (orc), chaotic evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "2",
+    "ab": {
+     "str": 14,
+     "dex": 15,
+     "con": 16,
+     "int": 10,
+     "wis": 15,
+     "cha": 11
+    },
+    "ac": 14,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Medicine": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Orc",
+    "traits": [
+     {
+      "n": "Aggressive",
+      "d": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): guidance, mending, resistance, thaumaturgy"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): bane, cure wounds, guiding bolt"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): augury, warding bond"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (2 slots): bestow curse, create food and water"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Orc Hand of Yurtrus",
+   "type": "Monster",
+   "name": "Orc Hand of Yurtrus",
+   "desc": "Medium humanoid (orc), chaotic evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "2",
+    "ab": {
+     "str": 12,
+     "dex": 11,
+     "con": 16,
+     "int": 11,
+     "wis": 14,
+     "cha": 9
+    },
+    "ac": 12,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 30,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 1,
+     "Intimidation": 1,
+     "Medicine": 1,
+     "Religion": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Common and Orc but can't speak",
+    "traits": [
+     {
+      "n": "Aggressive",
+      "d": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): guidance, mending, resistance, thaumaturgy"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): blindness/deafness, silence"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Touch of the White Hand",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Orc Nurtured One of Yurtrus",
+   "type": "Monster",
+   "name": "Orc Nurtured One of Yurtrus",
+   "desc": "Medium humanoid (orc), chaotic evil. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 15,
+     "dex": 8,
+     "con": 16,
+     "int": 7,
+     "wis": 11,
+     "cha": 7
+    },
+    "ac": 9,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 30,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Orc",
+    "traits": [
+     {
+      "n": "Aggressive",
+      "d": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+     },
+     {
+      "n": "Corrupted Carrier",
+      "d": "When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn't poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can't regain hit points."
+     },
+     {
+      "n": "Nurtured One of Yurtrus",
+      "d": "The orc has advantage on saving throws against poison and disease."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage plus 2 (1d4) necrotic damage."
+     },
+     {
+      "n": "Corrupted Vengeance",
+      "d": "The orc reduces itself to 0 hit points, triggering its Corrupted Carrier trait."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Orc Red Fang of Shargaas",
+   "type": "Monster",
+   "name": "Orc Red Fang of Shargaas",
+   "desc": "Medium humanoid (orc), chaotic evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "3",
+    "ab": {
+     "str": 11,
+     "dex": 16,
+     "con": 15,
+     "int": 9,
+     "wis": 11,
+     "cha": 9
+    },
+    "ac": 15,
+    "acNote": "studded leather",
+    "hpAuto": false,
+    "hp": 52,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Orc",
+    "traits": [
+     {
+      "n": "Cunning Action",
+      "d": "On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action."
+     },
+     {
+      "n": "Hand of Shargaas",
+      "d": "The orc deals 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks)."
+     },
+     {
+      "n": "Shargaas's Sight",
+      "d": "Magical darkness doesn't impede the orc's darkvision."
+     },
+     {
+      "n": "Slayer",
+      "d": "In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn't taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The orc makes two scimitar or dart attacks."
+     },
+     {
+      "n": "Scimitar",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) slashing damage."
+     },
+     {
+      "n": "Dart",
+      "d": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4 + 3) piercing damage."
+     },
+     {
+      "n": "Veil of Shargaas (Recharges after a Short or Long Rest)",
+      "d": "The orc casts darkness without any components. Wisdom is its spellcasting ability."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Rothé",
+   "type": "Monster",
+   "name": "Rothé",
+   "desc": "Large beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 18,
+     "dex": 10,
+     "con": 14,
+     "int": 2,
+     "wis": 10,
+     "cha": 4
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 15,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Charge",
+      "d": "If the rothé moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Gore",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Xvart Speaker",
+   "type": "Monster",
+   "name": "Xvart Speaker",
+   "desc": "Small humanoid (xvart), chaotic evil. Challenge 1/8.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (xvart)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "1/8",
+    "ab": {
+     "str": 8,
+     "dex": 14,
+     "con": 10,
+     "int": 13,
+     "wis": 7,
+     "cha": 7
+    },
+    "ac": 13,
+    "acNote": "leather armor",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 30
+    },
+    "langs": "Abyssal and one additional language (usually Common or Goblin)",
+    "traits": [
+     {
+      "n": "Low Cunning",
+      "d": "The xvart can take the Disengage action as a bonus action on each of its turns."
+     },
+     {
+      "n": "Overbearing Pack",
+      "d": "The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't incapacitated."
+     },
+     {
+      "n": "Raxivort's Tongue",
+      "d": "The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Shortsword",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     },
+     {
+      "n": "Sling",
+      "d": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Yuan-ti Malison (Type 4)",
+   "type": "Monster",
+   "name": "Yuan-ti Malison (Type 4)",
+   "desc": "Medium monstrosity (shapechanger, yuan-ti), neutral evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity (shapechanger, yuan-ti)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "3",
+    "ab": {
+     "str": 16,
+     "dex": 14,
+     "con": 13,
+     "int": 14,
+     "wis": 12,
+     "cha": 16
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 66,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Deception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Abyssal, Common, Draconic",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The yuan-ti can use its action to polymorph into a Medium snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The yuan-ti has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Malison Type",
+      "d": "The yuan-ti has one of the following types:"
+     },
+     {
+      "n": "Action",
+      "d": "Type 4: Human form with one or more serpentine tails"
+     },
+     {
+      "n": "Action",
+      "d": "Type 5: Human form covered in scales"
+     },
+     {
+      "n": "Innate Spellcasting (Yuan-ti Form Only)",
+      "d": "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: animal friendship (snakes only)"
+     },
+     {
+      "n": "Action",
+      "d": "3/day: suggestion"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack (Yuan-ti Form Only)",
+      "d": "The yuan-ti makes two ranged attacks or two melee attacks."
+     },
+     {
+      "n": "Bite (Snake Form Only)",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+     },
+     {
+      "n": "Scimitar (Yuan-ti Form Only)",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+     },
+     {
+      "n": "Longbow (Yuan-ti Form Only)",
+      "d": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Yuan-ti Malison (Type 5)",
+   "type": "Monster",
+   "name": "Yuan-ti Malison (Type 5)",
+   "desc": "Medium monstrosity (shapechanger, yuan-ti), neutral evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity (shapechanger, yuan-ti)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "3",
+    "ab": {
+     "str": 16,
+     "dex": 14,
+     "con": 13,
+     "int": 14,
+     "wis": 12,
+     "cha": 16
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 66,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Deception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Abyssal, Common, Draconic",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The yuan-ti can use its action to polymorph into a Medium snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The yuan-ti has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Malison Type",
+      "d": "The yuan-ti has one of the following types:"
+     },
+     {
+      "n": "Action",
+      "d": "Type 4: Human form with one or more serpentine tails"
+     },
+     {
+      "n": "Action",
+      "d": "Type 5: Human form covered in scales"
+     },
+     {
+      "n": "Innate Spellcasting (Yuan-ti Form Only)",
+      "d": "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: animal friendship (snakes only)"
+     },
+     {
+      "n": "Action",
+      "d": "3/day: suggestion"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack (Yuan-ti Form Only)",
+      "d": "The yuan-ti makes two ranged attacks or two melee attacks."
+     },
+     {
+      "n": "Bite (Snake Form Only)",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+     },
+     {
+      "n": "Scimitar (Yuan-ti Form Only)",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+     },
+     {
+      "n": "Longbow (Yuan-ti Form Only)",
+      "d": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

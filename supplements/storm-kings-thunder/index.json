@@ -9,6 +9,7 @@
     "credit": "Content from Storm King's Thunder, © Wizards of the Coast LLC."
   },
   "files": [
-    "magic-items.json"
+    "magic-items.json",
+    "monsters.json"
   ]
 }

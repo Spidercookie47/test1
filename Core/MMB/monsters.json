@@ -1,0 +1,84 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "mmb2014",
+  "name": "Monster Manuel (2014)",
+  "short": "MMB (2014)"
+ },
+ "elements": [
+  {
+   "id": "Monster:Bugbear Chief",
+   "type": "Monster",
+   "name": "Bugbear Chief",
+   "desc": "Medium humanoid (goblinoid), chaotic evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "3",
+    "ab": {
+     "str": 17,
+     "dex": 14,
+     "con": 14,
+     "int": 11,
+     "wis": 12,
+     "cha": 11
+    },
+    "ac": 17,
+    "acNote": "chain shirt, shield",
+    "hpAuto": false,
+    "hp": 65,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Stealth": 2,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin",
+    "traits": [
+     {
+      "n": "Brute",
+      "d": "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+     },
+     {
+      "n": "Heart of Hruggek",
+      "d": "The bugbear has advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
+     },
+     {
+      "n": "Surprise Attack",
+      "d": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The bugbear makes two melee attacks."
+     },
+     {
+      "n": "Morningstar",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 3) piercing damage."
+     },
+     {
+      "n": "Javelin",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 3) piercing damage in melee or 5 (1d6 + 3) piercing damage at range."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

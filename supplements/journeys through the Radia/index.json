@@ -9,6 +9,7 @@
   "credit": "Content from Journeys through the Radiant Citadel, © Wizards of the Coast LLC."
  },
  "files": [
-  "magic-items.json"
+  "magic-items.json",
+  "monsters.json"
  ]
 }

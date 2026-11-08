@@ -1,0 +1,12 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "mmb2014",
+  "name": "Monster Manuel (2014)",
+  "short": "MMB (2014)"
+ },
+ "files": [
+    "monsters.json"
+ ]
+}

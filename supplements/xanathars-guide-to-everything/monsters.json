@@ -1,0 +1,134 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "xgte",
+  "name": "Xanathar's Guide to Everything",
+  "short": "XGtE"
+ },
+ "elements": [
+  {
+   "id": "Monster:Hound of Ill Omen",
+   "type": "Monster",
+   "name": "Hound of Ill Omen",
+   "desc": "Medium monstrosity, unaligned. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1",
+    "ab": {
+     "str": 17,
+     "dex": 15,
+     "con": 15,
+     "int": 3,
+     "wis": 12,
+     "cha": 7
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 37,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Cloak of Shadows",
+      "d": "The hound appears with a number of temporary hit points equal to half your sorcerer level."
+     },
+     {
+      "n": "Ever at Your Heels",
+      "d": "On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+     },
+     {
+      "n": "Incorporeal Movement",
+      "d": "The hound can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object."
+     },
+     {
+      "n": "Keen Hearing and Smell",
+      "d": "The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+     },
+     {
+      "n": "Omen Sight",
+      "d": "At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound."
+     },
+     {
+      "n": "Pack Tactics",
+      "d": "The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Tiny Servant",
+   "type": "Monster",
+   "name": "Tiny Servant",
+   "desc": "Tiny construct, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 4,
+     "dex": 16,
+     "con": 10,
+     "int": 2,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 10,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

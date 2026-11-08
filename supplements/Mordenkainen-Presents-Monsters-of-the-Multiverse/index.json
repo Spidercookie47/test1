@@ -9,6 +9,7 @@
   "credit": "Content from Mordenkainen Presents: Monsters of the Multiverse, © Wizards of the Coast LLC."
  },
  "files": [
-  "races.json"
+  "races.json",
+  "monsters.json"
  ]
 }

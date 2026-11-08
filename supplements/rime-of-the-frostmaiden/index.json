@@ -11,6 +11,7 @@
   "files": [
     "spells.json",
     "equipment.json",
+    "monsters.json",
     "magic-items.json"
   ]
 }

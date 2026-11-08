@@ -1,0 +1,506 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "tcoe",
+  "name": "Tasha’s Cauldron of Everything",
+  "short": "TCoE"
+ },
+ "elements": [
+  {
+   "id": "Monster:Adult Red Dracolich",
+   "type": "Monster",
+   "name": "Adult Red Dracolich",
+   "desc": "Huge undead, chaotic evil. Challenge 17.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "17",
+    "ab": {
+     "str": 27,
+     "dex": 10,
+     "con": 25,
+     "int": 16,
+     "wis": 13,
+     "cha": 21
+    },
+    "ac": 19,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 256,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "fly": 80,
+     "climb": 40
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "necrotic",
+    "imm": "fire, poison",
+    "cimm": "charmed, frightened, paralyzed, poisoned, exhaustion",
+    "sen": {
+     "darkvision": 120,
+     "blindsight": 60
+    },
+    "langs": "Common, Draconic",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the dracolich fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The dracolich has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dracolich can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage."
+     },
+     {
+      "n": "Frightful Presence",
+      "d": "Each creature of the dracolich's choice that is within 120 feet of the dracolich and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dracolich's Frightful Presence for the next 24 hours."
+     },
+     {
+      "n": "Fire Breath (Recharge 5–6)",
+      "d": "The dracolich exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Detect",
+      "d": "The dracolich makes a Wisdom (Perception) check."
+     },
+     {
+      "n": "Tail Attack",
+      "d": "The dracolich makes a tail attack."
+     },
+     {
+      "n": "Wing Attack (Costs 2 Actions)",
+      "d": "The dracolich beats its wings. Each creature within 10 feet of the dracolich must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dracolich can then fly up to half its flying speed."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Dancing Item",
+   "type": "Monster",
+   "name": "Dancing Item",
+   "desc": "Large construct, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 18,
+     "dex": 14,
+     "con": 16,
+     "int": 4,
+     "wis": 10,
+     "cha": 6
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 10,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "charmed, exhaustion, poisoned, frightened",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages you speak",
+    "traits": [
+     {
+      "n": "Immutable Form",
+      "d": "The item is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Irrepressible Dance",
+      "d": "When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Force-Empowered Slam",
+      "d": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d10 + PB force damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Juvenile Mimic",
+   "type": "Monster",
+   "name": "Juvenile Mimic",
+   "desc": "Tiny monstrosity (shapechanger), unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "monstrosity (shapechanger)",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 12,
+     "con": 13,
+     "int": 10,
+     "wis": 13,
+     "cha": 10
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "climb": 10
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "acid",
+    "cimm": "prone",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Undercommon, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Spider Climb",
+      "d": "The mimic can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "False Appearance (Object Form Only)",
+      "d": "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 2 (1d4) acid damage."
+     },
+     {
+      "n": "Shape-Shift",
+      "d": "The mimic polymorphs into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Mighty Servant of Leuk-o",
+   "type": "Monster",
+   "name": "Mighty Servant of Leuk-o",
+   "desc": "Huge construct, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Huge",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 30,
+     "dex": 14,
+     "con": 20,
+     "int": 1,
+     "wis": 14,
+     "cha": 10
+    },
+    "ac": 22,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 310,
+    "hdn": 0,
+    "spd": {
+     "walk": 60
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "piercing, slashing",
+    "imm": "acid, bludgeoning, cold, fire, lightning, necrotic, poison, psychic, radiant",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, grappled, incapacitated, paralyzed, petrified, poisoned, restrained, stunned, unconscious",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "Understands the languages of creatures attuned to it but can't speak",
+    "traits": [
+     {
+      "n": "Immutable Existence",
+      "d": "The servant is immune to any spell or effect that would alter its form or send it to another plane of existence."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The servant has advantage on saving throws against spells and other magical effects, and spell attacks made against it have disadvantage."
+     },
+     {
+      "n": "Regeneration",
+      "d": "The servant regains 10 hit points at the start of its turn. If it is reduced to 0 hit points, this trait doesn't function until an attuned creature spends 24 hours repairing the artifact or until the artifact is subjected to lightning damage."
+     },
+     {
+      "n": "Standing Leap",
+      "d": "The servant's long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The servant doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Destructive Fist",
+      "d": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: +17 to hit, range 120 ft., one target. Hit: 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage."
+     },
+     {
+      "n": "Crushing Leap",
+      "d": "If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a DC 25 Dexterity saving throw. On a failed save, a creature takes 26 (4d12) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Reflection",
+   "type": "Monster",
+   "name": "Reflection",
+   "desc": "Medium fey, chaotic evil. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "fey",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 6,
+     "dex": 14,
+     "con": 13,
+     "int": 6,
+     "wis": 10,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 16,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 1
+    },
+    "vuln": "bludgeoning",
+    "res": "acid, cold, fire, lightning, thunder; piercing and slashing from nonmagical attacks",
+    "imm": "necrotic, poison",
+    "cimm": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Amorphous",
+      "d": "The reflection can move through a space as narrow as 1 inch wide without squeezing."
+     },
+     {
+      "n": "Shadow Stealth",
+      "d": "While in dim light or darkness, the reflection can take the Hide action as a bonus action. Its stealth bonus is also improved to +6."
+     },
+     {
+      "n": "Sunlight Weakness",
+      "d": "While in sunlight, the reflection has disadvantage on attack rolls, ability checks, and saving throws."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Strength Drain",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+     },
+     {
+      "n": "If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later",
+      "d": ""
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Shadow Spirit",
+   "type": "Monster",
+   "name": "Shadow Spirit",
+   "desc": "Medium monstrosity, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 13,
+     "dex": 16,
+     "con": 15,
+     "int": 4,
+     "wis": 10,
+     "cha": 16
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 35,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "necrotic",
+    "imm": "",
+    "cimm": "frightened",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Understands the languages you speak",
+    "traits": [
+     {
+      "n": "Terror Frenzy (Fury Only)",
+      "d": "The spirit has advantage on attack rolls against frightened creatures."
+     },
+     {
+      "n": "Weight of Sorrow (Despair Only)",
+      "d": "Any creature, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that creature's next turn."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of attacks equal to half this spell's level (rounded down)."
+     },
+     {
+      "n": "Chilling Rend",
+      "d": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell's level cold damage."
+     },
+     {
+      "n": "Dreadful Scream (1/Day)",
+      "d": "The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Shadow Stealth (Fear Only)",
+      "d": "While in dim light or darkness, the spirit takes the Hide action."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Wildfire Spirit",
+   "type": "Monster",
+   "name": "Wildfire Spirit",
+   "desc": "Small elemental, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Small",
+    "type": "elemental",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 10,
+     "dex": 14,
+     "con": 14,
+     "int": 13,
+     "wis": 15,
+     "cha": 11
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 5,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire",
+    "cimm": "charmed, frightened, grappled, prone, restrained",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages you speak",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Flame Seed",
+      "d": "Ranged Weapon Attack: your spell attack modifier to hit, range 60 ft., one target you can see. Hit: 1d6 + PB fire damage."
+     },
+     {
+      "n": "Fiery Teleportation",
+      "d": "The spirit and each willing creature of your choice within 5 feet of it teleport up to 15 feet to unoccupied spaces you can see. Then each creature within 5 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + PB fire damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

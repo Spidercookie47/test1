@@ -11,6 +11,7 @@
  "files": [
   "races.json",
   "backgrounds.json",
+  "monsters.json",
   "magic-items.json",
   "info.json"
  ]

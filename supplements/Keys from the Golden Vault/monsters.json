@@ -1,0 +1,885 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "kgv",
+  "name": "Keys from the Golden Vault",
+  "short": "KGV"
+ },
+ "elements": [
+  {
+   "id": "Monster:Animatronic Allosaurus",
+   "type": "Monster",
+   "name": "Animatronic Allosaurus",
+   "desc": "Large construct, unaligned. Challenge 2.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "2",
+    "ab": {
+     "str": 19,
+     "dex": 13,
+     "con": 17,
+     "int": 2,
+     "wis": 12,
+     "cha": 5
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 51,
+    "hdn": 0,
+    "spd": {
+     "walk": 60
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "charmed, frightened, paralyzed, poisoned",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Pounce",
+      "d": "If the animatronic allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the animatronic allosaurus can make one bite attack against it as a bonus action."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ashen Animated Armor",
+   "type": "Monster",
+   "name": "Ashen Animated Armor",
+   "desc": "Medium elemental, lawful evil. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "elemental",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1",
+    "ab": {
+     "str": 14,
+     "dex": 11,
+     "con": 13,
+     "int": 1,
+     "wis": 3,
+     "cha": 1
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 33,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire, poison, psychic",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Antimagic Susceptibility",
+      "d": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+     },
+     {
+      "n": "Ashen Creature",
+      "d": "When the armor drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+     },
+     {
+      "n": "False Appearance",
+      "d": "While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The armor makes two melee attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ashen Flying Sword",
+   "type": "Monster",
+   "name": "Ashen Flying Sword",
+   "desc": "Small elemental, lawful evil. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "elemental",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 12,
+     "dex": 15,
+     "con": 11,
+     "int": 1,
+     "wis": 5,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 17,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 50,
+     "hover": true
+    },
+    "saves": {
+     "dex": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire, poison, psychic",
+    "cimm": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Antimagic Susceptibility",
+      "d": "The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+     },
+     {
+      "n": "Ashen Creature",
+      "d": "When the sword drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+     },
+     {
+      "n": "False Appearance",
+      "d": "While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Longsword",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ashen Knight",
+   "type": "Monster",
+   "name": "Ashen Knight",
+   "desc": "Medium elemental (any race), lawful evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "elemental (any race)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "3",
+    "ab": {
+     "str": 16,
+     "dex": 11,
+     "con": 14,
+     "int": 11,
+     "wis": 11,
+     "cha": 15
+    },
+    "ac": 18,
+    "acNote": "plate armor",
+    "hpAuto": false,
+    "hp": 52,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [
+     {
+      "n": "Ashen Creature",
+      "d": "When the ashen knight drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+     },
+     {
+      "n": "Brave",
+      "d": "The ashen knight has advantage on saving throws against being frightened."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The ashen knight makes two melee attacks."
+     },
+     {
+      "n": "Greatsword",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+     },
+     {
+      "n": "Heavy Crossbow",
+      "d": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage."
+     },
+     {
+      "n": "Leadership (Recharges after a Short or Long Rest)",
+      "d": "For 1 minute, the ashen knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the ashen knight. A creature can benefit from only one Leadership die at a time. This effect ends if the ashen knight is incapacitated."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Parry",
+      "d": "The ashen knight adds 2 to its AC against one melee attack that would hit it. To do so, the ashen knight must see the attacker and be wielding a melee weapon."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Ashen Shambling Mound",
+   "type": "Monster",
+   "name": "Ashen Shambling Mound",
+   "desc": "Large elemental, lawful evil. Challenge 5.",
+   "stat": {
+    "size": "Large",
+    "type": "elemental",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "5",
+    "ab": {
+     "str": 18,
+     "dex": 8,
+     "con": 16,
+     "int": 5,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 136,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 20
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "cold",
+    "imm": "fire, lightning",
+    "cimm": "blinded, deafened, exhaustion",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Ashen Creature",
+      "d": "When the shambling mound drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+     },
+     {
+      "n": "Lightning Absorption",
+      "d": "Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+     },
+     {
+      "n": "Engulf",
+      "d": "The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ashen Veteran",
+   "type": "Monster",
+   "name": "Ashen Veteran",
+   "desc": "Medium elemental, lawful evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "elemental",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "3",
+    "ab": {
+     "str": 16,
+     "dex": 13,
+     "con": 14,
+     "int": 10,
+     "wis": 11,
+     "cha": 10
+    },
+    "ac": 17,
+    "acNote": "splint armor",
+    "hpAuto": false,
+    "hp": 58,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Athletics": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "fire",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [
+     {
+      "n": "Ashen Creature",
+      "d": "When the veteran drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+     },
+     {
+      "n": "Longsword",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+     },
+     {
+      "n": "Shortsword",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+     },
+     {
+      "n": "Heavy Crossbow",
+      "d": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ashen Warhorse",
+   "type": "Monster",
+   "name": "Ashen Warhorse",
+   "desc": "Large elemental, lawful evil. Challenge 1/2.",
+   "stat": {
+    "size": "Large",
+    "type": "elemental",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 18,
+     "dex": 12,
+     "con": 13,
+     "int": 2,
+     "wis": 12,
+     "cha": 7
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 19,
+    "hdn": 0,
+    "spd": {
+     "walk": 60
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Ashen Creature",
+      "d": "When the horse drops to 0 hit points, it is reduced to a pile of ash, and any equipment it was wearing or carrying falls to the ground."
+     },
+     {
+      "n": "Trampling Charge",
+      "d": "If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Hooves",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Clockwork Defender",
+   "type": "Monster",
+   "name": "Clockwork Defender",
+   "desc": "Medium construct, unaligned. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1",
+    "ab": {
+     "str": 16,
+     "dex": 15,
+     "con": 18,
+     "int": 3,
+     "wis": 14,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 42,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {},
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Unusual Nature",
+      "d": "The defender doesn't need air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Electrified Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) lightning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be grappled (escape DC 13). A creature grappled by the defender takes the damage again at the start of each of the defender's turns. The defender can have only one creature grappled in this way at a time, and the defender can't make Electrified Bite attacks while grappling."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Light Beam",
+      "d": "The defender emits bright light from its eyes in a 60-foot cone, or it shuts off this light."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Clockwork Observer",
+   "type": "Monster",
+   "name": "Clockwork Observer",
+   "desc": "Tiny construct, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 16,
+     "con": 13,
+     "int": 3,
+     "wis": 15,
+     "cha": 1
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Flyby",
+      "d": "The observer doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+     },
+     {
+      "n": "Telepathic Bond",
+      "d": "While the observer is within 1 mile of its creator, it can magically convey what it sees to its creator, and the two can communicate telepathically."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The observer doesn't need air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Shriek",
+      "d": "The observer emits a mechanical shriek until the start of its next turn or until it drops to 0 hit points. This shriek can be heard within a range of 300 feet."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Conservatory Student",
+   "type": "Monster",
+   "name": "Conservatory Student",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 1/8.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "1/8",
+    "ab": {
+     "str": 11,
+     "dex": 12,
+     "con": 11,
+     "int": 12,
+     "wis": 14,
+     "cha": 16
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 9,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Performance": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any two languages",
+    "traits": [],
+    "actions": [],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Crimson Helmed Horror",
+   "type": "Monster",
+   "name": "Crimson Helmed Horror",
+   "desc": "Medium construct, neutral. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "neutral",
+    "cr": "4",
+    "ab": {
+     "str": 18,
+     "dex": 13,
+     "con": 16,
+     "int": 10,
+     "wis": 10,
+     "cha": 10
+    },
+    "ac": 20,
+    "acNote": "plate armor, shield",
+    "hpAuto": false,
+    "hp": 60,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+    "imm": "force, necrotic, poison",
+    "cimm": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The helmed horror has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Spell Immunity",
+      "d": "The helmed horror is immune to burning hands, fireball, and scorching ray."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The helmed horror makes two longsword attacks."
+     },
+     {
+      "n": "Flaming Longsword",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) fire damage, or 9 (1d10 + 4) fire damage if used with two hands."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Conjure Sword",
+      "d": "As a bonus action on its first turn in combat, the helmed horror conjures a longsword-sized blade of fire, which appears in its free hand. This sword disappears in a cloud of smoke when the helmed horror drops to 0 hit points."
+     }
+    ],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Eldritch Horror Hatchling",
+   "type": "Monster",
+   "name": "Eldritch Horror Hatchling",
+   "desc": "Large monstrosity, unaligned. Challenge 2.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "2",
+    "ab": {
+     "str": 17,
+     "dex": 11,
+     "con": 13,
+     "int": 1,
+     "wis": 13,
+     "cha": 6
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 39,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "burrow": 10
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60,
+     "tremorsense": 60
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) poison damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the eldritch horror hatchling can bite only the grappled creature and has advantage on attack rolls to do so."
+     },
+     {
+      "n": "Acid Spray (Recharge 6)",
+      "d": "The eldritch horror hatchling spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Juvenile Eldritch Horror",
+   "type": "Monster",
+   "name": "Juvenile Eldritch Horror",
+   "desc": "Huge monstrosity, neutral evil. Challenge 11.",
+   "stat": {
+    "size": "Huge",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "11",
+    "ab": {
+     "str": 23,
+     "dex": 16,
+     "con": 18,
+     "int": 18,
+     "wis": 14,
+     "cha": 12
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 168,
+    "hdn": 0,
+    "spd": {
+     "walk": 50,
+     "climb": 40
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "lightning",
+    "cimm": "",
+    "sen": {
+     "darkvision": 90
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The eldritch horror makes two attacks: one with its bite and one to constrict."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage."
+     },
+     {
+      "n": "Constrict",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the eldritch horror isn't already constricting a creature, and the target is restrained until this grapple ends."
+     },
+     {
+      "n": "Lightning Breath (Recharge 5–6)",
+      "d": "The eldritch horror exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The eldritch horror casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (save DC 14):"
+     },
+     {
+      "n": "Action",
+      "d": "2/day each: blindness/deafness, blur"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: project image"
+     },
+     {
+      "n": "Swallow",
+      "d": "The eldritch horror makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the eldritch horror, and it takes 21 (6d6) acid damage at the start of each of the eldritch horror's turns. A eldritch horror can have only one creature swallowed at a time."
+     },
+     {
+      "n": "If the eldritch horror takes 30 damage or more on a single turn from the swallowed creature, the eldritch horror must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the eldritch horror",
+      "d": "If the eldritch horror dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Tiefling Acrobat",
+   "type": "Monster",
+   "name": "Tiefling Acrobat",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 0.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "0",
+    "ab": {
+     "str": 10,
+     "dex": 10,
+     "con": 10,
+     "int": 10,
+     "wis": 10,
+     "cha": 10
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 4,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Acrobatics": 2,
+     "Performance": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Club",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}

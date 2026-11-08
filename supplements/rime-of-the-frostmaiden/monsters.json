@@ -1,0 +1,3996 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "rotf",
+  "name": "Icewind Dale: Rime of the Frostmaiden",
+  "short": "ROTF"
+ },
+ "elements": [
+  {
+   "id": "Monster:Awakened White Moose",
+   "type": "Monster",
+   "name": "Awakened White Moose",
+   "desc": "Large beast, neutral evil. Challenge 3.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "3",
+    "ab": {
+     "str": 19,
+     "dex": 11,
+     "con": 16,
+     "int": 10,
+     "wis": 12,
+     "cha": 6
+    },
+    "ac": 11,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 68,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Druidic",
+    "traits": [
+     {
+      "n": "Charge",
+      "d": "If the moose moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+     },
+     {
+      "n": "Sure-Footed",
+      "d": "The moose has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The moose makes two attacks: one with its antlers and one with its hooves."
+     },
+     {
+      "n": "Antlers",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
+     },
+     {
+      "n": "Hooves",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Battlehammer Dwarf",
+   "type": "Monster",
+   "name": "Battlehammer Dwarf",
+   "desc": "Medium humanoid (dwarf), lawful good. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "tags": "",
+    "align": "lawful good",
+    "cr": "1/2",
+    "ab": {
+     "str": 11,
+     "dex": 14,
+     "con": 12,
+     "int": 11,
+     "wis": 13,
+     "cha": 11
+    },
+    "ac": 13,
+    "acNote": "leather armor",
+    "hpAuto": false,
+    "hp": 16,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {
+     "Nature": 2,
+     "Perception": 2,
+     "Stealth": 2,
+     "Survival": 2
+    },
+    "vuln": "",
+    "res": "poison",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Any one language (usually Common), Dwarvish",
+    "traits": [
+     {
+      "n": "Dwarven Resilience",
+      "d": "The battlehammer dwarf has advantage on saving throws against poison, and has resistance against poison damage."
+     },
+     {
+      "n": "Keen Hearing and Sight",
+      "d": "The dwarf has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dwarf makes two melee attacks or two ranged attacks."
+     },
+     {
+      "n": "Handaxe",
+      "d": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6 + 0) slashing damage."
+     },
+     {
+      "n": "Light Crossbow",
+      "d": "Ranged Weapon Attack: +4 to hit, ranged 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chardalyn Berserker",
+   "type": "Monster",
+   "name": "Chardalyn Berserker",
+   "desc": "Medium fiend, chaotic evil. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "fiend",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "4",
+    "ab": {
+     "str": 16,
+     "dex": 12,
+     "con": 17,
+     "int": 9,
+     "wis": 11,
+     "cha": 9
+    },
+    "ac": 13,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 90,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Survival": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [
+     {
+      "n": "Chardalyn Madness",
+      "d": "The berserker must roll a d6 at the start of each of its turns. On a 1, the berserker does nothing on its turn except speak to a nonexistent, evil master whom it has pledged to serve."
+     },
+     {
+      "n": "Reckless",
+      "d": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The berserker attacks three times with a melee weapon."
+     },
+     {
+      "n": "Chardalyn Flail",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn."
+     },
+     {
+      "n": "Chardalyn Javelin",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chardalyn Dragon",
+   "type": "Monster",
+   "name": "Chardalyn Dragon",
+   "desc": "Huge construct, chaotic evil. Challenge 11.",
+   "stat": {
+    "size": "Huge",
+    "type": "construct",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "11",
+    "ab": {
+     "str": 24,
+     "dex": 11,
+     "con": 19,
+     "int": 10,
+     "wis": 10,
+     "cha": 3
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 147,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 90
+    },
+    "saves": {
+     "str": true,
+     "con": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "cold, poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "The languages known by its creator",
+    "traits": [
+     {
+      "n": "Immutable Form",
+      "d": "The dragon is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The dragon has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Siege Monster",
+      "d": "The dragon deals double damage to objects and structures."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The dragon doesn't require air, food, drink, or sleep, and it gains no benefit from finishing a short or long rest."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dragon uses its Malevolent Presence. It then makes three attacks: two with its claws and one with its tail. If the dragon isn't flying, it can also make one attack with its wings."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage."
+     },
+     {
+      "n": "Wings",
+      "d": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 12 (2d4 + 7) bludgeoning damage."
+     },
+     {
+      "n": "Malevolent Presence",
+      "d": "Any creature with an Intelligence of 4 or more that is within 30 feet of the dragon must succeed on a DC 16 Wisdom saving throw or be charmed by it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Malevolent Presence for the next 24 hours. A creature charmed in this way fixates on another creature or object that the dragon mentally chooses and must, on each of its turns, move as close as it can to that target and use its action to make a melee attack against it. If the dragon doesn't choose a target, the charmed creature can act normally on its turn."
+     },
+     {
+      "n": "Radiant Breath (Recharge 5–6)",
+      "d": "The dragon exhales a ray of radiant energy in a 120-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 31 (7d8) radiant damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chimeric Baboon",
+   "type": "Monster",
+   "name": "Chimeric Baboon",
+   "desc": "Small beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Small",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 8,
+     "dex": 14,
+     "con": 11,
+     "int": 4,
+     "wis": 12,
+     "cha": 6
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 3,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage, plus an extra 3 (1d6) poison damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chimeric Cat",
+   "type": "Monster",
+   "name": "Chimeric Cat",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 3,
+     "dex": 15,
+     "con": 10,
+     "int": 3,
+     "wis": 12,
+     "cha": 7
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 2,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 60,
+     "tremorsense": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Smell",
+      "d": "The cat has advantage on Wisdom (Perception) checks that rely on smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chimeric Fox",
+   "type": "Monster",
+   "name": "Chimeric Fox",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 2,
+     "dex": 16,
+     "con": 11,
+     "int": 3,
+     "wis": 12,
+     "cha": 6
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 2,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "burrow": 5
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Chimeric Creation",
+      "d": "The fox has fur that changes color to match its surroundings, giving it advantage on Dexterity (Stealth) checks."
+     },
+     {
+      "n": "Keen Hearing",
+      "d": "The fox has advantage on Wisdom (Perception) checks that rely on hearing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chimeric Hare",
+   "type": "Monster",
+   "name": "Chimeric Hare",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 17,
+     "con": 9,
+     "int": 2,
+     "wis": 11,
+     "cha": 4
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "fly": 30,
+     "burrow": 5
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Escape",
+      "d": "The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+     }
+    ],
+    "actions": [],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chimeric Rat",
+   "type": "Monster",
+   "name": "Chimeric Rat",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 2,
+     "dex": 11,
+     "con": 9,
+     "int": 2,
+     "wis": 10,
+     "cha": 4
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Chimeric Creation",
+      "d": "The rat has gills, iridescent scales, and the ability to breathe air and water."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chimeric Weasel",
+   "type": "Monster",
+   "name": "Chimeric Weasel",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 3,
+     "dex": 16,
+     "con": 8,
+     "int": 2,
+     "wis": 12,
+     "cha": 3
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Chimeric Creation",
+      "d": "The weasel has glowing eyes that emit bright light out in a 20-foot radius and dim light for an additional 20 feet."
+     },
+     {
+      "n": "Keen Hearing and Smell",
+      "d": "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Chwinga",
+   "type": "Monster",
+   "name": "Chwinga",
+   "desc": "Tiny elemental, neutral. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "elemental",
+    "tags": "",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 20,
+     "con": 10,
+     "int": 14,
+     "wis": 16,
+     "cha": 16
+    },
+    "ac": 15,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 5,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 20,
+     "climb": 20
+    },
+    "saves": {},
+    "skills": {
+     "Acrobatics": 1,
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Evasion",
+      "d": "When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: druidcraft, guidance, pass without trace, resistance"
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Magical Gift (1/Day)",
+      "d": "The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See chapter 7 of the Dungeon Masters Guide for more information on supernatural charms."
+     },
+     {
+      "n": "Natural Shelter",
+      "d": "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Coldlight Walker",
+   "type": "Monster",
+   "name": "Coldlight Walker",
+   "desc": "Medium undead, chaotic evil. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "5",
+    "ab": {
+     "str": 15,
+     "dex": 10,
+     "con": 17,
+     "int": 8,
+     "wis": 10,
+     "cha": 8
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 82,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "cold",
+    "cimm": "blinded, charmed, exhaustion, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Blinding Light",
+      "d": "The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a DC 14 Constitution saving throw or be blinded until the start of the walker's next turn."
+     },
+     {
+      "n": "Icy Doom",
+      "d": "Any creature killed by the walker freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The walker doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The walker makes two attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 14 (4d6) cold damage."
+     },
+     {
+      "n": "Cold Ray",
+      "d": "Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit: 25 (4d10 + 3) cold damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Demos Magen",
+   "type": "Monster",
+   "name": "Demos Magen",
+   "desc": "Medium construct, unaligned. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "2",
+    "ab": {
+     "str": 14,
+     "dex": 14,
+     "con": 18,
+     "int": 10,
+     "wis": 10,
+     "cha": 7
+    },
+    "ac": 16,
+    "acNote": "chain mail",
+    "hpAuto": false,
+    "hp": 51,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "sen": {},
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Fiery End",
+      "d": "If the magen dies, its body disintegrates in a harmless burst of fire and smoke, leaving behind anything it was wearing or carrying."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The magen has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The magen doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The magen makes two melee attacks."
+     },
+     {
+      "n": "Greatsword",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+     },
+     {
+      "n": "Light Crossbow",
+      "d": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Fox",
+   "type": "Monster",
+   "name": "Fox",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 2,
+     "dex": 16,
+     "con": 11,
+     "int": 3,
+     "wis": 12,
+     "cha": 6
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 2,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "burrow": 5
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Hearing",
+      "d": "The fox has advantage on Wisdom (Perception) checks that rely on hearing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Frost Druid",
+   "type": "Monster",
+   "name": "Frost Druid",
+   "desc": "Medium humanoid (human), any alignment. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "5",
+    "ab": {
+     "str": 12,
+     "dex": 13,
+     "con": 16,
+     "int": 10,
+     "wis": 16,
+     "cha": 9
+    },
+    "ac": 13,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 67,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "fly": 60,
+     "climb": 30,
+     "burrow": 5
+    },
+    "saves": {
+     "int": true,
+     "wis": true
+    },
+    "skills": {
+     "Nature": 1,
+     "Perception": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "cold",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Druidic",
+    "traits": [
+     {
+      "n": "Spellcasting (Humanoid Form Only)",
+      "d": "The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14; +6 to hit with spell attacks). It has the following druid spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): druidcraft, guidance, resistance"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): animal friendship, fog cloud, speak with animals"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): animal messenger, moonbeam, pass without trace"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (3 slots): conjure animals, sleet storm, wind wall"
+     },
+     {
+      "n": "Action",
+      "d": "4th level (3 slots): hallucinatory terrain, ice storm"
+     },
+     {
+      "n": "Action",
+      "d": "5th level (1 slot): awaken"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The druid makes two melee attacks."
+     },
+     {
+      "n": "Ice Sickle (Humanoid Form Only)",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage plus 5 (2d4) cold damage."
+     },
+     {
+      "n": "Maul (Beast Form Only)",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+     },
+     {
+      "n": "Change Shape",
+      "d": "The druid magically polymorphs into a beast form—fox, mountain goat, owl, or wolf—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Frost Giant Skeleton",
+   "type": "Monster",
+   "name": "Frost Giant Skeleton",
+   "desc": "Huge undead, lawful evil. Challenge 6.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "6",
+    "ab": {
+     "str": 23,
+     "dex": 9,
+     "con": 15,
+     "int": 6,
+     "wis": 8,
+     "cha": 5
+    },
+    "ac": 14,
+    "acNote": "armor scraps",
+    "hpAuto": false,
+    "hp": 102,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "bludgeoning",
+    "res": "",
+    "imm": "cold, poison",
+    "cimm": "exhaustion, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Giant but can't speak",
+    "traits": [
+     {
+      "n": "Unusual Nature",
+      "d": "The skeleton doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The skeleton makes two greataxe attacks."
+     },
+     {
+      "n": "Greataxe",
+      "d": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage."
+     },
+     {
+      "n": "Freezing Stare",
+      "d": "The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Galvan Magen",
+   "type": "Monster",
+   "name": "Galvan Magen",
+   "desc": "Medium construct, unaligned. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "3",
+    "ab": {
+     "str": 10,
+     "dex": 18,
+     "con": 18,
+     "int": 12,
+     "wis": 10,
+     "cha": 7
+    },
+    "ac": 14,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 68,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "lightning, poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "sen": {},
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Fiery End",
+      "d": "If the magen dies, its body disintegrates in a harmless burst of fire and smoke, leaving behind anything it was wearing or carrying."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The magen has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The magen doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The magen makes two Shocking Touch attacks."
+     },
+     {
+      "n": "Shocking Touch",
+      "d": "Melee Spell Attack: +6 to hit, reach 5 ft., one target (the magen has advantage on the attack roll if the target is wearing armor made of metal). Hit: 7 (1d6 + 4) lightning damage."
+     },
+     {
+      "n": "Static Discharge (Recharge 5–6)",
+      "d": "The magen discharges a lightning bolt in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw (with disadvantage if the creature is wearing armor made of metal), taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Giant Walrus",
+   "type": "Monster",
+   "name": "Giant Walrus",
+   "desc": "Huge beast, unaligned. Challenge 4.",
+   "stat": {
+    "size": "Huge",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "4",
+    "ab": {
+     "str": 22,
+     "dex": 9,
+     "con": 16,
+     "int": 3,
+     "wis": 11,
+     "cha": 4
+    },
+    "ac": 9,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 85,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Hold Breath",
+      "d": "The walrus can hold its breath for 30 minutes."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The walrus makes two attacks: one with its body flop and one with its tusks."
+     },
+     {
+      "n": "Body Flop",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage."
+     },
+     {
+      "n": "Tusks",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Gnoll Vampire",
+   "type": "Monster",
+   "name": "Gnoll Vampire",
+   "desc": "Medium undead (shapechanger), chaotic evil. Challenge 8.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead (shapechanger)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "8",
+    "ab": {
+     "str": 20,
+     "dex": 18,
+     "con": 18,
+     "int": 6,
+     "wis": 12,
+     "cha": 9
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 93,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "dex": true,
+     "con": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Abyssal, Gnoll",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "If the vampire isn't in sunlight, it can use its action to polymorph into a Large hyena or a Medium cloud of mist, or back into its true form."
+     },
+     {
+      "n": "While in hyena form, the vampire can't speak, and its walking speed is 50 feet",
+      "d": "Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies."
+     },
+     {
+      "n": "While in mist form, the vampire can't take any actions, speak, or manipulate objects",
+      "d": "it is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The vampire has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Rampage",
+      "d": "When it reduces a creature to 0 hit points with a melee attack on its turn, the vampire can take a bonus action to move up to half its speed and make a bite attack."
+     },
+     {
+      "n": "Regeneration",
+      "d": "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The vampire doesn't require air."
+     },
+     {
+      "n": "Vampire Weaknesses",
+      "d": "The vampire has the following flaws:"
+     },
+     {
+      "n": "Enraged by Celestial",
+      "d": "If it hears words of Celestial spoken, the vampire must try to attack the source of those spoken words on its next turn. If these words come from multiple sources and from opposite directions, the vampire is restrained. Otherwise, it moves to attack what it perceives to be the closest source."
+     },
+     {
+      "n": "Repulsed by Perfume",
+      "d": "The vampire has disadvantage on melee attack rolls made against any creature wearing perfume or carrying an open container of it."
+     },
+     {
+      "n": "Stake to the Heart",
+      "d": "If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed."
+     },
+     {
+      "n": "Sunlight Hypersensitivity",
+      "d": "The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack (Vampire Form Only)",
+      "d": "The vampire makes two attacks: one with its bite and one with its claws."
+     },
+     {
+      "n": "Bite (Hyena or Vampire Form Only)",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) piercing damage plus 9 (2d8) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. the target dies if its hit point maximum is reduced to 0."
+     },
+     {
+      "n": "Claws (Vampire Form Only)",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage."
+     },
+     {
+      "n": "Frightful Cackle (Hyena or Vampire Form Only)",
+      "d": "The vampire emits a bone-chilling cackle. Each creature of the vampire's choice that is within 120 feet of the vampire and can hear its cackle must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the vampire's Frightful Cackle for the next 24 hours."
+     },
+     {
+      "n": "Sickening Gaze (Hyena or Vampire Form Only)",
+      "d": "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a DC 15 Constitution saving throw against this magic or be poisoned for 24 hours. A creature whose saving throw is successful is immune to this vampire's Sickening Gaze for 24 hours."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Gnome Ceremorph",
+   "type": "Monster",
+   "name": "Gnome Ceremorph",
+   "desc": "Small aberration, any alignment. Challenge 5.",
+   "stat": {
+    "size": "Small",
+    "type": "aberration",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "5",
+    "ab": {
+     "str": 6,
+     "dex": 14,
+     "con": 12,
+     "int": 19,
+     "wis": 17,
+     "cha": 17
+    },
+    "ac": 16,
+    "acNote": "breastplate",
+    "hpAuto": false,
+    "hp": 58,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Deception": 1,
+     "Insight": 1,
+     "Perception": 1,
+     "Persuasion": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Deep Speech, Gnomish, telepathy 120 ft., Undercommon",
+    "traits": [
+     {
+      "n": "Innate Spellcasting (Psionics)",
+      "d": "The ceremorph's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: detect thoughts, levitate"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: dominate monster, plane shift (self only)"
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The ceremorph has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Tentacles",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 9) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends."
+     },
+     {
+      "n": "Extract Brain",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the ceremorph. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ceremorph kills the target by extracting and devouring its brain."
+     },
+     {
+      "n": "Laser Pistol",
+      "d": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit: 12 (3d6 + 2) radiant damage."
+     },
+     {
+      "n": "Mind Blast (Recharge 5–6)",
+      "d": "The ceremorph magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Gnome Squidling",
+   "type": "Monster",
+   "name": "Gnome Squidling",
+   "desc": "Small aberration, unaligned. Challenge 1/2.",
+   "stat": {
+    "size": "Small",
+    "type": "aberration",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/2",
+    "ab": {
+     "str": 4,
+     "dex": 7,
+     "con": 10,
+     "int": 4,
+     "wis": 10,
+     "cha": 3
+    },
+    "ac": 8,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 10,
+    "hdn": 0,
+    "spd": {
+     "walk": 15
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Deep Speech and Gnomish but can't speak, telepathy 60 ft.",
+    "traits": [
+     {
+      "n": "Innate Spellcasting (Psionics)",
+      "d": "The squidling's innate spellcasting ability is Intelligence (spell save DC 7). It can innately cast levitate at will, requiring no components."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The squidling has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Tentacles",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 5 (2d4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 7) and must succeed on a DC 7 Intelligence saving throw or be stunned until this grapple ends."
+     },
+     {
+      "n": "Extract Brain",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one incapacitated creature grappled by the squidling. Hit: 27 (5d10) piercing damage. If this damage reduces the target to 0 hit points, the squidling kills the target by extracting and devouring its brain."
+     },
+     {
+      "n": "Mind Tickle (Recharge 5–6)",
+      "d": "The squidling magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 7 Intelligence saving throw or take 2 (1d4) psychic damage and be stunned until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Goliath Warrior",
+   "type": "Monster",
+   "name": "Goliath Warrior",
+   "desc": "Medium humanoid (goliath), any alignment. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (goliath)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "3",
+    "ab": {
+     "str": 18,
+     "dex": 11,
+     "con": 16,
+     "int": 10,
+     "wis": 15,
+     "cha": 10
+    },
+    "ac": 12,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 67,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Athletics": 1,
+     "Perception": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "cold",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Giant",
+    "traits": [
+     {
+      "n": "Mountain Born",
+      "d": "The goliath is acclimated to high altitude, including elevations above 20,000 feet."
+     },
+     {
+      "n": "Powerful Build",
+      "d": "The goliath counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The goliath makes two attacks with its greataxe or hurls two javelins."
+     },
+     {
+      "n": "Greataxe",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+     },
+     {
+      "n": "Javelin",
+      "d": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Stone's Endurance (Recharges after a Short or Long Rest)",
+      "d": "When the goliath takes damage, it reduces the damage taken by 9 (1d12 + 3)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Goliath Werebear",
+   "type": "Monster",
+   "name": "Goliath Werebear",
+   "desc": "Medium humanoid (goliath, shapechanger), neutral good. Challenge 8.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (goliath, shapechanger)",
+    "tags": "",
+    "align": "neutral good",
+    "cr": "8",
+    "ab": {
+     "str": 20,
+     "dex": 10,
+     "con": 18,
+     "int": 10,
+     "wis": 15,
+     "cha": 10
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 161,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "swim": 30
+    },
+    "saves": {},
+    "skills": {
+     "Athletics": 1,
+     "Perception": 2,
+     "Survival": 1
+    },
+    "vuln": "fire",
+    "res": "cold",
+    "imm": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Giant (can't speak in bear form)",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large polar bear, or back into its goliath form. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The werebear has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Mountain Born",
+      "d": "The werebear is acclimated to high altitude, including elevations above 20,000 feet."
+     },
+     {
+      "n": "Powerful Build (Humanoid Form Only)",
+      "d": "The werebear counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The werebear makes two melee attacks."
+     },
+     {
+      "n": "Bite (Bear or Hybrid Form Only)",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) piercing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be cursed with werebear lycanthropy, as described in the Monster Manual."
+     },
+     {
+      "n": "Claw (Bear or Hybrid Form Only)",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+     },
+     {
+      "n": "Greataxe (Humanoid or Hybrid Form Only)",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Stone's Endurance (Recharges after a Short or Long Rest)",
+      "d": "When the werebear takes damage, it reduces the damage taken by 10 (1d12 + 4)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Hare",
+   "type": "Monster",
+   "name": "Hare",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 17,
+     "con": 9,
+     "int": 2,
+     "wis": 11,
+     "cha": 4
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "burrow": 5
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Escape",
+      "d": "The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+     }
+    ],
+    "actions": [],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Headless Iron Golem",
+   "type": "Monster",
+   "name": "Headless Iron Golem",
+   "desc": "Large construct, unaligned. Challenge 10.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "10",
+    "ab": {
+     "str": 24,
+     "dex": 9,
+     "con": 20,
+     "int": 3,
+     "wis": 11,
+     "cha": 1
+    },
+    "ac": 20,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 150,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Fire Absorption",
+      "d": "Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+     },
+     {
+      "n": "Headless",
+      "d": "The golem is blinded and deafened, giving it disadvantage on all its attack rolls, and it can't use its Poison Breath."
+     },
+     {
+      "n": "Immutable Form",
+      "d": "The golem is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The golem has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Magic Weapons",
+      "d": "The golem's weapon attacks are magical."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The golem makes two melee attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
+     },
+     {
+      "n": "Sword",
+      "d": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 23 (3d10 + 7) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Hypnos Magen",
+   "type": "Monster",
+   "name": "Hypnos Magen",
+   "desc": "Medium construct, unaligned. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1",
+    "ab": {
+     "str": 10,
+     "dex": 14,
+     "con": 18,
+     "int": 14,
+     "wis": 10,
+     "cha": 7
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 34,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "sen": {},
+    "langs": "Understands the languages of its creator but can't speak, telepathy 30 ft.",
+    "traits": [
+     {
+      "n": "Fiery End",
+      "d": "If the magen dies, its body disintegrates in a harmless burst of fire and smoke, leaving behind anything it was wearing or carrying."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The magen has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The magen doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Psychic Lash",
+      "d": "The magen's eyes glow silver as it targets one creature that it can see within 60 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take 11 (2d10) psychic damage."
+     },
+     {
+      "n": "Suggestion",
+      "d": "The magen casts the suggestion spell (save DC 12), requiring no material components. The target must be a creature that the magen can communicate with telepathically. If it succeeds on its saving throw, the target is immune to this magen's suggestion spell for the next 24 hours. The magen's spellcasting ability is Intelligence."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ice Piercer",
+   "type": "Monster",
+   "name": "Ice Piercer",
+   "desc": "Medium monstrosity, unaligned. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/2",
+    "ab": {
+     "str": 10,
+     "dex": 13,
+     "con": 16,
+     "int": 1,
+     "wis": 7,
+     "cha": 3
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 5,
+     "climb": 5
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "cold",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60,
+     "blindsight": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "False Appearance",
+      "d": "While the ice piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The ice piercer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Drop",
+      "d": "Melee Weapon Attack: +3 to hit, one creature directly underneath the ice piercer. Hit: 10 (3d6) piercing damage plus 10 (3d6) cold damage. Miss: The ice piercer takes half the normal falling damage for the distance fallen."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Ice Troll",
+   "type": "Monster",
+   "name": "Ice Troll",
+   "desc": "Large giant, chaotic evil. Challenge 8.",
+   "stat": {
+    "size": "Large",
+    "type": "giant",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "8",
+    "ab": {
+     "str": 18,
+     "dex": 8,
+     "con": 22,
+     "int": 7,
+     "wis": 9,
+     "cha": 7
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 115,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "cold",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Giant",
+    "traits": [
+     {
+      "n": "Cold Aura",
+      "d": "While it's alive, the troll generates an aura of bitter cold that fills the area within 10 feet of it. At the start of the troll's turn, all nonmagical flames in the aura are extinguished. Any creature that starts its turn within 10 feet of the troll takes 10 (3d6) cold damage."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The ice troll has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Regeneration",
+      "d": "The ice troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The ice troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The troll makes three attacks: one with its bite and two with its claws."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 9 (2d8) cold damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 9 (2d8) cold damage. If the target takes any of the cold damage, the target must succeed on a DC 15 Constitution saving throw or have disadvantage on its attack rolls until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Icewind Kobold",
+   "type": "Monster",
+   "name": "Icewind Kobold",
+   "desc": "Small humanoid (kobold), any alignment. Challenge 1/8.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (kobold)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "1/8",
+    "ab": {
+     "str": 7,
+     "dex": 15,
+     "con": 12,
+     "int": 8,
+     "wis": 8,
+     "cha": 8
+    },
+    "ac": 14,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 9,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 20
+    },
+    "saves": {
+     "dex": true,
+     "con": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Draconic",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     },
+     {
+      "n": "Sunlight Sensitivity",
+      "d": "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     },
+     {
+      "n": "Javelin",
+      "d": "Melee or Ranged Weapon Attack: +0 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 1 (1d6 - 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Icewind Kobold Zombie",
+   "type": "Monster",
+   "name": "Icewind Kobold Zombie",
+   "desc": "Small undead, neutral evil. Challenge 1/8.",
+   "stat": {
+    "size": "Small",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/8",
+    "ab": {
+     "str": 8,
+     "dex": 6,
+     "con": 16,
+     "int": 3,
+     "wis": 6,
+     "cha": 3
+    },
+    "ac": 9,
+    "acNote": "scraps of hide armor",
+    "hpAuto": false,
+    "hp": 19,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Common and Draconic but can't speak",
+    "traits": [
+     {
+      "n": "Undead Fortitude",
+      "d": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The zombie doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Javelin",
+      "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Knight of the Black Sword",
+   "type": "Monster",
+   "name": "Knight of the Black Sword",
+   "desc": "Medium humanoid (any race), lawful evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "2",
+    "ab": {
+     "str": 11,
+     "dex": 14,
+     "con": 12,
+     "int": 10,
+     "wis": 13,
+     "cha": 14
+    },
+    "ac": 13,
+    "acNote": "leather armor",
+    "hpAuto": false,
+    "hp": 33,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Deception": 1,
+     "Persuasion": 1,
+     "Religion": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Infernal",
+    "traits": [
+     {
+      "n": "Dark Devotion",
+      "d": "The fanatic has advantage on saving throws against being charmed or frightened."
+     },
+     {
+      "n": "Icy Doom",
+      "d": "When the cultist dies, its corpse freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): light, sacred flame, thaumaturgy"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): command, inflict wounds, shield of faith"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): hold person, spiritual weapon"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The fanatic makes two melee attacks."
+     },
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Knucklehead Trout",
+   "type": "Monster",
+   "name": "Knucklehead Trout",
+   "desc": "Small beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Small",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 14,
+     "dex": 14,
+     "con": 11,
+     "int": 1,
+     "wis": 6,
+     "cha": 1
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "swim": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Water Breathing",
+      "d": "The trout can breathe only underwater."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Kobold Vampire Spawn",
+   "type": "Monster",
+   "name": "Kobold Vampire Spawn",
+   "desc": "Small undead, neutral evil. Challenge 3.",
+   "stat": {
+    "size": "Small",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "3",
+    "ab": {
+     "str": 10,
+     "dex": 18,
+     "con": 16,
+     "int": 8,
+     "wis": 8,
+     "cha": 8
+    },
+    "ac": 14,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 39,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 20
+    },
+    "saves": {
+     "dex": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Draconic",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The vampire has advantage on an attack roll against a creature if at least one of the vampire's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     },
+     {
+      "n": "Regeneration",
+      "d": "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of its next turn."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The vampire doesn't require air."
+     },
+     {
+      "n": "Vampire Weaknesses",
+      "d": "The vampire has the following flaws:"
+     },
+     {
+      "n": "Forbiddance",
+      "d": "The vampire can't enter a residence without an invitation from one of the occupants."
+     },
+     {
+      "n": "Harmed by Running Water",
+      "d": "The vampire takes 20 acid damage when it starts its turn in running water."
+     },
+     {
+      "n": "Stake to the Heart",
+      "d": "The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place."
+     },
+     {
+      "n": "Sunlight Hypersensitivity",
+      "d": "The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) piercing damage plus 5 (2d4) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Living Bigby's Hand",
+   "type": "Monster",
+   "name": "Living Bigby's Hand",
+   "desc": "Large construct, unaligned. Challenge 4.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "4",
+    "ab": {
+     "str": 26,
+     "dex": 10,
+     "con": 20,
+     "int": 1,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 20,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 52,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 60,
+     "hover": true
+    },
+    "saves": {
+     "dex": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The living spell has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The living spell doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Force Fist",
+      "d": "Melee Spell Attack: +10 to hit, reach 5 ft., one target. Hit: 26 (4d8 + 8) force damage. If the target is a Large or smaller creature, the living spell can move it up to 5 feet and move with it, without provoking opportunity attacks."
+     },
+     {
+      "n": "Grasping Hand",
+      "d": "The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be grappled (escape DC 15). Until the grapple ends, the target takes 15 (2d6 + 8) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Living Blade of Disaster",
+   "type": "Monster",
+   "name": "Living Blade of Disaster",
+   "desc": "Small construct, chaotic evil. Challenge 8.",
+   "stat": {
+    "size": "Small",
+    "type": "construct",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "8",
+    "ab": {
+     "str": 10,
+     "dex": 16,
+     "con": 19,
+     "int": 6,
+     "wis": 10,
+     "cha": 3
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 67,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "cimm": "blinded, deafened, exhaustion, grappled, paralyzed, petrified, poisoned, restrained, unconscious",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The living spell has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Unfettered",
+      "d": "The living spell can move through any barrier, even a wall of magical force."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The living spell doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Force Blade",
+      "d": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 26 (4d12) force damage, unless the living spell rolled an 18 or higher on the d20 for the attack, in which case the attack is a critical hit that deals 78 (12d12) force damage instead."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Preemptive Strike",
+      "d": "The living spell makes a melee attack against a creature that starts its turn within 5 feet of the living spell."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Living Demiplane",
+   "type": "Monster",
+   "name": "Living Demiplane",
+   "desc": "Medium construct, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 10,
+     "con": 10,
+     "int": 1,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 31,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Dimensional Form",
+      "d": "The living spell can enter another creature's space and vice versa, and it can move through a space as narrow as 1 inch wide without squeezing. The living spell can't detach from a solid surface, such as a wall, ceiling, or floor. If it has no surface to attach to, the living spell is destroyed (see \"Planar Destruction\" below)."
+     },
+     {
+      "n": "Extradimensional Chamber",
+      "d": "When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature must succeed on a DC 10 Dexterity saving throw or be pulled into the living spell's extradimensional space, an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit in this space succeeds on the saving throw automatically. Creatures in the chamber never run out of breathable air. Magic that enables transit between planes, such as plane shift, can be used to escape the chamber, which has no exits otherwise. Creatures trapped inside the extradimensional chamber can't see, target, or deal damage to the living spell; however, they can damage the room around them. Each 5-foot-square section of ceiling, wall, and floor in the chamber has AC 17, 50 hit points, immunity to poison and psychic damage, and immunity to bludgeoning, piercing, and slashing damage that is nonmagical. If any section is reduced to 0 hit points, the living spell and its chamber are destroyed (see \"Planar Destruction\" below)."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The living spell has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Planar Destruction",
+      "d": "The living spell is destroyed when it or a 5-foot-square section of its extradimensional chamber is reduced to 0 hit points, or when the living spell has no surface to attach to. When the living spell is destroyed, the contents of its extradimensional chamber are expelled, appearing as close to the living spell's previous location as possible. Each expelled creature appears in a randomly determined unoccupied space, along with whatever it is wearing or carrying."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The living spell doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Lonelywood Banshee",
+   "type": "Monster",
+   "name": "Lonelywood Banshee",
+   "desc": "Medium undead, chaotic evil. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "4",
+    "ab": {
+     "str": 1,
+     "dex": 14,
+     "con": 10,
+     "int": 12,
+     "wis": 11,
+     "cha": 17
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 58,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 40,
+     "hover": true
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "cold, necrotic, poison",
+    "cimm": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Elvish",
+    "traits": [
+     {
+      "n": "Detect Life",
+      "d": "The banshee can magically sense the presence of living creatures up to 5 miles away that aren't undead or constructs. She knows the general direction they're in but not their exact locations."
+     },
+     {
+      "n": "Incorporeal Movement",
+      "d": "The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Spectral Longbow",
+      "d": "Ranged Spell Attack: +4 to hit, range 150/600 ft., one target. Hit: 12 (3d6 + 2) necrotic damage."
+     },
+     {
+      "n": "Horrifying Visage",
+      "d": "Each non-undead creature within 60 feet of the banshee that can see her must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours."
+     },
+     {
+      "n": "Wail (1/Day)",
+      "d": "The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Mountain Goat",
+   "type": "Monster",
+   "name": "Mountain Goat",
+   "desc": "Medium beast, unaligned. Challenge 1/8.",
+   "stat": {
+    "size": "Medium",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/8",
+    "ab": {
+     "str": 14,
+     "dex": 12,
+     "con": 14,
+     "int": 2,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 13,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Charge",
+      "d": "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone."
+     },
+     {
+      "n": "Sure-Footed",
+      "d": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Ram",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Reghed Chieftain",
+   "type": "Monster",
+   "name": "Reghed Chieftain",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "5",
+    "ab": {
+     "str": 18,
+     "dex": 15,
+     "con": 16,
+     "int": 10,
+     "wis": 12,
+     "cha": 15
+    },
+    "ac": 16,
+    "acNote": "hide armor, shield",
+    "hpAuto": false,
+    "hp": 112,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "str": true,
+     "dex": true,
+     "con": true
+    },
+    "skills": {
+     "Athletics": 2,
+     "Intimidation": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Brave",
+      "d": "The chieftain has advantage on saving throws against being frightened."
+     },
+     {
+      "n": "Brute",
+      "d": "A melee weapon deals one extra die of its damage when the chieftain hits with it (included in the attack)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The chieftain makes three melee attacks or two ranged attacks."
+     },
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack."
+     },
+     {
+      "n": "Shield Bash",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Parry",
+      "d": "The chieftain adds 3 to its AC against one melee attack that would hit it. To do so, the chieftain must see the attacker and be wielding a melee weapon."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Reghed Great Warrior",
+   "type": "Monster",
+   "name": "Reghed Great Warrior",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "5",
+    "ab": {
+     "str": 18,
+     "dex": 15,
+     "con": 16,
+     "int": 10,
+     "wis": 12,
+     "cha": 15
+    },
+    "ac": 16,
+    "acNote": "hide armor, shield",
+    "hpAuto": false,
+    "hp": 112,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "str": true,
+     "dex": true,
+     "con": true
+    },
+    "skills": {
+     "Athletics": 2,
+     "Intimidation": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Brave",
+      "d": "The great warrior has advantage on saving throws against being frightened."
+     },
+     {
+      "n": "Brute",
+      "d": "A melee weapon deals one extra die of its damage when the great warrior hits with it (included in the attack)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The great warrior makes three melee attacks or two ranged attacks."
+     },
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack."
+     },
+     {
+      "n": "Shield Bash",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Parry",
+      "d": "The great warrior adds 3 to its AC against one melee attack that would hit it. To do so, the great warrior must see the attacker and be wielding a melee weapon."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Reghed Shaman",
+   "type": "Monster",
+   "name": "Reghed Shaman",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "2",
+    "ab": {
+     "str": 10,
+     "dex": 12,
+     "con": 13,
+     "int": 12,
+     "wis": 15,
+     "cha": 11
+    },
+    "ac": 11,
+    "acNote": "16 with barkskin",
+    "hpAuto": false,
+    "hp": 27,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Medicine": 1,
+     "Nature": 1,
+     "Perception": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Druidic",
+    "traits": [
+     {
+      "n": "Spellcasting",
+      "d": "The shaman is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): druidcraft, produce flame, shillelagh"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): entangle, longstrider, speak with animals, thunderwave"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): animal messenger, barkskin"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Quarterstaff",
+      "d": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Reghed Warrior",
+   "type": "Monster",
+   "name": "Reghed Warrior",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 1/8.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "1/8",
+    "ab": {
+     "str": 13,
+     "dex": 11,
+     "con": 12,
+     "int": 8,
+     "wis": 11,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 11,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Survival": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Pack Tactics",
+      "d": "The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Reindeer",
+   "type": "Monster",
+   "name": "Reindeer",
+   "desc": "Large beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 16,
+     "dex": 10,
+     "con": 12,
+     "int": 2,
+     "wis": 10,
+     "cha": 6
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 13,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Charge",
+      "d": "If the reindeer moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Ram",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+     },
+     {
+      "n": "Hooves",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Seal",
+   "type": "Monster",
+   "name": "Seal",
+   "desc": "Medium beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Medium",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 10,
+     "dex": 12,
+     "con": 11,
+     "int": 3,
+     "wis": 12,
+     "cha": 5
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 9,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Hold Breath",
+      "d": "The seal can hold its breath for 15 minutes."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The seal has advantage on Wisdom (Perception) checks that rely on smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Sheep",
+   "type": "Monster",
+   "name": "Sheep",
+   "desc": "Small beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Small",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 12,
+     "dex": 10,
+     "con": 11,
+     "int": 2,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 3,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Sure-Footed",
+      "d": "The sheep has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+     }
+    ],
+    "actions": [],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Snow Golem",
+   "type": "Monster",
+   "name": "Snow Golem",
+   "desc": "Medium construct, unaligned. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "3",
+    "ab": {
+     "str": 15,
+     "dex": 6,
+     "con": 14,
+     "int": 1,
+     "wis": 6,
+     "cha": 1
+    },
+    "ac": 8,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 39,
+    "hdn": 0,
+    "spd": {
+     "walk": 10
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "fire",
+    "res": "",
+    "imm": "cold, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Cold Absorption",
+      "d": "Whenever the golem is subjected to cold damage, it takes no damage and instead regains a number of hit points equal to the cold damage dealt."
+     },
+     {
+      "n": "Immutable Form",
+      "d": "The golem is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Melt",
+      "d": "While in an area of extreme heat, the golem loses 1d6 hit points at the start of each of its turns."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The golem doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The golem makes three melee attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 7 (2d6) cold damage."
+     },
+     {
+      "n": "Snowball",
+      "d": "Ranged Weapon Attack: +0 to hit, range 60 ft., one target. Hit: 9 (2d6 + 2) cold damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Snowy Owlbear",
+   "type": "Monster",
+   "name": "Snowy Owlbear",
+   "desc": "Large monstrosity, unaligned. Challenge 3.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "3",
+    "ab": {
+     "str": 20,
+     "dex": 12,
+     "con": 17,
+     "int": 3,
+     "wis": 12,
+     "cha": 7
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 59,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "swim": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Sight and Smell",
+      "d": "The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The owlbear makes two attacks: one with its beak and one with its claws."
+     },
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage."
+     },
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Sperm Whale",
+   "type": "Monster",
+   "name": "Sperm Whale",
+   "desc": "Gargantuan beast, unaligned. Challenge 8.",
+   "stat": {
+    "size": "Gargantuan",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "8",
+    "ab": {
+     "str": 26,
+     "dex": 8,
+     "con": 17,
+     "int": 3,
+     "wis": 12,
+     "cha": 5
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 189,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "swim": 60
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 120
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Echolocation",
+      "d": "The whale can't use its blindsight while deafened."
+     },
+     {
+      "n": "Hold Breath",
+      "d": "The whale can hold its breath for 90 minutes."
+     },
+     {
+      "n": "Keen Hearing",
+      "d": "The whale has advantage on Wisdom (Perception) checks that rely on hearing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The whale makes two attacks: one with its bite and one with its tail."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Dexterity saving throw or be swallowed by the whale. A swallowed creature has total cover against attacks and other effects outside the whale, and it takes 3 (1d6) acid damage at the start of each of the whale's turns. If the whale takes 30 damage or more on a single turn from a creature inside it, the whale must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the whale. If the whale dies, a swallowed creature can escape from the corpse by using 20 feet of movement, exiting prone."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (3d6 + 8) bludgeoning damage, or 37 (6d6 + 16) bludgeoning damage if the target is an object."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Spitting Mimic",
+   "type": "Monster",
+   "name": "Spitting Mimic",
+   "desc": "Large monstrosity (shapechanger), neutral. Challenge 5.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity (shapechanger)",
+    "tags": "",
+    "align": "neutral",
+    "cr": "5",
+    "ab": {
+     "str": 21,
+     "dex": 12,
+     "con": 17,
+     "int": 9,
+     "wis": 15,
+     "cha": 10
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 85,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "acid",
+    "cimm": "prone",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+     },
+     {
+      "n": "Grappler",
+      "d": "The mimic has advantage on attack rolls against any creature grappled by it."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The mimic has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Adhesive (Object Form Only)",
+      "d": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage."
+     },
+     {
+      "n": "False Appearance (Object Form Only)",
+      "d": "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mimic attacks three times: twice with its pseudopods and once with its bite."
+     },
+     {
+      "n": "Pseudopods",
+      "d": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage."
+     },
+     {
+      "n": "Spit Acid (Recharge 5–6)",
+      "d": "The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Telepathic Pentacle",
+   "type": "Monster",
+   "name": "Telepathic Pentacle",
+   "desc": "Huge monstrosity, unaligned. Challenge 8.",
+   "stat": {
+    "size": "Huge",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "8",
+    "ab": {
+     "str": 20,
+     "dex": 12,
+     "con": 20,
+     "int": 2,
+     "wis": 10,
+     "cha": 7
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 172,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "swim": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Hold Breath",
+      "d": "The Telepathic Pentacle can hold its breath for 1 hour."
+     },
+     {
+      "n": "Multiple Heads",
+      "d": "The Telepathic Pentacle has five heads. While it has more than one head, the Telepathic Pentacle has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+     },
+     {
+      "n": "Whenever the Telepathic Pentacle takes 25 or more damage in a single turn, one of its heads dies",
+      "d": "If all its heads die, the Telepathic Pentacle dies."
+     },
+     {
+      "n": "At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn",
+      "d": "The Telepathic Pentacle regains 10 hit points for each head regrown in this way."
+     },
+     {
+      "n": "Reactive Heads",
+      "d": "For each head the Telepathic Pentacle has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+     },
+     {
+      "n": "Wakeful",
+      "d": "While the Telepathic Pentacle sleeps, at least one of its heads is awake."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The Telepathic Pentacle makes as many bite attacks as it has heads."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Tomb Tapper",
+   "type": "Monster",
+   "name": "Tomb Tapper",
+   "desc": "Huge construct, lawful neutral. Challenge 10.",
+   "stat": {
+    "size": "Huge",
+    "type": "construct",
+    "tags": "",
+    "align": "lawful neutral",
+    "cr": "10",
+    "ab": {
+     "str": 22,
+     "dex": 10,
+     "con": 21,
+     "int": 14,
+     "wis": 14,
+     "cha": 11
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 207,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "burrow": 10
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "lightning",
+    "imm": "cold, fire",
+    "cimm": "charmed, frightened",
+    "sen": {
+     "blindsight": 240
+    },
+    "langs": "Understands Common and Undercommon but doesn't speak, telepathy 60 ft.",
+    "traits": [
+     {
+      "n": "Petrified Death",
+      "d": "A tomb tapper reduced to 0 hit points turns into a lifeless stone statue. Anything it's wearing or carrying is not transformed."
+     },
+     {
+      "n": "Sense Magic",
+      "d": "The tomb tapper senses magic within 30 feet of it and can use an action to pinpoint the location of any creature, object, or area in that range that bears magic. This sense penetrates barriers but is blocked by a thin sheet of lead."
+     },
+     {
+      "n": "Tunneler",
+      "d": "The tomb tapper can burrow through solid rock at half its burrowing speed and leaves a 10-foot-wide, 20-foot-tall tunnel in its wake."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The tomb tapper doesn't require air or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The tomb tapper makes two melee attacks with its sledgehammer or with its claws. If it hits the same creature with both claws, it can pull that creature within 5 feet of its mouth and make a bite attack against it."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) slashing damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (3d6 + 6) slashing damage."
+     },
+     {
+      "n": "Sledgehammer",
+      "d": "Melee or Ranged Weapon Attack: +10 to hit, reach 15 ft. or range 30/120 ft., one target. Hit: 27 (6d6 + 6) bludgeoning or force damage (tomb tapper's choice). If thrown, the hammer returns to the tomb tapper at the end of its turn, landing at the tomb tapper's feet if it doesn't have a hand free to catch the weapon."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Tribal Warrior Spore Servant",
+   "type": "Monster",
+   "name": "Tribal Warrior Spore Servant",
+   "desc": "Medium plant, unaligned. Challenge 1/8.",
+   "stat": {
+    "size": "Medium",
+    "type": "plant",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/8",
+    "ab": {
+     "str": 13,
+     "dex": 11,
+     "con": 12,
+     "int": 2,
+     "wis": 6,
+     "cha": 1
+    },
+    "ac": 12,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 11,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "blinded, charmed, frightened, paralyzed",
+    "sen": {
+     "blindsight": 30
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Verbeeg Longstrider",
+   "type": "Monster",
+   "name": "Verbeeg Longstrider",
+   "desc": "Large giant, neutral. Challenge 5.",
+   "stat": {
+    "size": "Large",
+    "type": "giant",
+    "tags": "",
+    "align": "neutral",
+    "cr": "5",
+    "ab": {
+     "str": 19,
+     "dex": 15,
+     "con": 16,
+     "int": 13,
+     "wis": 14,
+     "cha": 10
+    },
+    "ac": 14,
+    "acNote": "hide armor",
+    "hpAuto": false,
+    "hp": 119,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Animal Handling": 1,
+     "Athletics": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Giant",
+    "traits": [
+     {
+      "n": "Innate Spellcasting",
+      "d": "The verbeeg's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: animal messenger, fog cloud, freedom of movement, pass without trace, silence, water walk"
+     },
+     {
+      "n": "Simple Weapon Wielder",
+      "d": "A simple weapon deals one extra die of its damage when the verbeeg hits with it (included in the attack)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The verbeeg makes two melee attacks."
+     },
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4) piercing damage if used to make a ranged attack or used with two hands to make a melee attack."
+     },
+     {
+      "n": "Sling",
+      "d": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 9 (3d4 + 2) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Verbeeg Marauder",
+   "type": "Monster",
+   "name": "Verbeeg Marauder",
+   "desc": "Large giant, neutral evil. Challenge 4.",
+   "stat": {
+    "size": "Large",
+    "type": "giant",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "4",
+    "ab": {
+     "str": 19,
+     "dex": 11,
+     "con": 16,
+     "int": 11,
+     "wis": 10,
+     "cha": 9
+    },
+    "ac": 14,
+    "acNote": "hide armor, shield",
+    "hpAuto": false,
+    "hp": 85,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {
+     "dex": true,
+     "con": true
+    },
+    "skills": {
+     "Animal Handling": 1,
+     "Athletics": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Giant",
+    "traits": [
+     {
+      "n": "Simple Weapon Wielder",
+      "d": "A simple weapon deals one extra die of its damage when the verbeeg hits with it (included in the attack)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The verbeeg makes two melee attacks."
+     },
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4) piercing damage if used to make a ranged attack or used with two hands to make a melee attack."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Walrus",
+   "type": "Monster",
+   "name": "Walrus",
+   "desc": "Large beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 15,
+     "dex": 9,
+     "con": 14,
+     "int": 3,
+     "wis": 11,
+     "cha": 4
+    },
+    "ac": 9,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 40
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Hold Breath",
+      "d": "The walrus can hold its breath for 10 minutes."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Tusks",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Yeti Tyke",
+   "type": "Monster",
+   "name": "Yeti Tyke",
+   "desc": "Small monstrosity, chaotic evil. Challenge 1/8.",
+   "stat": {
+    "size": "Small",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "1/8",
+    "ab": {
+     "str": 10,
+     "dex": 11,
+     "con": 12,
+     "int": 6,
+     "wis": 8,
+     "cha": 5
+    },
+    "ac": 11,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 9,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "climb": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "cold",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Yeti but can't speak",
+    "traits": [
+     {
+      "n": "Keen Smell",
+      "d": "The yeti has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Snow Camouflage",
+      "d": "The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage plus 2 (1d4) cold damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Young Griffon (Medium)",
+   "type": "Monster",
+   "name": "Young Griffon (Medium)",
+   "desc": "Medium monstrosity, unaligned. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1",
+    "ab": {
+     "str": 12,
+     "dex": 15,
+     "con": 16,
+     "int": 2,
+     "wis": 13,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 32,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 80
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Sight",
+      "d": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The griffon makes two attacks: one with its beak and one with its claws."
+     },
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+     },
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Young Griffon (Small)",
+   "type": "Monster",
+   "name": "Young Griffon (Small)",
+   "desc": "Small monstrosity, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 8,
+     "dex": 15,
+     "con": 16,
+     "int": 2,
+     "wis": 13,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 13,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 80
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Sight",
+      "d": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The griffon makes two attacks: one with its beak and one with its claws."
+     },
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
+     },
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Young Griffon (Tiny)",
+   "type": "Monster",
+   "name": "Young Griffon (Tiny)",
+   "desc": "Tiny monstrosity, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 2,
+     "dex": 15,
+     "con": 16,
+     "int": 2,
+     "wis": 13,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 5,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 40
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Sight",
+      "d": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The griffon makes two attacks: one with its beak and one with its claws."
+     },
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+     },
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}
