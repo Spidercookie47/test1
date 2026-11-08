@@ -1,0 +1,342 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Way of the Ascendant Dragon (UA)",
+   "type": "Subclass",
+   "name": "Way of the Ascendant Dragon (UA)",
+   "supports": "Class:Monk",
+   "desc": "Monks who follow the Way of the Ascendant Dragon revere the power and grandeur of dragons. They alter their own ki to resonate with draconic might, channeling it to augment their prowess in battle, soar through the air, and to bolster their allies.\n\nAs a follower of this Monastic Tradition, you decide how you unlocked the power of dragons through your ki. The Ascendant Dragon Origin table offers some possibilities.\n\nAscendant Dragon Origin\n1: You honed your abilities by observing a dragon and aligning your ki with their world altering power.\n2: A dragon personally took an active role in shaping your inner energy.\n3: You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction.\n4: You spent long stretches meditating in the region of influence of an ancient dragon's lair, absorbing its ambient magic.\n5: You found a scroll written in Draconic that contained inspiring new techniques.\n6: After a dream that featured a five-handed dragonborn you awoke with altered ki, reflecting the breaths of dragons.",
+   "rules": [
+    {
+     "grant": "Class Feature:Draconic Disciple (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Breath of the Dragon (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Wings Unfurled (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Aspect of the Wyrm (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Ascendant Aspect (UA)",
+     "level": 17
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Way of the Astral Self (UA)",
+   "type": "Subclass",
+   "name": "Way of the Astral Self (UA)",
+   "supports": "Class:Monk",
+   "desc": "Monks of the Way of the Astral Self have an internal struggle with their ki. They see their mystical energy as a representation of their true form, an astral self. This form has the capacity to be a force of good or destruction, with some monasteries training students to either temper their nature or embrace their impulses.",
+   "rules": [
+    {
+     "grant": "Class Feature:Arms of the Astral Self (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Visage of the Astral Self (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Awakening of the Astral Self (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Complete Astral Self (UA)",
+     "level": 17
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Way of Mercy (UA)",
+   "type": "Subclass",
+   "name": "Way of Mercy (UA)",
+   "supports": "Class:Monk",
+   "desc": "Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help—whether ailing or evil—they bring a swift end as an act of mercy.\n\nThose who follow the Way of Mercy might be humble members of a religious order, administering to those in greatest need, making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.\n\nThe walkers of this way usually don simple robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death. If you wear a mask, choose its appearance, or determine it randomly by rolling on the Merciful Mask table.\n\nMerciful Mask\n1: Raven\n2: Blank and white\n3: Crying visage\n4: Laughing visage\n5: Skull\n6: Butterfly",
+   "rules": [
+    {
+     "grant": "Class Feature:Implements of Mercy (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hands of Healing (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hands of Harm (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Noxious Aura (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Healing Technique (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Hand of Mercy (UA)",
+     "level": 17
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Way of Tranquility (UA)",
+   "type": "Subclass",
+   "name": "Way of Tranquility (UA)",
+   "supports": "Class:Monk",
+   "desc": "Monks of the Way of Tranquility see violence as a last resort. They use diplomacy, mercy, and understanding to resolve conflicts. If pushed, though, they are capable warriors who can bring an end to the unjust or cruel folk who refuse to listen to reason. When adventuring, these monks make excellent diplomats. They are also skilled in the healing arts, and can preserve their allies in the face of daunting foes.",
+   "rules": [
+    {
+     "grant": "Class Feature:Path of Tranquility (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Healing Hands (Tranquility UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Emissary of Peace (UA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Douse the Flames of War (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Anger of a Gentle Soul (UA)",
+     "level": 17
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Draconic Disciple (UA)",
+   "type": "Class Feature",
+   "name": "Draconic Disciple (UA)",
+   "desc": "3rd-level Way of the Ascendant Dragon feature.\n\nAt 3rd-level you can channel your draconic ki to imbue your unarmed strikes with the essence of a dragon's breath and to use your connection with draconic creatures to magnify your presence. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "grant": "Language:Draconic"
+    },
+    {
+     "resource": {
+      "id": "draconic-presence-ua",
+      "name": "Draconic Presence",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Breath of the Dragon (UA)",
+   "type": "Class Feature",
+   "name": "Breath of the Dragon (UA)",
+   "desc": "3rd-level Way of the Ascendant Dragon feature.\n\nAt 3rd-level you can channel your ki into destructive waves of energy like the dragons you emulate. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "breath-of-the-dragon-ua",
+      "name": "Breath of the Dragon (UA)",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Wings Unfurled (UA)",
+   "type": "Class Feature",
+   "name": "Wings Unfurled (UA)",
+   "desc": "6th-level Way of the Ascendant Dragon feature.\n\nAt 6th-level when you use your Step of the Wind, you can unfurl spectral draconic wings from your back that vanish at the end of your turn. While the wings exist, you have a flying speed equal to your walking speed. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "wings-unfurled-ua",
+      "name": "Wings Unfurled (UA)",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Aspect of the Wyrm (UA)",
+   "type": "Class Feature",
+   "name": "Aspect of the Wyrm (UA)",
+   "desc": "11th-level Way of the Ascendant Dragon feature.\n\nWhen you reach 11th-level the power of your draconic ki now radiates from you, protecting your allies from harm and punishing any who raise arms against them. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "aspect-of-the-wyrm-ua",
+      "name": "Aspect of the Wyrm (UA)",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ascendant Aspect (UA)",
+   "type": "Class Feature",
+   "name": "Ascendant Aspect (UA)",
+   "desc": "17th-level Way of the Ascendant Dragon feature.\n\nAt 17th-level your draconic ki reaches its peak. You gain the following benefits: See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arms of the Astral Self (UA)",
+   "type": "Class Feature",
+   "name": "Arms of the Astral Self (UA)",
+   "desc": "3rd-level Way of the Astral Self feature.\n\nAt 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Visage of the Astral Self (UA)",
+   "type": "Class Feature",
+   "name": "Visage of the Astral Self (UA)",
+   "desc": "6th-level Way of the Astral Self feature.\n\nStarting at 6th level, you can summon the visage of your astral self. On your turn, you can spend 1 ki point as a bonus action, or as part of summoning your astral arms, to summon this visage for 10 minutes. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Awakening of the Astral Self (UA)",
+   "type": "Class Feature",
+   "name": "Awakening of the Astral Self (UA)",
+   "desc": "11th-level Way of the Astral Self feature.\n\nStarting at 11th level, you tap into the greater power of your astral self. While you have both your astral arms and visage summoned, you gain the following benefits. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Complete Astral Self (UA)",
+   "type": "Class Feature",
+   "name": "Complete Astral Self (UA)",
+   "desc": "17th-level Way of the Astral Self feature.\n\nStarting at 17th level, your connection to your astral self is complete, allowing you summon it entirely. On your turn, you can spend 10 ki points as a bonus action to summon the arms, visage, and body of your astral self for 10 minutes. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Implements of Mercy (UA)",
+   "type": "Class Feature",
+   "name": "Implements of Mercy (UA)",
+   "desc": "3rd-level Way of Mercy feature.\n\nAt 3rd level, you gain proficiency in the Insight or Medicine skill (your choice), and you gain proficiency with the herbalism kit and the poisoner’s kit.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency (Implements of Mercy)",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Insight",
+       "Medicine"
+      ]
+     }
+    },
+    {
+     "pf": [
+      "t:Herbalism kit",
+      "t:Poisoner’s kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Hands of Healing (UA)",
+   "type": "Class Feature",
+   "name": "Hands of Healing (UA)",
+   "desc": "3rd-level Way of Mercy feature.\n\nAt 3rd level, your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hands of Harm (UA)",
+   "type": "Class Feature",
+   "name": "Hands of Harm (UA)",
+   "desc": "3rd-level Way of Mercy feature.\n\nAt 3rd level, you use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Noxious Aura (UA)",
+   "type": "Class Feature",
+   "name": "Noxious Aura (UA)",
+   "desc": "6th-level Way of Mercy feature.\n\nAt 6th level, as a bonus action, you spend 1 ki point to turn your ki into an aura of toxic miasma. The aura extends 5 feet from you in every direction, but not through total cover. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Healing Technique (UA)",
+   "type": "Class Feature",
+   "name": "Healing Technique (UA)",
+   "desc": "11th-level Way of Mercy feature.\n\nAt 11th level, your skill in manipulating your ki to heal increases. When you restore hit points to a creature using your Hands of Healing, you can also end one disease or a condition from the following list affecting the target: blinded, deafened, paralyzed, or poisoned.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hand of Mercy (UA)",
+   "type": "Class Feature",
+   "name": "Hand of Mercy (UA)",
+   "desc": "17th-level Way of Mercy feature.\n\nAt 17th level, your mastery of life energy opens the door to the ultimate respite technique. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Path of Tranquility (UA)",
+   "type": "Class Feature",
+   "name": "Path of Tranquility (UA)",
+   "desc": "3rd-level Way of Tranquility feature.\n\nWhen you choose this tradition at 3rd level, you can become an island of calm in even the most chaotic of situations. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Healing Hands (Tranquility UA)",
+   "type": "Class Feature",
+   "name": "Healing Hands (Tranquility UA)",
+   "desc": "3rd-level Way of Tranquility feature.\n\nYour mystical touch can heal wounds. Starting at 3rd level, you have a pool of magical healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your monk level × 10. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Emissary of Peace (UA)",
+   "type": "Class Feature",
+   "name": "Emissary of Peace (UA)",
+   "desc": "6th-level Way of Tranquility feature.\n\nAt 6th level, you gain the ability to diffuse violent situations. Whenever you make a Charisma check to calm violent emotions or to counsel peace, you have advantage on the roll. See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency (Emissary of Peace)",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Performance",
+       "Persuasion"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Douse the Flames of War (UA)",
+   "type": "Class Feature",
+   "name": "Douse the Flames of War (UA)",
+   "desc": "11th-level Way of Tranquility feature.\n\nAt 11th level, you gain the ability to temporarily extinguish a creature’s violent impulses. As an action, you can touch a creature, and it must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Wisdom modifier. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Anger of a Gentle Soul (UA)",
+   "type": "Class Feature",
+   "name": "Anger of a Gentle Soul (UA)",
+   "desc": "17th-level Way of Tranquility feature.\n\nAt 17th level, you gain the ability to visit vengeance on someone who fells others. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "anger-of-a-gentle-soul",
+      "name": "Anger of a Gentle Soul",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,451 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Rune Carver Adept (UA)",
+   "type": "Feat",
+   "name": "Rune Carver Adept (UA)",
+   "desc": "Prerequisite: 4th level, Rune Carver Apprentice feat\n\nSource: Unearthed Arcana 83 — Giant Options\n\nYour skill with the art of runecraft has increased.\n\nWhenever you finish a long rest, you can now mark a number of objects equal to your proficiency bonus with a rune from the Rune Carver Apprentice feat. An object can have only one rune at a time, and you must inscribe a different rune on each object.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Rune Carver Adept (Revised UA)",
+   "type": "Feat",
+   "name": "Rune Carver Adept (Revised UA)",
+   "desc": "Prerequisite: 4th level, Rune Carver Apprentice feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-rune-carver-adept-revised-power",
+      "name": "Runic Power",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Rune Carver Apprentice (UA)",
+   "type": "Feat",
+   "name": "Rune Carver Apprentice (UA)",
+   "desc": "Source: Unearthed Arcana 83 — Giant Options\n\nYou've begun studying the art of runecraft, which allows you to temporarily mark your items and imbue them with magic. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Rune Carver Apprentice (Revised UA)",
+   "type": "Feat",
+   "name": "Rune Carver Apprentice (Revised UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou've begun studying the art of runecraft. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Comprehend Languages",
+     "1/long rest (no slot)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Scion of the Outer Planes (UA)",
+   "type": "Feat",
+   "name": "Scion of the Outer Planes (UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou are influenced by and adept at navigating planar pathways and the strange realities of the Outer Planes. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Scion of Elemental Air (UA)",
+   "type": "Feat",
+   "name": "Scion of Elemental Air (UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou've been exposed to the primordial magic of the Elemental Plane of Air, granting you the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-scion-air-winds-glide",
+      "name": "Wind's Glide",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Minor Illusion",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Scion of Elemental Earth (UA)",
+   "type": "Feat",
+   "name": "Scion of Elemental Earth (UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou've been exposed to the primordial magic of the Elemental Plane of Earth, granting you the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-scion-earth-earthen-shield",
+      "name": "Earthen Shield",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Druidcraft",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Scion of Elemental Fire (UA)",
+   "type": "Feat",
+   "name": "Scion of Elemental Fire (UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou've been exposed to the primordial magic of the Elemental Plane of Fire, granting you the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-scion-fire-fervent-blaze",
+      "name": "Fervent Blaze (bonus-action Produce Flame)",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Dancing Lights",
+     "at will"
+    ],
+    [
+     1,
+     "Produce Flame",
+     "at will (bonus-action cast PB uses/long rest)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Scion of Elemental Water (UA)",
+   "type": "Feat",
+   "name": "Scion of Elemental Water (UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou've been exposed to the primordial magic of the Elemental Plane of Water, granting you the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-scion-water-wave-surge",
+      "name": "Wave Surge",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Thaumaturgy",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Shield Training (UA)",
+   "type": "Feat",
+   "name": "Shield Training (UA)",
+   "desc": "Source: Unearthed Arcana 73 — Feats\n\nYou've trained in the effective use of shields. You gain the following benefits:\n\nIncrease your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.\nYou gain proficiency with shields.\nIn combat, you can don or doff a shield as the free object interaction on your turn.\nIf you have the Spellcasting or Pact Magic feature, you can use a shield as a spellcasting focus.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Strength (UA)",
+       "Feat Ability Increase:Dexterity (UA)",
+       "Feat Ability Increase:Constitution (UA)"
+      ]
+     }
+    },
+    {
+     "pf": [
+      "a:Shields"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Feat:Silver Tongued (UA)",
+   "type": "Feat",
+   "name": "Silver Tongued (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou develop your conversational skill to better deceive others. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "skill:Deception"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Soul of the Storm Giant (UA)",
+   "type": "Feat",
+   "name": "Soul of the Storm Giant (UA)",
+   "desc": "Prerequisite: 8th level\n\nSource: Unearthed Arcana 83 — Giant Options See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-soul-storm-giant-maelstrom",
+      "name": "Maelstrom Aura",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     8,
+     "Divination",
+     "Storm's Oracle (ritual, 1/long rest)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Soul of the Storm Giant (Revised UA)",
+   "type": "Feat",
+   "name": "Soul of the Storm Giant (Revised UA)",
+   "desc": "Prerequisite: 4th level, Strike of the Giants (Storm Giant) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Intelligence (UA)",
+       "Feat Ability Increase:Wisdom (UA)",
+       "Feat Ability Increase:Charisma (UA)"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-soul-storm-giant-revised-maelstrom",
+      "name": "Maelstrom Aura",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Squire of Solamnia (UA)",
+   "type": "Feat",
+   "name": "Squire of Solamnia (UA)",
+   "desc": "Prerequisite: Squireship in the Knights of Solamnia\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": [
+    {
+     "pf": [
+      "a:Medium armor",
+      "w:Martial weapons"
+     ]
+    },
+    {
+     "resource": {
+      "id": "feat-squire-solamnia-rally",
+      "name": "Encouraging Rally",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Stealthy (UA)",
+   "type": "Feat",
+   "name": "Stealthy (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou know how best to hide. You gain the following benefits:\n\nIncrease your Dexterity score by 1, to a maximum of 20.\nYou gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nIf you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible.\n\nEngine note: if you were already proficient in Stealth, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    },
+    {
+     "grant": "skill:Stealth"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Strike of the Giants (UA)",
+   "type": "Feat",
+   "name": "Strike of the Giants (UA)",
+   "desc": "Source: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou have absorbed primeval magic that gives you an echo of the might of giants. Choose one of the kinds of giants listed below. As a bonus action, you can call on the power of your giant magic to imbue your attacks with additional power. The next time you hit a target with a melee or thrown weapon attack within the next minute, the attack has an additional effect depending on the origin of your giant magic: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-strike-giants-imbue",
+      "name": "Strike of the Giants",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Survivalist (UA)",
+   "type": "Feat",
+   "name": "Survivalist (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou master wilderness lore, gaining the following benefits:\n\nIncrease your Wisdom score by 1, to a maximum of 20.\nYou gain proficiency in the Survival skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nYou learn the Alarm spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest.\n\nEngine note: if you were already proficient in Survival, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "skill:Survival"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Alarm",
+     "1/long rest (no slot)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Tandem Tactician (UA)",
+   "type": "Feat",
+   "name": "Tandem Tactician (UA)",
+   "desc": "Source: Unearthed Arcana 73 — Feats\n\nYour presence in a scrap tends to elevate your comrades. You gain the following benefits:\n\nYou can use the Help action as a bonus action.\nWhen you use the Help action to aid an ally in attacking a creature, increase the range of the Help action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the Help action this way.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Theologian (UA)",
+   "type": "Feat",
+   "name": "Theologian (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYour extensive study of religion rewards you with the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "skill:Religion"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Thaumaturgy",
+     "at will"
+    ],
+    [
+     1,
+     "Detect Evil and Good",
+     "1/long rest (no slot)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Tower of Iron Will (UA)",
+   "type": "Feat",
+   "name": "Tower of Iron Will (UA)",
+   "desc": "Prerequisite: Psionic Talent feature or Wild Talent feat\n\nSource: Unearthed Arcana 71 — Psionic Options Revisited\n\nYour mind's defenses are formidable. After you or another creature you can see within 30 feet of you fails a saving throw, you can use your reaction to roll your Psionic Talent die and add the number rolled to the saving throw, potentially causing it to succeed.\n\nEngine note: requires a Psionic Talent die (from Psionic Soul Sorcerer, Psi Knight Fighter, or the Wild Talent feat) which the engine does not track. Desc only.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Tracker (UA)",
+   "type": "Feat",
+   "name": "Tracker (UA)",
+   "desc": "Source: Unearthed Arcana 73 — Feats\n\nYou have spent time hunting creatures and honed your skills, gaining the following benefits:\n\nIncrease your Wisdom score by 1, to a maximum of 20.\nYou learn the Hunter's Mark spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. Wisdom is your spellcasting ability for this spell.\nYou have advantage on Wisdom (Survival) checks to track creatures.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Hunter's Mark",
+     "1/long rest (no slot)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Vigor of the Hill Giant (UA)",
+   "type": "Feat",
+   "name": "Vigor of the Hill Giant (UA)",
+   "desc": "Prerequisite: 4th level\n\nSource: Unearthed Arcana 83 — Giant Options See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-vigor-hill-giant-hearty",
+      "name": "Hearty Health",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Vigor of the Hill Giant (Revised UA)",
+   "type": "Feat",
+   "name": "Vigor of the Hill Giant (Revised UA)",
+   "desc": "Prerequisite: 4th level, Strike of the Giants (Hill Giant) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse\n\nYou've manifested the resilience emblematic of hill giants, granting you the following benefits:\n\nAbility Score Increase. Increase your Constitution score by 1, to a maximum of 20.\n\nBulwark. When you are subjected to an effect that would move you at least 5 feet or knock you prone, you can use your reaction to steady yourself. You are then neither moved nor knocked prone.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Wild Talent (UA)",
+   "type": "Feat",
+   "name": "Wild Talent (UA)",
+   "desc": "Source: Unearthed Arcana 71 — Psionic Options Revisited\n\nYou awaken to your psionic potential, which enhances your mind or body. Increase one ability score of your choice by 1, to a maximum of 20, to represent this enhancement. See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-wild-talent-psi-replenishment",
+      "name": "Psi Replenishment",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  }
+ ]
+}

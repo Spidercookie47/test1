@@ -1,0 +1,383 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Oath of Heroism (UA)",
+   "type": "Subclass",
+   "name": "Oath of Heroism (UA)",
+   "supports": "Class:Paladin",
+   "desc": "The Oath of Heroism is an affirmation of a destined path, one laid out for you by divine hands. For whatever reason, a god or a group of gods has included you in their machinations. You are not a reluctant hero, but one who fully embraces the idea that great deeds are yours to achieve. You train diligently, sculpting your body and refining your skills so you're ready when destiny calls.\n\nTenets of Heroism\nThe tenets of the Oath of Heroism reflect a paladin's commitment to fulfilling their calling as a hero worthy of legend.\nActions Over Words. Strive to be known by deeds, not words.\nChallenges Are But Tests. Every hardship serves to challenge your abilities and harden your resolve.\nEmbrace Destiny. You didn't choose this path, but it's yours to walk. And it will carry you into legend.\nHone the Body. Like raw stone, your body must be worked so its potential can be realized.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Heroism UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mighty Deed (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Glorious Defense (UA)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Living Myth (UA)",
+     "level": 20
+    }
+   ],
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Expeditious Retreat",
+      "Guiding Bolt"
+     ],
+     "5": [
+      "Enhance Ability",
+      "Enthrall"
+     ],
+     "9": [
+      "Haste",
+      "Protection From Energy"
+     ],
+     "13": [
+      "Compulsion",
+      "Freedom of Movement"
+     ],
+     "17": [
+      "Commune",
+      "Conjure Volley"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of Treachery (UA)",
+   "type": "Subclass",
+   "name": "Oath of Treachery (UA)",
+   "supports": "Class:Paladin",
+   "desc": "The Oath of Treachery is the path followed by paladins who have forsworn other oaths or who care only for their own power and survival. Commonly known as blackguards, these profane warriors are faithful only to themselves. Anyone desperate enough to follow one of these paladins does so because, while deceitful, these paladins command great power. Those who follow them without falling prey to their treachery hope to indulge in wanton violence and accumulate great treasure.\n\nMany of these paladins pay homage to demon lords, especially Grazz’t and Orcus. Even the Lords of Hell are loath to ally with these champions of chaos, but sometimes Baalzebul and Glasya find a kindred spirit in a blackguard’s penchant for double dealing and treachery.\n\nTenets of Treachery\nA paladin who embraces the Oath of Treachery owes allegiance to no one. There are no tenets of this oath, for it lacks any substance. Those who are unfortunate enough to have close contact with blackguards have observed that a blackguard’s overwhelming concern is power and safety, especially if both can be obtained at the expense of others.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Treachery UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Treachery (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Blackguard's Escape (UA)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Icon of Deceit (UA)",
+     "level": 20
+    }
+   ],
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Charm Person",
+      "Expeditious Retreat"
+     ],
+     "5": [
+      "Invisibility",
+      "Mirror Image"
+     ],
+     "9": [
+      "Gaseous Form",
+      "Haste"
+     ],
+     "13": [
+      "Confusion",
+      "Greater Invisibility"
+     ],
+     "17": [
+      "Dominate Person",
+      "Passwall"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of Redemption (UA)",
+   "type": "Subclass",
+   "name": "Oath of Redemption (UA)",
+   "supports": "Class:Paladin",
+   "desc": "The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk. These paladins face evil creatures in the hope of turning them to the light, and the paladins slay them only when such a deed will clearly save other lives. Paladins who follow this path are known as redeemers.\n\nTenets of Redemption\nThe tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.\nPeace. Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.\nInnocence. All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.\nPatience. Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow it to survive and then flourish.\nWisdom. Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.",
+   "rules": [
+    {
+     "grant": "Class Feature:Armor of Peace (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Warrior of Reconciliation (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Redemption UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of the Guardian (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Protective Spirit (UA)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Emissary of Redemption (UA)",
+     "level": 20
+    }
+   ],
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Shield",
+      "Sleep"
+     ],
+     "5": [
+      "Hold Person",
+      "Ray of Enfeeblement"
+     ],
+     "9": [
+      "Counterspell",
+      "Hypnotic Pattern"
+     ],
+     "13": [
+      "Resilient Sphere",
+      "Stoneskin"
+     ],
+     "17": [
+      "Hold Monster",
+      "Wall of Force"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of the Watchers (UA)",
+   "type": "Subclass",
+   "name": "Oath of the Watchers (UA)",
+   "supports": "Class:Paladin",
+   "desc": "Paladins who vow the Oath of the Watchers seek to protect the moral realm from the predations of extraplanar creatures, many of which can lay waste to mortal soldiers. Thus, the Watchers hone their minds, spirits, and bodies to be the ultimate weapons against such threats.\n\nPaladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informant to gather information on suspected cults. To a Watch, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.\n\nTenets of the Watchers\nA paladin who assumes the Oath of the Watchers swears to safeguard the mortal realm from otherwordly threats.\nVigilance. The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.\nLoyalty. Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.\nDiscipline. You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of the Watchers UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of the Sentinel (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Vigilant Rebuke (UA)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Mortal Bulwark (UA)",
+     "level": 20
+    }
+   ],
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Alarm",
+      "Chromatic Orb"
+     ],
+     "5": [
+      "Augury",
+      "Moonbeam"
+     ],
+     "9": [
+      "Counterspell",
+      "Nondetection"
+     ],
+     "13": [
+      "Aura of Purity",
+      "Banishment"
+     ],
+     "17": [
+      "Hallow",
+      "Hold Monster"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Channel Divinity (Oath of Heroism UA)",
+   "type": "Class Feature",
+   "name": "Channel Divinity (Oath of Heroism UA)",
+   "desc": "3rd-level Oath of Heroism feature.\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mighty Deed (UA)",
+   "type": "Class Feature",
+   "name": "Mighty Deed (UA)",
+   "desc": "7th-level Oath of Heroism feature.\n\nAt 7th level, your actions on the battlefield can supernaturally bolster your allies and demoralize your enemies. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Glorious Defense (UA)",
+   "type": "Class Feature",
+   "name": "Glorious Defense (UA)",
+   "desc": "15th-level Oath of Heroism feature.\n\nAt 15th level, your blessed glory on the battlefield can misdirect an attack. When a creature you can see hits you with an attack roll, you can use your reaction to gain a bonus to AC against that attack, potentially causing it to miss you. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Living Myth (UA)",
+   "type": "Class Feature",
+   "name": "Living Myth (UA)",
+   "desc": "20th-level Oath of Heroism feature.\n\nStarting at 20th level, you can now empower yourself with the legends - whether true or exaggerated - told of your great deeds. As a bonus action, you gain the following benefits for 10 minutes. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "living-myth",
+      "name": "Living Myth",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Channel Divinity (Oath of Treachery UA)",
+   "type": "Class Feature",
+   "name": "Channel Divinity (Oath of Treachery UA)",
+   "desc": "3rd-level Oath of Treachery feature.\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Treachery (UA)",
+   "type": "Class Feature",
+   "name": "Aura of Treachery (UA)",
+   "desc": "7th-level Oath of Treachery feature.\n\nStarting at 7th level, you emanate an aura of discord, which gives you the following benefits. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "treacherous-strike",
+      "name": "Treacherous Strike",
+      "rest": "S",
+      "max": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blackguard's Escape (UA)",
+   "type": "Class Feature",
+   "name": "Blackguard's Escape (UA)",
+   "desc": "15th-level Oath of Treachery feature.\n\nAt 15th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "blackguards-escape",
+      "name": "Blackguard's Escape",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Icon of Deceit (UA)",
+   "type": "Class Feature",
+   "name": "Icon of Deceit (UA)",
+   "desc": "20th-level Oath of Treachery feature.\n\nAt 20th level, you gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "icon-of-deceit",
+      "name": "Icon of Deceit",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Armor of Peace (UA)",
+   "type": "Class Feature",
+   "name": "Armor of Peace (UA)",
+   "desc": "3rd-level Oath of Redemption feature.\n\nStarting at 3rd level, your commitment to peace allows you to walk into the most dangerous situations unarmored. While you aren’t wearing armor or wielding a shield, your base AC is 16 + your Dexterity modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Warrior of Reconciliation (UA)",
+   "type": "Class Feature",
+   "name": "Warrior of Reconciliation (UA)",
+   "desc": "3rd-level Oath of Redemption feature.\n\nAt 3rd level, you foreswear the weapons of war in favor of simple tools. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity (Oath of Redemption UA)",
+   "type": "Class Feature",
+   "name": "Channel Divinity (Oath of Redemption UA)",
+   "desc": "3rd-level Oath of Redemption feature.\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of the Guardian (UA)",
+   "type": "Class Feature",
+   "name": "Aura of the Guardian (UA)",
+   "desc": "7th-level Oath of Redemption feature.\n\nStarting at 7th level, you can shield your allies from harm at the cost of your own health. As a reaction when an ally within 10 feet of you takes damage, you instead magically take that damage. This feature doesn’t transfer any other effects that might accompany the damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Protective Spirit (UA)",
+   "type": "Class Feature",
+   "name": "Protective Spirit (UA)",
+   "desc": "15th-level Oath of Redemption feature.\n\nStarting at 15th level, a holy presence mends your wounds in combat. You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren’t incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Emissary of Redemption (UA)",
+   "type": "Class Feature",
+   "name": "Emissary of Redemption (UA)",
+   "desc": "20th-level Oath of Redemption feature.\n\nAt 20th level, you become an avatar of peace, which gives you two benefits: See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity (Oath of the Watchers UA)",
+   "type": "Class Feature",
+   "name": "Channel Divinity (Oath of the Watchers UA)",
+   "desc": "3rd-level Oath of the Watchers feature.\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of the Sentinel (UA)",
+   "type": "Class Feature",
+   "name": "Aura of the Sentinel (UA)",
+   "desc": "7th-level Oath of the Watchers feature.\n\nYou emit an aura of alertness while you aren't incapacitated. At 7th level, when you and any creature of your choice within 10 feet of you rolls initiative, you each gain a bonus to initiative equal to your Charisma modifier (minimum of +1). See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vigilant Rebuke (UA)",
+   "type": "Class Feature",
+   "name": "Vigilant Rebuke (UA)",
+   "desc": "15th-level Oath of the Watchers feature.\n\nAt 15th level, you've learned how to magically chastise anyone who dares cast unwanted spells at you and your wards. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mortal Bulwark (UA)",
+   "type": "Class Feature",
+   "name": "Mortal Bulwark (UA)",
+   "desc": "20th-level Oath of the Watchers feature.\n\nAt 20th level, you manifest a spark of your deity's power in defense of your sacred oath. As a bonus action, you gain the following benefits for 1 minute: See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "mortal-bulwark-ua",
+      "name": "Mortal Bulwark (UA)",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  }
+ ]
+}

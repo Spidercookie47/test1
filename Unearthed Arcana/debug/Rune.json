@@ -1,0 +1,156 @@
+{
+ "elements": [
+  {
+   "id": "Class:Rune Scribe (UA)",
+   "type": "Class",
+   "name": "Rune Scribe (UA)",
+   "desc": "A rune scribe masters the secrets of the runes of power – ancient sigils that embody the fundamental magic of creation. Rune magic is exceedingly rare: some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune.\n\nSource: Unearthed Arcana 9 — Prestige Classes and Rune Magic See the side panel for the full text.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Lore (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Runic Magic (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Runic Discovery (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Living Rune (UA)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Mastery (UA)",
+     "level": 5
+    }
+   ],
+   "hd": 8,
+   "wp": [],
+   "ap": [
+    "t:Calligrapher’s supplies",
+    "t:Mason’s tools",
+    "t:Woodcarver’s tools"
+   ],
+   "mp": [
+    "t:Calligrapher’s supplies",
+    "t:Mason’s tools",
+    "t:Woodcarver’s tools"
+   ],
+   "prereq": [
+    "&",
+    "dex",
+    "int"
+   ],
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "half": false,
+    "rows": [
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "known": null
+   },
+   "start": {
+    "f": [],
+    "g": []
+   }
+  },
+  {
+   "id": "Class Feature:Rune Lore (UA)",
+   "type": "Class Feature",
+   "name": "Rune Lore (UA)",
+   "desc": "1st-level Rune Scribe feature.\n\nAt 1st level, you learn the basics of scribing runes, and are able to activate a master rune's full range of properties when you are properly attuned to it. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Magic (UA)",
+   "type": "Class Feature",
+   "name": "Runic Magic (UA)",
+   "desc": "1st-level Rune Scribe feature.\n\nRunes can make use of your own magical power to augment some of their effects. You gain a number of spell slots as specified on the Rune Scribe table, but this prestige class does not grant spells known. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Discovery (UA)",
+   "type": "Class Feature",
+   "name": "Runic Discovery (UA)",
+   "desc": "2nd-, 3rd-, and 5th-level Rune Scribe feature.\n\nYour continuing study of runic magic allows you to recreate the secrets of new runes without first needing to uncover them. At 2nd, 3rd, and 5th level, choose a rare rune. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Living Rune (UA)",
+   "type": "Class Feature",
+   "name": "Living Rune (UA)",
+   "desc": "4th-level Rune Scribe feature.\n\nRunes are a part of the living world, and your studies allow you to connect to their magic in increasingly powerful ways. At 4th level, you learn to incorporate rune magic into your identity, allowing you to augment your body and mind. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rune Mastery (UA)",
+   "type": "Class Feature",
+   "name": "Rune Mastery (UA)",
+   "desc": "5th-level Rune Scribe feature.\n\nAt 5th level, you attain the ability to master an ever-greater range of runic magic. When you attune to a rune, you can choose to have it not count toward your limit of attuned magic items. See the side panel for the full text.",
+   "rules": []
+  }
+ ]
+}

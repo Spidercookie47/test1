@@ -1,0 +1,940 @@
+{
+ "elements": [
+  {
+   "id": "Class:Ranger, Ambuscade (UA)",
+   "type": "Class",
+   "name": "Ranger, Ambuscade (UA)",
+   "desc": "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.\n\nThe Ambuscade Ranger is a 5-level Unearthed Arcana 8 playtest variant. It trades spellcasting for a pre-initiative surprise turn and a spirit companion. See the side panel for the full text.",
+   "rules": [
+    {
+     "grant": "save:dex"
+    },
+    {
+     "grant": "save:wis"
+    },
+    {
+     "select": {
+      "name": "Skills (choose 3)",
+      "n": 3,
+      "from": [
+       "Animal Handling",
+       "Athletics",
+       "Insight",
+       "Investigation",
+       "Nature",
+       "Perception",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Ambuscade (UA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Natural Explorer (Ambuscade UA)",
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Fighting Style",
+      "cls": "R"
+     },
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Skirmisher's Stealth (UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Primeval Awareness (Ambuscade UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Spirit Companion (UA)",
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Spirit Path",
+      "type": "Subclass",
+      "supports": "Class:Ranger, Ambuscade (UA)"
+     },
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 5
+    }
+   ],
+   "hd": 12,
+   "wp": [
+    "simple",
+    "martial"
+   ],
+   "ap": [
+    "a:Light armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons",
+    "t:Herbalism kit"
+   ],
+   "mp": [
+    "a:Light armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons"
+   ],
+   "prereq": [
+    "&",
+    "dex",
+    "wis"
+   ],
+   "start": {
+    "f": [
+     [
+      "Armor:Leather Armor",
+      1
+     ]
+    ],
+    "g": [
+     {
+      "d": "(a) two shortswords, (b) two martial melee weapons, or (c) a martial weapon and a shield",
+      "o": [
+       [
+        {
+         "i": "Weapon:Shortsword",
+         "q": 2
+        }
+       ],
+       [
+        {
+         "c": "martial-melee-weapons",
+         "q": 2
+        }
+       ],
+       [
+        {
+         "c": "martial-weapons",
+         "q": 1
+        },
+        {
+         "i": "Armor:Shield",
+         "q": 1
+        }
+       ]
+      ]
+     },
+     {
+      "d": "(a) a dungeoneer's pack or (b) an explorer's pack",
+      "o": [
+       [
+        {
+         "i": "Gear:Dungeoneer's Pack",
+         "q": 1
+        }
+       ],
+       [
+        {
+         "i": "Gear:Explorer's Pack",
+         "q": 1
+        }
+       ]
+      ]
+     },
+     {
+      "d": "(a) a longbow and a quiver of 20 arrows or (b) a martial weapon",
+      "o": [
+       [
+        {
+         "i": "Weapon:Longbow",
+         "q": 1
+        },
+        {
+         "i": "Gear:Arrow",
+         "q": 20
+        }
+       ],
+       [
+        {
+         "c": "martial-weapons",
+         "q": 1
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Guardian (UA)",
+   "type": "Subclass",
+   "name": "Guardian (UA)",
+   "supports": "Class:Ranger, Ambuscade (UA)",
+   "desc": "By following the path of the Guardian, you protect the natural world from creatures that would despoil it, even as you engage with the common folk who rely upon nature's bounty to survive. You patrol the pathways through the wilds, keeping them clear of bandits and rampaging monsters, even as you keep careful watch on how civilized realms interact with the wilderness. Those who take more than their fair share—clear-cutting forests or hunting for sport rather than survival—risk your wrath.\n\nWhen your spirit companion manifests, it takes the form of a brown bear.",
+   "rules": [
+    {
+     "grant": "Class Feature:Guardian's Shroud (UA)",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Seeker (UA)",
+   "type": "Subclass",
+   "name": "Seeker (UA)",
+   "supports": "Class:Ranger, Ambuscade (UA)",
+   "desc": "By taking up the Seeker path, you are drawn into the unknown wilds far from civilization in search of lost treasures, forgotten evil, and sites of primal magic. You understand that the trackless wilderness can harbor many secrets. Some of those secrets—such as a lonely oasis providing water to a desert realm—must be protected. Others—such as an ancient idol infused with the foul magic of the demon worshippers who crafted it—must be destroyed before their evil awakens once more.\n\nWhen your spirit companion manifests, it takes the form of a giant eagle.",
+   "rules": [
+    {
+     "grant": "Class Feature:Seeker's Eye (UA)",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Stalker (UA)",
+   "type": "Subclass",
+   "name": "Stalker (UA)",
+   "supports": "Class:Ranger, Ambuscade (UA)",
+   "desc": "As a ranger of the Stalker path, you prowl the wilderness in search of aberrations, fiends, and other monsters that must be slain before they wreak havoc on the natural world. You are the power of nature's vengeance made manifest, and anything that poses a threat to nature is your target. When a powerful creature such as a dragon threatens a region, a ranger of the Stalker path leads the hunt that will take it down. Like others of your kind, you do not rest until your quarry is dead and the natural world is safe.\n\nWhen your spirit companion manifests, it takes the form of a dire wolf.",
+   "rules": [
+    {
+     "grant": "Class Feature:Stalker's Fangs (UA)",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Deep Stalker (UA)",
+   "type": "Subclass",
+   "name": "Deep Stalker (UA)",
+   "supports": "Class:Ranger",
+   "desc": "Adventurers descending into the depths on desperate quests or in response to the promise of vast riches quickly come face to face with the evil that festers beneath the earth. Though many such characters are only too happy to escape back to the surface world again, rangers with the Deep Stalker archetype welcome each foray into the world below, striving to uncover and defeat the threats of the Underdark before those threats can reach the surface.\n\nMany Deep Stalkers are elves, as those folk know all too well the threat posed by the drow. Deep Stalkers scout for new passages into the Underdark, carefully mapping them and working to ensure they remain watched at all times. They venture into the depths on long, dangerous patrols, disappearing for months at a time. Many of them never return.\n\nDeep Stalkers master spells useful in navigating the Underdark, and their combat tactics focus on ambush, surprise, and stealth. They fight alone or in small groups in hostile territory, relying on clever tactics to carry the day.\n\nSource: Unearthed Arcana 10 — Light, Dark, Underdark!",
+   "rules": [
+    {
+     "grant": "Class Feature:Underdark Scout (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Deep Stalker Magic (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Iron Mind (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Stalker's Flurry (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Stalker's Dodge (UA)",
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Drakewarden (UA)",
+   "type": "Subclass",
+   "name": "Drakewarden (UA)",
+   "supports": "Class:Ranger",
+   "desc": "Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a minor dragon, a drake. This bond allows the ranger to summon the drake to their side and to share in the awe-inspiring power wielded by dragons.\n\nConsider how your ranger gained their bond with the drake. The Drakewarden Origin table offers some examples.\n\nDrakewarden Origin\n1: You studied a dragon's scale or claw, or a trinket from its hoard, and created your bond through the token's lingering draconic magic.\n2: A secret order of rangers who collect and guard draconic lore taught you their ways.\n3: A true dragon gave you a drake egg to care for. When it hatched, the drake bonded to you.\n4: You drank a few drops of dragon blood, forever infusing your nature magic with draconic power.\n5: An ancient Draconic inscription on a standing stone empowered you when you read it aloud.\n6: You had a vivid dream of a mysterious man, accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you.\n\nSource: Unearthed Arcana 75 — Subclasses, Part 5",
+   "rules": [
+    {
+     "grant": "Class Feature:Draconic Gift (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Drake Companion (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Bond of Fang and Scale (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Drake's Breath (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Perfected Bond (UA)",
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Fey Wanderer (UA)",
+   "type": "Subclass",
+   "name": "Fey Wanderer (UA)",
+   "supports": "Class:Ranger",
+   "desc": "As a Fey Wanderer, you guard the border between the Feywild and the Material Plane, guiding the lost out of the Feywild and preventing dangerous fey from damaging the Material Plane. Your experience with both domains makes you an exceptional negotiator between inhabitants of these worlds, as you understand both humanoid mindsets and the wiles of the fey courts.\n\nSource: Unearthed Arcana 69 — Subclasses, Part 3\n\nNote: Extra Attack is listed in the source subclass table but is already granted by the core Ranger at 5th level, so it is not re-granted here.",
+   "rules": [
+    {
+     "grant": "Class Feature:Feywild Gifts (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Fey Wanderer Magic (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Cunning Will (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dreadful Strikes (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Blessings of the Courts (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Beguiling Twist (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Misty Presence (UA)",
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Primeval Guardian (UA)",
+   "type": "Subclass",
+   "name": "Primeval Guardian (UA)",
+   "supports": "Class:Ranger",
+   "desc": "Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.\n\nThese rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.\n\nSource: Unearthed Arcana 27 — Ranger & Rogue",
+   "rules": [
+    {
+     "grant": "Class Feature:Guardian Magic (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Guardian Soul (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Piercing Thorns (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ancient Fortitude (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rooted Defense (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Guardian Aura (UA)",
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Subclass:Swarmkeeper (UA)",
+   "type": "Subclass",
+   "name": "Swarmkeeper (UA)",
+   "supports": "Class:Ranger",
+   "desc": "Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts—be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpful—if potentially disturbing—company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.\n\nSource: Unearthed Arcana 64 — Fighter, Ranger, Rogue",
+   "rules": [
+    {
+     "grant": "Class Feature:Swarmkeeper Magic (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Gathered Swarm (UA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Writhing Tide (UA)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Scuttling Eyes (UA)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Storm of Minions (UA)",
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ambuscade (UA)",
+   "type": "Class Feature",
+   "name": "Ambuscade (UA)",
+   "desc": "1st-level Ranger, Ambuscade feature.\n\nRangers strike first and strike hard. When you roll initiative, you gain a special turn that takes place before other creatures can act. On this turn, you can use your action to take either the Attack or Hide action. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Natural Explorer (Ambuscade UA)",
+   "type": "Class Feature",
+   "name": "Natural Explorer (Ambuscade UA)",
+   "desc": "1st-level Ranger, Ambuscade feature.\n\nYou are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Skirmisher's Stealth (UA)",
+   "type": "Class Feature",
+   "name": "Skirmisher's Stealth (UA)",
+   "desc": "2nd-level Ranger, Ambuscade feature.\n\nBeginning at 2nd level, you combine speed and stealth in combat to make yourself hard to pin down. You are difficult to detect even if you attack or otherwise take actions that would normally reveal your presence. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primeval Awareness (Ambuscade UA)",
+   "type": "Class Feature",
+   "name": "Primeval Awareness (Ambuscade UA)",
+   "desc": "3rd-level Ranger, Ambuscade feature.\n\nSource text missing. The provided UA excerpt lists this feature on the class table but does not include its description. Complete this entry from the full Unearthed Arcana 8 document.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spirit Companion (UA)",
+   "type": "Class Feature",
+   "name": "Spirit Companion (UA)",
+   "desc": "3rd-level Ranger, Ambuscade feature.\n\nAt 3rd level, you form a bond with a nature spirit—a companion forged by your link to the wild. This spirit companion protects you as you travel and watches your back in battle. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "spirit-companion-materialize",
+      "name": "Spirit Companion (Materialize)",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Guardian's Shroud (UA)",
+   "type": "Class Feature",
+   "name": "Guardian's Shroud (UA)",
+   "desc": "3rd-level Guardian feature.\n\nYour companion spirit helps to protect you and the creatures closest to you. As a bonus action, you invoke your spirit companion and choose yourself or an ally you can see. The chosen creature gains temporary hit points equal to 2d6 + your Wisdom modifier.",
+   "rules": [
+    {
+     "resource": {
+      "id": "guardians-shroud-ua",
+      "name": "Guardian's Shroud",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Seeker's Eye (UA)",
+   "type": "Class Feature",
+   "name": "Seeker's Eye (UA)",
+   "desc": "3rd-level Seeker feature.\n\nYour companion spirit lends its sharp combat senses to you and your companions. As a bonus action, you invoke your spirit companion and choose a creature you can see. Until the end of your next turn, all attacks made against the chosen creature have advantage.",
+   "rules": [
+    {
+     "resource": {
+      "id": "seekers-eye-ua",
+      "name": "Seeker's Eye",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Stalker's Fangs (UA)",
+   "type": "Class Feature",
+   "name": "Stalker's Fangs (UA)",
+   "desc": "3rd-level Stalker feature.\n\nYour companion spirit lends the strength of its deadly bite to you or one of your companions. As a bonus action, you invoke your spirit companion and choose yourself or a creature you can see. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "stalkers-fangs-ua",
+      "name": "Stalker's Fangs",
+      "rest": "S",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Underdark Scout (UA)",
+   "type": "Class Feature",
+   "name": "Underdark Scout (UA)",
+   "desc": "3rd-level Deep Stalker feature.\n\nAt 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed. If you use the Attack action on that turn, you can make one additional attack. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Deep Stalker Magic (UA)",
+   "type": "Class Feature",
+   "name": "Deep Stalker Magic (UA)",
+   "desc": "3rd-level Deep Stalker feature.\n\nFrom 3rd level, you have darkvision with a range of 90 feet. You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Disguise Self",
+     "Deep Stalker Magic"
+    ],
+    [
+     5,
+     "Rope Trick",
+     "Deep Stalker Magic"
+    ],
+    [
+     9,
+     "Glyph of Warding",
+     "Deep Stalker Magic"
+    ],
+    [
+     13,
+     "Greater Invisibility",
+     "Deep Stalker Magic"
+    ],
+    [
+     17,
+     "Seeming",
+     "Deep Stalker Magic"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Iron Mind (UA)",
+   "type": "Class Feature",
+   "name": "Iron Mind (UA)",
+   "desc": "7th-level Deep Stalker feature.\n\nAt 7th level, you gain proficiency in Wisdom saving throws.",
+   "rules": [
+    {
+     "grant": "save:wis"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Stalker's Flurry (UA)",
+   "type": "Class Feature",
+   "name": "Stalker's Flurry (UA)",
+   "desc": "11th-level Deep Stalker feature.\n\nStarting at 11th level, you have the ability to ensure that your attacks count. If you miss with an attack during your turn, you can immediately make an additional attack. You can gain one additional attack during your turn with this ability.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stalker's Dodge (UA)",
+   "type": "Class Feature",
+   "name": "Stalker's Dodge (UA)",
+   "desc": "15th-level Deep Stalker feature.\n\nAt 15th level, you master the ability to disrupt an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Draconic Gift (UA)",
+   "type": "Class Feature",
+   "name": "Draconic Gift (UA)",
+   "desc": "3rd-level Drakewarden feature.\n\nAt 3rd level, the bond you share with your drake creates a deeper connection to dragon kind, granting you understanding and empowering your presence. See the side panel for the full text.",
+   "rules": [
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "featSpells": [
+    [
+     3,
+     "Thaumaturgy",
+     "Draconic Gift (ranger cantrip)"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Drake Companion (UA)",
+   "type": "Class Feature",
+   "name": "Drake Companion (UA)",
+   "desc": "3rd-level Drakewarden feature.\n\nAt 3rd level, you can magically summon the drake bound to you. As an action, you can summon the drake, which appears in an unoccupied space of your choice that you can see within 30 feet of you. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "drake-companion-summon",
+      "name": "Drake Companion (Summon)",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Bond of Fang and Scale (UA)",
+   "type": "Class Feature",
+   "name": "Bond of Fang and Scale (UA)",
+   "desc": "7th-level Drakewarden feature.\n\nAt 7th level, the bond you share with your drake intensifies, protecting you and stoking the drake's fury. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Drake's Breath (UA)",
+   "type": "Class Feature",
+   "name": "Drake's Breath (UA)",
+   "desc": "11th-level Drakewarden feature.\n\nWhen you reach 11th level, as an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "drakes-breath-ua",
+      "name": "Drake's Breath",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Perfected Bond (UA)",
+   "type": "Class Feature",
+   "name": "Perfected Bond (UA)",
+   "desc": "15th-level Drakewarden feature.\n\nAt 15th level, your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:\nThe drake grows to Large size. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Feywild Gifts (UA)",
+   "type": "Class Feature",
+   "name": "Feywild Gifts (UA)",
+   "desc": "3rd-level Fey Wanderer feature.\n\nFey Wanderers possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fey Wanderer Magic (UA)",
+   "type": "Class Feature",
+   "name": "Fey Wanderer Magic (UA)",
+   "desc": "3rd-level Fey Wanderer feature.\n\nYou learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Charm Person",
+     "Fey Wanderer Magic"
+    ],
+    [
+     5,
+     "Misty Step",
+     "Fey Wanderer Magic"
+    ],
+    [
+     9,
+     "Dispel Magic",
+     "Fey Wanderer Magic"
+    ],
+    [
+     13,
+     "Banishment",
+     "Fey Wanderer Magic"
+    ],
+    [
+     17,
+     "Mislead",
+     "Fey Wanderer Magic"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Cunning Will (UA)",
+   "type": "Class Feature",
+   "name": "Cunning Will (UA)",
+   "desc": "3rd-level Fey Wanderer feature.\n\nAt 3rd level, your experience with the fey has guarded your mind and sharpened your tongue. You have advantage on saving throws against being charmed or frightened.\n\nIn addition, you gain proficiency in one of the following skills of your choice: Deception, Performance, or Persuasion.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency (Cunning Will)",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Deception",
+       "Performance",
+       "Persuasion"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Dreadful Strikes (UA)",
+   "type": "Class Feature",
+   "name": "Dreadful Strikes (UA)",
+   "desc": "3rd-level Fey Wanderer feature.\n\nAt 3rd level, you augment your attacks with mind-scarring magic, drawn from the gloomy hollows of the unseelie fey. You gain a bonus action that you can use to imbue the weapon, or weapons, you're currently holding with magic. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blessings of the Courts (UA)",
+   "type": "Class Feature",
+   "name": "Blessings of the Courts (UA)",
+   "desc": "7th-level Fey Wanderer feature.\n\nAt 7th level, you have learned eerie techniques from both the Gloaming Court and the Summer Court of the Feywild. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Beguiling Twist (UA)",
+   "type": "Class Feature",
+   "name": "Beguiling Twist (UA)",
+   "desc": "11th-level Fey Wanderer feature.\n\nAt 11th level, you learn how to manipulate mind-altering magic, channeling it from your allies toward others. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Misty Presence (UA)",
+   "type": "Class Feature",
+   "name": "Misty Presence (UA)",
+   "desc": "15th-level Fey Wanderer feature.\n\nAt 15th level, you can magically remove yourself from one creature's perception: you gain a bonus action that you can use to force a creature you can see within 30 feet of you to make a Wisdom saving throw against your spell save DC. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "misty-presence-ua",
+      "name": "Misty Presence",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Guardian Magic (UA)",
+   "type": "Class Feature",
+   "name": "Guardian Magic (UA)",
+   "desc": "3rd-level Primeval Guardian feature.\n\nStarting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Entangle",
+     "Guardian Magic"
+    ],
+    [
+     5,
+     "Enhance Ability",
+     "Guardian Magic"
+    ],
+    [
+     9,
+     "Conjure Animals",
+     "Guardian Magic"
+    ],
+    [
+     13,
+     "Giant Insect",
+     "Guardian Magic"
+    ],
+    [
+     17,
+     "Insect Plague",
+     "Guardian Magic"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Guardian Soul (UA)",
+   "type": "Class Feature",
+   "name": "Guardian Soul (UA)",
+   "desc": "3rd-level Primeval Guardian feature.\n\nStarting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Piercing Thorns (UA)",
+   "type": "Class Feature",
+   "name": "Piercing Thorns (UA)",
+   "desc": "3rd-level Primeval Guardian feature.\n\nAt 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional 1d6 piercing damage to one creature you hit with a weapon attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ancient Fortitude (UA)",
+   "type": "Class Feature",
+   "name": "Ancient Fortitude (UA)",
+   "desc": "7th-level Primeval Guardian feature.\n\nAt 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rooted Defense (UA)",
+   "type": "Class Feature",
+   "name": "Rooted Defense (UA)",
+   "desc": "11th-level Primeval Guardian feature.\n\nAt 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is difficult terrain for your enemies.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Guardian Aura (UA)",
+   "type": "Class Feature",
+   "name": "Guardian Aura (UA)",
+   "desc": "15th-level Primeval Guardian feature.\n\nStarting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Swarmkeeper Magic (UA)",
+   "type": "Class Feature",
+   "name": "Swarmkeeper Magic (UA)",
+   "desc": "3rd-level Swarmkeeper feature.\n\nStarting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Mage Hand",
+     "Swarmkeeper Magic (cantrip)"
+    ],
+    [
+     3,
+     "Faerie Fire",
+     "Swarmkeeper Magic"
+    ],
+    [
+     5,
+     "Web",
+     "Swarmkeeper Magic"
+    ],
+    [
+     9,
+     "Gaseous Form",
+     "Swarmkeeper Magic"
+    ],
+    [
+     13,
+     "Giant Insect",
+     "Swarmkeeper Magic"
+    ],
+    [
+     17,
+     "Insect Plague",
+     "Swarmkeeper Magic"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Gathered Swarm (UA)",
+   "type": "Class Feature",
+   "name": "Gathered Swarm (UA)",
+   "desc": "3rd-level Swarmkeeper feature.\n\nAt 3rd level, you magically attract a swarm of fey spirits that look like Tiny beasts of your choice. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "gathered-swarm-ua",
+      "name": "Gathered Swarm",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Writhing Tide (UA)",
+   "type": "Class Feature",
+   "name": "Writhing Tide (UA)",
+   "desc": "7th-level Swarmkeeper feature.\n\nAt 7th level, you can condense part of your swarm into a focused mass that lifts or sweeps you along. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Scuttling Eyes (UA)",
+   "type": "Class Feature",
+   "name": "Scuttling Eyes (UA)",
+   "desc": "11th-level Swarmkeeper feature.\n\nAt 11th level, as an action, you can magically form one of the spirits of your swarm into the shape of a Tiny beast of your choice. The transformation lasts for 1 hour, at which point the spirit disappears. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "scuttling-eyes-form",
+      "name": "Scuttling Eyes (Form Spirit)",
+      "rest": "S",
+      "max": 1
+     }
+    },
+    {
+     "resource": {
+      "id": "scuttling-eyes-dismiss",
+      "name": "Scuttling Eyes (Dismiss & Teleport)",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Storm of Minions (UA)",
+   "type": "Class Feature",
+   "name": "Storm of Minions (UA)",
+   "desc": "15th-level Swarmkeeper feature.\n\nAt 15th level, your swarm can expel a seething storm of spirits that drains life from others. As an action, you create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "storm-of-minions-ua",
+      "name": "Storm of Minions",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Fighting Style:Blind Fighting (UA)",
+   "type": "Fighting Style",
+   "name": "Blind Fighting (UA)",
+   "desc": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
+   "rules": [],
+   "cls": "FPR"
+  },
+  {
+   "id": "Fighting Style:Druidic Warrior (UA)",
+   "type": "Fighting Style",
+   "name": "Druidic Warrior (UA)",
+   "desc": "You learn two cantrips of your choice from the Druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the Druid spell list.",
+   "rules": [
+    {
+     "select": {
+      "name": "Druid cantrips (Druidic Warrior)",
+      "type": "Spell",
+      "n": 2,
+      "spl": "Druid",
+      "lvl": 0
+     }
+    }
+   ],
+   "cls": "R"
+  },
+  {
+   "id": "Fighting Style:Thrown Weapon Fighting (UA)",
+   "type": "Fighting Style",
+   "name": "Thrown Weapon Fighting (UA)",
+   "desc": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+   "rules": [],
+   "cls": "FR"
+  },
+  {
+   "id": "Fighting Style:Close Quarters Shooter (UA)",
+   "type": "Fighting Style",
+   "name": "Close Quarters Shooter (UA)",
+   "desc": "When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.",
+   "rules": [],
+   "cls": "FR"
+  },
+  {
+   "id": "Fighting Style:Interception (UA)",
+   "type": "Fighting Style",
+   "name": "Interception (UA)",
+   "desc": "When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.",
+   "rules": [],
+   "cls": "FPR"
+  },
+  {
+   "id": "Fighting Style:Mariner (UA)",
+   "type": "Fighting Style",
+   "name": "Mariner (UA)",
+   "desc": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to armor class.",
+   "rules": [],
+   "cls": "FR"
+  },
+  {
+   "id": "Fighting Style:Tunnel Fighter (UA)",
+   "type": "Fighting Style",
+   "name": "Tunnel Fighter (UA)",
+   "desc": "As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.",
+   "rules": [],
+   "cls": "FPR"
+  },
+  {
+   "id": "Fighting Style:Unarmed Fighting (UA)",
+   "type": "Fighting Style",
+   "name": "Unarmed Fighting (UA)",
+   "desc": "Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.\n\nWhen you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.",
+   "rules": [],
+   "cls": "FPR"
+  }
+ ]
+}

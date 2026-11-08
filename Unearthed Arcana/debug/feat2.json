@@ -1,0 +1,446 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Guile of the Cloud Giant (Revised UA)",
+   "type": "Feat",
+   "name": "Guile of the Cloud Giant (Revised UA)",
+   "desc": "Prerequisite: 4th level, Strike of the Giants (Cloud Giant) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Dexterity (UA)",
+       "Feat Ability Increase:Constitution (UA)",
+       "Feat Ability Increase:Charisma (UA)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Gourmand (UA)",
+   "type": "Feat",
+   "name": "Gourmand (UA)",
+   "desc": "Source: Unearthed Arcana 15 — Feats\n\nYou have mastered a variety of special recipes, allowing you to prepare exotic dishes with useful effects. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    },
+    {
+     "pf": [
+      "t:Cook’s utensils"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Feat:Greater Dragonmark (UA)",
+   "type": "Feat",
+   "name": "Greater Dragonmark (UA)",
+   "desc": "Prerequisite: 8th level, character must possess a dragonmark\n\nSource: Wayfinder's Guide to Eberron See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Historian (UA)",
+   "type": "Feat",
+   "name": "Historian (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYour study of history rewards you with the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "skill:History"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Initiate of High Sorcery (UA)",
+   "type": "Feat",
+   "name": "Initiate of High Sorcery (UA)",
+   "desc": "Prerequisite: Apprentice of High Sorcery (sic — no such feat exists in this data set; likely a typo or organizational rank, not a feat)\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Investigator (UA)",
+   "type": "Feat",
+   "name": "Investigator (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou have an eye for detail and can pick out the smallest clues. You gain the following benefits:\n\nIncrease your Intelligence score by 1, to a maximum of 20.\nYou gain proficiency in the Investigation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nYou can take the Search action as a bonus action.\n\nEngine note: if you were already proficient in Investigation, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "skill:Investigation"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Keenness of the Stone Giant (UA)",
+   "type": "Feat",
+   "name": "Keenness of the Stone Giant (UA)",
+   "desc": "Prerequisite: 4th level\n\nSource: Unearthed Arcana 83 — Giant Options See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     4,
+     "Detect Thoughts",
+     "Dreamer's Magic (1/long rest)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Knight of the Crown (UA)",
+   "type": "Feat",
+   "name": "Knight of the Crown (UA)",
+   "desc": "Prerequisite: 4th level, Squire of Solamnia feat\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Strength (UA)",
+       "Feat Ability Increase:Dexterity (UA)"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-knight-crown-teamwork",
+      "name": "Tactical Teamwork",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Knight of the Sword (UA)",
+   "type": "Feat",
+   "name": "Knight of the Sword (UA)",
+   "desc": "Prerequisite: 4th level, Squire of Solamnia feat\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-knight-sword-willpower",
+      "name": "Willpower",
+      "rest": "L",
+      "max": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Knight of the Rose (UA)",
+   "type": "Feat",
+   "name": "Knight of the Rose (UA)",
+   "desc": "Prerequisite: 4th level, Squire of Solamnia feat\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Constitution (UA)",
+       "Feat Ability Increase:Charisma (UA)"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-knight-rose-rally",
+      "name": "Bolstering Rally",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Master of Disguise (UA)",
+   "type": "Feat",
+   "name": "Master of Disguise (UA)",
+   "desc": "Source: Unearthed Arcana 15 — Feats\n\nYou have honed your ability to shape your personality and to read the personalities of others. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "pf": [
+      "t:Disguise kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Feat:Medic (UA)",
+   "type": "Feat",
+   "name": "Medic (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou master the physician's arts, gaining the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "skill:Medicine"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Menacing (UA)",
+   "type": "Feat",
+   "name": "Menacing (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou become fearsome to others, gaining the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "skill:Intimidation"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Metabolic Control (UA)",
+   "type": "Feat",
+   "name": "Metabolic Control (UA)",
+   "desc": "Prerequisite: Psionic Talent feature or Wild Talent feat\n\nSource: Unearthed Arcana 71 — Psionic Options Revisited See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Strength (UA)",
+       "Feat Ability Increase:Dexterity (UA)",
+       "Feat Ability Increase:Constitution (UA)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Naturalist (UA)",
+   "type": "Feat",
+   "name": "Naturalist (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYour extensive study of nature rewards you with the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "skill:Nature"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Druidcraft",
+     "at will"
+    ],
+    [
+     1,
+     "Detect Poison and Disease",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Outlands Envoy (UA)",
+   "type": "Feat",
+   "name": "Outlands Envoy (UA)",
+   "desc": "Prerequisite: 4th level, Scion of the Outer Planes feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     4,
+     "Misty Step",
+     "Crossroads Emissary (1/long rest)"
+    ],
+    [
+     4,
+     "Tongues",
+     "Crossroads Emissary (1/long rest, no material components)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Outsized Might (UA)",
+   "type": "Feat",
+   "name": "Outsized Might (UA)",
+   "desc": "Source: Unearthed Arcana 83 — Giant Options\n\nYou have absorbed primeval magic that allows you, despite your relatively small stature, to embody the might of titanic creatures. This grants you the following benefits:\n\nLittle but Mighty. You gain proficiency in either the Athletics or Acrobatics skill.\n\nPowerful Build. You count as one size larger when determining your carrying capacity and the amount you can push, drag, or lift.\n\nStalwart. You have advantage on saving throws against being moved or knocked prone.\n\nEngine note: no Ability Score Increase.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Athletics",
+       "Acrobatics"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Perceptive (UA)",
+   "type": "Feat",
+   "name": "Perceptive (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou hone your senses until they become razor sharp. You gain the following benefits:\n\nIncrease your Wisdom score by 1, to a maximum of 20.\nYou gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nBeing in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.\n\nEngine note: if you were already proficient in Perception, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Performer (UA)",
+   "type": "Feat",
+   "name": "Performer (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou master performance so that you can command any stage. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "skill:Performance"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Planar Wanderer (UA)",
+   "type": "Feat",
+   "name": "Planar Wanderer (UA)",
+   "desc": "Prerequisite: 4th level, Scion of the Outer Planes feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Practiced Expert (UA)",
+   "type": "Feat",
+   "name": "Practiced Expert (UA)",
+   "desc": "Source: Unearthed Arcana 73 — Feats\n\nYou have honed your proficiency with particular skills or tools, gaining the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "expertise": 1,
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "Feat:Quick Fingered (UA)",
+   "type": "Feat",
+   "name": "Quick Fingered (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYour nimble fingers and agility let you perform sleight of hand. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    },
+    {
+     "grant": "skill:Sleight of Hand"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Righteous Heritor (UA)",
+   "type": "Feat",
+   "name": "Righteous Heritor (UA)",
+   "desc": "Prerequisite: 4th level, Scion of the Outer Planes (Good Outer Plane) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-righteous-heritor-soothe",
+      "name": "Soothe Pain",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

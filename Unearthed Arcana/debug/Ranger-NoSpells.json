@@ -1,0 +1,462 @@
+{
+ "elements": [
+  {
+   "id": "Class:Ranger, No Spells (UA)",
+   "type": "Class",
+   "name": "Ranger, No Spells (UA)",
+   "desc": "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.\n\nThis variant trades the ranger's spellcasting for martial maneuvers (like a Battle Master fighter) and herbal poultices. Source: Unearthed Arcana. See the side panel for the full text.",
+   "rules": [
+    {
+     "grant": "save:str"
+    },
+    {
+     "grant": "save:dex"
+    },
+    {
+     "select": {
+      "name": "Skills (choose 3)",
+      "n": 3,
+      "from": [
+       "Animal Handling",
+       "Athletics",
+       "Insight",
+       "Investigation",
+       "Nature",
+       "Perception",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Favored Enemy (No Spells UA)",
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Favored Enemy",
+      "type": "Favored Enemy",
+      "n": 1
+     },
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Favored Foe (replaces Favored Enemy)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Favored Foe (No Spells UA)"
+      ]
+     },
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Natural Explorer (No Spells UA)",
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Favored Terrain",
+      "type": "Favored Terrain",
+      "n": 1
+     },
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Deft Explorer (replaces Natural Explorer)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Deft Explorer (No Spells UA)"
+      ]
+     },
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Fighting Style",
+      "cls": "R"
+     },
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Combat Superiority (No Spells UA)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Poultices (No Spells UA)",
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Ranger Conclave",
+      "type": "Subclass",
+      "supports": "Class:Ranger"
+     },
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 5
+    },
+    {
+     "select": {
+      "name": "Favored Enemy (6th)",
+      "type": "Favored Enemy",
+      "n": 1
+     },
+     "level": 6
+    },
+    {
+     "select": {
+      "name": "Favored Terrain (6th)",
+      "type": "Favored Terrain",
+      "n": 2
+     },
+     "level": 6
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Land's Stride",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Natural Antivenom (No Spells UA)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Hide in Plain Sight",
+     "level": 10
+    },
+    {
+     "select": {
+      "name": "Favored Terrain (10th)",
+      "type": "Favored Terrain",
+      "n": 2
+     },
+     "level": 10
+    },
+    {
+     "select": {
+      "name": "Nature's Veil (replaces Hide in Plain Sight)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Nature's Veil (No Spells UA)"
+      ]
+     },
+     "level": 10
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "grant": "Class Feature:Call Natural Allies (No Spells UA)",
+     "level": 13
+    },
+    {
+     "select": {
+      "name": "Favored Enemy (14th)",
+      "type": "Favored Enemy",
+      "n": 1
+     },
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Vanish",
+     "level": 14
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "grant": "Class Feature:Relentless (No Spells UA)",
+     "level": 17
+    },
+    {
+     "grant": "Class Feature:Feral Senses",
+     "level": 18
+    },
+    {
+     "asi": 1,
+     "level": 19
+    },
+    {
+     "grant": "Class Feature:Foe Slayer",
+     "level": 20
+    }
+   ],
+   "hd": 10,
+   "wp": [
+    "simple",
+    "martial"
+   ],
+   "ap": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons"
+   ],
+   "mp": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons"
+   ],
+   "prereq": [
+    "&",
+    "dex",
+    "wis"
+   ],
+   "start": {
+    "f": [],
+    "g": [
+     {
+      "d": "(a) scale mail or (b) leather armor",
+      "o": [
+       [
+        {
+         "i": "Armor:Scale Mail",
+         "q": 1
+        }
+       ],
+       [
+        {
+         "i": "Armor:Leather Armor",
+         "q": 1
+        }
+       ]
+      ]
+     },
+     {
+      "d": "(a) two shortswords or (b) two simple melee weapons",
+      "o": [
+       [
+        {
+         "i": "Weapon:Shortsword",
+         "q": 2
+        }
+       ],
+       [
+        {
+         "c": "simple-melee-weapons",
+         "q": 2
+        }
+       ]
+      ]
+     },
+     {
+      "d": "(a) a dungeoneer's pack or (b) an explorer's pack",
+      "o": [
+       [
+        {
+         "i": "Gear:Dungeoneer's Pack",
+         "q": 1
+        }
+       ],
+       [
+        {
+         "i": "Gear:Explorer's Pack",
+         "q": 1
+        }
+       ]
+      ]
+     },
+     {
+      "d": "a longbow and a quiver of 20 arrows",
+      "o": [
+       [
+        {
+         "i": "Weapon:Longbow",
+         "q": 1
+        },
+        {
+         "i": "Gear:Arrow",
+         "q": 20
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "Class Feature:Favored Enemy (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Favored Enemy (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature.\n\nBeginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Natural Explorer (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Natural Explorer (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature.\n\nYou are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain (see the Favored Terrain selection on the Class tab). See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Favored Foe (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Favored Foe (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature (optional).\n\nThis feature replaces the Favored Enemy feature. You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it. It does work with the Foe Slayer feature. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "no-spells-favored-foe",
+      "name": "Favored Foe",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Deft Explorer (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Deft Explorer (No Spells UA)",
+   "desc": "1st-level Ranger, No Spells feature (optional).\n\nThis feature replaces the Natural Explorer feature. You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it. See the side panel for the full text.",
+   "rules": [
+    {
+     "expertise": 1,
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Deft Explorer languages",
+      "type": "Language",
+      "n": 2
+     },
+     "level": 1
+    },
+    {
+     "level": 6,
+     "speedBonus": {
+      "max": 5
+     }
+    },
+    {
+     "resource": {
+      "id": "no-spells-tireless",
+      "name": "Tireless",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     },
+     "level": 10
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Combat Superiority (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Combat Superiority (No Spells UA)",
+   "desc": "2nd-level Ranger, No Spells feature.\n\nAt 2nd level, you learn maneuvers that are fueled by special dice called superiority dice. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "no-spells-superiority-dice",
+      "name": "Superiority Dice",
+      "rest": "S",
+      "max": {
+       "class": "Ranger, No Spells (UA)",
+       "table": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Poultices (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Poultices (No Spells UA)",
+   "desc": "3rd-level Ranger, No Spells feature.\n\nAt 3rd level, you can create special herbal poultices that have healing power comparable to some potions. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "no-spells-poultices",
+      "name": "Poultices",
+      "rest": "L",
+      "min": 1,
+      "max": {
+       "mod": "wis"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Natural Antivenom (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Natural Antivenom (No Spells UA)",
+   "desc": "9th-level Ranger, No Spells feature.\n\nStarting at 9th level, you have advantage on saving throws against poison and have resistance to poison damage. Additionally, you can use one of your poultices to cure one poison effect on the creature you are applying it to, in addition to restoring hit points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Nature's Veil (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Nature's Veil (No Spells UA)",
+   "desc": "10th-level Ranger, No Spells feature (optional).\n\nThis feature replaces the Hide in Plain Sight feature. You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it. See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "no-spells-natures-veil",
+      "name": "Nature's Veil",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Call Natural Allies (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Call Natural Allies (No Spells UA)",
+   "desc": "13th-level Ranger, No Spells feature.\n\nStarting at 13th level, when you are in an area of your favored terrain, you can call natural creatures from that terrain to fight on your behalf, using your attunement to the natural world to convince them to aid you. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Relentless (No Spells UA)",
+   "type": "Class Feature",
+   "name": "Relentless (No Spells UA)",
+   "desc": "17th-level Ranger, No Spells feature.\n\nStarting at 17th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.",
+   "rules": []
+  }
+ ]
+}

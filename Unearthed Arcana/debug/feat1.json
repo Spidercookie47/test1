@@ -1,0 +1,581 @@
+{
+ "elements": [
+  {
+   "id": "Feat Ability Increase:Strength (UA)",
+   "type": "Feat Ability Increase",
+   "name": "Strength (UA)",
+   "desc": "Increase your Strength score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability Increase:Dexterity (UA)",
+   "type": "Feat Ability Increase",
+   "name": "Dexterity (UA)",
+   "desc": "Increase your Dexterity score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability Increase:Constitution (UA)",
+   "type": "Feat Ability Increase",
+   "name": "Constitution (UA)",
+   "desc": "Increase your Constitution score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability Increase:Intelligence (UA)",
+   "type": "Feat Ability Increase",
+   "name": "Intelligence (UA)",
+   "desc": "Increase your Intelligence score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability Increase:Wisdom (UA)",
+   "type": "Feat Ability Increase",
+   "name": "Wisdom (UA)",
+   "desc": "Increase your Wisdom score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability Increase:Charisma (UA)",
+   "type": "Feat Ability Increase",
+   "name": "Charisma (UA)",
+   "desc": "Increase your Charisma score by 1, to a maximum of 20.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Acrobat (UA)",
+   "type": "Feat",
+   "name": "Acrobat (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou become more nimble, gaining the following benefits:\n\nIncrease your Dexterity score by 1, to a maximum of 20.\nYou gain proficiency in the Acrobatics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nAs a bonus action, you can make a DC 15 Dexterity (Acrobatics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn.\n\nEngine note: if you were already proficient in Acrobatics, note the doubled proficiency manually on your sheet.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    },
+    {
+     "grant": "skill:Acrobatics"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Adept of the Black Robes (UA)",
+   "type": "Feat",
+   "name": "Adept of the Black Robes (UA)",
+   "desc": "Prerequisite: 4th level, Initiate of High Sorcery feat, any non-good alignment\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Adept of the Red Robes (UA)",
+   "type": "Feat",
+   "name": "Adept of the Red Robes (UA)",
+   "desc": "Prerequisite: 4th level, Initiate of High Sorcery feat\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-adept-red-robes-balance",
+      "name": "Magical Balance",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Adept of the White Robes (UA)",
+   "type": "Feat",
+   "name": "Adept of the White Robes (UA)",
+   "desc": "Prerequisite: 4th level, Initiate of High Sorcery feat, any non-evil alignment\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Agent of Order (UA)",
+   "type": "Feat",
+   "name": "Agent of Order (UA)",
+   "desc": "Prerequisite: 4th level, Scion of the Outer Planes (Lawful Outer Plane) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-agent-order-stasis",
+      "name": "Stasis Strike",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Alchemist (UA)",
+   "type": "Feat",
+   "name": "Alchemist (UA)",
+   "desc": "Source: Unearthed Arcana 15 — Feats\n\nYou have studied the secrets of alchemy and are an expert in its practice, gaining the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "pf": [
+      "t:Alchemist’s supplies"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Feat:Animal Handler (UA)",
+   "type": "Feat",
+   "name": "Animal Handler (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou master the techniques needed to train and handle animals. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "skill:Animal Handling"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Arcanist (UA)",
+   "type": "Feat",
+   "name": "Arcanist (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou study the arcane arts, gaining the following benefits:\n\nIncrease your Intelligence score by 1, to a maximum of 20.\nYou gain proficiency in the Arcana skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nYou learn the Prestidigitation and Detect Magic spells. You can cast Detect Magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest.\n\nEngine note: if you were already proficient in Arcana, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "skill:Arcana"
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Prestidigitation",
+     "at will"
+    ],
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Baleful Scion (UA)",
+   "type": "Feat",
+   "name": "Baleful Scion (UA)",
+   "desc": "Prerequisite: 4th level, Scion of the Outer Planes (Evil Outer Plane) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-baleful-scion-grasp",
+      "name": "Life-Draining Grasp",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Blade Mastery (UA)",
+   "type": "Feat",
+   "name": "Blade Mastery (UA)",
+   "desc": "Source: Unearthed Arcana 15 — Feats\n\nYou master the shortsword, longsword, scimitar, rapier, and greatsword. You gain the following benefits when using any of them:\n\nYou gain a +1 bonus to attack rolls you make with the weapon.\nOn your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants a +1 bonus to your AC until the start of your next turn or until you're not holding the weapon.\nWhen you make an opportunity attack with the weapon, you have advantage on the attack roll.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Brawny (UA)",
+   "type": "Feat",
+   "name": "Brawny (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou become stronger, gaining the following benefits:\n\nIncrease your Strength score by 1, to a maximum of 20.\nYou gain proficiency in the Athletics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\nYou count as if you were one size larger for the purpose of determining your carrying capacity.\n\nEngine note: if you were already proficient in Athletics, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    },
+    {
+     "grant": "skill:Athletics"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Burglar (UA)",
+   "type": "Feat",
+   "name": "Burglar (UA)",
+   "desc": "Source: Unearthed Arcana 15 — Feats\n\nYou pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:\n\nIncrease your Dexterity score by 1, to a maximum of 20.\nYou gain proficiency with thieves' tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.\n\nEngine note: if you were already proficient with thieves' tools, note the doubled proficiency manually.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Feat:Cartomancer (UA)",
+   "type": "Feat",
+   "name": "Cartomancer (UA)",
+   "desc": "Prerequisite: 4th level; Sorcerer, Warlock, or Wizard class\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-cartomancer-card-focus",
+      "name": "Card Focus",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Prestidigitation",
+     "Card Tricks (at will)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Cohort of Chaos (UA)",
+   "type": "Feat",
+   "name": "Cohort of Chaos (UA)",
+   "desc": "Prerequisite: 4th level, Scion of the Outer Planes (Chaotic Outer Plane) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-cohort-chaos-flare",
+      "name": "Chaotic Flare (forced)",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Diplomat (UA)",
+   "type": "Feat",
+   "name": "Diplomat (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou master the arts of diplomacy, gaining the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "skill:Persuasion"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Divine Communications (UA)",
+   "type": "Feat",
+   "name": "Divine Communications (UA)",
+   "desc": "Prerequisite: 4th level, Divinely Favored feat\n\nSource: Unearthed Arcana 81 — Heroes of Krynn See the side panel for the full text.",
+   "rules": [
+    {
+     "grant": "Language:Celestial"
+    },
+    {
+     "select": {
+      "name": "Languages (choose 2)",
+      "type": "Language",
+      "n": 2
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     4,
+     "Augury",
+     "Divine Omens (1/1d4 long rests)"
+    ],
+    [
+     4,
+     "Commune",
+     "Divine Omens (1/1d4 long rests)"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Divinely Favored (UA)",
+   "type": "Feat",
+   "name": "Divinely Favored (UA)",
+   "desc": "Source: Unearthed Arcana 81 — Heroes of Krynn\n\nA god has chosen you to carry a spark of their divine power. See the side panel for the full text.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Thaumaturgy",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Dragonmark (UA)",
+   "type": "Feat",
+   "name": "Dragonmark (UA)",
+   "desc": "Source: Unearthed Arcana 1 — Eberron\n\nYou have a magical mark that indicates you are a member of one of the dragonmarked houses. Select one of the options from the Dragonmarks table. See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Elemental Touched (UA)",
+   "type": "Feat",
+   "name": "Elemental Touched (UA)",
+   "desc": "Source: Unearthed Arcana 83 — Giant Options\n\nYou've been exposed to the primordial magic of the Elemental Planes, granting you a measure of control over the natural world around you. You learn either the Druidcraft or Thaumaturgy cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you gain this feat). See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Cantrip (Druidcraft or Thaumaturgy)",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Druidcraft",
+       "Spell:Thaumaturgy"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-elemental-touched-effect",
+      "name": "Elemental Touched",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Ember of the Fire Giant (UA)",
+   "type": "Feat",
+   "name": "Ember of the Fire Giant (UA)",
+   "desc": "Prerequisite: 8th level\n\nSource: Unearthed Arcana 83 — Giant Options See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-ember-fire-giant-ignition",
+      "name": "Searing Ignition",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Ember of the Fire Giant (Revised UA)",
+   "type": "Feat",
+   "name": "Ember of the Fire Giant (Revised UA)",
+   "desc": "Prerequisite: 4th level, Strike of the Giants (Fire Giant) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Strength (UA)",
+       "Feat Ability Increase:Constitution (UA)",
+       "Feat Ability Increase:Wisdom (UA)"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-ember-fire-giant-revised-ignition",
+      "name": "Searing Ignition",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Empathic (UA)",
+   "type": "Feat",
+   "name": "Empathic (UA)",
+   "desc": "Source: Unearthed Arcana 38 — Feats for Skills\n\nYou possess keen insight into how other people think and feel. You gain the following benefits: See the side panel for the full text.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "skill:Insight"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Fell Handed (UA)",
+   "type": "Feat",
+   "name": "Fell Handed (UA)",
+   "desc": "Source: Unearthed Arcana 14 — Feats\n\nYou master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them: See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Flail Mastery (UA)",
+   "type": "Feat",
+   "name": "Flail Mastery (UA)",
+   "desc": "Source: Unearthed Arcana 15 — Feats\n\nThe flail is a tricky weapon to use, but you have spent countless hours mastering it. You gain the following benefits: See the side panel for the full text.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Fury of the Frost Giant (UA)",
+   "type": "Feat",
+   "name": "Fury of the Frost Giant (UA)",
+   "desc": "Prerequisite: 4th level\n\nSource: Unearthed Arcana 83 — Giant Options See the side panel for the full text.",
+   "rules": [
+    {
+     "resource": {
+      "id": "feat-fury-frost-giant-vengeance",
+      "name": "Frigid Vengeance",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Fury of the Frost Giant (Revised UA)",
+   "type": "Feat",
+   "name": "Fury of the Frost Giant (Revised UA)",
+   "desc": "Prerequisite: 4th level, Strike of the Giants (Frost Giant) feat\n\nSource: Unearthed Arcana 85 — Wonders of the Multiverse See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Feat Ability Increase",
+      "n": 1,
+      "ids": [
+       "Feat Ability Increase:Strength (UA)",
+       "Feat Ability Increase:Constitution (UA)",
+       "Feat Ability Increase:Wisdom (UA)"
+      ]
+     }
+    },
+    {
+     "resource": {
+      "id": "feat-fury-frost-giant-revised-retaliation",
+      "name": "Frigid Retaliation",
+      "rest": "L",
+      "max": {
+       "pb": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Guile of the Cloud Giant (UA)",
+   "type": "Feat",
+   "name": "Guile of the Cloud Giant (UA)",
+   "desc": "Prerequisite: 8th level\n\nSource: Unearthed Arcana 83 — Giant Options See the side panel for the full text.",
+   "rules": [
+    {
+     "select": {
+      "name": "Silver Tongue Skill",
+      "type": "Skill",
+      "n": 1,
+      "from": [
+       "Deception",
+       "Persuasion"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     8,
+     "Blur",
+     "Misty Form (1/long rest, no concentration)"
+    ]
+   ]
+  }
+ ]
+}
