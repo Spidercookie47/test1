@@ -1,0 +1,1820 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "CM",
+  "name": "Candlekeep Mysteries",
+  "short": "CM"
+ },
+ "elements": [
+  {
+   "id": "Monster:Animated Chained Library",
+   "type": "Monster",
+   "name": "Animated Chained Library",
+   "desc": "Large construct, . Challenge 1.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "",
+    "cr": "1",
+    "ab": {
+     "str": 15,
+     "dex": 8,
+     "con": 14,
+     "int": 1,
+     "wis": 5,
+     "cha": 1
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 10
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+    "sen": {
+     "blindsight": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "False Object",
+      "d": "If the library is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the library move or act, that creature must succeed on a DC 15 Wisdom (Perception) check to discern that the library is animate."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The library makes two attacks."
+     },
+     {
+      "n": "Chained Book",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and if the target is a creature, it is grappled (escape DC 12)."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Canopic Golem",
+   "type": "Monster",
+   "name": "Canopic Golem",
+   "desc": "Large construct, . Challenge 13.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "",
+    "cr": "13",
+    "ab": {
+     "str": 20,
+     "dex": 10,
+     "con": 20,
+     "int": 7,
+     "wis": 11,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 252,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Limited Spell Immunity",
+      "d": "The golem automatically succeeds on saving throws against spells of 7th level or lower, and the attack rolls of such spells always miss it."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The golem doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The golem makes two attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 27 (4d10 + 5) force damage."
+     },
+     {
+      "n": "Crystal Dart",
+      "d": "Ranged Weapon Attack: +10 to hit, range 120 ft., one target. Hit: 14 (2d8 + 5) force damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Spell Deflection",
+      "d": "In response to a spell attack missing the golem, it causes that spell to hit another creature within 120 feet of it that it can see."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Chwinga",
+   "type": "Monster",
+   "name": "Chwinga",
+   "desc": "Tiny elemental, neutral. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "elemental",
+    "tags": "",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 1,
+     "dex": 20,
+     "con": 10,
+     "int": 14,
+     "wis": 16,
+     "cha": 16
+    },
+    "ac": 15,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 5,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "swim": 20,
+     "climb": 20
+    },
+    "saves": {},
+    "skills": {
+     "Acrobatics": 1,
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Evasion",
+      "d": "When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: druidcraft, guidance, pass without trace, resistance"
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice)."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Magical Gift (1/Day)",
+      "d": "The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See chapter 7 of the Dungeon Masters Guide for more information on supernatural charms."
+     },
+     {
+      "n": "Natural Shelter",
+      "d": "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Cloud Giant Ghost",
+   "type": "Monster",
+   "name": "Cloud Giant Ghost",
+   "desc": "Huge undead, . Challenge 9.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "",
+    "cr": "9",
+    "ab": {
+     "str": 27,
+     "dex": 11,
+     "con": 10,
+     "int": 12,
+     "wis": 16,
+     "cha": 17
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 104,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 40,
+     "hover": true
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "cold",
+    "imm": "necrotic, poison",
+    "cimm": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Common, Giant",
+    "traits": [
+     {
+      "n": "Ethereal Sight",
+      "d": "The ghost can see 120 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
+     },
+     {
+      "n": "Incorporeal Movement",
+      "d": "The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+     },
+     {
+      "n": "Regeneration",
+      "d": "The ghost regains 10 hit points at the start of its turn. If the ghost takes radiant damage or damage from a magic weapon, this trait doesn't function at the start of the ghost's next turn. The ghost dies only if it starts its turn with 0 hit points and doesn't regenerate."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The ghost makes two melee attacks."
+     },
+     {
+      "n": "Spectral Weapon",
+      "d": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) force damage."
+     },
+     {
+      "n": "Etherealness",
+      "d": "The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The ghost casts one of the following spells, using Charisma as the spellcasting ability and requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: fog cloud"
+     },
+     {
+      "n": "Action",
+      "d": "3/day: telekinesis"
+     },
+     {
+      "n": "Action",
+      "d": "1/day: control weather"
+     },
+     {
+      "n": "Wind Howl (Recharge 6)",
+      "d": "The ghost emits a dreadful howl that summons a cold, biting wind. This wind engulfs up to three creatures of the ghost's choice that it can see within 60 feet of it. Each target is pulled up to 20 feet toward the ghost and must make a DC 15 Constitution saving throw, taking 16 (3d10) cold damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Constructed Commoner",
+   "type": "Monster",
+   "name": "Constructed Commoner",
+   "desc": "Medium construct, . Challenge 0.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "",
+    "cr": "0",
+    "ab": {
+     "str": 10,
+     "dex": 10,
+     "con": 15,
+     "int": 10,
+     "wis": 10,
+     "cha": 10
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 6,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "exhaustion, poisoned",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Unusual Nature",
+      "d": "The commoner doesn't require air, food, drink, or sleep, and it gains no benefit from finishing a short or long rest. When it drops to 0 hit points, it becomes a lifeless object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Club",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Corrupted Avatar of Lurue",
+   "type": "Monster",
+   "name": "Corrupted Avatar of Lurue",
+   "desc": "Large monstrosity, . Challenge 8.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "",
+    "cr": "8",
+    "ab": {
+     "str": 18,
+     "dex": 14,
+     "con": 15,
+     "int": 11,
+     "wis": 17,
+     "cha": 16
+    },
+    "ac": 14,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 90,
+    "hdn": 0,
+    "spd": {
+     "walk": 50,
+     "fly": 50,
+     "hover": true
+    },
+    "saves": {
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "charmed, paralyzed, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Celestial, Elvish, Sylvan, telepathy 60 ft.",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The avatar makes two attacks: one with its hooves and one with its horn."
+     },
+     {
+      "n": "Hooves",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 32 (8d6 + 4) necrotic damage."
+     },
+     {
+      "n": "Horn",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 32 (8d6 + 4) necrotic damage. If the target is a humanoid, it must succeed on a DC 13 Wisdom saving throw or be transformed into a wolf under the avatar's control. This transformation lasts for 1 hour, or until the target drops to 0 hit points or dies. The target's game statistics are replaced by the wolf's statistics, but it retains its hit points. The target is limited in the actions it can perform by the nature of its wolf form, and it can't speak, cast spells, or take any other action that requires hands or speech. The target's gear melds into the new form, and it can't activate, use, wield, or otherwise benefit from any of its equipment."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Dragon Tortoise",
+   "type": "Monster",
+   "name": "Dragon Tortoise",
+   "desc": "Gargantuan dragon, neutral. Challenge 17.",
+   "stat": {
+    "size": "Gargantuan",
+    "type": "dragon",
+    "tags": "",
+    "align": "neutral",
+    "cr": "17",
+    "ab": {
+     "str": 25,
+     "dex": 10,
+     "con": 20,
+     "int": 10,
+     "wis": 12,
+     "cha": 12
+    },
+    "ac": 20,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 341,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "fire",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Draconic, Terran",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The dragon tortoise makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) piercing damage."
+     },
+     {
+      "n": "Claw",
+      "d": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16 (2d8 + 7) slashing damage."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon tortoise and knocked prone."
+     },
+     {
+      "n": "Sand Breath (Recharge 5–6)",
+      "d": "The dragon tortoise exhales abrasive sand in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (15d6) slashing damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Fungal Servant",
+   "type": "Monster",
+   "name": "Fungal Servant",
+   "desc": "Medium undead, lawful evil. Challenge 15.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "15",
+    "ab": {
+     "str": 18,
+     "dex": 10,
+     "con": 17,
+     "int": 11,
+     "wis": 18,
+     "cha": 16
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 97,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {
+     "con": true,
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "History": 1,
+     "Religion": 1
+    },
+    "vuln": "fire",
+    "res": "",
+    "imm": "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "The languages it knew in life",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The fungal servant has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Rejuvenation",
+      "d": "A destroyed fungal servant gains a new body in 24 hours if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 feet of the fungal servant's heart."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The fungal servant is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The fungal servant has the following cleric spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): sacred flame, thaumaturgy"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): command, guiding bolt, shield of faith"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): hold person, silence, spiritual weapon"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (3 slots): animate dead, dispel magic"
+     },
+     {
+      "n": "Action",
+      "d": "4th level (3 slots): divination, guardian of faith"
+     },
+     {
+      "n": "Action",
+      "d": "5th level (2 slots): contagion, insect plague"
+     },
+     {
+      "n": "Action",
+      "d": "6th level (1 slot): harm"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The fungal servant can use its Dreadful Glare and makes one attack with its rotting fist."
+     },
+     {
+      "n": "Rotting Fist",
+      "d": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to spores. The curse lasts until removed by the remove curse spell or other magic."
+     },
+     {
+      "n": "Dreadful Glare",
+      "d": "The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants for the next 24 hours."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Attack",
+      "d": "The fungal servant makes one attack with its rotting fist or uses its Dreadful Glare."
+     },
+     {
+      "n": "Blinding Spores",
+      "d": "Blinding spores swirls magically around the fungal servant. Each creature within 5 feet of the fungal servant must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature's next turn."
+     },
+     {
+      "n": "Blasphemous Word (Costs 2 Actions)",
+      "d": "The fungal servant utters a blasphemous word. Each non-undead creature within 10 feet of the fungal servant that can hear the magical utterance must succeed on a DC 16 Constitution saving throw or be stunned until the end of the fungal servant's next turn."
+     },
+     {
+      "n": "Channel Negative Energy (Costs 2 Actions)",
+      "d": "The fungal servant magically unleashes negative energy. Creatures within 60 feet of the fungal servant, including ones behind barriers and around corners, can't regain hit points until the end of the fungal servant's next turn."
+     },
+     {
+      "n": "Whirlwind of Spores (Costs 2 Actions)",
+      "d": "The fungal servant magically transforms into a whirlwind of spores, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the fungal servant is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the fungal servant remain in its possession."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Gingwatzim",
+   "type": "Monster",
+   "name": "Gingwatzim",
+   "desc": "Small aberration (shapechanger), . Challenge 2.",
+   "stat": {
+    "size": "Small",
+    "type": "aberration (shapechanger)",
+    "tags": "",
+    "align": "",
+    "cr": "2",
+    "ab": {
+     "str": 3,
+     "dex": 15,
+     "con": 16,
+     "int": 4,
+     "wis": 11,
+     "cha": 6
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 39,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "Telepathy 60 ft.",
+    "traits": [
+     {
+      "n": "Alternate Forms",
+      "d": "The gingwatzim has two alternate forms, both of which are chosen by its creator when the gingwatzim comes into being. One form is an exact duplicate of a Tiny nonmagical object (such as a book, dagger, or gemstone) that its creator is carrying or wearing when the gingwatzim is conjured. The other form can be any Tiny beast. Once these alternate forms are chosen, they can't be changed."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Energy Drain (True Form Only)",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 16 (4d6 + 2) necrotic damage, and the target must succeed on a DC 12 Constitution saving throw or gain 1 level of exhaustion. When the target finishes a short or long rest, the target loses every level of exhaustion gained from this attack."
+     },
+     {
+      "n": "Change Shape",
+      "d": "The gingwatzim changes from its true form—a 3-foot-diameter sphere of luminous ectoplasm—into one of its two alternate forms, or from one of those forms back into its true form. In object form, it can't move or make attacks but otherwise retains its statistics, and it is indistinguishable from the thing it is imitating. In beast form, it retains its hit points but otherwise uses the stat block of the beast it is imitating. When it dies, the gingwatzim reverts to its true form and then vanishes."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Grippli Warrior",
+   "type": "Monster",
+   "name": "Grippli Warrior",
+   "desc": "Small humanoid (grippli), . Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (grippli)",
+    "tags": "",
+    "align": "",
+    "cr": "1/4",
+    "ab": {
+     "str": 10,
+     "dex": 15,
+     "con": 12,
+     "int": 10,
+     "wis": 14,
+     "cha": 10
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 13,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "swim": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {
+     "Athletics": 1,
+     "Stealth": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Grippli plus one other language (usually Common, Draconic, or Primordial)",
+    "traits": [
+     {
+      "n": "Hold Breath",
+      "d": "The grippli can hold its breath for 20 minutes."
+     },
+     {
+      "n": "Standing Leap",
+      "d": "The grippli can leap 30 feet horizontally or 20 feet vertically from a standing position."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The grippli makes one attack with its tongue. If this attack hits, the grippli can make a melee attack using its trident against the same target."
+     },
+     {
+      "n": "Tongue",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the grippli can't grab another creature."
+     },
+     {
+      "n": "Trident",
+      "d": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack, plus 2 (1d4) piercing damage if the grippli had advantage on the attack roll."
+     },
+     {
+      "n": "Shortbow",
+      "d": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage, plus 2 (1d4) piercing damage if the grippli had advantage on the attack roll."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Immortal Lotus Monk",
+   "type": "Monster",
+   "name": "Immortal Lotus Monk",
+   "desc": "Medium humanoid, . Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid",
+    "tags": "",
+    "align": "",
+    "cr": "5",
+    "ab": {
+     "str": 12,
+     "dex": 16,
+     "con": 14,
+     "int": 11,
+     "wis": 14,
+     "cha": 10
+    },
+    "ac": 15,
+    "acNote": "Unarmored Defense",
+    "hpAuto": false,
+    "hp": 65,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Acrobatics": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Unarmored Defense",
+      "d": "While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The monk makes two attacks."
+     },
+     {
+      "n": "Force Strike",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) force damage, and if the target is a creature, it must succeed on a DC 14 Dexterity saving throw or be knocked prone."
+     },
+     {
+      "n": "Dart",
+      "d": "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Kiddywidget",
+   "type": "Monster",
+   "name": "Kiddywidget",
+   "desc": "Small construct, . Challenge 1/2.",
+   "stat": {
+    "size": "Small",
+    "type": "construct",
+    "tags": "",
+    "align": "",
+    "cr": "1/2",
+    "ab": {
+     "str": 6,
+     "dex": 14,
+     "con": 18,
+     "int": 1,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 15,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "climb": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "lightning, poison",
+    "cimm": "blinded, deafened, exhaustion, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Skitterwidget",
+    "traits": [
+     {
+      "n": "Unusual Nature",
+      "d": "The kiddywidget doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The kiddywidget makes two attacks: one with its bite and one with its tail."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it is grappled by the kiddywidget (escape DC 8)."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) lightning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Lichen Lich",
+   "type": "Monster",
+   "name": "Lichen Lich",
+   "desc": "Medium undead, . Challenge 18.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "",
+    "cr": "18",
+    "ab": {
+     "str": 11,
+     "dex": 16,
+     "con": 16,
+     "int": 14,
+     "wis": 20,
+     "cha": 16
+    },
+    "ac": 20,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 225,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Medicine": 1,
+     "Nature": 2,
+     "Perception": 1,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "cold, necrotic",
+    "imm": "poison",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, poisoned, stunned",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "Common, Druidic, Sylvan",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day)",
+      "d": "If the lich fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Rejuvenation",
+      "d": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The lich makes four attacks."
+     },
+     {
+      "n": "Poisonous Touch",
+      "d": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 17 (5d6) poison damage, and the target must succeed on a DC 19 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The lich casts one of the following spells using Wisdom as the spellcasting ability (save DC 19):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: druidcraft"
+     },
+     {
+      "n": "Action",
+      "d": "3/day each: detect magic, fog cloud, pass without trace"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: antilife shell, dispel magic, speak with plants, transport via plants"
+     },
+     {
+      "n": "Wither",
+      "d": "Ranged Spell Attack: +9 to hit, range 60 ft., one target. Hit: 14 (4d6) necrotic damage."
+     },
+     {
+      "n": "Fire Storm (7th-Level Spell; 1/Day)",
+      "d": "The lich fills up to ten 10-foot cubes with fire. Every cube must be within 150 feet of the lich and occupy a space the lich can see, and each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a DC 19 Dexterity saving throw, taking 38 (7d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried. If the lich chooses, plant life in the area is unaffected by the spell."
+     }
+    ],
+    "bonus": [],
+    "reactions": [],
+    "leg": [
+     {
+      "n": "Attack",
+      "d": "The lich makes an attack."
+     },
+     {
+      "n": "Poison Prick (Cost 2 Actions)",
+      "d": "The lich targets one poisoned creature it can see within 30 feet of it. The target must succeed on a DC 19 Constitution saving throw or fall unconscious until the poisoned condition ends on it."
+     },
+     {
+      "n": "Sap Life (Costs 2 Actions)",
+      "d": "The lich targets one creature it can see within 30 feet of it. The target must succeed on a DC 19 Constitution saving throw or take 11 (2d10) necrotic damage. The lich regains a number of hit points equal to the amount of damage that the creature takes."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Lightning Golem",
+   "type": "Monster",
+   "name": "Lightning Golem",
+   "desc": "Medium construct, neutral. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "neutral",
+    "cr": "5",
+    "ab": {
+     "str": 19,
+     "dex": 9,
+     "con": 18,
+     "int": 6,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 9,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 93,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Berserk",
+      "d": "Whenever the golem starts its turn with 40 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+     },
+     {
+      "n": "The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively",
+      "d": "The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again."
+     },
+     {
+      "n": "Immutable Form",
+      "d": "The golem is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Lightning Absorption",
+      "d": "Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The golem has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Magic Weapons",
+      "d": "The golem's weapon attacks are magical."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The golem makes two slam attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) lightning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Master Sage",
+   "type": "Monster",
+   "name": "Master Sage",
+   "desc": "Medium humanoid (any race), . Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "",
+    "cr": "5",
+    "ab": {
+     "str": 8,
+     "dex": 10,
+     "con": 10,
+     "int": 20,
+     "wis": 18,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 54,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 2,
+     "History": 2,
+     "Insight": 1,
+     "Investigation": 2,
+     "Medicine": 2,
+     "Nature": 2,
+     "Religion": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common plus any five languages",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Shocking Grasp (Cantrip)",
+      "d": "Melee Spell Attack: +8 to hit (with advantage if the target is wearing armor made of metal), reach 5 ft., one creature. Hit: 13 (3d8) lightning damage, and the target can't take reactions until the start of its next turn."
+     },
+     {
+      "n": "Lightning Eruption (3/Day)",
+      "d": "The sage creates an eruption of magical lightning centered on a point it can see within 150 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a DC 16 Dexterity saving throw, taking 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The sage casts one of the following spells, using Intelligence as the spellcasting ability (save DC 16, +8 to hit with spell attacks):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: light, mage hand, mending, prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "3/day each: comprehend languages, detect magic, dispel magic, identify, levitate, locate object, Tenser's Floating Disk, unseen servant"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: banishment, contact other plane, Drawmij's instant summons, legend lore, locate creature, planar binding, polymorph, protection from evil and good, scrying, sending, true seeing"
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Shield (1st-Level Spell; 3/Day)",
+      "d": "When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Mimic Chair",
+   "type": "Monster",
+   "name": "Mimic Chair",
+   "desc": "Medium monstrosity (shapechanger), neutral. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity (shapechanger)",
+    "tags": "",
+    "align": "neutral",
+    "cr": "2",
+    "ab": {
+     "str": 17,
+     "dex": 12,
+     "con": 15,
+     "int": 5,
+     "wis": 13,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 30,
+    "hdn": 0,
+    "spd": {
+     "walk": 15
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "acid",
+    "cimm": "prone",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+     },
+     {
+      "n": "Grappler",
+      "d": "The mimic has advantage on attack rolls against any creature grappled by it."
+     },
+     {
+      "n": "Adhesive (Object Form Only)",
+      "d": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 10). Ability checks made to escape this grapple have disadvantage."
+     },
+     {
+      "n": "False Appearance (Object Form Only)",
+      "d": "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Pseudopod",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Naiad",
+   "type": "Monster",
+   "name": "Naiad",
+   "desc": "Medium fey, chaotic neutral. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "fey",
+    "tags": "",
+    "align": "chaotic neutral",
+    "cr": "2",
+    "ab": {
+     "str": 10,
+     "dex": 16,
+     "con": 11,
+     "int": 15,
+     "wis": 10,
+     "cha": 18
+    },
+    "ac": 15,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 31,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "swim": 30
+    },
+    "saves": {},
+    "skills": {
+     "Persuasion": 1,
+     "Sleight of Hand": 1
+    },
+    "vuln": "",
+    "res": "psychic",
+    "imm": "poison",
+    "cimm": "charmed, frightened, poisoned",
+    "sen": {},
+    "langs": "Common, Sylvan",
+    "traits": [
+     {
+      "n": "Amphibious",
+      "d": "The naiad can breathe air and water."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The naiad's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: minor illusion"
+     },
+     {
+      "n": "Action",
+      "d": "3/day: phantasmal force"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: fly, hypnotic pattern"
+     },
+     {
+      "n": "Invisible in Water",
+      "d": "The naiad is invisible while fully immersed in water."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The naiad has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The naiad makes two psychic touch attacks."
+     },
+     {
+      "n": "Psychic Touch",
+      "d": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) psychic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Parasite-infested Behir",
+   "type": "Monster",
+   "name": "Parasite-infested Behir",
+   "desc": "Huge undead, neutral evil. Challenge 11.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "11",
+    "ab": {
+     "str": 23,
+     "dex": 16,
+     "con": 18,
+     "int": 7,
+     "wis": 14,
+     "cha": 12
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 168,
+    "hdn": 0,
+    "spd": {
+     "walk": 50,
+     "climb": 40
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "lightning",
+    "cimm": "",
+    "sen": {
+     "darkvision": 90
+    },
+    "langs": "Draconic",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The behir makes two attacks: one with its bite and one to constrict."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage."
+     },
+     {
+      "n": "Constrict",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends."
+     },
+     {
+      "n": "Lightning Breath (Recharge 5–6)",
+      "d": "The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one."
+     },
+     {
+      "n": "Swallow",
+      "d": "The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the behir, and it takes 21 (6d6) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time."
+     },
+     {
+      "n": "Any creature swallowed by a parasite-infested behir must succeed on a DC 19 Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful save",
+      "d": "This damage is in addition to the damage caused by the behir's digestive acids."
+     },
+     {
+      "n": "If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the behir",
+      "d": "If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Sage",
+   "type": "Monster",
+   "name": "Sage",
+   "desc": "Medium humanoid (any race), . Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "",
+    "cr": "1/2",
+    "ab": {
+     "str": 8,
+     "dex": 10,
+     "con": 10,
+     "int": 18,
+     "wis": 15,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 2,
+     "History": 2,
+     "Insight": 1,
+     "Investigation": 2,
+     "Medicine": 2,
+     "Nature": 2,
+     "Religion": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common plus any four languages",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Shocking Grasp (Cantrip)",
+      "d": "Melee Spell Attack: +6 to hit (with advantage if the target is wearing armor made of metal), reach 5 ft., one creature. Hit: 9 (2d8) lightning damage, and the target can't take reactions until the start of its next turn."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The sage casts one of the following spells, using Intelligence as the spellcasting ability (save DC 14, +6 to hit with spell attacks):"
+     },
+     {
+      "n": "Action",
+      "d": "At will: light, mage hand, mending"
+     },
+     {
+      "n": "Action",
+      "d": "3/day each: comprehend languages, detect magic, identify"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: dispel magic, levitate, locate object, see invisibility, sending, tongues, unseen servant"
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Shield (1st-Level Spell; 3/Day)",
+      "d": "When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Sapphire Sentinel",
+   "type": "Monster",
+   "name": "Sapphire Sentinel",
+   "desc": "Large construct, unaligned. Challenge 10.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "10",
+    "ab": {
+     "str": 22,
+     "dex": 9,
+     "con": 20,
+     "int": 3,
+     "wis": 11,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 178,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Understands Common but can't speak",
+    "traits": [
+     {
+      "n": "Immutable Form",
+      "d": "The golem is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The golem has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Magic Weapons",
+      "d": "The golem's weapon attacks are magical."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The golem makes two slam attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage."
+     },
+     {
+      "n": "Slow (Recharge 5–6)",
+      "d": "The golem targets one or more creatures it can see within 10 feet of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Sapphire",
+      "d": "The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast dispel magic (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains 1d3 expended charges daily at dawn and glows again once it has 1 or more charges."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Skitterwidget",
+   "type": "Monster",
+   "name": "Skitterwidget",
+   "desc": "Medium construct, . Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "",
+    "cr": "5",
+    "ab": {
+     "str": 16,
+     "dex": 14,
+     "con": 18,
+     "int": 3,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 85,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "lightning, poison",
+    "cimm": "blinded, deafened, exhaustion, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Skitterwidget",
+    "traits": [
+     {
+      "n": "Lightning Absorption",
+      "d": "Whenever the skitterwidget is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+     },
+     {
+      "n": "Unusual Nature",
+      "d": "The skitterwidget doesn't require air, food, drink, or sleep."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The skitterwidget makes two attacks: one with its bite and one with its tail."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it is grappled by the skitterwidget (escape DC 13)."
+     },
+     {
+      "n": "Tail",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) lightning damage, and if the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Good Parent",
+      "d": "The skitterwidget imposes disadvantage on one attack roll made against a kiddywidget it can see within 5 feet of it."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Storm Giant Skeleton",
+   "type": "Monster",
+   "name": "Storm Giant Skeleton",
+   "desc": "Huge undead, . Challenge 16.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "",
+    "cr": "16",
+    "ab": {
+     "str": 29,
+     "dex": 14,
+     "con": 15,
+     "int": 3,
+     "wis": 8,
+     "cha": 1
+    },
+    "ac": 13,
+    "acNote": "armor scraps",
+    "hpAuto": false,
+    "hp": 204,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {
+     "str": true,
+     "con": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "bludgeoning",
+    "res": "cold",
+    "imm": "lightning, poison, thunder",
+    "cimm": "exhaustion, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The giant makes two attacks with its greatsword or hurls two rocks."
+     },
+     {
+      "n": "Greatsword",
+      "d": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 9) slashing damage plus 18 (4d8) necrotic damage."
+     },
+     {
+      "n": "Rock",
+      "d": "Ranged Weapon Attack: +14 to hit, reach 60/240 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage."
+     },
+     {
+      "n": "Lightning Strike (Recharge 5–6)",
+      "d": "The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 15 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Swarm of Animated Books",
+   "type": "Monster",
+   "name": "Swarm of Animated Books",
+   "desc": "Medium swarm of tiny constructs, . Challenge 1/4.",
+   "stat": {
+    "size": "Medium",
+    "type": "swarm of tiny constructs",
+    "tags": "",
+    "align": "",
+    "cr": "1/4",
+    "ab": {
+     "str": 10,
+     "dex": 13,
+     "con": 12,
+     "int": 1,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 12,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "fire",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "False Objects",
+      "d": "If the swarm is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the swarm move or act, that creature must succeed on a DC 15 Wisdom (Perception) check to discern that the swarm is animate."
+     },
+     {
+      "n": "Swarm",
+      "d": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a 1-foot-tall, 8-inch-wide, 2-inch-thick object. The swarm can't regain hit points or gain temporary hit points."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Book Club",
+      "d": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 6 (2d4 + 1) bludgeoning damage, or 3 (1d4 + 1) bludgeoning damage if the swarm has half its hit points or fewer."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Wood Elf Wizard",
+   "type": "Monster",
+   "name": "Wood Elf Wizard",
+   "desc": "Medium humanoid (elf), neutral evil. Challenge 7.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "7",
+    "ab": {
+     "str": 9,
+     "dex": 14,
+     "con": 10,
+     "int": 17,
+     "wis": 13,
+     "cha": 12
+    },
+    "ac": 12,
+    "acNote": "15 with mage armor",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 1,
+     "Deception": 1,
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Elvish, Undercommon",
+    "traits": [
+     {
+      "n": "Fey Ancestry",
+      "d": "The wood elf has advantage on saving throws against being charmed, and magic can't put the wood elf to sleep."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The wood elf's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: dancing lights"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: darkness, faerie fire, levitate (self only)"
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The wood elf is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The wood elf has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): mage armor, magic missile, shield, witch bolt"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): alter self, misty step, web"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (3 slots): fly, lightning bolt"
+     },
+     {
+      "n": "Action",
+      "d": "4th level (3 slots): Evard's black tentacles, greater invisibility"
+     },
+     {
+      "n": "Action",
+      "d": "5th level (2 slots): cloudkill"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Staff",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands, plus 3 (1d6) poison damage."
+     },
+     {
+      "n": "Summon Demon (1/Day)",
+      "d": "The wood elf magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}
