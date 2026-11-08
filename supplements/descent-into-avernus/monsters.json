@@ -1,0 +1,1492 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "bgdia",
+  "name": "Baldur's Gate: Descent into Avernus",
+  "short": "BG:DIA"
+ },
+ "elements": [
+  {
+   "id": "Monster:Abyssal Chicken",
+   "type": "Monster",
+   "name": "Abyssal Chicken",
+   "desc": "Tiny fiend (demon), chaotic evil. Challenge 1/4.",
+   "stat": {
+    "size": "Tiny",
+    "type": "fiend (demon)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 6,
+     "dex": 14,
+     "con": 13,
+     "int": 4,
+     "wis": 9,
+     "cha": 5
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 10,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "cold, fire, lightning",
+    "imm": "poison",
+    "cimm": "blinded, poisoned",
+    "sen": {
+     "blindsight": 30
+    },
+    "langs": "Understands Abyssal but can't speak",
+    "traits": [
+     {
+      "n": "Bad Flier",
+      "d": "The abyssal chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The abyssal chicken makes two attacks: one with its bite and one with its claws."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+     },
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Black Gauntlet of Bane",
+   "type": "Monster",
+   "name": "Black Gauntlet of Bane",
+   "desc": "Medium humanoid (human), lawful evil. Challenge 6.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "6",
+    "ab": {
+     "str": 18,
+     "dex": 11,
+     "con": 18,
+     "int": 12,
+     "wis": 15,
+     "cha": 18
+    },
+    "ac": 16,
+    "acNote": "chain mail",
+    "hpAuto": false,
+    "hp": 51,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Intimidation": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "frightened",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Aura of Terror",
+      "d": "When a hostile creature within 5 feet of the black gauntlet makes an attack roll or a saving throw, it has disadvantage on the roll. Creatures that are immune to the frightened condition are immune to this trait."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The black gauntlet is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): guidance, sacred flame, thaumaturgy"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): bane, bless, cure wounds, guiding bolt (see \"Actions\" below)"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): blindness/deafness, hold person, silence"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (2 slots): sending, spirit guardians"
+     },
+     {
+      "n": "Tactical Discipline",
+      "d": "The black gauntlet has advantage on all ability checks and saving throws made during combat."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The black gauntlet makes two attacks with its mace."
+     },
+     {
+      "n": "Mace",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 13 (3d8) necrotic damage."
+     },
+     {
+      "n": "Guiding Bolt (1st-Level Spell; Requires a Spell Slot)",
+      "d": "Ranged Spell Attack: +7 to hit, range 120 ft., one creature. Hit: 14 (4d6) radiant damage, and the next attack roll made against the target before the end of the black gauntlet's next turn has advantage. If the black gauntlet casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Bone Whelk",
+   "type": "Monster",
+   "name": "Bone Whelk",
+   "desc": "Large monstrosity, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 10,
+     "dex": 5,
+     "con": 11,
+     "int": 6,
+     "wis": 9,
+     "cha": 3
+    },
+    "ac": 12,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 27,
+    "hdn": 0,
+    "spd": {
+     "walk": 15,
+     "climb": 15
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Adhesive",
+      "d": "The bone whelk can cause Medium or smaller objects to adhere to it. A Medium or smaller creature that touches the bone whelk is grappled by it (escape DC 10)."
+     },
+     {
+      "n": "Death Scream",
+      "d": "When the bone whelk dies, it emits a blood-curdling shriek than can be heard out to a range of 120 feet. This shriek causes nonmagical, organic material within 10 feet of the bone whelk to rot. Each creature within 10 feet of the bone whelk when it dies takes 9 (2d8) necrotic damage."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The bone whelk can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 4 (1d8) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Death's Head of Bhaal",
+   "type": "Monster",
+   "name": "Death's Head of Bhaal",
+   "desc": "Medium humanoid (human), chaotic evil. Challenge 5.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "5",
+    "ab": {
+     "str": 20,
+     "dex": 20,
+     "con": 20,
+     "int": 14,
+     "wis": 13,
+     "cha": 16
+    },
+    "ac": 15,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 76,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Perception": 1,
+     "Persuasion": 1,
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Aura of Murder",
+      "d": "As long as the death's head is not incapacitated, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The death's head has advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The death's head uses Stunning Gaze and makes two dagger attacks."
+     },
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage."
+     },
+     {
+      "n": "Stunning Gaze",
+      "d": "The death's head targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be stunned until the end of its next turn."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Unstoppable (3/Day)",
+      "d": "The death's head reduces the damage it takes from an attack to 0."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Dryad Spirit",
+   "type": "Monster",
+   "name": "Dryad Spirit",
+   "desc": "Medium undead, chaotic evil. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "4",
+    "ab": {
+     "str": 1,
+     "dex": 14,
+     "con": 10,
+     "int": 12,
+     "wis": 11,
+     "cha": 17
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 58,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 40,
+     "hover": true
+    },
+    "saves": {
+     "wis": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "cold, necrotic, poison",
+    "cimm": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Elvish",
+    "traits": [
+     {
+      "n": "Detect Life",
+      "d": "The dryad can magically sense the presence of living creatures up to 5 miles away that aren't undead or constructs. She knows the general direction they're in but not their exact locations."
+     },
+     {
+      "n": "Incorporeal Movement",
+      "d": "The dryad can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Corrupting Touch",
+      "d": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) necrotic damage."
+     },
+     {
+      "n": "Horrifying Visage",
+      "d": "Each non-undead creature within 60 feet of the dryad that can see her must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if the dryad is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the dryad's Horrifying Visage for the next 24 hours."
+     },
+     {
+      "n": "Wail (1/Day)",
+      "d": "The dryad releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Fiendish Flesh Golem",
+   "type": "Monster",
+   "name": "Fiendish Flesh Golem",
+   "desc": "Large construct, unaligned. Challenge 8.",
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "8",
+    "ab": {
+     "str": 20,
+     "dex": 9,
+     "con": 20,
+     "int": 7,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 12,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 210,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "cold, fire",
+    "imm": "lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine or silvered",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages of its creator but can't speak",
+    "traits": [
+     {
+      "n": "Berserk",
+      "d": "Whenever the golem starts its turn with 100 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points. If the golem's creator is within 60 feet of the berserk golem, the creator can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 100 hit points or fewer, the golem might go berserk again."
+     },
+     {
+      "n": "Immutable Form",
+      "d": "The golem is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Lightning Absorption",
+      "d": "Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The golem has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Magic Weapons",
+      "d": "The golem's weapon attacks are magical."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The golem makes two slam attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Fist of Bane",
+   "type": "Monster",
+   "name": "Fist of Bane",
+   "desc": "Medium humanoid (human), lawful evil. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 16,
+     "dex": 11,
+     "con": 13,
+     "int": 10,
+     "wis": 12,
+     "cha": 11
+    },
+    "ac": 18,
+    "acNote": "chain mail, shield",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "frightened",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Tactical Discipline",
+      "d": "The fist of Bane has advantage on all ability checks and saving throws made during combat."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Mace",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+     },
+     {
+      "n": "Longbow",
+      "d": "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit: 4 (1d8) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Flying Dagger",
+   "type": "Monster",
+   "name": "Flying Dagger",
+   "desc": "Tiny construct, unaligned. Challenge 1/8.",
+   "stat": {
+    "size": "Tiny",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/8",
+    "ab": {
+     "str": 12,
+     "dex": 15,
+     "con": 11,
+     "int": 1,
+     "wis": 5,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 50,
+     "hover": true
+    },
+    "saves": {
+     "dex": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Antimagic Susceptibility",
+      "d": "The dagger is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the dagger must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+     },
+     {
+      "n": "False Appearance",
+      "d": "While the dagger remains motionless and isn't flying, it is indistinguishable from a normal dagger."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Hellwasp",
+   "type": "Monster",
+   "name": "Hellwasp",
+   "desc": "Large fiend, lawful evil. Challenge 5.",
+   "stat": {
+    "size": "Large",
+    "type": "fiend",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "5",
+    "ab": {
+     "str": 18,
+     "dex": 15,
+     "con": 12,
+     "int": 10,
+     "wis": 10,
+     "cha": 7
+    },
+    "ac": 19,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 52,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "fly": 60,
+     "hover": true
+    },
+    "saves": {
+     "dex": true,
+     "wis": true
+    },
+    "skills": {},
+    "vuln": "cold",
+    "res": "",
+    "imm": "fire",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Infernal, telepathy 300 ft. (with other hellwasps only)",
+    "traits": [
+     {
+      "n": "Magic Weapons",
+      "d": "The hellwasp's weapon attacks are magical."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The hellwasp makes two attacks: one with its sting and one with its sword talons."
+     },
+     {
+      "n": "Sting",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+     },
+     {
+      "n": "Sword Talons",
+      "d": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Hellwasp Grub",
+   "type": "Monster",
+   "name": "Hellwasp Grub",
+   "desc": "Small beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 5,
+     "dex": 14,
+     "con": 12,
+     "int": 1,
+     "wis": 7,
+     "cha": 3
+    },
+    "ac": 13,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 4,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "blindsight": 30
+    },
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Hollyphant",
+   "type": "Monster",
+   "name": "Hollyphant",
+   "desc": "Small celestial, lawful good. Challenge 5.",
+   "stat": {
+    "size": "Small",
+    "type": "celestial",
+    "tags": "",
+    "align": "lawful good",
+    "cr": "5",
+    "ab": {
+     "str": 10,
+     "dex": 11,
+     "con": 12,
+     "int": 16,
+     "wis": 19,
+     "cha": 16
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 36,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "fly": 120
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "cha": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {},
+    "langs": "Celestial, telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Aura of Invulnerability",
+      "d": "An invisible aura forms a 10-foot-radius sphere around the hollyphant for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. The hollyphant can use an action to suppress this trait until its concentration ends (as if concentrating on a spell)."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The hollyphant's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: light"
+     },
+     {
+      "n": "Action",
+      "d": "2/day each: bless, cure wounds, protection from evil and good"
+     },
+     {
+      "n": "1/day each: banishment, heal, raise dead, shapechange (into a golden-furred mammoth with feathered wings and a flying speed of 120 ft",
+      "d": "), teleport (with no chance of error)"
+     },
+     {
+      "n": "Magic Weapons",
+      "d": "The hollyphant's weapon attacks are magical."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Tusks",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
+     },
+     {
+      "n": "Trumpet (3/Day)",
+      "d": "The hollyphant blows air through its trunk, creating a trumpet sound that can be heard out to a range of 600 feet. The trumpet also creates a 30-foot cone of energy that has one of the following effects, chosen by the hollyphant:"
+     },
+     {
+      "n": "Trumpet of Blasting",
+      "d": "Each creature in the cone must make a DC 14 Constitution saving throw. On a failed save, a creature takes 17 (5d6) thunder damage and is deafened for 1 minute. On a successful save, a creature takes half as much damage and isn't deafened. Nonmagical objects in the cone that aren't being held or worn take 35 (10d6) thunder damage."
+     },
+     {
+      "n": "Trumpet of Sparkles",
+      "d": "Creatures in the cone must make a DC 14 Constitution saving throw, taking 22 (4d8 + 4) radiant damage on a failed save, or half as much damage on a successful one. Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Iron Consul",
+   "type": "Monster",
+   "name": "Iron Consul",
+   "desc": "Medium humanoid (human), lawful evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "2",
+    "ab": {
+     "str": 17,
+     "dex": 11,
+     "con": 16,
+     "int": 12,
+     "wis": 15,
+     "cha": 16
+    },
+    "ac": 16,
+    "acNote": "chain mail",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Intimidation": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "frightened",
+    "sen": {},
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Tactical Discipline",
+      "d": "The iron consul has advantage on all ability checks and saving throws made during combat."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The iron consul makes one attack with its spear and can use its Voice of Command ability."
+     },
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage when used with two hands to make a melee attack."
+     },
+     {
+      "n": "Voice of Command",
+      "d": "The iron consul selects up to two allies within 90 feet of it that can hear its commands. Each ally can immediately use its reaction to make one melee attack."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Master of Souls",
+   "type": "Monster",
+   "name": "Master of Souls",
+   "desc": "Medium humanoid (human), neutral evil. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "4",
+    "ab": {
+     "str": 10,
+     "dex": 14,
+     "con": 17,
+     "int": 19,
+     "wis": 14,
+     "cha": 13
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Religion": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Abyssal, Common, Infernal",
+    "traits": [
+     {
+      "n": "Grave Magic",
+      "d": "When the master of souls cast a spell that deals damage, it can change the spell's damage type to necrotic."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The master of souls is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): chill touch (see \"Actions\" below), mage hand, message, prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): burning hands, detect magic, ray of sickness (see \"Actions\" below), shield"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (3 slots): darkness, misty step, scorching ray (see \"Actions\" below)"
+     },
+     {
+      "n": "Action",
+      "d": "3rd level (2 slots): animate dead, fireball"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The master of souls attacks twice with its flail."
+     },
+     {
+      "n": "Silvered Skull Flail",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage plus 14 (4d6) necrotic damage, and the target has disadvantage on all saving throws until the end of the master of souls' next turn."
+     },
+     {
+      "n": "Chill Touch (Cantrip)",
+      "d": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit: 13 (2d8) necrotic damage, and the target can't regain hit points until the start of the master of souls' next turn. If the target is undead, it has disadvantage on attack rolls against the master of souls for the same duration."
+     },
+     {
+      "n": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)",
+      "d": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit: 9 (2d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned until the end of the master of souls' next turn. If the master of souls casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
+     },
+     {
+      "n": "Scorching Ray (2nd-Level Spell; Requires a Spell Slot)",
+      "d": "Ranged Spell Attack: +6 to hit, range 120 ft., one target per ray (3 rays if a 2nd-level spell slot is used, 4 rays if a 3rd-level spell slot is used). Hit: 7 (2d6) fire damage per ray."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Necromite of Myrkul",
+   "type": "Monster",
+   "name": "Necromite of Myrkul",
+   "desc": "Medium humanoid (human), neutral evil. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1/2",
+    "ab": {
+     "str": 10,
+     "dex": 13,
+     "con": 15,
+     "int": 16,
+     "wis": 11,
+     "cha": 10
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 13,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 1,
+     "Religion": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Abyssal, Common, Infernal",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Skull Flail",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage."
+     },
+     {
+      "n": "Claws of the Grave",
+      "d": "Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit: 8 (2d4 + 3) necrotic damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Necrotic Centipede",
+   "type": "Monster",
+   "name": "Necrotic Centipede",
+   "desc": "Huge monstrosity, unaligned. Challenge 11.",
+   "stat": {
+    "size": "Huge",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "11",
+    "ab": {
+     "str": 24,
+     "dex": 13,
+     "con": 21,
+     "int": 4,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 195,
+    "hdn": 0,
+    "spd": {
+     "walk": 30,
+     "burrow": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "necrotic, fire",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60,
+     "tremorsense": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Necrotic Body",
+      "d": "A creature that touches the centipede or hits it with a melee attack while within 5 feet of it takes 10 (3d6) necrotic damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 40 (6d10 + 7) piercing damage plus 10 (3d6) necrotic damage. If the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the centipede can't bite another target."
+     },
+     {
+      "n": "Swallow",
+      "d": "The centipede makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the centipede, and it takes 21 (6d6) acid damage at the start of each of the centipede's turns."
+     },
+     {
+      "n": "If the centipede takes 30 damage or more on a single turn from a creature inside it, the centipede must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the centipede",
+      "d": "If the centipede dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Night Blade",
+   "type": "Monster",
+   "name": "Night Blade",
+   "desc": "Medium humanoid (human), chaotic evil. Challenge 1/4.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "1/4",
+    "ab": {
+     "str": 11,
+     "dex": 15,
+     "con": 12,
+     "int": 10,
+     "wis": 11,
+     "cha": 14
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 11,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Aura of Murder",
+      "d": "As long as the night blade is not incapacitated, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Peacock",
+   "type": "Monster",
+   "name": "Peacock",
+   "desc": "Medium beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Medium",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 7,
+     "dex": 10,
+     "con": 13,
+     "int": 2,
+     "wis": 12,
+     "cha": 4
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 5,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "fly": 50
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Sight and Smell",
+      "d": "The peacock has advantage on Wisdom (Perception) checks that rely on sight or smell."
+     },
+     {
+      "n": "Pack Tactics",
+      "d": "The peacock has advantage on an attack roll against a creature if at least one of the peacock's allies is within 5 feet of the creature and the ally isn't incapacitated."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Reaper of Bhaal",
+   "type": "Monster",
+   "name": "Reaper of Bhaal",
+   "desc": "Medium humanoid (human), chaotic evil. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "2",
+    "ab": {
+     "str": 11,
+     "dex": 20,
+     "con": 13,
+     "int": 15,
+     "wis": 12,
+     "cha": 16
+    },
+    "ac": 15,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 27,
+    "hdn": 0,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Perception": 1,
+     "Persuasion": 1,
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Aura of Murder",
+      "d": "As long as the reaper is not incapacitated, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The reaper's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: charm person, disguise self, sanctuary"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The reaper makes two dagger attacks and uses Shroud Self."
+     },
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage."
+     },
+     {
+      "n": "Shroud Self",
+      "d": "The reaper magically turns invisible until the start of its next turn. This invisibility ends if the reaper makes an attack roll, makes a damage roll, or casts a spell."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Skeletal Rats",
+   "type": "Monster",
+   "name": "Skeletal Rats",
+   "desc": "Medium swarm of tiny undead, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Medium",
+    "type": "swarm of tiny undead",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 9,
+     "dex": 11,
+     "con": 9,
+     "int": 2,
+     "wis": 10,
+     "cha": 3
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 24,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "bludgeoning, piercing, slashing",
+    "imm": "",
+    "cimm": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+    "sen": {
+     "darkvision": 30
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Smell",
+      "d": "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Swarm",
+      "d": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bites",
+      "d": "Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Skull Lasher of Myrkul",
+   "type": "Monster",
+   "name": "Skull Lasher of Myrkul",
+   "desc": "Medium humanoid (human), neutral evil. Challenge 1.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "tags": "",
+    "align": "neutral evil",
+    "cr": "1",
+    "ab": {
+     "str": 10,
+     "dex": 14,
+     "con": 15,
+     "int": 16,
+     "wis": 13,
+     "cha": 10
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 32,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Religion": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Abyssal, Common, Infernal",
+    "traits": [
+     {
+      "n": "Spellcasting",
+      "d": "The skull lasher is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): mage hand, message, prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (4 slots): detect magic, protection from evil and good, ray of sickness (see \"Actions\" below), shield"
+     },
+     {
+      "n": "Action",
+      "d": "2nd level (2 slots): darkness, misty step"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The skull lasher makes two attacks with its flail."
+     },
+     {
+      "n": "Iron Skull Flail",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage plus 7 (2d6) necrotic damage, and the target has disadvantage on all saving throws until the end of the skull lasher's next turn."
+     },
+     {
+      "n": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)",
+      "d": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit: 9 (2d8) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of the skull lasher's next turn. If the skull lasher casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Tressym",
+   "type": "Monster",
+   "name": "Tressym",
+   "desc": "Tiny monstrosity, any alignment. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "monstrosity",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "0",
+    "ab": {
+     "str": 3,
+     "dex": 15,
+     "con": 10,
+     "int": 11,
+     "wis": 12,
+     "cha": 12
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 5,
+    "hdn": 0,
+    "spd": {
+     "walk": 40,
+     "fly": 40,
+     "climb": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 2,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands Common but can't speak",
+    "traits": [
+     {
+      "n": "Detect Invisibility",
+      "d": "Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight."
+     },
+     {
+      "n": "Familiar",
+      "d": "With the DM's permission, a person who casts the find familiar spell can choose to conjure a tressym instead of a normal cat."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The tressym has advantage on Wisdom (Perception) checks that rely on smell."
+     },
+     {
+      "n": "Poison Sense",
+      "d": "The tressym can detect whether a substance is poisonous by taste, touch, or smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Claws",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Undead Tree",
+   "type": "Monster",
+   "name": "Undead Tree",
+   "desc": "Huge undead, chaotic good. Challenge 9.",
+   "stat": {
+    "size": "Huge",
+    "type": "undead",
+    "tags": "",
+    "align": "chaotic good",
+    "cr": "9",
+    "ab": {
+     "str": 23,
+     "dex": 8,
+     "con": 21,
+     "int": 12,
+     "wis": 16,
+     "cha": 12
+    },
+    "ac": 16,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 138,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "fire",
+    "res": "necrotic",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Druidic, Elvish, Sylvan",
+    "traits": [
+     {
+      "n": "False Appearance",
+      "d": "While the tree remains motionless, it is indistinguishable from a normal tree."
+     },
+     {
+      "n": "Siege Monster",
+      "d": "The tree deals double damage to objects and structures."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The tree makes two slam attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage."
+     },
+     {
+      "n": "Rock",
+      "d": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage."
+     },
+     {
+      "n": "Animate Trees (1/Day)",
+      "d": "The tree magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the tree. The tree remains animate for 1 day or until it dies; until the tree dies or is more than 120 feet from the tree; or until the tree takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  }
+ ]
+}
