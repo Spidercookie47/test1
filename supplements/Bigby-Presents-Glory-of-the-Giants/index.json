@@ -11,6 +11,7 @@
  "files": [
   "subclasses.json",
   "feats.json",
+  "monster.json",
   "backgrounds.json",
   "magic-items.json"
  ]
