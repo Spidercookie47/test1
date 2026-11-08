@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "mhp",
+  "name": "Mage Hand Press",
+  "short": "MHP"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "info.json"
+ ]
+}

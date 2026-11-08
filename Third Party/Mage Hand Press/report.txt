@@ -1,0 +1,19 @@
+Converted: 27 Class Feature, 5 Subclass
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (1)
+  Grove Knight
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (8)
+  Spellcasting: grove knight
+  Natural Resilience: grove knight
+  Nature Walk: speed
+  Fire Within: fire within
+  Spriggan: spriggan
+  Wildwood Guardian: wildwood guardian
+  Death Walks Among You: intimidation
+  The Reaping: the reaping
+
+== damage resistances (no pack field for characters, the text already says it) (2)
+  Fire Within: fire
+  Wildwood Guardian: poison
+

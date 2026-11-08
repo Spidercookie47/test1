@@ -1,0 +1,430 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Grove Knight",
+   "type": "Subclass",
+   "name": "Grove Knight",
+   "desc": "While seemingly similar to rangers, the grove knights are far less concerned with foraging and trailblazing and much more interested in protecting the woods...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellcasting",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Nature’s Force",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Wild Slash",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Natural Resilience",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Nature Walk",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Frenzy Slash",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter",
+   "casting": {
+    "ability": "wis",
+    "mode": "prep",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Druid"
+   }
+  },
+  {
+   "id": "Subclass:Way of the Howling Gale",
+   "type": "Subclass",
+   "name": "Way of the Howling Gale",
+   "desc": "Hidden within the clouds atop mountain peaks are secret monasteries, who practice the bending of Elemental Air to their will. Their fighting style utilizes...",
+   "rules": [
+    {
+     "grant": "Class Feature:Whirlwind Stance",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Step of the Gentle Breeze",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ki of the Rushing Wind",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Wherever the Wind Blows",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Fury of the Gale",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Way of the Immortal Flame",
+   "type": "Subclass",
+   "name": "Way of the Immortal Flame",
+   "desc": "Monks everywhere study and train to bring discipline and order to their lives, and enlighten their minds. For some the only path to enlightenment is wading...",
+   "rules": [
+    {
+     "grant": "Class Feature:Fire Within",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Student of the Blaze",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Explosive Fist",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Master of the Inferno",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:The Great Tree",
+   "type": "Subclass",
+   "name": "The Great Tree",
+   "desc": "The inimitable princes of the Feywild are not the only source of power in the enchanted forests and magical jungles of that realm -- indeed, there are many...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Great Tree)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Spriggan",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Creeping Roots",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Wildwood Guardian",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Ironwood",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Entangle",
+     "Faerie Fire",
+     "Barkskin",
+     "Spike Growth",
+     "Conjure Animals",
+     "Speak with Plants",
+     "Blight",
+     "Dominate Beast",
+     "Insect Plague",
+     "Tree Stride"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Shadow Cabal",
+   "type": "Subclass",
+   "name": "The Shadow Cabal",
+   "desc": "Your patron is a council of beings who magically bolstered and corrupted your body to make you into their chosen operative, a vicarious embodiment of their...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Shadow Cabal)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Death Walks Among You",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Shadow Walk",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Wraith Form",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:The Reaping",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Death Blossom",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Bane",
+     "Inflict Wounds",
+     "Pass Without Trace",
+     "Silence",
+     "Bestow Curse",
+     "Feign Death",
+     "Death Ward",
+     "Locate Creature",
+     "Dominate Person",
+     "Seeming"
+    ]
+   }
+  }
+ ]
+}
