@@ -9,6 +9,7 @@
  "files": [
   "backgrounds.json",
   "magic-items.json",
+  "monsters.json",
   "equipment.json",
   "info.json"
  ]
