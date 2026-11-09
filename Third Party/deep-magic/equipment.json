@@ -1,0 +1,147 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Clockmaker’s Tools",
+   "type": "Gear",
+   "name": "Clockmaker’s Tools",
+   "desc": "",
+   "rules": [],
+   "cg": "Tools",
+   "cp": 2500,
+   "price": 25.0,
+   "wt": 2.0
+  },
+  {
+   "id": "Gear:Clockwork Watch",
+   "type": "Gear",
+   "name": "Clockwork Watch",
+   "desc": "A special timepiece that can be held easily in one hand. You can use this timepiece as an arcane focus.",
+   "rules": [],
+   "cg": "Spellcasting Focus",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 1.0
+  },
+  {
+   "id": "Gear:Hourglass",
+   "type": "Gear",
+   "name": "Hourglass",
+   "desc": "A special timepiece that can be held easily in one hand. You can use this timepiece as an arcane focus.",
+   "rules": [],
+   "cg": "Spellcasting Focus",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 1.0
+  },
+  {
+   "id": "Gear:Brimstone Essence",
+   "type": "Gear",
+   "name": "Brimstone Essence",
+   "desc": "The yellow of brimstone (otherwise known as sulfur) represents activity, energy, and masculinity, and it’s related to the sun, volcanoes, and elemental fire. Brimstone is a destructive essence present in small amounts in explosives, various acids, and in substances such as alchemist’s fire.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Lead Essence",
+   "type": "Gear",
+   "name": "Lead Essence",
+   "desc": "Also erroneously referred to as antimony (a different metal that lead is sometimes combined with), lead represents coldness and heaviness, transformation, and the removal of impurities in objects and creatures. It is associated with broader elemental metals and is often called the oldest or first metal. Lead is reactive and can be toxic in various forms over long periods of exposure— useful qualities in lingering poisons and slowacting corrosives. It’s used as a component in many alchemical creations and supplies.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Quicksilver Essence",
+   "type": "Gear",
+   "name": "Quicksilver Essence",
+   "desc": "Also known as mercury, this silvery metal represents passivity, femininity, and malleability. It’s associated with elemental water and the moon. Quicksilver is seen as a creative essence despite its passive nature. It’s also a lethal poison, being much faster-acting than lead, for example. One fluid dram of refined quicksilver is occasionally used in vials of both alchemical poisons and antitoxins.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Quintessence Essence",
+   "type": "Gear",
+   "name": "Quintessence Essence",
+   "desc": "One of the rarest and most mysterious of the six fundamental essences, quintessence represents thought, life, and spirit. It is distantly but usefully related to elemental air; in its commonest form, it appears as a vaporous silvery liquid. Quintessence is never used in common alchemical items, largely because it’s one of the most difficult of the essences to obtain and it tends to dissipate as soon as it’s exposed to air. Alkemancers are always keen to find viable substitutes for quintessence in their concoctions.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Salt Essence",
+   "type": "Gear",
+   "name": "Salt Essence",
+   "desc": "The most common of the six fundamental essences is salt, which represents matter, physicality, and the human body. It is closely related to elemental earth. Purified salt is used in many common alchemical items, and solutions of salt are used widely in mundane and supernatural formulas and rituals.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Void Salt Essence",
+   "type": "Gear",
+   "name": "Void Salt Essence",
+   "desc": "Formed from the blood of slain voidlings (vile monsters described in the Tome of Beasts), void salt is formed of small, dull black crystals; it takes its name from this granular appearance. Void salt is associated with dissolution, entropy, and madness. It is a dangerous substance to work with, because merely touching it with bare skin causes 1 necrotic damage. Anyone intending to work with void salt should wear gloves of metal or thick leather, and even those substances corrode soon after coming in contact with void salt unless they’re protected with an anti-necrotic energy coating. The use of void salt is reserved for rare alchemical concoctions, mainly acids, poisons, and explosives.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Alchemist’s Ice",
+   "type": "Gear",
+   "name": "Alchemist’s Ice",
+   "desc": "This blue-white flask is cool to the touch because it contains a volatile liquid that turns to ice when exposed to air. If the flask is poured over a surface, it creates a 5-foot patch of ice that functions as regular ice for movement purposes. The flask can be thrown at a creature like a flask of alchemist's fire; if it hits, it does 1d8 cold damage and the creature must make a successful DC 10 Dexterity saving throw or its speed becomes 0 until the start of your next turn.\n\nAlchemist's ice was invented by alkemancers in the tropics as a way of keeping their food and drinks cold, and many restaurants and taverns still use it for this purpose. A vial of alchemist's ice costs 50 gp.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 5000,
+   "price": 50.0,
+   "wt": 0.0
+  },
+  {
+   "id": "Gear:Hypodermic Arrow",
+   "type": "Gear",
+   "name": "Hypodermic Arrow",
+   "desc": "The head of this arrow is fitted with a syringe that can be filled with liquid. When it strikes a creature, the arrow does 1d4 piercing damage plus the effect of whatever liquid the syringe injects into the creature. Poisons are common, as are acid, drugs, and various eclectic potions.\n\nHypodermic arrows are extremely fragile; they always break on impact, whether they hit the target or miss. A single hypodermic arrow costs 25 gp. They’re always sold empty, but those found in treasure hauls or among monsters’ gear might be charged. Filling the syringe takes an action but it can be done hours or days before the arrow is used.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 2500,
+   "price": 25.0,
+   "wt": 0.0
+  },
+  {
+   "id": "Gear:Swarm Repellent",
+   "type": "Gear",
+   "name": "Swarm Repellent",
+   "desc": "This slimy, yellow paste can be smeared over exposed parts of the body to protect against attacks by insect swarms. A swarm of ants, beetles, biting flies, wasps, or similar insects that enters your space while you’re protected by swarm repellent must make a successful DC 10 Constitution saving throw or be unable to attack you. A repelled swarm can repeat this saving throw at the start of its turn; most swarms prefer to seek out an unprotected target.\n\nA jar of swarm repellent costs 40 gp and holds enough paste to protect two Medium or four Small creatures. Applying the repellent takes 1 minute, so it’s not a good option in the middle of combat, but it’s effective for 1 hour or until you’re immersed in water.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 4000,
+   "price": 40.0,
+   "wt": 0.0
+  },
+  {
+   "id": "Gear:Tooth Capsule",
+   "type": "Gear",
+   "name": "Tooth Capsule",
+   "desc": "A tooth capsule is a false tooth that contains a dose of ingested poison (5d6 poison damage, DC 15 Constitution save for half) or some other potion in pill form: a sleeping pill or a pill of invisibility are also common. To activate the tooth capsule, you simply bite down on it as a bonus action and make a DC 10 Strength check. If the check succeeds, the capsule shatters and releases the pill, which you can then swallow, hold in your mouth, or spit out.\n\nDetermining whether a tooth in someone else’s mouth is a tooth capsule takes a successful DC 15 Intelligence (Investigation) or Wisdom (Medicine) check. Obviously, the creature must be restrained, unconscious, paralyzed, or cooperative.\n\nTooth capsules are favored by spies and operatives of fanatical organizations who are willing to die rather than allow their secrets to be captured by their enemies. They are illegal in some countries and cultures but usually are available on the black market for 100 gp plus the cost of whatever potion they’re loaded with. The pill loaded in the tooth capsule isn’t interchangeable, and these are good for only one use (obviously).",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 10000,
+   "price": 100.0,
+   "wt": 0.0
+  }
+ ]
+}

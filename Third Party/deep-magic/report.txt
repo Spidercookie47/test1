@@ -1,0 +1,159 @@
+Converted: 1 Background, 1 Background Feature, 496 Class Feature, 46 Feat, 13 Gear, 50 Magic, 401 Spell, 30 Subclass
+
+== grants of other kinds (skipped) (13)
+  Mind of Gears: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC
+  Rune Bonus: Grants ID_KBP_DMRM_FEAT_FEATURE_RUNE_KNOWLEDGE_KAUNEN_RUNE_BONUS_DARKVISION
+  Rune Bonus: Grants ID_KBP_DMRM_FEAT_FEATURE_RUNE_KNOWLEDGE_KAUNEN_RUNE_BONUS_PROFICIENCY
+  Rune Bonus: Condition ID_KBP_DMRM_CONDITION_IMMUNITY_SNOW_BLINDNESS
+  Taint of Shadow: Vision ID_VISION_DARKVISION
+  Dark Trickery: Vision ID_VISION_DARKVISION
+  Taergash’s Exsanguinating Tome: Grants ID_KBP_DMBD_GRANTS_TOME_SPELL_EXTENSIONS
+  Elemental Soul: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_LIGHTNING
+  Elemental Soul: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_THUNDER
+  Elemental Soul: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_BLUDGEONING
+  Elemental Soul: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE
+  Elemental Soul: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD
+  Icy Body: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (71)
+  Rune Bonus: initiative
+  Rune Bonus: diplomacy
+  Rune Power: isaz rune power-3
+  Rune Mastery Power: mannaz rune mastery-1
+  Rune Bonus: speed
+  Void Channeler: void channeler
+  Rebuke from Beyond: rebuke from beyond
+  Star and Shadow Reader: star and shadow reader
+  Radiant: star and shadow reader
+  Necrotic: star and shadow reader
+  Ley Initiate: ley initiate
+  Channel Ley Line: channel ley line
+  Heavenly Scribe: heavenly scribe angelic seal
+  Seal Scribe: seal scribe
+  Clarity (Simil): clarity seal
+  Glory (Vrechiel): glory seal
+  Humility (Ophanim): humility seal
+  Judgement (Chamule): judgement seal
+  Recovery (Jelaal): recovery seal
+  Temperance (Iaothe): temperance seal
+  Shifting Resistance: shifting resistance
+  Elemental Trapper: elemental trapper
+  Acid: elemental trapper
+  Cold: elemental trapper
+  Fire: elemental trapper
+  Lightning: elemental trapper
+  Thunder: elemental trapper
+  Bonded Ring-Staff: bonded ring staff
+  Evil Eye: evil eye
+  Passage Through the Dark: passage through the dark
+  Ritual Focus: ritual focus
+  Bound Magic: ritual focus
+  High Magic: ritual focus
+  Aura of the Unrepentant: aura of the unrepentant
+  Invoke Dragon Mask: invoke dragon mask
+  Invoke Dragon Heart: invoke dragon heart
+  Air: speed
+  Earth: speed
+  Fire: innate speed
+  Water: speed
+  Genie Lord’s Favor: magical gemtone
+  Transfer Elements: transfer elements
+  Absorb Elements: absorb elements
+  Irresistible Strike: irrestistable strike
+  Hieroglyph Bonus: persuasion
+  Hieroglyph Bonus: constitution
+  Hieroglyph Bonus: survival
+  Hieroglyph Bonus: investigation
+  Hieroglyph Bonus: ac
+  Hieroglyph Power: repulsed the fiends
+  Hieroglyph Mastery Power: jackal moves on tirelessly
+  Hieroglyph Bonus: intimidation
+  Hieroglyph Mastery Power: destruction of the fiends
+  Hieroglyph Bonus: sleight of hand
+  Hieroglyph Bonus: hp
+  Hieroglyph Bonus: perception
+  Hieroglyph Bonus: insight
+  Hieroglyph Bonus: initiative
+  Time’s Guardian: times guardian
+  Bonded Timepiece: temporal points
+  Arcane Prescience: arcane prescience
+  Clairvoyant Warrior: clairvoyant warrior
+  Clairvoyant Warrior: clairvoyant warrior-2
+  Clairvoyant Warrior: clairvoyant warrior-3
+  Quickening: quickening
+  Touched By The Sybil: performance
+  Whispered Warnings: ac
+  Spellcasting: prescient knight
+  Omen of Storms: omen of storms
+  Essence Mastery: essence mastery
+  Craft Minor Elixir: craft minor elixir
+
+== ids not in this pack (assumed to be in another pack, check the name) (7)
+  Language:Aquan  (from ID_MM_LANGUAGE_AQUAN)
+  Language:Giant  (from ID_LANGUAGE_GIANT)
+  Language:Celestial  (from ID_LANGUAGE_CELESTIAL)
+  Language:Auran  (from ID_MM_LANGUAGE_AURAN)
+  Language:Terran  (from ID_MM_LANGUAGE_TERRAN)
+  Language:Ignan  (from ID_MM_LANGUAGE_IGNAN)
+  Language:Primordial  (from ID_LANGUAGE_PRIMORDIAL)
+
+== selects not understood (7)
+  Star and Shadow Reader: Feat Feature supports="ID_KBP_DMIM_FEAT_FEATURE_STAR_AND_SHADOW_READER_RADIANT|ID_KBP_DMIM_FEAT_FEATURE_STAR_AND_SHADOW_READER_NECROTIC" matched nothing in this pack (maybe other pack)
+  Ley Initiate: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM"
+  Battlecaster: Proficiency supports="Simple||Martial"
+  Circle Spellcaster: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA"
+  Hieroglyph Bonus: Spell supports="Wizard,0" matched nothing in this pack (maybe other pack)
+  Time-Lost Traveler: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Clairvoyant Warrior: Spell supports="Divination,1,(Reaction||Bonus Action)" matched nothing in this pack (maybe other pack)
+
+== damage resistances (no pack field for characters, the text already says it) (28)
+  Oathbound Ring: bludgeoning
+  Oathbound Ring: piercing
+  Oathbound Ring: slashing
+  Karrek’s Bastion: necrotic
+  Dragon Armor, Black: acid
+  Dragon Armor, Blue: lightning
+  Dragon Armor, Brass: fire
+  Dragon Armor, Bronze: lightning
+  Dragon Armor, Copper: acid
+  Dragon Armor, Gold: fire
+  Dragon Armor, Green: poison
+  Dragon Armor, Red: fire
+  Dragon Armor, Silver: cold
+  Dragon Armor, White: cold
+  Infuse Elements: lightning
+  Infuse Elements: thunder
+  Infuse Elements: bludgeoning
+  Infuse Elements: fire
+  Infuse Elements: cold
+  Elemental Bulwark: lightning
+  Elemental Bulwark: thunder
+  Elemental Bulwark: bludgeoning
+  Elemental Bulwark: fire
+  Elemental Bulwark: cold
+  Magma Mantle: cold
+  Bringer Of Winter’s Wrath: cold
+  Path of the Golden Glower: acid
+  Path of the Golden Glower: poison
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (1)
+  Prescient Knight
+
+== proficiency grants not understood (1)
+  Skilled Alchemist: ID_KBP_DMA_WEAPON_PROFICIENCY_ALCHEMICAL_WEAPONS
+
+== grants pointing outside these packs (needs another pack) (13)
+  Class Feature:Rune Bonus (Laukaz) -> Language:Aquan
+  Class Feature:Rune Bonus (Turisaz) -> Language:Giant
+  Feat:Heavenly Scribe -> Language:Celestial
+  Class Feature:Seal Scribe -> Language:Celestial
+  Class Feature:Elemental Heritage, Air -> Language:Auran
+  Class Feature:Elemental Heritage, Earth -> Language:Terran
+  Class Feature:Elemental Heritage, Fire -> Language:Ignan
+  Class Feature:Elemental Heritage, Water -> Language:Aquan
+  Class Feature:Genie Lord’s Favor -> Language:Primordial
+  Class Feature:Elemental Focus, Air -> Language:Auran
+  Class Feature:Elemental Focus, Earth -> Language:Terran
+  Class Feature:Elemental Focus, Fire -> Language:Ignan
+  Class Feature:Elemental Focus, Water -> Language:Aquan
+

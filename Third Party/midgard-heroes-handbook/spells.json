@@ -1,0 +1,45 @@
+{
+ "elements": [
+  {
+   "id": "Spell:Eidetic Memory",
+   "type": "Spell",
+   "name": "Eidetic Memory",
+   "desc": "When you cast this spell, you remember everything you've ever read or heard in the past. This grants you a +10 bonus when making Intelligence checks for the duration.",
+   "rules": [],
+   "lvl": 5,
+   "school": "transmutation",
+   "comp": "V,S,M",
+   "cast": "1 action",
+   "range": "Self",
+   "dur": "Concentration, up to 1 hour",
+   "ritual": true,
+   "lists": [
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Wizard"
+   ],
+   "mat": "a string tied in a knot"
+  },
+  {
+   "id": "Spell:Hod’s Gift",
+   "type": "Spell",
+   "name": "Hod’s Gift",
+   "desc": "The target gains blindsight to a range of 60 feet.\n\nAt Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the duration is increased by 1 hour for every slot above 5th level.",
+   "rules": [],
+   "lvl": 5,
+   "school": "transmutation",
+   "comp": "V,S,M",
+   "cast": "1 round",
+   "range": "Touch",
+   "dur": "1 hour",
+   "ritual": false,
+   "lists": [
+    "Cleric",
+    "Sorcerer",
+    "Wizard"
+   ],
+   "mat": "rune"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "mwb",
+  "name": "Midgard Worldbook",
+  "short": "MWB"
+ },
+ "files": [
+  "languages.json"
+ ]
+}

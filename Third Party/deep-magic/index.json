@@ -1,0 +1,20 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "dmrm",
+  "name": "Deep Magic: Rune Magic",
+  "short": "DMRM"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "spells.json",
+  "equipment.json",
+  "magic-items.json",
+  "backgrounds.json",
+  "feats.json",
+  "info.json"
+ ]
+}

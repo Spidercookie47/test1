@@ -1,0 +1,1687 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Algiz (1)",
+   "type": "Class Feature",
+   "name": "Algiz (1)",
+   "desc": "Elk and reindeer, evading danger; the god Heimdall\n\nRune Bonus. You can make an elk horn wand in 6 hours, and you gain a +1 bonus on initiative checks.\n\nRune Power (5th-level). Living creatures that are within 10 feet of an algiz rune when it is etched on the ground or on a wall gain a +2 bonus on Wisdom (Perception) checks and have advantage on saving throws against sleep and other magical effects that cause unconsciousness. Both effects last for 8 hours. Scribing the rune takes 15 minutes.\n\nRune Mastery Power (8th-level). Marking a creature with the algiz rune transforms the creature into an elk or reindeer, as per polymorph. Drawing the rune on the creature takes 1 action and the change lasts while you concentrate, for up to 1 hour.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Algiz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Algiz)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Algiz)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Algiz (2)",
+   "type": "Class Feature",
+   "name": "Algiz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ansuz (1)",
+   "type": "Class Feature",
+   "name": "Ansuz (1)",
+   "desc": "Gods and outsiders\n\nRune Bonus. You get a +1 bonus on Intelligence (Arcana) checks made to identify the type, powers, or weaknesses of aberrations, celestials, fey, and fiends. Once per day, the ansuz rune can be sketched on an object to ward of giants and fey hostile to the Aesir. The rune must be presented boldly toward such creatures, each of which makes a Charisma saving throw. Creatures that fail the saving throw must stay at least 5 feet away from the rune and cannot touch or make melee atacks against the creature presenting it, as long as the symbol is boldly and aggressively presented (which requires an action each round). Sketching the rune takes 1 action, and the marked object remains effective for 1 hour.\n\nRune Power (7th-level). Sketching ansuz on the floor or a wall allows all worshipers of the Aesir within 10 feet of it to add 1d4 to each of their atack rolls, similar to a bless spell. Sketching the rune takes 2 actions, and it remains effective while you concentrate, for up to 1 minute.\n\nRune Mastery Power (11th-level). When traced on the forehead of a willing creature, ansuz sends the creature into a trance during which it receives a message from the gods, identical in effect to a divination spell. A creature can experience only one such trance per week. Tracing the rune takes 10 minutes, and the trance lasts 1 round.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Ansuz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Ansuz)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Ansuz)",
+     "level": 11
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ansuz (2)",
+   "type": "Class Feature",
+   "name": "Ansuz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Berkanan (1)",
+   "type": "Class Feature",
+   "name": "Berkanan (1)",
+   "desc": "Birch tree, love, new beginnings; the Bear Maiden\n\nRune Bonus. You get a +1 bonus on Charisma (Diplomacy) checks.\n\nRune Power. When traced on a living creature, this rune grants that creature advantage on a single Charisma (Diplomacy) check of its choosing. Tracing the rune takes 10 minutes, and it remains effective for up to 24 hours. This benefit can be granted only once per day.\n\nWhen berkanan is traced on a living plant, an effect identical to spike growth erupts in a 20-foot radius around the rune. Tracing the rune on a plant takes 1 action, and the effect lasts while you concentrate, for up to 10 minutes.\n\nRune Mastery Power (8th-level). You can create a philter of love once per week.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Berkanan)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Berkanan)"
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Berkanan)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Berkanan (2)",
+   "type": "Class Feature",
+   "name": "Berkanan (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dagaz (1)",
+   "type": "Class Feature",
+   "name": "Dagaz (1)",
+   "desc": "Day and laying the dead to rest\n\nRune Bonus. You always know exactly how long it will be until the next sunset or sunrise.\n\nRune Power (4th-level). Spending 10 minutes tracing dagaz onto a creature cures it of magical blindness.\n\nRune Power (6th-level). Tracing dagaz onto an object makes it glow brightly in a 60-foot radius and dimly out to 120 feet. Magical darkness of 3rd level or lower is dispelled if this light overlaps it. The light is blocked normally by opaque objects or structures. Tracing the rune this way takes 1 action, and the light lasts while you concentrate, for up to 1 hour.\n\nRune Mastery Power (13th-level). Once per week, dagaz can be sketched onto the ground or a wall to create an instantaneous effect identical to a cleric’s Channel Divinity: Turn Undead class ability. Sketching the rune takes 1 action, and it afects undead within 30 feet that can see it at the moment of its completion.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Dagaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Dagaz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Dagaz) (2)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Dagaz)",
+     "level": 13
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Dagaz (2)",
+   "type": "Class Feature",
+   "name": "Dagaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ehwaz (1)",
+   "type": "Class Feature",
+   "name": "Ehwaz (1)",
+   "desc": "Horses, reedom, the Nithing Pole\n\nRune Bonus. You get a +1 bonus to Wisdom (Animal Handling) checks made to control a mount, and to Dexterity checks made to wriggle free of bonds.\n\nRune Power (5th-level). Spending 1 action to trace ehwaz onto a lock or shackles has the same effect as a knock spell but without the loud knocking sound.\n\nRune Power (8th-level). When sketched on the ground, ehwaz summons a phantom steed. Sketching the rune takes 5 minutes, and the summoned steed remains for 1 hour.\n\nRune Mastery Power (9th-level). You can create a nithing pole (see New Magic Items) once per month. The process can only be performed during a new moon, takes 12 hours, and requires bloodletting that leaves a permanent scar in the shape of the ehwaz rune on the rune maker’s let hand. Each creation of a nithing pole creates a new scar; those after thef irst don’t need to be on the hand, but they must be on the hands or arms.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Ehwaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Ehwaz) (1)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Power (Ehwaz) (2)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Ehwaz)",
+     "level": 9
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ehwaz (2)",
+   "type": "Class Feature",
+   "name": "Ehwaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Eiwaz (1)",
+   "type": "Class Feature",
+   "name": "Eiwaz (1)",
+   "desc": "Yew tree, Ygdrasil\n\nRune Bonus. You have proficiency in Intelligence (Arcana) checks.\n\nRune Power (4th-level). Spending 1 action to trace eiwaz onto a suitably-sized piece of wood transforms it into a shillelagh for 1 minute.\n\nRune Mastery Power (8th-level). Sleeping for at least 10 minutes under a tracing of eiwaz on a blanket, a wall, or the ceiling causes the rune maker to dream of the Nine Worlds. These dreams produce answers the same as contact other plane (including possible side efects).\n\nRune Mastery Power (11th-level). When carved on the bark of a living tree, eiwaz allows the rune master to travel between that tree and another tree within 500 feet also marked with eiwaz, as if under the effect of tree stride. Each carving takes 1 action, and the effect lasts while you concentrate, for up to 1 minute after the second carving is done.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Eiwaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Eiwaz)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Eiwaz) (1)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Eiwaz) (2)",
+     "level": 11
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Eiwaz (2)",
+   "type": "Class Feature",
+   "name": "Eiwaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fehu (1)",
+   "type": "Class Feature",
+   "name": "Fehu (1)",
+   "desc": "Catle, livestock, and wealth\n\nRune Bonus. You have advantage on Wisdom (Animal Handling) checks made on domesticated animals that aren’t used as riding mounts.\n\nRune Power. Sketching fehu on an object makes that item easier to lift or drag, as if it weighed only half its actual weight. Sketching the rune takes 1 minute, and the effect lasts while you concentrate, for up to 1 hour. This works equally well on a single object, such as a block of stone, or on a collection of objects that are bundled together, such as a large chest stufed with coins.\n\nRune Mastery Power (8th-level). By spending 1 minute tracing fehu onto your own skin, you can cast dominate beast as though from a 6th–level spell slot.T he spell must be cast within 10 minutes of completing the rune or the rune’s power fades.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Fehu)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Fehu)"
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Fehu)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Fehu (2)",
+   "type": "Class Feature",
+   "name": "Fehu (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Gebu (1)",
+   "type": "Class Feature",
+   "name": "Gebu (1)",
+   "desc": "Generosity and hospitality, and gifts\n\nRune Bonus. You have advantage on Intelligence checks to estimate an item’s value.\n\nRune Power. When 1 minute is spent carefully examining an item while tracing gebu on it, you learn the item’s name and magical properties the same as if you’d cast an identify spell. Alternatively, if 1 action is spent tracing gebu on a willing creature, that creature gains sanctuary as if affected by the spell. The rune maker can’t invoke sanctuary on him or her self. The sanctuary effect lasts while you concentrate, for up to 1 minute.\n\nRune Mastery Power (8th-level). Gebu can be rapidly (1 action) scratched or sketched onto a wall, floor, or other surface of an enclosed space in a way that makes it clearly visible. For up to 1 minute, the rune maker can activate the rune with a command word, provided he or she is within 20 feet of it. All creatures within 20 feet of the rune and with a clear line of sight to it (regardless of whether they can actually see it) must make a Charisma saving throw. Those that fail are affected as if by a calm emotions spell that lasts while you concentrate, for up to 1 minute.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Gebu)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Gebu)"
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Gebu)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Gebu (2)",
+   "type": "Class Feature",
+   "name": "Gebu (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hagalaz (1)",
+   "type": "Class Feature",
+   "name": "Hagalaz (1)",
+   "desc": "Hail and winter weather\n\nRune Bonus. You have advantage on Wisdom (Survival) checks made to accurately predict weather conditions for the next 24 hours in your vicinity\n\nRune Power. Spending 1 action tracing hagalaz on a willing creature grants it protection from enery (cold) while you concentrate, for up to 1 hour.\n\nRune Mastery Power (9th-level). When sketched on the ground under the open sky, hagalaz conjures a sleet storm centered on a point of the rune maker’s choosing within 150 feet. Sketching the rune takes 4 rounds and the storm lasts while you concentrate, for up to 2 minutes.\n\nRune Mastery Power (14th-level). When sketched on the ground within the area of a magical storm caused by sleet storm, ice storm, control weather (hail and blizzard only), or comparable magic, hagalaz acts as a dispel magic spell cast with a 7th-level slot. If the storm being dispelled is from 8th or 9th level magic, the rune maker uses Charisma as his or her spellcasting ability to test the rune’s effectiveness. Sketching the rune takes 2 rounds.\n\nRune Mastery Power (14th-level). When sketched on the ground within the area of a natural (nonmagical) storm, hagalaz has the effect of a control weather spell. Sketching the rune takes 1 hour and the control lasts while you concentrate, for up to 8 hours.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Hagalaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Hagalaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Hagalaz) (1)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Hagalaz) (2)",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Hagalaz) (3)",
+     "level": 14
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Hagalaz (2)",
+   "type": "Class Feature",
+   "name": "Hagalaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ingwaz (1)",
+   "type": "Class Feature",
+   "name": "Ingwaz (1)",
+   "desc": "Ancestors, Northmen; the god Wotan or Odin\n\nRune Bonus. You have proficiency in Intelligence (History) checks.\n\nRune Power (4th-level). When 1 action is spent tracing ingwaz on a spear, the rune gains favor from the Aesir for the first character who throws the spear over the heads of an enemy force consisting of nine or more opponents; the spear thrower adds 1d4 radiant damage to his or her weapon atacks. The bonus can be gained up to 8 hours after the rune is traced, and once triggered it lasts 1 minute.\n\nRune Power (5th-level). When ingwaz is traced on the face of a willing creature, it turns the creature into a berserker, granting it the benefits of a barbarian’s Rage class feature as though the recipient were a barbarian of the rune master’s level. Tracing the rune takes 2 rounds, and the effect lasts 1 minute.\n\nRune Power (7th-level). You learn the calling to the vaettir ritual (see Rune Rituals).\n\nRune Mastery Power (8th-level). When traced on the nails and flesh of a corpse, this rune acts as a speak with dead spell. Tracing the rune takes 1 minute and the effect lasts while you concentrate, for up to 10 minutes.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Ingwaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Ingwaz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Ingwaz) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Power (Ingwaz) (3)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Ingwaz)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ingwaz (2)",
+   "type": "Class Feature",
+   "name": "Ingwaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Isaz (1)",
+   "type": "Class Feature",
+   "name": "Isaz (1)",
+   "desc": "Ice, imprisonment, and paralysis; the gods Boreas and Mara\n\nRune Bonus. When you take cold damage, you take 1 point less than normal.\n\nRune Power (4th-level). When 1 action is spent tracing isaz on the ground, slick ice spreads out to cover an area of 225 square feet. The iced area can have any shape the rune maker wants; if you use a grid of 5-foot squares, the ice covers 9 squares. Every square of ice must be connected to at least one other along one or more sides. Icef-illed squares are difficult terrain, and the difficulty of Dexterity (Acrobatics) checks in the area increases by five. The ice is nonmagical and melts normally.\n\nRune Power (5th-level). When the isaz rune is traced on a weapon, the weapon sheds bright light in a 10-foot radius and dim light for an additional 10 feet, and it does an extra 1d4 cold damage on a hit. Tracing the rune takes 1 action and the effect lasts while you concentrate, for up to 1 hour.\n\nRune Power (7th-level). A shield marked with this rune gliters like frost in the morning sun. As an action, a wielder of the shield who is in direct sunlight can focus its reflection on a single enemy within 30 feet; the target must make a successful Constitution saving throw or be affected by the first stage of snow blindness (see Conditions).T he DC for the saving throw equals 8 + your Dexterity bonus + your proficiency bonus. If the target creature is already affected by the first stage of snow blindness, a failed Constitution saving throw brings on the second stage of snow blindness. Marking the shield takes 1 action, and the rune remains effective while you concentrate, for up to 1 hour.\n\nRune Mastery Power (8th-level). You learn the create tupilak ritual (see Rune Rituals).",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Isaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Isaz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Isaz) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Power (Isaz) (3)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Isaz)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Isaz (2)",
+   "type": "Class Feature",
+   "name": "Isaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Jera (1)",
+   "type": "Class Feature",
+   "name": "Jera (1)",
+   "desc": "Abundant harvest; the gods Freyr and Freyja\n\nRune Bonus. You have proficiency in Intelligence (Nature) checks.\n\nRune Power (4th-level). When traced on the belly of a living creature, the jera rune guarantees that any sexual union involving that creature in the next 24 hours proves fruitful. If traced on a pregnant creature at least once per month during its pregnancy, the rune guarantees a successful birth and healthy baby or babies. Tracing the rune takes 1 action.\n\nRune Power (6th-level). When jera is traced on a wooden table, plate, or plater, all food and drink that’s spoiled, roten, diseased, poisonous, or otherwise contaminated within 20 feet becomes pure and safe for consumption. Tracing the rune takes 1 action.\n\nRune Mastery Power (8th-level). When marked in the earth among living plants, the rune has the effect of a localized (100-foot radius) plant growth spell. Sketching the rune takes 1 action.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Jera)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Jera) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Jera) (2)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Jera)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Jera (2)",
+   "type": "Class Feature",
+   "name": "Jera (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Kaunen (1)",
+   "type": "Class Feature",
+   "name": "Kaunen (1)",
+   "desc": "Flaming torch, enlightenment, and ulcers\n\nRune Bonus. You gain darkvision (30 feet). If you already have darkvision, you gain proficiency in Wisdom (Perception) checks.\n\nRune Power (4th-level). When 1 minute is spent tracing kaunen on the ground, it burns like a campire for up to 8 hours. The fire is 2 feet in diameter and the lames are magical, causing 2d6 fire damage per round to any creature in the fire. Neither the rune nor the fire can be moved once created, but the fire can spread normally to inflammable materials.\n\nRune Power (5th-level). Tracing kaunen onto a weapon causes that weapon to shed bright light in a 10-foot radius plus dim light for another 10 feet, and the weapon does an extra 1d6 fire damage on a hit. Tracing the rune takes 1 action and the effect lasts while you concentrate, for up to 1 hour.\n\nRune Mastery Power (8th-level). When traced on a living creature, kaunen burns away illness and ailments the same as a remove disease spell. Invoking the rune takes 1 action.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Kaunen)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Kaunen) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Kaunen) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Kaunen)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Kaunen (2)",
+   "type": "Class Feature",
+   "name": "Kaunen (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Laukaz (1)",
+   "type": "Class Feature",
+   "name": "Laukaz (1)",
+   "desc": "Water, the sea; the god Njord\n\nRune Bonus. You gain Aquan as a bonus language. If you already know this language, you have advantage on Charisma (Diplomacy) checks with creatures from the elemental plane of water.\n\nRune Power (4th-level). When you spend 1 action tracing laukaz on an object, it becomes more bouyant. Anyone grasping the object has advantage on Strength (Athletics) checks to swim or to stay aloat. The effect lasts 24 hours.\n\nRune Power (7th-level). When you trace laukaz on a living creature’s chest, it grants them water breathing. Tracing the rune takes 1 action, and the effect lasts 24 hours.\n\nRune Mastery Power (11th-level). When the rune is sketched on a lakebed, riverbed, or sea botom, laukaz allows the rune maker to control nearby water as a control water spell. Sketching the rune takes 1 action and the effect lasts while you concentrate, for up to 10 minutes.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Laukaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Laukaz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Laukaz) (2)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Laukaz)",
+     "level": 11
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Laukaz (2)",
+   "type": "Class Feature",
+   "name": "Laukaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mannaz (1)",
+   "type": "Class Feature",
+   "name": "Mannaz (1)",
+   "desc": "Humanoids, especially humans and dwarves\n\nRune Bonus. You get a +1 bonus on saving throws against petrification and effects that alter your form such as lycanthropy, polymorph, or flesh to stone.\n\nRune Power (5th-level). When traced on the ground, a boulder, or a wall, mannaz produces an effect identical to a calm emotions spell on all living creatures within 20 feet of the rune. Tracing the rune takes 1 action and the effect lasts while you concentrate, for up to 1 minute.\n\nRune Mastery Power (8th-level). When traced on the flesh of a creature, mannaz returns a lycanthrope to its humanoid form or dispels (as dispel magic) a polymorph effect the target is currently under. Unwilling creatures resist this with a Charisma saving throw; use your Wisdom modiier to set the DC. Tracing the rune takes 1 action.\n\nRune Mastery Power (9th-level). Invoking mannaz upon a plant or animal awakens it, per the awaken spell. Invoking the rune this way takes 8 hours, and the effect is permanent.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Mannaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Mannaz)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Mannaz) (1)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Mannaz) (2)",
+     "level": 9
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Mannaz (2)",
+   "type": "Class Feature",
+   "name": "Mannaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Naudiz (1)",
+   "type": "Class Feature",
+   "name": "Naudiz (1)",
+   "desc": "Necessity and need\n\nRune Bonus. Once per day, you can cast spare the dying.\n\nRune Power (4th-level). By spending 1 action to trace naudiz on an item, you grant guidance or resistance to any creature that touches it (the creature chooses which). A number of creatures equal to your proficiency bonus can benefit from this efect. Both the rune and the effect last while you concentrate, for up to 1 minute.\n\nRune Power (5th-level). Naudiz can be traced in the air in such a way that five creatures within 10 feet of you have their hit point maximums increased by 5, and they gain 5 hit points. Tracing the rune takes 1 action, and the effect lasts 8 hours.\n\nRune Mastery Power (15th-level). When naudiz is traced on an object weighing no more than 20 lb., for the next 24 hours you can call that item to you.T he item teleports into your hand instantly when you spend an action calling it. The maximum range is 400 feet. If another creature is holding the object, that creature prevents it from teleporting with a successful Charisma saving throw; use your Wisdom modiier to set the DC. Tracing the rune takes just 1 action, and it remains until it’s used or for 24 hours.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Naudiz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Naudiz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Naudiz) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Naudiz)",
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Naudiz (2)",
+   "type": "Class Feature",
+   "name": "Naudiz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Nyköping (1)",
+   "type": "Class Feature",
+   "name": "Nyköping (1)",
+   "desc": "The passage of time, the seasons, and the phases of the moon\n\nRune Bonus. You have proficiency with Wisdom (Survival) checks.\n\nRune Power (5th-level). When the rune is sketched on the ground, nyköping allows up to six creatures of your choice to each regain hit points equal to 2d8 + your wisdom modiier. You must be able to see the creatures, and they must be within 30 feet of you. Invoking the rune this way takes 10 minutes.\n\nRune Power (6th-level). hen 1 action is spent tracing the rune on the ground under open sky, nyköping creates a gust of wind.T he wind lasts while you concentrate, for up to 1 minute.\n\nRune Mastery Power (9th-level). Tracing nyköping on a creature grants it haste, per the spell. Creating the rune takes 1 action and the effect lasts while you concentrate, for up to 1 minute.\n\nRune Mastery Power (11th-level). You learn the curse of the wild moon ritual (see Rune Rituals).\n\nRune Mastery Power (13th-level). When nyköping is sketched on the ground beneath open sky, the weather in the area improves toward clear skies, the same as if you’d cast control weather. The rune can only improve the weather, not make it more severe. Sketching the rune takes 1 hour, and the effect lasts 8 hours.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Nyköping)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Nyköping) (1)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Power (Nyköping) (2)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Nyköping) (1)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Nyköping) (2)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Nyköping) (3)",
+     "level": 13
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Nyköping (2)",
+   "type": "Class Feature",
+   "name": "Nyköping (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Otalan (1)",
+   "type": "Class Feature",
+   "name": "Otalan (1)",
+   "desc": "Property, inheritance, and family\n\nRune Bonus. You gain proficiency in Charisma (Persuasion) checks.\n\nRune Power (7th-level). When traced on a relective surface (for example, on a mirror, a polished shield, or even on still water), otalan lets you scry on an object that you’ve possessed for at least one week, or on any member of your immediate family within three generations of you, per the scrying spell. Tracing the rune takes 10 minutes and the effect lasts while you concentrate, for up to 10 minutes.\n\nRune Mastery Power (13th-level). When otalan is invoked on an object, the rune’s power lingers harmlessly in the item until the death of the item’s owner.T he moment that creature dies, the object teleports into the hands of another individual whose identity was speciied when the rune was created. This person can be identiied by name, by a title, or by relationship (for example, “the king of Noatun” or “my firstborn son”). This power functions over any range as long as the object and target are on the same plane. If another creature holds the object when its owner dies, that creature can try to prevent the object from teleporting by making a Charisma saving throw; use your Wisdom modiier to set the DC. The rune remains effective until it’s triggered, but it ends when the rune maker uses this power to invoke the rune on a diferent object. Creating the rune takes 10 minutes.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Otalan)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Otalan)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Otalan)",
+     "level": 13
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Otalan (2)",
+   "type": "Class Feature",
+   "name": "Otalan (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Perto (1)",
+   "type": "Class Feature",
+   "name": "Perto (1)",
+   "desc": "Things are not as they seem; the god Loki\n\nRune Bonus. You have a +1 bonus on Wisdom ability checks to solve riddles or puzzles, and on Wisdom saving throws against illusions.\n\nRune Power (4th-level). When you spend 1 action tracing perto on a creature, you can change the creature’s appearance, following the guidelines for disguise self. If the creature has Intelligence 3 or higher, it can change its own appearance. The rune remains effective for 1 hour.\n\nRune Mastery Power (8th-level). Spending 1 action to trace perto on the ground causes all objects within 10 feet of the rune to be undetectable through divination magic or scrying sensors. The effect lasts for 8 hours.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Perto)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Perto)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Perto)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Perto (2)",
+   "type": "Class Feature",
+   "name": "Perto (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Raido (1)",
+   "type": "Class Feature",
+   "name": "Raido (1)",
+   "desc": "Travel\n\nRune Bonus. Your speed increases by 5 feet, and you always know which way is north.\n\nRune Power (4th-level). The possessor of an object that’s had raido sketched onto it has advantage on Dexterity (Acrobatics) checks made to ski, skate, or control a sled. Sketching the rune takes 1 minute and the effect lasts while you concentrate, up to 1 hour.\n\nRune Power (5th-level). A living creature with raido traced on its skin gains the benefit of water walk for 1 minute. Tracing the rune takes 1 action.\n\nRune Mastery Power (7th-level). A living creature with raido traced on its skin can undertake a forced march for an additional 4 hours before suffering exhaustion penalties. Invoking the rune takes 10 minutes, and the effect lasts 4 hours.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Raido)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Raido) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Raido) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Raido)",
+     "level": 7
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Raido (2)",
+   "type": "Class Feature",
+   "name": "Raido (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Sowilo (1)",
+   "type": "Class Feature",
+   "name": "Sowilo (1)",
+   "desc": "he sun; the god Baldur\n\nRune Bonus. You gain immunity to snow blindness (see Conditions).\n\nRune Power (5th-level). When invoked on a creature, the rune grants it magical confidence and charisma, enabling it to enthrall an audience, per the spell. Tracing the rune takes 1 action, and the effect lasts 1 minute.\n\nRune Power (7th-level). Spending 1 action tracing sowilo onto an object makes it glow as if with the daylight spell for 1 hour.\n\nRune Mastery Power (13th-level). Spending 1 action invoking sowilo on the brow of a creature causes its eyes to emit a sunbeam, per the spell.T he creature is immune to blindness for the duration of the efect, which lasts while you concentrate, for up to 1 minute.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Sowilo)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Sowilo) (1)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Power (Sowilo) (2)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Sowilo)",
+     "level": 13
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Sowilo (2)",
+   "type": "Class Feature",
+   "name": "Sowilo (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Tewaz (1)",
+   "type": "Class Feature",
+   "name": "Tewaz (1)",
+   "desc": "Fearlessness, assemblies or councils, the god Tyr\n\nRune Bonus. You have advantage on saving throws against the frightened condition.\n\nRune Power (4th-level). Tewaz can be sketched on an object to ward of wolves, worgs, werewolves, and other lupine creatures. The rune must be presented boldly toward such creatures, each of which makes a Charisma saving throw. Creatures that fail the saving throw must stay at least 5 feet away from the rune and cannot touch or make melee atacks against the creature presenting it, as long as the symbol is boldly and aggressively presented (which requires an action each round). Sketching the rune takes 1 action, and the marked object remains effective for 1 hour.\n\nRune Power (4th-level). If you spend 1 action tracing tewaz onto a shield, it gains the properties of a shield of missile atraction for 10 minutes.\n\nRune Power (5th-level). When tewaz is sketched somewhere clearly visible, it acts as a calm emotions spell on all creatures that can see it within a 20-foot radius. Sketching the rune takes 1 action and the effect lasts while you concentrate, for up to 1 minute.\n\nRune Mastery Power (9th-level). You learn the tyr’s peace ritual (see Rune Rituals).",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Tewaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Tewaz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Tewaz) (2)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Tewaz) (3)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Tewaz)",
+     "level": 9
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Tewaz (2)",
+   "type": "Class Feature",
+   "name": "Tewaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Turisaz (1)",
+   "type": "Class Feature",
+   "name": "Turisaz (1)",
+   "desc": "Giants; thunder and lightning\n\nRune Bonus. You gain Giant as a bonus language. If you already know this language, you have advantage on Wisdom (Insight) checks involving giants.\n\nRune Power (4th-level). A weapon marked with turisaz does an extra 1d4 lightning damage with each hit. Marking the weapon takes 1 action, and the effect lasts until it’s been triggered five times or up to 1 hour.\n\nRune Power (5th-level). Armor marked with turisaz has resistance to lightning damage and applies a +2 bonus to the wearer’s Strength score. Marking the armor takes 1 action and the effect lasts while you concentrate, for up to 1 hour.\n\nRune Mastery Power (8th-level). When inscribed on a surface, the turisaz rune acts as a glyph of warding. Sketching the rune takes 1 hour, and the effect lasts until it’s triggered or dispelled (as a 4th-level spell efect).",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Turisaz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Turisaz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Turisaz) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Turisaz)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Turisaz (2)",
+   "type": "Class Feature",
+   "name": "Turisaz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Uruz (1)",
+   "type": "Class Feature",
+   "name": "Uruz (1)",
+   "desc": "Wild ox, sacrifice to the gods, and strength\n\nRune Bonus. For the purposes of carrying capacity, treat your Strength score as if it were 2 points higher.\n\nRune Power (4th-level). The wielder of a shield that’s been inscribed with uruz gains the benefits of the Charger feat. Tracing the rune takes 1 minute, and the effect lasts 1 hour.\n\nRune Power (5th-level). When uruz is traced on the flesh of a living creature, the creature’s carrying capacity doubles and it has advantage on Strength checks. Tracing the rune takes 1 action and the effect lasts while you concentrate, up to 1 hour.\n\nRune Power (7th-level). You learn the scourge of hateful netles ritual (see Rune Rituals).\n\nRune Mastery Power (8th-level). When invoked on an appropriate sacrifice (food, a symbolic weapon, an animal), this rune assures the sacrifice will amend any ofenses the sacrifice giver has made against the gods (treat as remove curse). Drawing the gods’ atention this way isn’t always entirely beneicial; they may also place a geas or some other effect on an especially bold or interesting person, at the GM’s discretion. Tracing the rune onto a sacrifice takes 1 hour, and the sacrifice must be ofered within another hour.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Uruz)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Uruz) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Power (Uruz) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Rune Power (Uruz) (3)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Uruz)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Uruz (2)",
+   "type": "Class Feature",
+   "name": "Uruz (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wunjo (1)",
+   "type": "Class Feature",
+   "name": "Wunjo (1)",
+   "desc": "Happiness and joy\n\nRune Bonus. Whenever you receive Inspiration, you have a 20% chance to retain it (for a second use, but no more) after using it or gifting it to another character.\n\nRune Power (4th-level). Tracing the wunjo rune on the ground or on a boulder acts as the animal friendship spell. Creating the rune takes 1 action, and the effect lasts 24 hours.\n\nRune Mastery Power (8th-level). If you spend 1 action sketching wunjo onto an object which you then hold alot, your allies within 120 feet have advantage on saving throws against effects that cause fear, charm, or domination. The effect lasts while you concentrate, for up to 10 minutes.",
+   "rules": [
+    {
+     "grant": "Class Feature:Rune Bonus (Wunjo)"
+    },
+    {
+     "grant": "Class Feature:Rune Power (Wunjo)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Rune Mastery Power (Wunjo)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Wunjo (2)",
+   "type": "Class Feature",
+   "name": "Wunjo (2)",
+   "desc": "Once per day, you can invoke one of its Rune Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Benevolence (Amnayeth)",
+   "type": "Class Feature",
+   "name": "Benevolence (Amnayeth)",
+   "desc": "This seal allows its user to retry a failed ability check to improve another creature’s attitude.\n\nGreater: As an action, the user can cause a creature who can hear the user to make a Wisdom saving throw against your spell save DC or be charmed for 10 minutes. This seal can’t be used again on the same creature until the user finishes a short or long rest.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Clarity (Simil)",
+   "type": "Class Feature",
+   "name": "Clarity (Simil)",
+   "desc": "The user adds half your Intelligence modifier (minimum of 1) to its Wisdom (Insight) and Wisdom (Perception) checks.\n\nGreater: The user gains blindsight with a range of 10 feet.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Fortitude (Rikbil)",
+   "type": "Class Feature",
+   "name": "Fortitude (Rikbil)",
+   "desc": "When it is hit with an attack, the user can use its reaction to add 2 to its AC against that attack. It must be able to see the attacker to use this effect.\n\nGreater: The user gains resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Fortune (Barrateth)",
+   "type": "Class Feature",
+   "name": "Fortune (Barrateth)",
+   "desc": "The use can add 1 to an attack roll, saving throw, or ability check. The addition is made after rolling the die but before the GM reveals whether it was a success or failure.\n\nGreater: After making an attack roll, saving throw, or ability check, the user can roll another d20 and choose which result to use. The second roll is made after the initial roll but before the GM reveals whether that roll was a success or failure. After using this seal, it can’t be used again until the user finishes a short or long rest.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Glory (Vrechiel)",
+   "type": "Class Feature",
+   "name": "Glory (Vrechiel)",
+   "desc": "When the user reduces an enemy to 0 hit points, the user gains temporary hit points equal to your Intelligence modifier (minimum of 1).\n\nGreater: At the start of its turn, the user gains temporary hit points equal to your wizard level.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Humility (Ophanim)",
+   "type": "Class Feature",
+   "name": "Humility (Ophanim)",
+   "desc": "The user adds half your Intelligence modifier (minimum of 1) to its Dexterity (Stealth) checks. It loses this bonus until the start of its next turn when it takes a hostile action (any action that could inflict intentional damage on a creature).\n\nGreater: If it hasn’t taken a hostile action this turn, the user can use its action to present an aura of humility. A creature that wishes to attack the user must succeed on a Wisdom saving throw against your spell save DC or choose another target. If there are no other targets it wishes to attack, the creature wastes its action doing nothing.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Judgement (Chamule)",
+   "type": "Class Feature",
+   "name": "Judgement (Chamule)",
+   "desc": "When the user hits a creature with an opportunity attack, the user can move up to half its speed, provided it ends the move no farther from the creature it hit.\n\nGreater: As a reaction when it is hit with an attack, the user can cause the attacker to take radiant damage equal to your Intelligence modifier (minimum of 1), if the attacker is within 60 feet of the user.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Recovery (Jelaal)",
+   "type": "Class Feature",
+   "name": "Recovery (Jelaal)",
+   "desc": "This seal allows the user to automatically pass its first death saving throw, at which time it regains 1 hit point. Once used, this effect doesn’t function again until the user finishes a short or long rest.\n\nGreater: When the user regains hit points, it regains an additional number of hit points equal to your Intelligence modifier (minimum of 1).",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Temperance (Iaothe)",
+   "type": "Class Feature",
+   "name": "Temperance (Iaothe)",
+   "desc": "When it makes a Wisdom saving throw, the user can use its reaction to add your Intelligence modifier to the roll (minimum of 1). The bonus is added after the die is rolled but before the GM reveals whether the saving throw succeeds or fails. This ability doesn’t function again until the user finishes a short or long rest.\n\nGreater: The user can’t be charmed or frightened.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Wrath (Xapanie)",
+   "type": "Class Feature",
+   "name": "Wrath (Xapanie)",
+   "desc": "Once on the user’s turn when it hits with a weapon attack, the attack deals 1 additional point of weapon damage.\n\nGreater: The user’s attacks are magical, and once on the user’s turn when it hits with a weapon attack, the attack deals an additional amount of radiant damage equal to half your wizard level.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Acid",
+   "type": "Class Feature",
+   "name": "Acid",
+   "desc": "Your spells that do acid damage leave a lingering danger on the battlefield.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cold",
+   "type": "Class Feature",
+   "name": "Cold",
+   "desc": "Your spells that do cold damage leave a lingering danger on the battlefield.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fire",
+   "type": "Class Feature",
+   "name": "Fire",
+   "desc": "Your spells that do fire damage leave a lingering danger on the battlefield.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lightning",
+   "type": "Class Feature",
+   "name": "Lightning",
+   "desc": "Your spells that do lightning damage leave a lingering danger on the battlefield.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Thunder",
+   "type": "Class Feature",
+   "name": "Thunder",
+   "desc": "Your spells that do thunder damage leave a lingering danger on the battlefield.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Heritage, Air",
+   "type": "Class Feature",
+   "name": "Elemental Heritage, Air",
+   "desc": "You can speak, read, and write Auran, and the lightning or thunder damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Auran"
+    },
+    {
+     "select": {
+      "name": "Air Damage Type",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Lightning (1)",
+       "Class Feature:Thunder (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lightning (1)",
+   "type": "Class Feature",
+   "name": "Lightning (1)",
+   "desc": "The lightning damage type is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Thunder (1)",
+   "type": "Class Feature",
+   "name": "Thunder (1)",
+   "desc": "The thunder damage type is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Heritage, Earth",
+   "type": "Class Feature",
+   "name": "Elemental Heritage, Earth",
+   "desc": "You can speak, read, and write Terran, and the bludgeoning damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Terran"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Elemental Heritage, Fire",
+   "type": "Class Feature",
+   "name": "Elemental Heritage, Fire",
+   "desc": "You can speak, read, and write Ignan, and the fire damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Ignan"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Elemental Heritage, Water",
+   "type": "Class Feature",
+   "name": "Elemental Heritage, Water",
+   "desc": "You can speak, read, and write Aquan, and the cold damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Aquan"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Expanded Pact Boon (Pact of the Chain)",
+   "type": "Class Feature",
+   "name": "Expanded Pact Boon (Pact of the Chain)",
+   "desc": "When you conjure your familiar or change its form, you can choose the form of a mephit in addition to the usual form choices granted by the pact boon. When you use your action to command your mephit familiar to attack, it can use its breath or cast an innate spell instead.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expanded Pact Boon (Pact of the Blade)",
+   "type": "Class Feature",
+   "name": "Expanded Pact Boon (Pact of the Blade)",
+   "desc": "Your pact weapon takes on a sheen of elemental power. When you create or summon your pact weapon, you can decide to change its damage type to one of the following: acid, cold, fire, or lightning. You can change the damage type by repeating the ceremony.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expanded Pact Boon (Pact of the Tome)",
+   "type": "Class Feature",
+   "name": "Expanded Pact Boon (Pact of the Tome)",
+   "desc": "Your Book of Shadows is immune to damage or wear caused by the elements. This immunity includes something as simple as being immersed in water, as well as acid, fire, cold, lighting, or thunder damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Focus, Air",
+   "type": "Class Feature",
+   "name": "Elemental Focus, Air",
+   "desc": "You can speak, read, and write Auran, and the lightning or thunder damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Auran"
+    },
+    {
+     "select": {
+      "name": "Air Damage Type",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Lightning (2)",
+       "Class Feature:Thunder (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lightning (2)",
+   "type": "Class Feature",
+   "name": "Lightning (2)",
+   "desc": "The lightning damage type is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Thunder (2)",
+   "type": "Class Feature",
+   "name": "Thunder (2)",
+   "desc": "The thunder damage type is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Focus, Earth",
+   "type": "Class Feature",
+   "name": "Elemental Focus, Earth",
+   "desc": "You can speak, read, and write Terran, and the bludgeoning damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Terran"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Elemental Focus, Fire",
+   "type": "Class Feature",
+   "name": "Elemental Focus, Fire",
+   "desc": "You can speak, read, and write Ignan, and the fire damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Ignan"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Elemental Focus, Water",
+   "type": "Class Feature",
+   "name": "Elemental Focus, Water",
+   "desc": "You can speak, read, and write Aquan, and the cold damage type is used by features you gain later.",
+   "rules": [
+    {
+     "grant": "Language:Aquan"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Elemental Adaptation",
+   "type": "Class Feature",
+   "name": "Elemental Adaptation",
+   "desc": "Prerequisite: 14th level\n\nYou add plane shift to your spellbook if you don’t already have it, and you can cast it once with this mastery without expending a spell slot.\n\nWhen you cast plane shift using this mastery, you can only travel to the elemental plane associated with your elemental focus or to the Material Plane. While on that elemental plane, you can survive there with no fear of the hostile natural environment. You don’t take damage from the normal conditions of the plane, you can breathe normally, and you can use your speed to move in a manner appropriate to the plane (flying for air, burrowing for earth, or swimming for water). You regain the ability to cast plane shift with this mastery when you finish a long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Plane Shift",
+     "1/long rest"
+    ]
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Elemental Binding",
+   "type": "Class Feature",
+   "name": "Elemental Binding",
+   "desc": "Prerequisite: 10th level\n\nYou add planar binding to your spellbook if you don’t already have it, and you can cast it once with this mastery without expending a spell slot. When you cast the spell in this way, you must target an elemental creature associated with your elemental focus. If the elemental fails its saving throw, it gains temporary hit points equal to your wizard level. You regain the ability to cast planar binding with this mastery when you finish a long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Planar Binding",
+     "1/long rest"
+    ]
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Elemental Bulwark",
+   "type": "Class Feature",
+   "name": "Elemental Bulwark",
+   "desc": "Prerequisite: 6th level\n\nYou gain resistance to the damage type associated with your elemental focus, and you have advantage on Constitution saving throws made to maintain concentration on spells that resonate with your elemental focus.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Elemental Command",
+   "type": "Class Feature",
+   "name": "Elemental Command",
+   "desc": "As an action, you can target an elemental creature that you can see within 30 feet. The elemental must succeed on a Wisdom saving throw or be charmed for up to one hour as long as you maintain concentration as if concentrating on a spell. If you or your companions damage the charmed elemental or take harmful actions against it, the charmed condition ends immediately. A creature that succeeds on its saving throw, or if this ability ends for it, is immune to being charmed by you for 24 hours.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Elemental Erosion",
+   "type": "Class Feature",
+   "name": "Elemental Erosion",
+   "desc": "Prerequisite: 10th level\n\nAfter you damage a target with a spell of 1st level or higher that deals the damage type associated with your elemental focus, the target becomes vulnerable to that damage type until the end of your next turn. You can use this ability twice. You regain all expended uses when you finish a short or long rest.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Ignite",
+   "type": "Class Feature",
+   "name": "Ignite",
+   "desc": "When you deal fire damage to a target with a spell of 1st level or higher, you can use a bonus action to cause the target to catch fire. Unless a creature takes an action to douse the flames, at the start of its next turn, the target takes half the damage it originally took from the spell and the flames go out. If you damage more than one target with the spell, choose a target to catch fire.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Intensified Element",
+   "type": "Class Feature",
+   "name": "Intensified Element",
+   "desc": "When you damage a target with a spell that deals the damage type associated with your elemental focus, you ignore any resistance the target has to that damage type.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Overwhelming Onslaught",
+   "type": "Class Feature",
+   "name": "Overwhelming Onslaught",
+   "desc": "Prerequisite: 14th level\n\nWhen you damage a target with a spell of 1st level or higher that deals the damage type associated with your elemental focus, you can weave a lingering aura of elemental energy around it. At the start of its turn, the creature must make a Constitution saving throw. On a failed save, it takes 4d6 damage of the type dealt by the spell and is stunned until the start of its next turn, or half as much damage and the effect ends on a successful one.\n\nYou can use this ability twice. You regain all expended uses when you finish a short or long rest.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Stony Refuge",
+   "type": "Class Feature",
+   "name": "Stony Refuge",
+   "desc": "When you cast a spell of 1st level or higher, you can use a bonus action to create a slab of stone that interposes itself between you and one creature of your choice. Until the end of your next turn, the slab provides half cover against the chosen creature.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Sweeping Swell",
+   "type": "Class Feature",
+   "name": "Sweeping Swell",
+   "desc": "When you cast a spell of 1st level or higher, you can use a bonus action to create a sweeping wave of water to push a target you can see within 20 feet. The creature must succeed on a Strength saving throw or be pushed 5 feet in the direction of your choice and knocked prone.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Wind Blast",
+   "type": "Class Feature",
+   "name": "Wind Blast",
+   "desc": "When you cast a spell of 1st level or higher, you can use a bonus action to create a line of wind that is 20-foot long and 5-foot wide. Each creature in the line must make a Strength saving throw or take 1d6 slashing damage and be pushed 10 feet away from you in the direction of the line.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (1)",
+   "type": "Class Feature",
+   "name": "As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (1)",
+   "desc": "Meaning: This symbol represents the fertility and abundance of animal life and every being’s place in the chain of life.\n\nHieroglyph Bonus: You have advantage when making ability or skill checks to identify creatures.\n\nHieroglyph Power: You can quickly trace this glyph into the air (1 action) and stare down a beast or monstrosity. The targeted creature must make a Wisdom saving throw. If it fails, the creature is frightened of you for as long as you continue staring at it. While frightened of you, the creature must move its full movement away from you on each of its turns until you can’t see it anymore or it makes a successful saving throw. A frightened creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. When the creature makes a successful saving throw (regardless of whether it failed previously), it has disadvantage on its attacks against you until the end of its next turn.\n\nHieroglyph Mastery Power: By carving this glyph into the bone of an animal and crushing the bone, you can grant yourself a measure of the animal’s power. You gain one of the following: a climb or swim speed of 30 feet, or a fly or burrow speed of 20 feet, whichever is most appropriate to the type of animal the bone came from. The effect lasts for 1 hour, so long as you maintain concentration.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (As Do Every God, Every Bird, Every Fish, and Every Creeping Worm)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (As Do Every God, Every Bird, Every Fish, and Every Creeping Worm)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (As Do Every God, Every Bird, Every Fish, and Every Creeping Worm)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (2)",
+   "type": "Class Feature",
+   "name": "As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dress the Air with the Cloying and the Fair (1)",
+   "type": "Class Feature",
+   "name": "Dress the Air with the Cloying and the Fair (1)",
+   "desc": "Meaning: This symbol represents sweet scents, perfumes, allure, and pleasant feelings. This can also be taken as influencing or changing the mind of another.\n\nHieroglyph Bonus: You gain a +1 bonus when making Charisma (Persuasion) checks.\n\nHieroglyph Power: By tracing this glyph on your body in cologne or perfume (1 action), you have advantage on Charisma ability checks involving the opposite sex or NPCs that may be attracted to you.\n\nHieroglyph Power (3rd-level): By tracing this hieroglyph into the ground with dust or ink made from the petals of flowers (1 action), every creature within 10 feet of you must make a successful Charisma saving throw or be charmed by you for 1 minute.\n\nHieroglyph Power (5th-level): You spend an action contemplating flower petals as they drift in the breeze, and cast a gust of wind spell.\n\nHieroglyph Mastery Power: By spending an hour in preparation, you create a special bottle of perfume. When you anoint yourself with this perfume (1 action), for the next 10 minutes you have advantage on Charisma checks to influence people or a crowd within 50 feet.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Dress the Air with the Cloying and the Fair)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Dress the Air with the Cloying and the Fair) (1)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Dress the Air with the Cloying and the Fair) (2)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Dress the Air with the Cloying and the Fair) (3)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Dress the Air with the Cloying and the Fair)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Dress the Air with the Cloying and the Fair (2)",
+   "type": "Class Feature",
+   "name": "Dress the Air with the Cloying and the Fair (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Drink Deep of the River’s Power (1)",
+   "type": "Class Feature",
+   "name": "Drink Deep of the River’s Power (1)",
+   "desc": "Meaning: This hieroglyph represents ley lines and the flow of magic through the land, as well as the actual flow of rivers.\n\nHieroglyph Bonus: You learn (and gain the ability to cast, if you don’t already have the ability) one cantrip from the wizard’s spell list. Your spellcasting ability is Intelligence when casting this cantrip.\n\nHieroglyph Power (2nd Level): You trace this hieroglyph over a creature’s eyes using secretions from a toad in a ritual lasting 10 minutes. When the ritual is complete, it has the effect of casting detect magic on the creature. The effect lasts for 1 minute while you maintain concentration.\n\nHieroglyph Power (8th Level): By spending a continuous month of work crafting the hieroglyph into material form, you create a brooch called a Nurian stone (see “Magic Items”).\n\nHieroglyph Mastery Power: You take dirt from near a ley line, tracing out the sign of this hieroglyph over the course of an hour. At the end of the hour, you dispel a magical effect of up to 4th level. If the effect is higher than 4th level, you dispel it if you make a successful Intelligence (Arcana) check against a DC = (10 + the spell level of the effect).",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Drink Deep of the River’s Power)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Drink Deep of the River’s Power) (1)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Drink Deep of the River’s Power) (2)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Drink Deep of the River’s Power)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Drink Deep of the River’s Power (2)",
+   "type": "Class Feature",
+   "name": "Drink Deep of the River’s Power (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Flourish in Death As in Life (1)",
+   "type": "Class Feature",
+   "name": "Flourish in Death As in Life (1)",
+   "desc": "Meaning: This symbol represents the transition from the realm of the living to the realm of the dead. Often this is engraved on the tombs of fallen heroes.\n\nHieroglyph Bonus: You gain a +1 bonus when making Constitution saving throws.\n\nHieroglyph Power: A creature that’s holding this hieroglyph or that’s marked with it when it drops to 0 hit points stabilizes immediately and automatically.\n\nHieroglyph Mastery Power: Once per day you can use this hieroglyph to invoke the ability to see a distance of 60 feet into and out of the Ethereal Plane for 1 hour. You also can see whether someone within 60 feet of you is possessed by a spirit; you see such figures as having a vague, dim outline around them.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Flourish in Death As in Life)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Flourish in Death As in Life)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Flourish in Death As in Life)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Flourish in Death As in Life (2)",
+   "type": "Class Feature",
+   "name": "Flourish in Death As in Life (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fly as the Falcon, Howl as the Wolf (1)",
+   "type": "Class Feature",
+   "name": "Fly as the Falcon, Howl as the Wolf (1)",
+   "desc": "Meaning: This symbol represents hunting, tracking, stalking, and bringing prey to the ground.\n\nHieroglyph Bonus: You gain a +1 bonus when making Wisdom (Survival) checks.\n\nHieroglyph Power (2nd Level): By tracing this symbol on the body of a willing creature (1 action), its sense of smell is enhanced so it gains darkvision 20 feet, which lasts 1 minute and works even in magical darkness.\n\nHieroglyph Power (4th Level): You trace this hieroglyph onto an item that belongs to a specific creature or clearly represents a creature you’ve encountered, and consume it. For the next hour, the tracks of the creature glow in your sight. You can follow and track the creature automatically while moving at forced march speed.\n\nHieroglyph Mastery Power: By tracing this glyph onto your hand in blood, you invoke the hunter’s gift against a creature. The target must be a creature you’ve previously used one of this hieroglyph’s powers against. The next time you hit the creature within 24 hours, it must make a successful Constitution saving throw or take an additional 1d10 necrotic damage from the attack.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Fly as the Falcon, Howl as the Wolf)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Fly as the Falcon, Howl as the Wolf) (1)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Fly as the Falcon, Howl as the Wolf) (2)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Fly as the Falcon, Howl as the Wolf)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Fly as the Falcon, Howl as the Wolf (2)",
+   "type": "Class Feature",
+   "name": "Fly as the Falcon, Howl as the Wolf (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Gifts Taken from the Silver Coffer (1)",
+   "type": "Class Feature",
+   "name": "Gifts Taken from the Silver Coffer (1)",
+   "desc": "Meaning: This symbol represents gifts, knowledge, secrets, and things hidden.\n\nHieroglyph Bonus: You gain a +1 bonus when making Intelligence (Investigation) checks.\n\nHieroglyph Power: By spending 1 minute in concentration while holding a papyrus reed, you can cast the spell speak with inanimate object (see “Hieroglyph Spells”).\n\nHieroglyph Power (4th Level): By breaking open an egg (1 action), you create an extradimensional space (a “silver coffer”) large enough to hold 10 pounds of material. This looks like a simple, empty hole in the ground, but when you reach inside it, you always find whatever you placed inside. The extradimensional space remains visible as a hole in the ground for 24 hours, then disappears along with whatever is inside it. It can be reopened with another use of this hieroglyph power. The silver coffer’s location in the Material Plane depends on your location when you trigger the hieroglyph. This power always opens the same extradimensional space no matter how much time passes or how far you travel between uses, so it’s not a good means to dispose of (for example) unwanted or dangerous magic items. If the person who created the extradimensional space dies, any items in his or her silver coffer eventually return to their plane of origin at a random location, anytime from a day to several centuries after the creator’s death.\n\nHieroglyph Mastery Power (10th Level): By rubbing a special brown paste over your eyes that costs 50 gp (1 action), you cast true seeing on yourself.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Gifts Taken from the Silver Coffer)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Gifts Taken from the Silver Coffer) (1)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Gifts Taken from the Silver Coffer) (2)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Gifts Taken from the Silver Coffer)",
+     "level": 10
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Gifts Taken from the Silver Coffer (2)",
+   "type": "Class Feature",
+   "name": "Gifts Taken from the Silver Coffer (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Give Succor to Thy People (1)",
+   "type": "Class Feature",
+   "name": "Give Succor to Thy People (1)",
+   "desc": "Meaning: This symbol represents charity, healing, benevolent leadership, and sanctuary given to friends and kin but also to enemies.\n\nHieroglyph Bonus: You have advantage on Wisdom (Medicine) checks.\n\nHieroglyph Power: By spending an hour in meditation and then specially preparing a bottle of beer or wine with a cloth bearing this hieroglyph, your sincere wish to help someone transfers into the brew. When a creature drinks the brew, it instantly gains all the benefits associated with completing a short rest. This brew is usable for 24 hours before it loses all potency.\n\nHieroglyph Mastery Power: By spending an hour in a trancelike ritual with a waterskin, up to six creatures that drink from the waterskin recover from two levels of exhaustion and don’t need any other food or water for the rest of the day. The waterskin retains this power until six creatures have drunk from it or until dawn of the following day.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Give Succor to Thy People)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Give Succor to Thy People)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Give Succor to Thy People)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Give Succor to Thy People (2)",
+   "type": "Class Feature",
+   "name": "Give Succor to Thy People (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Gods’ Company is Like Light (1)",
+   "type": "Class Feature",
+   "name": "The Gods’ Company is Like Light (1)",
+   "desc": "Meaning: This symbol represents wisdom and knowledge gained over an extended time through dedication and effort.\n\nHieroglyph Bonus: You gain the ability to speak and read one additional language of your choice.\n\nHieroglyph Power: By meditating on this hieroglyph for 10 minutes, you cast comprehend languages.\n\nHieroglyph Power (2nd Level): By tracing this symbol onto your forehead or that of another creature (1 action), that creature gains advantage on Intelligence checks for 1 minute.\n\nHieroglyph Mastery Power: By inhaling incense and powders over the course of an hour, you call upon the wisdom of your ancestors to reveal a bit of knowledge from the past. This allows you to gain your ancestors’ assistance with a problem immediately before you. The precise implementation of this is up to the GM; you might gain a specific clue that helps you to solve the problem, or you might gain temporary proficiency (lasting 1 hour) with a skill or tool set, or advantage on a single type of skill check for the same length of time.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (The Gods’ Company is Like Light)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (The Gods’ Company is Like Light) (1)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (The Gods’ Company is Like Light) (2)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (The Gods’ Company is Like Light)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:The Gods’ Company is Like Light (2)",
+   "type": "Class Feature",
+   "name": "The Gods’ Company is Like Light (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Grasping Arms of Balance (1)",
+   "type": "Class Feature",
+   "name": "Grasping Arms of Balance (1)",
+   "desc": "Meaning: This symbol represents the judgment of the dead, ever watchful and weighing the actions of the living in expectation of the moment when they eventually pass on from the world.\n\nHieroglyph Bonus: You gain a +1 bonus when making Intelligence (Investigation) checks.\n\nHieroglyph Power: You trace this hieroglyph in ash on the body of a willing creature. For the next hour, the creature has advantage on Wisdom ability checks.\n\nHieroglyph Power (3rd Level): By tracing the hieroglyph into the air with your fingers (1 action), you force a creature you can see to make a Wisdom saving throw. If it fails, you can immediately give it one command, either verbally or in writing, which can be completed in the next minute. The creature must try to complete the command to the best of its ability, provided doing so won’t directly harm the creature. If the task isn’t completed within 1 minute, the glyph’s power wears off and the creature is freed from the compulsion.\n\nHieroglyph Mastery Power (9th Level): You spend an hour enchanting a piece of paper with this hieroglyph using specially prepared inks. By burning the paper (1 action), you cast a geas spell on one target. You and the target must have a language in common for the effect to work.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Grasping Arms of Balance)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Grasping Arms of Balance) (1)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Grasping Arms of Balance) (2)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Grasping Arms of Balance)",
+     "level": 9
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Grasping Arms of Balance (2)",
+   "type": "Class Feature",
+   "name": "Grasping Arms of Balance (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:He Hath Repulsed the Fiends (1)",
+   "type": "Class Feature",
+   "name": "He Hath Repulsed the Fiends (1)",
+   "desc": "Meaning: This symbol represents the prevention of harm, usually through the protection of devoted soldiers or bodyguards.\n\nHieroglyph Bonus: When unarmored, your Armor Class = (10 + your Wisdom modifier + your Dexterity modifier).\n\nHieroglyph Power (3rd Level): By drawing this hieroglyph with powdered metal on a creature (1 action), you grant that creature resistance to bludgeoning, piercing, or slashing damage (your choice) for 1 minute.\n\nHieroglyph Power (5th Level): By burning a specially crafted scroll (1 action), you conjure a squad of soldiers. These soldiers can appear different to different creatures, and even have different numbers (one person might see five soldiers while another sees eight). They appear standing inside a 10-foot square within 10 feet of you, and they can’t leave that space. Within that square area, they behave like a swarm; other creatures can enter the space and end their turn there. Whenever one of your enemies enters the soldiers’ space or starts its turn in the space or within 5 feet of it, the soldiers attack that creature. Their attack bonus = (your Wisdom modifier + your proficiency modifier), and a successful attack causes 7 (2d6) force damage. The soldiers remain for 1 minute, provided you maintain concentration on them. They never take damage and can’t be dispelled except by breaking your concentration.\n\nHieroglyph Mastery Power (8th Level): By tracing this hieroglyph into the air and then limning it with a handful of magically-charged sand (1 action), you cast banishment.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (He Hath Repulsed the Fiends)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (He Hath Repulsed the Fiends) (1)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (He Hath Repulsed the Fiends) (2)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (He Hath Repulsed the Fiends)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:He Hath Repulsed the Fiends (2)",
+   "type": "Class Feature",
+   "name": "He Hath Repulsed the Fiends (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hold the Storm in an Urn of the Wind (1)",
+   "type": "Class Feature",
+   "name": "Hold the Storm in an Urn of the Wind (1)",
+   "desc": "Meaning: This symbol represents the power of storms and wind and the effect they can have on the world.\n\nHieroglyph Bonus: Any effects or attacks that would push you, push you 5 feet less than they would otherwise.\n\nHieroglyph Power (1st Level): By spending an hour in meditation with burning incense before tracing this hieroglyph into the air, you cast control weather. Unlike the spell, the hieroglyph affects an area only a quarter-mile in radius and the change lasts just 20 minutes (while you concentrate) before the weather returns to what it was before.\n\nHieroglyph Power (3rd Level): By chanting this hieroglyph for 3 rounds, you cast wind wall.\n\nHieroglyph Mastery Power: Immediately after performing a 10-minute ritual with special incense, you cast wind walk. Unlike the spell, the hieroglyph affects up to 5 creatures and the effect lasts only 2 hours and requires your concentration.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Hold the Storm in an Urn of the Wind)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Hold the Storm in an Urn of the Wind) (1)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Hold the Storm in an Urn of the Wind) (2)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Hold the Storm in an Urn of the Wind)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Hold the Storm in an Urn of the Wind (2)",
+   "type": "Class Feature",
+   "name": "Hold the Storm in an Urn of the Wind (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Jackal Moves On Tirelessly (1)",
+   "type": "Class Feature",
+   "name": "The Jackal Moves On Tirelessly (1)",
+   "desc": "Meaning: This symbol represents travel, persistence, and not giving up in the face of challenge.\n\nHieroglyph Bonus: You gain a +1 bonus on saving throws to resist exhaustion.\n\nHieroglyph Power (3rd Level): By tracing this symbol onto the body of a willing creature (1 action), you increase that creature’s speed by 15 feet for 1 hour. This affects all forms of movement the creature can use.\n\nHieroglyph Mastery Power: By drawing this hieroglyph into the ground over the course of 10 minutes, you create a temporary portal to another place you’re familiar with, within 1 mile. You can step through the portal once, then it disappears. You can bring along a number of other creatures equal to (your level ÷ 4, rounded up), provided all of them are your size category or smaller and they’re all willing or helpless.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (The Jackal Moves On Tirelessly)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (The Jackal Moves On Tirelessly)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (The Jackal Moves On Tirelessly)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:The Jackal Moves On Tirelessly (2)",
+   "type": "Class Feature",
+   "name": "The Jackal Moves On Tirelessly (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:On the Day of the Destruction of the Fiends (1)",
+   "type": "Class Feature",
+   "name": "On the Day of the Destruction of the Fiends (1)",
+   "desc": "Meaning: This symbol represents triumph over your enemies, victory, and celebration of those victories.\n\nHieroglyph Bonus: You gain a +1 bonus when making Charisma (Intimidation) checks.\n\nHieroglyph Power (3rd Level): To trigger this hieroglyph, you must trace the symbol on yourself with a knife or other sharp object (pressing hard enough to leave a mark on the skin but not hard enough to cause damage or draw blood) and emit a loud battle cry. All creatures within 10 feet of you that hear the battle cry must make a successful Charisma saving throw or be frightened of you for 1 minute.\n\nHieroglyph Mastery Power: By hosting a great feast for your army on the eve of battle, everyone who partakes in the feast gains temporary hit points equal to your Charisma modifier (minimum of 1) and has advantage on the same number of their next attacks. At least 500 gp worth of gold shavings must be cooked into the food. The effects fade when used or at sunset of the next day.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (On the Day of the Destruction of the Fiends)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (On the Day of the Destruction of the Fiends)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (On the Day of the Destruction of the Fiends)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:On the Day of the Destruction of the Fiends (2)",
+   "type": "Class Feature",
+   "name": "On the Day of the Destruction of the Fiends (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Open the Hidden Springs and Unbolt the Shrine (1)",
+   "type": "Class Feature",
+   "name": "Open the Hidden Springs and Unbolt the Shrine (1)",
+   "desc": "Meaning: This symbol represents casting off chains, putting down oppression, and opening pathways.\n\nHieroglyph Bonus: You get a +1 bonus when making Dexterity (Sleight of Hand) checks.\n\nHieroglyph Power: By tracing this hieroglyph (1 action) onto a rope, chain, or other implement that’s holding you in place, you gain advantage on Dexterity checks made to free yourself. This doesn’t apply to checks made to escape a grapple unless you’re grappled by an inanimate object.\n\nHieroglyph Mastery Power: Using whatever is on hand for marking, you can trace this hieroglyph (1 action) onto the skin of a creature to cast blink on that creature.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Open the Hidden Springs and Unbolt the Shrine)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Open the Hidden Springs and Unbolt the Shrine)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Open the Hidden Springs and Unbolt the Shrine)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Open the Hidden Springs and Unbolt the Shrine (2)",
+   "type": "Class Feature",
+   "name": "Open the Hidden Springs and Unbolt the Shrine (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Savor the Divine Company of the Gods (1)",
+   "type": "Class Feature",
+   "name": "Savor the Divine Company of the Gods (1)",
+   "desc": "Meaning: This symbol represents robust and vigorous health and the favor of the gods.\n\nHieroglyph Bonus: Your maximum number of hit points increases by 1 per hit die.\n\nHieroglyph Power: When you trace this hieroglyph on a creature’s skin with blood (1 action), that creature gains temporary hit points equal to your hit dice.\n\nHieroglyph Mastery Power: By spending an hour repeatedly tracing this hieroglyph again and again on the body of an afflicted creature, you cast lesser restoration on that creature.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Savor the Divine Company of the Gods)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Savor the Divine Company of the Gods)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Savor the Divine Company of the Gods)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Savor the Divine Company of the Gods (2)",
+   "type": "Class Feature",
+   "name": "Savor the Divine Company of the Gods (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shine at the Monument of the Mighty (1)",
+   "type": "Class Feature",
+   "name": "Shine at the Monument of the Mighty (1)",
+   "desc": "Meaning: This symbol represents physical and mental strength, overcoming weakness, and surpassing limits.\n\nHieroglyph Bonus: You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n\nHieroglyph Power: By tracing this hieroglyph on a creature (1 action), you double that creature’s Strength bonus for the purpose of determining damage from its next successful attack.\n\nHieroglyph Power (3rd Level): By crushing a previously-prepared clay semblance of this hieroglyph (1 action), you gain advantage on Strength checks for 1 minute. You can also give the clay hieroglyph to another creature so that creature can gain the bonus from crushing it.\n\nHieroglyph Mastery Power: Tracing this hieroglyph onto a creature (1 action) frees that creature from the need for sleep and makes the creature immune to exhaustion for 24 hours.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Shine at the Monument of the Mighty)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Shine at the Monument of the Mighty) (1)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Shine at the Monument of the Mighty) (2)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Shine at the Monument of the Mighty)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Shine at the Monument of the Mighty (2)",
+   "type": "Class Feature",
+   "name": "Shine at the Monument of the Mighty (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stand Above All (1)",
+   "type": "Class Feature",
+   "name": "Stand Above All (1)",
+   "desc": "Meaning: This symbol represents moral rightness, dominance, rulership, and ego.\n\nHieroglyph Bonus: You have advantage on Charisma saving throws.\n\nHieroglyph Power (3rd Level): By tracing this hieroglyph on your clothing, you rally your allies and improve their morale. For the next minute, your allies gain +1 on attack rolls, saving throws against fear effects, and skill checks while they’re within 10 feet of you.\n\nHieroglyph Mastery Power: You trace this hieroglyph on a willing creature using dust made from powdered gems worth at least 200 gp. The creature the hieroglyph was bestowed on gains the power to overawe the mind of one other creature within 60 feet for a minute. The awed creature must make a successful Charisma saving throw or prostrate itself before the creature bearing the hieroglyph. An awed creature repeats the saving throw at the end of its turn, ending the effect on itself with a success. The effect also ends if the awed creature takes damage, is attacked, or after 1 minute.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Stand Above All)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Stand Above All)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Stand Above All)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Stand Above All (2)",
+   "type": "Class Feature",
+   "name": "Stand Above All (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stars and Birds Perceive All (1)",
+   "type": "Class Feature",
+   "name": "Stars and Birds Perceive All (1)",
+   "desc": "Meaning: This symbol represents vision, sight, and perceiving from great distances.\n\nHieroglyph Bonus: You gain a +1 bonus when making Wisdom (Perception) checks. In addition, you can make an eye of Tsetsu (see “Magic Items”) with 6 hours of crafting.\n\nHieroglyph Power: By drawing this glyph with the feather of an owl, you cast enhance ability to gain the owl’s wisdom effect.\n\nHieroglyph Mastery Power: By tracing this glyph over and over in a 10-minute ritual while using a rock that fell from the sky as a material component, you cast clairvoyance.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Stars and Birds Perceive All)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Stars and Birds Perceive All)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Stars and Birds Perceive All)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Stars and Birds Perceive All (2)",
+   "type": "Class Feature",
+   "name": "Stars and Birds Perceive All (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Watchful Eyes See That Which is Hidden (1)",
+   "type": "Class Feature",
+   "name": "Watchful Eyes See That Which is Hidden (1)",
+   "desc": "Meaning: This symbol represents looking beyond the surface to see the world differently or to question the way things are done.\n\nHieroglyph Bonus: You gain a +1 bonus when making Wisdom (Insight) checks.\n\nHieroglyph Power (3rd Level): By spending 5 minutes tracing the hieroglyph on a creature, you imbue that creature with the ability to cast detect evil and good once in the next 24 hours. The hieroglyph can also be created on a small object instead of directly on a creature; in that case, detect evil and good can be cast once by a creature holding the object.\n\nHieroglyph Power (6th Level): After spending 10 minutes inking this hieroglyph in the middle of your forehead, you gain the benefits of casting detect thoughts for as long as you concentrate, up to 1 minute.\n\nHieroglyph Mastery Power: By drawing this hieroglyph with ink containing blood from an aberration (1 action), you cast arcane eye.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (Watchful Eyes See That Which is Hidden)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Watchful Eyes See That Which is Hidden) (1)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (Watchful Eyes See That Which is Hidden) (2)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (Watchful Eyes See That Which is Hidden)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Watchful Eyes See That Which is Hidden (2)",
+   "type": "Class Feature",
+   "name": "Watchful Eyes See That Which is Hidden (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:With One Heart and Voice the People Raise Cries of Joy (1)",
+   "type": "Class Feature",
+   "name": "With One Heart and Voice the People Raise Cries of Joy (1)",
+   "desc": "Meaning: This symbol represents unity, community, common purpose and goals, and protecting one another.\n\nHieroglyph Bonus: You have advantage on saving throws that are also being made by at least one of your allies.\n\nHieroglyph Power (3rd Level): By using ash to draw this hieroglyph on a rope that you use to bind your wrist to another creature (1 action), you can absorb the damage and other effects from the next attack that hits the other creature. The attack must hit the other creature, but it affects you instead; the other creature is unaffected. The rope can be no more than 30 feet long.\n\nHieroglyph Mastery Power: By invoking this hieroglyph during a 10-minute ritual, you temporarily grant telepathy to up to 10 creatures that are within 60 feet of you. The telepathy works only among the affected creatures; they can’t use it to communicate with other creatures outside the group. The creatures also have advantage on Wisdom saving throws. Both effects last for 1 hour.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (With One Heart and Voice the People Raise Cries of Joy)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (With One Heart and Voice the People Raise Cries of Joy)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (With One Heart and Voice the People Raise Cries of Joy)"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:With One Heart and Voice the People Raise Cries of Joy (2)",
+   "type": "Class Feature",
+   "name": "With One Heart and Voice the People Raise Cries of Joy (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:With the Sight and Talons of the Hawk (1)",
+   "type": "Class Feature",
+   "name": "With the Sight and Talons of the Hawk (1)",
+   "desc": "Meaning: This symbol is associated with strength, speed, honor, and heroism.\n\nHieroglyph Bonus: You gain a +1 bonus on initiative rolls.\n\nHieroglyph Power (4th Level): As an action, you can use ink to trace this hieroglyph onto a creature, granting it advantage on Strength checks and Constitution checks for the next hour, so long as you maintain concentration.\n\nHieroglyph Power (6th Level): By spending one round in intense concentration to summon power from the sky, you target one creature that has the hieroglyph emblazoned on its forehead. The creature gains the effects of the enlarge spell, and its head takes on the appearance of a hawk for the duration of the spell.\n\nHieroglyph Mastery Power (8th Level): You trace this symbol into the air (1 action), granting the speed of the air to an ally within 60 feet. The affected ally gains the effect of a haste spell lasting 1 minute.",
+   "rules": [
+    {
+     "grant": "Class Feature:Hieroglyph Bonus (With the Sight and Talons of the Hawk)"
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (With the Sight and Talons of the Hawk) (1)",
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Power (With the Sight and Talons of the Hawk) (2)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Hieroglyph Mastery Power (With the Sight and Talons of the Hawk)",
+     "level": 8
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:With the Sight and Talons of the Hawk (2)",
+   "type": "Class Feature",
+   "name": "With the Sight and Talons of the Hawk (2)",
+   "desc": "Once per day, you can invoke one of its Hieroglyph Mastery powers.",
+   "rules": []
+  }
+ ]
+}
