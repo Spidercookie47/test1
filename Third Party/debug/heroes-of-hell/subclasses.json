@@ -1,0 +1,236 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Fiend Slayer",
+   "type": "Subclass",
+   "name": "Fiend Slayer",
+   "desc": "For some the drive to destroy fiends goes beyond duty or oath—it is a primal urge to confront and destroy the manifestation of the greatest evil in the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Fiendish Intuition",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Fiend Slayer Rage",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Unparalleled Fortitude",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Immortal Fear",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Death Is Not An Option",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:Soul Gatherer Domain",
+   "type": "Subclass",
+   "name": "Soul Gatherer Domain",
+   "desc": "Soul Gatherer clerics roam the Hells, gathering souls that are lost, bound or enslaved. Some do this out of altruism, seeking to assuage the tormented soul...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Soul Sight",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Draw Upon Host",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Bind Spirit",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Manifestation",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Detect Evil and Good",
+      "Protection From Evil and Good"
+     ],
+     "3": [
+      "Enhance Ability",
+      "Spiritual Weapon"
+     ],
+     "5": [
+      "Speak with Dead",
+      "Spirit Guardians"
+     ],
+     "7": [
+      "Death Ward",
+      "Guardian of Faith"
+     ],
+     "9": [
+      "Arcane Eye",
+      "Dispel Evil and Good"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of the Shacklebreaker",
+   "type": "Subclass",
+   "name": "Oath of the Shacklebreaker",
+   "desc": "The Oath of the Shaklebreaker is a paladin order devoted to freeing the enslaved of their bonds – physical or magical. Shacklebreakers are particularly...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Will",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Cry Freedom",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Unbound",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Sanctuary",
+      "Shield of Faith"
+     ],
+     "5": [
+      "Knock",
+      "Lesser Restoration"
+     ],
+     "9": [
+      "Dispel Magic",
+      "Nondetection"
+     ],
+     "13": [
+      "Freedom of Movement",
+      "Locate Creature"
+     ],
+     "17": [
+      "Greater Restoration",
+      "Hallow"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Hell Guide",
+   "type": "Subclass",
+   "name": "Hell Guide",
+   "desc": "Hell Guides are a conclave of rangers dedicated to providing safe passage across Avernus and other layers of the Nine Hells. Aside from this principle, no...",
+   "rules": [
+    {
+     "grant": "Class Feature:Infernus Codex",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Attuned Weapons",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Planar Alignment",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Vicious Wounds",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Whatever It Takes",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Relic Hunter",
+   "type": "Subclass",
+   "name": "Relic Hunter",
+   "desc": "Avernus is the layer of temptation and lost opportunity. The battlefields of the plane are littered with trinkets of interest, objects of value and...",
+   "rules": [
+    {
+     "grant": "Class Feature:Trash and Treasure",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Knack",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Quick Appraisal",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Use Magic Device",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Hidden Resources",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Hellfire Sorcerer",
+   "type": "Subclass",
+   "name": "Hellfire Sorcerer",
+   "desc": "Hellfire sorcerers are gifted with sorcery born of an infernal origin, and a rare one at that. Attuned to the secrets of Hellfire, a flame that burns both...",
+   "rules": [
+    {
+     "grant": "Class Feature:Soul of Fire",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Flames of Hell",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Clinging Flames",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Hellwalk",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Core of Hellfire",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  }
+ ]
+}

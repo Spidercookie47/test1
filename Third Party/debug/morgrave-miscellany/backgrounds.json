@@ -1,0 +1,308 @@
+{
+ "elements": [
+  {
+   "id": "Background:Aspirant",
+   "type": "Background",
+   "name": "Aspirant",
+   "desc": "The druidic sects of Khorvaire are as organized and established as any divine faith. You have spent your life in the service of a druidic sect, serving as...",
+   "rules": [
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Wild Hospitality"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Herbalism kit"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I talk to every animal I meet, even if they can’t talk back.",
+     "I have a parable for every occasion.",
+     "I see omens in the actions of animals.",
+     "I’m always interested in discussing the weather.",
+     "I prefer to sleep under the open sky.",
+     "I continually question the ways of the civilized world.",
+     "I model my behavior on a particular animal.",
+     "I always want to talk shop with hunters and farmers."
+    ],
+    "ideals": [
+     "Protection. The common people must be protected from the dangers of the natural world, and nature must be defended from the ignorance and greed of outsiders. (Wardens of the Wood)",
+     "Nature. When civilization harnesses unnatural forces and defies the laws of nature, it should be challenged; even if these violations are allowed to continue, people should realize the dangers of their actions. (Ashbound)",
+     "Preservation. The cycle of life and death is a vital balance. Destroy the undead. Search for ways to strengthen the pack, and offer a merciful end to suffering. (Children of Winter)",
+     "Order. Protect the natural world from threats that come from beyond reality such as aberrations, fiends, and other things with no place in the world. (Gatekeepers)",
+     "Freedom. Search for signs of the fey in the world around you. Respect the ways of the fey. Look for ways to bring a touch of wonder into everyday life. (Greensingers)",
+     "Balance. Preserve balance in all things: the balance between civilization and the wild, life and death, the material world and the planes. (Any)"
+    ],
+    "bonds": [
+     "I will do anything to protect my adopted pack.",
+     "I am determined to discover the cause of the Mourning.",
+     "I must find the answer to a question set by the leader of my sect.",
+     "It’s my duty to care for commoners and show them the right path.",
+     "I am carrying a relic that must be protected from those who would destroy it.",
+     "I am pursuing an enemy of my sect and will not rest until I have destroyed them."
+    ],
+    "flaws": [
+     "I distrust those who wield arcane magic or unnatural power.",
+     "I don’t understand the customs of the civilized world.",
+     "I believe the weak should be allowed to perish.",
+     "I don’t understand civilized politics or power structures.",
+     "I never back down from a challenge.",
+     "I’m often unintentionally rude."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Wild Hospitality",
+   "type": "Background Feature",
+   "name": "Wild Hospitality",
+   "desc": "As an aspirant, you can perform the rituals of your sect and can demand respect from those who share your faith. You and your adventuring companions can expect to receive shelter and support in any established outpost of your sect, though druidic outposts are often sparse in what they can provide. Nature itself will also provide for you; when in the wilderness you can find food and fresh water for yourself and up to five people each day, provided you aren’t in an unnatural or exceptionally barren environment.",
+   "rules": []
+  },
+  {
+   "id": "Background:Auditor",
+   "type": "Background",
+   "name": "Auditor",
+   "desc": "You don’t work with taxes or accounts. Your job is testing security systems, finding the flaws in vaults, prisons, and other secure systems. Most auditors...",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "Background Feature:Keeper of Vaults"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools",
+      "t:Tinker’s tools"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I’m always pointing out peoples’ flaws, for their own good.",
+     "I always have a suggestion as to how something could be improved.",
+     "I try to get to know everyone; it makes finding weaknesses easier.",
+     "I question every decision. It’s the only way to find the best answer.",
+     "I want to test every limit, looking for patterns, sequences, and cyphers when I’m bored.",
+     "I hate to waste time. Get to work.",
+     "I’m always speculating about possible threats.",
+     "I’m suspicious of everyone and everything."
+    ],
+    "ideals": [
+     "Perfection. A perfect world is one in which everything is foolproof, and nothing can be broken. (Lawful)",
+     "Security. The world is a dangerous place, and everyone should be able to feel safe. Do what you can to help give innocent people a sense of security. (Good)",
+     "Freedom. Nothing should be hidden. No door should be barred. Those who wish should have access to every path and every secret. (Chaotic)",
+     "Neighborly. Helping people establish strong defenses is a way to maintain one’s relationships and financial securities. (Neutral)",
+     "Domination. The perfect system is one that I control. (Evil)",
+     "Efficiency. Anything can be improved, and I’m always looking for ways to do it. (Any)"
+    ],
+    "bonds": [
+     "I have a loved one that I would do anything form as long as they are safe.",
+     "I want to help friends achieve peak efficiency.",
+     "I’m going to pull off the heist of the century, but I need a team I can trust.",
+     "A criminal mastermind used me to commit a crime. I’m on the run, trying to clear my name.",
+     "My mentor was locked away behind impenetrable defenses. I aim to crack them.",
+     "I uncovered a secret I wasn’t meant to know and now it haunts my dreams."
+    ],
+    "flaws": [
+     "I’m always looking for weaknesses in the people and things around me.",
+     "I’m never satisfied; there’s always a way to improve things.",
+     "I’m paranoid, always imagining threats I have to defend against.",
+     "I push everything and everyone to find their breaking point. Nothing is true until tested.",
+     "I’m always hungry for new challenges.",
+     "My instincts seem more trustworthy to me than my allies."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Keeper of Vaults",
+   "type": "Background Feature",
+   "name": "Keeper of Vaults",
+   "desc": "You have an excellent memory for traps and security structures and can always recall the general construction of such apparatus, including their triggers. You can also find blueprints of a specific trap in order to learn the details of its application. Such blueprints might provide knowledge of points of weakness, possible advancements, and magic or mechanisms that might trigger them. Your access to such information isn’t unlimited. If obtaining or using the information gets you in trouble with the law, your affiliation can’t shield you from the repercussions.",
+   "rules": []
+  },
+  {
+   "id": "Background:Chronicler",
+   "type": "Background",
+   "name": "Chronicler",
+   "desc": "People need news, and you’re the one to provide it. You could be an investigative reporter searching for issues of national importance such as conspiracies,...",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Press Pass"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Calligrapher’s supplies"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I’m always asking questions, even when it’s inappropriate.",
+     "I’m constantly taking notes on everything around me.",
+     "I frequently narrate the events around me.",
+     "I’m sure there’s more to the story, whatever the story may be.",
+     "I never use one word when I could use five.",
+     "I’m always chasing after celebrities.",
+     "I’ll do anything to get a good story.",
+     "I have a pen name and exaggerated personality I use when I’m reporting."
+    ],
+    "ideals": [
+     "Balance. Revealing the absolute truth is all that matters, regardless of whether it tips the balance towards good or evil. (Neutral)",
+     "Honor. The best way to fight corruption and evil is to expose it to the public. (Good)",
+     "Revolution. Opponents who can’t be fought with swords can be beaten with words. You use your writing to undermine established authority and introduce new ideas. (Chaotic)",
+     "Civilization. It’s your duty to record the history of your nation and to preserve and celebrate the values of your culture. (Lawful)",
+     "Power. Truth is irrelevant. People believe what they want to believe, or what you want them to believe. How can you use your writing to gain power and influence? (Evil)",
+     "Entertainment. People need diversion and entertainment. You’re not interested in news; you just want to find brilliant stories to share. (Any)"
+    ],
+    "bonds": [
+     "I’m sure that one of the other party members has a grand destiny, and I’m going to record their story from the very beginning.",
+     "My family was ruined by a corrupt conspiracy. I’m going to expose this cabal and bring it down.",
+     "The people have a right to know the truth.",
+     "People need to know about the long-term impact of the war.",
+     "I’m going to break the story of the century.",
+     "I want my work to bring people together."
+    ],
+    "flaws": [
+     "I’m convinced there’s a vast conspiracy behind everything that goes wrong.",
+     "I won’t take “no” for an answer.",
+     "I’ve made a lot of enemies with my writing.",
+     "I don’t trust anyone. Everyone has something to hide.",
+     "I’m happy to exploit my friends to get a good story.",
+     "Once I’ve settled on a story, I become completely obsessed with it."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Press Pass",
+   "type": "Background Feature",
+   "name": "Press Pass",
+   "desc": "You’re an established reporter for a known source of news. You can often get access to restricted events for yourself and your “crew” so you can cover the story. People familiar with your work may be excited to talk to you, and even people who have something to hide may not want to turn you away without explanation. Of course, using your credentials in this way draws a lot of attention!",
+   "rules": []
+  },
+  {
+   "id": "Background:Cadet",
+   "type": "Background",
+   "name": "Cadet",
+   "desc": "You were commissioned as an officer, but you never actually made it to the battlefield. Perhaps someone pulled strings on your behalf to save you from...",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:History"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Cadet",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Background Feature:Pupil of Conflict"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I speak plainly and directly. Not because it’s easier, but because it saves time and lives.",
+     "I have a tendency to compare situations at hand to famous battles and notable heroes.",
+     "I am easily bored; I long for action and excitement.",
+     "I readily seek to outperform others in word and deed.",
+     "If I give someone my word, I will keep it. Even if it kills me.",
+     "I do my best to keep morale up, and if it is a low, I will figure out how to inspire it.",
+     "To me, a new weapon is like a shiny new toy, full of possibilities.",
+     "I am stoic and professional above all else."
+    ],
+    "ideals": [
+     "Order. War’s main purpose is to exact justice and maintain peace. (Law)",
+     "Honor. The might doesn’t reveal the value of might, but of character. (Any)",
+     "Valor. Courage stokes the flame of hope, and inspires others to fight for what is good. (Good)",
+     "Tyranny. Only through demonstrations of strength and superiority can any form of respect be earned. (Evil)",
+     "Glory. Those destined for victory make history, and those who make history rule the world. (Any)",
+     "Perseverance. War is never quick and always complicated, but those who fight for the right cause will outlast the most blusterous foes. (Neutral)"
+    ],
+    "bonds": [
+     "The friends I made in training are closer to me than my real family.",
+     "I come from a long line of soldiers, and I must continue their legacy.",
+     "My mentor died in battle, and I will stop at nothing to avenge them.",
+     "The conflict separated me from a person I love, and I’m still searching for them.",
+     "My community sees me as a local hero, and I refuse to disappoint them.",
+     "I am destined to be a hero, and I will be nothing less than that, or die trying."
+    ],
+    "flaws": [
+     "I fly into a fit of rage when others disrespect my lands, my king, or my people.",
+     "I never wanted to be a soldier, and have no taste for fighting.",
+     "I don’t take orders from anyone that isn’t in a position of authority",
+     "Because I fear my lack of experience, I become paralyzed with indecision.",
+     "I am overconfident in my martial skill, and pick fights I don’t know if I can win.",
+     "I am meant to lead, not to be on the front lines; I’d rather have someone else fight my battles for me."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Pupil of Conflict",
+   "type": "Background Feature",
+   "name": "Pupil of Conflict",
+   "desc": "Your military training allows you to easily recognize and distinguish weapons, uniforms, military strategies and important military figures, such as notable generals, both historical and modern.",
+   "rules": []
+  }
+ ]
+}

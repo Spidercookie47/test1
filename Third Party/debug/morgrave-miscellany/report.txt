@@ -1,0 +1,17 @@
+Converted: 4 Background, 4 Background Feature, 23 Class Feature, 8 Racial Trait, 4 Sub Race, 2 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (4)
+  Elevated Exploration: speed
+  Alien Speed: alien speed
+  Cloven Ascent: innate speed
+  Swimmer’s Build: speed
+
+== grants of other kinds (skipped) (1)
+  The Mark of Death: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+
+== selects not understood (4)
+  Aspirant: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Auditor: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Chronicler: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Cadet: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+

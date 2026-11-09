@@ -1,0 +1,75 @@
+{
+ "elements": [
+  {
+   "id": "Race:Volodni",
+   "type": "Race",
+   "name": "Volodni",
+   "desc": "Voldoni are the legacy of Nar refugees fleeing demons unleashed during the ancient wars between Narfell and Raumathar. They sought shelter beneath the bows...",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1,
+      "con": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Plant Traits"
+    },
+    {
+     "grant": "Racial Trait:Cold Iron Anathema"
+    },
+    {
+     "grant": "Racial Trait:Deep Slumber"
+    },
+    {
+     "grant": "Racial Trait:Forest Hunter"
+    },
+    {
+     "grant": "Racial Trait:Nature’s Avenger"
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Sylvan"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Plant Traits",
+   "type": "Racial Trait",
+   "name": "Plant Traits",
+   "desc": "You have resistance to poison and piercing damage, as well as advantage on saving throws against sleep and charm effects.\n\nIn addition, you have disadvantage on saving throws to resist damage from magical fire, and you count as a plant creature for blight spells and similar effects.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Cold Iron Anathema",
+   "type": "Racial Trait",
+   "name": "Cold Iron Anathema",
+   "desc": "Due to your fey ancestry, you have disadvantage on attack rolls made with metal weapons, and you can’t regain hit points while you wear metal armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Deep Slumber",
+   "type": "Racial Trait",
+   "name": "Deep Slumber",
+   "desc": "Volodni can rest soundly in nearly any environment. If you sleep for 4 hours, you receive the same benefit that a human does from 8 hours of sleep. However, because you sleep so deeply, your initiative rolls are at a disadvantage in the first minute after you awake.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Forest Hunter",
+   "type": "Racial Trait",
+   "name": "Forest Hunter",
+   "desc": "If you are traveling alone, you can move stealthily through forest terrain at a normal pace. In addition, you can attempt to hide in forest terrain even when only lightly obscured by foliage, falling rain or snow, or mist.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nature’s Avenger",
+   "type": "Racial Trait",
+   "name": "Nature’s Avenger",
+   "desc": "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
+   "rules": []
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "elements": [
+  {
+   "id": "Background:Escaped Slave",
+   "type": "Background",
+   "name": "Escaped Slave",
+   "desc": "Stealth, Survival, Thieves’ tools, Infernal",
+   "rules": [
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "grant": "Background Feature:Scrounge"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Scrounge",
+   "type": "Background Feature",
+   "name": "Scrounge",
+   "desc": "You are able to find enough food and water for yourself and up to 5 other people to survive whilst in Hell – though often is it unpleasant or unpalatable. You are also able to always find or cobble together a rudimentary set of tools for any trade from scraps, cast offs and detritus. These are poor tools, and any checks with them are made at disadvantage.",
+   "rules": []
+  },
+  {
+   "id": "Background:Hellborn",
+   "type": "Background",
+   "name": "Hellborn",
+   "desc": "History, Survival, Tool, Infernal",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Hellborn",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "grant": "Background Feature:Adaptation"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Adaptation",
+   "type": "Background Feature",
+   "name": "Adaptation",
+   "desc": "Living your entire life in Hell, you have adapted in some ways. You have advantage to all saving throws to endure environmental conditions that impose exhaustion.",
+   "rules": []
+  },
+  {
+   "id": "Background:Lawyer",
+   "type": "Background",
+   "name": "Lawyer",
+   "desc": "Intimidation, Persuasion, Scribe’s Tools, Infernal, Language",
+   "rules": [
+    {
+     "grant": "skill:Intimidation"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Red Tape Navigator"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Calligrapher’s supplies"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Red Tape Navigator",
+   "type": "Background Feature",
+   "name": "Red Tape Navigator",
+   "desc": "You know the law, both civil and criminal, and the systems that surround it. You can determine if any proposed (or undertaken) action is against the law, and the likely charges or grievances that will arise as a result. You know how to navigate the bureaucratic systems surrounding the law, and know who to talk to (and what forms to fill) in order to get though those systems.",
+   "rules": []
+  },
+  {
+   "id": "Background:Lower Planar Merchant",
+   "type": "Background",
+   "name": "Lower Planar Merchant",
+   "desc": "Deception, Insight, Persuasion, Infernal",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "grant": "Background Feature:Appraiser"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Appraiser",
+   "type": "Background Feature",
+   "name": "Appraiser",
+   "desc": "You can always tell the approximate value of strange currency (relative to standard coinage), as well as the exotic trade goods and equipment found in the markets of Hell. You can always find a local market or trading house no matter where you travel, and know the correct procedures to obtain permits to trade in the various hubs and cities.",
+   "rules": []
+  },
+  {
+   "id": "Background:Styx Oarsman",
+   "type": "Background",
+   "name": "Styx Oarsman",
+   "desc": "Athletics, Perception, Vehicles (Water), Infernal",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "grant": "Background Feature:Styx Resilience"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Vehicle’s water"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Styx Resilience",
+   "type": "Background Feature",
+   "name": "Styx Resilience",
+   "desc": "You have been exposed to the memory stealing properties of the waters of the Styx so many times you have actually developed a slight resistance to memory altering effects - not to mention there's very little left to alter. You have advantage on saving throws against spells or abilities that alter or affect your memory. This includes exposure to the waters of the river Styx.",
+   "rules": []
+  },
+  {
+   "id": "Background:Infernal Warmachine Mechanic",
+   "type": "Background",
+   "name": "Infernal Warmachine Mechanic",
+   "desc": "Investigation, Vehicles (Land), Smith’s Tools, Infernal",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "grant": "Background Feature:Jury-Rig"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Vehicle’s land",
+      "t:Smith’s tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Jury-Rig",
+   "type": "Background Feature",
+   "name": "Jury-Rig",
+   "desc": "You are able to scrounge, scavenge and repurpose the various detritus in Avernus to keep infernal war machines running well after they should have failed. Any war machine your work on takes half the usual time to affect repairs, and gains a number of additional hit points equal to your class level.",
+   "rules": []
+  }
+ ]
+}

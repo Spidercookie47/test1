@@ -1,0 +1,11 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Revenant Blade",
+   "type": "Feat",
+   "name": "Revenant Blade",
+   "desc": "Prerequisite: Elf\n\nYou are descended from a master of the double blade and their skills have passed on to you. You gain the following benefits:\n\n- Increase your Dexterity or Strength score by 1, to a maximum of 20.\n- While wielding a double-bladed weapon with two hands, the weapon has the fissene trait for your attacks with it, and you gain +1 AC.\n- On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon’s damage die for this attack increases to 2d4, instead of 1d4.",
+   "rules": []
+  }
+ ]
+}

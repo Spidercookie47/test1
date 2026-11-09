@@ -1,0 +1,58 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Circle Magic",
+   "type": "Feat",
+   "name": "Circle Magic",
+   "desc": "You have received training in the Circle Magic Tradition enabling you to absorb the magical might of a group of spellcasters working together. You gain access to Circle Magic Casting.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Fiend Hunter",
+   "type": "Feat",
+   "name": "Fiend Hunter",
+   "desc": "You are exceptionally skilled at fighting fiends. You gain the following benefits:\n\n- Increase one ability score of your choice by 1, to a maximum of 20.\n- You gain advantage on initiative checks when fighting fiends.\n- When making a weapon attack against a fiend, you deal an extra 1d4 damage of your weapon’s damage type.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Long Reach",
+   "type": "Feat",
+   "name": "Long Reach",
+   "desc": "You know how to extend your reach to target opponents with spear-like weapons. You gain the following benefits:\n\n- Increase your Strength score by 1, to a maximum of 20.\n- Your weapon attacks with a javelin, pike, spear, or trident score a critical hit on a roll of 19 or 20.\n- On your turn, when you attack with a javelin, pike, spear, or trident, your reach increases by 5 feet. The reach for your opportunity attacks with these weapons remains unchanged.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Smooth Talker",
+   "type": "Feat",
+   "name": "Smooth Talker",
+   "desc": "You are accustomed to using words to get out of difficult situations and know just the right thing to say in most circumstances. You gain the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n- You have advantage on Wisdom (Insight) and Charisma (Persuasion) checks with individuals you have never met before.\n- If you are in combat with a creature and are able to speak a language that creature understands, you may use your action to try to convince the creature to hold their attack.\n- The creature must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed saving throw the target does not attack you or your allies until the start of your next turn, or until another creature makes an attack against it.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Transdimensional Spell",
+   "type": "Feat",
+   "name": "Transdimensional Spell",
+   "desc": "You know how to cast your spells so they affect targets on coexistent planes, such as the Ethereal Plane or the Shadow Plane. You may choose to have your spells affect ethereal creatures, creatures under the effects of a blink spell, creatures within the extradimensional space of a rope trick spell, or portable hole, or other similar extra dimensional effects.\n\nWhen you cast a spell, you may choose to cast it using a higher level spell slot in order for that spell to affect targets on coexistent planes. You do not receive the normal benefits gained from casting that spell using the higher level spell slot.\n\nAs an example, if you cast magic missile with four darts of magical force at an ethereal creature, you would have to use a 3rd-level spell slot—one spell slot level higher than would normally be required to create four darts of force.\n\nIn order to target a creature, you must still be able to see that creature. You do not have to see a creature if it is within the area of effect of a spell.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Woodwise",
+   "type": "Feat",
+   "name": "Woodwise",
+   "desc": "You are exceedingly dangerous when fighting in wooded areas, where you gain the following benefits:\n\n- Increase your Dexterity or Wisdom score by 1, to a maximum of 20.\n- You have advantage on Wisdom (Perception) checks in wooded areas.\n- If your speed is not zero, then it increases by 5 feet, even when moving through difficult terrain in wooded areas.",
+   "rules": []
+  }
+ ]
+}

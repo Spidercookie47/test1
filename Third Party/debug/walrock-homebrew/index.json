@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "walrock-homebrew",
+  "name": "Walrock Homebrew: Shardminds",
+  "short": "WHSM"
+ },
+ "files": [
+  "races.json",
+  "feats.json",
+  "info.json"
+ ]
+}

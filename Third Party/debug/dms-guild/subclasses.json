@@ -1,0 +1,186 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Circle of Stone",
+   "type": "Subclass",
+   "name": "Circle of Stone",
+   "desc": "Druids who are members of the Circle of Stone have a special connection with the very bones of the world and commune with the elemental spirits that inhabit...",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Stone Strength",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Stone Spider",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Stone Speaker",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Stone Prison",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid",
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "3": [
+      "Dust Devil",
+      "Spike Growth"
+     ],
+     "5": [
+      "Erupting Earth",
+      "Meld Into Stone"
+     ],
+     "7": [
+      "Stone Shape",
+      "Stoneskin"
+     ],
+     "9": [
+      "Conjure Elemental",
+      "Wall of Stone"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Way of the Desert Wind",
+   "type": "Subclass",
+   "name": "Way of the Desert Wind",
+   "desc": "Monks who follow the Way of the Desert Wind draw their ki energy from the scorching winds of the most barren areas in Calimshan and other lands. Although...",
+   "rules": [
+    {
+     "grant": "Class Feature:Blinding Sands",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Reed in the Wind",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Burning Brand",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Rising Phoenix",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of the Janessar",
+   "type": "Subclass",
+   "name": "Oath of the Janessar",
+   "desc": "The Oath of the Janessar commits a paladin to overthrowing tyranny and liberating the oppressed. This can involve tasks as diverse as freeing a slave,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Freedom",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Angelic Escape",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Glorious Liberator",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Goodberry",
+      "Sanctuary"
+     ],
+     "5": [
+      "Knock",
+      "Lesser Restoration"
+     ],
+     "9": [
+      "Beacon of Hope",
+      "Remove Curse"
+     ],
+     "13": [
+      "Dimension Door",
+      "Freedom of Movement"
+     ],
+     "17": [
+      "Circle of Power",
+      "Greater Restoration"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Wayfinder",
+   "type": "Subclass",
+   "name": "Wayfinder",
+   "desc": "A ranger who chooses the Wayfinder archetype is a master guide, safely leading others through dangerous wilderness regions. Wayfinders are more likely than...",
+   "rules": [
+    {
+     "grant": "Class Feature:Wayfinder Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Peerless Vigilance",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Supreme Explorer",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hidden Truths",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Timely Warning",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Disorienting Strike",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger",
+   "prepared": {
+    "class": "Ranger",
+    "levels": {
+     "3": [
+      "Sanctuary"
+     ],
+     "5": [
+      "See Invisibility"
+     ],
+     "9": [
+      "Protection From Energy"
+     ],
+     "13": [
+      "Death Ward"
+     ],
+     "17": [
+      "Dispel Evil and Good"
+     ]
+    }
+   }
+  }
+ ]
+}

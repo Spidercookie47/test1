@@ -1,0 +1,53 @@
+Converted: 2 Class, 58 Class Feature, 8 Subclass
+
+== grants of other kinds (skipped) (6)
+  Necromancer: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Spellcasting: Grants ID_INTERNAL_RITUAL_CASTING
+  Macabre: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+  Weapon Master: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Imposing Fighter: Grants ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_INTIMIDATION
+  Hawk's Eye: Grants ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERCEPTION
+
+== class starting equipment (not converted, add `start` by hand) (2)
+  Necromancer
+  Weapon Master
+
+== proficiency grants not understood (1)
+  Spellcasting: ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (11)
+  Spellcasting: necromancer
+  Life Tap: life tap
+  Animate Major Undead: animate major undead
+  Life on Demand: life on demand
+  Extra Attack: extra attack
+  Flawless Stance: flawless stance
+  Martial Prowess: acrobatics, athletics, sleight of hand, stealth
+  Parry: parry
+  Mobility: speed
+  Circle Forms: circle
+  Extra Sorcery Points: sorcery-points
+
+== selects not understood (14)
+  Ability Score Improvement (Necromancer): Class Feature supports="Improvement Option,Necromancer,4" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Necromancer): Class Feature supports="Improvement Option,Necromancer,8" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Necromancer): Class Feature supports="Improvement Option,Necromancer,12" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Necromancer): Class Feature supports="Improvement Option,Necromancer,16" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Necromancer): Class Feature supports="Improvement Option,Necromancer,19" matched nothing in this pack (maybe other pack)
+  Weapon Master: Proficiency supports="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY|ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION"
+  Weapon Master: Proficiency supports="ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED"
+  Fighting Style: Class Feature supports="Fighting Style" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Weapon Master): Class Feature supports="Improvement Option,Weapon Master,4" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Weapon Master): Class Feature supports="Improvement Option,Weapon Master,8" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Weapon Master): Class Feature supports="Improvement Option,Weapon Master,12" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Weapon Master): Class Feature supports="Improvement Option,Weapon Master,16" matched nothing in this pack (maybe other pack)
+  Ability Score Improvement (Weapon Master): Class Feature supports="Improvement Option,Weapon Master,19" matched nothing in this pack (maybe other pack)
+  Powerful Spells: Class Feature supports="Metamagic" matched nothing in this pack (maybe other pack)
+
+== damage resistances (no pack field for characters, the text already says it) (1)
+  Unholy Resistance: necrotic
+
+== grants without an id (skipped) (2)
+  Weapon Master: Proficiency
+  Circle of the Claw: Archetype Feature
+

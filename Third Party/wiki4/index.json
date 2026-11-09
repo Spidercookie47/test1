@@ -1,0 +1,12 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "wiki4",
+  "name": "D&D Wiki",
+  "short": "WIKI"
+ },
+ "files": [
+  "equipment.json"
+ ]
+}

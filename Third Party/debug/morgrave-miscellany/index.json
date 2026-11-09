@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "morgrave-miscellany",
+  "name": "Morgrave Miscellany",
+  "short": "MGMS"
+ },
+ "files": [
+  "races.json",
+  "classes.json",
+  "subclasses.json",
+  "backgrounds.json",
+  "info.json"
+ ]
+}

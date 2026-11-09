@@ -1,0 +1,88 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Bard",
+   "type": "Class Feature",
+   "name": "Bard",
+   "desc": "You learn one cantrip of your choice from the bard's spell list.\n\nYour spellcasting ability for this cantrip is Charisma.",
+   "rules": [
+    {
+     "select": {
+      "name": "Bard Cantrip (Cantrip Caster)",
+      "type": "Spell"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Cleric",
+   "type": "Class Feature",
+   "name": "Cleric",
+   "desc": "You learn one cantrip of your choice from the cleric's spell list.\n\nYour spellcasting ability for this cantrip is Wisdom.",
+   "rules": [
+    {
+     "select": {
+      "name": "Cleric Cantrip (Cantrip Caster)",
+      "type": "Spell"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Druid",
+   "type": "Class Feature",
+   "name": "Druid",
+   "desc": "You learn one cantrip of your choice from the druid spell list.\n\nYour spellcasting ability for this cantrip is Wisdom.",
+   "rules": [
+    {
+     "select": {
+      "name": "Druid Cantrip (Cantrip Caster)",
+      "type": "Spell"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Sorcerer",
+   "type": "Class Feature",
+   "name": "Sorcerer",
+   "desc": "You learn one cantrip of your choice from the sorcerer's spell list.\n\nYour spellcasting ability for this cantrip is Charisma.",
+   "rules": [
+    {
+     "select": {
+      "name": "Sorcerer Cantrip (Cantrip Caster)",
+      "type": "Spell"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Warlock",
+   "type": "Class Feature",
+   "name": "Warlock",
+   "desc": "You learn one cantrip of your choice from the warlock's spell list.\n\nYour spellcasting ability for this cantrip is Charisma.",
+   "rules": [
+    {
+     "select": {
+      "name": "Warlock Cantrip (Cantrip Caster)",
+      "type": "Spell"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Wizard",
+   "type": "Class Feature",
+   "name": "Wizard",
+   "desc": "You learn one cantrip of your choice from the wizard's spell list.\n\nYour spellcasting ability for this cantrip is Intelligence.",
+   "rules": [
+    {
+     "select": {
+      "name": "Wizard Cantrip (Cantrip Caster)",
+      "type": "Spell"
+     }
+    }
+   ]
+  }
+ ]
+}

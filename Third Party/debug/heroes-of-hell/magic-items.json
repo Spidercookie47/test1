@@ -1,0 +1,17 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Hellrider Blessed Plate",
+   "type": "Magic",
+   "name": "Hellrider Blessed Plate",
+   "desc": "Armor, very rare\n\nWhile wearing this armor you gain a +2 bonus to AC. The armor is always pristine, dirt and damage instantly removed.\n\nYou may use an action to cast bless as per the spell. You regain the use of this ability at dawn each day.",
+   "rules": [],
+   "cg": "Magic Armor",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Very Rare",
+   "att": false
+  }
+ ]
+}

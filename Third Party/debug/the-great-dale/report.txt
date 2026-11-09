@@ -1,0 +1,70 @@
+Converted: 3 Background, 5 Background Feature, 74 Class Feature, 6 Feat, 4 Gear, 11 Magic, 1 Race, 5 Racial Trait, 18 Spell, 13 Subclass
+
+== grants of other kinds (skipped) (3)
+  Volodni: Size ID_SIZE_MEDIUM
+  Volodni: Vision ID_VISION_DARKVISION
+  Winterheart: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+
+== ids not in this pack (assumed to be in another pack, check the name) (10)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Language:Sylvan  (from ID_LANGUAGE_SYLVAN)
+  Class Feature:Archfey Expanded Spell List  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST)
+  Class Feature:Archfey Fey Presence  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE)
+  Class Feature:Archfey Misty Escape  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE)
+  Class Feature:Archfey Dark Delirium  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM)
+  Class Feature:Fiend Darkonesownluck  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK)
+  Class Feature:Fiend Fiendish Resilience  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE)
+  Class Feature:Fiend Hurl Through Hell  (from ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL)
+  Language:Abyssal  (from ID_LANGUAGE_ABYSSAL)
+
+== damage resistances (no pack field for characters, the text already says it) (2)
+  Plant Traits: poison
+  Plant Traits: piercing
+
+== selects not understood (8)
+  Bonus Cantrip: Spell supports="Druid,0" matched nothing in this pack (maybe other pack)
+  Spellcasting: Spell supports="Cleric, 0" matched nothing in this pack (maybe other pack)
+  Spellcasting: Spell supports="Cleric, 1" matched nothing in this pack (maybe other pack)
+  Demon Tainted: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Nentyarch Follower: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Shadowmaster’s Agent: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Fiend Hunter: type=Ability Score Improvement supports="Feat"
+  Woodwise: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_WISDOM"
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (15)
+  Plant Form: plant form
+  Pragmatic Combat: innate speed, pragmatic combat
+  Combat Discipline: pragmatic combat
+  Nature’s Grace: speed
+  Agility of the Wild: agility of the wild
+  Spellcasting: black flame zealot
+  Incite Fear: incite fear
+  Beat Down: beat down
+  Wave of Fear: wave of fear
+  Stunning Strike: thug stunning strike
+  Sorcerous Combat: sorcerous combat
+  Extra Attack: extra attack
+  Scaly Flesh: ac
+  Smooth Talker: smooth talker
+  Woodwise: speed
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (1)
+  Black Flame Zealot
+
+== proficiency grants not understood (1)
+  Incite Fear: ID_EXPERTISE_SKILL_INTIMIDATION
+
+== grants pointing outside these packs (needs another pack) (12)
+  Race:Volodni -> Language:Common
+  Race:Volodni -> Language:Sylvan
+  Class Feature:Fey Friend -> Language:Sylvan
+  Subclass:The Queen of Air and Darkness -> Class Feature:Archfey Expanded Spell List
+  Subclass:The Queen of Air and Darkness -> Class Feature:Archfey Fey Presence
+  Subclass:The Queen of Air and Darkness -> Class Feature:Archfey Misty Escape
+  Subclass:The Queen of Air and Darkness -> Class Feature:Archfey Dark Delirium
+  Subclass:Eltab, Lord of the Hidden Layer -> Class Feature:Fiend Darkonesownluck
+  Subclass:Eltab, Lord of the Hidden Layer -> Class Feature:Fiend Fiendish Resilience
+  Subclass:Eltab, Lord of the Hidden Layer -> Class Feature:Fiend Hurl Through Hell
+  Background:Demon Tainted -> Language:Abyssal
+  Background:Nentyarch Follower -> Language:Sylvan
+

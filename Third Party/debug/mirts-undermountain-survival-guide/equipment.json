@@ -1,0 +1,99 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Nimblewright Component, Bright Eyes",
+   "type": "Gear",
+   "name": "Nimblewright Component, Bright Eyes",
+   "desc": "With this component installed, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Nimblewright Component, Fleet Feet",
+   "type": "Gear",
+   "name": "Nimblewright Component, Fleet Feet",
+   "desc": "With this component installed, your base walking speed increases 10 feet.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 10
+     }
+    }
+   ],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Nimblewright Component, Hidden Compartment",
+   "type": "Gear",
+   "name": "Nimblewright Component, Hidden Compartment",
+   "desc": "With this component installed, you have a spring-loaded hidden compartment on your body that can carry and hide one Tiny creature or object inside of you.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Nimblewright Component, Keen Ears",
+   "type": "Gear",
+   "name": "Nimblewright Component, Keen Ears",
+   "desc": "With this component installed, you have advantage on Wisdom (Perception) checks that rely on hearing.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Nimblewright Component, Power Lifter",
+   "type": "Gear",
+   "name": "Nimblewright Component, Power Lifter",
+   "desc": "With this component installed, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Nimblewright Component, Voice Box",
+   "type": "Gear",
+   "name": "Nimblewright Component, Voice Box",
+   "desc": "With this component installed, you can speak any language you understand (see “Languages” below).",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Poison Arrow",
+   "type": "Gear",
+   "name": "Poison Arrow",
+   "desc": "On a hit, the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage, or another creature takes an action to shake it awake.",
+   "rules": [],
+   "cg": "Ammunition",
+   "cp": 500,
+   "price": 5.0,
+   "wt": 0.05
+  },
+  {
+   "id": "Weapon:Lasso",
+   "type": "Weapon",
+   "name": "Lasso",
+   "desc": "Thrown, Special, Special Lasso. Martial Ranged weapon.\n\nAn ordinary rope may be turned into a lasso.\n\nA Large or smaller creature hit by a lasso is Restrained until it is freed. A lasso has no effect on creatures that are formless, or creatures that are Huge or larger. Treat a completely stationary target as having AC 10.\n\nA creature caught by a lasso can use its action to make a DC 10 Dexterity check, freeing itself or another creature within its reach on a success. Dealing 3 slashing damage to the lasso (AC 10) also frees the creature without harming it, ending the effect and turning the lasso into a cut rope.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 50,
+   "price": 0.5,
+   "wt": 2.0,
+   "cat": "martial"
+  }
+ ]
+}

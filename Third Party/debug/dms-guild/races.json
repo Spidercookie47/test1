@@ -1,0 +1,692 @@
+{
+ "elements": [
+  {
+   "id": "Race:Awakened Undead",
+   "type": "Race",
+   "name": "Awakened Undead",
+   "desc": "Death comes for all things in a near-infinite variety of ways. So, too, are there many reasons that the dead might return from the grave. Directly-applied...",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Past Life"
+    },
+    {
+     "grant": "Racial Trait:Living Dead"
+    },
+    {
+     "grant": "Racial Trait:Restless"
+    },
+    {
+     "grant": "Racial Trait:Unholy"
+    },
+    {
+     "grant": "Racial Trait:Bloodless"
+    },
+    {
+     "grant": "Racial Trait:Undead Subrace"
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Past Life",
+   "type": "Racial Trait",
+   "name": "Past Life",
+   "desc": "Choose another race besides this one, which must be humanoid and lack the Living Construct trait (or similar). Before your death, you were a member of this race and appear as an undead version of it. Your size, height, and movement speed are the same as a typical member of that race. You do not retain special movement speeds from this race (such as swimming or flying). If your Past Life race has subraces, you can select one, but it confers no benefits.",
+   "rules": [
+    {
+     "select": {
+      "name": "Past Life",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Dragonborn",
+       "Racial Trait:Dwarf",
+       "Racial Trait:Elf",
+       "Racial Trait:Gnome",
+       "Racial Trait:Half-Elf",
+       "Racial Trait:Halfling",
+       "Racial Trait:Half-Orc",
+       "Racial Trait:Human",
+       "Racial Trait:Tiefling",
+       "Racial Trait:Kenku",
+       "Racial Trait:Other"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Living Dead",
+   "type": "Racial Trait",
+   "name": "Living Dead",
+   "desc": "You have been raised from death, but regaining your autonomy has returned to you some of the spark of life. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and undead. You can be affected by a spell or ability if it works on either of your creature types.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Restless",
+   "type": "Racial Trait",
+   "name": "Restless",
+   "desc": "As an undead, you very rarely tire. You treat exhaustion as if it was one level less. In addition, instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Unholy",
+   "type": "Racial Trait",
+   "name": "Unholy",
+   "desc": "Unlike other undead, you can be restored through healing magic, but it has a significantly dampened effect on you. When you regain hit points from a source that specifies it does not function on undead, you only receive half as many hit points as the source would normally provide, rounded down.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Bloodless",
+   "type": "Racial Trait",
+   "name": "Bloodless",
+   "desc": "You are immune to poison damage and the poisoned condition.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Undead Subrace",
+   "type": "Racial Trait",
+   "name": "Undead Subrace",
+   "desc": "Five types of awakened undead are available to you. Choose Skeleton, Revenant, Ghost, Ghoul, or Mummy, listed in the following section.",
+   "rules": [
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Undead Subrace"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Skeleton",
+   "type": "Sub Race",
+   "name": "Skeleton",
+   "desc": "An animated figure made of dry bones devoid of flesh and muscle, you were likely raised by a necromantic caster or dark, supernatural curse as a simple...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Bone Pile"
+    },
+    {
+     "grant": "Racial Trait:Them Bones"
+    }
+   ],
+   "supports": "Race:Awakened Undead"
+  },
+  {
+   "id": "Racial Trait:Bone Pile",
+   "type": "Racial Trait",
+   "name": "Bone Pile",
+   "desc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. If you do, you reduce yourself to a pile of bones, render yourself prone, and are considered to be under a similar effect to the feign death spell. While subject to this condition, you are unable to move or take actions other than using an action to end this effect. Once you use this trait, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Them Bones",
+   "type": "Racial Trait",
+   "name": "Them Bones",
+   "desc": "Whenever both of your hands are unoccupied, you can use a bonus action to rearrange the bones in your body, or to return your body to its original configuration. Some rearrangement options for example:\n\n- Bone Club. You remove an arm and use it as a bone club. While used as a weapon, you have proficiency with your removed arm, which is a melee weapon with the finesse property that deals 1d6 bludgeoning damage on a hit.\n- Bone To Pick. You remove a hand, and hold it in your other hand as if it were a set of thieves’ tools. This hand is capable of picking locks, cutting glass, and any other function thieves’ tools could achieve.\n- Bone Xylophone. You remove two of your ribs and use the rest of your remaining ribs as a musical instrument.\n\nAt your DM’s option, you can use this trait to perform other tasks, such as juggling your own bones, removing your skull to look around a corner or over a wall, or similar. Your bones lose their animation if they are further than 5 feet from the majority of your body, and must be reattached before they are once again a part of you. If your skull loses animation, you are blinded and deafened until a skull is affixed to your body.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Revenant",
+   "type": "Sub Race",
+   "name": "Revenant",
+   "desc": "When a brutal murder or an atrocious crime slays an innocent soul endowed with sufficient willpower, there are rare occasions where the victim refuses to...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Eternal Vengeance"
+    },
+    {
+     "grant": "Racial Trait:Driven"
+    },
+    {
+     "grant": "Racial Trait:Unnatural Vitality"
+    }
+   ],
+   "supports": "Race:Awakened Undead"
+  },
+  {
+   "id": "Racial Trait:Eternal Vengeance",
+   "type": "Racial Trait",
+   "name": "Eternal Vengeance",
+   "desc": "You know at all times the general direction of and relative distance to a specific intelligent creature of the DM’s choosing against whom you seek revenge for your death, even if the creature and you are on different planes of existence. Should this creature die by your hand or that of another, you instantly know, and your DM chooses another creature also responsible for your death for this feature to apply to, should such a creature exist.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Driven",
+   "type": "Racial Trait",
+   "name": "Driven",
+   "desc": "You have advantage on saving throws against effects that turn undead or would cause you to be frightened.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Unnatural Vitality",
+   "type": "Racial Trait",
+   "name": "Unnatural Vitality",
+   "desc": "When you drop to 0 hit points, you can choose to stay conscious instead of falling unconscious. If you do, you gain temporary hit points equal to your total character level + your Constitution modifier (minimum 1), which last for up to one minute. In this state, you can take an action or bonus action on your turn, but not both, and can move only half of your movement speed. You remain in this state until you regain hit points, or until you no longer have temporary hit points. If you lose all temporary hit points in this state while you are still at 0 hit points, you fall unconscious and begin making death saving throws as normal. Once you use this trait, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Ghost",
+   "type": "Sub Race",
+   "name": "Ghost",
+   "desc": "Lingering souls of the dead and departed, ghosts are raised as servants by potent necromancers or hold onto the world themselves when there is unfinished...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Flight"
+    },
+    {
+     "grant": "Racial Trait:Withering Touch"
+    },
+    {
+     "grant": "Racial Trait:Incorporeal Stride"
+    },
+    {
+     "grant": "Racial Trait:Intangible"
+    }
+   ],
+   "supports": "Race:Awakened Undead"
+  },
+  {
+   "id": "Racial Trait:Flight",
+   "type": "Racial Trait",
+   "name": "Flight",
+   "desc": "You gain a flying speed of 20 feet. When using your flying speed from this source, you cannot end your turn more than 5 feet above a solid surface, and gently descend down to this distance at a speed of 60 feet per round if you are any higher.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Withering Touch",
+   "type": "Racial Trait",
+   "name": "Withering Touch",
+   "desc": "Your unarmed strike deals necrotic damage instead of bludgeoning damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Incorporeal Stride",
+   "type": "Racial Trait",
+   "name": "Incorporeal Stride",
+   "desc": "You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take 1d10 force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Intangible",
+   "type": "Racial Trait",
+   "name": "Intangible",
+   "desc": "You have advantage on all checks to resist or escape a grapple.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Mummy",
+   "type": "Sub Race",
+   "name": "Mummy",
+   "desc": "Lingering souls of the dead and departed, Mummies are raised as servants by potent necromancers or hold onto the world themselves when there is unfinished...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Mummy Rot"
+    },
+    {
+     "grant": "Racial Trait:Dreadful Glare"
+    },
+    {
+     "grant": "Racial Trait:Canopic Resurrection"
+    }
+   ],
+   "supports": "Race:Awakened Undead"
+  },
+  {
+   "id": "Racial Trait:Mummy Rot",
+   "type": "Racial Trait",
+   "name": "Mummy Rot",
+   "desc": "You can choose to make your unarmed strike deal necrotic damage instead of bludgeoning damage, and any creature hit by your unarmed strike is unable to regain hit points until the end of your next turn. If a creature is reduced to 0 hit points by your unarmed strike, it instantly disintegrates into dust, leaving behind any objects, clothing, or items on its person.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Dreadful Glare",
+   "type": "Racial Trait",
+   "name": "Dreadful Glare",
+   "desc": "As a bonus action, choose a creature you can see within 60 feet of you. This creature must make a Wisdom saving throw against a DC of 8 + your Constitution modifier + your proficiency bonus. If it fails, this creature becomes frightened of you until the end of your next turn. Once you use this ability successfully, you can not use it again until you complete a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Canopic Resurrection",
+   "type": "Racial Trait",
+   "name": "Canopic Resurrection",
+   "desc": "Your heart has been removed from your person, and stored in a canopic jar in a safe location. While your heart is intact and within this jar, you can reroll one death saving throw you have made. If you roll a 17 or higher on this rerolled saving throw, treat the result as if it was a natural 20. Once you reroll this saving throw, you must finish a short or long rest before you can do so again.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Ghoul",
+   "type": "Sub Race",
+   "name": "Ghoul",
+   "desc": "Feral, horrifying, and ravenous, ghouls hunt in packs, driven by an unending hunger for the flesh of the living and the dead alike. Corpselike with a...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Natural Weapons"
+    },
+    {
+     "grant": "Racial Trait:Feeding"
+    },
+    {
+     "grant": "Racial Trait:Curse of the Abyss"
+    },
+    {
+     "grant": "Racial Trait:Paralytic Claws"
+    }
+   ],
+   "supports": "Race:Awakened Undead"
+  },
+  {
+   "id": "Racial Trait:Natural Weapons",
+   "type": "Racial Trait",
+   "name": "Natural Weapons",
+   "desc": "You possess both claws and fangs, either of which you can use as an unarmed strike. Your fangs deal piercing damage equal to 1d6 + your Strength modifier, while your claws deal slashing damage equal to 1d4 + your choice of either your Strength or Dexterity modifier. In addition, you can use Dexterity in place of Strength for attack rolls made with your claws.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Feeding",
+   "type": "Racial Trait",
+   "name": "Feeding",
+   "desc": "Though undead do not need to eat to continue existing, you are compelled through a dark curse to feed. As an action when you are adjacent to a dead or prone creature that is not an aberration, construct, elemental, ooze, plant, or undead, you can render yourself prone as well and attempt to feed on them.If the creature is alive, make an unarmed strike attack with your fangs, dealing damage on a hit as usual. If this attack hits, or if the creature is already dead, you regain hit points equal to your Constitution modifier + your total character level. Once you successfully use this ability, you can not use it again until you complete a short or long rest. You still feel hunger, and can feed on flesh without regaining hit points, however.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Curse of the Abyss",
+   "type": "Racial Trait",
+   "name": "Curse of the Abyss",
+   "desc": "Ghouls were created to feed, and suffer a compulsion to do so. If a creature you can see drops to 0 hit points and you have not used your Feeding ability since your last long rest, you must attempt a Wisdom saving throw with a DC of 15 – half your total character level, rounded down, unless that creature is one of the creature types that can not be fed upon. If you fail this saving throw, you must move to the creature by the shortest possible distance, using the Dash action if necessary. Once you reach the creature, you are compelled to use your Feeding ability with it as the target. You can repeat this Wisdom saving throw on each of your turns, This compulsion ends when you succeed on this saving through, or after you have successfully fed upon the triggering creature.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Paralytic Claws",
+   "type": "Racial Trait",
+   "name": "Paralytic Claws",
+   "desc": "When you hit a creature that is not undead or an elf with an attack using your claws, you can attempt to paralyze them. That creature must make a Constitution saving throw against a DC of 8 + your Constitution modifier + your proficiency bonus. If the creature fails, it is incapacitated and unable to use its movement until the end of your next turn. Once you use this ability successfully, you can not use it again until you complete a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Necropolitan",
+   "type": "Sub Race",
+   "name": "Necropolitan",
+   "desc": "For all the arguable benefits it offers, some souls seek out the gifts of undeath, sacrificing their mortality for a chance at ever-greater power....",
+   "rules": [
+    {
+     "grant": "Racial Trait:Dead Fortitude"
+    },
+    {
+     "grant": "Racial Trait:Tools of the Grave"
+    },
+    {
+     "grant": "Racial Trait:Necropolitan Magic"
+    }
+   ],
+   "supports": "Race:Awakened Undead"
+  },
+  {
+   "id": "Racial Trait:Dead Fortitude",
+   "type": "Racial Trait",
+   "name": "Dead Fortitude",
+   "desc": "As a bonus action on your turn, you can pull upon the necromantic force animating you to gain temporary hit points equal to your total character level + your Constitution modifier (minimum 1) that last for up to one minute. Once you use this ability, you must finish a short or long rest before you can use it again.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Tools of the Grave",
+   "type": "Racial Trait",
+   "name": "Tools of the Grave",
+   "desc": "You gain proficiency with your choice of one of the following sets of tools: alchemist’s supplies, calligrapher’s supplies, leatherworker’s tools, or the poisoner’s kit.",
+   "rules": [
+    {
+     "select": {
+      "name": "Tools of the Grave",
+      "type": "Tool"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Necropolitan Magic",
+   "type": "Racial Trait",
+   "name": "Necropolitan Magic",
+   "desc": "You know the chill touch cantrip. When you reach 5th level, you can also cast the ray of enfeeblement spell once per day; you must finish a long rest in order to cast the spell again using this trait. Choose either Intelligence or Charisma as your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Chill Touch",
+     "at will"
+    ],
+    [
+     5,
+     "Ray of Enfeeblement",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Dragonborn",
+   "type": "Racial Trait",
+   "name": "Dragonborn",
+   "desc": "Before your death, you were a Dragonborn and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Dwarf",
+   "type": "Racial Trait",
+   "name": "Dwarf",
+   "desc": "Before your death, you were a Dwarf and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Elf",
+   "type": "Racial Trait",
+   "name": "Elf",
+   "desc": "Before your death, you were a Elf and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Gnome",
+   "type": "Racial Trait",
+   "name": "Gnome",
+   "desc": "Before your death, you were a Gnome and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Half-Elf",
+   "type": "Racial Trait",
+   "name": "Half-Elf",
+   "desc": "Before your death, you were a Half-Elf and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Halfling",
+   "type": "Racial Trait",
+   "name": "Halfling",
+   "desc": "Before your death, you were a Halfling and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Half-Orc",
+   "type": "Racial Trait",
+   "name": "Half-Orc",
+   "desc": "Before your death, you were a Half-Orc and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Human",
+   "type": "Racial Trait",
+   "name": "Human",
+   "desc": "Before your death, you were a Human and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Tiefling",
+   "type": "Racial Trait",
+   "name": "Tiefling",
+   "desc": "Before your death, you were a Tiefling and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Kenku",
+   "type": "Racial Trait",
+   "name": "Kenku",
+   "desc": "Before your death, you were a Kenku and appear as an undead version of it.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Kenku Mimicry"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Other",
+   "type": "Racial Trait",
+   "name": "Other",
+   "desc": "Before your death, you were a member of another race and appear as an undead version of it. Your size, height, and movement speed are the same as a typical member of that race. You do not retain special movement speeds from this race (such as swimming or flying).",
+   "rules": [
+    {
+     "select": {
+      "name": "Size (Past Life)",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Tiny",
+       "Racial Trait:Small",
+       "Racial Trait:Medium",
+       "Racial Trait:Large"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Speed (Past Life)",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:10 feet",
+       "Racial Trait:15 feet",
+       "Racial Trait:20 feet",
+       "Racial Trait:25 feet",
+       "Racial Trait:30 feet",
+       "Racial Trait:35 feet",
+       "Racial Trait:40 feet",
+       "Racial Trait:45 feet",
+       "Racial Trait:50 feet"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:10 feet",
+   "type": "Racial Trait",
+   "name": "10 feet",
+   "desc": "Your base movement speed is 10 ft.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 10
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:15 feet",
+   "type": "Racial Trait",
+   "name": "15 feet",
+   "desc": "Your base movement speed is 15 ft.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 15
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:20 feet",
+   "type": "Racial Trait",
+   "name": "20 feet",
+   "desc": "Your base movement speed is 20 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 20
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:25 feet",
+   "type": "Racial Trait",
+   "name": "25 feet",
+   "desc": "Your base movement speed is 25 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:30 feet",
+   "type": "Racial Trait",
+   "name": "30 feet",
+   "desc": "Your base movement speed is 30 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:35 feet",
+   "type": "Racial Trait",
+   "name": "35 feet",
+   "desc": "Your base movement speed is 35 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 35
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:40 feet",
+   "type": "Racial Trait",
+   "name": "40 feet",
+   "desc": "Your base movement speed is 40 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 40
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:45 feet",
+   "type": "Racial Trait",
+   "name": "45 feet",
+   "desc": "Your base movement speed is 45 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 45
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:50 feet",
+   "type": "Racial Trait",
+   "name": "50 feet",
+   "desc": "Your base movement speed is 50 ft.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Tiny",
+   "type": "Racial Trait",
+   "name": "Tiny",
+   "desc": "Your Size is Tiny.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Small",
+   "type": "Racial Trait",
+   "name": "Small",
+   "desc": "Your Size is Small.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Medium",
+   "type": "Racial Trait",
+   "name": "Medium",
+   "desc": "Your Size is Medium.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Large",
+   "type": "Racial Trait",
+   "name": "Large",
+   "desc": "Your Size is Large.",
+   "rules": []
+  }
+ ]
+}

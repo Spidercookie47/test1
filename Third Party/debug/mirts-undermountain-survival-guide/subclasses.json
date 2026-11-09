@@ -1,0 +1,519 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Cavern Domain",
+   "type": "Subclass",
+   "name": "Cavern Domain",
+   "desc": "The endless night of the Underdark hides a multitude of secrets, but those who embrace a life encased in unlit stone gain a connection to the unknown.",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiency",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Master of Stone",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Stone Sight",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Blessing of Stone",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Acidic Strike",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:One with the Cave",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Alarm",
+      "Earthtremor"
+     ],
+     "3": [
+      "Darkness",
+      "Darkvision"
+     ],
+     "5": [
+      "Erupting Earth",
+      "Meld Into Stone"
+     ],
+     "7": [
+      "Mordenkainens Private Sanctum",
+      "Stone Shape"
+     ],
+     "9": [
+      "Passwall",
+      "Wall of Stone"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Cirle of Stone",
+   "type": "Subclass",
+   "name": "Cirle of Stone",
+   "desc": "Druids who are members of the Circle of Stone have a special connection with the very bones of the world and commune with the elemental spirits that inhabit...",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Stone Strength",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Stone Shape",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Stone Speaker",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Stone Walker",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid",
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "3": [
+      "Dustdevil",
+      "Spike Growth"
+     ],
+     "5": [
+      "Erupting Earth",
+      "Meld Into Stone"
+     ],
+     "7": [
+      "Stone Shape",
+      "Elemental Bane"
+     ],
+     "9": [
+      "Wall of Stone",
+      "Conjure Elemental"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Wayfarer",
+   "type": "Subclass",
+   "name": "Wayfarer",
+   "desc": "The Underdark is a dangerous place, and those that venture through the endless night often seek to employ the best. Such wayfarers are masters of helping...",
+   "rules": [
+    {
+     "grant": "Class Feature:Polyglot",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aid Others",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Danger Sense",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Disorienting Blow",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Danger Warning",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Trapsmith",
+   "type": "Subclass",
+   "name": "Trapsmith",
+   "desc": "Few adventurers take traps for granted. For most a trap is a deadly obstacle that stands between them and the conclusion of an epic adventure. For the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Master Disarmer",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Booby Traps",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Trap Sense",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Unravel the Arcana",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Avoid Disaster",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:The Dark",
+   "type": "Subclass",
+   "name": "The Dark",
+   "desc": "You have bound yourself to a creature of the Endless Night that frequents the darkness surrounding the cities of the drow and other vile races. Your patron...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Darkspiral Aura",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Your Glorious Sacrifice",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Darkest Mirror",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Passionate Betrayal",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Dissonant Whispers",
+     "Ray of Sickness",
+     "Darkvision",
+     "Protection From Poison",
+     "Bestow Curse",
+     "Stinking Cloud",
+     "Evards Black Tentacles",
+     "Phantasmal Killer",
+     "Antilife Shell",
+     "Cloudkill"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Lore of the Hero",
+   "type": "Subclass",
+   "name": "Lore of the Hero",
+   "desc": "Factotums who delve into Lore of the Hero take on a slightly martial bent. They practice with heavier armor, become proficient with more weapons, and in...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Brains over Brawn",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Fighting Style",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Brilliance of Heroes",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Factotum"
+  },
+  {
+   "id": "Subclass:Lore of the Theurge",
+   "type": "Subclass",
+   "name": "Lore of the Theurge",
+   "desc": "Factotums who delve into Lore of the Theurge seek to further develop their spellcasting and magical abilities. They crawl further into lost tomes, seek out...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellcasting",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ingenious Recovery",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Ingenious Magic",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Brilliance of Theurges",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Factotum",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "(Cleric||Wizard)"
+   }
+  }
+ ]
+}

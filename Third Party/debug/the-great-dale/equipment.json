@@ -1,0 +1,48 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Symbol of Protection",
+   "type": "Gear",
+   "name": "Symbol of Protection",
+   "desc": "An amulet that bolsters your protection against certain types of creatures and substitutes for the material components of the protection from evil and good spell. While you’re affected by that spell, creatures you’re protected against must make a Charisma saving throw against your wizard spellcasting DC if they wish to attack you or target you with a hostile action while you’re wearing the amulet. On a failed save, they must select a different target. You can only benefit from one enchanted amulet you have crafted at a time, and it only works for you.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 5000,
+   "price": 50.0,
+   "wt": 1.0
+  },
+  {
+   "id": "Gear:Bluewood",
+   "type": "Gear",
+   "name": "Bluewood",
+   "desc": "The Forest of Lethyr and Dunwood both support small populations of blueleaf trees scattered within. The volodni have mastered the ability to craft bluewood weapons and armor from these trees through the careful application of natural and arcane magic. The items crafted from bluewood are effectively as strong as their metal equivalents, but at half the weight. The volodni are exceptionally protective of the secrets to crafting these bluewood items and are greatly suspicious of any outsiders possessing them. In most commercial markets, bluewood items sell at double the cost of a similar weapon or piece of armor.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Hathran Mask",
+   "type": "Gear",
+   "name": "Hathran Mask",
+   "desc": "The Hathrans of Rashemen normally wear masks that hide their faces when treating with outsiders or traveling outside of Rashemen. Most are nonmagical, however some honored Hathrans receive special masks that are enchanted with various effects.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Jhuild",
+   "type": "Gear",
+   "name": "Jhuild",
+   "desc": "Jhuild is an extremely potent Rashemi red wine often referred to as firewine. It is carried by most Rashemi berserkers due to its invigorating effects. Because of the wine’s potency (and expensiveness), it is usually sold outside of Rashemen in a diluted form mixed with common ale.\n\nJhuild is not magical in nature, but as with other alcoholic beverages, it will identify as poison if examined using a detect poison and disease spell.\n\nAs an action, you may drink a flask of undiluted jhuild. You must make a Constitution saving throw (DC 12) to avoid its effects, though you may voluntarily fail this saving throw. One minute after failing this saving throw, you experience the following effects, which last for 1 hour:\n\n- Your Strength score increases by 2 to a maximum of 20, while your Wisdom score decreases by 2.\n- All Wisdom ability checks and saving throws are made at disadvantage.\n\nAt the end of this hour, your Strength returns to normal, but you must immediately succeed on a DC 20 Constitution saving throw or fall unconscious for 2d4 hours. Regardless of the result of your saving throw, your Wisdom score remains reduced and you suffer disadvantage on all ability checks, attack rolls, and saving throws until you finish a long rest.\n\nDrinking firewine that has been diluted with ale does not provide any of these effects.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0.0
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Unarche",
+   "type": "Gear",
+   "name": "Unarche",
+   "desc": "Calimshan is a highly cosmopolitan place, and so the currencies of all lands can be found and used there, alongside the coinage that Calishites themselves mint.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 1,
+   "price": 0.01,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Decarche",
+   "type": "Gear",
+   "name": "Decarche",
+   "desc": "Calimshan is a highly cosmopolitan place, and so the currencies of all lands can be found and used there, alongside the coinage that Calishites themselves mint.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 10,
+   "price": 0.1,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Tazo",
+   "type": "Gear",
+   "name": "Tazo",
+   "desc": "Calimshan is a highly cosmopolitan place, and so the currencies of all lands can be found and used there, alongside the coinage that Calishites themselves mint.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 50,
+   "price": 0.5,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Bicenta",
+   "type": "Gear",
+   "name": "Bicenta",
+   "desc": "Calimshan is a highly cosmopolitan place, and so the currencies of all lands can be found and used there, alongside the coinage that Calishites themselves mint.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 100,
+   "price": 1.0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Kilarche",
+   "type": "Gear",
+   "name": "Kilarche",
+   "desc": "Calimshan is a highly cosmopolitan place, and so the currencies of all lands can be found and used there, alongside the coinage that Calishites themselves mint.",
+   "rules": [],
+   "cg": "Treasure",
+   "cp": 1000,
+   "price": 10.0,
+   "wt": 0
+  }
+ ]
+}

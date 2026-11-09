@@ -1,0 +1,20 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "dms-guild",
+  "name": "Grimlore’s Grimoire",
+  "short": "GRGR"
+ },
+ "files": [
+  "races.json",
+  "classes.json",
+  "subclasses.json",
+  "spells.json",
+  "equipment.json",
+  "magic-items.json",
+  "backgrounds.json",
+  "feats.json",
+  "info.json"
+ ]
+}

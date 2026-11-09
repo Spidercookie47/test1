@@ -1,0 +1,15 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "ehp",
+  "name": "Eberron: Heroes of the Planes",
+  "short": "EHP"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "info.json"
+ ]
+}

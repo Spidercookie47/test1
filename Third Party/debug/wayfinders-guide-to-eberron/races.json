@@ -1,0 +1,1594 @@
+{
+ "elements": [
+  {
+   "id": "Race:Changeling",
+   "type": "Race",
+   "name": "Changeling",
+   "desc": "Long ago there was a woman named Jes, and she had one hundred children. Her rivals conspired against her and swore to kill her children. Jes begged the...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Change Appearance"
+    },
+    {
+     "grant": "Racial Trait:Changeling Instincts"
+    },
+    {
+     "grant": "Racial Trait:Unsettling Visage"
+    },
+    {
+     "grant": "Racial Trait:Divergent Persona"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Change Appearance",
+   "type": "Racial Trait",
+   "name": "Change Appearance",
+   "desc": "As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.\n\nYou decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race, though none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible\n\nEven to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Changeling Instincts",
+   "type": "Racial Trait",
+   "name": "Changeling Instincts",
+   "desc": "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, or Persuasion.",
+   "rules": [
+    {
+     "select": {
+      "name": "Changeling Instincts",
+      "n": 2,
+      "from": [
+       "Deception",
+       "Insight",
+       "Intimidation",
+       "Persuasion"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Unsettling Visage",
+   "type": "Racial Trait",
+   "name": "Unsettling Visage",
+   "desc": "When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses.\n\nUsing this trait reveals your shapeshifting nature to any creature within 30 feet that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Divergent Persona",
+   "type": "Racial Trait",
+   "name": "Divergent Persona",
+   "desc": "You gain proficiency with one tool of your choice. Define a persona associated with that proficiency: establish the name, race, gender, age, and other details. While you are in the form of this persona, the related proficiency bonus is doubled for any ability check you make that uses that proficiency.",
+   "rules": [
+    {
+     "select": {
+      "name": "Tool Proficiency",
+      "type": "Tool"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Kalashtar",
+   "type": "Race",
+   "name": "Kalashtar",
+   "desc": "I am klashtar, born of two worlds. Over a thousand years ago, my ancestor bound her bloodline to the spirit Kashtai, and I am a child of that union. Kashtai...",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1,
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Quori"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Dual Mind"
+    },
+    {
+     "grant": "Racial Trait:Mental Discipline"
+    },
+    {
+     "grant": "Racial Trait:Mind Link"
+    },
+    {
+     "grant": "Racial Trait:Psychic Glamour"
+    },
+    {
+     "grant": "Racial Trait:Severed from Dreams"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Dual Mind",
+   "type": "Racial Trait",
+   "name": "Dual Mind",
+   "desc": "When you make a wisdom saving throw, you can use your reaction to gain advantage on the roll. You can use this trait immediately before or after you roll, but before any of the roll's effects occur.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mental Discipline",
+   "type": "Racial Trait",
+   "name": "Mental Discipline",
+   "desc": "You have resistance to psychic damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mind Link",
+   "type": "Racial Trait",
+   "name": "Mind Link",
+   "desc": "You can speak telepathically to any creature you can see within 60 feet of you. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself.\n\nAs a bonus action when you're speaking telepathically to a creature, you can give that creature the ability to speak telepathically to you until the start of your next turn. To use this ability, the creature must be within 60 feet of you and be able to see you.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Psychic Glamour",
+   "type": "Racial Trait",
+   "name": "Psychic Glamour",
+   "desc": "Choose one of the following skills; Insight, Intimidation, Performance, or Persuasion. You have advantage on all ability checks you make with that skill.",
+   "rules": [
+    {
+     "select": {
+      "name": "Psychic Glamour",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Psychic Glamour (Insight)",
+       "Racial Trait:Psychic Glamour (Intimidation)",
+       "Racial Trait:Psychic Glamour (Performance)",
+       "Racial Trait:Psychic Glamour (Persuasion)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Psychic Glamour (Insight)",
+   "type": "Racial Trait",
+   "name": "Psychic Glamour (Insight)",
+   "desc": "You have advantage on Insight checks.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Psychic Glamour (Intimidation)",
+   "type": "Racial Trait",
+   "name": "Psychic Glamour (Intimidation)",
+   "desc": "You have advantage on Intimidation checks.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Psychic Glamour (Performance)",
+   "type": "Racial Trait",
+   "name": "Psychic Glamour (Performance)",
+   "desc": "You have advantage on Performance checks.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Psychic Glamour (Persuasion)",
+   "type": "Racial Trait",
+   "name": "Psychic Glamour (Persuasion)",
+   "desc": "You have advantage on Persuasion checks.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Severed from Dreams",
+   "type": "Racial Trait",
+   "name": "Severed from Dreams",
+   "desc": "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like the dream spell, but not to spells and effects that put you to sleep, like the sleep spell.",
+   "rules": []
+  },
+  {
+   "id": "Race:Shifter",
+   "type": "Race",
+   "name": "Shifter",
+   "desc": "Geth’s ancient heritage rose up from deep within him, spreading out from the core of his being. Some shifters manifested terrible claws, massive fangs,...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Keen Senses"
+    },
+    {
+     "grant": "Racial Trait:Shifting"
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Shifter"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Keen Senses",
+   "type": "Racial Trait",
+   "name": "Keen Senses",
+   "desc": "You have proficiency with the Perception skill.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Shifting",
+   "type": "Racial Trait",
+   "name": "Shifting",
+   "desc": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1) temporary hitpoits. You also gain additional benefits that depend on your shifter subrace, described below.\n\nOnce you shift, you can’t do so again until you fininsh a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Beasthide Shifter",
+   "type": "Sub Race",
+   "name": "Beasthide Shifter",
+   "desc": "Stoic and solid, a beasthide shifter draws strength and stability from the beast within. Beasthide shifters are typically tied to the bear or the boar, but...",
+   "rules": [
+    {
+     "stat": {
+      "con": 2
+     }
+    },
+    {
+     "grant": "Racial Trait:Tough"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Beasthide Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Tough",
+   "type": "Racial Trait",
+   "name": "Tough",
+   "desc": "You have proficiency with the Athletics skill.",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Beasthide Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Beasthide Shifter)",
+   "desc": "Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted, you have a +1 bonus to your AC.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Longtooth Shifter",
+   "type": "Sub Race",
+   "name": "Longtooth Shifter",
+   "desc": "Longtooth shifters are fierce and aggressive, but they form deep bonds with their friends. Many longtooth shifters have canine traits that become more...",
+   "rules": [
+    {
+     "stat": {
+      "str": 2
+     }
+    },
+    {
+     "grant": "Racial Trait:Fierce"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Longtooth Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Fierce",
+   "type": "Racial Trait",
+   "name": "Fierce",
+   "desc": "You have proficiency with the Intimidation skill.",
+   "rules": [
+    {
+     "grant": "skill:Intimidation"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Longtooth Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Longtooth Shifter)",
+   "desc": "While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Swiftstride Shifter",
+   "type": "Sub Race",
+   "name": "Swiftstride Shifter",
+   "desc": "Swiftstride shifters are graceful and quick. Typically feline in nature, swiftstride shifteres are often aloof and difficult to pin down physically or socially.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "cha": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Graceful"
+    },
+    {
+     "grant": "Racial Trait:Swift Stride"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Swiftstride Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Graceful",
+   "type": "Racial Trait",
+   "name": "Graceful",
+   "desc": "You have proficiency with the Acrobatics skill.",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Swift Stride",
+   "type": "Racial Trait",
+   "name": "Swift Stride",
+   "desc": "Your walking speed increases by 5 feet.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Swiftstride Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Swiftstride Shifter)",
+   "desc": "While shifted, your walking speed increases by an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Wildhunt Shifter",
+   "type": "Sub Race",
+   "name": "Wildhunt Shifter",
+   "desc": "Wildhunt shifters are sharp and insightful. Some are constantly alert, ever wary for possible threats. Others focus on their intuition, searching within....",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    },
+    {
+     "grant": "Racial Trait:Natural Tracker"
+    },
+    {
+     "grant": "Racial Trait:Mark the Scent"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Wildhunt Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Natural Tracker",
+   "type": "Racial Trait",
+   "name": "Natural Tracker",
+   "desc": "You have proficiency with the Survival skill.",
+   "rules": [
+    {
+     "grant": "skill:Survival"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Mark the Scent",
+   "type": "Racial Trait",
+   "name": "Mark the Scent",
+   "desc": "As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked create, and you always know the location of that creature if it is within 60 feet of you. You can’t use this trait again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Wildhunt Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Wildhunt Shifter)",
+   "desc": "While shifted, you have advantage on Wisdom checks.",
+   "rules": []
+  },
+  {
+   "id": "Race:Warforged",
+   "type": "Race",
+   "name": "Warforged",
+   "desc": "“Pierce was built by design, while you were built by accident,” Lakashtai said. “The soul is what matters, not the shape of the vessel.”",
+   "rules": [
+    {
+     "stat": {
+      "con": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Warforged Resilience"
+    },
+    {
+     "grant": "Racial Trait:Sentry’s Rest"
+    },
+    {
+     "grant": "Racial Trait:Integrated Protection"
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Warforged"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Warforged Resilience",
+   "type": "Racial Trait",
+   "name": "Warforged Resilience",
+   "desc": "You were created to have remarkable fortitude, represented by the following benefits:\n\n- You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n- You are immune to disease.\n- You don’t need to eat, drink, or breathe.\n- You don’t need to sleep and don’t suffer the effects of exhaustion due to lack of rest, and magic can’t put you to sleep.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sentry’s Rest",
+   "type": "Racial Trait",
+   "name": "Sentry’s Rest",
+   "desc": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Integrated Protection",
+   "type": "Racial Trait",
+   "name": "Integrated Protection",
+   "desc": "Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.\n\nYou can alter your body to enter different defensive modes; each time you finish a long rest rest, choose one mode to adopt from the Integrated Protection table, provided you meet the mode’s prerequisite.\n\nINTEGRATED PROTECTION\n\nMode | Prerequisite | Effect\nDarkwood Core (unarmored) | None | 11 + your Dexterity modifier (add proficiency bonus if proficiency with light armor)\nComposite Plating (armor) | Medium armor proficiency | 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus.\nHeavy Plating (armor) | Heavy armor proficiency | 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks.",
+   "rules": [
+    {
+     "select": {
+      "name": "Integrated Protection",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Darkwood Core",
+       "Racial Trait:Composite Plating",
+       "Racial Trait:Heavy Plating"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Darkwood Core",
+   "type": "Racial Trait",
+   "name": "Darkwood Core",
+   "desc": "Armor Class. 11 + your Dexterity modifier (add proficiency bonus if proficiency with light armor)",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Composite Plating",
+   "type": "Racial Trait",
+   "name": "Composite Plating",
+   "desc": "Prerequisite: Medium armor proficiency\n\nArmor Class. 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Heavy Plating",
+   "type": "Racial Trait",
+   "name": "Heavy Plating",
+   "desc": "Prerequisite: Heavy armor proficiency\n\nArmor Class. 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Envoy Warforged",
+   "type": "Sub Race",
+   "name": "Envoy Warforged",
+   "desc": "As an envoy, you were designed with a certain specialized function in mind. You might be an assassin, a healer, or an entertainer, to name a few...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Specialized Design"
+    },
+    {
+     "grant": "Racial Trait:Integrated Tool"
+    }
+   ],
+   "supports": "Race:Warforged"
+  },
+  {
+   "id": "Racial Trait:Specialized Design",
+   "type": "Racial Trait",
+   "name": "Specialized Design",
+   "desc": "You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency, Specialized Design",
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Specialized Design",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Integrated Tool",
+   "type": "Racial Trait",
+   "name": "Integrated Tool",
+   "desc": "Choose one tool you’re proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Juggernaut Warforged",
+   "type": "Sub Race",
+   "name": "Juggernaut Warforged",
+   "desc": "You’re an imposing war machine built for close combat and raw might. You tower over your comrades; juggernaut warforged stand between 6 and 7 feet in height...",
+   "rules": [
+    {
+     "stat": {
+      "str": 2
+     }
+    },
+    {
+     "grant": "Racial Trait:Iron Fists"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build"
+    }
+   ],
+   "supports": "Race:Warforged"
+  },
+  {
+   "id": "Racial Trait:Iron Fists",
+   "type": "Racial Trait",
+   "name": "Iron Fists",
+   "desc": "When you make an unarmed strike, you can deal 1d4 + Strength modifier bludgeoning damage instead of the normal damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Powerful Build",
+   "type": "Racial Trait",
+   "name": "Powerful Build",
+   "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Skirmisher Warforged",
+   "type": "Sub Race",
+   "name": "Skirmisher Warforged",
+   "desc": "You were built to scout the edges of battle and outmaneuver your enemies. You are lean and designed for speed.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2
+     }
+    },
+    {
+     "grant": "Racial Trait:Swift"
+    },
+    {
+     "grant": "Racial Trait:Light Step"
+    }
+   ],
+   "supports": "Race:Warforged"
+  },
+  {
+   "id": "Racial Trait:Swift",
+   "type": "Racial Trait",
+   "name": "Swift",
+   "desc": "Your walking speed is increased by 5 feet.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Light Step",
+   "type": "Racial Trait",
+   "name": "Light Step",
+   "desc": "When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Detection",
+   "type": "Sub Race",
+   "name": "The Mark of Detection",
+   "desc": "The Mark of Detection is an inquisitive’s dream. It sharpens powers of observation and intuition, allowing the bearer to draw connections and interpret...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "int": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Detection)",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Ability Score Increase (Strength) (1)",
+       "Racial Trait:Ability Score Increase (Dexterity) (1)",
+       "Racial Trait:Ability Score Increase (Constitution) (1)",
+       "Racial Trait:Ability Score Increase (Intelligence) (1)",
+       "Racial Trait:Ability Score Increase (Wisdom) (1)",
+       "Racial Trait:Ability Score Increase (Charisma) (1)"
+      ]
+     }
+    },
+    {
+     "grant": "Racial Trait:Deductive Intuition"
+    },
+    {
+     "grant": "Racial Trait:Sense Threats"
+    }
+   ],
+   "supports": "Race:Half-Elf Variant"
+  },
+  {
+   "id": "Racial Trait:Deductive Intuition",
+   "type": "Racial Trait",
+   "name": "Deductive Intuition",
+   "desc": "When you make an Intelligence (Investigation) or Wisdom (Insight) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sense Threats",
+   "type": "Racial Trait",
+   "name": "Sense Threats",
+   "desc": "You can cast the detect magic and detect poison and disease spells, but only as rituals. Intelligence is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Detect Poison and Disease",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Strength) (1)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Strength) (1)",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Dexterity) (1)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Dexterity) (1)",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Constitution) (1)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Constitution) (1)",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Intelligence) (1)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Intelligence) (1)",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Wisdom) (1)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Wisdom) (1)",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Charisma) (1)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Charisma) (1)",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:The Mark of Finding",
+   "type": "Sub Race",
+   "name": "The Mark of Finding",
+   "desc": "The Mark of Finding sharpens the senses, guiding the hunter to prey. Alone among the dragonmarks, the Mark of Finding is carried by two races: humans and...",
+   "rules": [
+    {
+     "stat": {
+      "str": 1,
+      "wis": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Finding)",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Ability Score Increase (Strength) (2)",
+       "Racial Trait:Ability Score Increase (Dexterity) (2)",
+       "Racial Trait:Ability Score Increase (Constitution) (2)",
+       "Racial Trait:Ability Score Increase (Intelligence) (2)",
+       "Racial Trait:Ability Score Increase (Wisdom) (2)",
+       "Racial Trait:Ability Score Increase (Charisma) (2)"
+      ]
+     }
+    },
+    {
+     "grant": "Racial Trait:Hunter's Intuition"
+    },
+    {
+     "grant": "Racial Trait:Imprint Prey"
+    },
+    {
+     "grant": "Racial Trait:Nature's Voice",
+     "level": 3
+    }
+   ],
+   "supports": "Race:Half-Orc Variant"
+  },
+  {
+   "id": "Racial Trait:Hunter's Intuition",
+   "type": "Racial Trait",
+   "name": "Hunter's Intuition",
+   "desc": "Your mark sharpens your senses and helps you find your prey. When you make a Wisdom (Perception) or Wisdom (Survival) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Imprint Prey",
+   "type": "Racial Trait",
+   "name": "Imprint Prey",
+   "desc": "As a bonus action, choose one creature you can see within 30 feet of you. The target is imprinted in your mind until it dies or you use this trait again. Alternatively, you can imprint a creature as your quarry whenever you succeed on a Wisdom (Survival) check to track it. When you are tracking your quarry, double the result of your Intuition die. When your quarry is within 60 feet of you, you have a general sense of its location. Your attacks against it ignore half cover. If you can’t see the target when you attack it, your inability to see it doesn’t impose disadvantage on the attack roll. Likewise, your quarry doesn’t doesn’t gain advantage on attack rolls against you due to being hidden or invisible. Once you use this trait, you cannot use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nature's Voice",
+   "type": "Racial Trait",
+   "name": "Nature's Voice",
+   "desc": "When you reach 3rd level you gain the ability to cast locate animals or plants, but only as a ritual.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Locate Animals Or Plants",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Strength) (2)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Strength) (2)",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Dexterity) (2)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Dexterity) (2)",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Constitution) (2)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Constitution) (2)",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Intelligence) (2)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Intelligence) (2)",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Wisdom) (2)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Wisdom) (2)",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Charisma) (2)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Charisma) (2)",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:The Mark of Handling",
+   "type": "Sub Race",
+   "name": "The Mark of Handling",
+   "desc": "The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "wis": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Handling)",
+      "type": "Racial Trait"
+     }
+    },
+    {
+     "grant": "Racial Trait:Wild Intuition"
+    },
+    {
+     "grant": "Racial Trait:Expert Handling"
+    },
+    {
+     "grant": "Racial Trait:Primal Connection"
+    },
+    {
+     "grant": "Racial Trait:The Bigger They Are"
+    }
+   ],
+   "supports": "Race:Human"
+  },
+  {
+   "id": "Racial Trait:Wild Intuition",
+   "type": "Racial Trait",
+   "name": "Wild Intuition",
+   "desc": "When you make a Wisdom (Animal Handling) or Intelligence (Nature) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Expert Handling",
+   "type": "Racial Trait",
+   "name": "Expert Handling",
+   "desc": "You can use the Help action to aid an ally animal companion or mount within 30 feet of you, rather than 5 feet of you.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Primal Connection",
+   "type": "Racial Trait",
+   "name": "Primal Connection",
+   "desc": "You can cast animal friendship once with this trait and regain the ability to do so when you finish a short or long rest. Wisdom is your spellcasting ability for this spell.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Animal Friendship",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:The Bigger They Are",
+   "type": "Racial Trait",
+   "name": "The Bigger They Are",
+   "desc": "When you cast a spell that affects only beasts, it also affects monstrosities with an Intelligence score of 3 or lower.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Healing",
+   "type": "Sub Race",
+   "name": "The Mark of Healing",
+   "desc": "A halfling with the Mark of Healing can save a life with a touch, restoring vitality and the will to live. When dealing with mundane medicine, the mark...",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Medical Intuition"
+    },
+    {
+     "grant": "Racial Trait:Healing Touch"
+    }
+   ],
+   "supports": "Race:Halfling"
+  },
+  {
+   "id": "Racial Trait:Medical Intuition",
+   "type": "Racial Trait",
+   "name": "Medical Intuition",
+   "desc": "When you make a Wisdom (Medicine) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Healing Touch",
+   "type": "Racial Trait",
+   "name": "Healing Touch",
+   "desc": "As an action, you can draw power from your dragonmark to spend one of your Hit Dice and revitalize yourself or a creature you touch. Roll the die, add your Wisdom modifier, and the creature regains a number of hit points equal to the total. Once you use this trait, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Hospitality",
+   "type": "Sub Race",
+   "name": "The Mark of Hospitality",
+   "desc": "They may not always have gold, but a halfling with the Mark of Hospitality is sure to be rich in friends. The magic of the mark allows the bearer to keep a...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Inkeeper’s Charm"
+    },
+    {
+     "grant": "Racial Trait:Ever Hospitable"
+    }
+   ],
+   "supports": "Race:Halfling"
+  },
+  {
+   "id": "Racial Trait:Inkeeper’s Charm",
+   "type": "Racial Trait",
+   "name": "Inkeeper’s Charm",
+   "desc": "You know the cantrips friends and prestidigitation Charisma is your spellcasting ability for them.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Friends",
+     "at will"
+    ],
+    [
+     1,
+     "Prestidigitation",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Ever Hospitable",
+   "type": "Racial Trait",
+   "name": "Ever Hospitable",
+   "desc": "When you make a Charisma (Persuasion) check or an ability check involving brewer’s supplies or cook’s utensils, you can roll one Intuition die (a d4) and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Making",
+   "type": "Sub Race",
+   "name": "The Mark of Making",
+   "desc": "The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "int": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Making)",
+      "type": "Racial Trait"
+     }
+    },
+    {
+     "grant": "Racial Trait:Artisan’s Intuition"
+    },
+    {
+     "grant": "Racial Trait:Maker’s Gift"
+    },
+    {
+     "grant": "Racial Trait:Magecraft"
+    },
+    {
+     "grant": "Racial Trait:Spellsmith"
+    }
+   ],
+   "supports": "Race:Human"
+  },
+  {
+   "id": "Racial Trait:Artisan’s Intuition",
+   "type": "Racial Trait",
+   "name": "Artisan’s Intuition",
+   "desc": "When you make an ability check with artisan’s tools, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Maker’s Gift",
+   "type": "Racial Trait",
+   "name": "Maker’s Gift",
+   "desc": "You know the cantrip mending and gain proficiency with one type of artisan’s tools.",
+   "rules": [
+    {
+     "select": {
+      "name": "Artisan’s Tool Proficiency",
+      "type": "Tool"
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Mending",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Magecraft",
+   "type": "Racial Trait",
+   "name": "Magecraft",
+   "desc": "You can create a temporary magic item out of common materials. Choose a cantrip from the wizard spell list. Describe the item connected to it. As long as you possess the item, you know that cantrip. At the end of a long rest, you can replace it with a new item and select a new cantrip from the wizard spell list. Intelligence is your spellcasting ability for these cantrips.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Spellsmith",
+   "type": "Racial Trait",
+   "name": "Spellsmith",
+   "desc": "You can spend one minute to weave a temporary enchantment into a nonmagical suit of armor or weapon. For the next hour the object becomes a magic item, gaining a +1 bonus to AC if it is armor or a +1 bonus to hit and damage if it is a weapon. Once you use this trait, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Passage",
+   "type": "Sub Race",
+   "name": "The Mark of Passage",
+   "desc": "The Mark of Passage governs motion, allowing its bearer to move with uncanny speed and precision. Running, leaping, climbing—the Mark of Passage enhances...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "speed": 40
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Passage)",
+      "type": "Racial Trait"
+     }
+    },
+    {
+     "grant": "Racial Trait:Intuitive Motion"
+    },
+    {
+     "grant": "Racial Trait:Determined Stride"
+    },
+    {
+     "grant": "Racial Trait:Shared Passage"
+    }
+   ],
+   "supports": "Race:Human"
+  },
+  {
+   "id": "Racial Trait:Intuitive Motion",
+   "type": "Racial Trait",
+   "name": "Intuitive Motion",
+   "desc": "When you make a Strength (Athletics) check or any ability check to operate or maintain a land vehicle, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Determined Stride",
+   "type": "Racial Trait",
+   "name": "Determined Stride",
+   "desc": "When you use the Dash action, difficult terrain doesn’t cost you extra movement on that turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shared Passage",
+   "type": "Racial Trait",
+   "name": "Shared Passage",
+   "desc": "As a bonus action you can teleport a distance up to your walking speed, ending in an unoccupied space that you can see. You can bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you use this trait. Once you use this trait, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Scribing",
+   "type": "Sub Race",
+   "name": "The Mark of Scribing",
+   "desc": "The Mark of Scribing deals with communication—both the written and spoken word. A gnome who bears the mark can feel words as though they are living...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Gifted Scribe"
+    },
+    {
+     "grant": "Racial Trait:Scribe’s Insight"
+    },
+    {
+     "grant": "Racial Trait:Whispering Wind"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Gnome"
+  },
+  {
+   "id": "Racial Trait:Gifted Scribe",
+   "type": "Racial Trait",
+   "name": "Gifted Scribe",
+   "desc": "You are proficient with calligrapher’s supplies and forgery kits. When you make an ability check using either one of these tools, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": [
+    {
+     "pf": [
+      "t:Calligrapher’s supplies",
+      "t:Forgery kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Scribe’s Insight",
+   "type": "Racial Trait",
+   "name": "Scribe’s Insight",
+   "desc": "You can cast comprehend languages once with this trait and you regain the ability to do so after a long rest. Intelligence is your spellcasting ability for it.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Comprehend Languages",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Whispering Wind",
+   "type": "Racial Trait",
+   "name": "Whispering Wind",
+   "desc": "You know the cantrip Message. Intelligence is your spellcasting ability when casting it.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Message",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:The Mark of Sentinel",
+   "type": "Sub Race",
+   "name": "The Mark of Sentinel",
+   "desc": "The Mark of Sentinel warns and protects. It heightens senses and reflexes, allowing an heir to respond to threats with uncanny speed. It can shield its...",
+   "rules": [
+    {
+     "stat": {
+      "str": 1,
+      "wis": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Sentinel)",
+      "type": "Racial Trait"
+     }
+    },
+    {
+     "grant": "Racial Trait:Sentinel’s Intuition"
+    },
+    {
+     "grant": "Racial Trait:Sentinel’s Shield"
+    },
+    {
+     "grant": "Racial Trait:Vigilant Guardian"
+    }
+   ],
+   "supports": "Race:Human"
+  },
+  {
+   "id": "Racial Trait:Sentinel’s Intuition",
+   "type": "Racial Trait",
+   "name": "Sentinel’s Intuition",
+   "desc": "When you roll for Initiative or make a Wisdom (Perception) check to notice a threat, you can roll one Intuition die, a d4, and add it to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sentinel’s Shield",
+   "type": "Racial Trait",
+   "name": "Sentinel’s Shield",
+   "desc": "You know the cantrip blade ward. You can cast shield once with this trait and regain the ability to do so after you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Vigilant Guardian",
+   "type": "Racial Trait",
+   "name": "Vigilant Guardian",
+   "desc": "As an action, you can designate an ally you can see as your ward. You have advantage on Wisdom (Insight) and Wisdom (Perception) checks made to spot threats to your ward. In addition, when you are within 5 feet of your ward, and that creature is the target of an attack that you can see, you can use your reaction to swap places with your ward. When you do, you become the target of the attack.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Shadow",
+   "type": "Sub Race",
+   "name": "The Mark of Shadow",
+   "desc": "The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Gift of The Shadow"
+    },
+    {
+     "grant": "Racial Trait:Slip Into Shadow"
+    },
+    {
+     "grant": "Racial Trait:Shape Shadow"
+    },
+    {
+     "select": {
+      "name": "Natural Talent",
+      "type": "Tool"
+     }
+    }
+   ],
+   "supports": "Race:Elf"
+  },
+  {
+   "id": "Racial Trait:Gift of The Shadow",
+   "type": "Racial Trait",
+   "name": "Gift of The Shadow",
+   "desc": "When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Slip Into Shadow",
+   "type": "Racial Trait",
+   "name": "Slip Into Shadow",
+   "desc": "You can use the Hide action as a bonus action, even if you have no cover or if you’re under observation. Regardless of whether you succeed or fail, once you use this you cannot use it again until after a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shape Shadow",
+   "type": "Racial Trait",
+   "name": "Shape Shadow",
+   "desc": "You know the minor illusion cantrip. Charisma is your spellcasting ability for this trait.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Minor Illusion",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:The Mark of Storm",
+   "type": "Sub Race",
+   "name": "The Mark of Storm",
+   "desc": "Wind and water welcome the half-elf who carries the Mark of Storm. The wind catches them when they fall, and they swim with remarkable speed. Those who...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "dex": 1
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase (Mark of Storm)",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Ability Score Increase (Strength) (3)",
+       "Racial Trait:Ability Score Increase (Dexterity) (3)",
+       "Racial Trait:Ability Score Increase (Constitution) (3)",
+       "Racial Trait:Ability Score Increase (Intelligence) (3)",
+       "Racial Trait:Ability Score Increase (Wisdom) (3)",
+       "Racial Trait:Ability Score Increase (Charisma) (3)"
+      ]
+     }
+    },
+    {
+     "grant": "Racial Trait:Windwright's Intuition"
+    },
+    {
+     "grant": "Racial Trait:Storm’s Blessing"
+    },
+    {
+     "grant": "Racial Trait:Headwinds"
+    }
+   ],
+   "supports": "Race:Half-Elf Variant"
+  },
+  {
+   "id": "Racial Trait:Windwright's Intuition",
+   "type": "Racial Trait",
+   "name": "Windwright's Intuition",
+   "desc": "When you make a Dexterity (Acrobatics) check or any ability check involving operating or maintaining a water or air vehicle, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Storm’s Blessing",
+   "type": "Racial Trait",
+   "name": "Storm’s Blessing",
+   "desc": "You have resistance to lightning damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Headwinds",
+   "type": "Racial Trait",
+   "name": "Headwinds",
+   "desc": "You know the gust cantrip. When you reach 3rd level, you can cast the gust of wind spell once with this trait and regain the ability to do so when you finish a long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Gust",
+     "at will"
+    ],
+    [
+     3,
+     "Gust of Wind",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Strength) (3)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Strength) (3)",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Dexterity) (3)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Dexterity) (3)",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Constitution) (3)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Constitution) (3)",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Intelligence) (3)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Intelligence) (3)",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Wisdom) (3)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Wisdom) (3)",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Ability Score Increase (Charisma) (3)",
+   "type": "Racial Trait",
+   "name": "Ability Score Increase (Charisma) (3)",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:The Mark of Warding",
+   "type": "Sub Race",
+   "name": "The Mark of Warding",
+   "desc": "The Mark of Warding helps its bearers protect things of value. Using the mark, a dwarf can weave wards and seal portals with mystic force. It also provides...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "int": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Master of Locks"
+    },
+    {
+     "grant": "Racial Trait:Wards and Seals"
+    }
+   ],
+   "supports": "Race:Dwarf"
+  },
+  {
+   "id": "Racial Trait:Master of Locks",
+   "type": "Racial Trait",
+   "name": "Master of Locks",
+   "desc": "When you make an Intelligence (History), Intelligence (Investigation), or Thieves’ Tools check involving lock and trap mechanisms, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Wards and Seals",
+   "type": "Racial Trait",
+   "name": "Wards and Seals",
+   "desc": "You can use your mark to cast the alarm spell as a ritual. Starting at 3rd level you can cast arcane lock once with this trait and you regain the ability to do so after a long rest. Intelligence is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Alarm",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Arcane Lock",
+     "1/long rest"
+    ]
+   ]
+  }
+ ]
+}

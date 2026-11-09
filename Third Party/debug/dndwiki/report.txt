@@ -1,0 +1,13 @@
+Converted: 6 Class Feature, 3 Feat, 3 Spell
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (1)
+  Blademaster: blademaster
+
+== selects not understood (6)
+  Bard: Spell supports="0, Bard" matched nothing in this pack (maybe other pack)
+  Cleric: Spell supports="0, Cleric" matched nothing in this pack (maybe other pack)
+  Druid: Spell supports="0, Druid" matched nothing in this pack (maybe other pack)
+  Sorcerer: Spell supports="0, Sorcerer" matched nothing in this pack (maybe other pack)
+  Warlock: Spell supports="0, Warlock" matched nothing in this pack (maybe other pack)
+  Wizard: Spell supports="0, Wizard" matched nothing in this pack (maybe other pack)
+

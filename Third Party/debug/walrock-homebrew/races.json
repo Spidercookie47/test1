@@ -1,0 +1,100 @@
+{
+ "elements": [
+  {
+   "id": "Race:Shardmind",
+   "type": "Race",
+   "name": "Shardmind",
+   "desc": "Formed after the destruction of the Living Gate, a divine construction that once imprisoned the worst horrors of the multiverse, shardminds are beings of...",
+   "rules": [
+    {
+     "stat": {
+      "int": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Deep Speech"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Telepathy"
+    },
+    {
+     "grant": "Racial Trait:Living Construct"
+    },
+    {
+     "grant": "Racial Trait:Resonance"
+    },
+    {
+     "grant": "Racial Trait:Crystalline Body"
+    },
+    {
+     "grant": "Racial Trait:Natural Armor"
+    },
+    {
+     "grant": "Racial Trait:Luminescence"
+    },
+    {
+     "grant": "Racial Trait:Shard Swarm"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Telepathy",
+   "type": "Racial Trait",
+   "name": "Telepathy",
+   "desc": "You can communicate via two-way telepa­thy with any creature that is within 30 feet of you, if that creature knows at least one language.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Living Construct",
+   "type": "Racial Trait",
+   "name": "Living Construct",
+   "desc": "The psionic crystal that makes up your form is both inorganic and yet imbued with life. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and construct. You can be affected by a spell or ability if it works on either of your creature types.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Resonance",
+   "type": "Racial Trait",
+   "name": "Resonance",
+   "desc": "You can use verbal components of spells, even if you do not speak, which manifests as a resonant, audible humming of your constituent shards. You can be affected by silence and similar as usual.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Crystalline Body",
+   "type": "Racial Trait",
+   "name": "Crystalline Body",
+   "desc": "You are immune to poison damage and the poisoned condition.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Armor",
+   "type": "Racial Trait",
+   "name": "Natural Armor",
+   "desc": "Your crystalline form is naturally resistant to being damaged. Your AC cannot be less than 14, but armor, spells, and other effects can make it higher.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Luminescence",
+   "type": "Racial Trait",
+   "name": "Luminescence",
+   "desc": "Your shards glow with a soft inner radiance, and you naturally cast dim light in a radius of 5 feet around you. You can intentionally stifle this light and turn it off, or turn it back on, by using a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shard Swarm",
+   "type": "Racial Trait",
+   "name": "Shard Swarm",
+   "desc": "On your turn, you can use a bonus action to break your body into its constituent crystals and then teleport to an unoccupied location you can see within 15 feet. Choose up to 3 creatures within 5 feet of your original location. The first attack made against each creature before the end of your next turn is made with advantage. Once you use this trait, you can't do so again until you finish a short or long rest.",
+   "rules": []
+  }
+ ]
+}

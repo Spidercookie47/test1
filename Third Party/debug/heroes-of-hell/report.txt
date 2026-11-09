@@ -1,0 +1,32 @@
+Converted: 6 Background, 6 Background Feature, 34 Class Feature, 1 Magic, 6 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (5)
+  Immortal Fear: immortal feat
+  Aura of Will: aura of will
+  Hellrider Blessed Plate: ac
+  Trash and Treasure: trash and treasure
+  Hidden Resources: attunement
+
+== grants of other kinds (skipped) (2)
+  Core of Hellfire: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE
+  Core of Hellfire: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC
+
+== ids not in this pack (assumed to be in another pack, check the name) (1)
+  Language:Infernal  (from ID_LANGUAGE_INFERNAL)
+
+== selects not understood (6)
+  Escaped Slave: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Hellborn: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Lawyer: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Lower Planar Merchant: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Styx Oarsman: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Infernal Warmachine Mechanic: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+
+== grants pointing outside these packs (needs another pack) (6)
+  Background:Escaped Slave -> Language:Infernal
+  Background:Hellborn -> Language:Infernal
+  Background:Lawyer -> Language:Infernal
+  Background:Lower Planar Merchant -> Language:Infernal
+  Background:Styx Oarsman -> Language:Infernal
+  Background:Infernal Warmachine Mechanic -> Language:Infernal
+

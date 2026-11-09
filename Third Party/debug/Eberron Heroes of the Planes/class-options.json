@@ -1,0 +1,68 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Bear Stance",
+   "type": "Class Feature",
+   "name": "Bear Stance",
+   "desc": "When you hit a creature with a weapon attack, you can push it 5 feet away from you. The first time you make a weapon attack against the creature you push before the end of your next turn, you can roll 1d8 and add it to the damage roll.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Chameleon Stance",
+   "type": "Class Feature",
+   "name": "Chameleon Stance",
+   "desc": "When you take the Attack action, you can replace an attack with the Hide action (replacing one of your attacks if you have Extra Attack). You can do so if you are currently being observed, though you are no longer hidden from a creature if you end this turn in its field of vision.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Hawk Stance",
+   "type": "Class Feature",
+   "name": "Hawk Stance",
+   "desc": "If you take any fall damage in this stance, subtract 2 x your fighter level from the damage roll (to a minimum of 0 damage). While in this stance, your long and high jump distances are doubled. If you jump 10 feet immediately before making a melee weapon attack, you can roll 1d8 and add it to the weapon’s damage roll.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Leopard Stance",
+   "type": "Class Feature",
+   "name": "Leopard Stance",
+   "desc": "While in this stance, you gain a climb speed of 20 feet. If you take the Dash or Disengage actions, you can make one weapon attack as a bonus action on that turn. On a hit, you can roll 1d8 and add it to the weapon’s damage roll.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Ox Stance",
+   "type": "Class Feature",
+   "name": "Ox Stance",
+   "desc": "When you make a Strength, Constitution, or Wisdom saving throw while in this stance, you can roll 1d6 and add it to the result. If you move at least 20 feet in this stance before making a melee weapon attack and hit a creature with it, you can use your reaction to shove the creature. When you do, you can roll 1d8 and add the result to the attack’s damage roll and to your Strength (Athletics) check for the shove.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Rabbit Stance",
+   "type": "Class Feature",
+   "name": "Rabbit Stance",
+   "desc": "While in this stance, your walking speed increases by 10 feet. When you move and would provoke an opportunity attack, you can spend 5 extra feet of movement (if available) to not provoke that attack. If you hit the attacking creature with your next weapon attack before the end of your turn, you can roll 1d8 and add it to the damage roll.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Tortoise Stance",
+   "type": "Class Feature",
+   "name": "Tortoise Stance",
+   "desc": "You gain temporary hit points equal to half your fighter level when you enter this stance and at the beginning of each of your turns while in this stance. Any remaining temporary hit points vanish when your stance ends. Your speed is reduced by 10 feet while in this stance.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Wolf Stance",
+   "type": "Class Feature",
+   "name": "Wolf Stance",
+   "desc": "Once per turn when you make a weapon attack against a creature, you can roll 1d6 and add it to your attack roll. The target must be within 5 feet of a creature other than you that is hostile to it.",
+   "rules": [],
+   "lv": 3
+  }
+ ]
+}

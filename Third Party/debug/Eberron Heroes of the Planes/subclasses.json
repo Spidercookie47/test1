@@ -1,0 +1,500 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Chaotician",
+   "type": "Subclass",
+   "name": "Chaotician",
+   "desc": "Underlying reality is a fundamental imbalance. A randomness, an unpredictability. Some artificers, in the close attention they pay to crafted objects,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Research Proficiency",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Chaotician Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Chaos Zone",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Chaos Control",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Spell Rejection",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Chaos Unbound",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Artificer",
+   "prepared": {
+    "class": "Artificer",
+    "levels": {
+     "3": [
+      "Chromatic Orb",
+      "Witch Bolt"
+     ],
+     "5": [
+      "Phantasmal Force",
+      "Silence"
+     ],
+     "9": [
+      "Call Lightning",
+      "Slow"
+     ],
+     "13": [
+      "Confusion",
+      "Polymorph"
+     ],
+     "17": [
+      "Destructive Wave",
+      "Reincarnate"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Path of the Winter Heart",
+   "type": "Subclass",
+   "name": "Path of the Winter Heart",
+   "desc": "Before they rooted themselves beneath eastern Khorvaire, the dwarves of Mror lived among the frozen tundra and eternal blizzards of the Frostfell. To...",
+   "rules": [
+    {
+     "grant": "Class Feature:Frozen Fury",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Frigid Grace",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Ice Step",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Arctic Soul",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:College of Graysong",
+   "type": "Subclass",
+   "name": "College of Graysong",
+   "desc": "Dolurrh, the Realm of the Dead. All cultures on Eberron have stories about the afterlife, of the endless gray that carries lost souls to the divine beyond...",
+   "rules": [
+    {
+     "grant": "Class Feature:Lore of the Dead",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Grayfear",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Draw Back from Death",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Gray Rendition",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:Story Domain",
+   "type": "Subclass",
+   "name": "Story Domain",
+   "desc": "To some clerics, the message of scripture is more important than the force behind it. They take inspiration not just from their holy books but from works of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Keeper of Stories",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fairy Whim",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Overwhelming Fantasia",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Walk Among the Commonfolk",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Wellspring of Inspiration",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Comprehend Languages",
+      "Heroism"
+     ],
+     "3": [
+      "Enthrall",
+      "Magic Mouth"
+     ],
+     "5": [
+      "Fear",
+      "Tongues"
+     ],
+     "7": [
+      "Confusion",
+      "Conjure Woodland Beings"
+     ],
+     "9": [
+      "Legend Lore",
+      "Seeming"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Gloaming",
+   "type": "Subclass",
+   "name": "Circle of Gloaming",
+   "desc": "Deep within the forests of the Eldeen Reaches, a land of death and decay slowly grows. The Gloaming, as it is known, is considered cursed to most but holy...",
+   "rules": [
+    {
+     "grant": "Class Feature:Vermin Swarm",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Power from Death",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Child of Winter",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Overwhelming Darkness",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid"
+  },
+  {
+   "id": "Subclass:Savager",
+   "type": "Subclass",
+   "name": "Savager",
+   "desc": "The endless wilds of Lamannia encompass nature to its utmost. Some warriors, known as Savagers, learn to channel the strength of its most primal spirits...",
+   "rules": [
+    {
+     "grant": "Class Feature:Beast Stance",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Beast Mind",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Swift Stance",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Stance Mastery",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Primal Master",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Way of the Dream Walker",
+   "type": "Subclass",
+   "name": "Way of the Dream Walker",
+   "desc": "Nearly every mortal creature on Eberron dreams, their minds traveling to Dal Quor regularly, and scholars of all races have been intrigued by this for...",
+   "rules": [
+    {
+     "grant": "Class Feature:Phantasmal Fist",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Day Dreamer",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Sleep Walker",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Dream Maker",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of the Forebearer",
+   "type": "Subclass",
+   "name": "Oath of the Forebearer",
+   "desc": "Eberron’s history is long, and the long-lived races know this best of all. To lose centuries of experience and knowledge is tragic, even unthinkable. Among...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Ancestral Dedication",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Channel the Undying",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Light",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Blessing of the Court",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Rite of the Council",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "False Life",
+      "Guiding Bolt"
+     ],
+     "5": [
+      "Enhance Ability",
+      "Prayer of Healing"
+     ],
+     "9": [
+      "Beacon of Hope",
+      "Mass Healing Word"
+     ],
+     "13": [
+      "Death Ward",
+      "Guardian of Faith"
+     ],
+     "17": [
+      "Commune",
+      "Legend Lore"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Fire Binder",
+   "type": "Subclass",
+   "name": "Fire Binder",
+   "desc": "The Sulatar drow of Xen’drik follow the Burning Promise. One day, their prophecy says, they will be delivered to a promised utopia of fire, and the world...",
+   "rules": [
+    {
+     "grant": "Class Feature:Fire Binder Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Conflagrating Strike",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Blessing of Flame",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Blazing Portent",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Bearer of Fire",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Fulfilling the Promise",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Coinmonger",
+   "type": "Subclass",
+   "name": "Coinmonger",
+   "desc": "While Sharn may host the most trade in all of Eberron, it is nothing before Syrania’s Immeasurable Market. Within a vast crystal city, the creatures of the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Devil’s Tongue",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Otherworldly Wealth",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:An Eye for Quality",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Special Delivery",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Money Makes the World Go ‘Round",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Warsoul",
+   "type": "Subclass",
+   "name": "Warsoul",
+   "desc": "While the Last War is one of the worst conflicts mortals have seen since the daelkyr invaded Khorvaire, it is nothing in the face of the scorched fields of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Martial Talent",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Warrior’s Vigor",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:War Blade",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Swarm of Swords",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Warrior’s Aegis",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  },
+  {
+   "id": "Subclass:Lawbringer",
+   "type": "Subclass",
+   "name": "Lawbringer",
+   "desc": "There are great forces among the multiverse that seek to maintain order. The angels and inevitables of Daanvi are far too busy ordering and reordering their...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Word of the Law",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Hands of Fate",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Enforcing Order",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Restoring Touch",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Command",
+     "Guiding Bolt",
+     "Arcane Lock",
+     "Zone of Truth",
+     "Blink",
+     "Slow",
+     "Death Ward",
+     "Stone Shape",
+     "Animate Objects",
+     "Wall of Force"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:School of Revelation",
+   "type": "Subclass",
+   "name": "School of Revelation",
+   "desc": "As studiers of the arcane seek out the unknown corners of all that can be known, they inevitably stumble upon the taboo. Hidden truths that should not be...",
+   "rules": [
+    {
+     "grant": "Class Feature:Ritual of Revelation",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:All-Seeing Eye",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Warper of Flesh",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Lucid Mind",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Gift of Revelation",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:Way of the Iron Embrace",
+   "type": "Subclass",
+   "name": "Way of the Iron Embrace",
+   "desc": "Monks of the Way of the Iron Embrace are masters of grapples, throws, and pins. Fighting on the front line, they fearlessly lay hands on the most powerful...",
+   "rules": [
+    {
+     "grant": "Class Feature:Supple Palms",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Crashing Wave",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Python’s Coil",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Giant’s Grasp",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+Converted: 12 Background, 17 Background Feature, 22 Class Feature, 31 Feat, 5 Gear, 397 Magic, 1 Race, 49 Racial Trait, 227 Spell, 6 Sub Race, 4 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (55)
+  Stone Spider: stone spider
+  Stone Speaker: stone speaker
+  Battlecloak of Vycaena: ac
+  Shield of Vycaena: ac
+  Harness of Defense, Rare: ac
+  Harness of Defense, Very Rare: ac
+  Harness of Defense, Legendary: ac
+  Janyra’s Ring of the Sea: speed
+  Dao Heritage: ac, dao heritage
+  Tortle Protector: tortle
+  Urd Wings: speed
+  Catstaff: darkvision, speed
+  Fiendstaff: spellcasting
+  Ring of Faerie: darkvision
+  Ring of Seeing: truesight
+  Ring of Valor: constitution
+  Rod of Expeditious Transport: speed
+  Rod of Splendor: charisma
+  Staff of Dark Locales: darkvision
+  Staff of the White Well: spellcasting
+  Staff of the Winds: speed
+  Staff of Wizardry: charisma, constitution, dexterity, intelligence, spellcasting, strength, wisdom
+  Armband of Strength: strength
+  Armored Gi: charisma, constitution, dexterity, intelligence, strength, wisdom
+  Buckle of Armor: ac
+  Buckle of Protection: charisma, constitution, dexterity, intelligence, strength, wisdom
+  Cloak of the Phoenix: speed
+  Crown of Leadership: charisma
+  Crystal of Aquatic Action: speed
+  Cube of Abilities, Strength: strength
+  Cube of Abilities, Dexterity: dexterity
+  Cube of Abilities, Constitution: constitution
+  Cube of Abilities, Intelligence: intelligence
+  Cube of Abilities, Wisdom: wisdom
+  Cube of Abilities, Charisma: charisma
+  Gauntlets of Dexterity: dexterity
+  Sandals of the Light Step: speed
+  Vestments of Power: spellcasting
+  Wink Brooch: persuasion
+  Unnatural Vitality: unnatural vitality
+  Flight: innate speed
+  Dreadful Glare: dreadful glare
+  Feeding: feeding
+  Curse of the Abyss: curse of the abyss
+  Paralytic Claws: paralytic claw
+  Dead Fortitude: necropolitan dead fortitude
+  Banshee Wail: banshee wail
+  Dark Reaping: dark reaping
+  Four Arms: speed
+  Ghoulish Agility: speed
+  Improved Paralytic Claws: paralytic claw
+  Roaming Bones: hand
+  Under Wraps: under wraps grapple
+  Amphibious Armor: ac, speed
+  Turtle Shell Shield: ac
+
+== grants of other kinds (skipped) (15)
+  Ring of Perfect Secrets: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC
+  Cat’s Eye Ring: Grants ID_DMSG_MTMM2_GRANTS_DARKVISION_OR_INCREASE_60
+  Catstaff: Vision ID_VISION_DARKVISION
+  Ring of Faerie: Vision ID_VISION_DARKVISION
+  Ring of Seeing: Vision ID_VISION_TRUESIGHT
+  Staff of Dark Locales: Vision ID_VISION_DARKVISION
+  Staff of Devotion: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_RADIANT
+  Boots of Carrying: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  Cat’s Eye Marble: Vision ID_VISION_DARKVISION
+  Greenstone Amulet: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC
+  Nightcap of Vision: Vision ID_VISION_DARKVISION
+  Stormfire Amulet: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE
+  Awakened Undead: Vision ID_VISION_DARKVISION
+  Bloodless: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+  Kenku: Grants ID_DMSG_WHAU_GRANTS_PAST_LIFE_PRECLUDE_LANGUAGE
+
+== selects not understood (36)
+  Dao Heritage: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"
+  Djinn Heritage: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_DEXTERITY"
+  Efreet Heritage: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_INTELLIGENCE"
+  Marid Heritage: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_WISDOM"
+  Master of Mimicry: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_WISDOM"
+  Mountain’s Endurance: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"
+  Serpent Form: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA"
+  Sky Warden: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_WISDOM"
+  Tanarukk Blood: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"
+  Tortle Protector: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM"
+  Touch of Sess’inek: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
+  Uphold the Legion: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_INTELLIGENCE"
+  Well-Rested: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
+  Skeleton: type=Ability Score Improvement supports="ID_DMSG_WHAU_ASI_UNDEAD_DEXTERITY|ID_DMSG_WHAU_ASI_UNDEAD_INTELLIGENCE"
+  Revenant: type=Ability Score Improvement supports="ID_DMSG_WHAU_ASI_UNDEAD_CHARISMA|ID_DMSG_WHAU_ASI_UNDEAD_STRENGTH"
+  Ghost: type=Ability Score Improvement supports="ID_DMSG_WHAU_ASI_UNDEAD_CHARISMA|ID_DMSG_WHAU_ASI_UNDEAD_WISDOM"
+  Mummy: type=Ability Score Improvement supports="ID_DMSG_WHAU_ASI_UNDEAD_CHARISMA|ID_DMSG_WHAU_ASI_UNDEAD_WISDOM|ID_DMSG_WHAU_ASI_UNDEAD_STRENGTH"
+  Ghoul: type=Ability Score Improvement supports="ID_DMSG_WHAU_ASI_UNDEAD_STRENGTH|ID_DMSG_WHAU_ASI_UNDEAD_DEXTERITY"
+  Necropolitan: type=Ability Score Improvement supports="ID_DMSG_WHAU_ASI_UNDEAD_CHARISMA|ID_DMSG_WHAU_ASI_UNDEAD_INTELLIGENCE"
+  Banshee Wail: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA"
+  Dark Reaping: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CHARISMA"
+  Ghoulish Agility: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
+  Improved Paralytic Claws: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
+  Roaming Bones: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"
+  Under Wraps: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA"
+  Druuthguard: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Duskwood Forester: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Griffon Knight: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Highcoin Blackalan: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Skulls Hollow Seer: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Jundarl: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Monster Hunter: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Oeblar: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Scholar of Derlusk: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Scofflaw of Blacksaddle: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Yallaschan: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+
+== damage resistances (no pack field for characters, the text already says it) (21)
+  Djinn Heritage: lightning
+  Djinn Heritage: thunder
+  Marid Heritage: cold
+  Tanarukk Blood: fire
+  Tanarukk Blood: poison
+  Blade-Turning Ring: piercing
+  Blade-Turning Ring: slashing
+  Fiendstaff: fire
+  Fiendstaff: poison
+  Lightning Rod: lightning
+  Ring of Clear Thought: psychic
+  Ring of Health: poison
+  Gauntlets of the Storm: lightning
+  Impervious Vestment: bludgeoning
+  Impervious Vestment: piercing
+  Impervious Vestment: slashing
+  Orb of Storms: lightning
+  Robe of Thunder: thunder
+  Vestments of Power: fire
+  Water Cloak: fire
+  White Cloak of the Spider: poison
+
+== ids not in this pack (assumed to be in another pack, check the name) (4)
+  Language:Abyssal  (from ID_LANGUAGE_ABYSSAL)
+  Language:Elvish  (from ID_LANGUAGE_ELVISH)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Racial Trait:Kenku Mimicry  (from ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY)
+
+== grants without an id (skipped) (14)
+  Dragonborn: Size
+  Dwarf: Size
+  Elf: Size
+  Gnome: Size
+  Half-Elf: Size
+  Halfling: Size
+  Half-Orc: Size
+  Human: Size
+  Tiefling: Size
+  Kenku: Size
+  Tiny: Size
+  Small: Size
+  Medium: Size
+  Large: Size
+
+== grants pointing outside these packs (needs another pack) (4)
+  Feat:Touch of Sess’inek -> Language:Abyssal
+  Magic:Ring of Faerie -> Language:Elvish
+  Race:Awakened Undead -> Language:Common
+  Racial Trait:Kenku -> Racial Trait:Kenku Mimicry
+

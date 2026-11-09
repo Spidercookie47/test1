@@ -1,0 +1,19 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "hmgs",
+  "name": "The Magus",
+  "short": "HMGS"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "spells.json",
+  "equipment.json",
+  "magic-items.json",
+  "feats.json",
+  "info.json"
+ ]
+}

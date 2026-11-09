@@ -1,0 +1,67 @@
+{
+ "elements": [
+  {
+   "id": "Language:Aquan",
+   "type": "Language",
+   "name": "Aquan",
+   "desc": "Aquan is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Auran",
+   "type": "Language",
+   "name": "Auran",
+   "desc": "Auran is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Terran",
+   "type": "Language",
+   "name": "Terran",
+   "desc": "Terran is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Ignan",
+   "type": "Language",
+   "name": "Ignan",
+   "desc": "Ignan is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Ankeshelian",
+   "type": "Language",
+   "name": "Ankeshelian",
+   "desc": "Ankeshelian is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Illyrian",
+   "type": "Language",
+   "name": "Illyrian",
+   "desc": "Illyrian is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Morphoi",
+   "type": "Language",
+   "name": "Morphoi",
+   "desc": "Morphoi is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Northern Tongue",
+   "type": "Language",
+   "name": "Northern Tongue",
+   "desc": "Northern Tongue is a language your character can speak, read and write.",
+   "rules": []
+  },
+  {
+   "id": "Language:Vos’Ghaen",
+   "type": "Language",
+   "name": "Vos’Ghaen",
+   "desc": "Vos’Ghaen is a language your character can speak, read and write.",
+   "rules": []
+  }
+ ]
+}

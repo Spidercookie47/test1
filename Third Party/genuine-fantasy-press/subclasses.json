@@ -8,11 +8,11 @@
    "rules": [
     {
      "grant": "Class Feature:Couturier Arts (Crimson Couturier)",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Fresh Blood",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Unstoppable Duo",
@@ -37,11 +37,11 @@
    "rules": [
     {
      "grant": "Class Feature:Couturier Arts (Mortal Couturier)",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Tome of Blades",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Shards of Light",
@@ -66,11 +66,11 @@
    "rules": [
     {
      "grant": "Class Feature:Couturier Arts (Starspiral Couturier)",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Face of War",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Massive Machine",
@@ -95,14 +95,14 @@
    "rules": [
     {
      "grant": "Class Feature:Couturier Arts (Shadowsilk Couturier)",
-     "level": 2
+     "level": 3
     },
     {
      "grant": "Class Feature:Cloak of Blades",
-     "level": 2
+     "level": 3
     },
     {
-     "grant": "Class Feature:Hidden Agenda",
+     "grant": "Class Feature:Hidden Agenda (Shadowsilk Couturier)",
      "level": 6
     },
     {

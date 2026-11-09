@@ -1,0 +1,229 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Keeper",
+   "type": "Subclass",
+   "name": "Keeper",
+   "desc": "An eager doctor's assistant stays late after a failed surgery to stitch the cadaver closed, and prepare it for transport to the undertaker. But while he has...",
+   "rules": [
+    {
+     "grant": "Class Feature:Life on Demand",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Expanded Intellect",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Aura of Wellbeing",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Refusal",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Necromancer",
+   "expandedList": {
+    "class": "Necromancer",
+    "spells": [
+     "Cure Wounds",
+     "Lesser Restoration",
+     "Beacon of Hope",
+     "Feign Death",
+     "Revivify",
+     "Death Ward",
+     "Greater Restoration",
+     "Resurrection",
+     "Mass Heal"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Reaper",
+   "type": "Subclass",
+   "name": "Reaper",
+   "desc": "The village is quiet during the strangers walk down the roads. No birds are chirping, no children heard playing, no wind blowing. He bends over to grab a...",
+   "rules": [
+    {
+     "grant": "Class Feature:Death's Knowledge",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Improved Soul Harvest",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Necrosis Spellcasting",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Grim",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Necromancer",
+   "expandedList": {
+    "class": "Necromancer",
+    "spells": [
+     "Inflict Wounds",
+     "Revivify",
+     "Speak with Dead",
+     "Commune with Dead",
+     "Raise Dead",
+     "Resurrection",
+     "True Resurrection"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Undertaker",
+   "type": "Subclass",
+   "name": "Undertaker",
+   "desc": "In a cemetery, a woman provides a service for a family grieving their lost one. She had spent the evening before prepping the corpse and making everything...",
+   "rules": [
+    {
+     "grant": "Class Feature:Unholy Resistance",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Improved Animate Undead",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Undead Resolve",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Lord of the Undead",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Necromancer"
+  },
+  {
+   "id": "Subclass:Combat Mastery",
+   "type": "Subclass",
+   "name": "Combat Mastery",
+   "desc": "The Combat Mastery archetype specializes in combat techniques of raw physical power honed to deadly perfection. Those who model themselves on this archetype...",
+   "rules": [
+    {
+     "grant": "Class Feature:Martial Prowess",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Combat Prowess",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Fury",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Whirlwind Attack",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Survivor",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Weapon Master"
+  },
+  {
+   "id": "Subclass:Tactic Mastery",
+   "type": "Subclass",
+   "name": "Tactic Mastery",
+   "desc": "The Tactic Mastery archetype specialises in uncanny tactics to be able to lead anyone they fight alongside to victory. Those who model themselves on this...",
+   "rules": [
+    {
+     "grant": "Class Feature:Natural Leader",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Parry",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Helper",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Multiattack Defense",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Know Your Enemy",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Weapon Master"
+  },
+  {
+   "id": "Subclass:Evasive Mastery",
+   "type": "Subclass",
+   "name": "Evasive Mastery",
+   "desc": "The Evasive Mastery archetype specializes in agile movements to maneuver around the battle field like the wind. Those who model themselves on this archetype...",
+   "rules": [
+    {
+     "grant": "Class Feature:Wind Walker",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Land's Stride",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Evasion",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Mobility",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Hawk's Eye",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Weapon Master"
+  },
+  {
+   "id": "Subclass:Circle of the Claw",
+   "type": "Subclass",
+   "name": "Circle of the Claw",
+   "desc": "The Circle of the Claw has a focus on the use of beast form, and stronger forms of it instead of spells. It can stay in beast form for a long time, but has...",
+   "rules": [],
+   "supports": "Class:Druid"
+  },
+  {
+   "id": "Subclass:Arcane Origin",
+   "type": "Subclass",
+   "name": "Arcane Origin",
+   "desc": "Your innate abilities come from a deep connection with the fabric of magic. You may have descended from a magical being, or you may have been touched by the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Magical Secrets",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Extra Sorcery Points",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Powerful Spells",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Persistent Magic",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Arcane Destruction",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  }
+ ]
+}

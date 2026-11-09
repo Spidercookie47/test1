@@ -1,0 +1,667 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Domain Spells",
+   "type": "Class Feature",
+   "name": "Domain Spells",
+   "desc": "You gain domain spells at the cleric levels listed in the Cavern Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.\n\nCAVERN DOMAIN SPELLS\n\nCleric Level | Spells\n1st | alarm, earth tremors\n3rd | darkness, darkvision\n5th | erupting earth, meld into stone\n7th | Mordenkainen’s private sanctum, stone shape\n9th | passwall, wall of stone",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bonus Proficiency",
+   "type": "Class Feature",
+   "name": "Bonus Proficiency",
+   "desc": "When you choose this domain at 1st level, you gain proficiency with heavy armor.",
+   "rules": [
+    {
+     "pf": [
+      "a:Heavy armor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Master of Stone",
+   "type": "Class Feature",
+   "name": "Master of Stone",
+   "desc": "Starting at 1st level, whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus. If you already have the stonecunning trait, you gain advantage to the check instead.\n\nWhenever you cast a spell of 1st level or higher while underground, you gain +1 AC until the end of your next round.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Stone Sight",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Stone Sight",
+   "desc": "Starting at 2nd level, you can use your Channel Divinity as a bonus action to gain 30 ft. of blindsight for 1 minute. You must be underground and in contact with earth or stone in order to use this ability.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Blessing of Stone",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Blessing of Stone",
+   "desc": "Beginning at 6th level, you can use your Channel Divinity as a reaction to grant a blessing of stone to yourself or a willing ally that you can see within 30 feet. The target’s skin is transformed into living rock and they gain resistance to bludgeoning, piercing, poison, and slashing damage until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Acidic Strike",
+   "type": "Class Feature",
+   "name": "Acidic Strike",
+   "desc": "At 8th level, you gain the ability to magically infuse your weapon strikes with corrosive acid. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 acid damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:One with the Cave",
+   "type": "Class Feature",
+   "name": "One with the Cave",
+   "desc": "When you reach 17th level, you can burrow through nonmagical, unworked earth and stone at your walking speed. While doing so, you do not disturb the material you move through and leave no tunnel behind you. While burrowing, you have 30 feet of tremorsense.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Circle Spells",
+   "type": "Class Feature",
+   "name": "Circle Spells",
+   "desc": "Your mystical connection to the elemental spirits infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells.\n\nOnce you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\nCIRCLE OF STONE SPELLS\n\nDruid Level | Spells\n3rd | dust devil*, spike growth\n5th | erupting earth*, meld into stone\n7th | stone shape, elemental bane*\n9th | wall of stone, conjure elemental\n\n* From Elemental Evil Player’s Companion",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Strength",
+   "type": "Class Feature",
+   "name": "Stone Strength",
+   "desc": "Starting at 2nd level, you can summon elemental spirits to fill your body with stony strength and protect you from harm. When you take damage, you can use your reaction to roll a number of d6s equal to your druid level and reduce the damage by the total.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Shape",
+   "type": "Class Feature",
+   "name": "Stone Shape",
+   "desc": "Starting at 6th level, you can use your Wild Shape to transform into a gargoyle.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Speaker",
+   "type": "Class Feature",
+   "name": "Stone Speaker",
+   "desc": "Starting at 10th level, you gain the ability to speak with a stone object or surface. The stone can tell you what events have occurred within 10 feet of it in the past 24 hours. Its perspective, perception, and knowledge may limit what details the stone can provide.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Walker",
+   "type": "Class Feature",
+   "name": "Stone Walker",
+   "desc": "Starting at 14th level, you can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, and you are stunned until the end of your next turn.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Polyglot",
+   "type": "Class Feature",
+   "name": "Polyglot",
+   "desc": "At 3rd level you are a master of picking up the words of other cultures. You gain proficiency in a language of your choice. When speaking to someone whose language you do not speak, you gain advantage on Wisdom (Insight) checks to discern their general meaning. At 7th, 11th, and 15th level you gain proficiency in another language.",
+   "rules": [
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     },
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     },
+     "level": 7
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     },
+     "level": 11
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     },
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Aid Others",
+   "type": "Class Feature",
+   "name": "Aid Others",
+   "desc": "Upon gaining 3rd level, you can help others navigate dangerous terrain. Allies within 30 feet that can see or hear you gain advantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to move through terrain. Your allies also gain advantage on the first Charisma (Persuasion) check made when interacting with any humanoid creature that speaks a language you understand.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Danger Sense",
+   "type": "Class Feature",
+   "name": "Danger Sense",
+   "desc": "By 7th level you have developed a supernatural instinct for survival. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells, and advantage on Wisdom (Perception) checks made to avoid being surprised. To gain these benefits, you can’t be blinded, deafened, or incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Disorienting Blow",
+   "type": "Class Feature",
+   "name": "Disorienting Blow",
+   "desc": "Starting at 11th level, you master protecting your charges and dishing out harm to those who threaten them. When a creature within 5 feet of you makes an attack against an ally, you can use your reaction to make a melee weapon attack against the attacking creature. If your attack hits, it does normal damage and the creature’s attack against your ally is made with disadvantage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Danger Warning",
+   "type": "Class Feature",
+   "name": "Danger Warning",
+   "desc": "When you reach 15th level, your sense for survival and desire to protect your allies has heightened even further. Allies within 10 feet of you also gain the benefits of your danger sense.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master Disarmer",
+   "type": "Class Feature",
+   "name": "Master Disarmer",
+   "desc": "When you choose this archetype at 3rd level, you gain advantage on Wisdom (Perception) or Intelligence (Investigation) checks made to find traps, and advantage on Dexterity checks using your thieves’ tools to disarm traps. You can search for traps while traveling at a fast pace without penalty.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Booby Traps",
+   "type": "Class Feature",
+   "name": "Booby Traps",
+   "desc": "Starting at 3rd level, you learn to quickly set up simple booby traps by making a Dexterity check using your thieves’ tools. The total of your check becomes both the DC for someone else’s attempt to discover it and the DC to disable the trap. Constructing a trap takes 1 minute. The saving throw for your traps are equal to 8 + your proficiency bonus + your Dexterity modifier.\n\nUsing your thieves’ tools, and 10 gp worth of materials, you can construct one of the traps below. If you spend 1 minute dismantling the trap, you can recover the materials. Other traps may be created at the DM’s discretion, though they may require different costs or time to construct.\n\nWhen you achieve 9th level, you can choose to construct the trap hastily using only an action, but doing so halves the DC to spot the trap and creatures gain advantage to save against your hastily built trap.\n\nAlarm Trap. This trap consists of several small bells attached to a thin wire up to 10 feet long that creates a loud noise when tripped or an attached item is moved. It does no damage and the wire is not strong enough to cause a creature to stumble.\n\nImprovement: You can extend the trip wire by 10 feet for every additional 2 gp you spend in materials.\n\nBolt Trap. This trap attaches a tripwire to a concealed crossbow. You must have a hand, light, or heavy crossbow to create this trap in addition to the normal material cost. The crossbow does normal damage for a weapon of its type to victims that fail a Dexterity saving throw.\n\nYou may use magical bolts or a magical crossbow when setting your trap or apply poison to the bolts. These additions affect the target as normal.\n\nImprovement: You can set up a trap using up to three crossbows catching the target in a crossfire. Doing so requires three crossbows, costs 2 gp, and adds an additional 2 minutes to construct. At 9th level or higher, if setting this trap hastily, it requires 1 action per crossbow used.\n\nDrop Trap. This trap is made by suspending a heavy or dangerous item and rigging it to fall upon anyone who breaks a trip line. Those who fail a Dexterity saving throw are struck by the item. Traditionally, this is a rock that does bludgeoning damage equal to 1d6 + your proficiency modifier. If you have the item, you may substitute a net, alchemical items, or magical items that activate when broken, such as an elemental gem, a bead from a necklace of fireballs, or a vial of sovereign glue.\n\nImprovement: You can rig up to three individual items, or a very heavy rock that counts as three items (damage equals 3d6 + your proficiency bonus), to fall upon the victim. Doing so costs 1 gp per additional rig and adds 1 additional minute per item. At 9th level or higher, if setting this trap hastily, it requires 1 action per item used.\n\nTrip Rope Trap. This trap is made by stretching a strong rope across two points within 20 feet of each other. Creatures that fail their Dexterity saving throw fall prone.\n\nImprovement: You can extend the rope by 10 feet for every additional 1 gp you spend in materials. You can also embed barbs in the rope that do piercing damage equal to 1d3 + your proficiency bonus for an additional 1 gp.",
+   "rules": [
+    {
+     "grant": "Class Feature:Alarm Trap"
+    },
+    {
+     "grant": "Class Feature:Bolt Trap"
+    },
+    {
+     "grant": "Class Feature:Drop Trap"
+    },
+    {
+     "grant": "Class Feature:Trip Rope Trap"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Alarm Trap",
+   "type": "Class Feature",
+   "name": "Alarm Trap",
+   "desc": "This trap consists of several small bells attached to a thin wire up to 10 feet long that creates a loud noise when tripped or an attached item is moved. It does no damage and the wire is not strong enough to cause a creature to stumble.\n\nImprovement: You can extend the trip wire by 10 feet for every additional 2 gp you spend in materials.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bolt Trap",
+   "type": "Class Feature",
+   "name": "Bolt Trap",
+   "desc": "This trap attaches a tripwire to a concealed crossbow. You must have a hand, light, or heavy crossbow to create this trap in addition to the normal material cost. The crossbow does normal damage for a weapon of its type to victims that fail a Dexterity saving throw.\n\nYou may use magical bolts or a magical crossbow when setting your trap or apply poison to the bolts. These additions affect the target as normal.\n\nImprovement: You can set up a trap using up to three crossbows catching the target in a crossfire. Doing so requires three crossbows, costs 2 gp, and adds an additional 2 minutes to construct. At 9th level or higher, if setting this trap hastily, it requires 1 action per crossbow used.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Drop Trap",
+   "type": "Class Feature",
+   "name": "Drop Trap",
+   "desc": "This trap is made by suspending a heavy or dangerous item and rigging it to fall upon anyone who breaks a trip line. Those who fail a Dexterity saving throw are struck by the item. Traditionally, this is a rock that does bludgeoning damage equal to 1d6 + your proficiency modifier. If you have the item, you may substitute a net, alchemical items, or magical items that activate when broken, such as an elemental gem, a bead from a necklace of fireballs, or a vial of sovereign glue.\n\nImprovement: You can rig up to three individual items, or a very heavy rock that counts as three items (damage equals 3d6 + your proficiency bonus), to fall upon the victim. Doing so costs 1 gp per additional rig and adds 1 additional minute per item. At 9th level or higher, if setting this trap hastily, it requires 1 action per item used.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Trip Rope Trap",
+   "type": "Class Feature",
+   "name": "Trip Rope Trap",
+   "desc": "This trap is made by stretching a strong rope across two points within 20 feet of each other. Creatures that fail their Dexterity saving throw fall prone.\n\nImprovement: You can extend the rope by 10 feet for every additional 1 gp you spend in materials. You can also embed barbs in the rope that do piercing damage equal to 1d3 + your proficiency bonus for an additional 1 gp.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Trap Sense",
+   "type": "Class Feature",
+   "name": "Trap Sense",
+   "desc": "At 9th level, your expertise gives you the edge when dealing with deadly traps. You have advantage when making saving throws to avoid or resist traps. Traps that make an attack roll to hit you do so with disadvantage. You also have resistance to the damage dealt by traps.\n\nTo gain this benefit, you can’t be blinded, deafened, or incapacitated.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unravel the Arcana",
+   "type": "Class Feature",
+   "name": "Unravel the Arcana",
+   "desc": "By 13th level, your mastery of traps has extended to the magical. You gain the ability to cast dispel magic, but you may only target magical traps such as those created by the spells alarm, glyph of warding, or symbol. Intelligence is your spellcasting ability for unravel the arcane.\n\nOnce you have used this ability, you cannot use it again until you have completed a short or long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Dispel Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Avoid Disaster",
+   "type": "Class Feature",
+   "name": "Avoid Disaster",
+   "desc": "When you reach 17th level, you have developed lightning reflexes to eliminate the danger of a sprung trap before the effects happen. When you are adjacent to or are one of the targets of a sprung trap, you may use a reaction to quickly disable the trap and prevent its effects from occurring. You must succeed in a Dexterity check using your thieves’ tools equal to the DC to disarm the trap; if you fail, the trap activates as normal.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expanded Spell List",
+   "type": "Class Feature",
+   "name": "Expanded Spell List",
+   "desc": "The Dark lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nDARK EXPANDED SPELLS\n\nSpell Level | Spells\n1st | dissonant whispers, ray of sickness\n2nd | darkvision, protection from poison\n3rd | bestow curse, stinking cloud\n4th | Evard’s black tentacles, phantasmal killer\n5th | antilife shell, cloudkill",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Darkspiral Aura",
+   "type": "Class Feature",
+   "name": "Darkspiral Aura",
+   "desc": "When you choose this pact at 1st level, you drain the power of your fallen enemies to surround yourself with an aura of deadly darkness. When you reduce a hostile creature to 0 hit points, you encase yourself with swirling shadows that give you advantage on Dexterity (Stealth) checks. Your darkspiral aura ends when you take a short rest, long rest, or you choose to expend it.\n\nWhen a hostile creature that you can see targets you with a melee or ranged attack, you can expend your darkspiral aura as a reaction to deal psychic damage equal to 1d6 + your Charisma bonus + your proficiency bonus. If you also choose to damage an ally in addition to a hostile target, you add your warlock level to the damage. The ally must take damage to gain this bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Your Glorious Sacrifice",
+   "type": "Class Feature",
+   "name": "Your Glorious Sacrifice",
+   "desc": "Beginning at 6th level, you come to understand that true friends will appreciate the sacrifices they will need to make for you reach your full power. You have resistance to poison damage, and when you cast a spell that deals poison or psychic damage, you can add your Charisma modifier to the damage roll against one of its targets.\n\nIf you choose an ally as one of the targets of this spell, one targeted enemy also suffers damage of the same type equal to 1d6 plus your Charisma modifier every round at the beginning of their turn. At the end of each of its turns, the target can attempt a Constitution saving throw against your warlock spell save DC. On a success, the ongoing damage ends. You add an additional 1d6 to the ongoing damage at 11th and 17th level.\n\nYour ally must take damage to gain this bonus. Once you use this feature, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Darkest Mirror",
+   "type": "Class Feature",
+   "name": "Darkest Mirror",
+   "desc": "Starting at 10th level, you can use a bonus action to close lids of the darkest night over your eyes, allowing you to see invisible creatures as well as into the Ethereal Plane. While using Darkest Mirror, you cannot see any other creatures, including your allies.\n\nWhen activated, this feature lasts for rounds equal to 1 + your Charisma modifier. You can end this feature using a bonus action. Once you use this feature, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Passionate Betrayal",
+   "type": "Class Feature",
+   "name": "Passionate Betrayal",
+   "desc": "Starting at 14th level, as an action, you can whisper dark promises to an enemy within 60 feet, causing them to believe their enemies are friends and their friends are now enemies. The target must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed for 1 minute or until your concentration is broken (as if you are concentrating on a spell). While charmed, the target regards allies as hated enemies until the spell ends and makes every effort to kill them in the most effective way available to it. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the effect ends.\n\nWhen using this feature, you can curse an ally to make all of their attacks, saving throws, and ability checks with disadvantage for the duration, and the target can then make its first attack each round with advantage.\n\nYou must finish a short or long rest before you can use this feature again.",
+   "rules": []
+  },
+  {
+   "id": "Class:Factotum",
+   "type": "Class",
+   "name": "Factotum",
+   "desc": "A flexible learner that has spent a lifetime studying famous adventurers and picking up a few of their skills.",
+   "hd": 8,
+   "ap": [
+    "a:Light armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "t:Thieves’ tools"
+   ],
+   "wp": [
+    "simple"
+   ],
+   "rules": [
+    {
+     "grant": "save:dex"
+    },
+    {
+     "grant": "save:int"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency, Factotum",
+      "n": 3,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Ingenuity",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Arcane Dilettante",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Cunning Inspiration",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Expertise",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Cunning Strike",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Factotum Lore",
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Opportunistic Piety",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Cunning Defense",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Cunning Surge",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Cunning Dodge",
+     "level": 11
+    },
+    {
+     "select": {
+      "name": "Factotum Lore",
+      "type": "Subclass",
+      "supports": "Class:Factotum"
+     },
+     "level": 3
+    }
+   ],
+   "casting": "None"
+  },
+  {
+   "id": "Class Feature:Ingenuity",
+   "type": "Class Feature",
+   "name": "Ingenuity",
+   "desc": "The factotum is a plunderer of knowledge, learning a warrior’s martial forms, a wizard’s arcane spells, and even a rogue’s skill with locks. While you will never be a master of any field, you always remember something useful when the situation calls for it.\n\nAt 1st level, you can always recall some useful story, piece of knowledge, or trick to make it through. Your access to this diverse body of knowledge is represented by a number of ingenuity points. Ingenuity points must be spent to activate many of your class features.\n\nWhen you spend an ingenuity point, it is unavailable until you finish a short or long rest, at the end of which you regain all of your expended ingenuity back. You must spend at least 30 minutes of the rest period studying your books to regain your ingenuity points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Dilettante",
+   "type": "Class Feature",
+   "name": "Arcane Dilettante",
+   "desc": "Starting at 1st level, you can fake waving your hands about and choke out a few fancy-sounding words that allow you to approximate summoning up the arcane power of a spell. By spending 1 ingenuity point, you are able to cast one of the spells you know.\n\nIntelligence is your spellcasting ability for your spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.\n\nEach time you gain this feature, you learn a spell from the wizard spell list of the noted level. When you learn a spell from this feature of 1st level or higher, you also gain one spell slot of the same level of the spell you learned. At 1st level you know one cantrip. You gain this feature again at 3rd, 6th, 9th, 12th, and 15th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cunning Inspiration",
+   "type": "Class Feature",
+   "name": "Cunning Inspiration",
+   "desc": "At 1st level, you can recall some useful bit of knowledge to help you with whatever problem troubles you. You can spend 1 ingenuity point to give yourself a bonus to one roll equal to your Intelligence modifier as a bonus action.\n\nOnce within the next 10 minutes, you can add your Intelligence modifier to one ability check, attack roll, or saving throw that you make. You can wait until after you roll before deciding to use your Cunning Inspiration, but you must decide before the DM says whether the roll succeeds or fails. Once your Cunning Inspiration is added to a roll, it is lost. You can have only one Cunning Inspiration at a time.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expertise",
+   "type": "Class Feature",
+   "name": "Expertise",
+   "desc": "At 2nd level, choose two of your skill proficiencies, or one of your skill proficiencies and one of your tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 10th level, you can choose two more of your proficiencies (in skills or tools) to gain this benefit.",
+   "rules": [
+    {
+     "select": {
+      "name": "Expertise, Factotum",
+      "n": 2,
+      "type": "Class Feature"
+     },
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Expertise, Factotum",
+      "n": 2,
+      "type": "Class Feature"
+     },
+     "level": 10
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Cunning Strike",
+   "type": "Class Feature",
+   "name": "Cunning Strike",
+   "desc": "At 2nd level you have studied fighting styles enough to exploit weaknesses in common defenses. Once per turn, you can spend 1 ingenuity point to gain an extra 1d6 damage to one creature you hit with a weapon attack. You cannot use this feature if you have disadvantage on the attack roll.\n\nThe amount of the extra damage increases by 1d6 at 6th, 10th, 13th, and 17th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Factotum Lore",
+   "type": "Class Feature",
+   "name": "Factotum Lore",
+   "desc": "As much as any factotum possesses a diverse collection of skills, you still must choose a specialty. At 3rd level, the stories and techniques that call to you most allow you to choose a Lore to focus on. The advanced techniques of Factotum Lore may cause you to follow the martial Lore of the Hero or the magical Lore of the Theurge. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level.",
+   "rules": [
+    {
+     "select": {
+      "name": "Factotum Lore",
+      "type": "Subclass",
+      "supports": "Class:Factotum"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Opportunistic Piety",
+   "type": "Class Feature",
+   "name": "Opportunistic Piety",
+   "desc": "You carry dozens of holy symbols and supposed blessed relics that you claim bring you the favor of the gods. You can always be religious when you need to be. Starting at 5th level, you can spend 2 ingenuity points to channel divine energy as an action. You can use that energy to heal injuries or turn undead.\n\nWhen you use this feature, you choose which effect to create. You must finish a short or long rest to use this feature again. Beginning at 9th level, you can use your opportunistic piety twice between rests, and at 14th level, you can use it three times between rests. When you finish a short or long rest, you regain all your expended uses.\n\nHeal. As an action, you lay your holy symbol upon a wounded creature and speak a calm blessing. The creature you touch regains a number of hit points equal to your factotum level + 1d6 per point of your Intelligence modifier.\n\nTurn Undead. As an action, you present your holy symbol and speak a harsh prayer censuring the undead. Each undead within 30 feet that can see or hear you must make a Wisdom saving throw equal to your spell save DC. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there is nowhere to move, the creature can use the Dodge action.",
+   "rules": [
+    {
+     "grant": "Class Feature:Heal"
+    },
+    {
+     "grant": "Class Feature:Turn Undead"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Heal",
+   "type": "Class Feature",
+   "name": "Heal",
+   "desc": "As an action, you lay your holy symbol upon a wounded creature and speak a calm blessing. The creature you touch regains a number of hit points equal to your factotum level + 1d6 per point of your Intelligence modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Turn Undead",
+   "type": "Class Feature",
+   "name": "Turn Undead",
+   "desc": "As an action, you present your holy symbol and speak a harsh prayer censuring the undead. Each undead within 30 feet that can see or hear you must make a Wisdom saving throw equal to your spell save DC. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there is nowhere to move, the creature can use the Dodge action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cunning Defense",
+   "type": "Class Feature",
+   "name": "Cunning Defense",
+   "desc": "By 6th level you have learned enough cheap tricks to throw an opponent temporarily off balance, just long enough for you to survive a few more moments. By spending 2 ingenuity points, you may take the Dodge action as a bonus action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cunning Surge",
+   "type": "Class Feature",
+   "name": "Cunning Surge",
+   "desc": "Starting at 7th level, you can push yourself beyond your normal limits for a moment. By spending 3 ingenuity points on your turn, you can take one additional action.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again. Beginning at 13th level, you can use this feature twice between rests.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cunning Dodge",
+   "type": "Class Feature",
+   "name": "Cunning Dodge",
+   "desc": "Starting at 11th level, when an attacker that you can see hits you with an attack, you can use your reaction to spend 3 ingenuity points to halve the attack’s damage against you.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again. Beginning at 18th level, you can use this feature twice between rests.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bonus Proficiencies",
+   "type": "Class Feature",
+   "name": "Bonus Proficiencies",
+   "desc": "When you choose to devote yourself to the Lore of the Hero at 3rd level, you gain proficiency with medium armor and martial weapons.",
+   "rules": [
+    {
+     "pf": [
+      "a:Medium armor",
+      "w:Martial weapons"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Brains over Brawn",
+   "type": "Class Feature",
+   "name": "Brains over Brawn",
+   "desc": "At 3rd level, you add your Intelligence bonus as an additional modifier on Strength (Athletics) and Dexterity (Acrobatics) checks. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Intelligence modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fighting Style",
+   "type": "Class Feature",
+   "name": "Fighting Style",
+   "desc": "At 7th level you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.\n\nDefense. While you are wearing armor, you gain a +1 bonus to AC.\n\nDueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\nProtection. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.\n\nTwo-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+   "rules": [
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Fighting Style",
+      "ids": [
+       "Fighting Style:Defense",
+       "Fighting Style:Dueling",
+       "Fighting Style:Protection",
+       "Fighting Style:Two-Weapon Fighting"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Extra Attack",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "Beginning at 15th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Brilliance of Heroes",
+   "type": "Class Feature",
+   "name": "Brilliance of Heroes",
+   "desc": "At 20th level, you have studied the sagas of warrior legends and learned to counterfeit their signature abilities. By spending 5 ingenuity points, you can duplicate one of these class features for one minute. You can only have one of these features active at a time.\n\nAura of Protection. Whenever you or a friendly creature within 10 feet of you makes a saving throw, the creature gains a bonus to the saving throw equal to your Intelligence modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.\n\nStunning Strike. Once per round when you hit another creature with a melee weapon attack, you can attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.\n\nRage. You can enter a furious rage. While raging, you gain the following benefits if you aren’t wearing heavy armor:\n\n- You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll equal to your Intelligence modifier.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- You can’t cast or concentrate on spells while raging.\n\nYour rage ends early if you are knocked unconscious, if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since your last turn. You can also end your rage on your turn as a bonus action.",
+   "rules": [
+    {
+     "grant": "Class Feature:Aura of Protection"
+    },
+    {
+     "grant": "Class Feature:Stunning Strike"
+    },
+    {
+     "grant": "Class Feature:Rage"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Aura of Protection",
+   "type": "Class Feature",
+   "name": "Aura of Protection",
+   "desc": "Whenever you or a friendly creature within 10 feet of you makes a saving throw, the creature gains a bonus to the saving throw equal to your Intelligence modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stunning Strike",
+   "type": "Class Feature",
+   "name": "Stunning Strike",
+   "desc": "Once per round when you hit another creature with a melee weapon attack, you can attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rage",
+   "type": "Class Feature",
+   "name": "Rage",
+   "desc": "You can enter a furious rage. While raging, you gain the following benefits if you aren’t wearing heavy armor:\n\n- You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll equal to your Intelligence modifier.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- You can’t cast or concentrate on spells while raging.\n\nYour rage ends early if you are knocked unconscious, if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since your last turn. You can also end your rage on your turn as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spellcasting",
+   "type": "Class Feature",
+   "name": "Spellcasting",
+   "desc": "When you reach 3rd level, you have managed to gather a hodgepodge of true magic to augment your other skills.\n\nCantrips. You learn two cantrips of your choice from the cleric or wizard spell lists. You learn an additional cleric or wizard cantrip of your choice at 15th level.\n\nSpell Slots. The Lore of the Theurge Spellcasting table shows how many spell slots you have to cast your cleric or wizard spells of 1st level and higher. These slots are added to the number you gain from your Arcane Dilettante class feature. To cast a spell, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st-Level and Higher. You know two 1st-level spells of your choice, which you must choose from the cleric or wizard spell lists.\n\nThe Spells Known column of the Lore of the Theurge Spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be from the cleric or wizard spell lists and must be of a level for which you have spell slots granted by this feature.\n\nWhenever you gain a level in this class, you can replace one of the cleric or wizard spells you know from this feature with another spell of your choice from the cleric or wizard spell lists. The new spell must be of a level for which you have spell slots granted by this feature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ingenious Recovery",
+   "type": "Class Feature",
+   "name": "Ingenious Recovery",
+   "desc": "By 7th level you have learned to regain some of your magical energy by reviewing your tomes of lore. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than one third of your factotum level (rounded up), and none of the slots can be 4th level or higher.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ingenious Magic",
+   "type": "Class Feature",
+   "name": "Ingenious Magic",
+   "desc": "Beginning at 15th level, you have tapped into the greatest magic of all, your own genius and creativity. You can use your ingenuity points to gain additional spell slots or sacrifice spell slots to gain additional ingenuity points. You can transform unexpended ingenuity points into one spell slot, or the reverse, as a bonus action on your turn at a two-for-one cost (rounded down). For example, it would cost you 4 ingenuity points to create a 2nd-level spell slot, but if you expended a 3rd-level spell slot you could regain 1 ingenuity point.\n\nAny spell slots or ingenuity points that you create with this feature vanish when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Brilliance of Theurges",
+   "type": "Class Feature",
+   "name": "Brilliance of Theurges",
+   "desc": "At 20th level, you have read the darkest tomes and made questionable deals with otherworldly powers to pose as a powerful user of magic. By spending 5 ingenuity points as a bonus action, you can duplicate one of these class features for one minute. You can only have one of these features active at a time.\n\nEldritch Invocation. You whisper a deal to some fell creature that you have no intention of honoring and they foolishly grant you forbidden power. You activate one warlock invocation that has no prerequisites.\n\nMetamagic. You force your own creativity into one of your spells. Each round for the duration you may apply one of the following effects:\n\n- Careful Spell. When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 ingenuity point and choose a number of those creatures up to your Intelligence modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n- Distant Spell. When you cast a spell that has a range of 5 feet or greater, you can spend 1 ingenuity point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 ingenuity point to make the range of the spell 30 feet.\n- Subtle Spell. When you cast a spell, you can spend 1 ingenuity point to cast it without any somatic or verbal components.\n\nWild Shape. You magically assume the shape of a beast that you have seen before with a CR of 1 or lower. At the end of the duration you revert to your normal form unless you use this feature again and expend another 5 ingenuity points. You revert to your normal form after 1 minute or by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.\n\nWhile you are transformed, the following rules apply:\n\n- Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature’s bonus instead of yours. If the creature has any legendary or lair actions, you can’t use them.\n- When you transform, you assume the beast’s hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn’t reduce your normal form to 0 hit points, you aren’t knocked unconscious.\n- You can’t cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn’t break your concentration on a spell you’ve already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you’ve already cast.\n- You retain the benefit of any features from your class, race, or other source, and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.",
+   "rules": [
+    {
+     "grant": "Class Feature:Eldritch Invocation"
+    },
+    {
+     "grant": "Class Feature:Metamagic"
+    },
+    {
+     "grant": "Class Feature:Wild Shape"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Eldritch Invocation",
+   "type": "Class Feature",
+   "name": "Eldritch Invocation",
+   "desc": "You whisper a deal to some fell creature that you have no intention of honoring and they foolishly grant you forbidden power. You activate one warlock invocation that has no prerequisites.",
+   "rules": [
+    {
+     "select": {
+      "name": "Eldritch Invocation, Brilliance of Theurges",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Alien Speed",
+       "Class Feature:Aquatic Adaptation",
+       "Class Feature:Cameral Mind",
+       "Class Feature:Dread The Darkness",
+       "Class Feature:Elevated Evolution",
+       "Class Feature:Precision Predator",
+       "Class Feature:Violent End",
+       "Class Feature:Second Skin",
+       "Class Feature:Venomous Spit",
+       "Class Feature:Belial’s Bracing Word",
+       "Class Feature:Dark Wings, Dark Words",
+       "Class Feature:Faust’s Fast Bargain",
+       "Class Feature:Lolth’s Kiss",
+       "Class Feature:Plague of Baalzebul",
+       "Class Feature:Puck’s Enchanted Sleep",
+       "Class Feature:Tongues of the Masters",
+       "Class Feature:Wrathful Parry",
+       "Class Feature:Zariel’s Wrathful Strike"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Metamagic",
+   "type": "Class Feature",
+   "name": "Metamagic",
+   "desc": "You force your own creativity into one of your spells. Each round for the duration you may apply one of the following effects:\n\n- Careful Spell. When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 ingenuity point and choose a number of those creatures up to your Intelligence modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n- Distant Spell. When you cast a spell that has a range of 5 feet or greater, you can spend 1 ingenuity point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 ingenuity point to make the range of the spell 30 feet.\n- Subtle Spell. When you cast a spell, you can spend 1 ingenuity point to cast it without any somatic or verbal components.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wild Shape",
+   "type": "Class Feature",
+   "name": "Wild Shape",
+   "desc": "You magically assume the shape of a beast that you have seen before with a CR of 1 or lower. At the end of the duration you revert to your normal form unless you use this feature again and expend another 5 ingenuity points. You revert to your normal form after 1 minute or by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.\n\nWhile you are transformed, the following rules apply:\n\n- Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature’s bonus instead of yours. If the creature has any legendary or lair actions, you can’t use them.\n- When you transform, you assume the beast’s hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn’t reduce your normal form to 0 hit points, you aren’t knocked unconscious.\n- You can’t cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn’t break your concentration on a spell you’ve already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you’ve already cast.\n- You retain the benefit of any features from your class, race, or other source, and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.",
+   "rules": []
+  }
+ ]
+}

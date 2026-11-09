@@ -1,0 +1,13 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "wiki1",
+  "name": "D&D Wiki",
+  "short": "WIKI"
+ },
+ "files": [
+  "backgrounds.json",
+  "info.json"
+ ]
+}

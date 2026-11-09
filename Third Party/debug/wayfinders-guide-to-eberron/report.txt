@@ -1,0 +1,62 @@
+Converted: 1 Feat, 3 Gear, 12 Magic, 4 Race, 89 Racial Trait, 19 Sub Race, 1 Weapon
+
+== selects not understood (8)
+  Changeling: type=Ability Score Improvement supports="ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE"
+  Kalashtar: type=Ability Score Improvement supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA"
+  Envoy Warforged: type=Ability Score Improvement supports="Envoy Warforged"
+  The Mark of Handling: Racial Trait supports="Human Variant" matched nothing in this pack (maybe other pack)
+  The Mark of Making: Racial Trait supports="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY|ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE" matched nothing in this pack (maybe other pack)
+  The Mark of Passage: Racial Trait supports="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH|ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION|ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE|ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM|ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA" matched nothing in this pack (maybe other pack)
+  The Mark of Sentinel: Racial Trait supports="Human Variant" matched nothing in this pack (maybe other pack)
+  Revenant Blade: type=Ability Score Improvement supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY"
+
+== grants of other kinds (skipped) (21)
+  Changeling: Size ID_SIZE_MEDIUM
+  Kalashtar: Size ID_SIZE_MEDIUM
+  Shifter: Size ID_SIZE_MEDIUM
+  Shifter: Vision ID_VISION_DARKVISION
+  Warforged: Size ID_SIZE_MEDIUM
+  Composite Plating: Grants ID_INTERNAL_GRANTS_COUNTS_AS_EQUIPPED_ARMOR
+  Heavy Plating: Grants ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE
+  Heavy Plating: Grants ID_INTERNAL_GRANTS_COUNTS_AS_EQUIPPED_ARMOR
+  Powerful Build: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  The Mark of Detection: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Finding: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Handling: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Healing: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Hospitality: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Making: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Passage: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Scribing: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Sentinel: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Shadow: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Storm: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+  The Mark of Warding: Grants ID_WOTC_WGTE_GRANTS_DARKMARKED
+
+== ids not in this pack (assumed to be in another pack, check the name) (2)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Language:Quori  (from ID_WOTC_ERLW_LANGUAGE_QUORI)
+
+== damage resistances (no pack field for characters, the text already says it) (3)
+  Mental Discipline: psychic
+  Warforged Resilience: poison
+  Storm’s Blessing: lightning
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (6)
+  Shifting: shifting
+  Integrated Protection: warforged
+  Darkwood Core: ac
+  Composite Plating: ac
+  Heavy Plating: ac
+  The Mark of Storm: innate speed
+
+== grants without an id (skipped) (1)
+  Sentinel’s Shield: Spell
+
+== grants pointing outside these packs (needs another pack) (5)
+  Race:Changeling -> Language:Common
+  Race:Kalashtar -> Language:Common
+  Race:Kalashtar -> Language:Quori
+  Race:Shifter -> Language:Common
+  Race:Warforged -> Language:Common
+

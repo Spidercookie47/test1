@@ -1,0 +1,258 @@
+{
+ "elements": [
+  {
+   "id": "Background:Demon Tainted",
+   "type": "Background",
+   "name": "Demon Tainted",
+   "desc": "Religion, Survival, Tool, Abyssal",
+   "rules": [
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Demon Tainted",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Language:Abyssal"
+    },
+    {
+     "grant": "Background Feature:Dark One’s Reputation"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "grant": "Background Feature:Demon Tainted Spells"
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am slow to speak up. The less attention I draw to myself, the better.",
+     "People think I’m scary, and I’m not going to ruin the illusion.",
+     "I talk to myself constantly. I also reply to myself constantly.",
+     "My scowl is more noticeable than the manifestation of my curse.",
+     "Wherever I am, I act like I am in charge. It’s not like anyone is going to argue with a demon.",
+     "Something about what I am burns through energy like crazy. As a result, I am always hungry.",
+     "For some reason, people always want to fight me. Who am I to say no?",
+     "I hate when people judge me for what I am, therefore I don’t judge others based on what they are. It’s who they are that matters."
+    ],
+    "ideals": [
+     "Revenge. This world is made up of wrongs and injustices, someone has to right them. (Chaotic)",
+     "Redemption. If you give others a chance to shine, the world can become a beautiful place. (Good)",
+     "Power. I’ve been granted a gift, and I am sure as hell going to make use of it. (Evil)",
+     "Justice. The natural order has to be upheld, if it isn’t, there will be more tormented souls like mine wandering the realm. (Lawful)",
+     "Chaos. There is nothing but chaos in the Abyss, and I am the embodiment of that chaos. (Chaotic)",
+     "Peace. I just want to be left alone, and I’ll stop whatever conflicts I can to find some quiet. (Any)"
+    ],
+    "bonds": [
+     "I am still looking for a way to repay someone for their awe-inspiring kindness.",
+     "I’m seeking a way to remove my demonic curse so I can be with the love of my life.",
+     "I am hunting the demon that did this to me. When I find it, I will make them pay.",
+     "With the mortal realm shunning me, I am looking for a place in the Outer Planes to call home.",
+     "A religious order is hunting me at all costs, and I have to keep moving if I am going to survive.",
+     "Someone gave me a home, and I will do anything to protect them and that home."
+    ],
+    "flaws": [
+     "I can’t get enough when it comes to carnal pleasures: food, drink, company—I want it all.",
+     "Angry is an understatement, my temper is downright (and sometimes literally) explosive.",
+     "A voice whispers in my ear that I am better than everyone, and I am sorely tempted to believe it.",
+     "I’m always jealous of what others have. Why was I denied happiness?",
+     "I can’t be bothered to do things for myself. It is so much easier to pawn off my work onto others.",
+     "I take what I want, and I want a bit of everything."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Dark One’s Reputation",
+   "type": "Background Feature",
+   "name": "Dark One’s Reputation",
+   "desc": "When you encounter a demon, they immediately recognize you for what you are and treat you as though you are a fiend yourself. Though they might not necessarily act friendly towards you, they treat you with more respect and esteem than other mortals and readily parley with you as long as you have not already met them with open hostility.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Demon Tainted Spells",
+   "type": "Background Feature",
+   "name": "Demon Tainted Spells",
+   "desc": "If you are a spellcaster, the spells on the Demon Tainted Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\n\nDemon Tainted Spells Table\n\nSpell Level | Spells\nCantrip | chill touch, produce flame, thaumaturgy\n1st | burning hands, hellish rebuke, inflict wounds\n2nd | crown of madness, darkness, flaming sphere\n3rd | fear, fireball, summon lesser demon*\n4th | summon greater demon*, wall of fire\n5th | destructive wave\n\nWhen you cast spells from your Demon-tainted spell list, the air around you might grow hot, your eyes might glow, or other signs of demonic power. Each of these spells as you cast them are far from subtle.",
+   "rules": []
+  },
+  {
+   "id": "Background:Nentyarch Follower",
+   "type": "Background",
+   "name": "Nentyarch Follower",
+   "desc": "Nature, Survival, Artisans Tool, Sylvan",
+   "rules": [
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Artisan's Tool, Nentyarch Follower",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "grant": "Background Feature:Dalefolk Hospitality"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "If the Dalesfolk are threatened, I will do whatever I can to help them.",
+     "The comforts of civilization are nice, but the majesty of nature is a wonder to behold.",
+     "I always explain my ideas by relating them to something in nature.",
+     "Being polite is a waste of time.",
+     "I believe in the interconnectedness of all life.",
+     "I have trouble paying attention when there are lots of people around.",
+     "I am incredibly patient.",
+     "I believe actions speak louder than words."
+    ],
+    "ideals": [
+     "Balance. Balance is important in all things. Excess in any direction leads to weakness. (Neutral)",
+     "Power. In the wild, the weak are culled and the strong survive. (Evil)",
+     "Independence. The peoples of the Great Dale should be free to live the life they choose. (Chaotic)",
+     "Nature. The lands will outlast us all. They are more important than our fleeting creations. (Neutral)",
+     "Integrity. My word is my bond. (Lawful)",
+     "Charity. It is right to help those who are in distress. The greater the need, the greater the call to help. (Good)"
+    ],
+    "bonds": [
+     "The Circle of Leth saved my village. I am forever indebted to them.",
+     "My village was destroyed by demons. They will be avenged.",
+     "I’ve lived in this place all my life. I will do everything I can to protect it.",
+     "I protect those who cannot protect themselves.",
+     "Although I am new to this land, I feel I need to do my part to make it a safer place.",
+     "I’ve seen forests cleared to fill a noble’s pocket with coin. I intend to make sure that never happens again."
+    ],
+    "flaws": [
+     "I’m a fraud. There’s no way I can live up to people’s expectations.",
+     "I’d prefer to stay alone in the woods then to deal with people.",
+     "I don’t understand the value of money.",
+     "I believe that the ends justify the means.",
+     "I cannot resist the temptations of civilization and overindulge in its pleasures.",
+     "I don’t trust anyone, not even my closest friends."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Dalefolk Hospitality",
+   "type": "Background Feature",
+   "name": "Dalefolk Hospitality",
+   "desc": "The Nentyarch and the Circle of Leth have long looked after the people of the Great Dale. You can find a place to hide, rest, or recuperate within any of the many small villages or farmsteads that exists in the Great Dale and the Forest of Lethyr, provided you have not shown yourself to be a danger to them. They will shield you from anyone who might oppose the Nentyarch or anyone else searching for you, though they will not risk their lives for you.",
+   "rules": []
+  },
+  {
+   "id": "Background:Shadowmaster’s Agent",
+   "type": "Background",
+   "name": "Shadowmaster’s Agent",
+   "desc": "Religion, Deception / Sleight of Hand / Stealth, Thieves’ Tools, Language",
+   "rules": [
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency, Shadowmaster’s Agent",
+      "from": [
+       "Deception",
+       "Sleight of Hand",
+       "Stealth"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Dark Intel"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "grant": "Background Feature:Spell List"
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "Why tell the truth when I can get by only telling half of it?",
+     "I know more than people think, and I can’t resist hinting at it.",
+     "Insults and intrigue are my specialty. Words can do just as much, if not more, damage than a knife.",
+     "I enjoy basking in shadows and darkness; The closer to our Mistress I am, the better.",
+     "I’m quick to start a fight, and quicker to end one.",
+     "I am, what you might call, “a control freak.” I become nervous and irritated when things are out of my power.",
+     "I always look for anything to get me ahead or leverage over my enemies.",
+     "Fast-talk and doublespeak are my preferred styles of communication. If you can’t keep up, that’s not my problem."
+    ],
+    "ideals": [
+     "Influence. By manipulating the world through the shadows, I can reshape it to my liking. (Evil)",
+     "Anarchy. There are few rules we actually need, and if the rest of the world were to see that, we would be truly free. (Chaotic)",
+     "Greed. The Shadowmasters are a means to an end, and that end sees me with all the gold. (Neutral)",
+     "Devotion. The will of Shar brings many blessings, by walking through shadow, I will be blessed. (Any)",
+     "Control. Through our schemes, we can control the masses. (Lawful)",
+     "Punishment. Those that stand against us will be consumed by the darkness. (Evil)"
+    ],
+    "bonds": [
+     "One of the shadowlords has taken a keen interest in me, and I would do anything to impress them.",
+     "Shar has spoken to me directly, and I fear nothing more than losing her favor.",
+     "My family knows nothing of my role in the Shadowmasters and I would prefer to keep it that way.",
+     "I spared someone during a mission once. If the guild were to find out, it would be the end of me.",
+     "I am in love with a member of one of our rival guilds.",
+     "I will stop at nothing to achieve the rank of Shadowlord."
+    ],
+    "flaws": [
+     "I am quick to betray if it means my own gain.",
+     "I don’t have allies, only pawns and tools.",
+     "Everywhere I go, I seem to make only enemies.",
+     "I don’t trust anyone that says they want what is “good for everybody.”",
+     "The first one to run is the last one to die, and I don’t plan on dying.",
+     "My sharp tongue regularly creates trouble for me and my allies."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Dark Intel",
+   "type": "Background Feature",
+   "name": "Dark Intel",
+   "desc": "The Shadowmasters are adept at gathering information and have eyes and ears everywhere. In every town, city, or other settlement, you know of another Shadowmaster Agent who you can rely on to fill you in on basic information about the settlement’s main features, figures, locations, and organizations, as well as other underworld activity in that settlement.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Spell List",
+   "type": "Background Feature",
+   "name": "Spell List",
+   "desc": "If you are a spellcaster, the spells on the Shadowmaster’s Agent Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\n\nSHADOWMASTER’S AGENT SPELLS TABLE\n\nSpell Level | Spells\nCantrip | chill touch, minor illusion\n1st | expeditious retreat, silent image, sleep\n2nd | crown of madness, darkness, flaming sphere\n3rd | haste, nondetection\n4th | confusion, dimension door\n5th | mislead\n\nYour spells might manifest in the form of shadows and whispers, creating blurry afterimages of your targets and even temporarily create dim ambient light as you cast them.",
+   "rules": []
+  }
+ ]
+}

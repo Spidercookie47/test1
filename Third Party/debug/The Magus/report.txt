@@ -1,0 +1,176 @@
+Converted: 7 Class, 467 Class Feature, 2 Feat, 3 Gear, 28 Magic, 26 Spell, 33 Subclass
+
+== grants of other kinds (skipped) (25)
+  Blood Hunter: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Strange Metabolism: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+  Cook: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Braised Rabbit: spell ID_PHB_SPELL_JUMP
+  Buttered Trout: spell ID_PHB_SPELL_WATER_BREATHING
+  Spider Eggs: spell ID_PHB_SPELL_SPIDER_CLIMB
+  Thickening Gruel: spell ID_PHB_SPELL_BARKSKIN
+  Spectral Sprouts: spell ID_PHB_SPELL_SEE_INVISIBILITY
+  Grave Warden: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Spellcasting: Grants ID_INTERNAL_RITUAL_CASTING
+  Death's Whisper: Vision ID_VISION_DARKVISION
+  Undead Acclimation: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC
+  Magus: Grants ID_INTERNAL_GRANT_MULTICLASS
+  The Arcane Order: Grants ID_DMSG_HMGS_GRANTS_MUTLICLASS_REQUIREMENT_INT
+  The Knights Stygian: Grants ID_DMSG_HMGS_GRANTS_MUTLICLASS_REQUIREMENT_CHA
+  The Primordial Seal: Grants ID_DMSG_HMGS_GRANTS_MUTLICLASS_REQUIREMENT_CHA
+  Elemental Alignment, Air: Grants ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE
+  Elemental Alignment, Fire: Vision ID_VISION_DARKVISION
+  The Shadow Court: Grants ID_DMSG_HMGS_GRANTS_MUTLICLASS_REQUIREMENT_INT
+  The Sidereal Cabal: Grants ID_DMSG_HMGS_GRANTS_MUTLICLASS_REQUIREMENT_INT
+  The Sylvan Circle: Grants ID_DMSG_HMGS_GRANTS_MUTLICLASS_REQUIREMENT_WIS
+  Pugilist: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Herculean: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_DOUBLED
+  Spiritualist: Grants ID_INTERNAL_GRANT_MULTICLASS
+  Swordmage: Grants ID_INTERNAL_GRANT_MULTICLASS
+
+== class starting equipment (not converted, add `start` by hand) (7)
+  Blood Hunter
+  Cook
+  Grave Warden
+  Magus
+  Pugilist
+  Spiritualist
+  Swordmage
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (94)
+  Hunter’s Bane: blood hunter
+  Blood Maledict: blood maledict, hemocraft
+  Extra Attack: extra attack
+  Brand of Castigation: brand of castigation
+  Dark Augmentation: constitution, dark augmentation, dexterity, speed, strength
+  Brand of Tethering: brand of castigation
+  Curse Specialist: blood maledict
+  Ethereal Step: ethereal step
+  Pact Magic: blood hunter
+  Rite Focus, The Celestial: celestial rite focus
+  Exalted Mutation: exalted mutation
+  Hybrid Transformation: hybrid transformation
+  Stalker’s Prowess: speed
+  Advanced Transformation: hybrid transformation
+  Bloodlust: lycan bloodlust
+  Lycan Regeneration: lycan regeneration
+  Blood Curse of the Fallen Puppet: blood curse of the fallen puppet
+  Morsel: morsel
+  Never Satisfied: hp
+  Strength: strength
+  Dexterity: dexterity
+  Constitution: constitution
+  Intelligence: intelligence
+  Wisdom: wisdom
+  Charisma: charisma
+  Vital Harvest: vital harvest
+  Bulwark of the Undead: ac, grave warden
+  Spellcasting: grave warden
+  Dark Mending: dark mending
+  Deathless Vigor: deathless vigor
+  Undead Servant (Dust Skeleton): companion, undead servant proficiency
+  Undead Graft (Skeletal): undead graft skeletal
+  Paralyzing Touch: paralyzing touch
+  Ossien Armor: ossien armor
+  Undead Servant (Frozen Ghost): companion, undead servant proficiency
+  Undead Graft (Frostbite): undead graft frostbite
+  Chilling Touch: chilling touch
+  Undead Servant (Tenebrous Shadow): companion, undead servant proficiency
+  Undead Graft (Mist): undead graft mist
+  Dreadful Touch: dreadful touch
+  Undead Servant (Rotting Zombie): companion, undead servant proficiency
+  Undead Graft (Decay): undead graft decay
+  Weakening Touch: weakening touch
+  Resilient (Strength): companion
+  Resilient (Dexterity): companion
+  Resilient (Constitution): companion
+  Resilient (Intelligence): companion
+  Resilient (Wisdom): companion
+  Resilient (Charisma): companion
+  Siphon Life: siphon life
+  Eldritch Society: magus
+  Esoteric Eye: esoteric eye
+  Spellcasting: magus
+  Aegis: mystic mark
+  Enspell: mystic mark
+  Arcane Order Initiate: magus
+  Knights Stygian Initiate: magus
+  Primordial Seal Initiate: magus
+  Elemental Alignment, Air: speed
+  Elemental Alignment, Earth: hp
+  Elemental Alignment, Fire: darkvision
+  Elemental Alignment, Water: speed
+  Shadow Court Initiate: magus
+  Sidereal Cabal Initiate: magus
+  Sylvan Circle Initiate: magus
+  Hour: initiative
+  Minute: initiative
+  Shinobi Suit, Koi Clan: speed
+  Shinobi Suit, Spider Clan: speed
+  Weavesaber: spellcasting
+  Fisticuffs: fisticuff
+  Iron Chin: ac
+  Moxie: moxie
+  Brace Up: brace
+  Bloodied But Unbowed: bloodied
+  Peak Physical Condition: constitution, strength
+  Persona Libre: persona libre
+  Work The Crowd: work the crowd
+  High Flyer: innate speed
+  Salty Salute: salt vinegar
+  Cross Counter: cross counter
+  Fountain of Viscera: fountain of viscera
+  Pact Magic: spiritualist
+  Channel Spirit: spiritualist
+  Ectoplasm: spiritualist
+  Stygian Inhalation: stygian inhalation
+  Bad Blood: hp
+  Magic Sense: aasm
+  Spellcasting: swordmage
+  Spell Strike: aasm
+  Eldritch Might: aasm, acrobatics, athletics, initiative, sleight of hand, stealth
+  Empowered Spell Strike: aasm
+  Hardened Mind: aasm
+  Arcane Beacon: aasm
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (8)
+  Order of the Profane Soul
+  The Arcane Order
+  The Knights Stygian
+  The Primordial Seal
+  The Shadow Court
+  The Sidereal Cabal
+  The Sylvan Circle
+  Hand of Dread
+
+== selects not understood (16)
+  Expertise: Class Feature supports="Expertise,Skill" matched nothing in this pack (maybe other pack)
+  Undead Servant (Dust Skeleton): type=Companion supports="Undead Servant Dust Skeleton"
+  Undead Servant (Dust Skeleton): type=Ability Score Improvement supports="Ability Score Improvement,Companion"
+  Undead Servant (Frozen Ghost): type=Companion supports="Undead Servant Frozen Ghost"
+  Undead Servant (Frozen Ghost): type=Ability Score Improvement supports="Ability Score Improvement,Companion"
+  Undead Servant (Tenebrous Shadow): type=Companion supports="Undead Servant Tenebrous Shadow"
+  Undead Servant (Tenebrous Shadow): type=Ability Score Improvement supports="Ability Score Improvement,Companion"
+  Undead Servant (Rotting Zombie): type=Companion supports="Undead Servant Rotting Zombie"
+  Undead Servant (Rotting Zombie): type=Ability Score Improvement supports="Ability Score Improvement,Companion"
+  Elemental Alignment: Archetype Feature supports="ID_DMSG_HMGS_ARCHETYPE_FEATURE_PRIMORDIAL_SEAL_ELEMENTAL_ALIGNMENT_AIR|ID_DMSG_HMGS_ARCHETYPE_FEATURE_PRIMORDIAL_SEAL_ELEMENTAL_ALIGNMENT_EARTH|ID_DMSG_HMGS_ARCHETYPE_FEATURE_PRIMORDIAL_SEAL_ELEMENTAL_ALIGNMENT_FIRE|ID_DMSG_HMGS_ARCHETYPE_FEATURE_PRIMORDIAL_SEAL_ELEMENTAL_ALIGNMENT_WATER" matched nothing in this pack (maybe other pack)
+  Ability Score Increase: Class Feature supports="Improvement Option, Spiritualist, 4" matched nothing in this pack (maybe other pack)
+  Ability Score Increase: Class Feature supports="Improvement Option, Spiritualist, 8" matched nothing in this pack (maybe other pack)
+  Ability Score Increase: Class Feature supports="Improvement Option, Spiritualist, 12" matched nothing in this pack (maybe other pack)
+  Ability Score Increase: Class Feature supports="Improvement Option, Spiritualist, 16" matched nothing in this pack (maybe other pack)
+  Ability Score Increase: Class Feature supports="Improvement Option, Spiritualist, 19" matched nothing in this pack (maybe other pack)
+  Arcane Warrior: Spell supports="0,Wizard" matched nothing in this pack (maybe other pack)
+
+== proficiency grants not understood (1)
+  Spellcasting: ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS
+
+== damage resistances (no pack field for characters, the text already says it) (3)
+  Deathless Vigor: necrotic
+  School of Hard Knocks: psychic
+  Inured to Toxins: poison
+
+== ids not in this pack (assumed to be in another pack, check the name) (1)
+  Language:Primordial  (from ID_LANGUAGE_PRIMORDIAL)
+
+== grants pointing outside these packs (needs another pack) (1)
+  Class Feature:Bonus Proficiency & Language -> Language:Primordial
+

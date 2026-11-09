@@ -1,0 +1,12 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Grim Harvest",
+   "type": "Class Feature",
+   "name": "Grim Harvest",
+   "desc": "Starting at 20th level, the area around you becomes a volatile zone of death and necrotic magic. You have learned to sew the agony of the newly departed's death into those nearby. Whenever an enemy creature dies within 60 feet of the you, you may use your reaction to target it and cause an explosion of necrotic energy. Choose any number of creatures within 10 feet of the explosion to make a Constitution saving throw. On a failed save, they take 8d6 necrotic damage and half as much on a success. If this damage kills any creatures, you may target one of the creatures killed to cause a secondary explosion but the damage is reduced to 4d6 and halved on a successful Constitution saving throw. If this secondary explosion kills any creatures, you may choose one of the creatures killed by this secondary damage to cause an explosion a third time but the damage is reduced to 2d6 or no damage on a successful Constitution saving throw. Any undead you control within the radius of the explosions regain hit points equal to half the amount of necrotic damage done. You regain use of this feature when you complete a short or long rest.",
+   "rules": [],
+   "lv": 20
+  }
+ ]
+}

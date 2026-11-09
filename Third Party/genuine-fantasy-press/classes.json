@@ -19,7 +19,15 @@
     {
      "select": {
       "name": "Stringed Musical Instrument, Weaveshaper",
-      "type": "Tool"
+      "type": "Gear",
+      "n": 1,
+      "ids": [
+       "Gear:Lute",
+       "Gear:Lyre",
+       "Gear:Viol",
+       "Gear:Dulcimer"
+      ],
+      "tool": 1
      }
     },
     {
@@ -80,7 +88,7 @@
     },
     {
      "grant": "Class Feature:Shuttle Step",
-     "level": 6
+     "level": 7
     },
     {
      "grant": "Class Feature:Cycle Weave",
@@ -100,7 +108,7 @@
     },
     {
      "grant": "Class Feature:Perfect Pattern",
-     "level": 18
+     "level": 17
     },
     {
      "grant": "Class Feature:Woven Soul",
@@ -117,14 +125,55 @@
       "supports": "Class:Weaveshaper"
      },
      "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "asi": 1,
+     "level": 19
     }
    ],
-   "casting": "None",
-   "start": [
-    "Scholar's pack",
-    "Fine clothes",
-    "Weaver's tools"
-   ]
+   "start": {
+    "f": [
+     [
+      "Gear:Clothes, fine",
+      1
+     ],
+     [
+      "Gear:Weaver's Tools",
+      1
+     ]
+    ],
+    "g": [
+     {
+      "d": "(a) a scholar’s pack or (b) an explorer’s pack",
+      "o": [
+       [
+        {
+         "i": "Gear:Scholar's Pack",
+         "q": 1
+        }
+       ],
+       [
+        {
+         "i": "Gear:Explorer's Pack",
+         "q": 1
+        }
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "Class Feature:Threadblade",
@@ -187,7 +236,26 @@
        {
         "class": "Weaveshaper",
         "table": [
-         0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7
+         0,
+         1,
+         1,
+         2,
+         2,
+         2,
+         3,
+         3,
+         3,
+         4,
+         4,
+         4,
+         5,
+         5,
+         5,
+         6,
+         6,
+         6,
+         7,
+         7
         ]
        }
       ],
@@ -219,22 +287,10 @@
       "n": 3,
       "type": "Class Feature",
       "ids": [
-       "Class Feature:Restitch",
        "Class Feature:Ribbon Lash",
        "Class Feature:Flicker Strike",
        "Class Feature:Vindicator Slash",
-       "Class Feature:Killing Intent",
-       "Class Feature:Dueling Ascent",
-       "Class Feature:Sky Slayer",
-       "Class Feature:Reaping Wind",
-       "Class Feature:Phoenix Wings",
-       "Class Feature:Rising Devil",
-       "Class Feature:Dragon’s Maw",
-       "Class Feature:Cruel Shrike",
-       "Class Feature:Soul Sever",
-       "Class Feature:Thread Stripper",
-       "Class Feature:Omnicleave",
-       "Class Feature:Shadow Assault"
+       "Class Feature:Killing Intent"
       ]
      },
      "level": 2
@@ -245,7 +301,6 @@
       "n": 2,
       "type": "Class Feature",
       "ids": [
-       "Class Feature:Restitch",
        "Class Feature:Ribbon Lash",
        "Class Feature:Flicker Strike",
        "Class Feature:Vindicator Slash",
@@ -255,12 +310,7 @@
        "Class Feature:Reaping Wind",
        "Class Feature:Phoenix Wings",
        "Class Feature:Rising Devil",
-       "Class Feature:Dragon’s Maw",
-       "Class Feature:Cruel Shrike",
-       "Class Feature:Soul Sever",
-       "Class Feature:Thread Stripper",
-       "Class Feature:Omnicleave",
-       "Class Feature:Shadow Assault"
+       "Class Feature:Dragon’s Maw"
       ]
      },
      "level": 6
@@ -271,7 +321,6 @@
       "n": 2,
       "type": "Class Feature",
       "ids": [
-       "Class Feature:Restitch",
        "Class Feature:Ribbon Lash",
        "Class Feature:Flicker Strike",
        "Class Feature:Vindicator Slash",
@@ -281,12 +330,7 @@
        "Class Feature:Reaping Wind",
        "Class Feature:Phoenix Wings",
        "Class Feature:Rising Devil",
-       "Class Feature:Dragon’s Maw",
-       "Class Feature:Cruel Shrike",
-       "Class Feature:Soul Sever",
-       "Class Feature:Thread Stripper",
-       "Class Feature:Omnicleave",
-       "Class Feature:Shadow Assault"
+       "Class Feature:Dragon’s Maw"
       ]
      },
      "level": 9
@@ -297,7 +341,6 @@
       "n": 2,
       "type": "Class Feature",
       "ids": [
-       "Class Feature:Restitch",
        "Class Feature:Ribbon Lash",
        "Class Feature:Flicker Strike",
        "Class Feature:Vindicator Slash",
@@ -331,15 +374,7 @@
    "type": "Class Feature",
    "name": "Weaveshaper Tapestry",
    "desc": "At 3rd level, you create a powerful magical accessory that allows you to channel your arcane power with greater ease. Choose from the list of available tapestries. Your tapestry grants you features at 2nd level, and again at 6th, 10th, and 14th level.",
-   "rules": [
-    {
-     "select": {
-      "name": "Weaveshaper Tapestry",
-      "type": "Subclass",
-      "supports": "Class:Weaveshaper"
-     }
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Class Feature:Renaissance Regular",
@@ -350,8 +385,39 @@
     {
      "select": {
       "name": "Tool Proficiency, Renaissance Regular",
+      "type": "Gear",
       "n": 3,
-      "type": "Tool"
+      "ids": [
+       "Gear:Climber's Kit",
+       "Gear:Disguise Kit",
+       "Gear:Forgery Kit",
+       "Gear:Herbalism Kit",
+       "Gear:Healer's Kit",
+       "Gear:Mess Kit",
+       "Gear:Poisoner's Kit",
+       "Gear:Alchemist's Supplies",
+       "Gear:Brewer's Supplies",
+       "Gear:Calligrapher's Supplies",
+       "Gear:Carpenter's Tools",
+       "Gear:Cartographer's Tools",
+       "Gear:Cobbler's Tools",
+       "Gear:Cook's utensils",
+       "Gear:Glassblower's Tools",
+       "Gear:Jeweler's Tools",
+       "Gear:Leatherworker's Tools",
+       "Gear:Mason's Tools",
+       "Gear:Painter's Supplies",
+       "Gear:Potter's Tools",
+       "Gear:Smith's Tools",
+       "Gear:Tinker's Tools",
+       "Gear:Weaver's Tools",
+       "Gear:Woodcarver's Tools",
+       "Gear:Dice Set",
+       "Gear:Playing Card Set",
+       "Gear:Navigator's Tools",
+       "Gear:Thieves' Tools"
+      ],
+      "tool": 1
      }
     }
    ],
@@ -697,9 +763,9 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Hidden Agenda",
+   "id": "Class Feature:Hidden Agenda (Shadowsilk Couturier)",
    "type": "Class Feature",
-   "name": "Hidden Agenda",
+   "name": "Hidden Agenda (Shadowsilk Couturier)",
    "desc": "At 6th level, your cloak conceals your movements and distorts your speech at your command. You can choose to have your speech be incoherent to creatures other than those you choose. When you take the Dash action, you can choose to gain the benefits of the Disengage action as well.",
    "rules": []
   },

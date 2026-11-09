@@ -1,0 +1,11 @@
+{
+ "elements": [
+  {
+   "id": "Language:Giff",
+   "type": "Language",
+   "name": "Giff",
+   "desc": "Typically spoken by giffs.",
+   "rules": []
+  }
+ ]
+}

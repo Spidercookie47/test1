@@ -1,0 +1,13 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "wgte",
+  "name": "Wayfinder’s Guide to Eberron",
+  "short": "WGTE"
+ },
+ "files": [
+  "backgrounds.json",
+  "info.json"
+ ]
+}

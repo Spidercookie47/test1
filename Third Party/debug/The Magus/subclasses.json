@@ -1,0 +1,3053 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Order of the Ghostslayer",
+   "type": "Subclass",
+   "name": "Order of the Ghostslayer",
+   "desc": "The Order of the Ghostslayer is the oldest of the orders, having originally rediscovered the secrets of blood magic and refined them for combat against the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Rite of the Dawn",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Curse Specialist",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ethereal Step",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Brand of Sundering",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Blood Curse of the Exorcist (Order of the Ghostslayer)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Rite Revival",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter"
+  },
+  {
+   "id": "Subclass:Order of the Profane Soul",
+   "type": "Subclass",
+   "name": "Order of the Profane Soul",
+   "desc": "Those who have taken to the Order of the Profane Soul have seen the limits of hemocraft against some of the most ancient and cruel fiends and terrors of the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Otherworldly Patron",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Pact Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Rite Focus",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mystic Frenzy",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Revealed Arcana",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Brand of the Sapping Scar",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Unsealed Arcana",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Blood Curse of the Souleater (Order of the Profane Soul)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Warlock"
+   }
+  },
+  {
+   "id": "Subclass:Order of the Mutant",
+   "type": "Subclass",
+   "name": "Order of the Mutant",
+   "desc": "The process of the Hunter’s Bane is a painful, scarring, and sometimes fatal experience. Those that survive find themselves irrevocably changed, enhanced....",
+   "rules": [
+    {
+     "grant": "Class Feature:Formulas",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mutagencraft",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Strange Metabolism",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Brand of Axiom",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Blood Curse of Corrosion (Order of the Mutant)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Exalted Mutation",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter"
+  },
+  {
+   "id": "Subclass:Order of the Lycan",
+   "type": "Subclass",
+   "name": "Order of the Lycan",
+   "desc": "Of the many terrible curses that plague the realm, few are as ancient or as feared as Lycanthropy. Passed through blood, this affliction seeds a host with...",
+   "rules": [
+    {
+     "grant": "Class Feature:Heightened Senses",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hybrid Transformation",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Stalker’s Prowess",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Advanced Transformation",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Brand of the Voracious",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Hybrid Transformation Mastery",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Blood Hunter"
+  },
+  {
+   "id": "Subclass:Sous Chef",
+   "type": "Subclass",
+   "name": "Sous Chef",
+   "desc": "The archetypal Sous Chef believes that their allies are more than worthy of their cooking. They have proven that their stomachs can handle what the Sous...",
+   "rules": [
+    {
+     "grant": "Class Feature:We Deliver",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Secret Sauce",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Aromatic Sweat",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Magnificient Meal",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Legendary Morsel (Sous Chef)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Cook"
+  },
+  {
+   "id": "Subclass:Mess Sergeant",
+   "type": "Subclass",
+   "name": "Mess Sergeant",
+   "desc": "The archetypal Mess Sergeant believes in a stringent diet, complete control over what goes in and out of one’s body. They seek bodily perfection through a...",
+   "rules": [
+    {
+     "grant": "Class Feature:Never Satisfied",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Raucous Belch",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Sturdy Stomach",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Strict Diet",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Legendary Morsel (Mess Sergeant)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Cook"
+  },
+  {
+   "id": "Subclass:Hash Slinger",
+   "type": "Subclass",
+   "name": "Hash Slinger",
+   "desc": "The archetypal Hash Slinger believes more in the scientific aspect of food than in the art of it. Food is the fuel, and the body is the fire. If you can...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:We Deliver Death",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Horrific Stench",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Noxious Strike",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Legendary Morsel (Hash Slinger)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Cook"
+  },
+  {
+   "id": "Subclass:Brewmeister",
+   "type": "Subclass",
+   "name": "Brewmeister",
+   "desc": "Where most would see only the danger or the fun in the world’s most common vice, the Brewmeister sees potential. Specialists in booze, they study the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spiked Morsel",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Drunken Stumble",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Boozy Yield",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Angry Drunk",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Legendary Morsel (Brewmeister)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Cook"
+  },
+  {
+   "id": "Subclass:Monster Masher",
+   "type": "Subclass",
+   "name": "Monster Masher",
+   "desc": "Most cooks stumble upon the physical power of vitality, or perhaps they simply feel its power in their gut. Monster Mashers cannot stand this ignorance and...",
+   "rules": [
+    {
+     "grant": "Class Feature:Vital Harvest",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Autonomous Bag",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Combat Bag",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Vital Observance",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Legendary Morsel (Monster Masher)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Cook"
+  },
+  {
+   "id": "Subclass:Requiem of the Ash",
+   "type": "Subclass",
+   "name": "Requiem of the Ash",
+   "desc": "Requiem of the Ash Grave Wardens focus on the ebbs and flows of life and death. They feel most comfortable surrounded by armies made of bone, and have...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Ash)"
+    },
+    {
+     "grant": "Class Feature:Undead Servant (Dust Skeleton)"
+    },
+    {
+     "grant": "Class Feature:Undead Graft (Skeletal)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Paralyzing Touch",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Greater Undead Servant (Requiem of the Ash)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Reanimation",
+     "level": 17
+    },
+    {
+     "grant": "Class Feature:Ossien Armor",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Grave Warden",
+   "expandedList": {
+    "class": "Grave Warden",
+    "spells": [
+     "Fire Bolt",
+     "Mending",
+     "Resistance"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Requiem of the Frigid",
+   "type": "Subclass",
+   "name": "Requiem of the Frigid",
+   "desc": "Requiem of the Frigid Grave Wardens bring a cold gripping death to their foes. Harnessing the chill of winter, they are able conjure ice and snow on a whim.",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Frigid)"
+    },
+    {
+     "grant": "Class Feature:Undead Servant (Frozen Ghost)"
+    },
+    {
+     "grant": "Class Feature:Undead Graft (Frostbite)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Chilling Touch",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Greater Undead Servant (Requiem of the Frigid)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Splinter the Ice",
+     "level": 17
+    },
+    {
+     "grant": "Class Feature:Chilled to the Bone",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Grave Warden",
+   "expandedList": {
+    "class": "Grave Warden",
+    "spells": [
+     "Ray of Frost",
+     "Thaumaturgy",
+     "Resistance"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Requiem of the Haunt",
+   "type": "Subclass",
+   "name": "Requiem of the Haunt",
+   "desc": "Requiem of the Haunt Grave Wardens live in the shadows. They are able to spread their influence to snuff out light and enjoy terrifying their foes with...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Haunt)"
+    },
+    {
+     "grant": "Class Feature:Undead Servant (Tenebrous Shadow)"
+    },
+    {
+     "grant": "Class Feature:Undead Graft (Mist)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dreadful Touch",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Greater Undead Servant (Requiem of the Haunt)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Terror in the Night",
+     "level": 17
+    },
+    {
+     "grant": "Class Feature:Secrecy of Shadows",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Grave Warden",
+   "expandedList": {
+    "class": "Grave Warden",
+    "spells": [
+     "Dancing Lights",
+     "Minor Illusion",
+     "Thaumaturgy"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Requiem of the Torpor",
+   "type": "Subclass",
+   "name": "Requiem of the Torpor",
+   "desc": "Requiem of the Torpor Grave Wardens drain the very energy out of their victims while spreading death and decay upon the battle field.",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Torpor)"
+    },
+    {
+     "grant": "Class Feature:Undead Servant (Rotting Zombie)"
+    },
+    {
+     "grant": "Class Feature:Undead Graft (Decay)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Weakening Touch",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Greater Undead Servant (Requiem of the Torpor)",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Undead Cohort",
+     "level": 17
+    },
+    {
+     "grant": "Class Feature:Billowing Decay",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Grave Warden",
+   "expandedList": {
+    "class": "Grave Warden",
+    "spells": [
+     "Acid Splash",
+     "Poison Spray",
+     "Thaumaturgy"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Arcane Order",
+   "type": "Subclass",
+   "name": "The Arcane Order",
+   "desc": "The Arcane Order is an eldritch society built on mentorstudent relationships. While the Order is unified in name, each member tends to operate alone or with...",
+   "rules": [
+    {
+     "grant": "Class Feature:Arcane Order Initiate",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (The Arcane Order)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Amethyst Mark",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Occult Savant",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Arcane Recovery",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Magus",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Magus Arcane Order"
+   }
+  },
+  {
+   "id": "Subclass:The Knights Stygian",
+   "type": "Subclass",
+   "name": "The Knights Stygian",
+   "desc": "The Knights Stygian take it upon themselves to seek out and cleanse the world of its corruption. These magi seek to protect the innocent, defend the weak,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Knights Stygian Initiate",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (The Knights Stygian)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Obsidian Seal",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Face of Fear",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Necromantic Surge",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Magus",
+   "casting": {
+    "ability": "cha",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Magus Knights Stygian"
+   }
+  },
+  {
+   "id": "Subclass:The Primordial Seal",
+   "type": "Subclass",
+   "name": "The Primordial Seal",
+   "desc": "The Primordial Seal claims to be an ancient order responsible for the ongoing safety of the material realms. According to their own lore, the material...",
+   "rules": [
+    {
+     "grant": "Class Feature:Primordial Seal Initiate",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiency & Language",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Tourmaline Mark",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Elemental Alignment",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Elemental Attunement",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Magus",
+   "casting": {
+    "ability": "cha",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Magus Primordial Seal"
+   }
+  },
+  {
+   "id": "Subclass:The Shadow Court",
+   "type": "Subclass",
+   "name": "The Shadow Court",
+   "desc": "Magi of the Shadow Court conspire to shape local and regional politics with a blend of stealth, fighting prowess, and magical ability. Although those...",
+   "rules": [
+    {
+     "grant": "Class Feature:Shadow Court Initiate",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (The Shadow Court)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Jade Seal",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Broken Mirror Jutsu",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:False Body Jutsu",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Magus",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Magus Shadow Court"
+   }
+  },
+  {
+   "id": "Subclass:The Sidereal Cabal",
+   "type": "Subclass",
+   "name": "The Sidereal Cabal",
+   "desc": "Magi in the Sidereal Cabal consult the stars to foresee the future and intercede at moments of particular import. Once, long ago, the cabal followed a...",
+   "rules": [
+    {
+     "grant": "Class Feature:Sidereal Cabal Initiate",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (The Sidereal Cabal)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Selenite Seal",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Celestial Clockwork Control",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Seal Fate",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Magus",
+   "casting": {
+    "ability": "int",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Magus Sidereal Cabal"
+   }
+  },
+  {
+   "id": "Subclass:The Sylvan Circle",
+   "type": "Subclass",
+   "name": "The Sylvan Circle",
+   "desc": "Magi of the Sylvan Circle are drawn together by their reverence for the natural world. Members of this eldritch society become magi to protect sacred lands...",
+   "rules": [
+    {
+     "grant": "Class Feature:Sylvan Circle Initiate",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (The Sylvan Circle)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Emerald Mark",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Nature’s Mask",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Font of Life",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Magus",
+   "casting": {
+    "ability": "wis",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Magus Sylvan Circle"
+   }
+  },
+  {
+   "id": "Subclass:Arena Royal",
+   "type": "Subclass",
+   "name": "Arena Royal",
+   "desc": "Pugilists in the Arena Royale fight club travel the world earning their keep as equal parts performer and gladiator. Whether performing in staged physical...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency (Arena Royal)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Persona Libre",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Work The Crowd",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:High Flyer",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Signature Move",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:Bloodhound Bruisers",
+   "type": "Subclass",
+   "name": "Bloodhound Bruisers",
+   "desc": "Pugilists in the Bloodhound Bruisers fight club are notorious for looking for trouble and finding it every time. Members of this fight club are highly...",
+   "rules": [
+    {
+     "grant": "Class Feature:Ever Vigilant",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Detective Work",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Scrap Like a Sleuth",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Heart of the City",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Eyes Wide Open",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:Dog And Hound",
+   "type": "Subclass",
+   "name": "Dog And Hound",
+   "desc": "You’ve never had a friend you could rely on that walked on two legs. Lucky for you, you’ve got the best four-legged friend a body could ask for. Pugilists...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency (Dog And Hound)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Brawler’s Best Friend",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mutt With Moxie",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcanine Bite",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Coordinated Attack",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Hound’s Best Friend",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Dire Hound",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:Salt and Vinegar",
+   "type": "Subclass",
+   "name": "Salt and Vinegar",
+   "desc": "Pugilists in the Salt & Vinegar fight club revel in their reputations as heels. Widely despised for their obscene curses and dirty tricks, these pugilists...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency (Salt and Vinegar)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Salty Salute",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dirty Tricks",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Mean Old Cuss",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:The Uncouth Art",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:The Squared Circle",
+   "type": "Subclass",
+   "name": "The Squared Circle",
+   "desc": "Pugilists who fight in the Squared Circle know you don’t have to knock an opponent senseless to get them to submit. Of course, members of the Squared Circle...",
+   "rules": [
+    {
+     "grant": "Class Feature:Groundwork",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Meat Shield",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Heavyweight",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Clean Finish",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:The Sweet Science",
+   "type": "Subclass",
+   "name": "The Sweet Science",
+   "desc": "Pugilists who practice the Sweet Science hit hard, fast, and often. This style is sometimes used by fighters who battle for the entertainment of the upper...",
+   "rules": [
+    {
+     "grant": "Class Feature:Cross Counter",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:One, Two, Three, Floor",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Float Like a Butterfly, Sting Like a Bee",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Knock Out",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:Hand of Dread",
+   "type": "Subclass",
+   "name": "Hand of Dread",
+   "desc": "In your darkest hour you pleaded for the strength to take what you wanted from the world and a dread power took notice. At first, you may have relished the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Black Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dread Hand",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Deal With The Devil",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Grotesque Growth",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Fountain of Viscera",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist",
+   "casting": {
+    "ability": "con",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Hand of Dread"
+   }
+  },
+  {
+   "id": "Subclass:Whiskey Fist",
+   "type": "Subclass",
+   "name": "Whiskey Fist",
+   "desc": "Pugilists in the Whiskey Fist fight club are the bane of tavern owners throughout the land. There is nothing a Whiskey Fist pugilist likes more than to get...",
+   "rules": [
+    {
+     "grant": "Class Feature:Drink Like a Demon",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Homebrewer",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Fish In Water",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hair of The Dog",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Mean Drunk",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Minotaur in a Glassworker’s Shoppe",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Pugilist"
+  },
+  {
+   "id": "Subclass:Beast & Briar",
+   "type": "Subclass",
+   "name": "Beast & Briar",
+   "desc": "A violent encounter with a wild beast or the sting of poisonous nettles nearly laid you low. When you survived, you discovered your experience had changed...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Beast & Briar)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Grey Gardener",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Possess Beast",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Green Graveyard",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Spiritualist",
+   "expandedList": {
+    "class": "Spiritualist",
+    "spells": [
+     "Briar"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Bloody Blade",
+   "type": "Subclass",
+   "name": "Bloody Blade",
+   "desc": "You were nearly done in by an attack at the hands of another humanoid. Whether it was a trusted friend, a stranger, or a hired assassin, the experience...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Bloody Blade)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bad Blood",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Killing Field",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Spiritualist",
+   "expandedList": {
+    "class": "Spiritualist",
+    "spells": [
+     "Blade"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Plague & Poison",
+   "type": "Subclass",
+   "name": "Plague & Poison",
+   "desc": "Just when a disease or toxin brought you to the brink of death, your fever broke and you survived. The foreign element that nearly killed you left a stain...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (Plague & Poison)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Inured to Toxins",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Devitalizing Touch",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Scarlet Fever",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Spiritualist",
+   "expandedList": {
+    "class": "Spiritualist",
+    "spells": [
+     "Poison"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Battlemage",
+   "type": "Subclass",
+   "name": "Battlemage",
+   "desc": "Battlemages wear heavy armor and stride onto the battlefield with little worry for potential dangers. They, more than other swordmages, delve deep enough...",
+   "rules": [
+    {
+     "grant": "Class Feature:Battlemage Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Studied Soldier",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcane Aegis",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hardened Mind",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Elemental Protection",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:War Mage",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Swordmage",
+   "expandedList": {
+    "class": "Swordmage",
+    "spells": [
+     "Wizard"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Eldritch Archer",
+   "type": "Subclass",
+   "name": "Eldritch Archer",
+   "desc": "Eldritch Archers specialize in ranged weaponry, weaving magic into their shots and uing their weapons to extend the lethal range of their spells.",
+   "rules": [
+    {
+     "grant": "Class Feature:Eldritch Archer Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcane Ammunition",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Increased Casting Range",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Phasing Shot",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Arcane Beacon",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Eldritch Accuracy",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Swordmage"
+  },
+  {
+   "id": "Subclass:Spellsword",
+   "type": "Subclass",
+   "name": "Spellsword",
+   "desc": "Spellswords are fast-moving skirmishers. Masters at navigating a battlefield, they use their magic to approach their enemies, deal empowered strikes with...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellsword Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Infusion Surge",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcane Counter",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Recursive Strike",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Arcane Advance",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Enhanced Counter",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Swordmage"
+  }
+ ]
+}

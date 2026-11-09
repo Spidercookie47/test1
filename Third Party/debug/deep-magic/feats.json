@@ -1,0 +1,889 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Rune Knowledge (1)",
+   "type": "Feat",
+   "name": "Rune Knowledge (1)",
+   "desc": "Prerequisite: Wisdom 12 or higher\n\nYou are wise in the lore of two runes of your choice. You always have access to their rune bonuses. In addition, every day you can invoke one rune power for each rune you’ve learned, provided you meet any other requirements such as a minimum level.\n\nYou can select this feat multiple times. Each time you do, you gain the bonus and powers of two additional runes of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune, Rune Knowledge",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Algiz (1)",
+       "Class Feature:Ansuz (1)",
+       "Class Feature:Berkanan (1)",
+       "Class Feature:Dagaz (1)",
+       "Class Feature:Ehwaz (1)",
+       "Class Feature:Eiwaz (1)",
+       "Class Feature:Fehu (1)",
+       "Class Feature:Gebu (1)",
+       "Class Feature:Hagalaz (1)",
+       "Class Feature:Ingwaz (1)",
+       "Class Feature:Isaz (1)",
+       "Class Feature:Jera (1)",
+       "Class Feature:Kaunen (1)",
+       "Class Feature:Laukaz (1)",
+       "Class Feature:Mannaz (1)",
+       "Class Feature:Naudiz (1)",
+       "Class Feature:Nyköping (1)",
+       "Class Feature:Otalan (1)",
+       "Class Feature:Perto (1)",
+       "Class Feature:Raido (1)",
+       "Class Feature:Sowilo (1)",
+       "Class Feature:Tewaz (1)",
+       "Class Feature:Turisaz (1)",
+       "Class Feature:Uruz (1)",
+       "Class Feature:Wunjo (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Rune Knowledge (2)",
+   "type": "Feat",
+   "name": "Rune Knowledge (2)",
+   "desc": "Prerequisite: Wisdom 12 or higher\n\nYou are wise in the lore of two runes of your choice. You always have access to their rune bonuses. In addition, every day you can invoke one rune power for each rune you’ve learned, provided you meet any other requirements such as a minimum level.\n\nYou can select this feat multiple times. Each time you do, you gain the bonus and powers of two additional runes of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune, Rune Knowledge",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Algiz (1)",
+       "Class Feature:Ansuz (1)",
+       "Class Feature:Berkanan (1)",
+       "Class Feature:Dagaz (1)",
+       "Class Feature:Ehwaz (1)",
+       "Class Feature:Eiwaz (1)",
+       "Class Feature:Fehu (1)",
+       "Class Feature:Gebu (1)",
+       "Class Feature:Hagalaz (1)",
+       "Class Feature:Ingwaz (1)",
+       "Class Feature:Isaz (1)",
+       "Class Feature:Jera (1)",
+       "Class Feature:Kaunen (1)",
+       "Class Feature:Laukaz (1)",
+       "Class Feature:Mannaz (1)",
+       "Class Feature:Naudiz (1)",
+       "Class Feature:Nyköping (1)",
+       "Class Feature:Otalan (1)",
+       "Class Feature:Perto (1)",
+       "Class Feature:Raido (1)",
+       "Class Feature:Sowilo (1)",
+       "Class Feature:Tewaz (1)",
+       "Class Feature:Turisaz (1)",
+       "Class Feature:Uruz (1)",
+       "Class Feature:Wunjo (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Rune Knowledge (3)",
+   "type": "Feat",
+   "name": "Rune Knowledge (3)",
+   "desc": "Prerequisite: Wisdom 12 or higher\n\nYou are wise in the lore of two runes of your choice. You always have access to their rune bonuses. In addition, every day you can invoke one rune power for each rune you’ve learned, provided you meet any other requirements such as a minimum level.\n\nYou can select this feat multiple times. Each time you do, you gain the bonus and powers of two additional runes of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune, Rune Knowledge",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Algiz (1)",
+       "Class Feature:Ansuz (1)",
+       "Class Feature:Berkanan (1)",
+       "Class Feature:Dagaz (1)",
+       "Class Feature:Ehwaz (1)",
+       "Class Feature:Eiwaz (1)",
+       "Class Feature:Fehu (1)",
+       "Class Feature:Gebu (1)",
+       "Class Feature:Hagalaz (1)",
+       "Class Feature:Ingwaz (1)",
+       "Class Feature:Isaz (1)",
+       "Class Feature:Jera (1)",
+       "Class Feature:Kaunen (1)",
+       "Class Feature:Laukaz (1)",
+       "Class Feature:Mannaz (1)",
+       "Class Feature:Naudiz (1)",
+       "Class Feature:Nyköping (1)",
+       "Class Feature:Otalan (1)",
+       "Class Feature:Perto (1)",
+       "Class Feature:Raido (1)",
+       "Class Feature:Sowilo (1)",
+       "Class Feature:Tewaz (1)",
+       "Class Feature:Turisaz (1)",
+       "Class Feature:Uruz (1)",
+       "Class Feature:Wunjo (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Rune Mastery (1)",
+   "type": "Feat",
+   "name": "Rune Mastery (1)",
+   "desc": "Prerequisite: Rune Knowledge feat\n\nYou have mastered the secret powers of one ancient rune. Choose one rune that you already learned through Rune Knowledge. Once per day, you can invoke one of its Rune Mastery powers.\n\nYou can select this feat multiple times. Each time you do, you learn the Rune Mastery powers of a diferent rune from your repertoire.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune, Rune Mastery",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Algiz (2)",
+       "Class Feature:Ansuz (2)",
+       "Class Feature:Berkanan (2)",
+       "Class Feature:Dagaz (2)",
+       "Class Feature:Ehwaz (2)",
+       "Class Feature:Eiwaz (2)",
+       "Class Feature:Fehu (2)",
+       "Class Feature:Gebu (2)",
+       "Class Feature:Hagalaz (2)",
+       "Class Feature:Ingwaz (2)",
+       "Class Feature:Isaz (2)",
+       "Class Feature:Jera (2)",
+       "Class Feature:Kaunen (2)",
+       "Class Feature:Laukaz (2)",
+       "Class Feature:Mannaz (2)",
+       "Class Feature:Naudiz (2)",
+       "Class Feature:Nyköping (2)",
+       "Class Feature:Otalan (2)",
+       "Class Feature:Perto (2)",
+       "Class Feature:Raido (2)",
+       "Class Feature:Sowilo (2)",
+       "Class Feature:Tewaz (2)",
+       "Class Feature:Turisaz (2)",
+       "Class Feature:Uruz (2)",
+       "Class Feature:Wunjo (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Rune Mastery (2)",
+   "type": "Feat",
+   "name": "Rune Mastery (2)",
+   "desc": "Prerequisite: Rune Knowledge feat\n\nYou have mastered the secret powers of one ancient rune. Choose one rune that you already learned through Rune Knowledge. Once per day, you can invoke one of its Rune Mastery powers.\n\nYou can select this feat multiple times. Each time you do, you learn the Rune Mastery powers of a diferent rune from your repertoire.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune, Rune Mastery",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Algiz (2)",
+       "Class Feature:Ansuz (2)",
+       "Class Feature:Berkanan (2)",
+       "Class Feature:Dagaz (2)",
+       "Class Feature:Ehwaz (2)",
+       "Class Feature:Eiwaz (2)",
+       "Class Feature:Fehu (2)",
+       "Class Feature:Gebu (2)",
+       "Class Feature:Hagalaz (2)",
+       "Class Feature:Ingwaz (2)",
+       "Class Feature:Isaz (2)",
+       "Class Feature:Jera (2)",
+       "Class Feature:Kaunen (2)",
+       "Class Feature:Laukaz (2)",
+       "Class Feature:Mannaz (2)",
+       "Class Feature:Naudiz (2)",
+       "Class Feature:Nyköping (2)",
+       "Class Feature:Otalan (2)",
+       "Class Feature:Perto (2)",
+       "Class Feature:Raido (2)",
+       "Class Feature:Sowilo (2)",
+       "Class Feature:Tewaz (2)",
+       "Class Feature:Turisaz (2)",
+       "Class Feature:Uruz (2)",
+       "Class Feature:Wunjo (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Rune Mastery (3)",
+   "type": "Feat",
+   "name": "Rune Mastery (3)",
+   "desc": "Prerequisite: Rune Knowledge feat\n\nYou have mastered the secret powers of one ancient rune. Choose one rune that you already learned through Rune Knowledge. Once per day, you can invoke one of its Rune Mastery powers.\n\nYou can select this feat multiple times. Each time you do, you learn the Rune Mastery powers of a diferent rune from your repertoire.",
+   "rules": [
+    {
+     "select": {
+      "name": "Rune, Rune Mastery",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Algiz (2)",
+       "Class Feature:Ansuz (2)",
+       "Class Feature:Berkanan (2)",
+       "Class Feature:Dagaz (2)",
+       "Class Feature:Ehwaz (2)",
+       "Class Feature:Eiwaz (2)",
+       "Class Feature:Fehu (2)",
+       "Class Feature:Gebu (2)",
+       "Class Feature:Hagalaz (2)",
+       "Class Feature:Ingwaz (2)",
+       "Class Feature:Isaz (2)",
+       "Class Feature:Jera (2)",
+       "Class Feature:Kaunen (2)",
+       "Class Feature:Laukaz (2)",
+       "Class Feature:Mannaz (2)",
+       "Class Feature:Naudiz (2)",
+       "Class Feature:Nyköping (2)",
+       "Class Feature:Otalan (2)",
+       "Class Feature:Perto (2)",
+       "Class Feature:Raido (2)",
+       "Class Feature:Sowilo (2)",
+       "Class Feature:Tewaz (2)",
+       "Class Feature:Turisaz (2)",
+       "Class Feature:Uruz (2)",
+       "Class Feature:Wunjo (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Void Channeler",
+   "type": "Feat",
+   "name": "Void Channeler",
+   "desc": "As an action, you can speak aloud a word or short phrase in void speech. One creature of your choice within 10 feet that can hear you must succeed on a Wisdom saving throw against this magic (DC 8 + your proiciency bonus + your Charisma modiier) or be frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of its turn, ending the efect on itself on a success.\n\nOther creatures who can hear you sufer minor reactions to the void speech such as spontaneous nosebleeds, headaches, bits of hair falling out, and other unsetling efects. The first time you use this ability, you sufer no adverse efect. If you use it again before completing a short or long rest, you take 1d4 necrotic damage. Each additional time you use it before finishing a rest, the necrotic damage increases by 1d4.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Void Scribe",
+   "type": "Feat",
+   "name": "Void Scribe",
+   "desc": "As an action, you can use a writing medium to inscribe a magical void glyph on an unatended object within reach. As long as the glyph remains intact, the object is vulnerable to necrotic damage and it takes 1d6 necrotic damage at the end of your turn.\n\nFor the glyph to remain intact, you must concentrate on it as if concentrating on a spell. In addition to the normal demands of concentration, you must also make a successful DC 10 Constitution saving throw at the start of your turn or the glyph crumbles away and ceases to function.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Star and Shadow Reader",
+   "type": "Feat",
+   "name": "Star and Shadow Reader",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nBy tracking the movements of the heavens, you gain the following benefits:\n\n- When you gain this feat, choose either radiant or necrotic damage. Spells you cast ignore resistance (but not vulnerability) to the type of damage you chose.\n- You can cast augury once between each of your long rests without expending a spell slot.\n- You gain darkvision to a distance of 15 feet. If you already have darkvision, increase its range by 15 feet.",
+   "rules": [
+    {
+     "select": {
+      "name": "Damage Type",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Radiant",
+       "Class Feature:Necrotic"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Ley Initiate",
+   "type": "Feat",
+   "name": "Ley Initiate",
+   "desc": "Prerequisite: Intelligence or Wisdom 13 or higher\n\nYou see ley lines and can draw on their power. You gain the following benefits:\n\n- Increase your Intelligence or Wisdom score by 1, to a maximum of 20.\n- You can sense the presence of every ley line within 1 mile of your location. If you have line of sight to the line itself, it’s visible to you in some obviously magical fashion.\n- You can tap ley lines for their inherent powers.\n- When you finish a short rest within 1 mile of a ley line, you can regain one expended spell slot whose level is no higher than your Intelligence or Wisdom modifier (your choice, minimum of 1st level). You can’t use this ability again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Ley-Bound",
+   "type": "Feat",
+   "name": "Ley-Bound",
+   "desc": "You instinctively feel the flow of ley line energy and draw insight from it. You gain the following benefits:\n\n- Increase your Wisdom score by 1, to a maximum of 20.\n- You have advantage on Wisdom (Survival) checks made to track a creature overland or to forage for food and water.\n- When you finish a long rest within 1 mile of a ley line, you gain inspiration. If unused, this inspiration fades away after your next long rest.\n- When you finish a long rest within 1 mile of a ley line, you can infuse ley energy into a token in your possession. If you make a saving throw while you have the infused token in your possession, you can use your reaction to roll a d4 and add the result to your saving throw. You can trigger this ability after rolling the d20 but before success or failure is revealed. You can’t use this ability again until you finish a long rest.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Heavenly Scribe",
+   "type": "Feat",
+   "name": "Heavenly Scribe",
+   "desc": "Prerequisite: Intelligence 13\n\nYou have discovered the name of an angel and deciphered the means to invoke a sliver of its power. You gain the following benefits:\n\n- You learn the Celestial language if you don’t already know it.\n- You learn one angelic seal of your choice from among those available to the Angelic Scribe arcane tradition. If it requires a saving throw, your DC equals 8 + your proficiency bonus + your Intelligence modifier.",
+   "rules": [
+    {
+     "grant": "Language:Celestial"
+    },
+    {
+     "select": {
+      "name": "Angelic Seal, Heavenly Scribe",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Benevolence (Amnayeth)",
+       "Class Feature:Clarity (Simil)",
+       "Class Feature:Fortitude (Rikbil)",
+       "Class Feature:Fortune (Barrateth)",
+       "Class Feature:Glory (Vrechiel)",
+       "Class Feature:Humility (Ophanim)",
+       "Class Feature:Judgement (Chamule)",
+       "Class Feature:Recovery (Jelaal)",
+       "Class Feature:Temperance (Iaothe)",
+       "Class Feature:Wrath (Xapanie)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Heaven’s Chosen",
+   "type": "Feat",
+   "name": "Heaven’s Chosen",
+   "desc": "Prerequisite: Any nonevil alignment\n\nYou have drawn the attention of a benevolent celestial spirit that protects you from harm. When you fail a saving throw, you can choose to roll a new saving throw with a single d20 regardless of any circumstances that would otherwise impose advantage or disadvantage.\n\nYou can’t use this feat again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Arcane Charger",
+   "type": "Feat",
+   "name": "Arcane Charger",
+   "desc": "Prerequisite: The ability to cast at least one cantrip.\n\nWhen you use your action to Dash, you can cast a cantrip with a range of touch by using your bonus action. If you move at least 10 feet in a straight line and hit with your cantrip, you can either add a +5 bonus to the spell’s damage roll or push the target 10 feet away from you.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Arms Booster",
+   "type": "Feat",
+   "name": "Arms Booster",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYou can channel the power of your spells into an ally’s weapon. By touching a weapon and expending a spell slot of 1st level or higher as an action, the weapon becomes temporarily magical for a number of rounds equal to the level of the spell slot expended. The weapon counts as magical and gains a +1 bonus to damage rolls but gains no bonus to attack rolls. This effect ends when the duration expires, when you lose your concentration, or when you cast a spell that requires your concentration.\n\nYou must complete a short or long rest before you can use arcane infusion again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Battlecaster",
+   "type": "Feat",
+   "name": "Battlecaster",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYou are skilled at casting spells with a weapon in hand.\n\n- You can use a weapon that you’re proficient with as a spellcasting focus.\n- When wielding a magical weapon that you’re proficient with and that provides a bonus to hit and damage, you can also add that weapon’s bonus to damage rolls for spells you cast.\n- You gain proficiency with a simple or martial weapon of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Eldritch Lifesaver",
+   "type": "Feat",
+   "name": "Eldritch Lifesaver",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYou’ve learned to cannibalize the power of your spells to reinvigorate your allies. As a bonus action, you can expend a spell slot of 1st level or higher to heal yourself or an ally within 30 feet. The number of hit points healed equals the level of the expended slot. In addition, the target gains temporary hit points equal to your spellcasting ability modifier.\n\nYou must finish a long rest before you can use eldritch lifesaver again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Elemental Trapper",
+   "type": "Feat",
+   "name": "Elemental Trapper",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYour spells that do elemental damage leave a lingering danger on the battlefield. When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder. When you cast a spell of 1st level or higher that does the chosen type of damage, you can choose to leave behind an elemental cloud that fills the same area as the original spell. Spells that target individuals create a 5-foot-diameter cloud in the target’s space. The cloud is stationary and lasts until the start of your next turn. Creatures that end their turn inside an elemental cloud take damage of the cloud’s type equal to your spellcasting ability modifier + the level of the spell slot expended when the spell was cast.",
+   "rules": [
+    {
+     "select": {
+      "name": "Damage Type, Elemental Trapper",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Acid",
+       "Class Feature:Cold",
+       "Class Feature:Fire",
+       "Class Feature:Lightning",
+       "Class Feature:Thunder"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Inspirational Caster",
+   "type": "Feat",
+   "name": "Inspirational Caster",
+   "desc": "Prerequisite: The ability to cast at least one spell and Charisma 13 or higher.\n\nYour impressive and inspiring spells rally allies to your cause.\n\n- You gain proficiency in your choice of Intimidation or Persuasion.\n- If you target allies with a spell that does not cause damage, those allies gain advantage on saving throws to resist effects that cause charm or fear for a number of rounds equal to your Charisma ability modifier, in addition to the normal effect of the spell.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency, Inspirational Caster",
+      "from": [
+       "Intimidation",
+       "Persuasion"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Merciful Caster",
+   "type": "Feat",
+   "name": "Merciful Caster",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYou are skilled at taking prisoners through the use of even deadly magic. When damage from one of your spells drops a creature to 0 hit points, you can choose to knock that creature unconscious instead of killing it. You must complete a long rest before merciful caster can be used again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Resolute Caster",
+   "type": "Feat",
+   "name": "Resolute Caster",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYour magic takes on a life of its own when it matters most. Your spells with a duration of concentration remain in effect after you lose concentration until the start of your next turn. This is true whether you lost concentration from taking damage, from being knocked unconscious, or even from being killed. (In the case of your death, the spell ends at the point when your next turn would have begun, if you were alive to take it.)",
+   "rules": []
+  },
+  {
+   "id": "Feat:Circle Spellcaster",
+   "type": "Feat",
+   "name": "Circle Spellcaster",
+   "desc": "Prerequisite: The ability to cast at least one spell.\n\nYou have learned to create a circular flow of magic between yourself and an allied spellcaster to bolster your spells. You gain the following benefits.\n\n- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n- You can spend 2 hours (including during a long rest) creating a mystical bond with another spellcaster. Both of you must spend this time in meditation, and you must remain within 10 feet of each other. Once the bond is formed, you can work together to bolster one another’s magic. When one of you casts a spell that requires concentration, the other can use their reaction to help maintain the spell. If the caster must make a Constitution saving throw to maintain concentration on the spell, both of you make the saving throw. If either of you succeeds, concentration is unbroken. If both saving throws fail, you both lose concentration on any spells you are currently maintaining and you both take 2d6 psychic damage from the strain. You can maintain this bond with only one spellcaster at a time. If you create a new bond, the previous bond breaks. Otherwise, it lasts until the end of your next long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Ring-Bound",
+   "type": "Feat",
+   "name": "Ring-Bound",
+   "desc": "You have acquired a ring-magic-imbued ring as a token of respect. You gain the following benefits.\n\n- You have advantage on saving throws against transmutation spells.\n- You can physically bind your ring token to a weapon with 1 hour of work that can be completed during a short rest. While the ring is attached to the weapon, you can use a bonus action to make the weapon magical until the start of your next turn. After activating this ability twice, you must complete a short or long rest before using it again.\n- Ring wardens and others who respect the traditions of ring magic are favorably disposed toward you. Their starting attitude toward you automatically improves by one step, and you have advantage on Charisma checks related to social interaction with such creatures.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Careful Dragon Mask",
+   "type": "Feat",
+   "name": "Careful Dragon Mask",
+   "desc": "Prerequisite: The ability to invoke a dragon mask\n\nYou’ve mastered the ability to cast spells while wearing your dragon mask. With this feat, you no longer have disadvantage on attack rolls with spells and cantrips, and the targets of your spells don’t have advantage on saving throws, while you’re under the effect of your dragon mask.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Dual Dragon Aspect",
+   "type": "Feat",
+   "name": "Dual Dragon Aspect",
+   "desc": "Prerequisite: The ability to invoke dragon wings\n\nYou’ve mastered the difficult ability to wear two different dragon aspects at the same time. When you switch from one aspect to another, the aspect you remove lingers for 1 round, provided its maximum duration hasn’t expired. During this 1 round of overlap, both aspects are visible and you have full access to the benefits and drawbacks of both aspects simultaneously.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Fearsome Dragon Mask",
+   "type": "Feat",
+   "name": "Fearsome Dragon Mask",
+   "desc": "Prerequisite: The ability to invoke a dragon mask\n\nYou can manipulate the visage of your dragon mask to be a terrifying sight to your foes. Any target struck by your mask’s bite attack must make a successful Wisdom saving throw against your spell save DC or be frightened of you until the end of your next turn. If you augmented the attack with a spell slot, the frightened condition lasts an additional number of rounds = the level of the expended spell slot.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Radiant Dragon Heart",
+   "type": "Feat",
+   "name": "Radiant Dragon Heart",
+   "desc": "Prerequisite: The ability to invoke a dragon heart\n\nYou can link radiant power to your dragon heart. In addition to the damage type done by your dragon heart’s breath attack, the damage is also considered radiant. In addition, a creature that fails its saving throw against the breath weapon is also blinded until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Find the Titan’s Weakness",
+   "type": "Feat",
+   "name": "Find the Titan’s Weakness",
+   "desc": "You can spot the weaknesses in a foe’s defenses. You gain the following benefits.\n\n- Increase your Wisdom score by 1, to a maximum of 20.\n- As an action, you analyze the defenses of one Large or larger creature you can see. Your next attack against that creature is made with advantage, and the attack scores a critical hit on a natural roll of 18, 19, or 20.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Fortifying Healer",
+   "type": "Feat",
+   "name": "Fortifying Healer",
+   "desc": "Prerequisite: The ability to cast at least one spell\n\nYour healing magic is augmented by the fortifying magic of resolute bravery. If you target one or more allies with a spell that allows them to regain hit points, those allies are immune to being frightened for a number of rounds = the level of the healing spell. In addition, one ally who healed hit points (your choice) gains inspiration. You must complete a short or long rest before you can grant inspiration again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Dragonsmith",
+   "type": "Feat",
+   "name": "Dragonsmith",
+   "desc": "You have studied the craft of turning components from a dragon’s body into weapons and armor. Working in conjunction with a master weaponsmith or armorsmith, you can create weapons and armor from the teeth, bones, scales, hide, or other parts of a dragon. The cost to create these items is ten times the normal cost of the item. The number and type of items that can be made from a particular dragon’s corpse is up to the GM, but considering how much violence must be inflicted on a dragon to bring it down, the amount of salvageable raw matieral is low; dragons don’t die from superficial damage.\n\nAny type of melee weapon or bow can be made. The resulting weapon, in the hands of a proficient wielder, does an additional 1d6 damage of a type appropriate to the dragon whose body was used to create the weapon. For example, a blue dragon dagger does 1d4 piercing damage plus 1d6 lightning damage.\n\nAny type of armor can be made except padded or chain (shirt or mail). The resulting armor or shield, in the panoply of a proficient user, provides resistance to the damage type appropriate to the source dragon. For example, black dragon scale mail gives its wearer resistance to acid damage.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Dragonrider",
+   "type": "Feat",
+   "name": "Dragonrider",
+   "desc": "Prerequisite: Strength or Dexterity 15 or higher\n\nYou have trained to climb atop an opponent much larger than yourself, giving you an advantage in combat against enormous foes. You gain the following benefits.\n\n- During your movement, you can try to enter the space of a creature at least two size categories larger than you. To do so, conduct a contest between your Strength (Athletics) or Dexterity (Acrobatics) opposed by the creature’s Dexterity (Acrobatics). If you win, you enter the creature’s space and are considered to be riding it. If you lose, you don’t enter the creature’s space and your movement ends.\n- While you’re riding the creature, if it moves, you move with it. You also have advantage on your first melee attack against the creature on each of your turns.\n- The creature’s attacks against a rider are made with disadvantage.\n- The creature can dislodge you by using an action to conduct a contest between its Dexterity (Acrobatics) and your Dexterity (Acrobatics) or Strength (Athletics), whichever you prefer. If it wins the contest, you are flung off the creature and land on your feet, unharmed, in an adjacent space of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Unthreatening",
+   "type": "Feat",
+   "name": "Unthreatening",
+   "desc": "Prerequisite: Charisma 13 or higher\n\nYou’re adept at making yourself seem to be less of a threat than you actually are. You gain the following benefits.\n\n- Increase your Charisma score by 1, to a maximum of 20.\n- When a creature two or more size categories larger than you targets you with a melee weapon attack, you can use your reaction to make yourself seem pathetic and unthreatening. The creature must redirect its attack against a different target; if no alternative target is within the attacker’s reach or range, it can still attack you. Until the end of your next turn, your next melee or ranged attack against that creature is made with advantage. You must complete a short or long rest before using this ability again.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Negotiator",
+   "type": "Feat",
+   "name": "Negotiator",
+   "desc": "You have honed the knack of the deal and counter offer, perhaps by crossing words with creatures used to getting the upper hand in negotiations. You gain the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n- When you attempt to convince a creature to engage in a course of action or to change its attitude with a Charisma (Persuasion) check and fail, you can retry the check on your next turn with disadvantage.\n- When you purchase a good or service, you can attempt an opposed Charisma (Persuasion) check versus the seller’s Wisdom (Insight). If you win the contest, you secure a 10 percent discount on the transaction. Once you use this feature on a given individual, you can’t use it on them again for one week.\n- When you pay for lifestyle expenses during downtime, they are halved.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Survivor",
+   "type": "Feat",
+   "name": "Survivor",
+   "desc": "You are well-versed in surviving in hostile environments, even thriving where others are sure to perish. You gain the following benefits:\n\n- Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n- You require only half of the food and water normally required for a creature of your size.\n- You can withstand extreme temperatures indefinitely, and you automatically pass saving throws made against extreme heat and cold for a number of days equal to your Constitution or Wisdom modifier, whichever is lower. After this time, you must make saving throws as normal until you spend 24 hours in a comfortable temperature.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Script Carver (1)",
+   "type": "Feat",
+   "name": "Script Carver (1)",
+   "desc": "Prerequisite: Intelligence 12 or higher\n\nYou have unlocked the secrets of two hieroglyphs of your choice, and you gain the benefits associated with the hieroglyphs. In addition, once per day you can invoke one power for each hieroglyph you’ve unlocked, provided you meet the hieroglyph requirements.\n\nYou can take this feat multiple times. Each time you do, you gain the bonuses and powers of two additional hieroglyphs of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Hieroglyph, Script Carver",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (1)",
+       "Class Feature:Dress the Air with the Cloying and the Fair (1)",
+       "Class Feature:Drink Deep of the River’s Power (1)",
+       "Class Feature:Flourish in Death As in Life (1)",
+       "Class Feature:Fly as the Falcon, Howl as the Wolf (1)",
+       "Class Feature:Gifts Taken from the Silver Coffer (1)",
+       "Class Feature:Give Succor to Thy People (1)",
+       "Class Feature:The Gods’ Company is Like Light (1)",
+       "Class Feature:Grasping Arms of Balance (1)",
+       "Class Feature:He Hath Repulsed the Fiends (1)",
+       "Class Feature:Hold the Storm in an Urn of the Wind (1)",
+       "Class Feature:The Jackal Moves On Tirelessly (1)",
+       "Class Feature:On the Day of the Destruction of the Fiends (1)",
+       "Class Feature:Open the Hidden Springs and Unbolt the Shrine (1)",
+       "Class Feature:Savor the Divine Company of the Gods (1)",
+       "Class Feature:Shine at the Monument of the Mighty (1)",
+       "Class Feature:Stand Above All (1)",
+       "Class Feature:Stars and Birds Perceive All (1)",
+       "Class Feature:Watchful Eyes See That Which is Hidden (1)",
+       "Class Feature:With One Heart and Voice the People Raise Cries of Joy (1)",
+       "Class Feature:With the Sight and Talons of the Hawk (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Script Carver (2)",
+   "type": "Feat",
+   "name": "Script Carver (2)",
+   "desc": "Prerequisite: Intelligence 12 or higher\n\nYou have unlocked the secrets of two hieroglyphs of your choice, and you gain the benefits associated with the hieroglyphs. In addition, once per day you can invoke one power for each hieroglyph you’ve unlocked, provided you meet the hieroglyph requirements.\n\nYou can take this feat multiple times. Each time you do, you gain the bonuses and powers of two additional hieroglyphs of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Hieroglyph, Script Carver",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (1)",
+       "Class Feature:Dress the Air with the Cloying and the Fair (1)",
+       "Class Feature:Drink Deep of the River’s Power (1)",
+       "Class Feature:Flourish in Death As in Life (1)",
+       "Class Feature:Fly as the Falcon, Howl as the Wolf (1)",
+       "Class Feature:Gifts Taken from the Silver Coffer (1)",
+       "Class Feature:Give Succor to Thy People (1)",
+       "Class Feature:The Gods’ Company is Like Light (1)",
+       "Class Feature:Grasping Arms of Balance (1)",
+       "Class Feature:He Hath Repulsed the Fiends (1)",
+       "Class Feature:Hold the Storm in an Urn of the Wind (1)",
+       "Class Feature:The Jackal Moves On Tirelessly (1)",
+       "Class Feature:On the Day of the Destruction of the Fiends (1)",
+       "Class Feature:Open the Hidden Springs and Unbolt the Shrine (1)",
+       "Class Feature:Savor the Divine Company of the Gods (1)",
+       "Class Feature:Shine at the Monument of the Mighty (1)",
+       "Class Feature:Stand Above All (1)",
+       "Class Feature:Stars and Birds Perceive All (1)",
+       "Class Feature:Watchful Eyes See That Which is Hidden (1)",
+       "Class Feature:With One Heart and Voice the People Raise Cries of Joy (1)",
+       "Class Feature:With the Sight and Talons of the Hawk (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Script Carver (3)",
+   "type": "Feat",
+   "name": "Script Carver (3)",
+   "desc": "Prerequisite: Intelligence 12 or higher\n\nYou have unlocked the secrets of two hieroglyphs of your choice, and you gain the benefits associated with the hieroglyphs. In addition, once per day you can invoke one power for each hieroglyph you’ve unlocked, provided you meet the hieroglyph requirements.\n\nYou can take this feat multiple times. Each time you do, you gain the bonuses and powers of two additional hieroglyphs of your choice.",
+   "rules": [
+    {
+     "select": {
+      "name": "Hieroglyph, Script Carver",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (1)",
+       "Class Feature:Dress the Air with the Cloying and the Fair (1)",
+       "Class Feature:Drink Deep of the River’s Power (1)",
+       "Class Feature:Flourish in Death As in Life (1)",
+       "Class Feature:Fly as the Falcon, Howl as the Wolf (1)",
+       "Class Feature:Gifts Taken from the Silver Coffer (1)",
+       "Class Feature:Give Succor to Thy People (1)",
+       "Class Feature:The Gods’ Company is Like Light (1)",
+       "Class Feature:Grasping Arms of Balance (1)",
+       "Class Feature:He Hath Repulsed the Fiends (1)",
+       "Class Feature:Hold the Storm in an Urn of the Wind (1)",
+       "Class Feature:The Jackal Moves On Tirelessly (1)",
+       "Class Feature:On the Day of the Destruction of the Fiends (1)",
+       "Class Feature:Open the Hidden Springs and Unbolt the Shrine (1)",
+       "Class Feature:Savor the Divine Company of the Gods (1)",
+       "Class Feature:Shine at the Monument of the Mighty (1)",
+       "Class Feature:Stand Above All (1)",
+       "Class Feature:Stars and Birds Perceive All (1)",
+       "Class Feature:Watchful Eyes See That Which is Hidden (1)",
+       "Class Feature:With One Heart and Voice the People Raise Cries of Joy (1)",
+       "Class Feature:With the Sight and Talons of the Hawk (1)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Script Sage (1)",
+   "type": "Feat",
+   "name": "Script Sage (1)",
+   "desc": "Prerequisite: Script Carver feat\n\nThrough dedicated study, you’ve unlocked a new level of understanding of the meaning and power of hieroglyphs. You’ve mastered one hieroglyph of your choice. You can choose one hieroglyph you know from Script Carver and gain access to its mastery power once per day.\n\nYou can select this feat multiple times. Each time, you gain access to the mastery power of a different hieroglyph.",
+   "rules": [
+    {
+     "select": {
+      "name": "Hieroglyph Mastery, Script Sage",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (2)",
+       "Class Feature:Dress the Air with the Cloying and the Fair (2)",
+       "Class Feature:Drink Deep of the River’s Power (2)",
+       "Class Feature:Flourish in Death As in Life (2)",
+       "Class Feature:Fly as the Falcon, Howl as the Wolf (2)",
+       "Class Feature:Gifts Taken from the Silver Coffer (2)",
+       "Class Feature:Give Succor to Thy People (2)",
+       "Class Feature:The Gods’ Company is Like Light (2)",
+       "Class Feature:Grasping Arms of Balance (2)",
+       "Class Feature:He Hath Repulsed the Fiends (2)",
+       "Class Feature:Hold the Storm in an Urn of the Wind (2)",
+       "Class Feature:The Jackal Moves On Tirelessly (2)",
+       "Class Feature:On the Day of the Destruction of the Fiends (2)",
+       "Class Feature:Open the Hidden Springs and Unbolt the Shrine (2)",
+       "Class Feature:Savor the Divine Company of the Gods (2)",
+       "Class Feature:Shine at the Monument of the Mighty (2)",
+       "Class Feature:Stand Above All (2)",
+       "Class Feature:Stars and Birds Perceive All (2)",
+       "Class Feature:Watchful Eyes See That Which is Hidden (2)",
+       "Class Feature:With One Heart and Voice the People Raise Cries of Joy (2)",
+       "Class Feature:With the Sight and Talons of the Hawk (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Script Sage (2)",
+   "type": "Feat",
+   "name": "Script Sage (2)",
+   "desc": "Prerequisite: Script Carver feat\n\nThrough dedicated study, you’ve unlocked a new level of understanding of the meaning and power of hieroglyphs. You’ve mastered one hieroglyph of your choice. You can choose one hieroglyph you know from Script Carver and gain access to its mastery power once per day.\n\nYou can select this feat multiple times. Each time, you gain access to the mastery power of a different hieroglyph.",
+   "rules": [
+    {
+     "select": {
+      "name": "Hieroglyph Mastery, Script Sage",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (2)",
+       "Class Feature:Dress the Air with the Cloying and the Fair (2)",
+       "Class Feature:Drink Deep of the River’s Power (2)",
+       "Class Feature:Flourish in Death As in Life (2)",
+       "Class Feature:Fly as the Falcon, Howl as the Wolf (2)",
+       "Class Feature:Gifts Taken from the Silver Coffer (2)",
+       "Class Feature:Give Succor to Thy People (2)",
+       "Class Feature:The Gods’ Company is Like Light (2)",
+       "Class Feature:Grasping Arms of Balance (2)",
+       "Class Feature:He Hath Repulsed the Fiends (2)",
+       "Class Feature:Hold the Storm in an Urn of the Wind (2)",
+       "Class Feature:The Jackal Moves On Tirelessly (2)",
+       "Class Feature:On the Day of the Destruction of the Fiends (2)",
+       "Class Feature:Open the Hidden Springs and Unbolt the Shrine (2)",
+       "Class Feature:Savor the Divine Company of the Gods (2)",
+       "Class Feature:Shine at the Monument of the Mighty (2)",
+       "Class Feature:Stand Above All (2)",
+       "Class Feature:Stars and Birds Perceive All (2)",
+       "Class Feature:Watchful Eyes See That Which is Hidden (2)",
+       "Class Feature:With One Heart and Voice the People Raise Cries of Joy (2)",
+       "Class Feature:With the Sight and Talons of the Hawk (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Script Sage (3)",
+   "type": "Feat",
+   "name": "Script Sage (3)",
+   "desc": "Prerequisite: Script Carver feat\n\nThrough dedicated study, you’ve unlocked a new level of understanding of the meaning and power of hieroglyphs. You’ve mastered one hieroglyph of your choice. You can choose one hieroglyph you know from Script Carver and gain access to its mastery power once per day.\n\nYou can select this feat multiple times. Each time, you gain access to the mastery power of a different hieroglyph.",
+   "rules": [
+    {
+     "select": {
+      "name": "Hieroglyph Mastery, Script Sage",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:As Do Every God, Every Bird, Every Fish, and Every Creeping Worm (2)",
+       "Class Feature:Dress the Air with the Cloying and the Fair (2)",
+       "Class Feature:Drink Deep of the River’s Power (2)",
+       "Class Feature:Flourish in Death As in Life (2)",
+       "Class Feature:Fly as the Falcon, Howl as the Wolf (2)",
+       "Class Feature:Gifts Taken from the Silver Coffer (2)",
+       "Class Feature:Give Succor to Thy People (2)",
+       "Class Feature:The Gods’ Company is Like Light (2)",
+       "Class Feature:Grasping Arms of Balance (2)",
+       "Class Feature:He Hath Repulsed the Fiends (2)",
+       "Class Feature:Hold the Storm in an Urn of the Wind (2)",
+       "Class Feature:The Jackal Moves On Tirelessly (2)",
+       "Class Feature:On the Day of the Destruction of the Fiends (2)",
+       "Class Feature:Open the Hidden Springs and Unbolt the Shrine (2)",
+       "Class Feature:Savor the Divine Company of the Gods (2)",
+       "Class Feature:Shine at the Monument of the Mighty (2)",
+       "Class Feature:Stand Above All (2)",
+       "Class Feature:Stars and Birds Perceive All (2)",
+       "Class Feature:Watchful Eyes See That Which is Hidden (2)",
+       "Class Feature:With One Heart and Voice the People Raise Cries of Joy (2)",
+       "Class Feature:With the Sight and Talons of the Hawk (2)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Arcane Prescience",
+   "type": "Feat",
+   "name": "Arcane Prescience",
+   "desc": "Prerequisite: Proficiency with Arcana\n\nAs part of your reaction, you can make an Intelligence (Arcana) check to discern the identity of a spell you see being cast. The DC for the check = 10 + the spell’s level. If the check succeeds, you or one ally of your choosing have advantage on the saving throw against that casting of the spell. After identifying the spell, you can move up to 10 feet or half your speed, whichever is less.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain expended uses after you finish a short or long rest.",
+   "rules": [
+    {
+     "resource": {
+      "id": "arcane-prescience",
+      "name": "Arcane Prescience",
+      "rest": "S",
+      "min": 1,
+      "max": [
+       {
+        "mod": "int"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Clairvoyant Warrior (1)",
+   "type": "Feat",
+   "name": "Clairvoyant Warrior (1)",
+   "desc": "You have a mystical connection to the ebb and flow of combat and can anticipate and even influence the actions of nearby combatants.\n\nYou learn one 1st-level spell of your choice from the divination school of magic. The spell must have a casting time of 1 reaction or 1 bonus action. Choose Intelligence, Wisdom, or Charisma to be your spellcasting ability for this spell. You can cast the spell a number of times equal to your spellcasting ability modifier (minimum of 1). You regain expended castings after finishing a long rest.\n\nThis feat can be taken more than once. Choose a different spell each time the feat is taken.",
+   "rules": [
+    {
+     "select": {
+      "name": "1st-level Spell, Clairvoyant Warrior",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Alter Arrow’s Fortune",
+       "Spell:Anticipate Weakness",
+       "Spell:Auspicious Warning",
+       "Spell:Avoid Grievous Injury",
+       "Spell:Foretell Distraction",
+       "Spell:Hunter's Mark",
+       "Spell:Ill-Fated Word",
+       "Spell:Insightful Maneuver",
+       "Spell:Litany of Sure Hands",
+       "Spell:Seer’s Reaction",
+       "Spell:Slippery Fingers",
+       "Spell:Twist the Skein"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Clairvoyant Warrior (2)",
+   "type": "Feat",
+   "name": "Clairvoyant Warrior (2)",
+   "desc": "You have a mystical connection to the ebb and flow of combat and can anticipate and even influence the actions of nearby combatants.\n\nYou learn one 1st-level spell of your choice from the divination school of magic. The spell must have a casting time of 1 reaction or 1 bonus action. Choose Intelligence, Wisdom, or Charisma to be your spellcasting ability for this spell. You can cast the spell a number of times equal to your spellcasting ability modifier (minimum of 1). You regain expended castings after finishing a long rest.\n\nThis feat can be taken more than once. Choose a different spell each time the feat is taken.",
+   "rules": [
+    {
+     "select": {
+      "name": "1st-level Spell, Clairvoyant Warrior",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Alter Arrow’s Fortune",
+       "Spell:Anticipate Weakness",
+       "Spell:Auspicious Warning",
+       "Spell:Avoid Grievous Injury",
+       "Spell:Foretell Distraction",
+       "Spell:Hunter's Mark",
+       "Spell:Ill-Fated Word",
+       "Spell:Insightful Maneuver",
+       "Spell:Litany of Sure Hands",
+       "Spell:Seer’s Reaction",
+       "Spell:Slippery Fingers",
+       "Spell:Twist the Skein"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Clairvoyant Warrior (3)",
+   "type": "Feat",
+   "name": "Clairvoyant Warrior (3)",
+   "desc": "You have a mystical connection to the ebb and flow of combat and can anticipate and even influence the actions of nearby combatants.\n\nYou learn one 1st-level spell of your choice from the divination school of magic. The spell must have a casting time of 1 reaction or 1 bonus action. Choose Intelligence, Wisdom, or Charisma to be your spellcasting ability for this spell. You can cast the spell a number of times equal to your spellcasting ability modifier (minimum of 1). You regain expended castings after finishing a long rest.\n\nThis feat can be taken more than once. Choose a different spell each time the feat is taken.",
+   "rules": [
+    {
+     "select": {
+      "name": "1st-level Spell, Clairvoyant Warrior",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Alter Arrow’s Fortune",
+       "Spell:Anticipate Weakness",
+       "Spell:Auspicious Warning",
+       "Spell:Avoid Grievous Injury",
+       "Spell:Foretell Distraction",
+       "Spell:Hunter's Mark",
+       "Spell:Ill-Fated Word",
+       "Spell:Insightful Maneuver",
+       "Spell:Litany of Sure Hands",
+       "Spell:Seer’s Reaction",
+       "Spell:Slippery Fingers",
+       "Spell:Twist the Skein"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Potion Fiend",
+   "type": "Feat",
+   "name": "Potion Fiend",
+   "desc": "You are naturally adept at handling potions and getting the best use from them. You gain the following benefits.\n\n- You can drink a potion (including elixirs and philters) as a bonus action. If you have a potion in your hand, you can quaff it as a reaction when you are targeted by a ranged attack or a spell.\n- When drinking a potion of healing, you regain additional hit points equal to your proficiency bonus.\n- When using alchemical supplies while identifying a potion, you have advantage on the die roll.\n- If your GM uses the optional Potion Miscibility table, and you roll a result of 1-25, you can add 25 to the roll.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Skilled Bomber",
+   "type": "Feat",
+   "name": "Skilled Bomber",
+   "desc": "You are skilled at using acid, alchemist’s fire, and other alchemical explosives as weapons. You gain the following benefits.\n\n- Increase your Dexterity score by 1, to a maximum of 20.\n- You gain proficiency with alchemical weapons. If you were already proficient with alchemical weapons, you don’t have disadvantage when you make ranged attacks with thrown alchemical weapons while in melee.\n- The damage die of any alchemical weapon you use increases to the next larger size. A flask of alchemist’s ice, for example, does 1d10 cold damage instead of 1d8 when thrown by you.\n- You can \"shake up\" an alchemical liquid as a bonus action. This destabilizes it and primes it to explode a short time later. Any creature that touches the liquid’s container within 1 minute of you priming it causes the substance to explode and deal its normal damage or otherwise have its normal effect. If the liquid does damage, it deals its standard damage instead of using the next larger die size usually granted by this feat.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  }
+ ]
+}

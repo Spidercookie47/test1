@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "wgte2",
+  "name": "Wayfinder’s Guide to Eberron",
+  "short": "WGTE2"
+ },
+ "files": [
+  "races.json",
+  "equipment.json",
+  "magic-items.json",
+  "feats.json",
+  "info.json"
+ ]
+}

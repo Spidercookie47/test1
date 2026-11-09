@@ -1,0 +1,298 @@
+{
+ "elements": [
+  {
+   "id": "Background:House Agent",
+   "type": "Background",
+   "name": "House Agent",
+   "desc": "Investigation, Persuasion, 2 Tools (Dragonmarked House)",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "select": {
+      "name": "Dragonmarked House",
+      "type": "Background Feature",
+      "ids": [
+       "Background Feature:House Cannith",
+       "Background Feature:House Deneith",
+       "Background Feature:House Ghallanda",
+       "Background Feature:House Jorasco",
+       "Background Feature:House Kundarak",
+       "Background Feature:House Lyrandar",
+       "Background Feature:House Medani",
+       "Background Feature:House Orien",
+       "Background Feature:House Phiarlan",
+       "Background Feature:House Sivis",
+       "Background Feature:House Tharashk",
+       "Background Feature:House Thuranni",
+       "Background Feature:House Vadalis"
+      ]
+     }
+    },
+    {
+     "grant": "Background Feature:House Connections"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I never let emotion complicate work.",
+     "I’m always looking to improve efficiency.",
+     "I share trivia about my house’s business (medicine, ships, warforged).",
+     "I hold myself and anyone I work with to extremely high standards.",
+     "I never forget an insult made against myself or my house.",
+     "I’m very excited and enthusiastic about everything my house does.",
+     "I’m representing my house and take great pride in my personal appearance.",
+     "I’m critical of monarchies and opposed to any restrictions on the houses."
+    ],
+    "ideals": [
+     "Common Good. My house serves a vital function, and its prosperity will help everyone. (Good)",
+     "Tradition. I uphold traditions of my house and bring honor to my family. (Lawful)",
+     "Innovation. Abandon old traditions and find better ways to do things. (Chaotic)",
+     "Power. I want to ensure the prosperity of my house and wield its power myself. (Evil)",
+     "Discovery. I want to learn all I can, both for my house and for my own curiosity. (Any)",
+     "Comfort. I want to ensure that me and mine enjoy the best things in life. (Any)"
+    ],
+    "bonds": [
+     "My house is my family, and I would do anything for my family.",
+     "I love someone from another house, but such relationships are forbidden.",
+     "Someone I love was killed by a rival faction within my house, and I will have revenge.",
+     "I don’t care about the house as a whole, but I would do anything for my old mentor.",
+     "I believe my house needs to evolve to survive, and I need to lead that change.",
+     "I am determined to impress the leaders of my house, and to become a leader myself."
+    ],
+    "flaws": [
+     "I’m overly concerned with following established procedures and protocols.",
+     "I’m obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+     "I believe that my house and bloodline makes me better than everyone else.",
+     "I’m concealing a secret that could get me driven from my house.",
+     "I have strong religious beliefs that aren’t shared by others in my house.",
+     "I’m working for a hidden faction in my house that gives me secret assignments."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:House Connections",
+   "type": "Background Feature",
+   "name": "House Connections",
+   "desc": "As an agent of your house, you can always get food and lodging for your friends at a house enclave. When the house assigns you a mission, it will usually provide you with necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house and you may encounter one of them when you interact with a house business. As a Lyrandar agent you may know the captain of an airship; as a Ghallanda agent you know a lot of innkeepers and bartenders. The degree to which such acquaintances will be willing to help you out will depend on your current standing in your house.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:House Cannith",
+   "type": "Background Feature",
+   "name": "House Cannith",
+   "desc": "You gain proficiency with alchemist’s supplies and tinker’s tools.",
+   "rules": [
+    {
+     "pf": [
+      "t:Alchemist’s supplies",
+      "t:Tinker’s tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Deneith",
+   "type": "Background Feature",
+   "name": "House Deneith",
+   "desc": "You gain proficiency with one gaming set and vehicles (land).",
+   "rules": [
+    {
+     "select": {
+      "name": "Gaming Set, House Deneith",
+      "type": "Tool"
+     }
+    },
+    {
+     "pf": [
+      "t:Vehicle’s land"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Ghallanda",
+   "type": "Background Feature",
+   "name": "House Ghallanda",
+   "desc": "You gain proficiency with brewer’s supplies and cook’s utensils.",
+   "rules": [
+    {
+     "pf": [
+      "t:Brewer’s supplies",
+      "t:Cook’s utensils"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Jorasco",
+   "type": "Background Feature",
+   "name": "House Jorasco",
+   "desc": "You gain proficiency with alchemist’s supplies and herbalism kit.",
+   "rules": [
+    {
+     "pf": [
+      "t:Alchemist’s supplies",
+      "t:Herbalism kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Kundarak",
+   "type": "Background Feature",
+   "name": "House Kundarak",
+   "desc": "You gain proficiency with tinker’s tools and thieves’ tools.",
+   "rules": [
+    {
+     "pf": [
+      "t:Tinker’s tools",
+      "t:Thieves’ tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Lyrandar",
+   "type": "Background Feature",
+   "name": "House Lyrandar",
+   "desc": "You gain proficiency with vehicles (sea/air) and navigator’s tools.",
+   "rules": [
+    {
+     "pf": [
+      "t:Vehicle’s water",
+      "t:Navigator’s tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Medani",
+   "type": "Background Feature",
+   "name": "House Medani",
+   "desc": "You gain proficiency with thieves’ tools and disguise kit.",
+   "rules": [
+    {
+     "pf": [
+      "t:Thieves’ tools",
+      "t:Disguise kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Orien",
+   "type": "Background Feature",
+   "name": "House Orien",
+   "desc": "You gain proficiency with vehicles (land) and one gaming set.",
+   "rules": [
+    {
+     "select": {
+      "name": "Gaming Set, House Orien",
+      "type": "Tool"
+     }
+    },
+    {
+     "pf": [
+      "t:Vehicle’s land"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Phiarlan",
+   "type": "Background Feature",
+   "name": "House Phiarlan",
+   "desc": "You gain proficiency with disguise kit and one musical instrument.",
+   "rules": [
+    {
+     "select": {
+      "name": "Musical Instrument, House Phiarlan",
+      "type": "Tool"
+     }
+    },
+    {
+     "pf": [
+      "t:Disguise kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Sivis",
+   "type": "Background Feature",
+   "name": "House Sivis",
+   "desc": "You gain proficiency with calligrapher’s tools and forgery kit.",
+   "rules": [
+    {
+     "pf": [
+      "t:Calligrapher’s supplies",
+      "t:Forgery kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Tharashk",
+   "type": "Background Feature",
+   "name": "House Tharashk",
+   "desc": "You gain proficiency with thieves’ tools and one gaming set.",
+   "rules": [
+    {
+     "select": {
+      "name": "Gaming Set, House Tharashk",
+      "type": "Tool"
+     }
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Thuranni",
+   "type": "Background Feature",
+   "name": "House Thuranni",
+   "desc": "You gain proficiency with poisoner’s kit and one musical instrument.",
+   "rules": [
+    {
+     "select": {
+      "name": "Musical Instrument, House Phiarlan",
+      "type": "Tool"
+     }
+    },
+    {
+     "pf": [
+      "t:Poisoner’s kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:House Vadalis",
+   "type": "Background Feature",
+   "name": "House Vadalis",
+   "desc": "You gain proficiency with vehicles (land) and herbalism kit.",
+   "rules": [
+    {
+     "pf": [
+      "t:Vehicle’s land",
+      "t:Herbalism kit"
+     ]
+    }
+   ]
+  }
+ ]
+}

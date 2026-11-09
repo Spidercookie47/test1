@@ -1,0 +1,258 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Fiendish Intuition",
+   "type": "Class Feature",
+   "name": "Fiendish Intuition",
+   "desc": "Starting at 3rd level, you have an uncanny ability to sense fiendish trickery and guile. You gain advantage on Wisdom (Perception) and Wisdom (Insight) checks when dealing with fiends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fiend Slayer Rage",
+   "type": "Class Feature",
+   "name": "Fiend Slayer Rage",
+   "desc": "Starting at 3rd level, when you are raging your weapons are considered magical, and if you successfully strike a fiend you deal an additional 1d6 points of radiant damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unparalleled Fortitude",
+   "type": "Class Feature",
+   "name": "Unparalleled Fortitude",
+   "desc": "At 6th level, you have advantage to Constitution checks and saving throws. In addition, while you are raging you have resistance to fire and poison damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Immortal Fear",
+   "type": "Class Feature",
+   "name": "Immortal Fear",
+   "desc": "At 10th level when you score a critical hit against a fiend you fill it with fear and doubt. For 1 minute the creature is gains the frightened condition as long as it can see you. At the end of each of its turns it may make a Wisdom saving throw against a DC of 8+ your proficiency modifier + your charisma modifier, ending the effect on a success.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Death Is Not An Option",
+   "type": "Class Feature",
+   "name": "Death Is Not An Option",
+   "desc": "At 14th level, when you drop to 0 hit points you are not incapacitated, and may continue to take actions, making death saving throws on your turn as normal until you stabilise (in which case you fall unconscious), die or regain at least 1 hit point. You do not suffer death saving throw failures as a result of taking damage during this time. You regain the use of this ability after a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Domain Spells",
+   "type": "Class Feature",
+   "name": "Domain Spells",
+   "desc": "You gain domain spells at the cleric levels listed in the Soul Gatherer Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.\n\nSOUL GATHERER DOMAIN SPELLS\n\nCleric Level | Spells\n1st | detect evil and good, protection from evil and good\n3rd | enhance ability, spiritual weapon\n5th | speak with dead, spirit guardians\n7th | death ward, guardian of faith\n9th | arcane eye, dispel evil and good",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bonus Proficiencies",
+   "type": "Class Feature",
+   "name": "Bonus Proficiencies",
+   "desc": "At 1st level you gain proficiency in Wisdom (Religion) and Charisma (Intimidation) checks.",
+   "rules": [
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "grant": "skill:Intimidation"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Soul Sight",
+   "type": "Class Feature",
+   "name": "Soul Sight",
+   "desc": "At 1st level you can detect the presence of spirits and souls within 60 feet. This ability extends into the ethereal, and only detects spirits, souls and incorporeal undead. It imparts no more information than a creature’s approximate location and if it is on your plane or the ethereal, but you can see such creatures even if their incorporeally would normally render them invisible.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Draw Upon Host",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Draw Upon Host",
+   "desc": "At 2nd level you may use a bonus action to expend your Channel Divinity, drawing upon the host of gathered souls to augment you. For 1 minute you may generate one of the following effects, and you may end the ability at any time as a free action;\n\n- Spectral Arms – you generate arms of force that act with your natural strength and dexterity but are invulnerable to harm. You gain a reach of 10 feet and may use any weapons, tools or skills normally\n- Concealing Ectoplasm – you are surrounded by swirling ectoplasmic ghosts. You gain a +2 to AC against all attacks that rely on sight to target you.\n- Uplifting Spirits – your host gathers around you, gripping and lifting at your command. You gain a fly speed equal to your speed.\n- Intimidating Display – Your host swirls aggressively, darting forth with spectral claws outstretched. You gain advantage to Charisma (Intimidation) checks.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Bind Spirit",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Bind Spirit",
+   "desc": "At 6th level, as an action you may expend your Channel Divinity to generate a wave of paralysing force through the ethereal plane, centred on you, to a range of 30 feet. Any incorporeal undead in the area must make a Charisma saving throw against your spell save DC or gain the paralysed condition for 1 minute, even if they are normally immune to it. Each affected creature may make a saving throw at the end of its turn, freeing itself on a success.\n\nIf you successfully paralyse a creature with this ability, you gain temporary hit points equal to your level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Divine Strike",
+   "type": "Class Feature",
+   "name": "Divine Strike",
+   "desc": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Manifestation",
+   "type": "Class Feature",
+   "name": "Manifestation",
+   "desc": "At 17th level you are able to draw more fully on your spirit host. You gain an additional use of your Channel Divinity per short rest (to a total of 3 uses), and you add the following options to select from when using it;\n\n- Spirit Eyes – A potent spirit merges with your head, leaving you with glowing eyes. You gain true seeing as per the spell\n- Spirit Shield – You spirits infuse your body, channelling away certain harmful energies. You are immune to necrotic and psychic damage.\n- Soul Guard – Your host infuses your soul and you are protected from death. If you are reduced to 0 hit points you immediately gain a number of hit points equal to your cleric level. The channel divinity automatically ends after the effect.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Oath Spells",
+   "type": "Class Feature",
+   "name": "Oath Spells",
+   "desc": "You gain oath spells at the paladin levels listed in the Oath of the Shacklebreaker Spells table. See the Sacred Oath class feature for how oath spells work.\n\nOATH OF THE SHACKLEBREAKER SPELLS\n\nPaladin Level | Spells\n3rd | sanctuary, shield of faith\n5th | knock, lesser restoration\n9th | dispel magic, non detection\n13th | freedom of movement, locate creature\n17th | greater restoration, hallow",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity",
+   "type": "Class Feature",
+   "name": "Channel Divinity",
+   "desc": "When you take this oath at 3rd level, you gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.\n\nShacklebreaker. As an action, you can use your Channel Divinity to generate an instantaneous wave of energy centred on you to a range of 30 feet, ending any effects that impose the grappled or restrained condition. Bonds break, cages open, shackles are released, magical spells or effects that impose the condition are dispelled, and even creatures physically grappling are forced apart.\n\nSurge of Will. As an action you can use your Channel Divinity to redouble the will of friendly creatures. All creatures of your choice within 30 feet are granted advantage on and Wisdom or Charisma saving throws until the start of your next turn, and any creatures under the effects of the charmed condition are immediately allowed a new saving throw to end the effect.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity: Shacklebreaker",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Surge of Will",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Shacklebreaker",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Shacklebreaker",
+   "desc": "As an action, you can use your Channel Divinity to generate an instantaneous wave of energy centred on you to a range of 30 feet, ending any effects that impose the grappled or restrained condition. Bonds break, cages open, shackles are released, magical spells or effects that impose the condition are dispelled, and even creatures physically grappling are forced apart.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Surge of Will",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Surge of Will",
+   "desc": "As an action you can use your Channel Divinity to redouble the will of friendly creatures. All creatures of your choice within 30 feet are granted advantage on and Wisdom or Charisma saving throws until the start of your next turn, and any creatures under the effects of the charmed condition are immediately allowed a new saving throw to end the effect.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Will",
+   "type": "Class Feature",
+   "name": "Aura of Will",
+   "desc": "Starting at 7th level, you constantly emanate and aura of will while you’re not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.\n\nAll creatures within the area, including yourself, are immune to the charmed condition. This does not break existing conditions if a charmed creature enters the area.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cry Freedom",
+   "type": "Class Feature",
+   "name": "Cry Freedom",
+   "desc": "Starting at 15th level, when you use your Channel Divinity you and all allies within 30 feet gain the effects of a bless spell for a number of turns equal to your charisma modifier. This effect requires no components and does not require concentration to maintain.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unbound",
+   "type": "Class Feature",
+   "name": "Unbound",
+   "desc": "At 20th level, you may use a bonus action to generate an aura of freedom for 1 minute. The aura is centred on you and has a range of 30 feet. During that time all conditions within the area are suppressed and no new conditions can be imposed, and creatures are not affected by difficult terrain.\n\nAfter using this ability, you cannot use it again until you complete a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infernus Codex",
+   "type": "Class Feature",
+   "name": "Infernus Codex",
+   "desc": "Starting at 3rd level your extensive knowledge of the nine hells allows you to add Devils as a Favoured Enemy and the Nine Hells as an environment to your Natural Explorer abilities. These are free additions and do not otherwise affect the standard progressions of these abilities.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Attuned Weapons",
+   "type": "Class Feature",
+   "name": "Attuned Weapons",
+   "desc": "Starting at 3rd level, you can attune your weapons to the natural emanations of the Nine Hells. While in the Nine Hells your weapon attacks are treated as magical.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Planar Alignment",
+   "type": "Class Feature",
+   "name": "Planar Alignment",
+   "desc": "Starting at 7th level you have become acclimatized to the Nine Hells to the extent that you are almost as comfortable as a native. You are immune to any effects from the environment of the plane that induce exhaustion, and have advantage on saving throws versus other effects (such as Styx water contact or alignment shift). You are treated as aligned to Lawful Evil and as a Nine Hells native for the purposes of spells and abilities (for example, you are not permanently banished by a banishment spell) regardless of your actual alignment or plane of origin.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vicious Wounds",
+   "type": "Class Feature",
+   "name": "Vicious Wounds",
+   "desc": "Starting at 11th level, you have mastered infernal fighting techniques that inflict maximum injury when you strike a foe. On any successful attack with a weapon you deal an additional 1d6 damage of the same type as the weapon used.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Whatever It Takes",
+   "type": "Class Feature",
+   "name": "Whatever It Takes",
+   "desc": "At 15th level your will to survive and personal experience have hardened you to battle against some of the most vicious creatures in existence. You will throw dirt, spit, curse, plead and use any and all tactics at opportune moments to distract a foe. As a reaction you may employ these tactics against a creature attacking you, gaining a +3 bonus to AC against all attacks made by them against you on their turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Trash and Treasure",
+   "type": "Class Feature",
+   "name": "Trash and Treasure",
+   "desc": "Starting at 3rd level, you have a talent for sifting worthwhile objects from junk. You can automatically gauge the relative value of any object in gold pieces, and add a bonus to your Perception and Investigation skill checks equal to half your level (round down), but only with regards to finding, identifying and separating out hidden or concealed objects of value from other objects (such as battle debris or junk piles). This does not allow you to find deliberately hidden objects in crafted concealment (such as secret compartments or passages).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Knack",
+   "type": "Class Feature",
+   "name": "Knack",
+   "desc": "Starting at 3rd level, you can detect magical auras by touch. This acts as the detect magic spell, except it has no range and you must be touching an object to use this ability on it.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Quick Appraisal",
+   "type": "Class Feature",
+   "name": "Quick Appraisal",
+   "desc": "At 6th level you may attune to a magical item by tinkering with it for 1 minute rather than the usual hour required. This ability does not confer knowledge of the item before attunement, and does not protect you from any adverse effects—such as curses—of attunement.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Use Magic Device",
+   "type": "Class Feature",
+   "name": "Use Magic Device",
+   "desc": "By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hidden Resources",
+   "type": "Class Feature",
+   "name": "Hidden Resources",
+   "desc": "You are able to attune to one additional magical item beyond your normal limit of 3.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Soul of Fire",
+   "type": "Class Feature",
+   "name": "Soul of Fire",
+   "desc": "At 1st level you are immune to the damage of any of your own spells that are affected by the Flames of Hell metamagic ability.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Flames of Hell",
+   "type": "Class Feature",
+   "name": "Flames of Hell",
+   "desc": "At 1st level you gain access to a metamagic ability that allows you to alter the elemental composition of your spells. By expending Sorcery Points equal to the spell’s level, you may change the damage type of any spell that deals fire, cold, lightning, acid or poison into hellfire, which deals half fire, half necrotic damage (round fractions down). This metamagic ability may be used in conjunction with another metamagic ability, assuming you have adequate sorcery points available.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Clinging Flames",
+   "type": "Class Feature",
+   "name": "Clinging Flames",
+   "desc": "At 6th level, whenever you deal damage to a target with a spell of first level or higher that deals fire and/or necrotic damage, the creature is affected by clinging flames and continues to burn, taking an additional amount of that damage type equal to ½ your level at the start of its next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hellwalk",
+   "type": "Class Feature",
+   "name": "Hellwalk",
+   "desc": "At 14th level you can teleport to a location you can see within 100 feet. At both your origin and destination points there is a burst of hellfire that deals fire and necrotic damage equal to your level (half of each type) to all adjacent creatures. You regain the use of this ability after a short rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Core of Hellfire",
+   "type": "Class Feature",
+   "name": "Core of Hellfire",
+   "desc": "At 18th level you become immune to fire and necrotic damage. Additionally your Clinging Flames ability now lasts for 2 turns rather than one.",
+   "rules": []
+  }
+ ]
+}

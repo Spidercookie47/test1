@@ -1,0 +1,20 @@
+Converted: 2 Feat, 1 Race, 7 Racial Trait
+
+== selects not understood (1)
+  Shardmind: type=Ability Score Improvement supports="Race,(Wisdom||Charisma)"
+
+== grants of other kinds (skipped) (2)
+  Shardmind: Size ID_SIZE_MEDIUM
+  Crystalline Body: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+
+== ids not in this pack (assumed to be in another pack, check the name) (2)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Language:Deep Speech  (from ID_LANGUAGE_DEEP_SPEECH)
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (1)
+  Natural Armor: ac
+
+== grants pointing outside these packs (needs another pack) (2)
+  Race:Shardmind -> Language:Common
+  Race:Shardmind -> Language:Deep Speech
+

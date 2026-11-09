@@ -1,0 +1,379 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Angelic Protection",
+   "type": "Feat",
+   "name": "Angelic Protection",
+   "desc": "Prerequisite: Aasimar\n\nThe innate resistance to magic that angels possess extends to you. You have advantage on saving throws against spells and other magical effects.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Dao Heritage",
+   "type": "Feat",
+   "name": "Dao Heritage",
+   "desc": "Prerequisite: Genasi (earth)\n\nYou manifest more of the magical power of your dao heritage. You gain the following benefits:\n\n- Increase your Strength or Constitution score by 1, to a maximum of 20.\n- You learn the detect magic spell and can cast it at will, without expending a spell slot.\n- You gain natural armor. While you aren’t wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Djinn Heritage",
+   "type": "Feat",
+   "name": "Djinn Heritage",
+   "desc": "Prerequisite: Genasi (air)\n\nYou manifest more of the magical power of your djinn heritage. You gain the following benefits:\n\n- Increase your Dexterity or Constitution score by 1, to a maximum of 20.\n- You learn the detect magic spell and can cast it at will, without expending a spell slot.\n- You have resistance to lightning and thunder damage.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Efreet Heritage",
+   "type": "Feat",
+   "name": "Efreet Heritage",
+   "desc": "Prerequisite: Genasi (fire)\n\nYou manifest more of the magical power of your efreet heritage. You gain the following benefits:\n\n- Increase your Constitution or Intelligence score by 1, to a maximum of 20.\n- You learn the detect magic spell and can cast it at will, without expending a spell slot.\n- Your darkvision has a radius of 120 feet.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Feline Grace",
+   "type": "Feat",
+   "name": "Feline Grace",
+   "desc": "Prerequisite: Tabaxi\n\nYour incredible reflexes and agility further improve. You gain the following benefits:\n\n- Increase your Dexterity score by 1, to a maximum of 20.\n- You can use your Feline Agility trait twice before you must move 0 feet on one of your turns to use the trait again. You can still only use this ability once per turn when you move.\n- You don’t take damage from falling 20 feet or less if you aren’t incapacitated.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Firbolg Beast Magic",
+   "type": "Feat",
+   "name": "Firbolg Beast Magic",
+   "desc": "Prerequisite: Firbolg\n\nYour connection to animals deepens. You learn the speak with animals spell and can cast it at will, without expending a spell slot. You also learn the animal friendship and beast sense spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Speak with Animals",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Animal Friendship",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Beast Sense",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Like a Boss",
+   "type": "Feat",
+   "name": "Like a Boss",
+   "desc": "Prerequisite: Goblin\n\nYou are accustomed to using others to avoid being attacked. You gain the following benefits:\n\n- Increase your Dexterity score by 1, to a maximum of 20.\n- When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can’t do so again until you finish a short or long rest.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Marid Heritage",
+   "type": "Feat",
+   "name": "Marid Heritage",
+   "desc": "Prerequisite: Genasi (water)\n\nYou manifest more of the magical power of your marid heritage. You gain the following benefits:\n\n- Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n- You learn the detect magic spell and can cast it at will, without expending a spell slot.\n- You have resistance to cold damage.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Master of Mimicry",
+   "type": "Feat",
+   "name": "Master of Mimicry",
+   "desc": "Prerequisite: Kenku\n\nYou have learned to temporarily mimic even the training of others. You gain the following benefits:\n\n- Increase your Dexterity or Wisdom score by 1, to a maximum of 20.\n- Whenever another creature you can see uses a skill or tool, you can use your reaction to gain proficiency in that skill or tool. Proficiencies gained in this way last for 1 hour, and you can only mimic one proficiency at a time. Once you use this ability, you can’t do so again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Mountain’s Endurance",
+   "type": "Feat",
+   "name": "Mountain’s Endurance",
+   "desc": "Prerequisite: Goliath\n\nYour ability to shrug off some injuries is legendary, even for your race. You gain the following benefits:\n\n- Increase your Strength or Constitution score by 1, to a maximum of 20.\n- When you use your Stone’s Endurance trait as a reaction to reduce damage, instead of rolling a d12 and adding your Constitution modifier, you can choose to gain resistance to the triggering attack’s damage type until the start of your next turn. If the triggering attack deals more than one type of damage, choose one. As normal, after you use this trait, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Serpent Form",
+   "type": "Feat",
+   "name": "Serpent Form",
+   "desc": "Prerequisite: Yuan-ti Pureblood\n\nYou have unlocked more of your serpentfolk heritage. You gain the following benefits:\n\n- Increase your Intelligence or Charisma score by 1, to a maximum of 20.\n- You can use an action to polymorph into a Medium snake or back into your true form. Your statistics are the same in each form. Any equipment you are wearing or carrying isn’t transformed. If you die, you stay in your current form.\n- While in snake form, you gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. When you hit with a bite attack, you can choose to deal 2d6 additional poison damage to the target. Once you deal this poison damage, you can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Sky Warden",
+   "type": "Feat",
+   "name": "Sky Warden",
+   "desc": "Prerequisite: Aarakocra\n\nYou are trained for both scouting the skies and aerial combat. You gain the following benefits:\n\n- Increase your Dexterity or Wisdom score by 1, to a maximum of 20.\n- You gain proficiency in the Perception skill if you don’t already have it. You add double your proficiency bonus to Perception checks that rely on sight.\n- Once per turn, if you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Tanarukk Blood",
+   "type": "Feat",
+   "name": "Tanarukk Blood",
+   "desc": "Prerequisite: Orc\n\nThrough fell magic or an ancestor, you are touched by the corruptive power of Baphomet. You gain the following benefits:\n\n- Increase your Strength or Constitution score by 1, to a maximum of 20.\n- You have resistance to fire and poison damage.\n- You gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Tortle Protector",
+   "type": "Feat",
+   "name": "Tortle Protector",
+   "desc": "Prerequisite: Tortle\n\nYou have mastered using your shell to better protect yourself and others. You gain the following benefits:\n\n- Increase your Strength or Wisdom score by 1, to a maximum of 20.\n- Your natural armor trait now provides a base AC of 18. As normal, your Dexterity modifier doesn’t affect this number.\n- As a reaction when you are forced to make a Dexterity saving throw, choose any number of creatures within 5 feet of you. Each chosen creature is considered to have half-cover against any harmful attacks or effects while within 5 feet of you until the start of your next turn. Once you use this ability, you can’t do so again until you’ve finished a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Touch of Sess’inek",
+   "type": "Feat",
+   "name": "Touch of Sess’inek",
+   "desc": "Prerequisite: Lizardfolk\n\nYou embody the demonic bearing of a lizard king or queen. You gain the following benefits:\n\n- Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n- You learn to speak, read, and write Abyssal.\n- You are immune to being frightened.",
+   "rules": [
+    {
+     "grant": "Language:Abyssal"
+    }
+   ]
+  },
+  {
+   "id": "Feat:Triton Deep Magic",
+   "type": "Feat",
+   "name": "Triton Deep Magic",
+   "desc": "Prerequisite: Triton\n\nYou master more of the magic of elemental air and water. You learn the create or destroy water spell and can cast it as a 1st level spell at will, without expending a spell slot. You also learn warding wind and water breathing, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Create Or Destroy Water",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Warding Wind",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Water Breathing",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Uphold the Legion",
+   "type": "Feat",
+   "name": "Uphold the Legion",
+   "desc": "Prerequisite: Hobgoblin\n\nYou were born for life in the legion. You gain the follow-ing benefits:\n\n- Increase your Constitution or Intelligence score by 1, to a maximum of 20.\n- You can deal an extra 2d6 damage to a creature you hit with a weapon attack if that creature is within 5 feet of an ally that isn’t incapacitated. You can use this trait only once per combat.\n- You can extend the benefit of your Saving Face trait to an ally. As a reaction, if an ally misses with an attack roll or fails an ability check or a saving throw, you can grant a bonus to the roll equal to the number of allies your ally can see within 30 feet (including you, maximum bonus of +5). As normal, once you use this trait, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Urd Wings",
+   "type": "Feat",
+   "name": "Urd Wings",
+   "desc": "Prerequisite: Kobold\n\nYou manifest leathery wings, transforming into an urd. You gain the following benefits:\n\n- Increase your Dexterity score by 1, to a maximum of 20.\n- You gain a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat:Well-Rested",
+   "type": "Feat",
+   "name": "Well-Rested",
+   "desc": "Prerequisite: Bugbear\n\nYour practiced napping leaves you invigorated when you are awake. You gain the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- Whenever you spend one or more hit dice during a short rest, you can regain an extra 1d6 hit points.\n- At the end of a long rest, you gain inspiration.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Banshee Wail",
+   "type": "Feat",
+   "name": "Banshee Wail",
+   "desc": "Prerequisite: Awakened Undead (Ghost)\n\nIncrease your Charisma or Wisdom by 1, to a maximum of 20.\n\nAs an action on your turn, you can emit an unearthly wail that rattles the souls of your opponents. Each creature within 20 feet of you that is not an undead or construct must make a Constitution saving throw with a DC of 8 + your proficiency bonus + your choice of either your Charisma modifier or Wisdom modifier. A creature that fails this saving throw takes psychic damage equal to 2d10 + your total character level, or half this amount on a success.\n\nOnce you use this ability, you cannot use it again until you have finished a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Dark Reaping",
+   "type": "Feat",
+   "name": "Dark Reaping",
+   "desc": "Prerequisite: Awakened Undead (Revenant)\n\nIncrease your Strength or Charisma by 1, to a maximum of 20.\n\nAdditionally, when a creature within 30 feet of you is reduced to 0 hit points and dies, you can feed upon the power of their death to gain your choice of one of the following benefits:\n\n- Temporary hit points equal to your total character level + your Constitution modifier, which last for up to one minute.\n- The first attack you hit with on your next turn deals additional necrotic damage equal to your total character level + your choice of either your Strength or Charisma modifier.\n- Advantage on all saving throws until the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Four Arms",
+   "type": "Feat",
+   "name": "Four Arms",
+   "desc": "Prerequisite: Awakened Undead (Skeleton)\n\nYou add two additional arms to your frame, for a total of four. At any one time, you can hold up to four one-handed objects, a pair of two-handed objects, or a twohanded object and two one-handed objects. Also, the weight you can carry is doubled, and you gain a climbing speed of 30 feet.\n\nYou are able to use your Them Bones trait if at least two of your hands are unoccupied, and using Them Bones occupies two of your hands. If all of your hands are unoccupied, you can use Them Bones for two different purposes at the same time, though doing so occupies all your hands.\n\nHaving four arms does not grant you any additional attacks, and your attacks and actions are unchanged except as listed here.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Ghoulish Agility",
+   "type": "Feat",
+   "name": "Ghoulish Agility",
+   "desc": "Prerequisite: Awakened Undead (Ghoul)\n\nIncrease your Strength or Dexterity by 1, to a maximum of 20.\n\nYou become exceedingly nimble. Your jump distance and height triple, and you gain a climbing speed of 30 feet. If at least one of your hands is unoccupied, you can stoop into a beastly gait as you run, increasing your land movement speed by 10 feet.\n\nAdditionally, you can use the Dodge action as a bonus action. Once you do so, you must finish a short or long rest before you can do so again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Ghostly Magic",
+   "type": "Feat",
+   "name": "Ghostly Magic",
+   "desc": "Prerequisite: Awakened Undead (Ghost)\n\nYour soul is especially powerful, and you may channel its power into a semblance of mortal magic. You can cast each of the following spells once with this ability: blink, catapult, and invisibility. When you cast invisibility in this way, you can only target yourself.\n\nChoose either Wisdom or Charisma as your spellcasting ability for these spells. Any spell gained with this ability is cast at its lowest possible spell level. At 4th level, catapult is instead cast as a 2nd level spell, becoming cast as a 3rd level spell at 8th level, a 4th level spell at 12th level, a 5th level spell at 16th level, and a 6th level spell at 20th level. You regain the ability to cast any spells provided by this feat when you finish a long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Catapult",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Blink",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Invisibility",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Improved Paralytic Claws",
+   "type": "Feat",
+   "name": "Improved Paralytic Claws",
+   "desc": "Prerequisite: Awakened Undead (Ghoul)\n\nIncrease your Strength or Dexterity by 1, to a maximum of 20.\n\nA creature that fails its save against your Paralytic Claws ability is paralyzed instead of incapacitated. Additionally, you can use this trait successfully twice before requiring a short or long rest to refresh its usage, instead of using it successfully once and requiring a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Necropolitan High Magic",
+   "type": "Feat",
+   "name": "Necropolitan High Magic",
+   "desc": "Prerequisite: Awakened Undead (Necropolitan)\n\nYou have mastered your animating force, and can use it to cast spells of dark necromantic power. You learn the toll the dead cantrip. You also learn the blindness/deafness and animate dead spells, each of which you can cast once at its lowest possible spell level without expending a spell slot. If you are using animate dead from this source to reassert control over a creature, it can only ever assert control over one creature. You regain the ability to cast those two spells in this way when you finish a long rest. Intelligence is your spellcasting ability for all three spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Toll the Dead",
+     "at will"
+    ],
+    [
+     1,
+     "Blindness Deafness",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Animate Dead",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Phylactery",
+   "type": "Feat",
+   "name": "Phylactery",
+   "desc": "Prerequisite: Awakened Undead (Necropolitan), 12th Level\n\nYou have learned the secret to creating a phylactery, much like a lich, in order to stave off annihilation. As a ritual that takes 24 hours to complete, you can designate as your phylactery one non-magical object on your person worth at least 2,500 gp that you can hold in one hand. Once the ritual is completed and you have made an object your phylactery, you cannot perform this ritual again until 300 days have passed. Conducting the ritual again after this time causes your initial phylactery to become mundane once more, and the new object becomes your phylactery.\n\nYour phylactery has 30 hit points, an AC of 18, and immunity to all damage except radiant and bludgeoning, piercing, and slashing damage done by silvered weapons. If you die while your phylactery exists, and you are on the same plane as your phylactery, you reform adjacent to your phylactery after 24 hours. If you are resurrected by some other means before this time, you do not reform via your phylactery. When your phylactery has you reform, a new body is created for you, and your old body disintegrates into dust. The objects and clothing on the person of your old body are unaffected, but your new body is formed without any of the objects your old body possessed.\n\nOnce you have reformed with your phylactery, you cannot do so again for 30 days. If you die within this time, your phylactery will not reform you, though you can still be resurrected by other means.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Rites of Revenge",
+   "type": "Feat",
+   "name": "Rites of Revenge",
+   "desc": "Prerequisite: Awakened Undead (Revenant)\n\nYou are able to use minor mysticism in your pursuit of those who have wronged you. You learn the true strike cantrip and can cast it with a bonus action instead of an action, but afterwards you must finish a short or long rest before you can cast it with a bonus action again. You also learn the hunter’s mark spell, which you can cast twice at its lowest possible spell level without expending a spell slot.\n\nYou regain all expended castings of hunter’s mark when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "True Strike",
+     "at will"
+    ],
+    [
+     1,
+     "Hunters Mark",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Tomb Magic",
+   "type": "Feat",
+   "name": "Tomb Magic",
+   "desc": "Prerequisite: Awakened Undead (Mummy)\n\nYou possess an innate magical power tied to your unearthly animating force. You can cast each of the following spells once with this ability: bestow curse and dust devil. You also know the infestation cantrip.\n\nChoose either Wisdom or Charisma as your spellcasting ability for these spells. Any spell gained with this ability is cast at its lowest possible spell level. At 8th level, dust devil is instead cast as a 3rd level spell, becoming cast as a 4th level spell at 12th level, a 5th level spell at 16th level, and a 6th level spell at 20th level. You regain the ability to cast any non-cantrip spells provided by this feat when you finish a long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Infestation",
+     "at will"
+    ],
+    [
+     1,
+     "Dust Devil",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Bestow Curse",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Roaming Bones",
+   "type": "Feat",
+   "name": "Roaming Bones",
+   "desc": "Prerequisite: Awakened Undead (Skeleton)\n\nIncrease your Dexterity or Constitution by 1, to a maximum of 20.\n\nAdditionally, you can use a bonus action to detach or re-attach one of your hands, which allows the hand to wander freely by walking on its fingertips. This detached hand has a movement speed and climb speed of 30 feet, and can move up, down, and across vertical surfaces and upside down along ceilings. The hand has a Strength score of 5, a hit point maximum equal to twice your total character level, and otherwise uses your statistics and AC. You cannot detach a hand in this way while using your Them Bones trait, or use Them Bones while a hand is detached.\n\nYou have a psychic link with your detached hand, and can command it to move or take actions on your turn with no additional action from you. A hand detached in this way retains animation up to 1,000 feet away from you. A detached hand can take the Dodge, Disengage, Dash, or Help actions, but no other actions.\n\nYou mentally receive visual and auditory information from the detached hand, which can see and hear as any other creature, in addition to having darkvision out to 30 feet. While the hand is detached, you know its exact location relative to you, as long as you are on the same plane of existence.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Find Familiar",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Feat:Under Wraps",
+   "type": "Feat",
+   "name": "Under Wraps",
+   "desc": "Prerequisite: Awakened Undead (Mummy)\n\nIncrease your Strength, Wisdom, or Charisma by 1, to a maximum of 20.\n\nFurther, in place of one of the attacks you would make with the Attack action, you can utter a blasphemous word, causing your bandages to spring to life and wrap around a Large or smaller creature you can see within 15 feet of you. That creature makes its choice of a Strength (Athletics) or a Dexterity (Acrobatics) check against a DC of 8 + your proficiency bonus + your choice of one of your modifiers out of either Strength, Wisdom, or Charisma. If the creature fails this check, it is grappled by you. This grapple does not occupy a hand. You can only have one creature grappled in this way at a time, and checks a creature makes to escape this grapple are made against the same DC the creature made its initial check against, in place of your Strength (Athletics) check.\n\nAdditionally, you can use a bonus action on your turn to attempt to make a grapple in this way. Once you do so, you must finish a short or long rest before you can use this ability as a bonus action again.",
+   "rules": []
+  }
+ ]
+}

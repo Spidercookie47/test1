@@ -1,0 +1,1018 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Rite of the Flame",
+   "type": "Class Feature",
+   "name": "Rite of the Flame",
+   "desc": "Your rite damage is fire damage.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Rite of the Frozen",
+   "type": "Class Feature",
+   "name": "Rite of the Frozen",
+   "desc": "Your rite damage is cold damage.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Rite of the Storm",
+   "type": "Class Feature",
+   "name": "Rite of the Storm",
+   "desc": "Your rite damage is lightning damage.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Rite of the Dead",
+   "type": "Class Feature",
+   "name": "Rite of the Dead",
+   "desc": "Your rite damage is necrotic damage.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Rite of the Oracle",
+   "type": "Class Feature",
+   "name": "Rite of the Oracle",
+   "desc": "Your rite damage is psychic damage.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:Rite of the Roar",
+   "type": "Class Feature",
+   "name": "Rite of the Roar",
+   "desc": "Your rite damage is thunder damage.",
+   "rules": [],
+   "lv": 14
+  },
+  {
+   "id": "Class Feature:The Archfey",
+   "type": "Class Feature",
+   "name": "The Archfey",
+   "desc": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Fiend",
+   "type": "Class Feature",
+   "name": "The Fiend",
+   "desc": "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Great Old One",
+   "type": "Class Feature",
+   "name": "The Great Old One",
+   "desc": "Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it.\n\nEntities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Undying",
+   "type": "Class Feature",
+   "name": "The Undying",
+   "desc": "Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize- like all power- comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.\n\nIn the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock’s Crypt, and Gilgeam, the God-King of Unther.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Celestial",
+   "type": "Class Feature",
+   "name": "The Celestial",
+   "desc": "Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.\n\nBeing connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Hexblade",
+   "type": "Class Feature",
+   "name": "The Hexblade",
+   "desc": "You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexbade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.\n\nBecause the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aether",
+   "type": "Class Feature",
+   "name": "Aether",
+   "desc": "Prerequisite: 11th level\n\nYou gain a flying speed of 20 feet for 1 hour. As a side effect, you gain disadvantage on Strength and Dexterity ability checks for 1 hour.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Alluring",
+   "type": "Class Feature",
+   "name": "Alluring",
+   "desc": "Your skin and voice become malleable, allowing you to slightly enhance your appearance and presence. You have advantage on Charisma ability checks. As a side effect, you gain disadvantage on initiative rolls.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Celerity",
+   "type": "Class Feature",
+   "name": "Celerity",
+   "desc": "Your Dexterity score increases by 3, as does your Dexterity maximum. This bonus increases by 1 at 11th level (+4) and 18th level (+5). As a side effect, you gain disadvantage on Wisdom saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Conversant",
+   "type": "Class Feature",
+   "name": "Conversant",
+   "desc": "You gain advantage on Intelligence ability checks. As a side effect, you gain disadvantage on Wisdom ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Cruelty",
+   "type": "Class Feature",
+   "name": "Cruelty",
+   "desc": "Prerequisite: 11th level\n\nWhen you use the Attack action, you can make an additional weapon attack as a bonus action. As a side effect, you gain disadvantage on Intelligence, Wisdom, and Charisma saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Deftness",
+   "type": "Class Feature",
+   "name": "Deftness",
+   "desc": "You gain advantage on Dexterity ability checks. As a side effect, you gain disadvantage on Wisdom ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Embers",
+   "type": "Class Feature",
+   "name": "Embers",
+   "desc": "You gain resistance to fire damage. As a side effect, you gain vulnerability to cold damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Gelid",
+   "type": "Class Feature",
+   "name": "Gelid",
+   "desc": "You gain resistance to cold damage. As a side effect, you gain vulnerability to fire damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Impermeable",
+   "type": "Class Feature",
+   "name": "Impermeable",
+   "desc": "You gain resistance to piercing damage. As a side effect, you gain vulnerability to slashing damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Mobile",
+   "type": "Class Feature",
+   "name": "Mobile",
+   "desc": "You are immune to the grappled and restrained conditions. At 11th level, you also are immune to the paralyzed condition. As a side effect, you gain disadvantage on Strength ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Nighteye",
+   "type": "Class Feature",
+   "name": "Nighteye",
+   "desc": "You gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet. As a side effect, you gain sunlight sensitivity (detailed in the Dark Elf section on page 24 in the Player’s Handbook).",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Percipient",
+   "type": "Class Feature",
+   "name": "Percipient",
+   "desc": "You gain advantage on Wisdom ability checks. As a side effect, you gain disadvantage on Charisma ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Potency",
+   "type": "Class Feature",
+   "name": "Potency",
+   "desc": "Your Strength score increases by 3, as does your Strength maximum. This bonus increases by 1 at 11th level (+4) and 18th level (+5). As a side effect, you have disadvantage on Dexterity saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Precision",
+   "type": "Class Feature",
+   "name": "Precision",
+   "desc": "Prerequisite: 11th level\n\nYour weapon attacks score a critical hit on a roll of 19-20. As a side effect, you gain disadvantage on Strength saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Rapidity",
+   "type": "Class Feature",
+   "name": "Rapidity",
+   "desc": "Your speed increases by 10 feet. At 15th level, your speed increases by 15 feet instead. As a side effect, you gain disadvantage on Intelligence ability checks.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Reconstruction",
+   "type": "Class Feature",
+   "name": "Reconstruction",
+   "desc": "Prerequisite: 7th level\n\nFor 1 hour, at the start of each of your turns, you regain hit points equal to your proficiency bonus if you have at least 1 hit point but no more than half of your hit points left. As a side effect, your speed decreases by 10 ft for 1 hour.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Sagacity",
+   "type": "Class Feature",
+   "name": "Sagacity",
+   "desc": "Your Intelligence score increases by 3, as does your Intelligence maximum. This bonus increases by 1 at 11th level (+4) and 18th level (+5). As a side effect, you gain disadvantage on Charisma saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Shielded",
+   "type": "Class Feature",
+   "name": "Shielded",
+   "desc": "You gain resistance to slashing damage. As a side effect, you gain vulnerability to bludgeoning damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Unbreakable",
+   "type": "Class Feature",
+   "name": "Unbreakable",
+   "desc": "You gain resistance to bludgeoning damage. As a side effect, you gain vulnerability to piercing damage.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Vermillion",
+   "type": "Class Feature",
+   "name": "Vermillion",
+   "desc": "You gain an additional use of your Blood Maledict feature. As a side effect, you gain disadvantage on death saving throws.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Anxious",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Anxious",
+   "desc": "As a bonus action, you magnify the adrenaline in the body of a creature within 30 feet of you, making them susceptible to forceful influence. Until the end of your next turn, all creatures have advantage on Charisma (Intimidation) checks directed at the target creature.\n\nAmplify. The next Wisdom saving throw the target has to make before this curse ends has disadvantage. Once you’ve amplified this blood curse, you must finish a long rest before you can amplify it again.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of Binding",
+   "type": "Class Feature",
+   "name": "Blood Curse of Binding",
+   "desc": "As a bonus action, you can attempt to bind a creature you can see within 30 feet of you that is no more than one size larger than you. The target must succeed on a Strength saving throw or have their speed be reduced to 0 and they can’t use reactions until the end of your next turn.\n\nAmplify. This curse lasts for 1 minute and can affect a creature regardless of their size category. At the end of each of its turns, the cursed creature can make another Strength saving throw. On a success, this curse ends.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of Bloated Agony",
+   "type": "Class Feature",
+   "name": "Blood Curse of Bloated Agony",
+   "desc": "As a bonus action, you curse a creature that you can see within 30 feet of you to painfully swell until the end of your next turn. For the duration of this curse, the creature has disadvantage on Strength and Dexterity ability checks, and suffers 1d8 necrotic damage if it makes more than one melee or ranged attack during its turn.\n\nAmplify. This curse lasts for 1 minute. At the end of each of its turns, the cursed creature can make a Constitution saving throw. On a success, this curse ends.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of Corrosion (Blood Curse of Corrosion)",
+   "type": "Class Feature",
+   "name": "Blood Curse of Corrosion (Blood Curse of Corrosion)",
+   "desc": "Prerequisite: 15th level, Order of the Mutant\n\nAs a bonus action, a creature within 30 feet of you must make a Constitution saving throw or become poisoned. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the curse ends.\n\nAmplify. The cursed creature suffers 4d6 necrotic damage, and suffers this damage again every time it fails its Constitution saving throw to end this curse at the end of its turn.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Exorcist (Blood Curse of the Exorcist)",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Exorcist (Blood Curse of the Exorcist)",
+   "desc": "Prerequisite: 15th level, Order of the Ghostslayer\n\nAs a bonus action, you can choose one creature you can see within 30 feet of you that is charmed, frightened, or possessed. The target creature is no longer charmed, frightened, or possessed.\n\nAmplify. The creature that charmed, frightened, or possessed the target of your curse suffers 3d6 psychic damage and must make a Wisdom saving throw or be stunned until the end of your next turn.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Exposure",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Exposure",
+   "desc": "When a creature you can see within 30 feet is hit with an attack or spell, you can use your reaction to temporarily weaken their resilience against it. Until the end of the turn, the target loses their resistance to the damage types of the triggering attack or spell.\n\nAmplify. The target instead loses invulnerability to the damage types of the triggering attack or spell, having resistance to them until the end of the turn.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Eyeless",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Eyeless",
+   "desc": "When a creature you can see within 30 feet of you makes an attack roll, you can use your reaction to roll one hemocraft damage die and subtract the number rolled from the creature’s attack roll. You can choose to use this feature after the creature’s roll, but before the DM determines whether the attack roll succeeds. The creature is immune if it is immune to blindness.\n\nAmplify. You apply this curse to all of the creature’s attack rolls until the end of the turn. You roll a new hemocraft die for each affected attack.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Fallen Puppet",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Fallen Puppet",
+   "desc": "When a creature you can see within 30 feet drops to 0 hit points, you can use your reaction to make that creature immediately makes a single weapon attack against a target of your choice within its attack range.\n\nAmplify. You can first move the cursed creature up to half their speed, and you grant a bonus to the cursed creature’s attack roll equal to your Intelligence modifier (minimum of 1).",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Howl",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Howl",
+   "desc": "Prerequisite: 18th level, Order of the Lycan\n\nAs an action, you unleash a blood-curdling howl. Each creature within 30 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. If they fail their saving throw by 5 or more, they are stunned while frightened in this way. A creature that succeeds on this saving throw is immune to this blood curse for the next 24 hours.\n\nYou can choose any number of creatures you can see to be unaffected by this howl.\n\nAmplify. The range of this curse increases to 60 feet.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Marked",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Marked",
+   "desc": "As a bonus action, you can mark a creature within 30 feet of you. Until the end of your turn, whenever you deal rite damage to the target, you deal an additional hemocraft die of rite damage.\n\nAmplify. The next attack roll you make against the target before the end of your turn has advantage.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Muddled Mind",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Muddled Mind",
+   "desc": "As a bonus action, you curse a creature that you can see within 30 feet of you that is concentrating on a spell. That creature has disadvantage on the next Constitution saving throw it must make to maintain concentration before the end of your next turn.\n\nAmplify. The cursed creature has disadvantage on all Constitution saving throws made to maintain concentration of spells until the end of your next turn.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Blood Curse of the Souleater (Blood Curse of the Souleater)",
+   "type": "Class Feature",
+   "name": "Blood Curse of the Souleater (Blood Curse of the Souleater)",
+   "desc": "Prerequisite: 18th level, Order of the Profane Soul\n\nWhen a creature that isn’t a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to usher their soul to your patron in exchange for power. Until the end of your next turn, your weapon attacks have advantage.\n\nAmplify. In addition, you regain an expended warlock spell slot. Once you’ve amplified this blood curse, you must finish a long rest before you can amplify it again.",
+   "rules": [],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Strength",
+   "type": "Class Feature",
+   "name": "Strength",
+   "desc": "Increase your Strength score by 2, and the limit for that ability score becomes 22.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Dexterity",
+   "type": "Class Feature",
+   "name": "Dexterity",
+   "desc": "Increase your Dexterity score by 2, and the limit for that ability score becomes 22.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Constitution",
+   "type": "Class Feature",
+   "name": "Constitution",
+   "desc": "Increase your Constitution score by 2, and the limit for that ability score becomes 22.",
+   "rules": [
+    {
+     "stat": {
+      "con": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Intelligence",
+   "type": "Class Feature",
+   "name": "Intelligence",
+   "desc": "Increase your Intelligence score by 2, and the limit for that ability score becomes 22.",
+   "rules": [
+    {
+     "stat": {
+      "int": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Wisdom",
+   "type": "Class Feature",
+   "name": "Wisdom",
+   "desc": "Increase your Wisdom score by 2, and the limit for that ability score becomes 22.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Charisma",
+   "type": "Class Feature",
+   "name": "Charisma",
+   "desc": "Increase your Charisma score by 2, and the limit for that ability score becomes 22.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Almond Milk",
+   "type": "Class Feature",
+   "name": "Almond Milk",
+   "desc": "Warm almond milk sprinkled with nutmeg. When ingested, it prepares the body for sleep. The target must make a Constitution saving throw. On a failed save, they will fall unconscious in 1 minute and remain unconscious for 10 minutes. They wake early if they take any damage or if a creature spends an action to shake or slap them awake. Creatures that do not need to sleep are unaffected by this morsel.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Carrot Casserole",
+   "type": "Class Feature",
+   "name": "Carrot Casserole",
+   "desc": "Carrots cooked with a dozen herbs and spices. When ingested, it improves eyesight. The target gains darkvision out to a range of 60 feet for 8 hours. If the target already has darkvision, increase its range by 60 feet.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Cow Innards",
+   "type": "Class Feature",
+   "name": "Cow Innards",
+   "desc": "A delectable treat that smells terrible. When ingested, it gives the body disgusting breath. The target must make a Constitution saving throw. If it fails, the target has disadvantage on all Charisma checks, and creatures cannot be charmed by the target for 10 minutes. If any creatures were charmed by the target when it ingested the morsel, the effect is suspended for the duration for any creatures that can see the target.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Flavored Ice",
+   "type": "Class Feature",
+   "name": "Flavored Ice",
+   "desc": "Cream cold as ice. When ingested, it creates a brain freeze. The target must make an Intelligence saving throw. On a failed save, it takes 1d6 cold damage and has disadvantage on Concentration checks until the start of your next turn. On a successful save, the creature takes half damage and doesn’t have disadvantage.\n\nThe morsel’s damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), and 20th level (7d6).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Hardened Bread",
+   "type": "Class Feature",
+   "name": "Hardened Bread",
+   "desc": "Bread baked to be harder than stone. When ingested, it breaks into chunks and clogs the throat. The target must make a Strength saving throw. On a failed save, it takes 1d6 bludgeoning damage and has disadvantage on attack rolls until the start of your next turn. On a successful save, the creature takes half as much damage and doesn’t have disadvantage.\n\nThe morsel’s damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), and 20th level (7d6).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Herbal Grey Tea",
+   "type": "Class Feature",
+   "name": "Herbal Grey Tea",
+   "desc": "A cup of steaming tea. When ingested, it clears the mind, and calms the body. The target adds 1d4 to all Constitution saving throws, Intelligence checks, and Wisdom checks for 1 hour.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Invigorating Juices",
+   "type": "Class Feature",
+   "name": "Invigorating Juices",
+   "desc": "A delectable fruit sloshing with good juices. When ingested, the juices bolster the body’s constitution. The target gains 1d8 temporary hit points for 1 minute.\n\nThe number of temporary hit points gained from this morsel increases by 1d8 when you reach certain levels in this class: 4th level (2d8), 7th level (3d8), 9th level (4d8), 13th level (5d8), 17th level (6d8), and 20th level (7d8).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Packed Protein",
+   "type": "Class Feature",
+   "name": "Packed Protein",
+   "desc": "A fried chicken leg. When ingested, it feeds the muscles at an enhanced rate. For 1 minute, the target adds 1d4 to all damage rolls and ability checks they make using Strength.\n\nThe die rolled for this morsel increases when you reach certain levels in this class: 10th level (1d6), 15th level (1d8), 20th level (1d10).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Smoky Chops",
+   "type": "Class Feature",
+   "name": "Smoky Chops",
+   "desc": "A smoky bite of pork. When ingested, it reacts with the stomach’s juices to create a fiery sensation that warms the body and manifests a fever. The target gains resistance to cold damage and immunity to the poisoned condition for 10 minutes.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Spicy Pepper",
+   "type": "Class Feature",
+   "name": "Spicy Pepper",
+   "desc": "A spicy, roasted pepper. When ingested, it causes intense sweating that greases the body. The target gains resistance to fire damage and immunity to the grappled condition for 10 minutes.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Sugar Crystals",
+   "type": "Class Feature",
+   "name": "Sugar Crystals",
+   "desc": "A string of crystallized sugars. When ingested, it overcharges the cells. The target’s speed increases by 5 feet for 10 minutes.\n\nThis bonus increases when you reach certain levels in this class: 5th level (10 feet), 10th level (15 feet), 15th level (20 feet) and 20th level (25 feet).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Braised Rabbit",
+   "type": "Class Feature",
+   "name": "Braised Rabbit",
+   "desc": "Prerequisite: 7th level. A rabbit haunch cooked with wine and herbs. When ingested, it instills the body with a springy dexterity. The target gains the effect of the Jump spell for 1 hour.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Buttered Trout",
+   "type": "Class Feature",
+   "name": "Buttered Trout",
+   "desc": "Prerequisite: 7th level. Trout coated in butter. When ingested, it seizes the lungs and reworks the body’s breathing apparatus. The target gains the effect of the Water Breathing spell for 1 hour. The target also gains a swim speed equal to their movement speed for the duration.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Roasted Pheasant",
+   "type": "Class Feature",
+   "name": "Roasted Pheasant",
+   "desc": "Prerequisite: 7th level. Roasted pheasant wing. When ingested, it creates a lightness in the body. For 10 minutes, when the target falls, their rate of descent slows to a rate between 5 feet per round and 60 feet per round (their choice). They can choose their rate of descent again at the start of each of their turns. If they land before the morsel’s effect ends, they take no falling damage.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Spider Eggs",
+   "type": "Class Feature",
+   "name": "Spider Eggs",
+   "desc": "Prerequisite: 7th level. Salt-cured spider eggs. When ingested, it improves the body’s grip. The target gains the effect of the Spider Climb spell for 1 hour.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Thickening Gruel",
+   "type": "Class Feature",
+   "name": "Thickening Gruel",
+   "desc": "Prerequisite: 7th level. A hardy porridge . When ingested, it thickens the skin. The target gains the effect of the Barkskin spell for 10 minutes.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Chamomile Tea",
+   "type": "Class Feature",
+   "name": "Chamomile Tea",
+   "desc": "Prerequisite: 11th level. Tea steeped with Chamomile leaves. When ingested, the tea relaxes the muscles, weakening physical strikes. For 1 minute, whenever the target makes a weapon attack, they must subtract 1d6 from their damage roll for that attack.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Shreevy Leaves",
+   "type": "Class Feature",
+   "name": "Shreevy Leaves",
+   "desc": "Prerequisite: 11th level. Leaves of the Shreeve shrub, baked to release calming chemicals. When ingested, the target must make a Wisdom saving throw. On a failed save, the creature becomes indifferent to all other creatures for 1 minute. The indifference ends early if the target is damaged in any way. A creature who can’t be charmed is immune to this effect.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Spectral Sprouts",
+   "type": "Class Feature",
+   "name": "Spectral Sprouts",
+   "desc": "Prerequisite: 11th level. Bean sprouts grown on haunted ground. When ingested, the target gains the benefits of the See Invisibility spell for 1 minute. The target can also use an action to enter or exit the ethereal plane for the duration.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Startouched Seeds",
+   "type": "Class Feature",
+   "name": "Startouched Seeds",
+   "desc": "Prerequisite: 11th level. Sunflower seeds baked in starlight. When ingested the target rolls 1d4. The creature can recover expended spell slots that have a combined level that is equal to or less than the number rolled. If the recovered spell slots are not used in the next minute, they are lost.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Sweet and Sour Beets",
+   "type": "Class Feature",
+   "name": "Sweet and Sour Beets",
+   "desc": "Prerequisite: 11th level. Sugared beets dipped in soured creams. When ingested, it softens the skin, weakening the body against physical attacks. For 1 minute, add 1d6 extra damage to the first weapon attack that hits the target on each turn.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Boiled Dragon’s Tail",
+   "type": "Class Feature",
+   "name": "Boiled Dragon’s Tail",
+   "desc": "Prerequisite: 15th level. A tough chunk of tail, boiled until soft and white. When ingested, the target grows scales across their body, and they sprout a tail made of fire. For 1 minute, the target gains a +1 bonus to AC, and they can use an action to do one of the following:\n\nFrightful Presence The target roars. Each creature of the target’s choice that is within 30 ft of the target must make succeed on a Wisdom saving throw. On sucess, the creature is immune to the target’s Frightful Presence for the next minute. On fail, the creature becomes frightened of the target for 1 min. The creature can repeat its saving throw at the end of each of its turns, ending the effect on a success.\n\nTail Swipe Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Damage: 4d8 fire",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Hydra Tongue",
+   "type": "Class Feature",
+   "name": "Hydra Tongue",
+   "desc": "Prerequisite: 15th level. Tongue from one of a Hydra’s mouths, simmered in strong aromatics. When ingested, the target grows a second head that lasts for 1 minute. The head grants them the following benefits:\n\n- Gain 1d10 temporary hits points at the start of their turn.\n- Any limb amputated in the last 24 hours regenerate at the start of each of their turns.\n- Gain an extra reaction for only opportunity attacks.\n- Gain an extra action used only for Disengage, Help, or Search.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Elemental Pie",
+   "type": "Class Feature",
+   "name": "Elemental Pie",
+   "desc": "Prerequisite: 15th level. A pastry with a fruity filling swirled together with the primal elemental salts. When ingested, the power of the elements manifests itself inside the target’s body. For 1 minute, the target gains resistance to Acid, Fire, Poison, Lightning, and Thunder damage. They also gain a flying and swimming speed equal to their walking speed for the duration.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Frosted Grapes",
+   "type": "Class Feature",
+   "name": "Frosted Grapes",
+   "desc": "Prerequisite: Sous Chef Archetype. Grapes dusted with white sugar. When ingested, it powers the nerves at an enhanced rate. For 1 minute, the target adds 1d4 to all damage rolls and ability checks they make using Dexterity.\n\nThe die rolled for this morsel increases when you reach certain levels in this class: 10th level (1d6), 15th level (1d8), 20th level (1d10).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Strong Ale",
+   "type": "Class Feature",
+   "name": "Strong Ale",
+   "desc": "Prerequisite: 7th level Sous Chef. Intensely fermented alcohol. When ingested, it loosens the body’s muscles. The target gains resistance to nonmagical bludgeoning, piercing, and slashing damage from weapon attacks for 1 minute.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Honeyed Fish",
+   "type": "Class Feature",
+   "name": "Honeyed Fish",
+   "desc": "Prerequisite: 13th level Sous Chef. A sweet and juicy fish. When ingested, it boosts the powers of the mind. The target has advantage on all Intelligence, Wisdom, and Charisma checks for 1 minute.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Pine Nut Mash",
+   "type": "Class Feature",
+   "name": "Pine Nut Mash",
+   "desc": "Prerequisite: 17th level Sous Chef. Roasted pine nuts smashed into a chunky cream. When ingested, it gives the target a sweet, fragrant breath. All friendly creatures within 10 feet of the target (including the target) have advantage on saving throws for 1 minute.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Stinking Sprouts",
+   "type": "Class Feature",
+   "name": "Stinking Sprouts",
+   "desc": "Prerequisite: Mess Sergent. Brussel sprouts wrapped in ham. When ingested, they power consistent and disruptive flatulence. The target gains immunity to the charmed and frightened conditions for 1 minute.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Bloating Beans",
+   "type": "Class Feature",
+   "name": "Bloating Beans",
+   "desc": "Prerequisite: 7th Level Mess Sergent. Hearty, yet swelling food. When ingested by a Medium or smaller creature, the target grows into a much pudgier, threatening form. The target’s size doubles, and its weight is multiplied by eight for 1 minute. This growth increases its size by one category. The target also gains advantage on Strength checks and Strength saving throws for the duration.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Jittering Coffee",
+   "type": "Class Feature",
+   "name": "Jittering Coffee",
+   "desc": "Prerequisite: 13th Level Mess Sergent. Coffee with an unnaturally high amount of caffeine. When ingested, it supercharges the nerves, constantly sending electrical currents through the heart. For 1 minute, if the target drops to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and this morsel’s effect ends.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Fatty Oats",
+   "type": "Class Feature",
+   "name": "Fatty Oats",
+   "desc": "Prerequisite: 17th Level Mess Sergent. Complex grains suffused with healthy fats. When ingested, it builds up the skin to stand up to any assault. The target has resistance to all damage until the end of your next turn.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Greasy Slosh",
+   "type": "Class Feature",
+   "name": "Greasy Slosh",
+   "desc": "Prerequisite: Hash Slinger. A thick, heavy, and acidic porridge. When ingested, it forces the body to use a significant amount of energy to process. The target must make a Constitution saving throw. On a failed save, it takes 1d6 acid damage and is considered restrained for 1 minute. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the effect ends on the target. On a successful save, the target takes half damage and is not restrained. The morsel’s damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), and 20th level (7d6).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Fire Salts",
+   "type": "Class Feature",
+   "name": "Fire Salts",
+   "desc": "Prerequisite: 7th Level Hash Slinger. A rare and combustible spice. When ingested, it mixes with the target creature’s breath and spit to create a fiery discharge. All creatures within 15 feet of the target (including the target) must make a Dexterity saving throw. On a failed save they take 4d6 fire damage, or half as much on a successful save. The morsel’s damage increases by 1d6 when you reach certain levels in this class: 9th level (5d6), 13th level (6d6), 17th level (7d6), 20th level (8d6).",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Garlic Tuna",
+   "type": "Class Feature",
+   "name": "Garlic Tuna",
+   "desc": "Prerequisite: 13th Level Hash Slinger. Festering tuna baked in over-ripened garlic. When ingested, it causes the target to exude rot from every pore. The target must make a Constitution saving throw. On a failed save, all hostile creatures within 10 feet of the target (including the target) have disadvantage on saving throws for 1 minute.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Rancid Onion",
+   "type": "Class Feature",
+   "name": "Rancid Onion",
+   "desc": "Prerequisite: 17th Level Hash Slinger. A vegetable in the heat of decomposition. When ingested, the target sprays the vegetable’s over-ripened juices all around itself. All hostile creatures within 30 feet of the target (including the target) must make a Constitution saving throw. On a failed save they are paralyzed until the start of your next turn and blinded for 1 minute. At the end of each of its turns, a target can make another Constitution saving throw. On a success, they are no longer blinded.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Underdark Draught",
+   "type": "Class Feature",
+   "name": "Underdark Draught",
+   "desc": "Prerequisite: Brewmeister. A pitch black ale, foaming with shadows. When ingested, the target immediately vomits magical darkness that fills a 10- foot radius sphere centered on the target. A creature with darkvision can’t see through this darkness and nonmagical light can’t illuminate it. The darkness lasts for 1 minute. All creatures friendly to the target (including the target) can see through this magical darkness.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Vodka Slushie",
+   "type": "Class Feature",
+   "name": "Vodka Slushie",
+   "desc": "Prerequisite: 7th Level Brewmeister. A white swirl of frozen vodka, misting a boozy aroma. When ingested, the target immediately vomits snow that covers the ground around them. The ground in a 15-foot radius centered on the target becomes covered with snow. The snow is considered difficult terrain for all creatures hostile to the target. When the snow is vomited, all creatures hostile to the target within in the area must make a Strength saving throw. On a failed save, a creature is pushed out of the snow’s area, away from the target. The snow lasts for 1 minute, or until melted by an intense heat.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Hellfire Whiskey",
+   "type": "Class Feature",
+   "name": "Hellfire Whiskey",
+   "desc": "Prerequisite: 13th Level Brewmeister. A grey liquor, with sickly, yellow flames caressing the surface. When ingested, the target’s eyes and body become wreathed in yellow-green flames for 1 minute. The flames shed dim light in a 10-foot radius, reaching out to drain the life of the target’s enemies. When a large or smaller creature that is hostile to the target moves into the dim light for the first time on a turn, or starts its turn there, they must make a Constitution saving throw. On a failed save, they suffer one level of exhaustion.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Angel’s Kiss",
+   "type": "Class Feature",
+   "name": "Angel’s Kiss",
+   "desc": "Prerequisite: 17th Level Brewmeister. White wine, bubbling with divine energy. When ingested, the target sheds bright light in a 30 foot radius, and dim light for an additional 30 feet for 1 minute. When a creature hostile to the target starts their turn in the bright light, they must make a Constitution saving throw. On a failed save, they are blinded until the start of their next turn. Creatures with darkvision make this save with disadvantage.",
+   "rules": [],
+   "lv": 1
+  },
+  {
+   "id": "Class Feature:Alert",
+   "type": "Class Feature",
+   "name": "Alert",
+   "desc": "Always on the lookout for danger, skeleton gain the following benefits:\n\n- Undead servant gains a +5 bonus to initiative.\n- Undead servant can’t be surprised while conscious.\n- Other creatures don’t gain advantage on attack rolls against skeleton as a result of being unseen by it.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Charger",
+   "type": "Class Feature",
+   "name": "Charger",
+   "desc": "When undead servant uses its action to Dash, it can use a bonus action to make one melee weapon attack or to shove a creature.\n\nIf it moves at least 10 feet in a straight line immediately before taking this bonus action, it either gains a +5 bonus to the attack’s damage roll (if undead servant chose to make a melee attack and hit) or pushes the target up to 10 feet away from it (if undead servant chose to shove and succeeded).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Moderately Armored",
+   "type": "Class Feature",
+   "name": "Moderately Armored",
+   "desc": "Prerequisite: Proficiency with light armor\n\nYou trained your undead servant to master the use of medium armor and shields, gaining the following benefits:\n\n- Increase its Strength or Dexterity score by 1, to a maximum of 20.\n- Servant gains proficiency with medium armor and shields.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient",
+   "type": "Class Feature",
+   "name": "Resilient",
+   "desc": "Choose one ability score of your servant. It gains the following benefits:\n\n- Increase the chosen ability score by 1, to a maximum of 20.\n- And gains proficiency in saving throws using the chosen ability.",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Improvement (Undead Servant)",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Resilient (Strength)",
+       "Class Feature:Resilient (Dexterity)",
+       "Class Feature:Resilient (Constitution)",
+       "Class Feature:Resilient (Intelligence)",
+       "Class Feature:Resilient (Wisdom)",
+       "Class Feature:Resilient (Charisma)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Resilient (Strength)",
+   "type": "Class Feature",
+   "name": "Resilient (Strength)",
+   "desc": "Undead servant's Strength increases by 1.\n\nAnd it gains proficiency with Strength saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient (Dexterity)",
+   "type": "Class Feature",
+   "name": "Resilient (Dexterity)",
+   "desc": "Undead servant's Dexterity increases by 1.\n\nAnd it gains proficiency with Dexterity saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient (Constitution)",
+   "type": "Class Feature",
+   "name": "Resilient (Constitution)",
+   "desc": "Undead servant's Constitution increases by 1.\n\nAnd it gains proficiency with Constitution saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient (Intelligence)",
+   "type": "Class Feature",
+   "name": "Resilient (Intelligence)",
+   "desc": "Undead servant's Intelligence increases by 1.\n\nAnd it gains proficiency with Intelligence saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient (Wisdom)",
+   "type": "Class Feature",
+   "name": "Resilient (Wisdom)",
+   "desc": "Undead servant's Wisdom increases by 1.\n\nAnd it gains proficiency with Wisdom saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Resilient (Charisma)",
+   "type": "Class Feature",
+   "name": "Resilient (Charisma)",
+   "desc": "Undead servant's Charisma increases by 1.\n\nAnd it gains proficiency with Charisma saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Savage Attacker",
+   "type": "Class Feature",
+   "name": "Savage Attacker",
+   "desc": "Once per turn when your undead servant rolls damage for a melee weapon attack, it can reroll the weapon's damage dice and use either total.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Skulker",
+   "type": "Class Feature",
+   "name": "Skulker",
+   "desc": "Prerequisite: Dexterity 13 or higher\n\nYou trained your servant to become an expert at slinking through shadows. It gains the following benefits:\n\n- Undead servant can try to hide when it lightly obscured from the creature from which it is hiding.\n- When servant is hidden from a creature and misses it with a ranged weapon attack, making the attack doesn’t reveal its position.\n- Dim light doesn’t impose disadvantage on servant's Wisdom (Perception) checks relying on sight.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Eldritch Archer",
+   "type": "Class Feature",
+   "name": "Eldritch Archer",
+   "desc": "When you hit a creature with a ranged weapon under the effect of your Enspell feature you can cause the ammunition to explode with mystical energy, dealing the same damage type the attack would normally cause to all creatures within 10 feet of the target. When you do so, expend a spell slot and the creature and each other creature within 10 feet must succeed on a Dexterity saving throw or take 2d4 + 1d4 damage for each spell level higher than 1st, to a maximum of 6d4. On a success, they take half damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mystic Marauder",
+   "type": "Class Feature",
+   "name": "Mystic Marauder",
+   "desc": "When you hit a creature with a melee weapon attack with a weapon you are wielding with two hands that is under the effect of your Enspell feature, you can expend a spell slot to deal additional damage to the target. The extra damage is 2d6 for a 1st-level spell slot. The damage increases by 1d6 for each slot level above 1st, to a maximum of 6d6. The weapon must have the twohanded or versatile property for you to use this feature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Sorcerous Sentinel",
+   "type": "Class Feature",
+   "name": "Sorcerous Sentinel",
+   "desc": "While you are wielding a shield, when a creature under the effect of your Aegis feature is attacked you can use your reaction to expend a spell slot and strengthen the target’s defenses. The target gains a bonus to AC equivalent to the spell slot expended. This bonus is only applied against the triggering attack. Additionally, the target gains temporary hit points equal to your spellcasting modifier + twice the level of the spell slot expended.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spell Sword",
+   "type": "Class Feature",
+   "name": "Spell Sword",
+   "desc": "When you hit a creature with a one-handed melee weapon under the effect of your Enspell feature you may expend a spell slot to deal additional damage and render the creature vulnerable to magical attacks. The extra damage is 1d4 for a 1st-level spell slot. The damage increases by 1d4 for each slot level above 1st, to a maximum of 5d4. Additionally, the creature has disadvantage on saving throws against spells you cast until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unbreakable",
+   "type": "Class Feature",
+   "name": "Unbreakable",
+   "desc": "Starting at 14th level, you gain advantage on Strength, Dexterity, and Constitution saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 moxie point to reroll it and take the second result.",
+   "rules": [],
+   "lv": 3
+  },
+  {
+   "id": "Class Feature:Despair",
+   "type": "Class Feature",
+   "name": "Despair",
+   "desc": "Spirits of despair left the world of the living convinced there was no hope for someone like themselves. In death, they work to convince the living that the fatalistic outlook the spirits have is the only realistic one. While channeling a spirit of despair, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of despair, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | sleep\n3rd | silence\n5th | slow\n7th | confusion\n9th | stolen life\n\nSense Despair. When you make a Wisdom (Insight) ability check to understand the circumstances of someone’s sadness, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nAbandon Hope. You can use an action and spend 3 ectoplasm points to cause crippling melancholy in one creature you can see within 60 feet. That creature must succeed on a Charisma saving throw or have disadvantage on all attack rolls and saving throws until the end of its next turn.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Despair"
+    },
+    {
+     "grant": "Class Feature:Abandon Hope"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Greed",
+   "type": "Class Feature",
+   "name": "Greed",
+   "desc": "Those who die wishing for nothing but a chance to acquire more wealth become spirits of greed. In death, their state makes riches pointless but they crave them all the same. While channeling a spirit of greed, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Greed, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | tenser’s floating disk\n3rd | knock\n5th | clairvoyance\n7th | leomund’s secret chest\n9th | animate object\n\nSense Greed. When you make a Wisdom (Insight) ability check to understand the object of someone’s envy, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nBlood Money. When a creature within 60 feet of you dies, you can use your reaction and spend 1 ectoplasm point to turn their fleeing soul into stygian coins. When you do, you gain a number of stygian coins equal to the creature’s challenge rating or 1 (whichever is higher).",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Greed"
+    },
+    {
+     "grant": "Class Feature:Blood Money"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Hate",
+   "type": "Class Feature",
+   "name": "Hate",
+   "desc": "Spirits of hate died under bitter circumstances and passed on with nothing in their hearts but ill will towards their enemies. In death, they rage against every perceived slight and never forget a grudge. While channeling a spirit of hate, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Hate, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | hellish rebuke\n3rd | shadow blade\n5th | enemies abound\n7th | banishment\n9th | cloudkill\n\nSense Hate. When you make a Wisdom (Insight) ability check to understand the circumstances of someone’s anger, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nSpiteful Refrain. You can use a bonus action and spend 2 ectoplasm points to cause a creature you have already dealt damage to this turn further harm. That creature must succeed on a Wisdom saving throw or take 3d6 psychic damage.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Hate"
+    },
+    {
+     "grant": "Class Feature:Spiteful Refrain"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Hubris",
+   "type": "Class Feature",
+   "name": "Hubris",
+   "desc": "Those whose last moments on earth were spent reliving cherished memories of their own grandeur pass on to become spirits of hubris. In death, a spirit of hubris seeks to impress upon the living the importance of its accomplishments in life and desires in death. While channeling a spirit of hubris, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Hubris, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | command\n3rd | suggestion\n5th | fly\n7th | banishment\n9th | dominate person\n\nSense Hubris. When you make a Wisdom (Insight) ability check to understand a creature’s sense of self-worth, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nGrandiose Delusion. When you make an ability check that does not add your proficiency bonus, you can spend 2 ectoplasm points to gain advantage on the roll.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Hubris"
+    },
+    {
+     "grant": "Class Feature:Grandiose Delusion"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Jealousy",
+   "type": "Class Feature",
+   "name": "Jealousy",
+   "desc": "Spirits of jealousy spent their final moments fixated on a person, object, or status that they understood would soon be forever beyond their grasp. In death, they are obsessed with control and possession. While channeling a spirit of jealousy, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Jealousy, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | charm person\n3rd | detect thoughts\n5th | bestow curse\n7th | locate creature\n9th | modify memory\n\nSense Jealousy. When you make a Wisdom (Insight) ability check to understand the circumstances of someone’s envy, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nPossessive. You can use an action and spend 3 ectoplasm points to attempt to lure a creature you can see within 30 feet with your charms. When you do, the creature must make a Wisdom saving throw. On a failure, the creature is charmed by you for 1 minute or until it takes damage from you or one of your companions. In addition, if the creature is charmed by any other creature that effect ends immediately.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Jealousy"
+    },
+    {
+     "grant": "Class Feature:Possessive"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Madness",
+   "type": "Class Feature",
+   "name": "Madness",
+   "desc": "A spirit of madness may not have been insane in life but all spent their last living moments cracking under intense psychological pressure. In death, they are consumed by derangement. While channeling a spirit of madness, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Madness, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | tasha’s hideous laughter\n3rd | crown of madness\n5th | major image\n7th | confusion\n9th | mislead\n\nSense Madness. When you make a Wisdom (Insight) ability check to discover if someone is of sound mind, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nFracture Psyche. When a creature you can see within 60 feet fails an Intelligence, Wisdom, or Charisma saving throw you can use your reaction and spend 2 ectoplasm points to scream so loud it fractures their enfeebled mind. When you do, that creature must make an Intelligence saving throw. On a failure, it takes 3d6 psychic damage. On a success, it takes half damage.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Madness"
+    },
+    {
+     "grant": "Class Feature:Fracture Psyche"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Shame",
+   "type": "Class Feature",
+   "name": "Shame",
+   "desc": "When someone dies full of self-loathing and regret, they may become a spirit of shame. In death, spirits of shame lament their own wasted time among the living and castigate what they perceive as the shortcomings of others as well. While channeling a spirit of shame, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Shame, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | disguise self\n3rd | zone of truth\n5th | meld into stone\n7th | mordenkainen’s private sanctum\n9th | antilife shell\n\nSense Shame. When you make a Wisdom (Insight) ability check to understand a creature’s self-hatred, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nToxic Shame. You can use a bonus action and spend 2 ectoplasm points to choose a creature within 60 feet that you can see. Until the start of your next turn, the first time that creature fails an ability check, attack roll, or saving throw it is overcome with self-hatred and takes 2d6 psychic damage.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Shame"
+    },
+    {
+     "grant": "Class Feature:Toxic Shame"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Terror",
+   "type": "Class Feature",
+   "name": "Terror",
+   "desc": "Spirits of terror passed away in a state of absolute fear. In death, they have become fixated on afflicting others with the same sensation. While channeling a spirit of terror, you gain the following abilities.\n\nSpell List. While you are channeling a spirit of Terror, the following spells are considered spiritualist spells prepared by you.\n\nSpiritualist Level | Spells\n2nd | web\n3rd | invisibility\n5th | fear\n7th | phantasmal killer\n9th | dream\n\nSense Terror. When you make a Wisdom (Insight) ability check to understand the circumstances of someone’s fear, you can spend 1 ectoplasm point to gain advantage on that ability check.\n\nParalyzing Fear. You can use a bonus action and spend 2 ectoplasm points to cause a creature you can see within 60 feet to experience paralyzing fear. When you do, that creature must succeed on a Wisdom saving throw or be frightened of you until the end of its next turn. While it is frightened of you, its movement speed is reduced to 0.",
+   "rules": [
+    {
+     "grant": "Class Feature:Sense Terror"
+    },
+    {
+     "grant": "Class Feature:Paralyzing Fear"
+    }
+   ],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Arcane Warrior",
+   "type": "Class Feature",
+   "name": "Arcane Warrior",
+   "desc": "You learn two cantrips of your choice from the wizard spell list. They count as swordmage spells for you, and Intelligence is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the wizard spell list.",
+   "rules": [
+    {
+     "select": {
+      "name": "Cantrip, Arcane Warrior",
+      "n": 2,
+      "type": "Spell"
+     }
+    }
+   ]
+  }
+ ]
+}

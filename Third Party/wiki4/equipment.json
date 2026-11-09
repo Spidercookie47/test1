@@ -1,0 +1,51 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Prospector's Kit",
+   "type": "Gear",
+   "name": "Prospector's Kit",
+   "desc": "A prospector's kit contains:\n\n- Rockhammer\n- Shovel\n- Gold pan or betea\n- Small hand lens\n- Various small brushes and scraping tools\n\nProficiency with this kit lets you add your proficiency bonus to any ability checks you make to locate or analyse geological features such as mineral veins, precious metal veins or fossils.",
+   "rules": [],
+   "cg": "Tools",
+   "cp": 1000,
+   "price": 10.0,
+   "wt": 10.0
+  },
+  {
+   "id": "Weapon:Katana",
+   "type": "Weapon",
+   "name": "Katana",
+   "desc": "Damage 1d8 slashing. Versatile. Martial Melee weapon.\n\nIn some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 1500,
+   "price": 15.0,
+   "wt": 3.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Katana, Finesse",
+   "type": "Weapon",
+   "name": "Katana, Finesse",
+   "desc": "Damage 1d8 slashing. Finesse. Martial Melee weapon.\n\nHistorically, katana widely varied in size and weight. If you would prefer a katana that emphasizes fast, precise cuts, then you can choose this variation instead.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 1500,
+   "price": 15.0,
+   "wt": 2.0,
+   "cat": "martial"
+  },
+  {
+   "id": "Weapon:Scythe",
+   "type": "Weapon",
+   "name": "Scythe",
+   "desc": "Damage 2d4 slashing. Heavy, Two-Handed. Simple Melee weapon.\n\nThis weapon is inspired by the common farming implement used to cut swaths of grown hay, but it has a straight handle and a heavier blade. Despite its humble origins, the scythe is recognized as a symbol of death in many cultures because of its use in reaping. Rather than being too heavy for most smaller creatures, the scythe is too long for Small sized creatures to wield effectively.",
+   "rules": [],
+   "cg": "Weapons",
+   "cp": 2000,
+   "price": 20.0,
+   "wt": 4.0,
+   "cat": "simple"
+  }
+ ]
+}

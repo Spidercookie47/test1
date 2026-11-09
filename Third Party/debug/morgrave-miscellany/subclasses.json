@@ -1,0 +1,66 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Path of the Extreme Explorer",
+   "type": "Subclass",
+   "name": "Path of the Extreme Explorer",
+   "desc": "Some explorers search for mystical secrets, delving into the crumbling ruins of Xen’drik or climbing to the highest towers of Sharn. Some explorers venture...",
+   "rules": [
+    {
+     "grant": "Class Feature:Adrenaline Rush",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Cunning Artisan",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Adaptive Elements",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Extreme Rush",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Elevated Exploration",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Conditioned Endurance",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:College of Keys",
+   "type": "Subclass",
+   "name": "College of Keys",
+   "desc": "Many say that it was a warden of House Kundarak that first mastered the techniques of the College of Keys, singing a song so beautiful that the locks of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Key Change",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Timbre Illuminous",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Cypheric Ostinato",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Master Keynote",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  }
+ ]
+}

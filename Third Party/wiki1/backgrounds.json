@@ -1,0 +1,495 @@
+{
+ "elements": [
+  {
+   "id": "Background:Adventurer",
+   "type": "Background",
+   "name": "Adventurer",
+   "desc": "Athletics/Acrobatics, Insight/Perception, Thieves' Tools, 1 Standard Language/Speak 2 Exotic Languages",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency 1",
+      "from": [
+       "Athletics",
+       "Acrobatics"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency 2",
+      "from": [
+       "Insight",
+       "Perception"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Beloved Outcast"
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I speak with an accent nobody recognizes.",
+     "I look at the ceiling every time I enter a room, even if I was just there five seconds ago.",
+     "I assume every job is a trap.",
+     "I take notes about everyone and everything I encounter everywhere I go.",
+     "I leave marks for myself wherever I go, as messages to myself when I return. Their meaning is known only by me.",
+     "I tell stories about my adventures to anyone who will listen. Even tales of woe and disaster are retold with enthusiasm!",
+     "I am more accustomed to life on the road or underground than in a settlement or my actual \"home\".",
+     "I only respect other adventurers"
+    ],
+    "ideals": [
+     "Virtue. I am the sword of virtue for those in need! (Good)",
+     "Curiosity. If the job is interesting, I’m in! (Neutral)",
+     "Control. I’ll do the work, but some day I will return with a request... (Evil)",
+     "Justice. I fill the cracks crime slips through. (Lawful)",
+     "Wealth. I’m in it for the money! (Neutral)",
+     "Boredom. Get me away from this boring life! (Chaotic)"
+    ],
+    "bonds": [
+     "The things I have with me are everything I have and everything I am.",
+     "The people who raised me made me into an adventurer.",
+     "I am on a quest to obtain some rare or important object.",
+     "I can never linger anywhere for too long, or my secret will catch up to me.",
+     "I cannot remember my past before I was an adventurer.",
+     "I need to be the most famous adventurer alive."
+    ],
+    "flaws": [
+     "Adventuring has either made me jaded and pessimistic, or paranoid and jumpy.",
+     "I am almost dangerously greedy.",
+     "I cannot resist a drink, or the folk who serve it.",
+     "I egregiously underestimate or overestimate the risks a job represents.",
+     "I cannot maintain meaningful relationships.",
+     "I cannot manage money to save my life."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Beloved Outcast",
+   "type": "Background Feature",
+   "name": "Beloved Outcast",
+   "desc": "You can always find a job, but somehow you can never find a place to sleep. People know you’re good for the work, but the fact that you are indicates that you’re probably not the sort of person they want to have around. People view adventurers in a mixed light with conflicting values. On the one hand, most adventurers are nothing more than murderous, grave-robbing vagrants. On the other hand, who else will rob that grave and murder those local bullies for you? Most common folk consider adventurers to be dangerous, unpredictable, and probably insane... But in a world filled with slavers, mad cults, dragons, walking dead, pit fiends, and extradimensional horrors, just about everyone could find a use for a psychotic sell-sword. Adventurers who survive and reach higher renown may find they have a small following of supporters or fans, but even they may cringe at the idea of that adventurer spending an evening in their home. Most adventurers by profession are members of an adventurers guild through which they can readily attain professional work and contacts in the field.",
+   "rules": []
+  },
+  {
+   "id": "Background:Apothecary",
+   "type": "Background",
+   "name": "Apothecary",
+   "desc": "Medicine, Nature, Herbalism Kit, 1 Language",
+   "rules": [
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "grant": "Background Feature:Medical Profession"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "pf": [
+      "t:Herbalism kit"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I distance myself from everyone, even those I care about.",
+     "I keep all of my possessions meticulously clean and I hate any kind of filth.",
+     "I am honest to a fault; knowing all of the information is the only way to make an accurate diagnosis.",
+     "I make incredibly poor jokes in an attempt to put others at ease.",
+     "I talk down to others when speaking on a field I believe myself to be knowledgeable in.",
+     "I present everything I say as a guess or estimate so that I don’t look bad if it turns out to be wrong.",
+     "It seems like I always try to strike up a conversation at the worst possible moment.",
+     "I set very high standards for myself, and expect others to follow my example."
+    ],
+    "ideals": [
+     "Aid. Every sick or wounded person deserves my help, regardless of the life they lead. (Good)",
+     "Control. By deciding who lives and who dies, I can shape the world to my liking. (Evil)",
+     "Loyalty. It is my duty to treat those to whom I have sworn allegiance. (Lawful)",
+     "Efficiency. I am not emotionally invested in those I aid; to act otherwise would compromise my work. (Neutral)",
+     "Prevention. Stopping the spread of sickness is better than treating it. (Any)",
+     "Research. In order to treat patients effectively, we must understand the maladies afflicting them. (Any)"
+    ],
+    "bonds": [
+     "I share my discoveries with my fellow apothecaries, to further the goals of our trade.",
+     "I give my aid to those who protect my country and my ruler.",
+     "Many medicinal reagents are rare or hard to find; those who secure them deserve respect.",
+     "I seek a cure to a mysterious disease that afflicts one of my loved ones.",
+     "I wish to prove that \"mundane\" healing is just as viable as magic.",
+     "I work closely with a group that aims to eliminate a particular disease from existence."
+    ],
+    "flaws": [
+     "I use unproven treatments on my patients without their knowledge.",
+     "I refuse to give aid to those of a certain species or nationality, no matter how desperately they need it.",
+     "If a disease is particularly deadly, I refuse to treat it out of fear for my own health.",
+     "Memories of a horrible plague that I failed to cure still haunt me to this day.",
+     "The sight of blood makes me queasy, and I can only treat those who have no external wounds.",
+     "I am only interested in the ailments my patients suffer from, not the people themselves."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Medical Profession",
+   "type": "Background Feature",
+   "name": "Medical Profession",
+   "desc": "You have a reputation as a healer of the sick, and are often called upon by those who are diseased or injured. You can usually gain an audience with anyone who needs treatment — even if protocol would normally prevent you from doing so — simply by agreeing to offer your assistance. By spending a few moments examining a chemical — a vial of liquid, a packet of ground powder, or the like — you can determine whether the substance is intended to harm or heal (or neither). This examination does not reveal any specific information about the substance(such as that a powder is actually an inhaled poison, or that it paralyzes its victim), only that it is either harmful or helpful to those that it is used on.",
+   "rules": []
+  },
+  {
+   "id": "Background:Bounty Hunter",
+   "type": "Background",
+   "name": "Bounty Hunter",
+   "desc": "Deception/Stealth, Intimidation, Thieves' Tools",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Intimidation"
+    },
+    {
+     "grant": "Background Feature:Names, Faces, and Places"
+    },
+    {
+     "grant": "Background Feature:Contacts and Forgery"
+    },
+    {
+     "grant": "Background Feature:Ear to the Ground"
+    },
+    {
+     "select": {
+      "name": "Bounty Hunter Variant",
+      "type": "Background",
+      "ids": [
+       "Background:Variant: Vigilante"
+      ]
+     }
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I tend to approach conversation with people I've just met as though it were an interrogation.",
+     "I project arrogance and conceit at times, especially after turning in a troublesome target.",
+     "I'll accept the help of others with a bounty, so long as they can prove their skill to me first.",
+     "It needn't be hunting down a mark - I'll chop firewood for an old woman if there's pay involved.",
+     "I'm not prone to idle chatter, and prefer keeping to myself unless the topic's business.",
+     "I've a great deal of practical experience from hunting bounties, and can relate to almost any situation.",
+     "I'm rather adept at games of skill like darts, or five-finger fillet.",
+     "I frequently move from town to town, eager to pursue new marks and seek new contacts."
+    ],
+    "ideals": [
+     "Justice. These people have violated the law once. I won't let it happen twice. (Lawful)",
+     "Wealth. The only path to true freedom is having gold enough to do as you will. (Chaotic)",
+     "Brutality. Gold pales to the brilliance of the life draining from their eyes. (Evil)",
+     "Morality. It's not enough to hunt them down. They have to understand what they've done is reprehensible. (Good)",
+     "Ambiguity. This job's just a job, like any other. Nothing personal against my targets. (Neutral)",
+     "Endurance. In no other line of work could anyone expect to test their limits so completely. (Any)"
+    ],
+    "bonds": [
+     "Once a solider, my comrade's grave betrayal forced me from my home, and into this life.",
+     "Though my friends are few, I owe them my life many times over, and would happily die for them.",
+     "Horrendous tales and vile rumor destroyed my family's good name, and this path is the only recourse to find the truth.",
+     "The contract turned sour, and now I find myself yoked to dangerously twisted employers.",
+     "All my deeds would surely consign me to prison - only by servicing officials do I stay free.",
+     "Mindless thuggery stole the life of one I cherished, and the price they must pay is one I will collect."
+    ],
+    "flaws": [
+     "Sleep, when it comes, is no sleep at all. The time spent tracking marks has left me skittish and paranoid.",
+     "Not only am I good at what I do, but I love what I do - and I hate myself for it.",
+     "I refuse to believe anyone can be trusted, and will root through their life until I'm satisfied they can be.",
+     "At a younger age my actions earned me the brand of a criminal, those mistakes haunting me and my fellows even today.",
+     "It is only for my own selfish need to be the best at what I do that I abandon my team to bring the bounty in first.",
+     "Contract or not, I never bring murder bounties back alive. They showed no mercy, and so neither will I."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Names, Faces, and Places",
+   "type": "Background Feature",
+   "name": "Names, Faces, and Places",
+   "desc": "Though many claim the role of a bounty hunter, few actually excel at the profession save those with a keen eye for observation. Among the adept are those who are truly gifted, having an almost preternatural talent for anticipating the behavior of their targeted mark. Being among their ranks, you have an uncanny ability to recall specific details of conversation and names you overhear or participate in as it relates to your bounty, or otherwise see written, even if only for a moment or two. You can also sketch out faces and general locations you've seen with accuracy, possessing exceptional recollection. In addition, you often effortlessly identify clues when tracking your bounty's movements and disposition that would be otherwise lost on lesser pursuers.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Contacts and Forgery",
+   "type": "Background Feature",
+   "name": "Contacts and Forgery",
+   "desc": "As a bounty hunter you have traveled far and wide which has allowed you to have built up a network of contacts and informants that can help you track down your mark. If you are in a town or city where one of your contacts or informants reside (DM's discretion) you may inquire about information that pertains to your mark for the right price or trade a favor to gain the information (DM's discretion). Additionally you have trained yourself in creating documents that will allow you to gain entry into areas you would normally not be allowed to enter in order to capture your mark. You can forge documents including officials papers and personal letters, as long as you have seen an example of the kind of document or handwriting you are trying to copy.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Ear to the Ground",
+   "type": "Background Feature",
+   "name": "Ear to the Ground",
+   "desc": "You are in frequent contact with people in the segment of society that your chosen mark moves through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people, places and the political standings of the local area.",
+   "rules": []
+  },
+  {
+   "id": "Background:Variant: Vigilante",
+   "type": "Background",
+   "name": "Variant: Vigilante",
+   "desc": "Standing in contrast to the mercenaries who haul in anyone labelled a criminal for coin are those who target thieves, charlatans, and murderers exclusively...",
+   "rules": [
+    {
+     "grant": "Background Feature:Variant Feature: Crime Doesn't Pay"
+    },
+    {
+     "grant": "skill:Stealth"
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Variant Feature: Crime Doesn't Pay",
+   "type": "Background Feature",
+   "name": "Variant Feature: Crime Doesn't Pay",
+   "desc": "Pulling from your prior experiences as a soldier, mercenary, or even an extensive time living the life of a vigilante, you have the skills needed to wage a kind of psychological battle against the criminal elements of society. When interrogating someone to glean information about the location, motive, or operations of their superiors, they will easily buckle under questioning and often times readily give up sensitive knowledge without the need to press further. Any promises you may make concerning their fate in exchange for information you are not obligated to keep, short of killing them. You can coordinate this information with any authority in a city you're on amicable terms with, be it the guard or militia, your own old military unit, or even a sympathetic temple's leadership, provided that temple maintains soldiers of their own.\n\nIn addition, replace the Deception proficiency in the skills list above with Stealth, and substitute the hunter's traps and bounty trinkets with a magnifying glass and a set of manacles.",
+   "rules": []
+  },
+  {
+   "id": "Background:Islander",
+   "type": "Background",
+   "name": "Islander",
+   "desc": "Perception, Survival, 1 Musical Instrument, Vehicles (water)",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Musical Instrument",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Background Feature:Wanderer"
+    },
+    {
+     "pf": [
+      "t:Vehicles (water)"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I’m so entranced with the stars, that I’d rather sleep by day.",
+     "If I can’t get all I need from one island, I’m living lavishly.",
+     "I have a lesson for every situation, drawn from my observations of nature.",
+     "I’d prefer if everywhere had a view of the ocean.",
+     "There’s nothing more pleasing than laying on the warm sand while the waves graze my feet.",
+     "I’m at my best when I’m alone and can hear only nature.",
+     "I feel far more comfortable among animals than people.",
+     "I’ve fallen asleep floating and awoken on a new island."
+    ],
+    "ideals": [
+     "Freedom. The sea is freedom - the freedom to go anywhere as well as do anything. (Chaotic)",
+     "Survival. If I don’t fight to live on, then I will become part of something else's fight - that's just how things are. (Lawful)",
+     "Nature. The natural world is more important than all the constructs of civilization. (Neutral)",
+     "Greater Good. It’s everyone’s responsibility to do their best to be kind to the world. (Good)",
+     "Destruction. Only the mightiest don’t get weathered. (Evil)",
+     "Solitude. The best way to live life is alone. (Any)"
+    ],
+    "bonds": [
+     "I return to the same island at least once a month to make sure no one else has claimed it.",
+     "My tribe is gone except for me, but I’ll renew it someday.",
+     "The ocean is the world’s lifeblood. I won’t see it be fouled up.",
+     "I want a child, so after I’m gone someone will still watch the sea.",
+     "The great blue took my parents, but it will never take me.",
+     "The ocean is in pain, and I must find the source."
+    ],
+    "flaws": [
+     "There’s no room for caution in a life lived to the fullest.",
+     "I’ll never stop pursuing someone who leaves anything on an isle that they brought with them.",
+     "I tend to withdraw when faced with new situations.",
+     "The ocean takes everything eventually, I just quicken the process.",
+     "I am slow to trust anybody who seems not to notice nature.",
+     "Often I talk to myself in public because I forget I’m not alone."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Wanderer",
+   "type": "Background Feature",
+   "name": "Wanderer",
+   "desc": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth",
+   "rules": []
+  },
+  {
+   "id": "Background:Prospector",
+   "type": "Background",
+   "name": "Prospector",
+   "desc": "Investigation, Survival, Prospector's kit, Dwarvish",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    },
+    {
+     "grant": "Background Feature:Geological Knack"
+    },
+    {
+     "pf": [
+      "t:Prospector’s kit"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am uncomfortable in crowds due to a life lived in almost seclusion.",
+     "I am always looking for the next big break.",
+     "Luck favors the prepared, so I tend to be as prepared as I can possibly be (overprepared?)",
+     "When work needs doing, I do the work.",
+     "I am regularly tasting bits of rock and soil in order to search for signs of precious metals.",
+     "My conversation and social skills are a bit rusty – cursing at the rock and singing myself to sleep does not breed civilized habits."
+    ],
+    "ideals": [
+     "Change. Opportunity is hiding around the next corner.",
+     "Respect. Everyone deserves a chance to improve their station in life: with hard work and/or some luck.",
+     "Independence. I must prove that I can provide a good life for myself and my family.",
+     "Simplicity. A simple way of life: If it ain’t broke don’t fix it.",
+     "Ambition. A successful person makes their own opportunities.",
+     "Wealth. With wealth comes power and happiness."
+    ],
+    "bonds": [
+     "I am always willing to help out someone else who is down on their luck.",
+     "I am looking for that someone special to spend the rest of my life with.",
+     "I am out to stake my claim on a productive mine and make my fortune.",
+     "I share an empathy with every race and creature that digs and mines.",
+     "Love is fleeting, rock and minerals last forever.",
+     "I count myself as one of the rich and powerful, even though I have not found my fortune yet. It is just a matter of time."
+    ],
+    "flaws": [
+     "Once I find a bit of precious mineral, I cannot abandon the search until I have found and mined (or collected) the cache of metal or gems.",
+     "I constantly scan the ground and my surroundings for signs of precious metals.",
+     "I am obsessed with a particular kind of precious gem or metal and will pass up other treasure in pursuit of this resource.",
+     "I am boastful and tend to try to one-up others during conversations.",
+     "I am eternally pessimistic due to what seems like rotten luck.",
+     "I am eternally optimistic about striking it rich- more than a little too optimistic."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Geological Knack",
+   "type": "Background Feature",
+   "name": "Geological Knack",
+   "desc": "You have an uncanny knack for ascertaining the features of the underlying geology and bedrock based on surface soil and plant conditions. You understand which types of rock are likely to yield precious metals and minerals. Although this knack will not lead you directly to the mythical pot of gold, it may be able to point you in the right general direction. This geological knowledge might possibly also come in handy in predicting where lava and underground water might be found.",
+   "rules": []
+  },
+  {
+   "id": "Background:Witch Hunter",
+   "type": "Background",
+   "name": "Witch Hunter",
+   "desc": "2 from Insight, Intimidation, Investigation, Perception, Survival; Alchemist's Tools, 1 Gaming Set, 2 Exotic Languages",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Perception",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Gaming Set",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Evil Recognition"
+    },
+    {
+     "pf": [
+      "t:Alchemist’s supplies"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I travel from place to place a lot - evil must be fought everywhere.",
+     "I constantly guide my allies away from the Dark Ways - I would hate to have to kill them.",
+     "I barely ever sleep or rest, so intent am I upon seeking out evil.",
+     "My wise words have often convinced another to step back into the light.",
+     "I do not work for money - rich and poor alike can succumb to the temptations of Black Magic.",
+     "I look carefully over everything I see - the Dark is cunning, and but one lapse could doom the world.",
+     "I prefer to hunt my foes alone - there are many pitfalls for those less skilled than me to fall foul of.",
+     "I am suspicious of everyone, especially those who dislike me."
+    ],
+    "ideals": [
+     "Redemption - If my foe wishes to repent, I am willing to help them return to the light. (Good)",
+     "Freedom - I do not knuckle under authority - that would only slow me down. (Chaotic)",
+     "Law - The law is all that keeps evil at bay. (Lawful)",
+     "Skill - I fight the darkness to prove I can, and I constantly challenge myself to get better at it. (Neutral)",
+     "Mercilessness - once you have turned to the dark, there is no turning back - not in my eyes. (Neutral)",
+     "Pain - I take a perverse pleasure in inflicting pain on my captives. (Evil)"
+    ],
+    "bonds": [
+     "Civilization is a beacon in the night that must remain burning.",
+     "I once showed mercy to a young warlock, whom I fell deeply in love with. I still wonder if I did the right thing.",
+     "My family and friends are always there to fall back on when all seems lost, to rekindle the light in me.",
+     "My only bond is to the silver in my sword.",
+     "Pursuing this dangerous path has forced me to leave behind those I love, if only to protect them.",
+     "My only kin are those of my Witch Hunting brotherhood."
+    ],
+    "flaws": [
+     "Once I start killing, I cannot stop.",
+     "I am overly aggressive/prejudiced toward all magic wielders, excluding myself.",
+     "I will pursue a target no matter the cost.",
+     "My lust for revenge/avarice spurs me to be brash and reckless.",
+     "I will kill any monster, good or evil.",
+     "I will risk the lives of innocents to catch my target."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Evil Recognition",
+   "type": "Background Feature",
+   "name": "Evil Recognition",
+   "desc": "You have advantage on Wisdom (Perception) checks to identify necromancy, fiendish or fey magic, or a practitioner of any of these techniques (this includes identifying a Fey, Fiend or Undead, even if they do not directly practice that type of magic). Also you can roll on intelligence checks to recall information about them.",
+   "rules": []
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Crystalline Arsenal",
+   "type": "Feat",
+   "name": "Crystalline Arsenal",
+   "desc": "Prerequisite: Shardmind\n\nThe substance of your body itself can be a weapon. As a bonus action, you can form the shards of your body to produce a weapon you have proficiency with, which appears in an unoccupied hand. After this weapon is out of your grasp for one round, or if you use another bonus action to dismiss it, the weapon deconstructs itself and re-integrates with the substance of your body.\n\nWhen you form a weapon you can choose to empower it, and begin concentrating as if on a spell. If you do, the weapon is affected by a casting of magic weapon at its lowest possible spell level, lasting for up to one minute, until you lose concentration, or until you dismiss the weapon.\n\nAt 7th level, this becomes a 4th level casting of magic weapon. At 11th level, it becomes a 6th level casting. After you empower a weapon you form, you require a short or long rest before you can empower a weapon again.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Shard Magic",
+   "type": "Feat",
+   "name": "Shard Magic",
+   "desc": "Prerequisite: Shardmind\n\nYour psionic potential is greater than others of your kind, giving you enhanced magics and control over your form. You know the mage hand and magic stone cantrips. When you use mage hand, the spectral hand is invisible, and when you use magic stone, you can use fragments of your own body in place of the stones. You can also cast each of the following spells once with this ability: detect thoughts, magic missile, and suggestion.\n\nWhen you first take this feat, choose from Charisma, Intelligence, or Wisdom as your spellcasting ability for these spells and cantrips. If a spell gained with this ability has a spell level, it is cast at 2nd level, and you regain the ability to cast it when you finish a long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Mage Hand",
+     "at will"
+    ],
+    [
+     1,
+     "Magic Stone",
+     "at will"
+    ]
+   ]
+  }
+ ]
+}

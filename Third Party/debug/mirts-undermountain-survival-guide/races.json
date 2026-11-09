@@ -1,0 +1,385 @@
+{
+ "elements": [
+  {
+   "id": "Race:Giff",
+   "type": "Race",
+   "name": "Giff",
+   "desc": "Gun-loving mercenaries from space, the giff are known for their superb martial abilities, their ostentatious uniforms, and their fondness for gunpowder....",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "con": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Headfirst Charge"
+    },
+    {
+     "grant": "Racial Trait:Martial Heritage"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build (Giff)"
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Giff"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Headfirst Charge",
+   "type": "Racial Trait",
+   "name": "Headfirst Charge",
+   "desc": "If you move at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, that creature must succeed on a Strength saving throw with a DC equal to 8 + your Strength modifier + your proficiency bonus. On failure, the target takes 7 (2d6) bludgeoning damage and is knocked prone. Once you use this ability, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Martial Heritage",
+   "type": "Racial Trait",
+   "name": "Martial Heritage",
+   "desc": "You have proficiency with renaissance firearms and any one martial weapon of your choice. You ignore the loading property of muskets and pistols.",
+   "rules": [
+    {
+     "pf": [
+      "w:Renaissance firearms pistol",
+      "w:Renaissance firearms musket"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Powerful Build (Giff)",
+   "type": "Racial Trait",
+   "name": "Powerful Build (Giff)",
+   "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": []
+  },
+  {
+   "id": "Race:Half-Ogre",
+   "type": "Race",
+   "name": "Half-Ogre",
+   "desc": "Ogres occasionally mate with bugbears, hobgoblins, orcs, or humans. The resulting offspring is known as a half-ogre. Lazy, strong, and bad-tempered,...",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "con": 1,
+      "int": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Menacing"
+    },
+    {
+     "grant": "Racial Trait:Furious Might"
+    },
+    {
+     "grant": "Racial Trait:Powerful Build (Half-Ogre)"
+    },
+    {
+     "grant": "Racial Trait:Languages (Half-Ogre)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Menacing",
+   "type": "Racial Trait",
+   "name": "Menacing",
+   "desc": "You gain proficiency in the Intimidation skill.",
+   "rules": [
+    {
+     "grant": "skill:Intimidation"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Furious Might",
+   "type": "Racial Trait",
+   "name": "Furious Might",
+   "desc": "As a bonus action, you work yourself into a fury that grants you enormous physical power. Your Strength score becomes 20. The transformation lasts for 1 minute, and once you use this ability, you can’t use it again until you finish a short or long rest. This ability has no effect on you if your Strength is 20 or higher already.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Powerful Build (Half-Ogre)",
+   "type": "Racial Trait",
+   "name": "Powerful Build (Half-Ogre)",
+   "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Languages (Half-Ogre)",
+   "type": "Racial Trait",
+   "name": "Languages (Half-Ogre)",
+   "desc": "You can speak Common and Giant. You cannot read or write unless your class requires it.",
+   "rules": [
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Giant"
+    }
+   ]
+  },
+  {
+   "id": "Race:Illithid",
+   "type": "Race",
+   "name": "Illithid",
+   "desc": "Hideous monsters from another dimension, illithids are feared and despised by intelligent creatures across all the known worlds. Also called mind flayers,...",
+   "rules": [
+    {
+     "stat": {
+      "int": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Tentacles"
+    },
+    {
+     "grant": "Racial Trait:Charm Resistance"
+    },
+    {
+     "grant": "Racial Trait:Extract Brain"
+    },
+    {
+     "grant": "Racial Trait:Mind Blast"
+    },
+    {
+     "grant": "Racial Trait:Languages (Illithid)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Tentacles",
+   "type": "Racial Trait",
+   "name": "Tentacles",
+   "desc": "Your tentacles are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal psychic damage equal to 1 + your Intelligence modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Charm Resistance",
+   "type": "Racial Trait",
+   "name": "Charm Resistance",
+   "desc": "You have advantage on saving throws against being magically charmed, and magic can’t put you to sleep.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Extract Brain",
+   "type": "Racial Trait",
+   "name": "Extract Brain",
+   "desc": "If you have a humanoid target grappled, as a bonus action you may make an unarmed attack using your tentacles and maw. On a hit, the target takes 1d6 piercing damage and psychic damage equal to your Intelligence modifier. If this damage reduces the target to 0 hit points, you kill the target by extracting and devouring its brain. Upon doing this you learn one of the target’s recent memories, as chosen by the DM.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mind Blast",
+   "type": "Racial Trait",
+   "name": "Mind Blast",
+   "desc": "You magically emit psychic energy in a 15-foot cone. When you use your mind blast, each creature in the area of effect must make a Intelligence saving throw with a DC equal to 8 + your Intelligence modifier + your proficiency bonus. A creature takes 2d6 psychic damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your mind blast, you can’t use it again until you complete a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Languages (Illithid)",
+   "type": "Racial Trait",
+   "name": "Languages (Illithid)",
+   "desc": "You can speak, read, and write Common, Undercommon, and Deep Speech. You have telepathy up to 120 feet.",
+   "rules": [
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Undercommon"
+    },
+    {
+     "grant": "Language:Deep Speech"
+    }
+   ]
+  },
+  {
+   "id": "Race:Nimblewright",
+   "type": "Race",
+   "name": "Nimblewright",
+   "desc": "Nimblewrights are magical constructs created to serve as servants, performers, guards, or assassins. While they are built to serve a master and purpose,...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "con": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Construct"
+    },
+    {
+     "grant": "Racial Trait:Construct Resilience"
+    },
+    {
+     "grant": "Racial Trait:Nimblewright Components"
+    },
+    {
+     "grant": "Racial Trait:Repairable"
+    },
+    {
+     "grant": "Racial Trait:Sentry’s Rest"
+    },
+    {
+     "grant": "Racial Trait:Sure-Footed"
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Construct",
+   "type": "Racial Trait",
+   "name": "Construct",
+   "desc": "Your creature type is construct, rather than humanoid.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Construct Resilience",
+   "type": "Racial Trait",
+   "name": "Construct Resilience",
+   "desc": "Your construct origins give you remarkable fortitude, represented by the following benefits:\n\n- You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n- You are immune to disease.\n- You don’t need to eat, drink, or breathe.\n- You don’t need to sleep and don’t suffer the effects of exhaustion due to lack of rest, and magic can’t put you to sleep.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nimblewright Components",
+   "type": "Racial Trait",
+   "name": "Nimblewright Components",
+   "desc": "You can install one nimblewright component in your body, which gives you a benefit. You can swap or remove a component during a short or long rest, and you can only power one component at a time.\n\nChoose three nimblewright components, which you carry and for which you are outfitted, from the following list:\n\n- Bright Eyes. With this component installed, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\n- Fleet Feet. With this component installed, your base walking speed increases 10 feet.\n- Hidden Compartment. With this component installed, you have a spring-loaded hidden compartment on your body that can carry and hide one Tiny creature or object inside of you.\n- Keen Ears. With this component installed, you have advantage on Wisdom (Perception) checks that rely on hearing.\n- Power Lifter. With this component installed, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n- Voice Box. With this component installed, you can speak any language you understand (see “Languages” below).\n\nYou can find the nimblewright components in “Adventuring Gear”.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Repairable",
+   "type": "Racial Trait",
+   "name": "Repairable",
+   "desc": "The mending cantrip has the effect of the spare the dying cantrip if it is cast on you.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sentry’s Rest",
+   "type": "Racial Trait",
+   "name": "Sentry’s Rest",
+   "desc": "When you take a long rest, you must spend at least 6 hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but you aren’t rendered unconscious, and you can see and hear as normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sure-Footed",
+   "type": "Racial Trait",
+   "name": "Sure-Footed",
+   "desc": "You are constructed to keep your balance, and have advantage on Strength and Dexterity saving throws made against effects that would knock you prone.",
+   "rules": []
+  },
+  {
+   "id": "Race:Sprite",
+   "type": "Race",
+   "name": "Sprite",
+   "desc": "With their fey powers and tiny weapons, sprites have anointed themselves protectors of the forest. Their magical empathy allows them to quickly judge friend...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "int": 2,
+      "str": -4
+     }
+    },
+    {
+     "speedBonus": {
+      "max": 10
+     }
+    },
+    {
+     "grant": "Racial Trait:Flight"
+    },
+    {
+     "grant": "Racial Trait:Martial Pedigree"
+    },
+    {
+     "grant": "Racial Trait:Sprite Magic"
+    },
+    {
+     "grant": "Racial Trait:Skilled Poisoner"
+    },
+    {
+     "grant": "Racial Trait:Sprite-Sized Equipment"
+    },
+    {
+     "grant": "Racial Trait:Languages (Sprite)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Flight",
+   "type": "Racial Trait",
+   "name": "Flight",
+   "desc": "You have a flying speed of 40 feet. While flying, you can move through the space of any creature that is of a size larger than yours. You cannot fly if you are wearing medium or heavy armor.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Martial Pedigree",
+   "type": "Racial Trait",
+   "name": "Martial Pedigree",
+   "desc": "You have trained for war your whole life. You are proficient with the shortbow, rapier, and light armor.",
+   "rules": [
+    {
+     "pf": [
+      "w:Shortbow",
+      "w:Rapier",
+      "a:Light armor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Sprite Magic",
+   "type": "Racial Trait",
+   "name": "Sprite Magic",
+   "desc": "You can cast the invisibility spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 3rd level, you can cast the detect thoughts spell once with this trait and regain the ability to do so when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Skilled Poisoner",
+   "type": "Racial Trait",
+   "name": "Skilled Poisoner",
+   "desc": "You have proficiency with the poisoner’s kit. You can spend five downtime days and 25 gp to create 5 poison arrows (see box, “Poison Arrows,” above).",
+   "rules": [
+    {
+     "pf": [
+      "t:Poisoner’s kit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Sprite-Sized Equipment",
+   "type": "Racial Trait",
+   "name": "Sprite-Sized Equipment",
+   "desc": "All your starting equipment is sprite-sized. You may substitute one piece of weaponry or armor granted by your class or background for 10 poison arrows.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Languages (Sprite)",
+   "type": "Racial Trait",
+   "name": "Languages (Sprite)",
+   "desc": "You can speak Common, Elvish, and Sylvan. You cannot read or write unless your class requires it.",
+   "rules": [
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Elvish"
+    },
+    {
+     "grant": "Language:Sylvan"
+    }
+   ]
+  }
+ ]
+}

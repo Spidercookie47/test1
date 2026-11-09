@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "heroes-of-hell",
+  "name": "Heroes of Hell",
+  "short": "HOH"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "magic-items.json",
+  "backgrounds.json",
+  "info.json"
+ ]
+}

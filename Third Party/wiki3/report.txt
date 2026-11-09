@@ -1,0 +1,56 @@
+Converted: 4 Race, 26 Racial Trait, 5 Sub Race
+
+== selects not understood (18)
+  Dryad: type=Ability Score Improvement supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_INTELLIGENCE"
+  Dryad: type=Ability Score Improvement supports="Custom Ability Score Increase 2"
+  Dryad: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Homunculus: type=Ability Score Improvement supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY"
+  Homunculus: type=Ability Score Improvement supports="Custom Ability Score Increase 2"
+  Homunculus: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Sprite: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Wandering Sprite: type=Ability Score Improvement supports="ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_INTELLIGENCE"
+  Wandering Sprite: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Bell Sprite: type=Ability Score Improvement supports="ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CHARISMA"
+  Bell Sprite: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Crom Sprite: type=Ability Score Improvement supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_CONSTITUTION"
+  Crom Sprite: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Weapon Fighter: Proficiency supports="Weapon,Simple"
+  Weapon Fighter: Proficiency supports="Weapon,Martial"
+  Succubus: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Firebeard Dwarf: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+  Rune Dwarf: type=Ability Score Improvement supports="Custom Ability Score Increase 1"
+
+== grants of other kinds (skipped) (7)
+  Dryad: Size ID_SIZE_MEDIUM
+  Homunculus: Size ID_SIZE_MEDIUM
+  Sprite: Size ID_SIZE_TINY
+  Wandering Sprite: Vision ID_VISION_DARKVISION
+  Powerful Build: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  Succubus: Size ID_SIZE_MEDIUM
+  Succubus: Vision ID_VISION_DARKVISION
+
+== ids not in this pack (assumed to be in another pack, check the name) (2)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Language:Sylvan  (from ID_LANGUAGE_SYLVAN)
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (5)
+  Lifestone: lifestone
+  Sprite: speed
+  Heart Sight: heart
+  Tiny Fighter: ac, crom sprite
+  Wings: speed
+
+== grants without an id (skipped) (1)
+  Invisibility: Spell
+
+== damage resistances (no pack field for characters, the text already says it) (1)
+  Fire Resistance: fire
+
+== grants pointing outside these packs (needs another pack) (6)
+  Race:Dryad -> Language:Common
+  Race:Dryad -> Language:Sylvan
+  Race:Homunculus -> Language:Common
+  Race:Sprite -> Language:Common
+  Race:Sprite -> Language:Sylvan
+  Race:Succubus -> Language:Common
+

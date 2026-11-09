@@ -1,0 +1,144 @@
+{
+ "elements": [
+  {
+   "id": "Sub Race:Cliffwalk Shifter",
+   "type": "Sub Race",
+   "name": "Cliffwalk Shifter",
+   "desc": "Cliffwalk shifters typically act prideful and aloof but those closest to them know these mannerisms mask a shy and introverted countenance. They prefer...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "int": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Cloven Ascent"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Cliffwalk Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Cloven Ascent",
+   "type": "Racial Trait",
+   "name": "Cloven Ascent",
+   "desc": "You have a climbing speed of 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Cliffwalk Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Cliffwalk Shifter)",
+   "desc": "While shifting, moving through difficult terrain costs you no extra movement.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Swiftwing Shifter",
+   "type": "Sub Race",
+   "name": "Swiftwing Shifter",
+   "desc": "Swiftwing are typically the charmers and songbirds of the shifters, usually mingling late into the morning, sometimes to the chagrin of their companions....",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "dex": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Light as a Feather"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Swiftwing Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Light as a Feather",
+   "type": "Racial Trait",
+   "name": "Light as a Feather",
+   "desc": "Your jump distance is doubled.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Swiftwing Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Swiftwing Shifter)",
+   "desc": "While shifted, you can use your bonus action to gain a flying speed of 30 feet until you land. At the end of each of your turns, your altitude drops by 5 feet. Your altitude drops instantly to 0 feet at the end of your turn if you didn’t fly at least 30 feet horizontally on that turn. When your altitude drops to 0 feet you land (or fall), and you must use another bonus action to gain the flying speed again.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Truedive Shifter",
+   "type": "Sub Race",
+   "name": "Truedive Shifter",
+   "desc": "Curious, intelligent, and expressive, truedives are those shifters with no qualms about jumping right in to dubious depths. This can unnerve other shifters,...",
+   "rules": [
+    {
+     "stat": {
+      "con": 1,
+      "int": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Swimmer’s Build"
+    },
+    {
+     "grant": "Racial Trait:Shifting Feature (Truedive Shifter)"
+    }
+   ],
+   "supports": "Race:Shifter"
+  },
+  {
+   "id": "Racial Trait:Swimmer’s Build",
+   "type": "Racial Trait",
+   "name": "Swimmer’s Build",
+   "desc": "You have a swimming speed of 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shifting Feature (Truedive Shifter)",
+   "type": "Racial Trait",
+   "name": "Shifting Feature (Truedive Shifter)",
+   "desc": "While shifting, you can breathe underwater, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:The Mark of Death",
+   "type": "Sub Race",
+   "name": "The Mark of Death",
+   "desc": "TThe Dragonmark of Death is one of the great mysteries of Eberron, and it is unlikely that it will become official content or ever have an official answer....",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1,
+      "cha": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Death’s Favor"
+    },
+    {
+     "grant": "Racial Trait:Unliving Bond"
+    }
+   ],
+   "supports": "Race:Elf"
+  },
+  {
+   "id": "Racial Trait:Death’s Favor",
+   "type": "Racial Trait",
+   "name": "Death’s Favor",
+   "desc": "When you make a Charisma ability check to interact with the dead or undead, you can roll one Intuition die, a d4, and add the number rolled to the ability check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Unliving Bond",
+   "type": "Racial Trait",
+   "name": "Unliving Bond",
+   "desc": "As an action, you establish a telepathic link with one undead creature you touch that isn’t hostile toward you. For the next 10 minutes, the link is active while you and the creature are within line of sight of each other. Through the link, the undead creature can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the undead creature gains advantage on attack rolls against any creature within 5 feet of you that you can see.",
+   "rules": []
+  }
+ ]
+}

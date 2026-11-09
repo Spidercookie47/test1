@@ -1,0 +1,726 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Research Proficiency",
+   "type": "Class Feature",
+   "name": "Research Proficiency",
+   "desc": "When you adopt this specialization at 3rd level, you gain proficiency with the Investigation skill. If you are already proficient with the skill, you become proficient with a different skill of your choice. Your proficiency bonus is doubled for any Intelligence (Investigation) checks you make.",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency, Research Proficiency",
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Chaotician Spells",
+   "type": "Class Feature",
+   "name": "Chaotician Spells",
+   "desc": "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown on the Chaotician Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.\n\nALCHEMIST SPELLS\n\nArtificer Level | Spells\n3rd | chromatic orb, witch bolt\n5th | phantasmal force, silence\n9th | call lightning, slow\n13th | confusion, polymorph\n17th | destructive wave, reincarnate",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chaos Zone",
+   "type": "Class Feature",
+   "name": "Chaos Zone",
+   "desc": "At 3rd level, you can tap into the unstable chaos that forms the basis of existence. As a bonus action, you can choose a point you can see within 30 feet of you, creating a region of chaotic reality originating from that point. This region is a cube, 10 feet on each side, which is always considered dim light from the shifting of images seen through it.\n\nWhen a hostile creature in this zone of chaos rolls an attack roll or ability check, it must roll a d4 and subtract the result from that roll. Conversely, when a friendly creature in this zone makes an attack roll or ability check, it rolls a d4 and adds the result to that roll. This d4 becomes a d6 at 10th level.\n\nWhen you create the zone and as a bonus action on your turns while it persists, you can control the zone, moving it up to 20 feet in a direction of your choice. You can then cause a bolt of energy to jump from the region. Make a ranged spell attack against a creature within 20 feet of your chaos zone. On a hit, the target takes 2d8 lightning damage.\n\nThe chaos zone lasts for 10 minutes or until you end it early as an action. Once you create a chaos zone, you cannot do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher when you create it.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chaos Control",
+   "type": "Class Feature",
+   "name": "Chaos Control",
+   "desc": "At 5th level, you can channel raw chaos through your own body. When you cast one of your artificer spells while you or a creature targeted by the spell are in your chaos zone, you can roll 1d8 and add it to one damage roll for the spell. The lightning damage from your chaos zone also increases to 3d8 if you use it while you or the strike’s target are in the chaos zone.\n\nYou also know how to shift space itself to your benefit. When you move while in your chaos zone, you can choose to have it move with you and keep you in its area. Furthermore, when you move your chaos zone using your bonus action, you can choose to allow creatures within the zone to move with it, without provoking opportunity attacks. If a creature is unwilling to move, it can make a Charisma saving throw against your spell save DC. The creature is not moved on a successful save.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spell Rejection",
+   "type": "Class Feature",
+   "name": "Spell Rejection",
+   "desc": "At 9th level, you can channel magic away from you using complex arcane equations. When you are the target of a spell, you can use your reaction to have that spell target one randomly-selected creature in your chaos zone instead of you. If there are no creatures in your chaos zone other than you or if the selected creature is already a target of that spell, this ability fails.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum once). You regain any expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chaos Unbound",
+   "type": "Class Feature",
+   "name": "Chaos Unbound",
+   "desc": "By 15th level, your chaotic artifice becomes even more potent. The chaos zone you create is now a cube with 20-foot sides, instead of 10. When you hit a creature in your chaos zone with your zone’s lightning, that creature subtracts a d8 from the next saving throw it makes before the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Frozen Fury",
+   "type": "Class Feature",
+   "name": "Frozen Fury",
+   "desc": "At 3rd level, your connection to Risia and its impossible colds manifests physically. Your body temperature drops, and your skin develops a terrible pallor. The mist of your breath can be seen even in the hottest summer days. You are resistant to cold damage, and you ignore the effects of both extreme cold and extreme heat.\n\nYou also gain the ability to freeze your foes in place, channeling an icy energy through your weaponry. When you hit a creature with a melee weapon attack while raging, you can choose to reduce that creature’s speed to 0 until the end of its next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Frigid Grace",
+   "type": "Class Feature",
+   "name": "Frigid Grace",
+   "desc": "At 6th level, the ground freezes beneath your very feet. While you are raging, you can take the Dash action as a bonus action, skating across the ground as it freezes before you. When you do so, the ground of the spaces you walk through before the end of your turn becomes slick with ice. This ice melts at the start of your next turn. A hostile creature that walks on this ice for the first time on its turn must make a Dexterity saving throw with a DC equal to 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature falls prone.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ice Step",
+   "type": "Class Feature",
+   "name": "Ice Step",
+   "desc": "At 10th level, the supernatural cold in your body gives you mobility. The ice you create from your Frigid Grace allows you to walk across liquid surfaces as they freeze beneath you. This liquid remains frozen for 1 minute, allowing creatures to follow in your wake.\n\nFurthermore, when a creature falls prone from your Frigid Grace, it takes 2d8 cold damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arctic Soul",
+   "type": "Class Feature",
+   "name": "Arctic Soul",
+   "desc": "At 14th level, your body becomes colder than ice as Risia’s frigid waters fill your veins. You no longer age, your body frozen in time. You also become immune to cold damage and resistant to fire damage.\n\nWhen you affect a creature with your Frozen Fury, you can force the creature to make a Constitution saving throw against your Frigid Grace save DC. On a failed save, the creature is restrained until the end of its next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lore of the Dead",
+   "type": "Class Feature",
+   "name": "Lore of the Dead",
+   "desc": "Starting at 3rd level, you can draw out hidden knowledge by listening to the cries of the Graysong. When you finish a long rest, choose one of the following skills: Arcana, History, Medicine, Nature, Religion, or Survival. Until you finish another long rest, you become proficient with that skill, and you double your proficiency bonus when making an ability check with that skill.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lore of the Dead (Arcana)",
+   "type": "Class Feature",
+   "name": "Lore of the Dead (Arcana)",
+   "desc": "You become proficient with Arcana, and you double your proficiency bonus when making an ability check with Arcana.",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lore of the Dead (History)",
+   "type": "Class Feature",
+   "name": "Lore of the Dead (History)",
+   "desc": "You become proficient with History, and you double your proficiency bonus when making an ability check with History.",
+   "rules": [
+    {
+     "grant": "skill:History"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lore of the Dead (Medicine)",
+   "type": "Class Feature",
+   "name": "Lore of the Dead (Medicine)",
+   "desc": "You become proficient with Medicine, and you double your proficiency bonus when making an ability check with Medicine.",
+   "rules": [
+    {
+     "grant": "skill:Medicine"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lore of the Dead (Nature)",
+   "type": "Class Feature",
+   "name": "Lore of the Dead (Nature)",
+   "desc": "You become proficient with Nature, and you double your proficiency bonus when making an ability check with Nature.",
+   "rules": [
+    {
+     "grant": "skill:Nature"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lore of the Dead (Religion)",
+   "type": "Class Feature",
+   "name": "Lore of the Dead (Religion)",
+   "desc": "You become proficient with Religion, and you double your proficiency bonus when making an ability check with Religion.",
+   "rules": [
+    {
+     "grant": "skill:Religion"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Lore of the Dead (Survival)",
+   "type": "Class Feature",
+   "name": "Lore of the Dead (Survival)",
+   "desc": "You become proficient with Survival, and you double your proficiency bonus when making an ability check with Survival.",
+   "rules": [
+    {
+     "grant": "skill:Survival"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Grayfear",
+   "type": "Class Feature",
+   "name": "Grayfear",
+   "desc": "At 3rd level, you can channel the Graysong to drive creatures away in fear. As a bonus action, you can expend one of your Bardic Inspiration dice and choose one or more creatures you can see within 30 feet of you, up to your Charisma modifier (minimum 1 target). Each target must make a Wisdom saving throw against your spellcasting save DC. A creature that fails this saving throw must use its reaction to move up to its speed away from you along the safest route, and it has disadvantage on the first attack roll it makes before the end of its next turn.\n\nUndead make this saving throw with disadvantage, and a creature immune to the frightened condition automatically succeeds this saving throw.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Draw Back from Death",
+   "type": "Class Feature",
+   "name": "Draw Back from Death",
+   "desc": "At 6th level, you learn how to draw creatures back from the gray of Dolurrh. When a creature within 30 feet of you is reduced to 0 hit points, you can use your reaction to have it instead be reduced to 1 hit point. The target then gains temporary hit points equal to 3 x your bard level.\n\nAfter you use this ability on a creature, that creature cannot benefit from this feature again until it finishes a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Gray Rendition",
+   "type": "Class Feature",
+   "name": "Gray Rendition",
+   "desc": "At 14th level, you learn how to emulate the Graysong itself, bringing its terribleness to bear against your foes. As an action, you can force each creature of your choice within 30 feet of you that can hear you to make a Wisdom saving throw. On a failed save, a creature takes 4d8 psychic damage and is paralyzed until the start of your next turn or until it takes damage. A creature under the effects of your Grayfear automatically fails this saving throw. A creature immune to the frightened condition that fails this save takes this psychic damage but is not paralyzed.\n\nOnce you use this feature, you cannot use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Domain Spells",
+   "type": "Class Feature",
+   "name": "Domain Spells",
+   "desc": "You gain domain spells at the cleric levels listed in the Story Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.\n\nSTORY DOMAIN SPELLS\n\nCleric Level | Spells\n1st | comprehend languages, heroism\n3rd | enthrall, magic mouth\n5th | fear, tongues\n7th | confusion, conjure woodland beings\n9th | legend lore, seeming",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Keeper of Stories",
+   "type": "Class Feature",
+   "name": "Keeper of Stories",
+   "desc": "You are learned in the ways of the fey, Thelanis, and their relationship with the greater world. At 1st level, you learn to read, write, and speak Sylvan, and you become proficient with the History skill.",
+   "rules": [
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "grant": "skill:History"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Fairy Whim",
+   "type": "Class Feature",
+   "name": "Fairy Whim",
+   "desc": "Starting at 1st level, your magic is suffused with the fleeting nature of the fey. When you cast a spell using a spell slot of 1st level or higher, a creature of your choice within 30 feet of you can use its reaction to move up to its speed without provoking opportunity attacks. You can choose yourself to benefit from this feature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Overwhelming Fantasia",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Overwhelming Fantasia",
+   "desc": "At 2nd level, you can use your Channel Divinity to draw a creature’s mind into a mythical tale from which it cannot escape.\n\nAs an action, you can target a creature within 30 feet of you that can hear you and force it to make a Wisdom saving throw. On a failed save, the creature is charmed or frightened (your choice) of you and up to 5 other creatures you choose for 1 hour. The creature can repeat this saving throw whenever it takes damage, ending the effect on a success.\n\nCreature with truesight are immune to this effect.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Walk Among the Commonfolk",
+   "type": "Class Feature",
+   "name": "Walk Among the Commonfolk",
+   "desc": "At 6th level, you can change your appearance to take on a mystical quality, often emulating the greatest characters of your favorite tales. You can cast disguise self without expending a spell slot. When cast in this way, the spell allows you to add your Wisdom modifier to any Charisma checks you make.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum once), regaining any expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Divine Strike",
+   "type": "Class Feature",
+   "name": "Divine Strike",
+   "desc": "At 8th level, you gain the ability to infuse your weapon strikes with the raw energy of a story’s power. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wellspring of Inspiration",
+   "type": "Class Feature",
+   "name": "Wellspring of Inspiration",
+   "desc": "At 17th level, your achievements and closeness to divinity inspires awe in those around you. A creature that benefits from your Fairy Whim ability can add your Wisdom modifier to any attack rolls, ability checks, and saving throws it makes before the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vermin Swarm",
+   "type": "Class Feature",
+   "name": "Vermin Swarm",
+   "desc": "At 2nd level, you call on swarms of vermin, infused with negative energy, to harry your foes. As an action, you can expend a use of your Wild Shape to summon a swarm of rats, flies, spiders, centipedes, bats, and so on. The swarm appears as two 5-foot cubes, each originating from points you choose within 30 feet of you. The spaces your swarm occupies are considered difficult terrain and are lightly obscured, though you can see through them clearly.\n\nAt the end of each of your turns, you can move each cube of the swarm up to 20 feet in directions of your choice, including up and down. As well, you can cause one of the cubes to move up to 20 feet as a bonus action. If the cube stops in a creature’s space, you can make a melee spell attack against that creature, dealing 2d6 necrotic damage on a hit. That space of the swarm becomes heavily obscured until the end of your next turn, though you can still see through it clearly.\n\nYour swarm remains for 1 hour after you summon it or until you summon another swarm. You can dismiss the swarm early as a bonus action. If any individual cube of the swarm if ever more than 120 feet away from you, that portion of the swarm disperses early.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Power from Death",
+   "type": "Class Feature",
+   "name": "Power from Death",
+   "desc": "At 6th level, you and your vermin swarm can draw on the dark energy that fester in a corpse upon its death. When you reduce a creature to 0 hit points with a spell of 1st level or higher or with the damage from your Vermin Swarm, you can use your reaction to regain a number of hit points equal to that creature’s maximum number of Hit Dice + your Wisdom modifier. Your Vermin Swarm’s remaining duration extends by a number of minutes equal to the hit points you regained.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Child of Winter",
+   "type": "Class Feature",
+   "name": "Child of Winter",
+   "desc": "By 10th level, your body becomes suffused with dark energy. You become immune to poison and disease. You also become resistant to necrotic damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Overwhelming Darkness",
+   "type": "Class Feature",
+   "name": "Overwhelming Darkness",
+   "desc": "Starting at 14th level, your Vermin Swarm appears as dark or skeletal shades that overrun your enemies. When you hit a creature with your Vermin Swarm, the target has disadvantage on the next saving throw it makes before the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Beast Stance",
+   "type": "Class Feature",
+   "name": "Beast Stance",
+   "desc": "At 3rd level, you learn how to emulate an animal by taking on a specific stance. The flow of energy through your body empowers you and gives you unique insights usually seen only through the eyes of beasts. You learn two stances at 3rd level, choosing from the list below. You learn a third stance at 7th level, and a fourth at 10th level. When you gain a fighter level, you can replace one stance you know with another of your choice.\n\nYou can enter a stance of your choice as a bonus action. You remain in the stance for up to 10 minutes, until you are incapacitated, or until you end the stance early (requiring no action). You can enter your Beast Stance twice, regaining your expended uses when you finish a short or long rest.\n\nBear Stance. When you hit a creature with a weapon attack, you can push it 5 feet away from you. The first time you make a weapon attack against the creature you push before the end of your next turn, you can roll 1d8 and add it to the damage roll.\n\nChameleon Stance. When you take the Attack action, you can replace an attack with the Hide action (replacing one of your attacks if you have Extra Attack). You can do so if you are currently being observed, though you are no longer hidden from a creature if you end this turn in its field of vision.\n\nHawk Stance. If you take any fall damage in this stance, subtract 2 x your fighter level from the damage roll (to a minimum of 0 damage). While in this stance, your long and high jump distances are doubled. If you jump 10 feet immediately before making a melee weapon attack, you can roll 1d8 and add it to the weapon’s damage roll.\n\nLeopard Stance. While in this stance, you gain a climb speed of 20 feet. If you take the Dash or Disengage actions, you can make one weapon attack as a bonus action on that turn. On a hit, you can roll 1d8 and add it to the weapon’s damage roll.\n\nOx Stance. When you make a Strength, Constitution, or Wisdom saving throw while in this stance, you can roll 1d6 and add it to the result. If you move at least 20 feet in this stance before making a melee weapon attack and hit a creature with it, you can use your reaction to shove the creature. When you do, you can roll 1d8 and add the result to the attack’s damage roll and to your Strength (Athletics) check for the shove.\n\nRabbit Stance. While in this stance, your walking speed increases by 10 feet. When you move and would provoke an opportunity attack, you can spend 5 extra feet of movement (if available) to not provoke that attack. If you hit the attacking creature with your next weapon attack before the end of your turn, you can roll 1d8 and add it to the damage roll.\n\nTortoise Stance. You gain temporary hit points equal to half your fighter level when you enter this stance and at the beginning of each of your turns while in this stance. Any remaining temporary hit points vanish when your stance ends. Your speed is reduced by 10 feet while in this stance.\n\nWolf Stance. Once per turn when you make a weapon attack against a creature, you can roll 1d6 and add it to your attack roll. The target must be within 5 feet of a creature other than you that is hostile to it.",
+   "rules": [
+    {
+     "select": {
+      "name": "Beast Stance",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Bear Stance",
+       "Class Feature:Chameleon Stance",
+       "Class Feature:Hawk Stance",
+       "Class Feature:Leopard Stance",
+       "Class Feature:Ox Stance",
+       "Class Feature:Rabbit Stance",
+       "Class Feature:Tortoise Stance",
+       "Class Feature:Wolf Stance"
+      ]
+     },
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Beast Stance",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Bear Stance",
+       "Class Feature:Chameleon Stance",
+       "Class Feature:Hawk Stance",
+       "Class Feature:Leopard Stance",
+       "Class Feature:Ox Stance",
+       "Class Feature:Rabbit Stance",
+       "Class Feature:Tortoise Stance",
+       "Class Feature:Wolf Stance"
+      ]
+     },
+     "level": 6
+    },
+    {
+     "select": {
+      "name": "Beast Stance",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Bear Stance",
+       "Class Feature:Chameleon Stance",
+       "Class Feature:Hawk Stance",
+       "Class Feature:Leopard Stance",
+       "Class Feature:Ox Stance",
+       "Class Feature:Rabbit Stance",
+       "Class Feature:Tortoise Stance",
+       "Class Feature:Wolf Stance"
+      ]
+     },
+     "level": 10
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Beast Mind",
+   "type": "Class Feature",
+   "name": "Beast Mind",
+   "desc": "At 7th level, you become more in-tune with your primal self. You can cast speak with animals and beast sense, once each. Wisdom is your spellcasting ability for these spells. You regain your use of each spell when you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Swift Stance",
+   "type": "Class Feature",
+   "name": "Swift Stance",
+   "desc": "At 10th level, your stances increase in power, as does your skill in using them. While in a Beast Stance, you can use your bonus action to enter a different stance you know without starting a new Beast Stance.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stance Mastery",
+   "type": "Class Feature",
+   "name": "Stance Mastery",
+   "desc": "At 15th level, you push your beast stances beyond mortal limits. Your Beast Stance now lasts for 1 hour.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primal Master",
+   "type": "Class Feature",
+   "name": "Primal Master",
+   "desc": "At 18th level, you become one with the animals you emulate. When you finish a long rest, choose one of the Beast Stance options you know. You benefit from that stance’s effects even while not in that stance until you finish another long rest. You can end this effect early as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Phantasmal Fist",
+   "type": "Class Feature",
+   "name": "Phantasmal Fist",
+   "desc": "At 3rd level, you can use your ki to manipulate the minds of your opponents. When you hit a creature with a melee weapon attack, you can spend 1 ki point to force that creature to make a Wisdom saving throw. On a failed save, the creature is charmed or frightened (your choice) by you until the start of your next turn. The first time a creature charmed or frightened in this way rolls a saving throw before the start of your next turn, it must roll your Martial Arts die and subtract it from the result.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Day Dreamer",
+   "type": "Class Feature",
+   "name": "Day Dreamer",
+   "desc": "Starting at 6th level, your body enters a state somewhere between wake and sleep. You are as aware of your surroundings while unconscious as you are awake.\n\nYou can also cast several spells using your ki, as you bring dreamstuff into reality. You can spend 2 ki points to cast alter self or 3 ki points to cast major image, without providing material components. You also learn the minor illusion cantrip.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Minor Illusion",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Sleep Walker",
+   "type": "Class Feature",
+   "name": "Sleep Walker",
+   "desc": "At 11th level, you learn how to take shortcuts through the Region of Dreams to far-off lands. As an action, you can spend 7 ki points and choose a location within a number of miles of you equal to 10 x your monk level. You or a creature friendly to you that you can touch you must have seen that location before. You and up to 6 willing creatures of your choice within 15 feet of you are then teleported to that location. A creature that is overencumbered fails to teleport. Creatures teleported in this way traverse a bubble of dream space in Dal Quor itself and arrive after 1d12 + 1 minutes, rolling for each creature individually.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dream Maker",
+   "type": "Class Feature",
+   "name": "Dream Maker",
+   "desc": "At 17th level, you have become more dream than living being, and reality itself bends in pleasant ways. When you finish a long rest during which you meditate, up to 5 creatures of your choice within 30 feet of you gain the benefits of a greater restoration spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Oath Spells",
+   "type": "Class Feature",
+   "name": "Oath Spells",
+   "desc": "You gain oath spells at the paladin levels listed in the Oath of the Forebearer Spells table. See the Sacred Oath class feature for how oath spells work.\n\nOATH OF THE FOREBEARER SPELLS\n\nPaladin Level | Spells\n3rd | false life, guiding bolt\n5th | enhance ability, prayer of healing\n9th | beacon of hope, mass healing word\n13th | death ward, guardian of faith\n17th | commune, legend lore",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Ancestral Dedication",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Ancestral Dedication",
+   "desc": "At 3rd level, you can call upon the spirits of your ancestors for guidance by using your Channel Divinity as an action. Choose 1 skill and 2 languages. For 1 hour or until you use this Channel Divinity option again, you become proficient with that skill if you aren’t already, and your proficiency bonus is doubled for any ability check that uses that skill. During this time, you also know how to speak, read, and write the chosen languages if you don’t already.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Channel the Undying",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Channel the Undying",
+   "desc": "At 3rd level, you can present your holy symbol and recite a prayer to the Undying Court as an action, using your Channel Divinity. Any magical darkness within 30 feet of you is dispelled. This area is magically filled with bright light for 10 minutes, giving off dim light out to 30 feet beyond the area’s edge. This area does not move with you.\n\nEach undead in this area when you use this feature must make a Constitution saving throw or take radiant damage equal to 2d8 + your paladin level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Light",
+   "type": "Class Feature",
+   "name": "Aura of Light",
+   "desc": "At 7th level, your body channels the healing light of Irian as you become a prism for your forebearers’ might. If a creature within 10 feet of you (not including yourself) would be reduced to 0 hit points, you can immediately spend 1 point of your Lay on Hands to make it drop to 1 hit point instead, requiring no action.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blessing of the Court",
+   "type": "Class Feature",
+   "name": "Blessing of the Court",
+   "desc": "Starting at 15th level, the memories of your deeds, found throughout those you have interacted with, infuses you with the divine energy of faith. You no longer age and cannot die of old age. If you ever die, you return to life with 1 hit point after 1d4 hours unless your body is destroyed or decapitated. If no one on the same plane as your dead body remembers you, your body instead turns to dust.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rite of the Council",
+   "type": "Class Feature",
+   "name": "Rite of the Council",
+   "desc": "At 20th level, you can call upon the power of the planesfaring ascendant councilors. As an action, you take on a desiccated appearance as light spills from your body, transforming for 1 minute. While transformed, you gain the following benefits:\n\n- You can cast any paladin spell you have prepared at its lowest level without expending a spell slot.\n- At the start of each of your turns, you regain 20 hit points.\n\nOnce you use this feature, you cannot use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fire Binder Magic",
+   "type": "Class Feature",
+   "name": "Fire Binder Magic",
+   "desc": "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Fire Binder Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.\n\nFIRE BINDER SPELLS\n\nRanger Level | Spells\n3rd | searing smite\n5th | heat metal\n9th | fireball\n13th | fire shield\n17th | commune",
+   "rules": [],
+   "featSpells": [
+    [
+     3,
+     "Searing Smite",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Heat Metal",
+     "1/long rest"
+    ],
+    [
+     9,
+     "Fireball",
+     "1/long rest"
+    ],
+    [
+     13,
+     "Fire Shield",
+     "1/long rest"
+    ],
+    [
+     17,
+     "Commune",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Conflagrating Strike",
+   "type": "Class Feature",
+   "name": "Conflagrating Strike",
+   "desc": "At 3rd level, fire dances at your fingertips and enwraps your weapons. When you hit a creature with a weapon attack, you can cause it to catch fire for 1 minute. At the start of each of the creature’s turns while it is on fire, it takes 1d6 fire damage. It must then make a Dexterity saving throw against your spell save DC, dousing the flames on a success. You cannot set a creature on fire again until the start of your next turn.\n\nThis fire damage increases to 2d6 when you reach 11th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blessing of Flame",
+   "type": "Class Feature",
+   "name": "Blessing of Flame",
+   "desc": "At 3rd level, the fire bound to you gives you resistance to fire damage. You also learn the control flames and produce flame cantrips, which you can cast at will. Wisdom is your spellcasting ability for these spells. Control flames is found in Xanathar’s Guide to Everything.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Control Flames",
+     "at will"
+    ],
+    [
+     1,
+     "Produce Flame",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Blazing Portent",
+   "type": "Class Feature",
+   "name": "Blazing Portent",
+   "desc": "At 7th level, you gain insight into the Burning Promise and can divine through flames. You can cast augury, without expending a spell slot. Instead of its normal material components, you need an open flame to stare into while casting the spell, such as the one from your produce flame.\n\nAfter casting this spell, your unique insights into the future protect you from harm. Until you finish a long rest or are hit by an attack, attack rolls against you are made with disadvantage.\n\nYou can cast this spell a number of times equal to your Wisdom modifier (minimum once). You regain any expended uses when you finish a long rest",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bearer of Fire",
+   "type": "Class Feature",
+   "name": "Bearer of Fire",
+   "desc": "At 11th level, a great fire begins to burn within you. You gain one of the following features, your choice:\n\nBlazing Blades. As a bonus action, you can wreathe one or two melee weapons you are wielding in fire. They remain alight until you douse them as a bonus action or until you are no longer wielding them. These weapons deal fire damage instead of their normal damage type, and your reach with them increases by 5 feet.\n\nPyroclastic Missile. When you would subject a creature to your Conflagrating Strike with a ranged weapon attack, each creature within 5 feet of the target is also set on fire.",
+   "rules": [
+    {
+     "select": {
+      "name": "Bearer of Fire",
+      "type": "Class Feature"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Blazing Blades",
+   "type": "Class Feature",
+   "name": "Blazing Blades",
+   "desc": "As a bonus action, you can wreathe one or two melee weapons you are wielding in fire. They remain alight until you douse them as a bonus action or until you are no longer wielding them. These weapons deal fire damage instead of their normal damage type, and your reach with them increases by 5 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pyroclastic Missile",
+   "type": "Class Feature",
+   "name": "Pyroclastic Missile",
+   "desc": "When you would subject a creature to your Conflagrating Strike with a ranged weapon attack, each creature within 5 feet of the target is also set on fire.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fulfilling the Promise",
+   "type": "Class Feature",
+   "name": "Fulfilling the Promise",
+   "desc": "At 15th level, you become immune to fire damage, as flames both mundane and magical refuse to harm you.\n\nWhen you would set a creature on fire with your Conflagrating Strike, you can instead force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature disappears as it is banished to Fernia, where it is incapacitated and takes 5d10 fire damage at the end of each of its turns. The creature can repeat this saving throw at the end of each of its turns. It reappears in the space it left or in the nearest unoccupied space on a successful save or when it is reduced to 0 hit points.\n\nYou cannot try to banish another creature in this way until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Devil’s Tongue",
+   "type": "Class Feature",
+   "name": "Devil’s Tongue",
+   "desc": "At 3rd level, your words gain a honeyed, even sickly-sweet quality. Whenever you roll a Charisma (Persuasion or Deception) check, roll 1d6 and add it to the result.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Otherworldly Wealth",
+   "type": "Class Feature",
+   "name": "Otherworldly Wealth",
+   "desc": "At 3rd level, you can channel the power of the Immeasurable Market in exchange for your own energy, purchasing magical effects. You have a number of Syranian coins equal to your rogue level + your Charisma modifier. These coins are made of an iridescent metal and feature a crystal on one side and an angel on the other. These Syranian coins disappear and are replaced by a new set of coins when you finish a long rest.\n\nAs a bonus action, you can grab a number of these coins that you are carrying and spend them. The coins vanish, and you gain a benefit of your choice from the list below. Each effect has a minimum cost listed that you must spend to choose that effect.\n\nSyranian Stipend (1 or more coins). Each Syranian coin you spend for this feature becomes a nonmagical gold piece.\n\nMarket’s Guiding Hand (1 coin). The first time you hit with a weapon attack in the next minute, you can deal sneak attack damage even if you would not otherwise be able to.\n\nGold-Weighted Strike (1 coin). Your sneak attack damage increases by 1d6. This increase lasts until you next use your sneak attack or you finish a long rest.\n\nAura of Regulation (1 coin). Until the start of your next turn, any creature that attacks you or any friendly creatures within 5 feet of you must roll 1d6 and subtracts the result from its attack roll.\n\nPremium Services (2 coins). Before the end of your turn, you can use your action to cast one of the following spells of your choice, without material components: alarm, bless, charm person, cure wounds, false life, find familiar, or unseen servant. Charisma is your spellcasting ability for these spells, as you purchase this magic directly from the spirits of Syrania.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:An Eye for Quality",
+   "type": "Class Feature",
+   "name": "An Eye for Quality",
+   "desc": "At 9th level, you can magically determine worth. You can cast identify as an action, without material components, targeting a creature or object within 30 feet of you that you can see. If you target a mundane object, you determine its monetary value, as well as one fact about the object’s history. When you sell an item that you’ve used this feature on, you can sell it for 20% more than you normally could. Charisma is your spellcasting ability for this spell.\n\nYou can cast the spell in this way a number of times equal to your Charisma modifier (minimum once). You regain any expended uses when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Special Delivery",
+   "type": "Class Feature",
+   "name": "Special Delivery",
+   "desc": "At 13th level, you can purchase things directly from the Immeasurable Market. As an action, you can spend one of the Syranian coins from your Otherworldly Wealth and up to 100 gp in mundane coins that you are carrying. These coins all vanish. You then choose any number of mundane items worth in total no more than the coins you spent (see chapter 5 of the Player’s Handbook for such equipment). Those items are magically teleported from the Immeasurable Market itself into your hands, into containers you are carrying, and onto the ground within 10 feet of you, as you choose.\n\nOnce you use this feature, you cannot use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Money Makes the World Go ‘Round",
+   "type": "Class Feature",
+   "name": "Money Makes the World Go ‘Round",
+   "desc": "At 17th level, you can purchase the almighty power of Syrania to change the very world around you. You gain the following option for your Otherworldly Wealth.\n\nThe World is Yours (17 coins). You can use an action before the end of your turn to cast wish. Charisma is your spellcasting ability for this spell. If you permanently lose your ability to cast wish, you regain your ability to cast it after 7 days.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Martial Talent",
+   "type": "Class Feature",
+   "name": "Martial Talent",
+   "desc": "At 1st level, the knowledge of a thousand war-weary spirits awakens in your mind. You become proficient with light armor, medium armor, shields, simple weapons, and martial weapons. You can use any simple or martial weapon you wield as a spellcasting focus. You also become proficient with the History skill, as your mind opens to the causes and effects of wars across history.\n\nYou also gain one simple or martial weapon of your choice with which you’ve trained your martial magic.",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "pf": [
+      "a:Light armor",
+      "a:Medium armor",
+      "a:Shields",
+      "w:Simple weapons",
+      "w:Martial weapons"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Warrior’s Vigor",
+   "type": "Class Feature",
+   "name": "Warrior’s Vigor",
+   "desc": "Starting at 1st level, the power of the Battleground strengthens your physical resolve. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.\n\nAs an action, you can expend a spell slot to close your wounds and ready yourself for further battle. You regain hit points equal to 1d6 + your sorcerer level, plus an extra 1d6 hit points for each slot level beyond 1st.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:War Blade",
+   "type": "Class Feature",
+   "name": "War Blade",
+   "desc": "At 6th level, any weapon you wield is imbued with supernatural might. While you wield a simple or martial weapon, it is considered a magic weapon that grants a +1 bonus to attack and damage rolls if it does not already give a similar bonus to attack and damage rolls. This increases to +2 when you reach 14th level.\n\nWhen you take the Attack action on your turn, you can attack twice, instead of once. This does not stack with similar features like Extra Attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Swarm of Swords",
+   "type": "Class Feature",
+   "name": "Swarm of Swords",
+   "desc": "At 14th level, you can conjure the swarming blades of Shavarath to harry your enemies. When a creature takes an action within 30 feet of you, you can use your reaction to deal 2d8 force damage to that creature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Warrior’s Aegis",
+   "type": "Class Feature",
+   "name": "Warrior’s Aegis",
+   "desc": "At 18th level, spirits leap forth to defend you from harm. Whenever you take bludgeoning, piercing, or slashing damage, it is reduced by an amount equal to your Charisma modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expanded Spell List",
+   "type": "Class Feature",
+   "name": "Expanded Spell List",
+   "desc": "Lawbringer lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nLAWBRINGER EXPANDED SPELLS\n\nSpell Level | Spells\n1st | command, guiding bolt\n2nd | arcane lock, zone of truth\n3rd | blink, slow\n4th | death ward, stone shape\n5th | animate objects, wall of force",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Word of the Law",
+   "type": "Class Feature",
+   "name": "Word of the Law",
+   "desc": "At 1st level, the Lawbringer has taught you how to bring order to the world around you with a single word. As an action, you can cause each creature within 10 feet of you (not including yourself) that can hear you to lose its reaction and have its speed reduced to 0 feet until the end of its next turn. You cannot do this again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hands of Fate",
+   "type": "Class Feature",
+   "name": "Hands of Fate",
+   "desc": "At 6th level, whenever you or a creature within 30 feet of you rolls a d20, you can use your reaction to make the roll equal a number of your choice between 1 and 12. You can use this feature after the d20 is rolled but before any effects of the roll take place. Once you use this feature, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Enforcing Order",
+   "type": "Class Feature",
+   "name": "Enforcing Order",
+   "desc": "At 10th level, you can stop your enemies in their tracks. When a creature would move while within 30 feet of you, you can use your reaction to force it to make a Wisdom saving throw against your pact magic save DC. On a failed save, its speed is reduced to 0 feet until the end of its turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Restoring Touch",
+   "type": "Class Feature",
+   "name": "Restoring Touch",
+   "desc": "At 14th level, you learn how to restore a creature to a previous state, as it is recorded within the Infinite Archives. As an action, you can touch yourself or a willing creature to restore the target’s hit points to their count from 10 minutes beforehand. If you touch a dead creature that died within the last 10 minutes, it returns to life. You cannot do this again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ritual of Revelation",
+   "type": "Class Feature",
+   "name": "Ritual of Revelation",
+   "desc": "Starting at 2nd level, you can access the insights of the aberrant realms. When you take a short rest and use your Arcane Recovery, you can choose to access the revelatory essence of Xoriat instead of regaining spell slots. You learn one piece of lore about a subject of your choice. The nature of the lore is determined by the DM, usually consisting of one true statement about the subject. This revealed lore is always true but not necessarily useful, and it is often revealed by visions, disembodied voices, or other eldritch phenomenon.\n\nYou gain more information from this feature as your understanding of Xoriat grows, increasing to two pieces of lore at 6th level, three at 10th level, and four at 14th level. These extra pieces of lore can each be on a different subject of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:All-Seeing Eye",
+   "type": "Class Feature",
+   "name": "All-Seeing Eye",
+   "desc": "At 2nd level, you can see past a creature’s façade and learn its true intentions. As an action, choose a creature within 30 feet of you that you can see. It has disadvantage on attack rolls against you, it cannot make opportunity attacks against you, and you magically know when it lies to you. This benefit lasts while you can see the creature and it is within 30 feet of you, until you are incapacitated, or until you use this feature again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Warper of Flesh",
+   "type": "Class Feature",
+   "name": "Warper of Flesh",
+   "desc": "At 6th level, your studies unlock terrible secrets: blood magic, flesh warping, and worse. And yet, you cannot deny their usefulness. When you cast a transmutation spell using a spell slot targeting only one creature, you can grant the creature one of the following extra benefits that last until the spell ends.\n\n- The creature gains temporary hit points equal to the level of the spell x 5. Any remaining temporary hit points vanish when the spell ends.\n- The creature’s speed increases by a number of feet equal to the level of the spell x 5.\n- The creature’s reach increases by 5 feet, or 10 feet if the spell is of 6th level or higher.\n- When the creature hits with a weapon attack, it deals extra acid or poison damage (your choice) equal to 2 x the level of the spell.\n\nThe creature affected by the spell has its anatomy altered, usually in horrible ways. Its limbs may extend unnaturally, it may grow chitinous plating, or it may start to spontaneously bleed or exude toxic bile. Its body returns to normal when the spell ends.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum once). You regain your uses of this feature when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lucid Mind",
+   "type": "Class Feature",
+   "name": "Lucid Mind",
+   "desc": "At 10th level, the revelations of Xoriat have pushed your mind beyond the boundaries of mortal experience, allowing you unmatched clarity. You become immune to psychic damage. When you would make an ability check or saving throw using your Wisdom or Charisma, you can use your Intelligence instead.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Gift of Revelation",
+   "type": "Class Feature",
+   "name": "Gift of Revelation",
+   "desc": "At 14th level, you can bestow some of the forbidden knowledge you’ve learned upon your allies. When you use your Ritual of Revelation, you can choose a creature within 30 feet of you and bestow your knowledge upon it. Choose a spell of 1st, 2nd, or 3rd level in your spellbook. The creature can cast that spell three times without expending a spell slot, using your spellcasting ability. The creature loses any remaining uses when you use this feature again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Supple Palms",
+   "type": "Class Feature",
+   "name": "Supple Palms",
+   "desc": "Starting when you choose this tradition at 3rd level, you gain the following benefits:\n\n- You may use Dexterity (Acrobatics) instead of Strength (Athletics) to make a grapple check or a shove check.\n- While you are grappling a creature, you can use a bonus action to shove that creature.\n- When you escape from a grapple, you can use a reaction to grapple the creature that held you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Crashing Wave",
+   "type": "Class Feature",
+   "name": "Crashing Wave",
+   "desc": "Starting at 6th level, you can use your ki energy to toss your foes about with ease. When you shove a creature, you can increase the distance you push the target by spending ki points. Each point you spend increases the distance you push the target by 10 feet. The maximum number of ki points that you can spend on a shove equals half your monk level.\n\nThe target takes 1d6 bludgeoning damage for every 20 feet it is pushed. The target lands prone unless it avoids taking damage from the shove.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Python’s Coil",
+   "type": "Class Feature",
+   "name": "Python’s Coil",
+   "desc": "Starting at 11th level, you have learned to exploit certain mystic pressure points on the body. As an action, you can spend 4 ki points and target a creature you are grappling. That creature must make a Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute.\n\nThe effect ends early if the target takes damage, or someone uses an action to slap the target awake. A creature is immune to this effect if it is undead or if it cannot be charmed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Giant’s Grasp",
+   "type": "Class Feature",
+   "name": "Giant’s Grasp",
+   "desc": "Starting at 17th level, you have developed extraordinary power in your hands, and you can grapple or shove a creature up to two sizes larger than you. In addition, when you successfully grapple a creature, you subject that creature to the restrained condition until the grapple ends.",
+   "rules": []
+  }
+ ]
+}

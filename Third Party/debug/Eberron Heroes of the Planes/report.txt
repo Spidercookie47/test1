@@ -1,0 +1,45 @@
+Converted: 86 Class Feature, 14 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (20)
+  Research Proficiency: investigation
+  Spell Rejection: spell rejection
+  Frigid Grace: frigid grace
+  Lore of the Dead (Arcana): arcana
+  Lore of the Dead (History): history
+  Lore of the Dead (Medicine): medicine
+  Lore of the Dead (Nature): nature
+  Lore of the Dead (Religion): religion
+  Lore of the Dead (Survival): survival
+  Grayfear: grayfear
+  Draw Back from Death: draw back from death
+  Walk Among the Commonfolk: walk among the commonfolk
+  Hawk Stance: hawk stance
+  Sleep Walker: sleep walker
+  Blazing Portent: blazing portent
+  Otherworldly Wealth: syranian coins
+  An Eye for Quality: an eye for quality
+  Warrior’s Vigor: hp
+  War Blade: extra attack
+  Warper of Flesh: warper of flesh
+
+== damage resistances (no pack field for characters, the text already says it) (4)
+  Frozen Fury: cold
+  Arctic Soul: fire
+  Child of Winter: necrotic
+  Blessing of Flame: fire
+
+== grants of other kinds (skipped) (3)
+  Arctic Soul: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD
+  Fulfilling the Promise: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE
+  Lucid Mind: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC
+
+== selects not understood (2)
+  Lore of the Dead: type=Archetype Feature supports=""
+  Bearer of Fire: Archetype Feature supports="ID_DMSG_EHP_ARCHETYPE_FEATURE_FIRE_BINDER_BEARER_OF_FIRE_BLAZING_BLADES|ID_DMSG_EHP_ARCHETYPE_FEATURE_FIRE_BINDER_BEARER_OF_FIRE_PYROCLASTIC_MISSILE" matched nothing in this pack (maybe other pack)
+
+== ids not in this pack (assumed to be in another pack, check the name) (1)
+  Language:Sylvan  (from ID_LANGUAGE_SYLVAN)
+
+== grants pointing outside these packs (needs another pack) (1)
+  Class Feature:Keeper of Stories -> Language:Sylvan
+

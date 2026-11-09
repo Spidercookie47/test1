@@ -1,0 +1,14 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "dndwiki",
+  "name": "D&D Wiki",
+  "short": "WIKI"
+ },
+ "files": [
+  "class-options.json",
+  "spells.json",
+  "feats.json"
+ ]
+}

@@ -1,0 +1,869 @@
+{
+ "elements": [
+  {
+   "id": "Race:Dryad",
+   "type": "Race",
+   "name": "Dryad",
+   "desc": "D is for Dryad, creep softly to see. If she hears you or sees you, she'll turn into a tree.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Blend In"
+    },
+    {
+     "grant": "Racial Trait:Nature Whisperer"
+    },
+    {
+     "grant": "Racial Trait:Photosynthesis"
+    },
+    {
+     "grant": "Racial Trait:Tree Stride"
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Intelligence +1"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 2",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +2",
+       "Ability Increase:Dexterity +2",
+       "Ability Increase:Constitution +2",
+       "Ability Increase:Intelligence +2",
+       "Ability Increase:Wisdom +2",
+       "Ability Increase:Charisma +2"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Blend In",
+   "type": "Racial Trait",
+   "name": "Blend In",
+   "desc": "You have advantage on Stealth checks made to hide amongst foliage or near a huge group of trees.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nature Whisperer",
+   "type": "Racial Trait",
+   "name": "Nature Whisperer",
+   "desc": "After living in the forest for your whole life you can communicate with beasts and plants as if they share a language.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Photosynthesis",
+   "type": "Racial Trait",
+   "name": "Photosynthesis",
+   "desc": "Being a plant based life form, you create your food through Photosynthesis, being in sunlight will regenerate 1d4 health per hour, likewise, if you aren't in sunlight for two days you will start to decay.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Tree Stride",
+   "type": "Racial Trait",
+   "name": "Tree Stride",
+   "desc": "Over time you have learned the skill of using trees as a type of transportation. Once a turn, You can use 10 feet of your movement to step magically into one living tree within your reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.",
+   "rules": []
+  },
+  {
+   "id": "Race:Homunculus",
+   "type": "Race",
+   "name": "Homunculus",
+   "desc": "\"Appearances rarely share the whole truth.\"",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Natural Liar"
+    },
+    {
+     "grant": "Racial Trait:Lifestone"
+    },
+    {
+     "grant": "Racial Trait:Living Construct"
+    },
+    {
+     "grant": "Racial Trait:Arcane Origins"
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 2",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +2",
+       "Ability Increase:Dexterity +2",
+       "Ability Increase:Constitution +2",
+       "Ability Increase:Intelligence +2",
+       "Ability Increase:Wisdom +2",
+       "Ability Increase:Charisma +2"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Natural Liar",
+   "type": "Racial Trait",
+   "name": "Natural Liar",
+   "desc": "Homunculi live through lying about their origins. You have proficiency in the Deception skill.",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Lifestone",
+   "type": "Racial Trait",
+   "name": "Lifestone",
+   "desc": "Homunculi have a Lifestone as their core that grants them excelled healing. After a short or long rest you gain temporary hit points equal to your level + your Constitution mod. Also if you lose any part of your body, it will regenerate over the course of a day. Any spells that would cause the caster to take damage deal half that rounded up.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Living Construct",
+   "type": "Racial Trait",
+   "name": "Living Construct",
+   "desc": "You are a living construct. You do not need to eat, drink, breathe, or sleep. You never make Endurance checks to resist the effect of starvation, thirst, or suffocation. All other conditions and effects affect you normally.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Arcane Origins",
+   "type": "Racial Trait",
+   "name": "Arcane Origins",
+   "desc": "You know the >prestidigitation cantrip. Once you reach 3rd level, you can cast the hex spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the alter self once per day. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Prestidigitation",
+     "at will"
+    ],
+    [
+     3,
+     "Hex",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Alter Self",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Race:Sprite",
+   "type": "Race",
+   "name": "Sprite",
+   "desc": "The tree had a wee village nestled in its boughs, I swear. Next thing I knew, I was lyin face-down in the dirt. My head was full of stars, an' when I stood...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1,
+      "dex": 1
+     }
+    },
+    {
+     "speedBonus": {
+      "max": 10
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Sylvan"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Heart Sight"
+    },
+    {
+     "grant": "Racial Trait:Invisibility"
+    },
+    {
+     "grant": "Racial Trait:Sprite Subrace"
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Heart Sight",
+   "type": "Racial Trait",
+   "name": "Heart Sight",
+   "desc": "As an action, you touch a creature and magically know the creature's current emotional state. If the target fails a Charisma saving throw, you also know the creature's alignment. The DC for this save is equal to 8 + your Charisma modifier + your proficiency bonus. Celestials, fiends, and undead automatically fail the saving throw.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Invisibility",
+   "type": "Racial Trait",
+   "name": "Invisibility",
+   "desc": "You can cast the invisibility spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sprite Subrace",
+   "type": "Racial Trait",
+   "name": "Sprite Subrace",
+   "desc": "Sprites usually fall into a clan; each clan is famous or infamous for something, and this reflects on the sprites themselves.",
+   "rules": [
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Sprite Subrace"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Wandering Sprite",
+   "type": "Sub Race",
+   "name": "Wandering Sprite",
+   "desc": "These Sprites move about so much that they hardly have a place of their own. They often end up in cities taking on a nomad-like role, having little holds...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Wandering Magic"
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Intelligence +1"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    }
+   ],
+   "supports": "Race:Sprite Subrace"
+  },
+  {
+   "id": "Racial Trait:Wandering Magic",
+   "type": "Racial Trait",
+   "name": "Wandering Magic",
+   "desc": "You know the mage hand cantrip. When you reach 3rd level, you can cast the disguise self spell once per day. When you reach 5th level, you can also cast the misty step spell once per day. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Mage Hand",
+     "at will"
+    ],
+    [
+     3,
+     "Disguise Self",
+     "1/long rest"
+    ],
+    [
+     5,
+     "Misty Step",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Bell Sprite",
+   "type": "Sub Race",
+   "name": "Bell Sprite",
+   "desc": "Bell sprites are small, glowing sprites that enjoy mischief. Although they are still highly territorial, they are known to wander off in search of other...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Fairy Dust"
+    },
+    {
+     "grant": "Racial Trait:Fairy Light"
+    },
+    {
+     "grant": "Racial Trait:Mischievous Growth"
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ],
+   "supports": "Race:Sprite Subrace"
+  },
+  {
+   "id": "Racial Trait:Fairy Dust",
+   "type": "Racial Trait",
+   "name": "Fairy Dust",
+   "desc": "As an action, you may give a willing creature a flying speed of 30 feet for 1 minute, however, they cannot fly higher than this. After you use this trait, you can’t use it again until you complete a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fairy Light",
+   "type": "Racial Trait",
+   "name": "Fairy Light",
+   "desc": "You know the light cantrip, and when cast on yourself you can adjust the size of the light to a 5-foot radius of bright light and an addition 5 feet of dim light.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Light",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Mischievous Growth",
+   "type": "Racial Trait",
+   "name": "Mischievous Growth",
+   "desc": "Bell sprites are known for their ability to grow to look like regular humans. As an action, you can become Medium sized, when you do, you lose your flying speed as you are too heavy for your thin wings to carry you. This transformation lasts for 1 hour until you dismiss it as an action or you are reduced to 0 hit points. After you use this trait, you can’t use it again until you complete a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:Crom Sprite",
+   "type": "Sub Race",
+   "name": "Crom Sprite",
+   "desc": "Crom Sprites are the strongest and proudest of warriors, known to go toe-to-toe with even the larger creatures in honorable duels. Crom Sprites are known to...",
+   "rules": [
+    {
+     "grant": "Racial Trait:Powerful Build"
+    },
+    {
+     "grant": "Racial Trait:Weapon Fighter"
+    },
+    {
+     "grant": "Racial Trait:Tiny Fighter"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Constitution +1"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ],
+   "supports": "Race:Sprite Subrace"
+  },
+  {
+   "id": "Racial Trait:Powerful Build",
+   "type": "Racial Trait",
+   "name": "Powerful Build",
+   "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Weapon Fighter",
+   "type": "Racial Trait",
+   "name": "Weapon Fighter",
+   "desc": "You have proficiency with two simple and two martial weapons of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Tiny Fighter",
+   "type": "Racial Trait",
+   "name": "Tiny Fighter",
+   "desc": "Your small stature and fighting instincts makes you hard to hit no matter what. Your Armor Class cannot be lower than 12.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Brave",
+   "type": "Racial Trait",
+   "name": "Brave",
+   "desc": "You have advantage on saving throws against being frightened.",
+   "rules": []
+  },
+  {
+   "id": "Race:Succubus",
+   "type": "Race",
+   "name": "Succubus",
+   "desc": "Succubi are the iconic depiction of lust. Feared for their typically evil nature and ability to steal one's soul, succubi are fiends who wield subtle...",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "cha": 1,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Racial Trait:Fiendish Nature"
+    },
+    {
+     "grant": "Racial Trait:Shapechanger"
+    },
+    {
+     "grant": "Racial Trait:Silver Tongue"
+    },
+    {
+     "grant": "Racial Trait:Wings"
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Fiendish Nature",
+   "type": "Racial Trait",
+   "name": "Fiendish Nature",
+   "desc": "Your creature type is considered to be both Fiend and Humanoid, and you are considered to have the \"Shapechanger\" tag. Additionally, you are vulnerable to radiant damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Shapechanger",
+   "type": "Racial Trait",
+   "name": "Shapechanger",
+   "desc": "As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.\nYou decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.\nEven to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Wings",
+   "type": "Racial Trait",
+   "name": "Wings",
+   "desc": "You have a pair of wings that give you a flying speed of 30 feet. You cannot use this fly speed if you are wearing medium or heavy armor or if your current form granted by your shapechanger trait does not have wings.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Silver Tongue",
+   "type": "Racial Trait",
+   "name": "Silver Tongue",
+   "desc": "You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.",
+   "rules": [
+    {
+     "grant": "skill:Persuasion"
+    }
+   ]
+  },
+  {
+   "id": "Sub Race:Firebeard Dwarf",
+   "type": "Sub Race",
+   "name": "Firebeard Dwarf",
+   "desc": "A mysterious race, nobody knows the origin of the firebeard dwarves' powers. What is known about them is that firebeards are more in touch with the magic of...",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Fire Resistance"
+    },
+    {
+     "grant": "Racial Trait:Firestrike",
+     "level": 3
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ],
+   "supports": "Race:Dwarf"
+  },
+  {
+   "id": "Racial Trait:Fire Resistance",
+   "type": "Racial Trait",
+   "name": "Fire Resistance",
+   "desc": "You have resistance to fire damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Firestrike",
+   "type": "Racial Trait",
+   "name": "Firestrike",
+   "desc": "When you reach 3rd level, you learn the fire bolt cantrip. Intelligence is your spellcasting ability for this spell.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Fire Bolt",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Rune Dwarf",
+   "type": "Sub Race",
+   "name": "Rune Dwarf",
+   "desc": "Rune dwarfs, also known as Ruhn Kadan (meaning sons of rune/or rune son) are Dwarfs gifted by the gods with the mark of rune. This gift passes from son to...",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Runic Protection"
+    },
+    {
+     "select": {
+      "name": "Custom Ability Score Increase 1",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    }
+   ],
+   "supports": "Race:Dwarf"
+  },
+  {
+   "id": "Racial Trait:Runic Protection",
+   "type": "Racial Trait",
+   "name": "Runic Protection",
+   "desc": "You have advantage on saving throws against spells of a level equal to or lower than your Charisma modifier; however, you have disadvantage on attack rolls when casting a spell of a higher level than your Charisma modifier.",
+   "rules": []
+  },
+  {
+   "id": "Ability Increase:Strength +1",
+   "type": "Ability Increase",
+   "name": "Strength +1",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Strength +2",
+   "type": "Ability Increase",
+   "name": "Strength +2",
+   "desc": "Your Strength score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Dexterity +1",
+   "type": "Ability Increase",
+   "name": "Dexterity +1",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Dexterity +2",
+   "type": "Ability Increase",
+   "name": "Dexterity +2",
+   "desc": "Your Dexterity score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Constitution +1",
+   "type": "Ability Increase",
+   "name": "Constitution +1",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Constitution +2",
+   "type": "Ability Increase",
+   "name": "Constitution +2",
+   "desc": "Your Constitution score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "con": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Intelligence +1",
+   "type": "Ability Increase",
+   "name": "Intelligence +1",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Intelligence +2",
+   "type": "Ability Increase",
+   "name": "Intelligence +2",
+   "desc": "Your Intelligence score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "int": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Wisdom +1",
+   "type": "Ability Increase",
+   "name": "Wisdom +1",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Wisdom +2",
+   "type": "Ability Increase",
+   "name": "Wisdom +2",
+   "desc": "Your Wisdom score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Charisma +1",
+   "type": "Ability Increase",
+   "name": "Charisma +1",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Charisma +2",
+   "type": "Ability Increase",
+   "name": "Charisma +2",
+   "desc": "Your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2
+     }
+    }
+   ]
+  }
+ ]
+}

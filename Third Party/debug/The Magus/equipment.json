@@ -1,0 +1,37 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Embalmer’s Tools",
+   "type": "Gear",
+   "name": "Embalmer’s Tools",
+   "desc": "Embalmer’s tools include all the instruments, chemicals, and perfumes necessary to embalm the dead. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to embalm or preserve a body.",
+   "rules": [],
+   "cg": "Tools",
+   "cp": 1000,
+   "price": 10.0,
+   "wt": 4.0
+  },
+  {
+   "id": "Gear:Spirit Board",
+   "type": "Gear",
+   "name": "Spirit Board",
+   "desc": "A spirit board consists of a planchette and small board or tablet, often made from paper and laminated to wood, that is decorated with letters and numbers. People use spirit boards to attempt to communicate with the dead by asking a question outloud and touching the planchette lightly, believing that unquiet spirits will use the planchette to spell out answers to the petitioner’s questions. Spiritualists can use spirit boards as a spellcasting focus.",
+   "rules": [],
+   "cg": "Spellcasting Focus",
+   "cp": 30,
+   "price": 0.3,
+   "wt": 1.0
+  },
+  {
+   "id": "Gear:Stygian Coin",
+   "type": "Gear",
+   "name": "Stygian Coin",
+   "desc": "Stygian coins are made of a polished black reflective metal. On one side is a skull with a crown of flowers. On the other side is a wrought iron gate. To creatures who can’t see through illusions and are not spiritualists, each one looks identical to a gold piece.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0
+  }
+ ]
+}

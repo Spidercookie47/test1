@@ -1,0 +1,18 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "mirts-undermountain-survival-guide",
+  "name": "Mirt’s Undermountain Survival Guide",
+  "short": "MUSG"
+ },
+ "files": [
+  "races.json",
+  "languages.json",
+  "classes.json",
+  "subclasses.json",
+  "spells.json",
+  "equipment.json",
+  "info.json"
+ ]
+}

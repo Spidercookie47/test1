@@ -1,0 +1,745 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Plague Domain",
+   "type": "Subclass",
+   "name": "Plague Domain",
+   "desc": "It is common when sickness and disease strikes a village or township for people to cower away from it. They fear the touch of the illness, fear that it...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Cantrip (Plague Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Hardened Survivor",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Mist of Disease",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Protection of Body",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Strike",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Death Bringer",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Detect Poison and Disease",
+      "Fog Cloud"
+     ],
+     "3": [
+      "Lesser Restoration",
+      "Ray of Enfeeblement"
+     ],
+     "5": [
+      "Remove Curse",
+      "Stinking Cloud"
+     ],
+     "7": [
+      "Blight",
+      "Death Ward"
+     ],
+     "9": [
+      "Contagion",
+      "Insect Plague"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Blight",
+   "type": "Subclass",
+   "name": "Circle of Blight",
+   "desc": "The Circle of Blight is made up of devotees of Talona and the Rotting Man. Feared and reviled throughout the Great Dale, they revel in decay. Their plagues...",
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Spells",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Blightblood",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Blight Touch",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Black Glaive",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Corrupting Blow",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Winterheart",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid",
+   "prepared": {
+    "class": "Druid",
+    "levels": {
+     "3": [
+      "Ray of Enfeeblement",
+      "Snillocs Snowball Swarm"
+     ],
+     "5": [
+      "Animate Dead",
+      "Erupting Filth"
+     ],
+     "7": [
+      "Blight",
+      "Shadow of Moil"
+     ],
+     "9": [
+      "Contagion",
+      "Enervation"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Leth",
+   "type": "Subclass",
+   "name": "Circle of Leth",
+   "desc": "The Circle of Leth is an order of druids formed in the Year of the Last Hunt (722 DR). In that year, The Great Druid of Leth claimed the title of Nentyarch...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Cantrip (Circle of Leth)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Plant Form",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Primal Strike",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Nature’s Protection",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Silent Passage",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid"
+  },
+  {
+   "id": "Subclass:Shou Disciple",
+   "type": "Subclass",
+   "name": "Shou Disciple",
+   "desc": "The varied peoples of Kara-Tur have a long and storied history of using the study of martial arts to attain enlightenment. Monasteries exist where students...",
+   "rules": [
+    {
+     "grant": "Class Feature:Inner Strength",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Pragmatic Combat",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Warding Senses",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Combat Discipline",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Focused Fury",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of Sarshel",
+   "type": "Subclass",
+   "name": "Oath of Sarshel",
+   "desc": "The city of Sarshel in Impiltur is named after Sarshel Elethlim, a legendary paladin crowned King of Impiltur in the Year of the Proud Father (732 DR).",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Rampart of Strength",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Relentless Spirit",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Champion of Sarshel",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Heroism",
+      "Protection From Evil and Good"
+     ],
+     "5": [
+      "Spiritual Weapon",
+      "Zone of Truth"
+     ],
+     "9": [
+      "Beacon of Hope",
+      "Crusaders Mantle"
+     ],
+     "13": [
+      "Banishment",
+      "Guardian of Faith"
+     ],
+     "17": [
+      "Dispel Evil and Good",
+      "Hallow"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Nentyar Hunter",
+   "type": "Subclass",
+   "name": "Nentyar Hunter",
+   "desc": "The Nentyar archdruid of the Circle of Leth grants unique primal abilities to a special conclave of rangers in their employ. These rangers master a greater...",
+   "rules": [
+    {
+     "grant": "Class Feature:Nentyar Hunter Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Nature’s Grace",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Nature’s Fury",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Agility of the Wild",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Master of the Hunt",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Untamed Ferocity",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Black Flame Zealot",
+   "type": "Subclass",
+   "name": "Black Flame Zealot",
+   "desc": "In Thay, there is a secret society of holy slayers devoted to Kossuth, the Firelord: The Order of the Black Flame.",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellcasting",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Servant of the Black Flame",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Fateful Stride",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Zealous Heart",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Unholy Immolation",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue",
+   "casting": {
+    "ability": "wis",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Thug",
+   "type": "Subclass",
+   "name": "Thug",
+   "desc": "Where many rogues focus on deception and guile, you are not one of them. You reinforce verbal threats with acts of violence. You excel at inciting fear in...",
+   "rules": [
+    {
+     "grant": "Class Feature:Brutal Bludgeoning",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Incite Fear",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Punish the Fearful",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Beat Down",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Wave of Fear",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Stunning Strike",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Forest Soul",
+   "type": "Subclass",
+   "name": "Forest Soul",
+   "desc": "A few special mortals may claim to possess a forest soul. Perhaps in the distant past the blood of your ancestors mingled with peoples of the forest. Many...",
+   "rules": [
+    {
+     "grant": "Class Feature:Nature Magic",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fey Friend",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Leaf Tongue",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Forest Walk",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Tree Form",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer",
+   "expandedList": {
+    "class": "Sorcerer",
+    "spells": [
+     "Druid"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Raumathari Battlemage",
+   "type": "Subclass",
+   "name": "Raumathari Battlemage",
+   "desc": "The Raumathari battlemages of old were an order of sorcerers who mastered an innate connection to the principles of war and the art of combat. The very heat...",
+   "rules": [
+    {
+     "grant": "Class Feature:Sword Focus",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Sorcerous Combat",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Warrior’s Soul",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Wardbreaker’s Strike",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  },
+  {
+   "id": "Subclass:The Queen of Air and Darkness",
+   "type": "Subclass",
+   "name": "The Queen of Air and Darkness",
+   "desc": "This Unseelie queen is an invisible and evil fey presence in the heart of Pandemonium. She is served by many types of evil creatures, notably corrupted fey,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Archfey Expanded Spell List",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Archfey Fey Presence",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Archfey Misty Escape",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Queen’s Horrific Visage",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Archfey Dark Delirium",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock"
+  },
+  {
+   "id": "Subclass:Eltab, Lord of the Hidden Layer",
+   "type": "Subclass",
+   "name": "Eltab, Lord of the Hidden Layer",
+   "desc": "A powerful demon who has played a significant role in the eastern part of Faerûn, and likely will in the foreseeable future, is the Demon Lord Eltab, “Lord...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Scaly Flesh",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fiend Darkonesownluck",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Fiend Fiendish Resilience",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Fiend Hurl Through Hell",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Command",
+     "Wrathful Smite",
+     "Branding Smite",
+     "Flame Blade",
+     "Elemental Weapon",
+     "Fear",
+     "Fire Shield",
+     "Staggering Smite",
+     "Destructive Smite",
+     "Flame Strike"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Nar Demonbinder",
+   "type": "Subclass",
+   "name": "Nar Demonbinder",
+   "desc": "The wizards of ancient Narfell used powerful conjuration magic to summon demons and bind them into service. Through these dark pacts, the Nar...",
+   "rules": [
+    {
+     "grant": "Class Feature:Fiendish Familiar",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Symbol of Protection",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Demon Summoner",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Master Demon Summoner",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Baleful Energy",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard",
+   "expandedList": {
+    "class": "Wizard",
+    "spells": [
+     "Dispel Evil and Good"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Circle Spells",
+   "type": "Class Feature",
+   "name": "Circle Spells",
+   "desc": "Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\nCIRCLE OF STONE SPELLS\n\nDruid Level | Spells\n3rd | dust devil, spike growth\n5th | erupting earth, meld into stone\n7th | stone shape, stoneskin\n9th | conjure elemental, wall of stone",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Strength",
+   "type": "Class Feature",
+   "name": "Stone Strength",
+   "desc": "2nd-level Circle of Stone feature\n\nYou can summon elemental spirits to fill your body with stony strength and protect you from harm. You have a pool of such strength represented by a number of d8s equal to your druid level. When you take damage, you can use your reaction to spend a number of these dice and reduce the damage by the total. You regain all expended dice when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Spider",
+   "type": "Class Feature",
+   "name": "Stone Spider",
+   "desc": "6th-level Circle of Stone feature\n\nYou can use an action to transform a pebble into a stone spider (see chapter 6). Add your proficiency bonus to the creature’s AC, attack rolls, and damage rolls. Its hit point maximum equals four times your druid level.\n\nThe stone spider reverts to a pebble when it drops to 0 hit points or when 1 hour has passed. It is friendly to you and your companions, and it obeys any verbal commands that you issue to it (no action is required by you).\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Speaker",
+   "type": "Class Feature",
+   "name": "Stone Speaker",
+   "desc": "10th-level Circle of Stone feature\n\nYou gain the ability to speak with a stone object or surface. The stone can tell you what events have occurred within 10 feet of it in the past 24 hours. Its perspective, perception, and knowledge may limit what details the stone can provide.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Stone Prison",
+   "type": "Class Feature",
+   "name": "Stone Prison",
+   "desc": "14th-level Circle of Stone feature\n\nAs an action, you can cause raw stone to erupt from the ground, enclosing a creature you choose within 30 feet of you. The target must be Large or smaller and must be standing on the ground. The target must succeed on a Dexterity saving throw with disadvantage to avoid being trapped.\n\nThe prison is exactly large enough to hold the trapped creature. It is completely airtight with enough air to last 1 hour. While in this stone prison, the target has a speed of 0 but can otherwise take actions. The prison has AC 17, 50 hit points, is immune to poison and psychic damage, and has a damage threshold of 5.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blinding Sands",
+   "type": "Class Feature",
+   "name": "Blinding Sands",
+   "desc": "3rd-level Way of the Desert Wind feature\n\nA rush of gritty desert wind accompanies your rapid strikes. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, the target must succeed on a Constitution saving throw or be blinded until the start of its next turn by swirling desert sand.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Reed in the Wind",
+   "type": "Class Feature",
+   "name": "Reed in the Wind",
+   "desc": "6th-level Way of the Desert Wind feature\n\nYou turn your enemy’s momentum to your benefit, rolling with their attacks and setting up a vicious counter. When a creature hits you with a melee attack, you can use your reaction to reduce the damage by half your monk level. You then have advantage on the next melee attack you make against that creature before the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Burning Brand",
+   "type": "Class Feature",
+   "name": "Burning Brand",
+   "desc": "11th-level Way of the Desert Wind feature\n\nYour strike leaves a fiery imprint that explodes the next time your enemy is struck. When you hit a creature with one of the attacks granted by your Flurry of Blows, you can spend 1 ki point to leave a burning brand on it. If the target is struck before the end of your next turn, the brand explodes, inflicting 2d6 fire damage on the target and all creatures within 5 feet of it.\n\nYou can increase the brand’s damage by spending extra ki points. Each point you spend, to a maximum of 3, increases the damage by 2d6.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rising Phoenix",
+   "type": "Class Feature",
+   "name": "Rising Phoenix",
+   "desc": "17th-level Way of the Desert Wind feature\n\nYou can use an action to summon searing winds to safely encase your body. While this feature is active, you gain the following abilities:\n\n- You have resistance to fire damage.\n- You have a flying speed of 60 feet.\n- A creature takes 2d6 fire damage when it comes within 5 feet of you for the first time on a turn or starts its turn within 5 feet of you.\n\nYou can use a bonus action to dismiss these encasing winds.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Oath Spells",
+   "type": "Class Feature",
+   "name": "Oath Spells",
+   "desc": "You gain oath spells at the paladin levels listed in the Oath of the Janessar Spells table. See the Sacred Oath class feature in chapter 3 of the Player’s Handbook for how oath spells work.\n\nOATH OF THE JANESSAR SPELLS\n\nPaladin Level | Spells\n3rd | goodberry, sanctuary\n5th | knock, lesser restoration\n9th | beacon of hope, remove curse\n13th | dimension door, freedom of movement\n17th | circle of power, greater restoration",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity",
+   "type": "Class Feature",
+   "name": "Channel Divinity",
+   "desc": "3rd-level Oath of the Janessar feature\n\nYou gain the following two Channel Divinity options. See the Sacred Oath class feature in chapter 3 of the Player’s Handbook for how Channel Divinity works.\n\nVoice of Righteousness. You can use your Channel Divinity to augment your words with divine favor as you plead on behalf of the oppressed. As a bonus action, you gain advantage on all Charisma (Persuasion) and Charisma (Intimidation) checks for the next 10 minutes.\n\nDenounce the Oppressor. You can use your Channel Divinity to call down a divine imprecation upon your enemies. As an action, choose one creature within 30 feet of you that you can see. That creature must make a Wisdom saving throw. On a failed save, the creature falls prone and is incapacitated until the start of your next turn.",
+   "rules": [
+    {
+     "grant": "Class Feature:Channel Divinity: Voice of Righteousness"
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Denounce the Oppressor"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Voice of Righteousness",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Voice of Righteousness",
+   "desc": "You can use your Channel Divinity to augment your words with divine favor as you plead on behalf of the oppressed. As a bonus action, you gain advantage on all Charisma (Persuasion) and Charisma (Intimidation) checks for the next 10 minutes.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Channel Divinity: Denounce the Oppressor",
+   "type": "Class Feature",
+   "name": "Channel Divinity: Denounce the Oppressor",
+   "desc": "You can use your Channel Divinity to call down a divine imprecation upon your enemies. As an action, choose one creature within 30 feet of you that you can see. That creature must make a Wisdom saving throw. On a failed save, the creature falls prone and is incapacitated until the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Freedom",
+   "type": "Class Feature",
+   "name": "Aura of Freedom",
+   "desc": "7th-level Oath of the Janessar feature\n\nYou and friendly creatures within 10 feet of you can’t be restrained or have their speed reduced by spells and other magical effects while you are conscious. At 18th level, the range of this aura increases to 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Angelic Escape",
+   "type": "Class Feature",
+   "name": "Angelic Escape",
+   "desc": "15th-level Oath of the Janessar feature\n\nAs a bonus action, you cause brilliant white wings to envelop you in a sparkling cocoon. The wings disappear and teleport to an unoccupied point you can see within 30 feet and then unfold, leaving you at the new location. Once you use this ability, you can’t use it again until you finish a short rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Glorious Liberator",
+   "type": "Class Feature",
+   "name": "Glorious Liberator",
+   "desc": "20th-level Oath of the Janessar feature\n\nYou can transform yourself into an avatar of liberty. As a bonus action, you gain the following benefits for 10 minutes:\n\n- You are immune to the charmed, grappled, paralyzed, petrified, restrained, and stunned conditions.\n- You can cast the knock spell as a bonus action without expending a spell slot.\n- You can use your Denounce the Oppressor Channel Divinity option as a bonus action.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wayfinder Magic",
+   "type": "Class Feature",
+   "name": "Wayfinder Magic",
+   "desc": "3rd-level Wayfinder feature\n\nYou learn an additional spell when you reach certain levels in this class, as shown in the Wayfinder Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.\n\nWAYFINDER SPELLS\n\nRanger Level | Spells\n3rd | sanctuary\n5th | see invisibility\n9th | protection from energy\n13th | death ward\n17th | dispel evil and good",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Peerless Vigilance",
+   "type": "Class Feature",
+   "name": "Peerless Vigilance",
+   "desc": "3rd-level Wayfinder feature\n\nThe years spent walking dangerous paths have sharpened your senses, enabling you to react quickly and effectively to danger. You cannot be surprised while conscious. In addition, you have advantage on the first weapon attack you make during the first round of combat, and, if you hit, it is automatically a critical hit.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Supreme Explorer",
+   "type": "Class Feature",
+   "name": "Supreme Explorer",
+   "desc": "3rd-level Wayfinder feature\n\nYou have travelled widely in a variety of lands and are an expert in many different environments. Choose two additional favored terrains.",
+   "rules": [
+    {
+     "select": {
+      "name": "Favored Terrain, Supreme Explorer",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Urban"
+      ]
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Hidden Truths",
+   "type": "Class Feature",
+   "name": "Hidden Truths",
+   "desc": "7th-level Wayfinder feature\n\nThe wilds are full of secrets both mundane and magical, and you have developed a preternatural eye for finding the truth. You have advantage on ability checks made to locate secret doors and detect illusions, and advantage on saving throws against illusion magic.\n\nIn addition, while in your favored terrain you have blindsight out to a range of 10 feet. By 11th level, this increases to 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Timely Warning",
+   "type": "Class Feature",
+   "name": "Timely Warning",
+   "desc": "11th-level Wayfinder feature\n\nYou are constantly on the watch for any harm that might come to your allies. If a creature you can see within 30 feet of you is hit with an attack, you can use your reaction to call out a warning and reduce the damage by half.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Disorienting Strike",
+   "type": "Class Feature",
+   "name": "Disorienting Strike",
+   "desc": "15th-level Wayfinder feature\n\nYour mesmerizing attack causes the target to lose its sense of direction, becoming dizzy, confused, and vulnerable. The first time you hit a creature on your turn, the creature takes an extra 1d8 damage.\n\nIn addition, the target must make a successful Constitution saving throw against your spell save DC. Otherwise, when the target makes an attack roll or a saving throw before the start of your next turn, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
+   "rules": []
+  }
+ ]
+}

@@ -1,0 +1,1008 @@
+{
+ "elements": [
+  {
+   "id": "Background:Pit Fighter",
+   "type": "Background",
+   "name": "Pit Fighter",
+   "desc": "Athletics, Acrobatics / Animal Handling / Intimidation, Gaming Set, 1 Language / Instrument / Vehicles (Land) / Vehicles (Water)",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Intimidation"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Gaming Set",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Background Feature:Blood Brothers"
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency (Pit Fighter)",
+      "type": "Background Feature",
+      "ids": [
+       "Background Feature:Standard Language (Speak/Read)",
+       "Background Feature:Gaming set",
+       "Background Feature:Musical Instrument",
+       "Background Feature:Land Vehicles",
+       "Background Feature:Water Vehicles"
+      ]
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I’m silent and menacing.",
+     "I am always on alert and trust no one.",
+     "I am quiet and focused.",
+     "I am brash and outspoken.",
+     "I constantly challenge and mock others who are physically powerful.",
+     "I am unshakable and never back down."
+    ],
+    "ideals": [
+     "Mercy. I never kill (Good)",
+     "Vicious. I never spare anyone who is stupid enough to fight me (Evil)",
+     "Honor. I give 100% and respect anyone who gives their all (Lawful)",
+     "Dirty Fighter. I never fight fair because I never know what my opponent will do (Chaotic)",
+     "Respect. I respect the strong and the skilled; I don't care what they stand for (Neutral)",
+     "Uncaring. I'm out for myself. (Any)"
+    ],
+    "bonds": [
+     "I fight for my family.",
+     "I need glory and respect.",
+     "I fight for my freedom, and need to be sure I'm never in another's power again.",
+     "I was bought and thrown into the pit; I will see my former owner thrown into that same pit with me.",
+     "I will help anyone who is poor and desperate.",
+     "I will see those who make others suffer for their entertainment feel true pain."
+    ],
+    "flaws": [
+     "I hate all those with money and power.",
+     "I am an addict; I use to forget.",
+     "I cannot back down from a challenge.",
+     "I never fight unless I have no other choice.",
+     "I will never pass up the chance to expose a well-regarded person who hides a shameful secret.",
+     "I think all authority figures who enforce laws (guards, military, etc.) are corrupt; I challenge and mock them."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Blood Brothers",
+   "type": "Background Feature",
+   "name": "Blood Brothers",
+   "desc": "You know how to find fighting houses in every big city, and can tell if one is present in a smaller settlement within a day of being there. You can earn a poor living for yourself fighting for others entertainment. In addition, you can spot who is a brutal fighter and who is scared. You can also tell who is running the show, and who the high rollers are in the crowd.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Standard Language (Speak/Read)",
+   "type": "Background Feature",
+   "name": "Standard Language (Speak/Read)",
+   "desc": "",
+   "rules": [
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Gaming set",
+   "type": "Background Feature",
+   "name": "Gaming set",
+   "desc": "",
+   "rules": [
+    {
+     "select": {
+      "name": "Gaming Set 2",
+      "type": "Tool"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Musical Instrument",
+   "type": "Background Feature",
+   "name": "Musical Instrument",
+   "desc": "",
+   "rules": [
+    {
+     "select": {
+      "name": "Musical Instrument",
+      "type": "Tool"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Land Vehicles",
+   "type": "Background Feature",
+   "name": "Land Vehicles",
+   "desc": "",
+   "rules": [
+    {
+     "pf": [
+      "t:Vehicle’s land"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background Feature:Water Vehicles",
+   "type": "Background Feature",
+   "name": "Water Vehicles",
+   "desc": "",
+   "rules": [
+    {
+     "pf": [
+      "t:Vehicle’s water"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Background:Druuthguard",
+   "type": "Background",
+   "name": "Druuthguard",
+   "desc": "2 Arcana / Investigation / Religion / Survival, Musical Instrument, Language",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency, Druuthguard",
+      "n": 2,
+      "from": [
+       "Arcana",
+       "Investigation",
+       "Religion",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Druuthguard",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Changeling Resistance"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "You stink of evil. I can smell it on you.",
+     "I dream of a world safe from hidden threats and betrayal.",
+     "I know betrayal is coming, so I live life to its fullest every minute of every day.",
+     "I will find the betrayer, if it is the last thing that I ever do.",
+     "I don’t talk about the source of my suspicions. That is my burden to bear.",
+     "I expect betrayal at every moment.",
+     "I will not give in to my fears. I will face the hidden menace among us and expose them.",
+     "I put no trust in the smoother talkers of this world. They are almost always false."
+    ],
+    "ideals": [
+     "Endurance. I will find the hidden evil among us, no matter what the personal cost. (Good)",
+     "Alertness. I will never let down my guard. Vigilance always and forever. (Any)",
+     "Diligence. Those that hide in order to prey on the innocent must be exposed and stopped. (Good)",
+     "Defiance. I will not let legal niceties stop me from unmasking the deceitful. (Chaotic)",
+     "Vigilance. Hidden threats are the most basic danger to organized society. (Lawful)",
+     "Steadfastness. If innocents die as a result of exposing the false, so be it. (Evil)"
+    ],
+    "bonds": [
+     "I maintain a journal detailing a roster of those who have aroused my suspicions.",
+     "I would sacrifice everything to protect the innocent.",
+     "I drove away all my friends and loved ones because of my single-minded pursuit of the hidden.",
+     "I failed to act on my suspicions once long ago. The memory of the costs of my inaction haunts me everyday.",
+     "I do my best to conceal a deep and abiding rage.",
+     "My niece is my only living relative. I would do anything to protect her."
+    ],
+    "flaws": [
+     "I can’t stand being dirty. I must be perfectly clean, always.",
+     "I assume the worst in people and am usually right.",
+     "Everyone is a threat. It is merely a question of degree.",
+     "I am afraid of the dark.",
+     "I am unrelentingly negative.",
+     "I talk to myself constantly. I am the only one that I fully trust."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Changeling Resistance",
+   "type": "Background Feature",
+   "name": "Changeling Resistance",
+   "desc": "As a result of your hereditary exposure to such creatures, whenever you’re in the company of a shapeshifter (doppelganger, lycanthrope, etc.) you sense that something is “odd” about them. You can’t tell precisely what kind of shapeshifter they are, but you know they are one.",
+   "rules": []
+  },
+  {
+   "id": "Background:Duskwood Forester",
+   "type": "Background",
+   "name": "Duskwood Forester",
+   "desc": "Nature, Survival, Woodcarvers Tools, Language",
+   "rules": [
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Naturalist Guide"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Woodcarver’s tools"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I tend to talk to myself when I am alone and walking through the forest.",
+     "I can stare at a gently flowing stream for hours.",
+     "I can be extremely impatient with tinhorns not experienced with the ways of the forest.",
+     "I don’t react well when someone tries to order me around.",
+     "I am as grumpy as a badger when I wake up each morning.",
+     "I am uncomfortable and feel out of place around large groups of people.",
+     "I am slow to trust, but loyal to a fault.",
+     "I rather sleep in a tree than in a bed."
+    ],
+    "ideals": [
+     "Seasons. The only thing that is permanent in life is change. We all must accept that everything changes eventually. (Chaotic)",
+     "Beauty. Revel in the beauty of nature and share its gifts with those around you. (Good)",
+     "Protection. It is my duty to protect those who cannot protect themselves from the dangers of the forest. (Lawful)",
+     "Strength. As in nature, the strong rule the weak. It is the only way. (Evil)",
+     "Nature. The natural world offers the purest way of life. The trappings of civilization are nothing more than a burden. (Neutral)",
+     "Reason. Every question in life should be answered by reasoned inquiry so that we may arrive at the truth. (Any)"
+    ],
+    "bonds": [
+     "The forest is my home and I am its protector.",
+     "I am fascinated by the beauty and grandeur of the forest.",
+     "It is my mission to share the wonders of nature with unfortunate and ignorant city folk.",
+     "When I am hired as a guide, I will lay down my life to protect my clients if need be.",
+     "All hunting should be for sustenance only. Killing animals is not a sport.",
+     "It is my duty to protect visitors to the forest."
+    ],
+    "flaws": [
+     "I am not impressed by fancy folk and high manners. None of that will save you from a hungry owlbear.",
+     "Bathing is for dandies and soft city folk.",
+     "I don’t give a damn about what anyone thinks about me.",
+     "I loathe cheese and cannot stand to be near it.",
+     "I truly think that the trees are smarter than most people.",
+     "I don’t forgive a slight, ever."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Naturalist Guide",
+   "type": "Background Feature",
+   "name": "Naturalist Guide",
+   "desc": "You have spent most of your adult life under the broadleaf canopies of the great and wild forests of the Border Kingdoms. As a result, you are extremely familiar with the terrain, inhabitants, and hazards found in these untamed and vast woods. You can always find game, edible plants and berries, and fresh water for yourself and up to five other people each day while in the forest",
+   "rules": []
+  },
+  {
+   "id": "Background:Griffon Knight",
+   "type": "Background",
+   "name": "Griffon Knight",
+   "desc": "Arcana, Investigation, Gaming Set / Musical Instrument, Language",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Griffon Knight",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Nose for Trouble"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am polite to the point of absurdity.",
+     "I have lost too many fellow service members to trust others too easily.",
+     "I am disgusted by the petty criminal activity I see everywhere.",
+     "I have a story from my past service analogous to every situation imaginable.",
+     "Nothing scares me, not even cold porridge.",
+     "I like being in control and issuing orders.",
+     "I have a crude sense of humor.",
+     "Direct and simple action is always the right path."
+    ],
+    "ideals": [
+     "Protection. My oath was to protect the innocent. (Good)",
+     "Law. Rules, ordinances, and laws must be followed absolutely. (Lawful)",
+     "Free Thinking. The letter of the law is not important, it is the intent behind the law. (Chaotic)",
+     "Strength. Might makes right. (Evil)",
+     "Impartiality. Your guilt or innocence is not for me to decide. (Neutral)",
+     "Duty. Not on my watch. (Any)"
+    ],
+    "bonds": [
+     "No one left behind, ever.",
+     "Only the smart survive. Discretion is the better part of valor.",
+     "Honor is everything.",
+     "I’ll never forget being betrayed by that sweet face.",
+     "I will lay down my life for my fellows.",
+     "I will protect those who cannot protect themselves."
+    ],
+    "flaws": [
+     "I am quick to judgment and too stubborn to admit it.",
+     "I quietly despise the weak.",
+     "I really hate cats.",
+     "I frequently lose my temper.",
+     "I blindly obey the law, even if doing so does harm.",
+     "I am haunted by a poor decision I made that cost the lives of fellow service members."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Nose for Trouble",
+   "type": "Background Feature",
+   "name": "Nose for Trouble",
+   "desc": "Your experience in finding and punishing counterfeits, and dealing with lawbreakers generally, gives you a feel for the criminal element in Alamontyr. You can adeptly pick out members of the local thieves’ guild or criminal front, and are likely to spot hired spies at work. You also have an affinity for local law enforcement and can quickly locate members of the local watch or constabulary. Your background also affords you with much higher credibility when interacting with other law enforcement.",
+   "rules": []
+  },
+  {
+   "id": "Background:Highcoin Blackalan",
+   "type": "Background",
+   "name": "Highcoin Blackalan",
+   "desc": "History, Persuasion, Gaming Set / Musical Instrument, Language",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Highcoin Blackalan",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:High Roller"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "My refined approach to everything that I do is a gift to the rest of the world.",
+     "I am well known among the hoi polloi for my kindness and generosity.",
+     "I always look my best no matter how trying the circumstances.",
+     "It is difficult to be among the lowborn, but it is a fact of life that must be endured.",
+     "Only the best for me, always.",
+     "We are all equals, despite my elevated birth and status.",
+     "Do not ever betray me, for you will never find a more implacable adversary.",
+     "As a highborn, it is my duty to try to set an example of proper behavior for the rest of society."
+    ],
+    "ideals": [
+     "Deference. Because of my birth, a certain amount of respect is due. However, that respect can only be maintained by decent and proper behavior. (Good)",
+     "Duty. In all things there is a ladder of authority. It is important to recognize upon which rung you perch and to act accordingly. (Lawful)",
+     "Free Spirit. Just because I was born into a certain caste does not mean I have to act as such or remain there at all. (Chaotic)",
+     "Power. Wealth and influence are weapons to be used against all but our closest allies. (Evil)",
+     "Loyalty. My first and last duties are to my family. Family is everything. (Any)",
+     "Noble Obligation. My duty as a noble requires me to protect, aid, and show generosity to those around me. (Good)"
+    ],
+    "bonds": [
+     "Glory and honor to my house and family defines everything I do.",
+     "A deal is a deal and must be honored no matter the cost.",
+     "I must be adored and revered by the common people.",
+     "My obligations to my family leave no room for frivolity or whimsy.",
+     "My loyalty to my liege lord is absolute.",
+     "I must set an example of proper behavior for the sake of others."
+    ],
+    "flaws": [
+     "I openly loathe the unwashed commoners.",
+     "I made a grievous mistake which if discovered could ruin me and my family.",
+     "I am paranoid to the point of distraction.",
+     "Pleasures of the flesh are the only thing really worth living for.",
+     "No one is smarter, more refined, and more gracious than me.",
+     "I am an embarrassment to my family, although I would never admit that."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:High Roller",
+   "type": "Background Feature",
+   "name": "High Roller",
+   "desc": "Glib of tongue and a master actor, skilled in insults and acting “haughtier than thou,” and being a shrewd judge of the wealth of individuals and how to goad, stingingly insult, or impress them or make common cause with them, you have gained not just familiarity with how to spend money, but how to handle it, from profit margins to sly contract pitfalls (from either being a “coinlord” of Blackalblade, investing, lending, and banking, or from dealing extensively with coinlords). You’ve developed a wide network of contacts within the citizenry of Blackalblade, and through your lived experience in that city become familiar with expensive luxury goods (including wines and cheeses), and with gems and gemcutting (so you can readily identify even rare gems, and other substances dyed, heat-treated, and otherwise altered so as to be passed off as fine gemstones).",
+   "rules": []
+  },
+  {
+   "id": "Background:Skulls Hollow Seer",
+   "type": "Background",
+   "name": "Skulls Hollow Seer",
+   "desc": "Insight, Perception, Gaming Set, Language",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "select": {
+      "name": "Gaming Set, Skulls Hollow Seer",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Glimpses of the Past and Future"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I feel anxious and on edge almost all the time.",
+     "I am almost never surprised by anything.",
+     "I only speak if spoken to, and answer with as few words as possible.",
+     "I make sure to loudly and broadly proclaim any bit of insight or wisdom that comes to me.",
+     "I try to find the positive in any experience, no matter how terrible it might seem at the time.",
+     "I am suspicious of just about everyone as I feel that everyone wants to use me for their own purposes.",
+     "I am a real talker. In fact, I really never stop talking.",
+     "I am a dour person, sulky and sour about the circumstances of my life."
+    ],
+    "ideals": [
+     "Aspiration. I’ve seen a hint of greatness in my future, and I work hard to achieve it. (Any)",
+     "Manipulation. My gifts give me the perfect leverage to move others to my tune. (Evil)",
+     "Freedom. Knowledge of what may come allows for greater choice. (Chaotic)",
+     "Serenity. I seek fulfillment with whatever I see in the future. (Neutral)",
+     "Truth. I am a servant of the truth, and I will share it for good or ill. (Lawful)",
+     "Compassion. My gifts can bring comfort to the suffering and peace to the troubled. (Good)"
+    ],
+    "bonds": [
+     "I told the fortune of the man who then destroyed my family, but I ignored the warning. I must find him and put it right.",
+     "My grandmother passed a token to me when she explained our gift of the Sight. It’s my most prized possession.",
+     "I told one fortune whose meaning I still don’t understand, but I know it has great importance.",
+     "My family travels the land, and I send most of the money I earn to them.",
+     "I told the fortune of the person I loved, and that led them to the arms of another.",
+     "I’m driven to read the fortune of powerful people."
+    ],
+    "flaws": [
+     "I saw a truth once that I refused to speak, and tragedy was the result. It haunts me to this day.",
+     "I have terrible nightmares about the dark futures I’ve glimpsed.",
+     "No matter how I try, very few ever believe my fortunes.",
+     "I can’t resist embellishing a fortune to try to earn a few more coins.",
+     "I loathe charlatans and tricksters who take advantage of those who seek their fortunes, and I do what I can to discredit them.",
+     "I’m terribly jealous of any positive fortune I read, since I can read any palm but my own."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Glimpses of the Past and Future",
+   "type": "Background Feature",
+   "name": "Glimpses of the Past and Future",
+   "desc": "As a result of this strange experience with the apparition of Skulls Hallow, you are an unwilling seer, of sorts. Visions of the past and messages about the future come to you unbidden and for no apparent reason. More frustrating than that is trying to figure out what these glimpses from other times and places mean. Occasionally, these visions and messages are easy to understand and can be quite helpful. However, more commonly, these random insights are inscrutable and confusing. Your DM may privately impart Skull messages to you from time to time.",
+   "rules": []
+  },
+  {
+   "id": "Background:Jundarl",
+   "type": "Background",
+   "name": "Jundarl",
+   "desc": "Medicine, Religion, Herbalism Kit, Language",
+   "rules": [
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Fast Healing"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Herbalism kit"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I’ve have been accused of so many things I did not do based on my appearance, that I am very slow to judge others.",
+     "I always root for the underdog and go out of my way to help those less fortunate than myself.",
+     "I am quite convinced that I have the right answer for every question, every time.",
+     "I can’t stand dairy in any form.",
+     "I’m above such concepts as etiquette and social expectations.",
+     "I’m very easily distracted and struggle to stay on any task.",
+     "All we need is love.",
+     "I am impatient with people the are less intelligent than me, which means just about everyone."
+    ],
+    "ideals": [
+     "A Better World. My life is dedicated to uplifting those around me. (Good)",
+     "Order. Without structure, all is lost. We must follow the rules! (Lawful)",
+     "Whatever. Everyone needs to, like, chill, man. (Chaotic)",
+     "Pain. Only through a measure of suffering can one find the truth. (Evil)",
+     "Respect Others. There is no absolute truth. Each must find their own path. (Neutral)",
+     "Respect Life. We all have a role to play in this universe and should be allowed to play it. (Any)"
+    ],
+    "bonds": [
+     "Because of persecution suffered as a child, I am dedicated to building a more inclusive world.",
+     "I am driven by my fear of failure.",
+     "I lost someone very close to me long ago. Everything I do is dedicated to their memory.",
+     "I am focused on revenge. Revenge against those who killed my family long ago.",
+     "My only source of peace is unspoiled nature. I will do anything to preserve it.",
+     "Striving for justice in an unjust world is my burden to bear."
+    ],
+    "flaws": [
+     "My fear of being accepted makes me quiet and withdrawn.",
+     "I deeply resent people who talk too much.",
+     "I am extremely self conscious about my bad breath, so keep others at least arms’ length away.",
+     "I simply cannot abide losing an argument, so I never acknowledge defeat.",
+     "I am greedy, like really greedy. Where is my precious?!",
+     "I can’t stand high society types or any form of foppery."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Fast Healing",
+   "type": "Background Feature",
+   "name": "Fast Healing",
+   "desc": "While the rapid growth of your hair and nails may have their drawbacks in civilized society, your body’s rapid healing makes getting over life’s everyday bumps and bruises a bit easier. At the end of a long rest, the jundarl gains a number of temporary hit points equal to their proficiency bonus. Given enough time, this unusual healing ability can actually regenerate lost digits or even whole body parts. However, this process is slow. The jundarl can regenerate approximately one pound of lost body parts/material for each month spent resting.",
+   "rules": []
+  },
+  {
+   "id": "Background:Monster Hunter",
+   "type": "Background",
+   "name": "Monster Hunter",
+   "desc": "Nature, Stealth, Herbalism Kit, Language",
+   "rules": [
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Tracker/Hunter"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Herbalism kit"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I will pursue and catch my quarry no matter the cost.",
+     "I am privileged to be able to share the beauty of the Border Kingdoms with my clients.",
+     "I will not rest until each and every monster in the Border Kingdoms is eliminated.",
+     "I love the thrill of the hunt.",
+     "I am not one to let property rights and other legalities get in the way of a good hunt.",
+     "I am all about getting paid. If you pay me enough, I will get you a kill."
+    ],
+    "ideals": [
+     "Independence. I am a free spirit—no one tells me how to run a hunt. (Chaotic)",
+     "Order. Monsters are a scourge upon us all and must be destroyed. (Lawful)",
+     "Safety. Protecting the innocent from the depredations of monsters is the highest calling. (Good)",
+     "Pragmatism. When it comes to a hunt, by any means necessary is the only rule. (Chaotic)",
+     "Friendship. Material goods come and go. Bonds of friendship last forever. (Good)",
+     "Glory. I’m determined to be known as the foremost hunter in the Border Kingdoms (Any)"
+    ],
+    "bonds": [
+     "A close call with an owlbear taught me early on the importance of respecting the dangers in nature.",
+     "I was taught everything I know by a salty old trapper and everything I do now honors his memory.",
+     "The beauty of the natural world informs everything that I do, and I want to share this understanding with as many folk as possible.",
+     "I grew up in a city, but that was not the life for me. Wilderness and the thrill of the hunt is everything to me.",
+     "I lost someone very close to me at the claws of a troll. I will do everything in my power to see that this never happens to anyone else.",
+     "I made a mistake while taking a client on a hunt resulting in her death. It was my fault and the memory of my failure haunts me everyday."
+    ],
+    "flaws": [
+     "Once started, I cannot stop a hunt.",
+     "I am not interested in coddling anyone’s feelings. When on a hunt, my way is the only way.",
+     "I am convinced that I am the best, and am not interested in hearing anyone else’s views of tactics, techniques, or locales when it comes to a hunt.",
+     "I often take unnecessary and foolish risks when on a hunt.",
+     "When pursuing a monster, laws were meant to be broken.",
+     "Animals and monsters are beneath our deepest contempt and are meant to be killed."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Tracker/Hunter",
+   "type": "Background Feature",
+   "name": "Tracker/Hunter",
+   "desc": "You are extremely familiar with the flora, fauna, and terrain of the Border Kingdoms. While in the Border Kingdoms, you can automatically identify the tracks of any beasts native to that region; similarly, you can know what foliage is safe to eat in the Border Kingdoms. Finally, given at least an hour in any wilderness setting in the Border Kingdoms, you can complete a successful hunt producing enough to eat for up to five other people each day.",
+   "rules": []
+  },
+  {
+   "id": "Background:Oeblar",
+   "type": "Background",
+   "name": "Oeblar",
+   "desc": "Deception, Stealth, Gaming Set, Thieves’ Tools",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "select": {
+      "name": "Gaming Set, Oeblar",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Background Feature:Poison Expert"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am pretty sure that your stuff should be my stuff.",
+     "I am afraid of the dark.",
+     "I am not a morning person. Do not bother me with anything before highsun (noon).",
+     "I have a compulsive sweet tooth.",
+     "I don’t cotton to strangers. You must earn my trust.",
+     "I am terribly insecure so always act tough and never admit to being wrong.",
+     "I am incredibly goal-oriented. I will let nothing stop me when I have set a goal.",
+     "I am fragile and will cry in the face of any cruel insult or jibe."
+    ],
+    "ideals": [
+     "Property. You are entitled to your things for exactly as long as you are strong enough to protect them. (Chaotic)",
+     "Freedom. No thinking being should ever be caged. Jails and prisons are for the morally bankrupt. (Chaotic)",
+     "Charity. There is enough wealth in this world in order to share a measure of it with all. (Good)",
+     "Greed. Mine! It will all be mine! (Evil)",
+     "People. I can take or leave just about anyone. If you are right by me, you can expect the same in return. (Neutral)",
+     "Restitution. Everyone makes mistakes. So, everyone should be afforded the chance to make things right. (Good)"
+    ],
+    "bonds": [
+     "I owe some money to some bad people. I need to pay them back soon or it will be bad, very bad.",
+     "I have a little sister that relies on me. I must make money one way or the other.",
+     "My family’s business was forced to close because of outrageous “protection” fees. I will make the local crime boss responsible pay.",
+     "I will build a vast criminal empire.",
+     "I have done some things that I am not proud of. I hope to do enough to balance the ledger out.",
+     "I watched someone I cared very much about die because of a mistake that I made. I will carry that burden with me for the rest of my days."
+    ],
+    "flaws": [
+     "When the going gets tough, I get going.",
+     "All I care about is money.",
+     "I don’t work well with others.",
+     "I really like pie. I don’t allow bakeries to be closed (and keeping me from sampling their wares).",
+     "I will betray anyone and anything for enough money.",
+     "I saw a valuable thing years ago. I constantly dream of stealing it and making it mine."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Poison Expert",
+   "type": "Background Feature",
+   "name": "Poison Expert",
+   "desc": "You can recognize many poisons and sleep-draughts by taste, smell, and hue, and know where to go to obtain such (and other illicit or contraband) substances. Because so many of these noxious substances originate in the Underdark, you are also resistant to Drow Poison.",
+   "rules": []
+  },
+  {
+   "id": "Background:Scholar of Derlusk",
+   "type": "Background",
+   "name": "Scholar of Derlusk",
+   "desc": "Arcana, History, 2 Languages",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "skill:History"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Lore Investigator"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I use polysyllabic words even when I don’t have to.",
+     "I’ve read every book in the greatest Derluskan libraries—or I like to boast that I have.",
+     "I appreciate that most aren’t as smart as I am. I do my best to help them by patiently explaining anything and everything to them.",
+     "I love nothing more than finding a new book, especially an ancient one.",
+     "I’m willing to listen to every side of an argument before I make my own judgment.",
+     "I have a hard time with those that are not as smart as I and I struggle to keep my frustration with them from showing.",
+     "I am not comfortable in most social settings and I do not enjoy crowds.",
+     "I have been forced to realize that not everyone appreciates my brilliance."
+    ],
+    "ideals": [
+     "Science. The answer to everything is out there given enough sober study and diligence. (Neutral)",
+     "Grace. Simple elegance in thought or refinement in thinking is the surest path to truth. (Good)",
+     "Logic. All opinions are not equal. Some are a very great deal more robust, sophisticated and well supported in sound argument than others. (Lawful)",
+     "Infinity. Any outcome is possible so one should not be foreclosed against any eventuality. (Chaotic)",
+     "Authority. The intelligentsia have a duty to rule over the lesser among us. (Evil)",
+     "Knowledge. The pursuit of knowledge is the surest path to self improvement. (Any)"
+    ],
+    "bonds": [
+     "I am driven by a nagging question and am certain that the answer is out there somewhere.",
+     "The body of knowledge I have accumulated must be used for the good of society.",
+     "The location and preservation of ancient writings and works is my life’s purpose.",
+     "I have dedicated my life to this one specific area of study.",
+     "Knowledge should be available to all. I work to see that education is available to all.",
+     "My unhealthy thirst for knowledge caused me to dig too deeply into things best left hidden. I will bear the cost of this folly for the rest of my life."
+    ],
+    "flaws": [
+     "I will do anything to get the answer to my question.",
+     "I know that I should use my knowledge for good, but I struggle with the concept of selflessness.",
+     "Inductive inference is the only true path to enlightenment. Ignore those hidebound deductive golems.",
+     "I often come up with overly complex explanations for things when a far simpler one would suffice.",
+     "I always speak my mind. I care not what others think or how my words might affect them.",
+     "I get so nervous around other people that sometimes I find that I cannot speak at all."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Lore Investigator",
+   "type": "Background Feature",
+   "name": "Lore Investigator",
+   "desc": "Derlusk contains some of the greatest libraries in the Realms. As a professional researcher, if you do not immediately recall the information surrounding a piece of lore, you know where you can likely find it. After years of study in Derlusk, you have established a network of contacts in the libraries, scriptoriums, and universities of Derlusk. If you are researching a piece of lore that is specific to the Border Kingdoms, with the guidance of your DM, you likely will know where to find the answer to your question within one of the many athenaeums in Derlusk.",
+   "rules": []
+  },
+  {
+   "id": "Background:Scofflaw of Blacksaddle",
+   "type": "Background",
+   "name": "Scofflaw of Blacksaddle",
+   "desc": "2 Deception / Survival / Persuasion / Stealth, Gaming Set, Tool",
+   "rules": [
+    {
+     "select": {
+      "name": "Skill Proficiency, Scofflaw of Blacksaddle",
+      "from": [
+       "Deception",
+       "Survival",
+       "Persuasion",
+       "Stealth"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Gaming Set, Scofflaw of Blacksaddle",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Tool Proficiency, Scofflaw of Blacksaddle",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "Background Feature:Ingenious"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I know what is best for you and I am not shy about sharing this fact with you.",
+     "While I have many strongly-held beliefs, I am reluctant to share them with others.",
+     "Is that the sheriff? Hide!",
+     "While everyone is entitled to their opinion, it is very difficult to change mine.",
+     "Government eyes and ears are everywhere, so I am very slow to trust.",
+     "I have a big heart and go out of my way to help anyone in need.",
+     "I am supremely goal oriented and nothing will dissuade me from accomplishing something once I have put my mind to it.",
+     "I am insecure so am easily insulted."
+    ],
+    "ideals": [
+     "Liberty. I will not abide an unjust ruler no matter the personal cost. (Chaotic)",
+     "Freedom. I will strive to my last breath to free my unjustly imprisoned brothers and sisters. (Chaotic)",
+     "Independence. The rights of the individual always supersede the rights of society. (Chaotic)",
+     "Largesse. I steal from the rich and give to the poor. (Good)",
+     "Family. I’m loyal to my family and friends, not to any nation or government. (Neutral)",
+     "Progress. We must all work together to make the world a better place. (Good)"
+    ],
+    "bonds": [
+     "My family lost their lands to the Barony, and I mean to make the Barony pay!",
+     "My exploits will make me a folk hero.",
+     "The suffering of my people drives me to lead them to a brighter future.",
+     "I have done some things I am not proud of, but such is the cost of closely-held ideals.",
+     "A family member was unjustly imprisoned. I will free them or die trying.",
+     "The people must know the truth. No matter the personal cost to me, I will spread the word."
+    ],
+    "flaws": [
+     "I simply cannot make myself be respectful to authority.",
+     "Seeing soldiers of the Barony sets me off into a barely controllable rage.",
+     "I drink too much.",
+     "I really don’t care about anyone else, but do my best to hide it.",
+     "I am a know-it-all.",
+     "I laugh loudly at the misfortunes of others."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Ingenious",
+   "type": "Background Feature",
+   "name": "Ingenious",
+   "desc": "You frequently find yourself in tough spots so can be creative on the fly with whatever materials you have on hand. Being ingenious requires a pressing need; an inspiration other than boredom or curiosity. Such an attempt succeeds or fails based on the available materials, the situation, and the nature of the desired creation. Success requires both a successful Intelligence (Investigation) check and a successful tool check. The Investigation portion contemplates assembling the materials and their nature, and the tool check is necessary to actually accomplish the build.",
+   "rules": []
+  },
+  {
+   "id": "Background:Yallaschan",
+   "type": "Background",
+   "name": "Yallaschan",
+   "desc": "History, Perception, Carpenter’s Tools, Vehicles (water)",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "Background Feature:Stevedore Engineering"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Carpenter’s tools",
+      "t:Vehicle’s water"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am really good at what I do and take every opportunity to tell everyone just that.",
+     "I am afraid of the water.",
+     "I am very laidback, to the point of being laconic.",
+     "I love designing and sketching all manner of things. I am always drawing.",
+     "While I don’t mind hard work, I prefer great pay.",
+     "I always root for the underdog.",
+     "I am often too proud to admit that I don’t know what I am talking about.",
+     "I always do the right thing."
+    ],
+    "ideals": [
+     "Kindness. It is amazing how much morale is improved by small acts of kindness. (Good)",
+     "Teamwork. Any complicated job can be accomplished if everyone works together. (Lawful)",
+     "Visionary. Don’t ever let those who are lesser suppress your ideas. (Chaotic)",
+     "Achievement. The goal is all that matter. The means are irrelevant. (Evil)",
+     "Cheer. Life should never get too busy to keep us from enjoying ourselves. (Any)",
+     "Wealth. It is all about the gold pieces. (Any)"
+    ],
+    "bonds": [
+     "I must be recognized as one of the great artisans of my age.",
+     "I will be successful and use that success to improve the lives of those around me.",
+     "When I succeed, I cannot wait to rub it in the faces of those who doubted me!",
+     "Keeping my hands busy distracts me from dwelling on my painful past.",
+     "I am tired of living up to the expectations of others. I will forge my own path.",
+     "This world has given me exactly nothing. I owe it the same."
+    ],
+    "flaws": [
+     "I am too proud to learn from my mistakes.",
+     "I don’t take direction well.",
+     "I cannot stand know-it-alls.",
+     "I am jealous of those more talented than I.",
+     "I have no time for those who disagree with me.",
+     "I have an addictive personality."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Stevedore Engineering",
+   "type": "Background Feature",
+   "name": "Stevedore Engineering",
+   "desc": "Provided you have the tools and materials necessary (cables/rope/chains), you can create a plan involving scaffolding, rigging, or block and tackle, to perform just about any conceivable task (e.g. moving something heavy; lifting something high in the air; creating a rope based trap; building a suspension bridge, etc.).",
+   "rules": []
+  }
+ ]
+}

@@ -1,0 +1,970 @@
+{
+ "elements": [
+  {
+   "id": "Class:Necromancer",
+   "type": "Class",
+   "name": "Necromancer",
+   "desc": "A necromancer is a caster that is able to expel negative energies flowing through their veins.",
+   "hd": 6,
+   "ap": [
+    "a:Light armor",
+    "w:Simple weapons"
+   ],
+   "wp": [
+    "simple"
+   ],
+   "mp": [
+    "a:Light armor"
+   ],
+   "prereq": [
+    "cha"
+   ],
+   "rules": [
+    {
+     "grant": "save:con"
+    },
+    {
+     "grant": "save:cha"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Arcana",
+       "Deception",
+       "History",
+       "Intimidation",
+       "Medicine",
+       "Perception",
+       "Religion"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Spellcasting",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Life Tap",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Necromancer Occult",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Soul Harvest",
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "asi": 1,
+     "level": 19
+    },
+    {
+     "grant": "Class Feature:Spontaneous Unburial",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Animate Major Undead",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Ritualistic Unburial",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Macabre",
+     "level": 18
+    },
+    {
+     "grant": "Class Feature:Séance",
+     "level": 20
+    },
+    {
+     "select": {
+      "name": "Variant Feature: Grim Harvest",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Grim Harvest"
+      ]
+     },
+     "level": 20
+    },
+    {
+     "select": {
+      "name": "Necromancer Occult",
+      "type": "Subclass",
+      "supports": "Class:Necromancer"
+     },
+     "level": 2
+    }
+   ],
+   "casting": {
+    "ability": "cha",
+    "mode": "known",
+    "half": false,
+    "rows": [
+     [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+     ]
+    ],
+    "known": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     12,
+     13,
+     13,
+     14,
+     14,
+     15,
+     15,
+     15,
+     15
+    ]
+   }
+  },
+  {
+   "id": "Class Feature:Spellcasting",
+   "type": "Class Feature",
+   "name": "Spellcasting",
+   "desc": "You draw on the negative energy in the world to fuel your spells.\n\nCANTRIPS\n\nAt 1st level, you know 2 cantrips of your choice from the wizard spell list. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Necromancer table.\n\nSPELL SLOTS\n\nThe Necromancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell false life and have a 1st-level and a 2nd-level spell slot available, you can cast false life using either slot.\n\nSPELLS KNOWN OF 1ST LEVEL AND HIGHER\n\nYou know two 1st-level spells of your choice from the wizard spell list.\n\nThe Spells Known column of the Necromancer table shows when you learn more necromancer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the necromancer spells you know and replace it with another spell from the wizard spell list, which also must be of a level for which you have spell slots.\n\nSPELLCASTING ABILITY\n\nCharisma is your spellcasting ability for your necromancer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a necromancer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nRITUAL CASTING\n\nYou can cast a necromancer spell as a ritual if it is a spell you know and that spell has the ritual tag.\n\nSPELLCASTING FOCUS\n\nYou can use an arcane focus as a spellcasting focus for your necromancer spells.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Life Tap",
+   "type": "Class Feature",
+   "name": "Life Tap",
+   "desc": "Starting at 1st level, your touch can siphon the life force of others to bolster your own. As an action, you can make a melee spell attack against a living creature, dealing necrotic damage equal to 1d8 + your Charisma modifier on a hit. You gain temporary hit points equal to the amount of necrotic damage dealt. If this feature kills the creature, you gain twice as many temporary hit points from using this feature. The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). You may use this feature a number of times equal to your Charisma modifier (minimum of one) and you regain all uses of this feature at the end of a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Necromancer Occult",
+   "type": "Class Feature",
+   "name": "Necromancer Occult",
+   "desc": "At 2nd level, you choose an occult which specializes you in your dealings with death: Keeper, Reaper, and Undertaker, each of which is detailed at the end of the class description. Your occult grants you features when you choose it at 2nd level and additional features at 6th, 10th, and 14th level.",
+   "rules": [
+    {
+     "select": {
+      "name": "Necromancer Occult",
+      "type": "Subclass",
+      "supports": "Class:Necromancer"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Soul Harvest",
+   "type": "Class Feature",
+   "name": "Soul Harvest",
+   "desc": "Starting at 3rd level, by reaping life you are able to claim a fraction of those unfortunate creatures souls to regenerate your wounds and fortify your body. At the end of your turn, if you or any undead under your control have killed one or more creatures, you gain hit points equal to your necromancer level. If doing so would grant you more hit points than you can have, you gain temporary hit points equal to the amount of excess hit points received.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spontaneous Unburial",
+   "type": "Class Feature",
+   "name": "Spontaneous Unburial",
+   "desc": "Starting at 5th level, your understanding of necrotic and negative energies allows you to raise the dead with ease. You may cast the spell animate dead as an action and you do not require a corpse or pile of bones to do so; the skeleton or zombie will claw its way up from underground and acts on your next turn. In addition, you learn the spell animate dead. This spell does not count against your number of spells known.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Animate Dead",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Animate Major Undead",
+   "type": "Class Feature",
+   "name": "Animate Major Undead",
+   "desc": "Beginning at 7th level, your pursuit of knowledge has led to uncover the secrets to mastering undead of all sizes. You can now raise any corpse that is Huge or smaller of a monstrosity, humanoid, or beast with challenge rating 3 or lower can be animated. It keeps its original abilities and attacks, but loses any resistances, immunities, legendary actions, senses it had and gains the immunities and vulnerabilities of its type, skeleton or zombie. You can issue mental commands to the creature as the animate dead spell. You can only control one major undead at a time. This feature functions as the spell animate dead except where otherwise noted. You may use this feature on an existing undead you control to reassert your control over it. You must finish a long rest before you can use this feature again.\n\nAt level 11, you may animate a monstrosity, humanoid or beast with a challenge rating of 6 or lower.\n\nAt level 15, you may animate a monstrosity, humanoid or beast with a challenge rating of 9 or lower. In addition, a major undead now lasts until its hit points are reduced to 0.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ritualistic Unburial",
+   "type": "Class Feature",
+   "name": "Ritualistic Unburial",
+   "desc": "At level 14th level, the repetitive nature of raising your undead has become like a ritual for you. You may cast animate dead as a ritual.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Macabre",
+   "type": "Class Feature",
+   "name": "Macabre",
+   "desc": "Starting at 18th level, the death you surround yourself with has become part of you. Your flesh has become pale and your eyes have taken on a yellow tint. Some necromancers alter their appearance with stitches sewn on their face, body, legs, or arms. Others may adorn the remains of corpses to impose fear and keep people away. The overexposure to death has earned an affinity with undead. Whenever you interact with undead, you have advantage on all Charisma checks. In addition, while you may look sick and exhausted from the constant dealings with death, you do not age and you are immune to poison damage, diseases, exhaustion, as well as the frightened and poisoned conditions.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Séance",
+   "type": "Class Feature",
+   "name": "Séance",
+   "desc": "Starting at 20th level, your presence commands respect from undead. At will, the necromancer can target one undead creature they can see within 30 feet of them. The target must make a Wisdom saving throw. On a failed save, the target must obey the necromancer's commands for the next 24 hours, or until the necromancer uses Séance again. A necromancer can only control a single undead creature with this feature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Life on Demand",
+   "type": "Class Feature",
+   "name": "Life on Demand",
+   "desc": "Beginning at 2nd level, you can accelerate the body's natural healing when it is needed the most. As an action, a creature you touch can expend a number of its hit dice equal to your spellcasting modifier (minimum of 1) to regain hit points. After you use this feature, you must finish a short or long rest.\n\nAt 5th level, a creature can also add it's Constitution modifier to hit points recovered this way.\n\nAt level 10, you may use this feature twice between rests.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Expanded Intellect",
+   "type": "Class Feature",
+   "name": "Expanded Intellect",
+   "desc": "Beginning at 6th level, your studies of death and undeath have opened up new possibilities for you. You gain the spare the dying cantrip.\n\nYou also add the following spells to your list of spells to learn from: cure wounds, lesser restoration, beacon of hope, feign death, revivify, death ward, greater restoration, resurrection, and mass heal.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Spare the Dying",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Aura of Wellbeing",
+   "type": "Class Feature",
+   "name": "Aura of Wellbeing",
+   "desc": "Beginning at 10th level, you emanate an aura that rejuvenates and prolongs the life of others around you. If an allied creature begins its turn within 10 feet of you, it gains hit points equal to your proficiency bonus if its hit points are below half its hit point maximum.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Refusal",
+   "type": "Class Feature",
+   "name": "Refusal",
+   "desc": "Beginning at 14th level, you can decide to ignore death if it's too inconvenient. If a creature within 5 feet of you that you can touch (including you) drops to 0 hit points, you may use your reaction to cause that creature to drop to 1 hit point instead. You must finish a short or long rest before you can use this feature again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Death's Knowledge",
+   "type": "Class Feature",
+   "name": "Death's Knowledge",
+   "desc": "Beginning at 2nd level, some ancient tomes, spell books, or scrolls have provided knowledge to you. Add the following spells to your necromancer spell list: inflict wounds, revivify, speak with dead, commune with dead, raise dead, resurrection, and true resurrection.\n\nAt 5th level, you may add three spells from any class spell list for which you can cast to your necromancer spell list.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Soul Harvest",
+   "type": "Class Feature",
+   "name": "Improved Soul Harvest",
+   "desc": "Starting at 6th level, you've gained the knowledge to channel the souls you harvest into your spells. You may store a number of souls equal to your necromancer level from killing creatures with soul harvest for later use. You can consume souls to regain up to a 3rd level spell slot, which costs 2 souls for 1st level spell and every additional spell level beyond. For instance, a 3rd level spell would consume 6 souls. In addition, when you deal damage to a creature with a spell, you may consume any number of souls in your possession to deal additional necrotic damage equal to the number of souls you consume.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Necrosis Spellcasting",
+   "type": "Class Feature",
+   "name": "Necrosis Spellcasting",
+   "desc": "Starting at 10th level, a cloud of stench accompanies the spells that you cast, eating away at the flesh and bone of your victim and distracting them. Any necromancy spells that you cast deal an additional 1d8 necrotic damage.\n\nIn addition, undead have disadvantage on saving throws against your spells and class features.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Grim",
+   "type": "Class Feature",
+   "name": "Grim",
+   "desc": "Beginning at 14th level, stories of something supernatural taking lives comes to fruition. Fairy tales depict a Grim Reaper that comes to take souls of people ready to die, but the truth is, the Grim Reaper visits to deal death. An aura surrounds you and saps the life of anything within 5 feet of you. If a creature ends its turn within range it must succeed on a Constitution saving throw or lose hit points equal to the number of souls you have stored. You gain hit points equal to half the hit points the creature lost, rounded up.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unholy Resistance",
+   "type": "Class Feature",
+   "name": "Unholy Resistance",
+   "desc": "Beginning at 2nd level, the time you've spent wielding negative energy has made itself a part of you. You have resistance to necrotic damage and your hit point maximum cannot be reduced.\n\nAt 5th level, this feature extends to any undead under your control.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Animate Undead",
+   "type": "Class Feature",
+   "name": "Improved Animate Undead",
+   "desc": "Beginning at 6th level, the negative energy you use to summon your undead is fortified within them. Skeletons and zombies you raise have additional hit points and bonuses to their melee attack rolls equal to your proficiency bonus. In addition, whenever you cast a spell or use a feature or item to raise undead, you raise one additional skeleton or zombie.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Undead Resolve",
+   "type": "Class Feature",
+   "name": "Undead Resolve",
+   "desc": "Beginning at 10th level, your bond with the dead has strengthened their resolve against that which is holy. Undead you control have advantage on Wisdom saving throws against Turn Undead attempts. In addition, undead you raise add your proficiency bonus to their Armor Class.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lord of the Undead",
+   "type": "Class Feature",
+   "name": "Lord of the Undead",
+   "desc": "Beginning at 14th level, you've reached the epitome of raising undead. Your undead creatures no longer have a damage vulnerability and gain additional hit points equal to your necromancer level.",
+   "rules": []
+  },
+  {
+   "id": "Class:Weapon Master",
+   "type": "Class",
+   "name": "Weapon Master",
+   "desc": "The Weapon master is a skillful fighter who can use any weapon to its utmost level of perfection and treat it as if it were an extension of their body, enhancing their natural combat prowess beyond the limits of a normal soldier.",
+   "hd": 10,
+   "ap": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Heavy armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons",
+    "t:Smith’s tools"
+   ],
+   "mp": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shields",
+    "w:Simple weapons",
+    "w:Martial weapons"
+   ],
+   "prereq": [
+    "&",
+    "str",
+    "con"
+   ],
+   "rules": [
+    {
+     "grant": "save:str"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Athletics",
+       "Acrobatics",
+       "Deception",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Perception",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Favored Weapon",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Keen Eye",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Fighting Style",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Martial Archetype",
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "asi": 1,
+     "level": 19
+    },
+    {
+     "grant": "Class Feature:Extra Attack",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Unbeatable Precision",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Flawless Stance",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Adrenaline",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Imposing Fighter",
+     "level": 14
+    },
+    {
+     "select": {
+      "name": "Weapon Master Martial Archetypes",
+      "type": "Subclass",
+      "supports": "Class:Weapon Master"
+     },
+     "level": 3
+    }
+   ],
+   "casting": "None",
+   "wp": [
+    "simple",
+    "martial"
+   ]
+  },
+  {
+   "id": "Class Feature:Favored Weapon",
+   "type": "Class Feature",
+   "name": "Favored Weapon",
+   "desc": "For a Weapon master, your weapons are what makes you who you are. Through your life you have adapted to fight with all kinds of weapons but have a specific weapon as your signature weapon.\n\nYou get +1 bonus to attack and damage rolls when you use your favored weapon. Choose one simple or martial weapon, and another when you reach 11th level.\n\nWhen you reach 20th level, you have advantage on attacks with your favored weapon.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Keen Eye",
+   "type": "Class Feature",
+   "name": "Keen Eye",
+   "desc": "At 2nd level, you gain advantage on Investigation checks related to weapons, armor, other related metal pieces.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fighting Style",
+   "type": "Class Feature",
+   "name": "Fighting Style",
+   "desc": "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.\n\nARCHERY\n\nYou gain a +2 bonus to attack rolls you make with ranged weapons.\n\nDEFENSE\n\nWhile you are wearing armor, you gain a +1 bonus to AC.\n\nDUELING\n\nWhen you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\nGREAT WEAPON FIGHTING\n\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\nPROTECTION\n\nWhen a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.\n\nTWO-WEAPON FIGHTING\n\nWhen you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+   "rules": [
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Class Feature"
+     },
+     "level": 1
+    },
+    {
+     "select": {
+      "name": "Fighting Style",
+      "type": "Fighting Style",
+      "ids": [
+       "Fighting Style:Archery",
+       "Fighting Style:Defense",
+       "Fighting Style:Dueling",
+       "Fighting Style:Great Weapon Fighting",
+       "Fighting Style:Protection",
+       "Fighting Style:Two-Weapon Fighting"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Martial Archetype",
+   "type": "Class Feature",
+   "name": "Martial Archetype",
+   "desc": "At 3rd level, you choose the path that you walk as a Weapon master. Choose Combat Mastery, Tactic Mastery, or Evasive Mastery all detailed at the end of the class description. The pathway you choose grant you features at 3rd level and again at 7th, 10th, 15th, and 18th level.",
+   "rules": [
+    {
+     "select": {
+      "name": "Weapon Master Martial Archetypes",
+      "type": "Subclass",
+      "supports": "Class:Weapon Master"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Extra Attack",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the attack action on your turn. The number of attacks increases to three when you reach 17th level in this class.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unbeatable Precision",
+   "type": "Class Feature",
+   "name": "Unbeatable Precision",
+   "desc": "Starting at 6th level, your strikes become so graceful, precise and swift, that you can easily target exposed vital organs of a creature before they have enough time to react. Your weapon attack score a critical hit on a roll of a 19 or 20.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Flawless Stance",
+   "type": "Class Feature",
+   "name": "Flawless Stance",
+   "desc": "At 9th level, you become extremely hard to fight due to your uncanny stance. When a creature you can see or hear attacks you, you can use your reaction to make attacks from that creature roll with disadvantage when attacking you. If the creature misses an attack against you, in the same reaction you can counter attack, making one melee attack against that creature. You can use this feature a number of times equal to your Dexterity modifier(minimum 1) and regain uses of this feature when you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Adrenaline",
+   "type": "Class Feature",
+   "name": "Adrenaline",
+   "desc": "Beginning at 13th level, when you enter combat your body instantly responds to your battle urges releasing a heavy dose of adrenaline into your system. After rolling your Initiative roll, you gain temporary hit points equal to your weapon master level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Imposing Fighter",
+   "type": "Class Feature",
+   "name": "Imposing Fighter",
+   "desc": "At 14th level, you gain proficiency in the Intimidation skill, if you already have proficiency in it, you can double your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Martial Prowess",
+   "type": "Class Feature",
+   "name": "Martial Prowess",
+   "desc": "Starting at 3rd level, you can add half your proficiency bonus (rounded up) to any Strength or Dexterity based skill check you make that doesn’t already use your proficiency bonus.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Combat Prowess",
+   "type": "Class Feature",
+   "name": "Combat Prowess",
+   "desc": "At 7th level, when you miss a weapon attack, you can choose to make it a hit instead. Once you use this feature you can’t use it again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fury",
+   "type": "Class Feature",
+   "name": "Fury",
+   "desc": "Starting at 10th level, your attacks become more than harmful to your foes. When you make a weapon attack with your favored weapon and roll the highest possible number on any of the dice on the damage roll, roll an additional die of the same type for each highest possible number. Do not roll additional dice again if the additional dice result in a highest possible roll.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Whirlwind Attack",
+   "type": "Class Feature",
+   "name": "Whirlwind Attack",
+   "desc": "At 15th level, you may now make a spinning attack on all attackers within five feet of you as an action. You have to roll a separate attack roll for each of the enemies.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Survivor",
+   "type": "Class Feature",
+   "name": "Survivor",
+   "desc": "Upon reaching 18th level, you attain the pinnacle of resilience on battle. As a bonus action, you can spend a hit dice to heal yourself equal to hit die + your Constitution modifier if you have no more than half of your hit points left. You can not use this feature if you have 0 hit points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Natural Leader",
+   "type": "Class Feature",
+   "name": "Natural Leader",
+   "desc": "Starting at 3rd level, when you make an attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack with advantage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Parry",
+   "type": "Class Feature",
+   "name": "Parry",
+   "desc": "At 7th level, you can use your reaction in combat to parry an attack. Once per turn, you can choose to parry one melee weapon attack against you as long as you aren’t surprised or the creature attacking you doesn’t have advantage against you. The damage of the attack from that creature is reduced by half your current weapon master level rounded down + your Dexterity modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Helper",
+   "type": "Class Feature",
+   "name": "Helper",
+   "desc": "Starting at 10th level, when you take the Help action, you may Help a separate target as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Multiattack Defense",
+   "type": "Class Feature",
+   "name": "Multiattack Defense",
+   "desc": "From 15th level, when a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Know Your Enemy",
+   "type": "Class Feature",
+   "name": "Know Your Enemy",
+   "desc": "Upon reaching 18th level, you can spend an action and a bonus action observing or interacting with another creature within 60ft of you. You can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regards to the following characteristics; Strength score, Dexterity score, Constitution score, Armor class, current hit points, and total class level or CR.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wind Walker",
+   "type": "Class Feature",
+   "name": "Wind Walker",
+   "desc": "Starting at 3rd level, you can use the Dash or Disengage actions as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Land's Stride",
+   "type": "Class Feature",
+   "name": "Land's Stride",
+   "desc": "At 7th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical terrain without being slowed by it and without taking damage from it if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws that use magic to impede movement, such those created by the entangle spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Evasion",
+   "type": "Class Feature",
+   "name": "Evasion",
+   "desc": "Starting at 10th level, when you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mobility",
+   "type": "Class Feature",
+   "name": "Mobility",
+   "desc": "Beginning at 15th level, your movement speed is increased by 5 feet. You may also take the dodge action as a bonus action. You regain use of this feature after you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hawk's Eye",
+   "type": "Class Feature",
+   "name": "Hawk's Eye",
+   "desc": "Upon reaching 18th level, you gain proficiency in the Perception skill, if you already have proficiency in it, you can double your proficiency bonus.\n\nIn addition, you gain advantage on any Dexterity saving throws from magic.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Deft Wild Shape",
+   "type": "Class Feature",
+   "name": "Deft Wild Shape",
+   "desc": "The druid has improved control over the bestial forms which allows them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. Also, they have access to a greater form of wild shape which allows them to stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. When the form ends, they can not go back into a form unless they succeeds on a DC 15 Constitution check. They can freely enter a form again after a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Circle Forms",
+   "type": "Class Feature",
+   "name": "Circle Forms",
+   "desc": "The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).\n\nStarting at 4th level, you can transform into a beast with a challenge rating as high as your druid level divided by 2, rounded up.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primal Strike",
+   "type": "Class Feature",
+   "name": "Primal Strike",
+   "desc": "Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nAdditionally, while you are in the beast shape from your Wild Shape class feature, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Monstrous Wild Shape",
+   "type": "Class Feature",
+   "name": "Monstrous Wild Shape",
+   "desc": "By 10th level, you can expend two charges of your Wild Shape class feature to transform into a monstrosity of appropriate challenge rating.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master of the Claw",
+   "type": "Class Feature",
+   "name": "Master of the Claw",
+   "desc": "At 14th level, you can cast the animal friendship and speak with animals at will, as a 1st-level spells. You can also cast the enhance ability spell at will on yourself, as a 2nd-level spell.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Animal Friendship",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Speak with Animals",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Enhance Ability",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Magical Secrets",
+   "type": "Class Feature",
+   "name": "Magical Secrets",
+   "desc": "At 1st level, your connection to the fabric of magic allows you to draw inspiration from many varieties of spellcasting. You learn two spells of your choice from any class. These spells count as sorcerer spells for you. A spell you choose must be of a level for which you have spell slots, or a cantrip. When you gain a level in this class, you can choose one spell gained from this ability and replace it with another spell from any class. You learn an additional spell from this feature at 4th, 9th, 14th and 20th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Sorcery Points",
+   "type": "Class Feature",
+   "name": "Extra Sorcery Points",
+   "desc": "At 3rd level, the wellspring of magic found in you is deeper than in other sorcerers. You have 2 additional sorcery points. You gain 2 additional sorcery points again when you reach 6th level, and again at 12th and 18th level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Powerful Spells",
+   "type": "Class Feature",
+   "name": "Powerful Spells",
+   "desc": "At 6th level, you begin to master the essence of magic, using it to punish your foes more heavily than other casters. You can add your Charisma modifier to one damage roll of any cantrip you cast. When you cast a spell of 1st level or higher, you can spend a sorcery point to add your Charisma modifier to one damage roll, or one roll of the color spray or sleep spells. This can be used in conjunction with Metamagic effects. Furthermore, you can choose an additional metamagic talent to add to those already known.",
+   "rules": [
+    {
+     "select": {
+      "name": "Metamagic (Powerful Spells)",
+      "type": "Class Feature"
+     },
+     "level": 6
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Persistent Magic",
+   "type": "Class Feature",
+   "name": "Persistent Magic",
+   "desc": "At 14th level your focus and intensity with certain spells increases. When you cast a spell of 1st level or higher, you can choose to spend 3 sorcery points and ignore the concentration requirement if it is a concentration spell, potentially allowing the effect to persist for its' maximum duration. All other aspects of the spell still apply, including range requirements and saving throws. You can only ever have one active effect in use with this ability, and if you cast another spell using this ability, the first spell immediately ends. Until you take a long rest, your maximum number of sorcery points available decreases by 3 for every time you use this ability.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Destruction",
+   "type": "Class Feature",
+   "name": "Arcane Destruction",
+   "desc": "At 18th level your harmful spells grow more powerful, capable of extreme destruction upon those you wish it on. Whenever you roll for the damage dealt by a spell, you may spend any number of sorcery points to re-roll a number of damage die. Spending one sorcery point allows you to re-roll up to two damage die. You can re-roll the damage dice for ongoing effects, such as the wall of fire spell, when a creature takes damage from it, and from instantaneous effects at the time of casting.",
+   "rules": []
+  }
+ ]
+}

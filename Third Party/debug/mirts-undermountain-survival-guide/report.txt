@@ -1,0 +1,66 @@
+Converted: 1 Class, 58 Class Feature, 7 Gear, 1 Language, 5 Race, 24 Racial Trait, 25 Spell, 7 Subclass, 1 Weapon
+
+== grants of other kinds (skipped) (9)
+  Giff: Size ID_SIZE_MEDIUM
+  Powerful Build: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  Half-Ogre: Size ID_SIZE_MEDIUM
+  Half-Ogre: Vision ID_VISION_DARKVISION
+  Illithid: Size ID_SIZE_MEDIUM
+  Illithid: Vision ID_VISION_DARKVISION
+  Nimblewright: Size ID_SIZE_MEDIUM
+  Nimblewright Component, Power Lifter: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  Sprite: Size ID_SIZE_TINY
+
+== ids not in this pack (assumed to be in another pack, check the name) (6)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+  Language:Giant  (from ID_LANGUAGE_GIANT)
+  Language:Undercommon  (from ID_LANGUAGE_UNDERCOMMON)
+  Language:Deep Speech  (from ID_LANGUAGE_DEEP_SPEECH)
+  Language:Elvish  (from ID_LANGUAGE_ELVISH)
+  Language:Sylvan  (from ID_LANGUAGE_SYLVAN)
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (17)
+  Headfirst Charge: headfirst charge
+  Tentacles: tentacles
+  Mind Blast: mind blast
+  Flight: innate speed
+  Stone Speaker: stone speaker
+  Booby Traps: booby traps
+  Darkspiral Aura: darkspiral aura
+  Darkest Mirror: darkest mirror
+  Ingenuity: ingenuity points
+  Arcane Dilettante: arcane dilettante
+  Brains over Brawn: acrobatics, athletics
+  Extra Attack: extra attack
+  Aura of Protection: aura of protection
+  Stunning Strike: stunning strike
+  Spellcasting: lore of the theurge
+  Ingenious Recovery: ingenious recovery
+  Metamagic: careful spell
+
+== selects not understood (2)
+  Martial Heritage: Proficiency supports="Martial"
+  Expertise: Class Feature supports="ID_INTERNAL_SUPPORT_EXPERTISE" matched nothing in this pack (maybe other pack)
+
+== damage resistances (no pack field for characters, the text already says it) (2)
+  Construct Resilience: poison
+  Your Glorious Sacrifice: poison
+
+== class starting equipment (not converted, add `start` by hand) (1)
+  Factotum
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (1)
+  Lore of the Theurge
+
+== grants pointing outside these packs (needs another pack) (10)
+  Race:Giff -> Language:Common
+  Racial Trait:Languages (Half-Ogre) -> Language:Common
+  Racial Trait:Languages (Half-Ogre) -> Language:Giant
+  Racial Trait:Languages (Illithid) -> Language:Common
+  Racial Trait:Languages (Illithid) -> Language:Undercommon
+  Racial Trait:Languages (Illithid) -> Language:Deep Speech
+  Race:Nimblewright -> Language:Common
+  Racial Trait:Languages (Sprite) -> Language:Common
+  Racial Trait:Languages (Sprite) -> Language:Elvish
+  Racial Trait:Languages (Sprite) -> Language:Sylvan
+

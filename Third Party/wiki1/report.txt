@@ -1,0 +1,8 @@
+Converted: 7 Background, 9 Background Feature
+
+== ids not in this pack (assumed to be in another pack, check the name) (1)
+  Language:Dwarvish  (from ID_LANGUAGE_DWARVISH)
+
+== grants pointing outside these packs (needs another pack) (1)
+  Background:Prospector -> Language:Dwarvish
+

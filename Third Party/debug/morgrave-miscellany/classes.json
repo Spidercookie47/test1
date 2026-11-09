@@ -1,0 +1,178 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Adrenaline Rush",
+   "type": "Class Feature",
+   "name": "Adrenaline Rush",
+   "desc": "Starting when you choose this path at 3rd level, a rush of adrenaline by the thrill of inherent danger fuels your rage. While raging, you can push your body and mind, each time sacrificing your own vitality to rise to the occasion.\n\nWhenever you make an ability check, attack roll, or saving throw while raging, you can spend one of your Hit Dice to push your normal limits. Roll the Hit Die, and add the number rolled to the total. You can choose to do so after you roll your d20, but before the DM tells you whether you succeed or fail.\n\nImmediately after, you take damage equal to the number rolled minus your proficiency bonus, and you can’t reduce this damage by any other means.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cunning Artisan",
+   "type": "Class Feature",
+   "name": "Cunning Artisan",
+   "desc": "Also at 3rd level, as part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan’s tools, such as leatherworker’s tools.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Adaptive Elements",
+   "type": "Class Feature",
+   "name": "Adaptive Elements",
+   "desc": "Starting at 6th level, as part of a short rest, you can spend 10 minutes insulating you or your equipment against the elements. You must have access to cloth, furs, paper, plants, and other naturally occurring materials to create your insulation.\n\nOnce you are insulated in this way, you gain resistance to cold or fire damage, and the choice you make allows you to tolerate temperatures as low as −50, or as high as 150, degrees Fahrenheit without any additional protection. You choose when you complete the short rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extreme Rush",
+   "type": "Class Feature",
+   "name": "Extreme Rush",
+   "desc": "At 6th level, you can focus your adrenaline to greater effect. You gain the following benefits.\n\nInstinctual Focus.When you use your Adrenaline Rush feature to make an Intelligence, Wisdom, or Charisma ability check, you can add half your proficiency bonus, rounded down, to the ability check if it doesn’t already include your proficiency bonus.\n\nOverwhelming Dominance.When you use your Adrenaline Rush feature to succeed a saving throw against a creature you can see within range, you can immediately use your reaction to make a melee or thrown weapon attack against that creature. If you hit, you add the number rolled to the weapon’s damage.\n\nUnbridled Aggression.When you use your Adrenaline Rush feature to hit with a melee or thrown weapon attack that targets only one creature that you can see, you can use the weapon to deal extra damage to the target equal to the number you roll on the Hit Die.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elevated Exploration",
+   "type": "Class Feature",
+   "name": "Elevated Exploration",
+   "desc": "At 10th level, your enthusiasm for reaching untrod ground emboldens your ability to traverse gaps and untoward obstacles with uncanny ease.\n\nClimbing and swimming no longer costs you extra movement, and your speed increases by 10 feet while you are not wearing heavy armor.\n\nAt 14th level, while you have both hands open, you gain the ability to move along vertical surfaces on your turn without falling during the move.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Conditioned Endurance",
+   "type": "Class Feature",
+   "name": "Conditioned Endurance",
+   "desc": "At 14th level, when you roll a Hit Die to fuel one of your Extreme Explorer features, and the number is less than your proficiency bonus, you don’t expend the Hit Die after you add the number to your roll.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pact of the Host",
+   "type": "Class Feature",
+   "name": "Pact of the Host",
+   "desc": "Your patron binds another being in its service to you in a symbiotic relationship, protecting both investments by teaming the power of its independent gifts. The nature of the symbiont and the form that you take during symbiosis depends on the nature of your patron. A fiend might pair you with an ancient evil in need of a physical form, while a Great Old One might bestow an alien symbiont, protecting you in exchange for safe haven.\n\nWhenever you take damage that would reduce you below half of your hit point maximum, you can use your reaction to relinquish control to the symbiont you host and enter a state of symbiosis with it. When you do, the symbiont envelops you and your possessions with its alien essence to enhance your capabilities and protect you from harm for the next minute. While transformed, you can issue telepathic commands to the symbiont, which it tries to obey to the best of its abilities, and the following rules apply:\n\n- If you are affected by any condition when you transform, its effect is suspended for the duration of the transformation, and you have advantage on saving throws against spells and effects that grant additional conditions.\n- Your AC becomes your Charisma score and you add your Charisma modifier (minimum of 1) to your Strength, Dexterity, and Constitution scores.\n- You retain the benefit of any features from your class, race, or other source. Worn equipment merges with your new form and has no effect until you leave the form.\n- You are blind but the symbiont has tremorsense, which can be used to detect and pinpoint the origin of vibrations within 30 feet, provided that the source of the vibrations is in contact with the same ground or substance but can’t detect flying or incorporeal creatures.\n- You can’t cast spells or concentrate on them.\n- Your unarmed strikes deal 1d10 magical bludgeoning, piercing, or slashing damage, you choose each time you make the attack.\n- If you are knocked unconscious, your transformation ends early. As the symbiont retreats inside you, you suffer two levels of exhaustion.\n- If you reduce a creature to 0 hit points while the transformation persists, the symbiont frenzies, and spends its next turn to consume the creature’s life force and takes no other actions until it does. If it consumes the creature, nothing remains, including its equipment, and the duration of the transformation increases by 1 minute and you regain a number of hit points equal to your Constitution modifier (minimum 1).\n- You can choose to prevent its frenzy at the beginning of each of these turns with a DC 10 Charisma check to regain control using either Deception, Intimidation, or Persuasion. On a success, the symbiont continues to obey your commands, or you can end the transformation early. On a failure, the symbiont spends its turn to consume the creature and the DC increases by 5. You can fail each check (Deception, Intimidation, or Persuasion) only once each transformation, and lose control of the symbiont completely when none remain. If you lose control of the symbiont while it frenzies, it becomes hostile to all creatures and spends its turns pursuing and attacking the nearest creature to the best of its ability until the transformation ends.",
+   "rules": [
+    {
+     "grant": "Class Feature:Symbiotic Transformation"
+    },
+    {
+     "grant": "Class Feature:Symbiotic Frenzy"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Symbiotic Transformation",
+   "type": "Class Feature",
+   "name": "Symbiotic Transformation",
+   "desc": "When you enter the symbiotic state you gain the following traits:\n\n- If you are affected by any condition when you transform, its effect is suspended for the duration of the transformation, and you have advantage on saving throws against spells and effects that grant additional conditions.\n- Your AC becomes your Charisma score and you add your Charisma modifier (minimum of 1) to your Strength, Dexterity, and Constitution scores.\n- You retain the benefit of any features from your class, race, or other source. Worn equipment merges with your new form and has no effect until you leave the form.\n- You are blind but the symbiont has tremorsense, which can be used to detect and pinpoint the origin of vibrations within 30 feet, provided that the source of the vibrations is in contact with the same ground or substance but can’t detect flying or incorporeal creatures.\n- You can’t cast spells or concentrate on them.\n- Your unarmed strikes deal 1d10 magical bludgeoning, piercing, or slashing damage, you choose each time you make the attack.\n- If you are knocked unconscious, your transformation ends early. As the symbiont retreats inside you, you suffer two levels of exhaustion.\n- If you reduce a creature to 0 hit points while the transformation persists, the symbiont frenzies, and spends its next turn to consume the creature’s life force and takes no other actions until it does. If it consumes the creature, nothing remains, including its equipment, and the duration of the transformation increases by 1 minute and you regain a number of hit points equal to your Constitution modifier (minimum 1).\n- You can choose to prevent its frenzy at the beginning of each of these turns with a DC 10 Charisma check to regain control using either Deception, Intimidation, or Persuasion. On a success, the symbiont continues to obey your commands, or you can end the transformation early. On a failure, the symbiont spends its turn to consume the creature and the DC increases by 5. You can fail each check (Deception, Intimidation, or Persuasion) only once each transformation, and lose control of the symbiont completely when none remain. If you lose control of the symbiont while it frenzies, it becomes hostile to all creatures and spends its turns pursuing and attacking the nearest creature to the best of its ability until the transformation ends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Symbiotic Frenzy",
+   "type": "Class Feature",
+   "name": "Symbiotic Frenzy",
+   "desc": "If you are knocked unconscious, your transformation ends early. As the symbiont retreats inside you, you suffer two levels of exhaustion.\n\nIf you reduce a creature to 0 hit points while the transformation persists, the symbiont frenzies, and spends its next turn to consume the creature’s life force and takes no other actions until it does. If it consumes the creature, nothing remains, including its equipment, and the duration of the transformation increases by 1 minute and you regain a number of hit points equal to your Constitution modifier (minimum 1).\n\nou can choose to prevent its frenzy at the beginning of each of these turns with a DC 10 Charisma check to regain control using either Deception, Intimidation, or Persuasion. On a success, the symbiont continues to obey your commands, or you can end the transformation early. On a failure, the symbiont spends its turn to consume the creature and the DC increases by 5. You can fail each check (Deception, Intimidation, or Persuasion) only once each transformation, and lose control of the symbiont completely when none remain. If you lose control of the symbiont while it frenzies, it becomes hostile to all creatures and spends its turns pursuing and attacking the nearest creature to the best of its ability until the transformation ends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Alien Speed",
+   "type": "Class Feature",
+   "name": "Alien Speed",
+   "desc": "Prerequisite: Pact of the Host feature\n\nWhile in symbiosis, your symbiont gains an increase to movement speed and jump distance equal to your Charisma modifier x 5.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aquatic Adaptation",
+   "type": "Class Feature",
+   "name": "Aquatic Adaptation",
+   "desc": "Prerequisite: 7th level, Pact of the Host feature\n\nWhile in symbiosis, you can breathe air and water, and you have a swimming speed equal to your walking speed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cameral Mind",
+   "type": "Class Feature",
+   "name": "Cameral Mind",
+   "desc": "Prerequisite: 5th level, Pact of the Host feature\n\nYou can relinquish control to your symbiont regardless of your hit point total as a reaction whenever you take damage, you have advantage on ability checks to maintain control over the symbiont, and the level of exhaustion you suffer when it retreats is reduced by 1.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dread The Darkness",
+   "type": "Class Feature",
+   "name": "Dread The Darkness",
+   "desc": "Prerequisite: 12th level, Pact of the Host feature\n\nWhile in symbiosis, you have blindsight with a radius of 60 feet and are blind beyond that distance.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elevated Evolution",
+   "type": "Class Feature",
+   "name": "Elevated Evolution",
+   "desc": "Prerequisite: 15th level, Pact of the Host feature\n\nWhen you transform, your symbiont grows wings and gains a fly speed of 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Precision Predator",
+   "type": "Class Feature",
+   "name": "Precision Predator",
+   "desc": "Prerequisite: 9th level, Pact of the Host feature\n\nOnce per turn, when your symbiont hits a creature with an attack, you can expend one of your Hit Die to deal extra damage of the same type equal to your Charisma score.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Violent End",
+   "type": "Class Feature",
+   "name": "Violent End",
+   "desc": "Prerequisite: 5th level, Pact of the Host feature\n\nYour symbiont transforms with a serrated prehensile tail that it can use to make a special melee weapon attack with as a bonus action. This attack has the finesse and reach properties, the damage die for this attack is a d4, and the attack deals slashing damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Second Skin",
+   "type": "Class Feature",
+   "name": "Second Skin",
+   "desc": "Prerequisite: Pact of the Host feature\n\nWhen you enter symbiosis, your symbiont gains temporary hit points equal to your Warlock level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Venomous Spit",
+   "type": "Class Feature",
+   "name": "Venomous Spit",
+   "desc": "Prerequisite: Pact of the Host feature\n\nWhile in symbiosis, as an action, your symbiont can spray a stream of sticky bile, targeting one creature or object it can sense within 60 feet. The target takes 1d8 acid damage and its speed is reduced by 10 feet unless it succeeds on a Dexterity saving throw against your spell save DC. This damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Bonus Proficiency",
+   "type": "Class Feature",
+   "name": "Bonus Proficiency",
+   "desc": "When you join the College of Keys at 3rd level, you gain proficiency with thieves’ tools, if you don’t already have it.",
+   "rules": [
+    {
+     "pf": [
+      "t:Thieves’ tools"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Key Change",
+   "type": "Class Feature",
+   "name": "Key Change",
+   "desc": "Also at 3rd level, you learn to bend locks and traps with dashing style. If you have Expertise in one of your Charisma skills, you can use that skill instead of making a Dexterity check with your thieves’ tools.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Timbre Illuminous",
+   "type": "Class Feature",
+   "name": "Timbre Illuminous",
+   "desc": "At 3rd level, you can coax a variety of information from a mechanism regarding its composition using merely verse and rhyme. When you spend at least 1 minute speaking or singing to a construct or inanimate mechanism, you can expend one Bardic Inspiration to learn certain information about its capabilities compared to your own. The DM tells you two of the following characteristics of the mechanism, of your choice:\n\n- Purpose (lock, trap, surveillance, etc.)\n- Intricacy (singular, compound, or complex)\n- Nature (magical, mundane, or otherwise)\n- Approximate difficulty class (easy, hard, nearly impossible, etc.)\n- Elemental energies present (if any)\n- Additional embedded magical qualities (if any)",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cypheric Ostinato",
+   "type": "Class Feature",
+   "name": "Cypheric Ostinato",
+   "desc": "Starting at 6th level, you learn to control vocal range and resonance of your voice to offset the magic or material mechanisms within security and surveillance spells.\n\nWhen you use your action to disarm or dispel a trap, or when you make a saving throw to avoid the full effects of a trap or magical ward, you can choose to expend one use of your Bardic Inspiration, rolling a Bardic Inspiration die and adding the number rolled to the ability check or saving throw. You can choose to use this feature after seeing the roll but before the DM determines whether the ability check or saving throw succeeds or fails.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master Keynote",
+   "type": "Class Feature",
+   "name": "Master Keynote",
+   "desc": "At 14th level, you learn how to hone pitch and rhythm to disarm all nearby mechanical impediments. You can expend one use of Bardic Inspiration to disarm all traps and open all locks within 30 feet for a number of rounds equal to the number you roll on the Bardic Inspiration die.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+   "rules": []
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Rally the Dead",
+   "type": "Feat",
+   "name": "Rally the Dead",
+   "desc": "Undead creatures under your control have advantage on their attacks rolls against a target if at least one of their allies is within 5 feet of the creature, is not incapacitated and is also an undead creature.",
+   "rules": []
+  },
+  {
+   "id": "Feat:Siphon Life",
+   "type": "Feat",
+   "name": "Siphon Life",
+   "desc": "Prerequisite: The ability to cast at least one spell\n\nWhen you deal the killing blow to a foe using a necromancy spell, you gain a number of temporary Hit Points equal to your grave warden level + your constitution modifier. You can use this feature a number of times equal to your Constitution modifier per long rest.",
+   "rules": []
+  }
+ ]
+}
