@@ -20,6 +20,8 @@
    "name": "The Emperor",
    "desc": "Fire, cold and lightning damage you deal ignores resistance.",
    "rules": []
+  },
+  {
    "id": "Class Feature:The Fool",
    "type": "Class Feature",
    "name": "The Fool",
