@@ -1,0 +1,721 @@
+{
+ "elements": [
+  {
+   "id": "Class:Weaveshaper",
+   "type": "Class",
+   "name": "Weaveshaper",
+   "desc": "A warrior who pursue magical and martial perfection by creating powerful weapons called threadblades.",
+   "hd": 8,
+   "ap": [
+    "w:Simple weapons",
+    "w:Martial weapons",
+    "t:Weaver’s tools"
+   ],
+   "wp": [
+    "simple",
+    "martial"
+   ],
+   "rules": [
+    {
+     "select": {
+      "name": "Stringed Musical Instrument, Weaveshaper",
+      "type": "Tool"
+     }
+    },
+    {
+     "grant": "save:dex"
+    },
+    {
+     "grant": "save:int"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency, Weaveshaper",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "Insight",
+       "Sleight of Hand"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Threadblade",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Infusion",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Clothier’s Cut",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Weave Finishers",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Ribbon Cutter",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Weaveshaper Tapestry",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Renaissance Regular",
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Shear Cut",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Shuttle Step",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Cycle Weave",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Cunning Blade",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Indivisible",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Ribbon Shears",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Perfect Pattern",
+     "level": 18
+    },
+    {
+     "grant": "Class Feature:Woven Soul",
+     "level": 18
+    },
+    {
+     "grant": "Class Feature:Finishing Touch",
+     "level": 20
+    },
+    {
+     "select": {
+      "name": "Weaveshaper Tapestry",
+      "type": "Subclass",
+      "supports": "Class:Weaveshaper"
+     },
+     "level": 3
+    }
+   ],
+   "casting": "None",
+   "start": [
+    "Scholar's pack",
+    "Fine clothes",
+    "Weaver's tools"
+   ]
+  },
+  {
+   "id": "Class Feature:Threadblade",
+   "type": "Class Feature",
+   "name": "Threadblade",
+   "desc": "Starting at 1st level, you learn to create a unique and iconic magical weapon, known as a threadblade, by instantly spinning it into existence. You can do this when you roll initiative or at the start of your turn. If you summon it a second time, the original vanishes.\n\nYou are proficient in your threadblade and you can use your Dexterity modifier in place of your Strength modifier for attack and damage rolls with your threadblade. You can’t wield another weapon or equip a shield while wielding your threadblade. Threadblades do not have the ordinary properties of other weapons, despite their appearances, but are considered martial weapons.\n\nYour threadblade is a unique weapon with an appearance of your own design, but it falls into one of several categories. When you gain this feature, choose one of the threadblade types listed in the following section. You can change your threadblade type whenever you gain a level in this class.",
+   "rules": [
+    {
+     "select": {
+      "name": "Threadblade",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Loombreaker",
+       "Class Feature:Scissorblade",
+       "Class Feature:Knitting Needles",
+       "Class Feature:Pin Cushion",
+       "Class Feature:Steelweave Strikers"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Infusion",
+   "type": "Class Feature",
+   "name": "Infusion",
+   "desc": "At 1st level, you learn to clothe yourself in magic. While you are not using a shield, you can choose to have your AC equal 10 + your Dexterity modifier + your Intelligence modifier. Also, you can use your action to change the color, fit and style of your clothing or armor while wearing it. It reverts to its ordinary appearance if you stop wearing it.",
+   "rules": [
+    {
+     "acFormula": {
+      "base": 10,
+      "add": [
+       "dex",
+       "int"
+      ],
+      "noShield": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Clothier’s Cut",
+   "type": "Class Feature",
+   "name": "Clothier’s Cut",
+   "desc": "Also at 1st level, your infusion allows you to move your weapons at the speed of thought. When you do not take the Attack action or cast a spell that deals damage during your turn, you can use your bonus action make a single attack with your threadblade or an accessory weapon granted by this class. This attack doesn’t add your ability score modifier to the damage roll.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Weave Finishers",
+   "type": "Class Feature",
+   "name": "Weave Finishers",
+   "desc": "At 2nd level, you learn to perform Weave Finishers: deadly finishing moves fueled by your arcane power. Each time you make an attack with your threadblade or an accessory weapon granted by this class, you spin a fraction of that attack’s power into an arcane string, which hovers around your threadblade as a ribbon of light. Your collected arcane strings disappear after 1 minute and when you roll initiative.\n\nYou can perform a Weave Finisher by spending the listed number of arcane strings stated in each Finisher’s description by using your bonus action when you take the Attack action during your turn. Your Weave Tier represents the power of your Weave Finishers, and is listed in the Weaveshaper table.\n\nLEARNING WEAVE FINISHERS\n\nAt 2nd level, you learn four Weave Finishers: Restitch, and three of your choosing from the Weave Finisher list at the end of this class description.\n\nYou learn two new Weave Finishers at 6th, 9th, and 15th level. You can exchange one of your Weave Finishers for a new one for which you meet the prerequisites when you gain a level in this class. You can’t exchange Restitch for another Weave Finisher.\n\nSPELLCASTING ABILITY\n\nIntelligence is your spellcasting ability for your weaveshaper spells and Weave Finishers, since your control over magic comes from careful study and practice. You use your Intelligence whenever a spell or Weave Finisher refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a weaveshaper spell you cast, when a weaveshaper feature you use requires the target make a saving throw, and when making a spell attack roll from casting a weaveshaper spell or using a weaveshaper feature.",
+   "rules": [
+    {
+     "resource": {
+      "id": "weave-tier",
+      "name": "Weave Tier",
+      "rest": "none",
+      "max": [
+       {
+        "class": "Weaveshaper",
+        "table": [
+         0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7
+        ]
+       }
+      ],
+      "note": "Determines the power of Weave Finishers"
+     }
+    },
+    {
+     "resource": {
+      "id": "arcane-strings",
+      "name": "Arcane Strings",
+      "rest": "none",
+      "max": 10,
+      "note": "Resets to 0 on initiative"
+     }
+    },
+    {
+     "select": {
+      "name": "Weave Finisher, 2nd-level",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Restitch"
+      ]
+     },
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Weave Finisher, 2nd-level",
+      "n": 3,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Restitch",
+       "Class Feature:Ribbon Lash",
+       "Class Feature:Flicker Strike",
+       "Class Feature:Vindicator Slash",
+       "Class Feature:Killing Intent",
+       "Class Feature:Dueling Ascent",
+       "Class Feature:Sky Slayer",
+       "Class Feature:Reaping Wind",
+       "Class Feature:Phoenix Wings",
+       "Class Feature:Rising Devil",
+       "Class Feature:Dragon’s Maw",
+       "Class Feature:Cruel Shrike",
+       "Class Feature:Soul Sever",
+       "Class Feature:Thread Stripper",
+       "Class Feature:Omnicleave",
+       "Class Feature:Shadow Assault"
+      ]
+     },
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Weave Finisher, 6th-level",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Restitch",
+       "Class Feature:Ribbon Lash",
+       "Class Feature:Flicker Strike",
+       "Class Feature:Vindicator Slash",
+       "Class Feature:Killing Intent",
+       "Class Feature:Dueling Ascent",
+       "Class Feature:Sky Slayer",
+       "Class Feature:Reaping Wind",
+       "Class Feature:Phoenix Wings",
+       "Class Feature:Rising Devil",
+       "Class Feature:Dragon’s Maw",
+       "Class Feature:Cruel Shrike",
+       "Class Feature:Soul Sever",
+       "Class Feature:Thread Stripper",
+       "Class Feature:Omnicleave",
+       "Class Feature:Shadow Assault"
+      ]
+     },
+     "level": 6
+    },
+    {
+     "select": {
+      "name": "Weave Finisher, 9th-level",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Restitch",
+       "Class Feature:Ribbon Lash",
+       "Class Feature:Flicker Strike",
+       "Class Feature:Vindicator Slash",
+       "Class Feature:Killing Intent",
+       "Class Feature:Dueling Ascent",
+       "Class Feature:Sky Slayer",
+       "Class Feature:Reaping Wind",
+       "Class Feature:Phoenix Wings",
+       "Class Feature:Rising Devil",
+       "Class Feature:Dragon’s Maw",
+       "Class Feature:Cruel Shrike",
+       "Class Feature:Soul Sever",
+       "Class Feature:Thread Stripper",
+       "Class Feature:Omnicleave",
+       "Class Feature:Shadow Assault"
+      ]
+     },
+     "level": 9
+    },
+    {
+     "select": {
+      "name": "Weave Finisher, 15th-level",
+      "n": 2,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Restitch",
+       "Class Feature:Ribbon Lash",
+       "Class Feature:Flicker Strike",
+       "Class Feature:Vindicator Slash",
+       "Class Feature:Killing Intent",
+       "Class Feature:Dueling Ascent",
+       "Class Feature:Sky Slayer",
+       "Class Feature:Reaping Wind",
+       "Class Feature:Phoenix Wings",
+       "Class Feature:Rising Devil",
+       "Class Feature:Dragon’s Maw",
+       "Class Feature:Cruel Shrike",
+       "Class Feature:Soul Sever",
+       "Class Feature:Thread Stripper",
+       "Class Feature:Omnicleave",
+       "Class Feature:Shadow Assault"
+      ]
+     },
+     "level": 15
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ribbon Cutter",
+   "type": "Class Feature",
+   "name": "Ribbon Cutter",
+   "desc": "Starting at 2nd level, during your first turn in combat after you roll initiative, if you take the Attack action and attack with your threadblade or an accessory weapon granted by this class and hit, you unleash a spiral of razor thread. Your target takes slashing damage equal to twice your Weave Tier and must make a Dexterity saving throw. If it fails, its movement speed is halved until the end of its next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Weaveshaper Tapestry",
+   "type": "Class Feature",
+   "name": "Weaveshaper Tapestry",
+   "desc": "At 3rd level, you create a powerful magical accessory that allows you to channel your arcane power with greater ease. Choose from the list of available tapestries. Your tapestry grants you features at 2nd level, and again at 6th, 10th, and 14th level.",
+   "rules": [
+    {
+     "select": {
+      "name": "Weaveshaper Tapestry",
+      "type": "Subclass",
+      "supports": "Class:Weaveshaper"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Renaissance Regular",
+   "type": "Class Feature",
+   "name": "Renaissance Regular",
+   "desc": "At 3rd level, you learn the mending cantrip. You can use your action to call and shape your arcane thread into useful objects, tools, and other ordinary devices that weigh less than 10 lbs. and cost less than 10 gp. Some things may be beyond your talents, depending on their complexity, and all items created with this feature are visibly magical.\n\nYou can also weave arcane thread in the form of a 100-foot silk rope with grappling hook, a 10-foot ladder, a spyglass, or a table with chairs. These items fade if you summon one again or after one minute if you stop touching them.\n\nAdditionally, you gain proficiency in three sets of tools, and can you can create any tool sets you are proficient with using this feature.\n\nAt 7th level, you can create a bridge or stairway of arcane thread using this feature. The bridge or stairway can’t stretch farther than 30 feet, is large enough to be usable by Medium or smaller creatures with ease, has AC 10, and can hold up to 10,000 lbs at a time. If a bridge or stairway takes damage, you can choose to either take the damage in its place, or allow it to vanish.",
+   "rules": [
+    {
+     "select": {
+      "name": "Tool Proficiency, Renaissance Regular",
+      "n": 3,
+      "type": "Tool"
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Mending",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Shear Cut",
+   "type": "Class Feature",
+   "name": "Shear Cut",
+   "desc": "Starting at 5th level, you can use your Clothier’s Cut feature when you take the Attack action. If you didn’t take the Attack action, you can attack twice with your Clothier’s Cut, instead of once.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shuttle Step",
+   "type": "Class Feature",
+   "name": "Shuttle Step",
+   "desc": "At 7th level, your martial studies grant you speed and power. While you are wearing no armor, your walking speed increases by 10 feet, and moving through a space you’ve already traversed this turn costs only half as much movement.",
+   "rules": [
+    {
+     "speedBonus": {
+      "max": 10,
+      "unarmored": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Cycle Weave",
+   "type": "Class Feature",
+   "name": "Cycle Weave",
+   "desc": "Beginning at 9th level, you can have your infusion recapture the excess arcane energy you release. Whenever you perform a Weave Finisher, you gain advantage on your first saving throw before the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cunning Blade",
+   "type": "Class Feature",
+   "name": "Cunning Blade",
+   "desc": "At 11th level, your threadblade and tapestry accessory attacks gain a bonus to damage rolls equal to your Intelligence modifier. This applies to your Clothier’s Cut attacks as well.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Indivisible",
+   "type": "Class Feature",
+   "name": "Indivisible",
+   "desc": "At 13th level, your infusion fully binds your body and soul into one harmonious whole. You gain proficiency in Strength and Charisma saving throws.",
+   "rules": [
+    {
+     "grant": "save:str"
+    },
+    {
+     "grant": "save:cha"
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Ribbon Shears",
+   "type": "Class Feature",
+   "name": "Ribbon Shears",
+   "desc": "At 15th level, your infusion spreads around you, allowing you to see through magical deceptions more easily. You gain advantage on ability checks and saving throws made to see through illusions, detect invisible creatures, or determine the true forms of shapeshifters.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Perfect Pattern",
+   "type": "Class Feature",
+   "name": "Perfect Pattern",
+   "desc": "At 17th level, your infusion perfects your body and mind. You can ignore all sources of disadvantage on any of your attack rolls, ability checks, or saving throws. Also, you no longer age, and you can’t be magically aged.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Woven Soul",
+   "type": "Class Feature",
+   "name": "Woven Soul",
+   "desc": "At 18th level, you learn to weave fragments of arcana into your soul. Choose one Weave Finisher. You can perform that Weave Finisher by expending only 1 of your collected arcane strings.\n\nWhenever you finish a short rest, you can replace your chosen Weave Finisher with a different one.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Finishing Touch",
+   "type": "Class Feature",
+   "name": "Finishing Touch",
+   "desc": "At 20th level, you learn to unlock the final limits on your arcane power. You can use your action to spin a fraction of your soul into arcane thread. For 1 minute, your attacks with your threadblade and tapestry accessory weapon can’t miss.\n\nOnce you use this feature, you can’t do so again until you finish a long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Couturier Arts (Crimson Couturier)",
+   "type": "Class Feature",
+   "name": "Couturier Arts (Crimson Couturier)",
+   "desc": "When you choose this tapestry, you also learn certain spells. You can cast each of these spells once, and you regain the ability to cast them when you finish a long rest.\n\nCRIMSON COUTURIER SPELLS\n\nLevel | Spells\n3rd | detect magic\n4th | darkvision\n7th | speak with dead\n10th | locate creature\n13th | telepathic bond",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Magic",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Darkvision",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Speak with Dead",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Locate Creature",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Rarys Telepathic Bond",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Fresh Blood",
+   "type": "Class Feature",
+   "name": "Fresh Blood",
+   "desc": "At 3rd level, you create your tapestry and begin to feed it with your blood and power, demanding it to grow alongside you. You can use this accessory as a weapon to make melee spell attacks that deal slashing damage equal to 1d12 + your Intelligence modifier, causing blades, fangs, and razor edges to spring from your outfit and strike. If this attack hits and the target is grappling you, you can free yourself automatically. If you are grappling your target, this attack is made with advantage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unstoppable Duo",
+   "type": "Class Feature",
+   "name": "Unstoppable Duo",
+   "desc": "At 6th level, your connection to your tapestry allows you to perform impossible feats. You gain a bonus to Strength checks and saving throws equal to your Weave Tier, and when you take the Dash action, your jumping height and distance increases to equal your walking speed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rise as One",
+   "type": "Class Feature",
+   "name": "Rise as One",
+   "desc": "At 10th level, your tapestry demands your body act, even when it has been broken. You can stand from prone without using movement at any time during your turn and you can use your Clothier’s Cleave attack even while you are unconscious. Additionally, your Renaissance Regular feature’s stairway or bridge can now reach up to 60 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fearless Flight",
+   "type": "Class Feature",
+   "name": "Fearless Flight",
+   "desc": "At 14th level, you connect perfectly with your tapestry and unlock the power within your infusion, transforming it into a form far greater than before. While you are wearing no armor, you gain a flying speed equal to your walking speed and you can’t be frightened.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Couturier Arts (Mortal Couturier)",
+   "type": "Class Feature",
+   "name": "Couturier Arts (Mortal Couturier)",
+   "desc": "When you choose this tapestry, you also learn certain spells. You can cast each of these spells once, and you regain the ability to cast them when you finish a long rest.\n\nMORTAL COUTURIER SPELLS\n\nLevel | Spells\n3rd | detect evil and good\n4th | levitate\n7th | sending\n10th | arcane eye\n13th | teleportation circle",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Detect Evil and Good",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Levitate",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Sending",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Arcane Eye",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Teleportation Circle",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Tome of Blades",
+   "type": "Class Feature",
+   "name": "Tome of Blades",
+   "desc": "At 2nd level, your tapestry stores your threadblade research. You gain access to a second threadblade form, chosen from the threadblade list. You can change both your threadblade forms when you finish a short or long rest. You can summon either threadblade immediately before making an attack. Choose one or more of your threadblade forms each time you select them. These threadblades use your Intelligence ability score modifier for attack and damage rolls, instead of your Strength or Dexterity.",
+   "rules": [
+    {
+     "select": {
+      "name": "Threadblade, Tome of Blades",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Loombreaker",
+       "Class Feature:Scissorblade",
+       "Class Feature:Knitting Needles",
+       "Class Feature:Pin Cushion",
+       "Class Feature:Steelweave Strikers"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Shards of Light",
+   "type": "Class Feature",
+   "name": "Shards of Light",
+   "desc": "At 6th level, your tapestry allows you to fragment your form into illusions. When you take the Dodge action, you create false figments of your form that move alongside you until the start of your next turn. The first time you are targeted by a creature’s attack during this time, it must first make an Intelligence saving throw. If it fails, the attack automatically misses.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Illusory Evasion",
+   "type": "Class Feature",
+   "name": "Illusory Evasion",
+   "desc": "At 10th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. You can have your Renaissance Regular feature’s stairway or bridge be illusory, or illusory to all creatures except you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Glory Eternal",
+   "type": "Class Feature",
+   "name": "Glory Eternal",
+   "desc": "At 14th level, you gain access to all categories of threadblades, and can summon any of them at any time. You can use either your Dexterity or your Intelligence to attack with them, and you can’t be stunned or paralyzed.",
+   "rules": [
+    {
+     "select": {
+      "name": "Threadblade, Glory Eternal",
+      "n": 3,
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Loombreaker",
+       "Class Feature:Scissorblade",
+       "Class Feature:Knitting Needles",
+       "Class Feature:Pin Cushion",
+       "Class Feature:Steelweave Strikers"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Couturier Arts (Starspiral Couturier)",
+   "type": "Class Feature",
+   "name": "Couturier Arts (Starspiral Couturier)",
+   "desc": "When you choose this tapestry, you also learn certain spells. You can cast each of these spells once, and you regain the ability to cast them when you finish a long rest.\n\nSTARSPIRAL COUTURIER SPELLS\n\nLevel | Spells\n3rd | alarm\n4th | see invisibility\n7th | dispel magic\n10th | banishment\n13th | dream",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Alarm",
+     "1/long rest"
+    ],
+    [
+     1,
+     "See Invisibility",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Dispel Magic",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Banishment",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Dream",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Face of War",
+   "type": "Class Feature",
+   "name": "Face of War",
+   "desc": "At 3rd level, your tapestry surrounds your infusion like armor and provides you with deadly ranged attacks to supplement your threadblade. You can use this accessory as a weapon to make ranged spell attacks at a range of 120 feet that deal force damage equal to 1d10 + your Intelligence modifier, launching explosive stabbing missiles from your arcane mechanisms. This attack isn’t made with disadvantage if your target is prone, and deals twice as much damage if your target is Huge or larger.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Massive Machine",
+   "type": "Class Feature",
+   "name": "Massive Machine",
+   "desc": "At 6th level, you can choose to increase the size and power of your tapestry. You can use your action to become Large for 1 minute, or to return to normal size. While you are Large or larger, you gain advantage on Strength checks and saving throws, and whenever you take damage, you can reduce the damage you take by 2, after any resistances.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Galactic Body",
+   "type": "Class Feature",
+   "name": "Galactic Body",
+   "desc": "At 10th level, your tapestry protects you from the strange spaces beyond the world. You no longer need to breathe, you gain resistance to necrotic and radiant damage, and you are immune to poison. Your Renaissance Regular feature’s stairway or bridge can now be big enough to be easily traversable by Huge or smaller creatures.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Heaven Piercer",
+   "type": "Class Feature",
+   "name": "Heaven Piercer",
+   "desc": "At 14th level, you finish your tapestry, unlocking its ultimate form. When you use your Massive Machine feature, you can choose to become Huge instead of Large. While you are Huge or larger, your reach for all melee weapons increases by 5 feet, and you can reduce the damage you take by an amount equal to 2 + your Intelligence modifier (minimum 3).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Couturier Arts (Shadowsilk Couturier)",
+   "type": "Class Feature",
+   "name": "Couturier Arts (Shadowsilk Couturier)",
+   "desc": "When you choose this tapestry, you also learn certain spells. You can cast each of these spells once, and you regain the ability to cast them when you finish a long rest.\n\nSHADOWSILK COUTURIER SPELLS\n\nLevel | Spells\n3rd | charm person\n4th | invisibility\n7th | major image\n10th | black tentacles\n13th | seeming",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Charm Person",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Invisibility",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Major Image",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Evards Black Tentacles",
+     "1/long rest"
+    ],
+    [
+     1,
+     "Seeming",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Cloak of Blades",
+   "type": "Class Feature",
+   "name": "Cloak of Blades",
+   "desc": "At 2nd level, your cloak moves to defend you and strike at your foes. You can use this accessory as a weapon to make melee spell attacks at a reach of 15 feet that deal slashing damage equal to 1d8 + your Intelligence modifier, causing cutting blades to lash from your cloak. If you hit a creature with this attack, you can choose to force it to make a Strength saving throw. If it fails, it is pulled to the nearest open space within 5 feet of you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hidden Agenda",
+   "type": "Class Feature",
+   "name": "Hidden Agenda",
+   "desc": "At 6th level, your cloak conceals your movements and distorts your speech at your command. You can choose to have your speech be incoherent to creatures other than those you choose. When you take the Dash action, you can choose to gain the benefits of the Disengage action as well.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Grasping Dark",
+   "type": "Class Feature",
+   "name": "Grasping Dark",
+   "desc": "At 10th level, your tapestry grips the environment around you, holding you aloft. You gain a climbing speed equal to your walking speed, and you can move along walls and ceilings while leaving your hands free. You can have your Renaissance Regular feature’s stairway or bridge be invisible.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shadow Dance",
+   "type": "Class Feature",
+   "name": "Shadow Dance",
+   "desc": "At 14th level, your cloak’s blades tear at the fabric of reality, opening tiny portals for you to slip through. After you perform a Weave Finisher, you can teleport up to 15 feet to a location you can see. Also, whenever you take the Dodge action and a creature misses an attack targeting you, or a creature you can see ends its turn, you can use your reaction to teleport up to 15 feet to a location you can see.",
+   "rules": []
+  }
+ ]
+}

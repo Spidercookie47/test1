@@ -1,0 +1,82 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Mask of the Spiritlord, Earth Spirit",
+   "type": "Magic",
+   "name": "Mask of the Spiritlord, Earth Spirit",
+   "desc": "Wondrous Item, unique\n\nThis mask from an ironwood tree allows the spiritlord to play host to the spirit-elementals roaming this world.\n\nVigilant Spirits. Starting at 10th level, you gain resistance to poison damage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Unique",
+   "att": false
+  },
+  {
+   "id": "Magic:Mask of the Spiritlord, Fire Spirit",
+   "type": "Magic",
+   "name": "Mask of the Spiritlord, Fire Spirit",
+   "desc": "Wondrous Item, unique\n\nThis mask from an ironwood tree allows the spiritlord to play host to the spirit-elementals roaming this world.\n\nVigilant Spirits. Starting at 10th level, you gain resistance to fire damage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Unique",
+   "att": false
+  },
+  {
+   "id": "Magic:Mask of the Spiritlord, Water Spirit",
+   "type": "Magic",
+   "name": "Mask of the Spiritlord, Water Spirit",
+   "desc": "Wondrous Item, unique\n\nThis mask from an ironwood tree allows the spiritlord to play host to the spirit-elementals roaming this world.\n\nVigilant Spirits. Starting at 10th level, you gain resistance to cold damage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Unique",
+   "att": false
+  },
+  {
+   "id": "Magic:Mask of the Spiritlord, Wind Spirit",
+   "type": "Magic",
+   "name": "Mask of the Spiritlord, Wind Spirit",
+   "desc": "Wondrous Item, unique\n\nThis mask from an ironwood tree allows the spiritlord to play host to the spirit-elementals roaming this world.\n\nVigilant Spirits. Starting at 10th level, you gain resistance to lightning damage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Unique",
+   "att": false
+  },
+  {
+   "id": "Magic:Mask of the Spiritlord, Light Spirit",
+   "type": "Magic",
+   "name": "Mask of the Spiritlord, Light Spirit",
+   "desc": "Wondrous Item, unique\n\nThis mask from an ironwood tree allows the spiritlord to play host to the spirit-elementals roaming this world.\n\nVigilant Spirits. Starting at 10th level, you gain resistance to radiant damage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Unique",
+   "att": false
+  },
+  {
+   "id": "Magic:Mask of the Spiritlord, Shadow Spirit",
+   "type": "Magic",
+   "name": "Mask of the Spiritlord, Shadow Spirit",
+   "desc": "Wondrous Item, unique\n\nThis mask from an ironwood tree allows the spiritlord to play host to the spirit-elementals roaming this world.\n\nVigilant Spirits. Starting at 10th level, you gain resistance to necrotic damage.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0.0,
+   "wt": 0,
+   "rar": "Unique",
+   "att": false
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+Converted: 337 Class Feature, 17 Feat, 81 Magic, 10 Race, 76 Racial Trait, 114 Spell, 34 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (79)
+  Mark of the Accursed Archive: mark of the accursed archive
+  Curse of Carasphyx: ac
+  Scribe’s Adjunct: companion
+  Essence of Ash: companion, essence of ash
+  Hide of Cinders: ac
+  United Survival: companion
+  Emergency Fund: emergency fund
+  Two of a Kind: companion
+  Steadfast Companion: companion
+  Speck of Sunlight: companion
+  Creature of Carrion: companion
+  Convocation’s Child: companion
+  Living Art: companion
+  Net of the Truth-Harvester: truth harvester net
+  Cheerful Duet: companion
+  Handmaiden’s Guardian: companion
+  Majestic Scales: ac
+  Duskborne Companion: companion
+  Fang of the Prowler: fang of the prowler
+  Essence of the Sky: companion
+  Servant-Priests: companion
+  Will of the Saint: ac
+  Assassin in the Dark: companion
+  Lord of Beasts: lord of beasts
+  Seeker of Prey: companion
+  Servant to the Master: companion
+  Claws of the Stalker: speed
+  Mask of Catseye: darkvision
+  Armor of Ink: ac
+  Ancient Heart (Strength +1): strength
+  Ancient Heart (Strength +3): strength
+  Ancient Heart (Dexterity +1): dexterity
+  Ancient Heart (Dexterity +2): dexterity
+  Ancient Heart (Dexterity +3): dexterity
+  Ancient Heart (Constitution +1): constitution
+  Ancient Heart (Constitution +2): constitution
+  Ancient Heart (Constitution +3): constitution
+  Ancient Heart (Wisdom +1): wisdom
+  Ancient Heart (Wisdom +2): wisdom
+  Ancient Heart (Wisdom +3): wisdom
+  Ancient Heart (Intelligence +1): intelligence
+  Ancient Heart (Intelligence +2): intelligence
+  Ancient Heart (Intelligence +3): intelligence
+  Ancient Heart (Charisma +1): charisma
+  Ancient Heart (Charisma +2): charisma
+  Ancient Heart (Charisma +3): charisma
+  Breath of Smoke: breath of smoke
+  Blackthorn Heart: blackthorn heart
+  Righteous Guardian: righteous guardian
+  Force of Preservation: force of preservation
+  The Empress: empress constellation
+  The Priestess: hp, priestess
+  Ghoulish Constitution: ghoulish constitution
+  Keeper of Souls: keeper of souls
+  Bound to the Portrait: gray portrait
+  Secrets of the Lost: speed
+  Seeker of the Sound: seeker of sound
+  Dream Stalker: dream stalker
+  Slayer of the King: slayer of the king
+  The Lurking Fear: lurking fear
+  Cheshire Grin: cheshire grin
+  All that Remains: all that remains
+  Thunderstruck: thunderstruck
+  Discordant: discordant
+  Ring the Blade: ring the blade
+  Gaze of Eternity: gaze of eternity
+  Constricting Vice: constricting vice
+  Aura of Investment: aura of investment
+  Channel Divinity: As Above: as above
+  Aura of Censure: aura of censure
+  Spiritual Curse: feral attack, predatory spirit
+  Cold Iron: ac, cold iron
+  Extra Attack: extra attack
+  Spirit Mending: spirit mending
+  Soul Thief: soul thief
+  Subtle Stride: speed
+  Twitch on the Web: spidertouched
+  Burning Fury: burning fury
+  Simply Slippery: slippery fall
+
+== damage resistances (no pack field for characters, the text already says it) (17)
+  Unusual Form: poison
+  Thou Art Immortal: necrotic
+  Armor of Inferno: fire
+  Eternal Armor: necrotic
+  Hounds of the Hunt: cold
+  Thunderstruck: lightning
+  Thunderstruck: thunder
+  Blood of the Spider: poison
+  Gift of Ash: fire
+  Durable Mind: psychic
+  Scarred By The Storm: lightning
+  Venomous Blessing: poison
+  Starborn: radiant
+  Black Blood: necrotic
+  Night Terrors: psychic
+  Acidic Body: acid
+  Durable Mind: radiant
+
+== grants of other kinds (skipped) (26)
+  Jelly Helm: Vision ID_VISION_BLINDSIGHT
+  Mask of Catseye: Vision ID_VISION_DARKVISION
+  Strength: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  Acidic Body: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_ACID
+  Walk Into My Parlor: Condition ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON
+  Twitch on the Web: Grants ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER
+  Born of Ember: language ID_LANGUAGE_PRIMORDIAL
+  Born of Ember: spell ID_PHB_SPELL_PRODUCE_FLAME
+  Blood of The Dark Forest: spell ID_PHB_SPELL_DRUIDCRAFT
+  Dragonborn: Size ID_SIZE_MEDIUM
+  Dwarf: Size ID_SIZE_MEDIUM
+  Dwarf: Vision ID_VISION_DARKVISION
+  Elf: Size ID_SIZE_MEDIUM
+  Elf: Vision ID_VISION_DARKVISION
+  Gnome: Size ID_SIZE_SMALL
+  Gnome: Vision ID_VISION_DARKVISION
+  Human: Size ID_SIZE_MEDIUM
+  Half-Elf: Size ID_SIZE_MEDIUM
+  Halfling: Size ID_SIZE_SMALL
+  Half-Orc: Size ID_SIZE_MEDIUM
+  Half-Orc: Vision ID_VISION_DARKVISION
+  Tiefling: Size ID_SIZE_MEDIUM
+  Arachi: Vision ID_VISION_DARKVISION
+  Ashenspawn: Vision ID_VISION_DARKVISION
+  Imperial: Vision ID_VISION_DARKVISION
+  Nocturne: Vision ID_VISION_DARKVISION
+
+== selects not understood (15)
+  Tainted Knowledge: Class Feature supports="ID_EXPERTISE_SKILL_ARCANA|ID_EXPERTISE_SKILL_HISTORY|ID_EXPERTISE_SKILL_NATURE|ID_EXPERTISE_SKILL_RELIGION" matched nothing in this pack (maybe other pack)
+  Vile Heresies: Spell supports="1||2||3||4" matched nothing in this pack (maybe other pack)
+  Builder of Walls: Spell supports="Builder of Walls" matched nothing in this pack (maybe other pack)
+  The World: Spell supports="0,Wizard" matched nothing in this pack (maybe other pack)
+  Arachi: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_ARACHI_DEXTERITY|ID_GFP_COFSA_RACIAL_TRAIT_ARACHI_CHARISMA" matched nothing in this pack (maybe other pack)
+  Ashenspawn: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_ASHENSPAWN_STRENGTH|ID_GFP_COFSA_RACIAL_TRAIT_ASHENSPAWN_CHARISMA" matched nothing in this pack (maybe other pack)
+  Groveborn: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_GROVEBORN_STRENGTH|ID_GFP_COFSA_RACIAL_TRAIT_GROVEBORN_WISDOM" matched nothing in this pack (maybe other pack)
+  Heraldic: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_HERALDIC_WISDOM|ID_GFP_COFSA_RACIAL_TRAIT_HERALDIC_CHARISMA" matched nothing in this pack (maybe other pack)
+  Imperial: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_IMPERIAL_DEXTERITY|ID_GFP_COFSA_RACIAL_TRAIT_IMPERIAL_WISDOM" matched nothing in this pack (maybe other pack)
+  Luminari: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_LUMINARI_INTELLIGENCE|ID_GFP_COFSA_RACIAL_TRAIT_LUMINARI_WISDOM|ID_GFP_COFSA_RACIAL_TRAIT_LUMINARI_CHARISMA" matched nothing in this pack (maybe other pack)
+  Mystical Power: Spell supports="0,(Bard||Cleric||Wizard)" matched nothing in this pack (maybe other pack)
+  Maledicti: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_MALEDICTI_STRENGTH|ID_GFP_COFSA_RACIAL_TRAIT_MALEDICTI_INTELLIGENCE" matched nothing in this pack (maybe other pack)
+  Nocturne: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_NOCTURNE_DEXTERITY|ID_GFP_COFSA_RACIAL_TRAIT_NOCTURNE_WISDOM" matched nothing in this pack (maybe other pack)
+  Oozian: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_OOZIAN_DEXTERITY|ID_GFP_COFSA_RACIAL_TRAIT_OOZIAN_CONSTITUTION" matched nothing in this pack (maybe other pack)
+  Statuesque: Racial Trait supports="ID_GFP_COFSA_RACIAL_TRAIT_STATUESQUE_CONSTITUTION|ID_GFP_COFSA_RACIAL_TRAIT_STATUESQUE_WISDOM|ID_GFP_COFSA_RACIAL_TRAIT_STATUESQUE_CHARISMA" matched nothing in this pack (maybe other pack)
+
+== grants without an id (skipped) (2)
+  Seeker of the Sound: Proficiency
+  Voice of the Maestro: Condition
+
+== ids not in this pack (assumed to be in another pack, check the name) (18)
+  Racial Trait:Draconic Ancestry  (from ID_RACIAL_TRAIT_DRACONIC_ANCESTRY)
+  Racial Trait:Breath Weapon  (from ID_RACIAL_TRAIT_BREATH_WEAPON)
+  Language:Draconic  (from ID_LANGUAGE_DRACONIC)
+  Racial Trait:Dwarven Toughness  (from ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS)
+  Language:Dwarvish  (from ID_LANGUAGE_DWARVISH)
+  Racial Trait:Fey Ancestry  (from ID_RACIAL_TRAIT_FEY_ANCESTRY)
+  Racial Trait:Trance  (from ID_RACIAL_TRAIT_TRANCE)
+  Language:Elvish  (from ID_LANGUAGE_ELVISH)
+  Language:Gnomish  (from ID_LANGUAGE_GNOMISH)
+  Racial Trait:Lucky  (from ID_RACIAL_TRAIT_LUCKY)
+  Racial Trait:Brave  (from ID_RACIAL_TRAIT_BRAVE)
+  Racial Trait:Halfling Nimbleness  (from ID_RACIAL_TRAIT_HALFLING_NIMBLENESS)
+  Language:Halfling  (from ID_LANGUAGE_HALFLING)
+  Racial Trait:Relentless Endurance  (from ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE)
+  Language:Orc  (from ID_LANGUAGE_ORC)
+  Racial Trait:Infernal Legacy  (from ID_RACIAL_TRAIT_INFERNAL_LEGACY)
+  Language:Infernal  (from ID_LANGUAGE_INFERNAL)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+
+== grants pointing outside these packs (needs another pack) (27)
+  Racial Trait:Dragonborn -> Racial Trait:Draconic Ancestry
+  Racial Trait:Dragonborn -> Racial Trait:Breath Weapon
+  Racial Trait:Dragonborn -> Language:Draconic
+  Racial Trait:Dwarf -> Racial Trait:Dwarven Toughness
+  Racial Trait:Dwarf -> Language:Dwarvish
+  Racial Trait:Elf -> Racial Trait:Fey Ancestry
+  Racial Trait:Elf -> Racial Trait:Trance
+  Racial Trait:Elf -> Language:Elvish
+  Racial Trait:Gnome -> Language:Gnomish
+  Racial Trait:Halfling -> Racial Trait:Lucky
+  Racial Trait:Halfling -> Racial Trait:Brave
+  Racial Trait:Halfling -> Racial Trait:Halfling Nimbleness
+  Racial Trait:Halfling -> Language:Halfling
+  Racial Trait:Half-Orc -> Racial Trait:Relentless Endurance
+  Racial Trait:Half-Orc -> Language:Orc
+  Racial Trait:Tiefling -> Racial Trait:Infernal Legacy
+  Racial Trait:Tiefling -> Language:Infernal
+  Race:Arachi -> Language:Common
+  Race:Ashenspawn -> Language:Common
+  Race:Groveborn -> Language:Common
+  Race:Heraldic -> Language:Common
+  Race:Imperial -> Language:Common
+  Race:Luminari -> Language:Common
+  Race:Maledicti -> Language:Common
+  Race:Nocturne -> Language:Common
+  Race:Oozian -> Language:Common
+  Race:Statuesque -> Language:Common
+

@@ -1,0 +1,15 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "ws",
+  "name": "The Weaveshaper",
+  "short": "WS"
+ },
+ "files": [
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "info.json"
+ ]
+}

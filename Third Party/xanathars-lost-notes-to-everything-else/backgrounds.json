@@ -1,0 +1,394 @@
+{
+ "elements": [
+  {
+   "id": "Background:Dead",
+   "type": "Background",
+   "name": "Dead",
+   "desc": "History, Intimidation, 2 Languages",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Intimidation"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Spirit Talk"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "When faced with a new experience the word \"no\" isn’t in my vocabulary.",
+     "I always have the loudest laugh in the room.",
+     "When I want something, I’m direct and simple in my request.",
+     "The story of my demise, like all my stories, is greatly exaggerated.",
+     "Those who ask me about my death quickly learn to never ask again.",
+     "I treat most people like they’re idiots. They don’t know what I know.",
+     "If I don’t want to do something, I simply don’t do it.",
+     "I don’t excite easily."
+    ],
+    "ideals": [
+     "Freedom. Life is short so live how you want. (Chaotic)",
+     "Despair. Nothing in life is worth celebrating and death is the destination we all deserve. (Evil)",
+     "Vengeance. I will find and punish what killed me. (Neutral)",
+     "Charity. I want to prevent others from dying before their time. (Good)",
+     "Mercy. I was given a second chance and others should get the same opportunity. (Good)",
+     "Labor. Life is short, and so I must keep working to make my mark. (Lawful)"
+    ],
+    "bonds": [
+     "I have a great fear of that which killed me.",
+     "The scars of my death wound are still on my body.",
+     "My vengeance is more important than any other task.",
+     "I never wish to return to my gravesite.",
+     "I wish to bring back another who died by my side.",
+     "Any mention of my hometown reminds me of my first life."
+    ],
+    "flaws": [
+     "Death isn’t a big deal to me. I’ve died and come back. People should stop whining.",
+     "I don’t listen to protests before I do something reckless.",
+     "I’d rather be mad than solve a problem making me angry.",
+     "I would rather cheat, lie, and steal than be honest because none of this matters.",
+     "Everything was better when I was dead.",
+     "I’m believe that I am better than everyone who hasn’t died and come back from the dead."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Spirit Talk",
+   "type": "Background Feature",
+   "name": "Spirit Talk",
+   "desc": "You can connect with the souls of the dead thanks to the long time you spent dead. You may spend a day of downtime communicating with the souls to learn a piece of information by asking a question. The quality and specifics of the information you get is up to the DM.",
+   "rules": []
+  },
+  {
+   "id": "Background:Heretic",
+   "type": "Background",
+   "name": "Heretic",
+   "desc": "Deception, Religion, 2 Languages",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Heretical Contacts"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I think I’m right even when I’m wrong.",
+     "I pity those who deny the heresy.",
+     "I always scope out the closest exits and position myself near them.",
+     "Those who refute my beliefs are damned and aren’t worth saving.",
+     "I’m sure my god has chosen me for a greater destiny.",
+     "I’m a natural orator, but once I start talking it’s difficult for me to stop.",
+     "I’m always looking over my shoulder and the slightest things startle me.",
+     "I believe the end of the world is nigh."
+    ],
+    "ideals": [
+     "Guidance. I must teach others my forbidden doctrine. (Neutral)",
+     "Caution. It’s always better to be safe than sorry. (Any)",
+     "Knowledge. If this conspiracy is true, what else are we being lied to about? (Neutral)",
+     "Insurrection. My old faith is corrupt and must be brought down by the new order. (Chaotic)",
+     "Honesty. I’ve been lied to enough, so now I’m sworn to always tell the truth. (Lawful)",
+     "Self-Knowledge. Those who seek the truth become wise beyond their years. (Good)"
+    ],
+    "bonds": [
+     "The heretics who educated me were burned at the stake. I won’t let that happen to me.",
+     "Belief in my old faith still nags at me. Have I chosen the right path?",
+     "I used to be friends with the cleric who’s now hunting me.",
+     "I carry a heretical treatise on my person. It mustn’t be found!",
+     "I protect the faithless so they can know enlightenment.",
+     "One of my underworld contacts reports my movements to the superiors of my old temple."
+    ],
+    "flaws": [
+     "I’m suspicious of strangers, as they may be bounty hunters sent to arrest me.",
+     "I sneer at those whom I deem unworthy of my time.",
+     "I’m deeply superstitious, and have many rituals to avoid bad luck.",
+     "I tend to misjudge the devotion of others.",
+     "I’m obsessed with my studies, often to the detriment of other concerns.",
+     "I’m deeply mistrustful of temple hierarchies."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Heretical Contacts",
+   "type": "Background Feature",
+   "name": "Heretical Contacts",
+   "desc": "You know where to find heretics in settlements where your faith is represented. If no heretics are present, you can indoctrinate weak-willed souls if you spend a day preaching. Where heretics are present, you can always find a place to hide, rest and recuperate. If needed, they can help you escape the settlement on a cart or through a secret tunnel.",
+   "rules": []
+  },
+  {
+   "id": "Background:Legendary Lineage",
+   "type": "Background",
+   "name": "Legendary Lineage",
+   "desc": "Athletics, History, Vehicles (Land), Language",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:History"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Good Reputation"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    },
+    {
+     "pf": [
+      "t:Vehicle’s land"
+     ]
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am polite and humble to all who fawn over me.",
+     "I’m sure you’ve heard of the great heroes of my family, but let me tell you anyway.",
+     "I am quiet in public and don’t enjoy being noticed.",
+     "I boast about how I will put my ancestors’ deeds to shame.",
+     "I am attracted to people who don’t fawn over me right away.",
+     "I often find reasons to excuse myself from large groups of people who love me for my name.",
+     "I am able to fake smile for anyone, even if I hate that person.",
+     "I always ask for people to give me free stuff because I can."
+    ],
+    "ideals": [
+     "Family. I intend to uphold my family name. (Lawful)",
+     "Superiority. I was born better than everyone and so I deserve better than everyone. (Evil)",
+     "Individuality. I am not my family’s name and will make my own legend. (Chaotic)",
+     "Leadership. I feel a call beyond my heritage to protect the people who look to me. (Good)",
+     "Aspiration. I want to make the people who believe in me proud. (Neutral)",
+     "Generosity. I was lucky to be born into this family and I will give back to those less fortunate. (Good)"
+    ],
+    "bonds": [
+     "I wield the same weapon my ancestor used.",
+     "No one knows the real me like my childhood best friend.",
+     "A parent won’t respect me until I make good on the family name.",
+     "I would do anything to protect the town where I grew up.",
+     "I have my eye on a quiet cottage to which I plan to retire.",
+     "I feel like the only person who really gets me is my dog."
+    ],
+    "flaws": [
+     "I can only handle so much fawning before I explode in anger.",
+     "If not praised constantly, I doubt myself.",
+     "If you speak ill of my ancestors, I will punch you in the face.",
+     "I prefer to have someone else fix my personal problems.",
+     "I put down others to boost my own confidence.",
+     "If something is fashionable, I will avoid it at all costs."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Good Reputation",
+   "type": "Background Feature",
+   "name": "Good Reputation",
+   "desc": "Since your family name is known, you can reap many benefits by flying the flag of your heritage. People in positions of power and privilege are willing to take a meeting with you and grant you favors. The DM decides the extent and effect of these favors, but they shouldn’t involve lavish gifts or great personal risk to the granter.",
+   "rules": []
+  },
+  {
+   "id": "Background:Polymorphed",
+   "type": "Background",
+   "name": "Polymorphed",
+   "desc": "Survival, Animal Handling / Deception, 2 Languages",
+   "rules": [
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency, Polymorphed",
+      "from": [
+       "Animal Handling",
+       "Deception"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "n": 2,
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:Kindred Spirit"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature",
+      "ids": [
+       "Background Feature:Variant Feature: Body Horror"
+      ]
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I am always fidgeting because I am uncomfortable.",
+     "I retained a rude physical behavior of my polymorphed form.",
+     "I obsess over my appearance and wear eccentric outfits.",
+     "I always judge the way others look.",
+     "I am unsure of what to say when people ask about me.",
+     "I often speak in my head by accident instead of aloud.",
+     "I find it’s easier to lie than give real personal details.",
+     "I must keep touching my body to reassure myself I’m in it."
+    ],
+    "ideals": [
+     "Freedom. People should be free to express who they are. (Chaotic)",
+     "Power. If it gets me what I want, I’ll manipulate anyone. (Evil)",
+     "Security. All people deserve a place where they feel at peace. (Good)",
+     "Beauty. All people should appreciate who they are. (Neutral)",
+     "Authority. If you respect authority, you will be protected. (Lawful)",
+     "Dog Eat Dog. To survive you must be the smartest or strongest. (Neutral)"
+    ],
+    "bonds": [
+     "I have altered my appearance to look like my polymorphed form.",
+     "Some friends I made in my polymorphed form don’t know I’ve been turned back.",
+     "I carry a piece of my old body.",
+     "The place where I spent most of my time while polymorphed is home to me.",
+     "I still haven’t seen my family since before I was polymorphed.",
+     "I still enjoy eating what I ate in my polymorphed form."
+    ],
+    "flaws": [
+     "I want to be back in my polymorphed form.",
+     "I sometimes believe I still possess abilities of my polymorphed form that I no longer have.",
+     "All transmutation magic is terrible and must be stopped.",
+     "I physically hurt myself for assurance I am in my true form",
+     "It’s easier to back down from an argument than try to convince someone I’m right.",
+     "The opinions of my friends are more important than my own."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:Kindred Spirit",
+   "type": "Background Feature",
+   "name": "Kindred Spirit",
+   "desc": "Nonhostile creatures of the same type as your polymorphed form are inclined to like you. These creatures might help guide you to a place if they know its location, provide you with shelter, or shield you from danger, provided they aren’t put directly into harm’s way.",
+   "rules": []
+  },
+  {
+   "id": "Background Feature:Variant Feature: Body Horror",
+   "type": "Background Feature",
+   "name": "Variant Feature: Body Horror",
+   "desc": "This feature is meant for games using the variant madness rules in chapter 8 of the Dungeon Master’s Guide. Before choosing this feature you must ask your DM. You have spent so much time in the form of another creature that you aren’t easily shocked by bodily manipulation and mutilation. Whenever such a sight would cause you to save against a madness effect you automatically succeed.",
+   "rules": []
+  },
+  {
+   "id": "Background:Retired Adventurer",
+   "type": "Background",
+   "name": "Retired Adventurer",
+   "desc": "History, Insight, Gaming Set, Language",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "select": {
+      "name": "Gaming Set, Retired Adventurer",
+      "type": "Tool"
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    },
+    {
+     "grant": "Background Feature:C-List Celebrity"
+    },
+    {
+     "select": {
+      "name": "Variant Feature",
+      "type": "Background Feature"
+     }
+    }
+   ],
+   "chars": {
+    "traits": [
+     "I have no idea how to tell a short story.",
+     "I’m sure of my first instincts and always act on them.",
+     "Anyone younger than I am needs my advice.",
+     "I don’t enjoy physical contact with others unless it is my fist in their faces.",
+     "I show my numerous scars to help drive points home.",
+     "When I laugh, the volume of my voice fills up the entire room.",
+     "Nothing pleases me more than a good meal, good company, and job well done.",
+     "I often correct others when their lack of manners offends me."
+    ],
+    "ideals": [
+     "Generosity. Everything I have I share with those around me and in need. (Good)",
+     "Good Times. I take advantage of every opportunity to have fun. (Chaotic)",
+     "Power. Those who don’t tremble at my name will have reason enough to do so soon. (Evil)",
+     "Logic. Emotions shouldn’t make decisions for us. (Lawful)",
+     "Greater Good. I would gladly give my life to defend those who can’t defend themselves. (Good)",
+     "Live and Let Live. Just because we disagree doesn’t mean we have to kill each other. (Neutral)"
+    ],
+    "bonds": [
+     "I never found that magic item I wanted in my early career.",
+     "There’s more than a few broken hearts in my past.",
+     "There is an inn I frequent where no one knows about my past life and I’d like to keep it that way.",
+     "I can’t go back to the town I accidentally partially leveled.",
+     "My old adventuring companions get together now and then to relive the good old days.",
+     "A famous song is actually about one of my greatest battles."
+    ],
+    "flaws": [
+     "I don’t take the advice of others because I know best always.",
+     "Violence solves most problems.",
+     "Ale is my very, very best friend.",
+     "I really don’t know when to shut up.",
+     "I tend to fall asleep at times when I should be alert.",
+     "I am sarcastic at all times, especially when least appropriate."
+    ]
+   }
+  },
+  {
+   "id": "Background Feature:C-List Celebrity",
+   "type": "Background Feature",
+   "name": "C-List Celebrity",
+   "desc": "Whenever you are in a civilized area that knows of you past adventures, you can live a aristocratic life style for free as people wish to honor your past deeds. You can also use your influence to gain audiences with important political figures and get random gifts from admiring fans. However if you choose to use your influence in this way, it also alerts anyone in the area looking for you of your location and draws attention to your party.",
+   "rules": []
+  }
+ ]
+}

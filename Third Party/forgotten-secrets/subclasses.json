@@ -1,0 +1,1317 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:The Accursed Archive",
+   "type": "Subclass",
+   "name": "The Accursed Archive",
+   "desc": "In every library there is a book that has never been read, a section that has never been seen, and a hallway that leads to nowhere – yet, you have managed...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Accursed Archive)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Tainted Knowledge (The Accursed Archive)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Written In Blood",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Vile Heresies",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Unspeakable Truths",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Detect Evil and Good",
+     "Inflict Wounds",
+     "Accursed Wish",
+     "Dark Secret",
+     "Blackened Heart",
+     "Blasphemy",
+     "Evards Black Tentacles",
+     "Forbidden Obelisk",
+     "Dispel Evil and Good",
+     "Legend Lore"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Ashen Wolf",
+   "type": "Subclass",
+   "name": "The Ashen Wolf",
+   "desc": "You’ve made a pact with a primal spirit of fire and the hunt – a scourge of the forests and fields, and a harbinger of ill fate. This creature is wise and...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Ashen Wolf)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Breath of Smoke",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Feast for the Fire",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Endless Pursuit",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Beast of the Burning End",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Hunter's Pace",
+     "Inflict Wounds",
+     "Flame Blade",
+     "Pass Without Trace",
+     "Funeral Pyre",
+     "Haste",
+     "Ashen Pack",
+     "Wall of Fire",
+     "Cloudkill",
+     "Hungering Hate"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Blackthorn Grove",
+   "type": "Subclass",
+   "name": "The Blackthorn Grove",
+   "desc": "You’ve torn out your heart as an offering to the Blackthorn Grove after braving the Maze of Blood and resisting the temptations of the Fields of Acedia. In...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Blackthorn Grove)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Blackthorn Heart",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Apathy is Death",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Arboreal Guardian",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Seeds of Destruction",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Hunter's Pace",
+     "Entangle",
+     "Heartripper",
+     "Replenish",
+     "Skewering Vines",
+     "Plant Growth",
+     "Bloodthorn",
+     "Cage of Briars",
+     "Tree Stride",
+     "Overwhelming Emotion"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Currency Conspiracy",
+   "type": "Subclass",
+   "name": "The Currency Conspiracy",
+   "desc": "Hushed whispers fill your mind, informing you that your memories are your own. You don’t quite understand what that means, but it seems that the Cabal may...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Currency Conspiracy)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Weight of Gilt",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Gilded Shadow",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Grand Design",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Conspirator's Veil",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Command",
+     "Identify",
+     "Arcane Lock",
+     "Knock",
+     "Clairvoyance",
+     "Glyph of Warding",
+     "Skin of Flint",
+     "Unspoken Agreement",
+     "Dominate Person",
+     "Teleportation Circle"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Eternal Citadel",
+   "type": "Subclass",
+   "name": "The Eternal Citadel",
+   "desc": "You’ve made a pact with the Eternal Citadel, a massive yet empty bastion that seems to wander between worlds, collecting travelers and releasing them once...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Eternal Citadel)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Righteous Guardian",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Force of Preservation",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Builder of Walls",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Bound to the Aeons",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Defy Ruin",
+     "Sanctuary",
+     "Arcane Lock",
+     "Warding Bond",
+     "Glyph of Warding",
+     "Tiny Hut",
+     "Resilient Sphere",
+     "Stoneskin",
+     "Passwall",
+     "Wall of Stone"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Fallen Exile",
+   "type": "Subclass",
+   "name": "The Fallen Exile",
+   "desc": "Stars beyond measure populate the void beyond the world while celestial spheres circle above. You have met with one of their number, cast down by the many...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Fallen Exile)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Cosmic Conduit",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Stardust Crusader",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Under the Night Sky",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Astrological Savant",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Color Spray",
+     "Faerie Fire",
+     "Continual Flame",
+     "See Invisibility",
+     "Blink",
+     "Daylight",
+     "Divination",
+     "Greater Invisibility",
+     "Dispel Evil and Good",
+     "Falling Star"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Forbidden Graveyard",
+   "type": "Subclass",
+   "name": "The Forbidden Graveyard",
+   "desc": "You’ve stepped into the Forbidden Graveyard, a sanctuary found on the boundary between life and death, where the rare few whose minds are attuned to this...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Forbidden Graveyard)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Rejection of the Crypt",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Ghoulish Constitution",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Keeper of Souls",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Fear the Reaper",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Inflict Wounds",
+     "Mend Flesh",
+     "See Invisibility",
+     "Suffer",
+     "Phantom Steed",
+     "Sending",
+     "Phantasmal Killer",
+     "Dark Empowerment",
+     "Hallow",
+     "Legend Lore"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Gelatinous Convocation",
+   "type": "Subclass",
+   "name": "The Gelatinous Convocation",
+   "desc": "You’ve made a pact with the cheerful wandering cubes of sentient ooze that wiggle and wobble their way across the multiverse. They visit worlds beyond...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Gelatinous Convocation)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Recovered Memories",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Cheerful Friend",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Side Splitting",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Acidic Body",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Consuming Joy",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Grease",
+     "Tashas Hideous Laughter",
+     "Melfs Acid Arrow",
+     "Enlarge Reduce",
+     "Meld Into Stone",
+     "Water Walk",
+     "Stone Shape",
+     "Slime Sphere",
+     "Summon Slime",
+     "Wall of Ooze"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Gray Portrait",
+   "type": "Subclass",
+   "name": "The Gray Portrait",
+   "desc": "Your dedication to art and beauty has led you to discover the art of creating a Gray Portrait: an artifact that your soul and body are bound to that...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Gray Portrait)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bound to the Portrait",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Hunger Within",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:The Painted World",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:The Canvas of Reality",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Color Spray",
+     "Sanctuary",
+     "Calm Emotions",
+     "Enhance Ability",
+     "Glyph of Warding",
+     "Sending",
+     "Death Ward",
+     "Stone Shape",
+     "Mislead",
+     "Seeming"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Keeper of the Depths",
+   "type": "Subclass",
+   "name": "The Keeper of the Depths",
+   "desc": "You’ve made a pact with an ancient oceanic entity known as the Keeper of the Depths. As life teems within the seas, so do the secrets of the forgotten ages...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Keeper of the Depths)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Secrets of the Lost",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Sailor's Nightmare",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Madness of the Deep",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Hunger for Knowledge",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Identify",
+     "Sleep",
+     "Locate Object",
+     "Zone of Truth",
+     "Crushing Tide",
+     "Luring Light",
+     "Control Water",
+     "Sleepwalking",
+     "Forgotten Pain",
+     "Legend Lore"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Perfect Chord",
+   "type": "Subclass",
+   "name": "The Perfect Chord",
+   "desc": "You have heard the most sublime sound in the world, and it has changed you forever. You’ve taken the resonance into your beating heart and it has brought...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Perfect Chord)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Seeker of the Sound",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Instrument of the Chord",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Voice of the Maestro",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:The Grand Finale",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Shrill Whistle",
+     "Thunderwave",
+     "Knock",
+     "Silence",
+     "Beacon of Hope",
+     "Resonance",
+     "Compulsion",
+     "Shattersong",
+     "Animate Objects",
+     "Awaken"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Serpent Empress",
+   "type": "Subclass",
+   "name": "The Serpent Empress",
+   "desc": "Situated within her palace of gold and turquoise, the Serpent Empress sleeps in serene silence, guiding her slaves to serve in her secret business. Envious...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Serpent Empress)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Blessing of the Empress",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Hair of Snakes",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Toxic Blood",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Gaze of the Goddess",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Command",
+     "Ray of Sickness",
+     "Protection From Poison",
+     "Silence",
+     "Feign Death",
+     "Venom Blast",
+     "Compulsion",
+     "Serpentine Ward",
+     "Cloudkill",
+     "Constriction"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Shadowcat",
+   "type": "Subclass",
+   "name": "The Shadowcat",
+   "desc": "Your patron is an otherworldly incarnation of fate that strides between planes; a living omen of ill luck and good fortune alike. Drawn to the dreams of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Shadowcat)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Dream Stalker",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Stolen Luck",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Umbral Leap",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Dark Apparition",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Duskwalk",
+     "Feather Fall",
+     "Shadow Armor",
+     "Silence",
+     "Dark",
+     "Nondetection",
+     "Greater Invisibility",
+     "Unseen Claw",
+     "Creation",
+     "Shadow World"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Storm Lord",
+   "type": "Subclass",
+   "name": "The Storm Lord",
+   "desc": "You’ve made a pact with an ancient power known as the Storm Lord. Massive and timeless, this godlike entity sails the winds of the void through the darkest...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Storm Lord)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Majesty of the Cloud Ruler",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Breath of the Gale",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Rider of Lightning",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Slayer of the King",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Fog Cloud",
+     "Thunderwave",
+     "Gust of Wind",
+     "Skystrike",
+     "Call Lightning",
+     "Wind Wall",
+     "Ice Storm",
+     "Windblade",
+     "Storm's Eye",
+     "Unstoppable Ascent"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Warrior Saint",
+   "type": "Subclass",
+   "name": "The Warrior Saint",
+   "desc": "You've made a pact with the Warrior-Saint, one of the great champions of the multiverse. This ancient being acts as an enforcer of the cosmic balance - law...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Warrior Saint)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Blind Justicar",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Treasures of Past Ages",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Hands of the Saint",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Guardian of Balance",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Detect Evil and Good",
+     "Searing Smite",
+     "Enlarge Reduce",
+     "Enhance Ability",
+     "Blinding Smite",
+     "Protection From Energy",
+     "Aura of Life",
+     "Stoneskin",
+     "Angelic Rebuke",
+     "Banishing Smite"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Weaver of Lies",
+   "type": "Subclass",
+   "name": "The Weaver of Lies",
+   "desc": "The speech of a god is the act of creation itself, but what happens when the gods lie? The small accumulated deceptions come together, forming a creature of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Weaver of Lies)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Poisoned Mind",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:A Touch on the Web",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Trickster's Dance",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Walk Into My Parlor",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Alarm",
+     "Ray of Sickness",
+     "Silence",
+     "Web",
+     "Feign Death",
+     "Nondetection",
+     "Compulsion",
+     "Phantasmal Killer",
+     "Modify Memory",
+     "Insect Plague"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Wild Huntsman",
+   "type": "Subclass",
+   "name": "The Wild Huntsman",
+   "desc": "You’ve made a pact with the Wild Huntsman, a dark incarnation of the predatory nature of man. Cursed with a bitter chill that can only be shaken by the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List (The Wild Huntsman)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Huntsman's Disciple",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Black Ice",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Pale Rider",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Hounds of the Hunt",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Fimbulwinter",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Hunters Mark",
+     "Hunter's Pace",
+     "Pass Without Trace",
+     "Wolfbane Trap",
+     "Frozen Lance",
+     "Haste",
+     "Dominate Beast",
+     "Locate Creature",
+     "Cone of Cold",
+     "Nemesis"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Path of the Accursed",
+   "type": "Subclass",
+   "name": "Path of the Accursed",
+   "desc": "There is a place beyond time, filled with malignant intelligence and ruinous intent. This is the Accursed Archive – the singular repository of all knowledge...",
+   "rules": [
+    {
+     "grant": "Class Feature:The Lurking Fear",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:From Beyond",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:The Thing On The Doorstep",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:What The Moon Brings",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:Path of the Mercurial",
+   "type": "Subclass",
+   "name": "Path of the Mercurial",
+   "desc": "Your rage is not rage at all. Instead, you are filled with a malicious spite that runs wild within your veins, bringing a cruel smile to your face and...",
+   "rules": [
+    {
+     "grant": "Class Feature:Cheshire Grin",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Down the Rabbit Hole",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Looming Shadow",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:All that Remains",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:College of Harbingers",
+   "type": "Subclass",
+   "name": "College of Harbingers",
+   "desc": "Bards of the College of Harbingers are disciples of the Storm Lord, an otherworldly entity that sails between the skies of countless worlds, consuming the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Rite of Passage",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Black Sky Song",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Thunderstruck",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:The Unfallen Kingdom",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:College of Portraiture",
+   "type": "Subclass",
+   "name": "College of Portraiture",
+   "desc": "Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Master Artisian",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Living Exhibition",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Legion’s Defense",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Personal Unity",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:Discordant",
+   "type": "Subclass",
+   "name": "Discordant",
+   "desc": "In battle, blades clash and ring, shields break and snap, warriors yell and scream, and beneath it all, the sound of violence reigns supreme. One sound,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Ring the Blade",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hear the Silence",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Defy Harmony",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Shatter Syncronicity",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Strike Unhindered",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:As Perfect Imperfection",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Timeless Monumental",
+   "type": "Subclass",
+   "name": "Timeless Monumental",
+   "desc": "Wandering between worlds, a massive fortress known as the Eternal Citadel collects forlorn travelers, hermits, and sole survivors to work in its service....",
+   "rules": [
+    {
+     "grant": "Class Feature:Statuesque Physique",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Gaze of Eternity",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Witness to Ruin",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Radiance of the Spire",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Titan’s Virtue",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Price of Preservation",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Way of the Black Star",
+   "type": "Subclass",
+   "name": "Way of the Black Star",
+   "desc": "The night sky has offered peace and solace in times of turmoil, exposing the insignificance of those who walk upon the earth, yet you do not call out for...",
+   "rules": [
+    {
+     "grant": "Class Feature:Void Blade",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Moonlight Techniques",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Acolyte of the Lost Sun",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Starlight Techniques",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Open Soul",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Sunless Techniques",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Otherworldly Knowledge",
+     "level": 17
+    },
+    {
+     "grant": "Class Feature:Eclipse Techniques",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Way of the Noble Serpent",
+   "type": "Subclass",
+   "name": "Way of the Noble Serpent",
+   "desc": "By lineage or accident of fate, spiritual enlightenment or inner turmoil, you’ve taken your first steps down the path of a servant of the Serpent Empress, a...",
+   "rules": [
+    {
+     "grant": "Class Feature:Constricting Vice",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ophidian Stance",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Eyes of the Empress",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Basilisk Venom",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of Avarice",
+   "type": "Subclass",
+   "name": "Oath of Avarice",
+   "desc": "Wealth is the availability of goods and services, and thus is a representation of both power and opportunity. A wealthy benefactor can save a civilization,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells (Oath of Avarice)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Avarice)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Investment",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rate of Exchange",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Hidden Agenda",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Alarm",
+      "Charm Person"
+     ],
+     "5": [
+      "Knock",
+      "Sinister Threat"
+     ],
+     "9": [
+      "Blackened Heart",
+      "Detect Interference"
+     ],
+     "13": [
+      "Invitation",
+      "Unspoken Agreement"
+     ],
+     "17": [
+      "Nemesis",
+      "Overwhelming Emotion"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of Judgment",
+   "type": "Subclass",
+   "name": "Oath of Judgment",
+   "desc": "You have sworn to balance the cosmic scales of the universe, following in the footsteps of the Warrior-Saint, an immortal justiciar who fights to maintain...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells (Oath of Judgment)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Judgment)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Censure",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:From Whence You Came",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Cosmic Executioner",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "1": [
+      "Detect Evil and Good",
+      "Hellish Rebuke"
+     ],
+     "3": [
+      "Calm Emotions",
+      "Zone of Truth"
+     ],
+     "5": [
+      "Bestow Curse",
+      "Blink"
+     ],
+     "7": [
+      "Banishment",
+      "Dimension Door"
+     ],
+     "9": [
+      "Dispel Evil and Good",
+      "Legend Lore"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Hound of the Huntsman",
+   "type": "Subclass",
+   "name": "Hound of the Huntsman",
+   "desc": "In your life, you’ve slain a creature great and terrible, whether by design or by the twisting turns of fate, showing the mastery of mortals over the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Huntsman’s Arcana",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Spiritual Curse",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Cold Iron",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Rend Asunder",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Hunter’s Call",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Lord of the Beast Within",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Graverobber",
+   "type": "Subclass",
+   "name": "Graverobber",
+   "desc": "You’ve nearly died. Sometime recently, or earlier in your life, you’ve fallen to the brink of death and felt your heartbeat stop. In that moment, far from...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spirit Mending",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Soul Thief",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Whisper to the Fallen",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Hangman’s Dance",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:No Rest for the Wicked",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Spidertouched",
+   "type": "Subclass",
+   "name": "Spidertouched",
+   "desc": "There are many assassins, spies, and tricksters throughout the endless planes who take on the motif of a spider as their symbol, but you are one of the few...",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Traitor",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arachnid’s Fang",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Subtle Stride",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Twitch on the Web",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Skittering Nightmare",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue"
+  },
+  {
+   "id": "Subclass:Ashen Lineage",
+   "type": "Subclass",
+   "name": "Ashen Lineage",
+   "desc": "Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. This elemental...",
+   "rules": [
+    {
+     "grant": "Class Feature:Origin Spells (Ashen Lineage)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Born of Ember",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Burning Fury",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Cinderwraith",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:The Wolf's Bargain",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer"
+  },
+  {
+   "id": "Subclass:Blackthorn Lineage",
+   "type": "Subclass",
+   "name": "Blackthorn Lineage",
+   "desc": "Somewhere in your lineage, an ancestor entered and made a pact with the Blackthorn Grove, replacing their heart with one crafted from the essence of the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Origin Spells (Blackthorn Lineage)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Blood of The Dark Forest",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Sleeper In The Field",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Glade Reaper",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Watcher In The Maze",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Heart of The Wilderness",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer",
+   "expandedList": {
+    "class": "Sorcerer",
+    "spells": [
+     "Druid"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Dream Cartography",
+   "type": "Subclass",
+   "name": "Dream Cartography",
+   "desc": "The sleeping mind stares out into an endless vista, stitching together the thoughts and actions of the day into dreams. Yet, in a world of magic, especially...",
+   "rules": [
+    {
+     "grant": "Class Feature:Dreamscape Spellbook",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Upon the Veil of Night",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Descent into the Depths",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:In the Place Beyond",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:The End of Sleep",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:Esoteric Plasmology",
+   "type": "Subclass",
+   "name": "Esoteric Plasmology",
+   "desc": "It is common for one to ask a disciple of this tradition: “Are you a wizard that casts ooze-related spells, or an ooze that is a wizard?”",
+   "rules": [
+    {
+     "grant": "Class Feature:Primodial Form",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Simply Slippery",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Weird Magic",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Caustic Velocity",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Cheerful Recollection",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  }
+ ]
+}

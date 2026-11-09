@@ -1,0 +1,19 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "cofsa",
+  "name": "The Compendium of Forgotten Secrets",
+  "short": "COFSA"
+ },
+ "files": [
+  "races.json",
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "spells.json",
+  "magic-items.json",
+  "feats.json",
+  "info.json"
+ ]
+}

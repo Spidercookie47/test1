@@ -1,0 +1,114 @@
+Converted: 5 Background, 6 Background Feature, 207 Class Feature, 6 Magic, 1 Race, 5 Racial Trait, 2 Sub Race, 25 Subclass
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (48)
+  Sanguine Scent: sanguine scent
+  Blood of the Pack: blood of the pack
+  Spellcasting: path of sacred kin
+  Celestial: ancestral origin
+  Demonic: ancestral origin
+  Draconic: ancestral origin
+  Aberrant: ancestral origin
+  Thunder: ancestral origin
+  Radiant: ancestral origin
+  Necrotic: ancestral origin
+  Poison: ancestral origin
+  Cold: ancestral origin
+  Fire: ancestral origin
+  Lightning: ancestral origin
+  Psychic: ancestral origin
+  Force: ancestral origin
+  Supernatural Fury: supernatural fury
+  Ancestry Points: ancestry points
+  Dread Parade: dread parade
+  Bonus Proficiency: nature, survival
+  Stand the Fallen: stand the fallen
+  Fade Rot: fade rot
+  Wildflame: wildflame
+  Line Breaker: line breaker
+  Runecraft: runeguard, runic augmentation
+  Hagr, Ond: hagr-ond
+  Hagr, Vind: hagr-vind
+  Atonement: atonement dice
+  Empathy: empathy
+  Bonus Proficiencies: deception, intimidation, persuasion
+  Perfect Domination: perfect domination
+  Hand of Manipulation: hand of manipulation
+  Favor the Bold: favor the bold
+  Trail of Trouble: investigation, perception
+  Safety in Numbers: safety in numbers
+  Spellcasting: divine herald
+  Harbinger of Faith: harbinger of faith
+  Nature’s Armor: natures armor
+  Planar Vertigo: planar vertigo
+  Dao: genie patronage
+  Djinni: genie patronage
+  Efreeti: genie patronage
+  Marid: genie patronage
+  Gen Vizier: gen vizier
+  Bargain of Power: gen vizier
+  Elemental Attunement: elemental attunement
+  Sneak Spell: sneak spell
+  Counter-Weave: counter-weave
+
+== subclass spellcasting generated (check the key names against your Eldritch Knight) (2)
+  Path of Sacred Kin
+  Divine Herald
+
+== selects not understood (20)
+  Spellcasting: Spell supports="Sorcerer, 0" matched nothing in this pack (maybe other pack)
+  Celestial: Archetype Feature supports="ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_THUNDER|ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_RADIANT" matched nothing in this pack (maybe other pack)
+  Demonic: Archetype Feature supports="ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_NECROTIC|ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_POISON" matched nothing in this pack (maybe other pack)
+  Draconic: Archetype Feature supports="ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_COLD|ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_FIRE|ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_LIGHTNING" matched nothing in this pack (maybe other pack)
+  Aberrant: Archetype Feature supports="ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_PSYCHIC|ID_XLN_ARCHETYPE_FEATURE_ANCESTRAL_ORIGINS_DAMAGETYPE_FORCE" matched nothing in this pack (maybe other pack)
+  Metamagic: Class Feature supports="Metamagic" matched nothing in this pack (maybe other pack)
+  Bonus Cantrip: Spell supports="Druid, 0" matched nothing in this pack (maybe other pack)
+  Runecraft: Archetype Feature supports="Runeguard Runic Augmentations, !Tal" matched nothing in this pack (maybe other pack)
+  Spellcasting: Spell supports="Cleric,0" matched nothing in this pack (maybe other pack)
+  Arcanist Investigator: Proficiency supports="Weapon, Simple, Melee"
+  Creation Savant: Spell supports="Cleric, 0" matched nothing in this pack (maybe other pack)
+  Creation Savant: Spell supports="Cleric, 1" matched nothing in this pack (maybe other pack)
+  Overheal: Spell supports="Cleric, 2" matched nothing in this pack (maybe other pack)
+  Overheal: Spell supports="Cleric, 3" matched nothing in this pack (maybe other pack)
+  Overheal: Spell supports="Cleric, 4" matched nothing in this pack (maybe other pack)
+  Overheal: Spell supports="Cleric, 5" matched nothing in this pack (maybe other pack)
+  Dead: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Heretic: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Legendary Lineage: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+  Retired Adventurer: Background Feature supports="Optional Background Feature" matched nothing in this pack (maybe other pack)
+
+== ids not in this pack (assumed to be in another pack, check the name) (8)
+  Language:Celestial  (from ID_LANGUAGE_CELESTIAL)
+  Language:Abyssal  (from ID_LANGUAGE_ABYSSAL)
+  Language:Draconic  (from ID_LANGUAGE_DRACONIC)
+  Language:Deep Speech  (from ID_LANGUAGE_DEEP_SPEECH)
+  Language:Sylvan  (from ID_LANGUAGE_SYLVAN)
+  Language:Druidic  (from ID_LANGUAGE_DRUIDIC)
+  Language:Primordial  (from ID_LANGUAGE_PRIMORDIAL)
+  Language:Common  (from ID_LANGUAGE_COMMON)
+
+== damage resistances (no pack field for characters, the text already says it) (10)
+  Mask of the Spiritlord, Earth Spirit: poison
+  Mask of the Spiritlord, Fire Spirit: fire
+  Mask of the Spiritlord, Water Spirit: cold
+  Mask of the Spiritlord, Wind Spirit: lightning
+  Mask of the Spiritlord, Light Spirit: radiant
+  Mask of the Spiritlord, Shadow Spirit: necrotic
+  Elemental Attunement: poison
+  Elemental Attunement: lightning
+  Elemental Attunement: fire
+  Elemental Attunement: cold
+
+== grants of other kinds (skipped) (1)
+  Feyblood: Size ID_SIZE_MEDIUM
+
+== grants pointing outside these packs (needs another pack) (9)
+  Class Feature:Celestial -> Language:Celestial
+  Class Feature:Demonic -> Language:Abyssal
+  Class Feature:Draconic -> Language:Draconic
+  Class Feature:Aberrant -> Language:Deep Speech
+  Class Feature:Wild Knowledge -> Language:Sylvan
+  Class Feature:Sylvan Embrace -> Language:Druidic
+  Class Feature:Noble Patronage -> Language:Primordial
+  Race:Feyblood -> Language:Common
+  Race:Feyblood -> Language:Sylvan
+

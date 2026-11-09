@@ -1,0 +1,34 @@
+Converted: 1 Class, 57 Class Feature, 4 Subclass
+
+== class starting equipment (not converted, add `start` by hand) (1)
+  Weaveshaper
+
+== custom Aurora stats not converted (counters/DCs/formulas, make resources by hand) (23)
+  Threadblade: threadblade
+  Infusion: ac
+  Weave Finishers: weaveshaper
+  Ribbon Cutter: ribbon cutter
+  Renaissance Regular: renaissance regular
+  Shuttle Step: speed
+  Unstoppable Duo: strength
+  Rise as One: renaissance regular
+  Fearless Flight: speed
+  Tome of Blades: threadblade
+  Heaven Piercer: heaven piercer
+  Grasping Dark: speed
+  Restitch: restitch
+  Ribbon Lash: ribbon lash
+  Flicker Strike: flicker strike
+  Dueling Ascent: dueling ascent
+  Sky Slayer: sky slayer
+  Reaping Wind: reaping wind
+  Rising Devil: rising devil
+  Dragon’s Maw: dragons maw
+  Soul Sever: soul sever
+  Omnicleave: omnicleave
+  Shadow Assault: shadow assault
+
+== damage resistances (no pack field for characters, the text already says it) (2)
+  Galactic Body: necrotic
+  Galactic Body: radiant
+

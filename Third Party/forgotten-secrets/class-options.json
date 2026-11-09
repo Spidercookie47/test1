@@ -1,0 +1,225 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:The Chariot",
+   "type": "Class Feature",
+   "name": "The Chariot",
+   "desc": "When you take the Attack action, you can take the Dash action as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Death",
+   "type": "Class Feature",
+   "name": "Death",
+   "desc": "You gain proficiency in death saving throws.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Emperor",
+   "type": "Class Feature",
+   "name": "The Emperor",
+   "desc": "Fire, cold and lightning damage you deal ignores resistance.",
+   "rules": []
+   "id": "Class Feature:The Fool",
+   "type": "Class Feature",
+   "name": "The Fool",
+   "desc": "Whenever you cast a spell that does not deal damage, you can take the Disengage action as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Hanged Man",
+   "type": "Class Feature",
+   "name": "The Hanged Man",
+   "desc": "You gain advantage on ability checks and saving throws to see through illusions.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Lovers",
+   "type": "Class Feature",
+   "name": "The Lovers",
+   "desc": "You have advantage on saving throws against the charmed condition.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Magician",
+   "type": "Class Feature",
+   "name": "The Magician",
+   "desc": "Your spells of 1st level and higher ignore half and three-quarters cover so long as there is nothing between the sky and the target.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Sun",
+   "type": "Class Feature",
+   "name": "The Sun",
+   "desc": "You can cast feather fall at will without expending a spell slot, and you gain immunity to falling damage.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Feather Fall",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Temperance",
+   "type": "Class Feature",
+   "name": "Temperance",
+   "desc": "You gain advantage on Wisdom (Insight) checks made to discern the motives of creatures.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Tower",
+   "type": "Class Feature",
+   "name": "The Tower",
+   "desc": "Damage you deal to unattended objects is tripled.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The World",
+   "type": "Class Feature",
+   "name": "The World",
+   "desc": "You learn one cantrip on the wizard spell list and it counts as a warlock cantrip for you. You can replace this cantrip with a different one from the wizard spell list whenever you finish a long rest.",
+   "rules": [
+    {
+     "select": {
+      "name": "Cantrip (The World)",
+      "type": "Spell"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:The Devil",
+   "type": "Class Feature",
+   "name": "The Devil",
+   "desc": "You have advantage on Persuasion checks.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Empress",
+   "type": "Class Feature",
+   "name": "The Empress",
+   "desc": "When you finish a short or long rest, you gain temporary hit points equal to half your warlock level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Hierophant",
+   "type": "Class Feature",
+   "name": "The Hierophant",
+   "desc": "You can cast water walk at will targeting only yourself without expending a spell slot. You also gain resistance to fire and acid damage.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Water Walk",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:Justice",
+   "type": "Class Feature",
+   "name": "Justice",
+   "desc": "Whenever you cast a spell using a spell slot, you regain hit points equal to the level of the spell slot expended.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Moon",
+   "type": "Class Feature",
+   "name": "The Moon",
+   "desc": "You can cast enlarge/reduce without expending a spell slot. Once you do so, you can’t do so again until you finish a short or long rest.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Enlarge Reduce",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Class Feature:The Priestess",
+   "type": "Class Feature",
+   "name": "The Priestess",
+   "desc": "While this Constellation is selected, your hit point maximum increases by your warlock level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Star",
+   "type": "Class Feature",
+   "name": "The Star",
+   "desc": "As a bonus action, you can choose to end the charmed or frightened condition on yourself. Once you do so, you can’t do so again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Strength",
+   "type": "Class Feature",
+   "name": "Strength",
+   "desc": "You count as one size larger when determining carrying capacity, lifting, grappling, and shoving.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Wheel of Fortune",
+   "type": "Class Feature",
+   "name": "The Wheel of Fortune",
+   "desc": "As a bonus action, you can create items worth 25 gp or less. They persist until you use this ability again.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Blade",
+   "type": "Class Feature",
+   "name": "The Blade",
+   "desc": "You gain proficiency in medium armor and shields. Whenever you are targeted with a spell while wielding your Pact weapon, you can use a reaction to make a Charisma saving throw with disadvantage against the caster's spell save DC. If you succeed, you can choose to have the spell target another valid creature of your choosing within range.",
+   "rules": [
+    {
+     "pf": [
+      "a:Medium armor",
+      "a:Shields"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:The Chain",
+   "type": "Class Feature",
+   "name": "The Chain",
+   "desc": "You can use your reaction to grant your familiar immunity to one type of damage for one minute.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Tome",
+   "type": "Class Feature",
+   "name": "The Tome",
+   "desc": "Whenever you are attacked, you can cast a spell or cantrip with a range of self as a reaction before the result is revealed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Blade of Balance",
+   "type": "Class Feature",
+   "name": "The Blade of Balance",
+   "desc": "Whenever you cast a cantrip while wielding your Pact weapon, you can make a single attack with it as a bonus action. Additionally, you gain proficiency in heavy armor.",
+   "rules": [
+    {
+     "pf": [
+      "a:Heavy armor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:The Chain of Balance",
+   "type": "Class Feature",
+   "name": "The Chain of Balance",
+   "desc": "Your familiar can make attacks without you taking the Attack action. It gains a bonus to attack and damage rolls equal to your Charisma modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:The Tome of Balance",
+   "type": "Class Feature",
+   "name": "The Tome of Balance",
+   "desc": "Whenever you've cast a spell that requires concentration and affects only allies or yourself, you can temporarily dismiss it as a bonus action. During that time, it has no effect and does not require concentration. You can resume the spell as a bonus action.",
+   "rules": []
+  }
+ ]
+}

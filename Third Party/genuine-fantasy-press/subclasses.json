@@ -1,0 +1,120 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Crimson Couturier",
+   "type": "Subclass",
+   "name": "Crimson Couturier",
+   "desc": "Your tapestry manifests as an eye of living thread and arcane intelligence, bound to your infusion. It is sentient and can speak with you, though it is...",
+   "rules": [
+    {
+     "grant": "Class Feature:Couturier Arts (Crimson Couturier)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Fresh Blood",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Unstoppable Duo",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Rise as One",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Fearless Flight",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Weaveshaper"
+  },
+  {
+   "id": "Subclass:Mortal Couturier",
+   "type": "Subclass",
+   "name": "Mortal Couturier",
+   "desc": "You are different from other weaveshapers. You view your threadblade as the ultimate accessory, so you seek to master every form it can take. You store your...",
+   "rules": [
+    {
+     "grant": "Class Feature:Couturier Arts (Mortal Couturier)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Tome of Blades",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Shards of Light",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Illusory Evasion",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Glory Eternal",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Weaveshaper"
+  },
+  {
+   "id": "Subclass:Starspiral Couturier",
+   "type": "Subclass",
+   "name": "Starspiral Couturier",
+   "desc": "Your tapestry is woven from the light of the stars themselves, forming an armor around your body. It is strangely mechanical, yet smooth and comforting....",
+   "rules": [
+    {
+     "grant": "Class Feature:Couturier Arts (Starspiral Couturier)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Face of War",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Massive Machine",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Galactic Body",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Heaven Piercer",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Weaveshaper"
+  },
+  {
+   "id": "Subclass:Shadowsilk Couturier",
+   "type": "Subclass",
+   "name": "Shadowsilk Couturier",
+   "desc": "Your tapestry is far closer to its namesake than most others, manifesting as a cloak embroidered with razor-sharp blades and imbued with potent illusion...",
+   "rules": [
+    {
+     "grant": "Class Feature:Couturier Arts (Shadowsilk Couturier)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Cloak of Blades",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Hidden Agenda",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Grasping Dark",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Shadow Dance",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Weaveshaper"
+  }
+ ]
+}

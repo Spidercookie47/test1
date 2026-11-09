@@ -1,0 +1,167 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Loombreaker",
+   "type": "Class Feature",
+   "name": "Loombreaker",
+   "desc": "Your threadblade manifests as a massive, impossible melee weapon that deals 1d12 slashing damage. While you are wielding this weapon, your attacks with it during your turn have a reach of 10 feet, and your melee attacks targeting prone creatures ignore all sources of disadvantage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Scissorblade",
+   "type": "Class Feature",
+   "name": "Scissorblade",
+   "desc": "Your threadblade manifests as a singular melee weapon that deals 1d10 slashing damage. After making an attack with this weapon targeting a creature, you move to any space of your choosing within 5 feet of the target without provoking opportunity attacks.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Knitting Needles",
+   "type": "Class Feature",
+   "name": "Knitting Needles",
+   "desc": "Your threadblade manifests as a pair of edged melee weapons that deal 2d4 piercing damage. You always attack with them simultaneously, and can’t engage in standard two-weapon fighting using these weapons. Once per turn when you hit a creature with this threadblade, you can bind it, reducing its movement speed by 10 feet until the end of its next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Pin Cushion",
+   "type": "Class Feature",
+   "name": "Pin Cushion",
+   "desc": "Your threadblade manifests as a mass of floating blades that hover in your space. This melee weapon deals 1d8 piercing damage, and you can use it to make ranged weapon attacks targeting creatures within 30 feet of you. When you hit a creature with an attack made using this weapon, you can drag the target up to 10 feet closer to you, or push it up to 10 feet directly away from you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Steelweave Strikers",
+   "type": "Class Feature",
+   "name": "Steelweave Strikers",
+   "desc": "Your threadblade manifests as bladed gauntlets and sabatons that deal 1d10 piercing damage. These melee weapons can’t be used to make unarmed strikes. After making an attack with this threadblade, you can exchange places with your target if there is sufficient space for each of you. This movement does not provoke opportunity attacks.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Restitch",
+   "type": "Class Feature",
+   "name": "Restitch",
+   "desc": "1 Arcane String\n\nYou repair and strengthen your infusion, granting you temporary hit points equal to your weaveshaper level + your Weave Tier, which last until you roll initiative.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Ribbon Lash",
+   "type": "Class Feature",
+   "name": "Ribbon Lash",
+   "desc": "2 Arcane Strings\n\nMake a melee attack with your threadblade or an accessory weapon granted by this class targeting a creature with a reach of 30 feet. If you hit, your target takes an extra 2d4 slashing damage and must make a Strength saving throw. If it fails, it is thrown 10 feet horizontally in a direction of your choosing.\n\nHigher Tiers: The extra slashing damage increases by 1d4 and the target is thrown another 5 feet if it fails its saving throw per Weave Tier you possess above 1.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Flicker Strike",
+   "type": "Class Feature",
+   "name": "Flicker Strike",
+   "desc": "2 Arcane Strings\n\nYou teleport up to 15 feet to an unoccupied location you can see and make a melee spell attack targeting a creature within your reach. If you hit, your target takes 1d8 radiant damage and must make a Wisdom saving throw. If it fails, it is blinded until the start of your next turn.\n\nHigher Tiers: The force damage increases by 1d8 and the distance you can teleport increases by 15 feet per Weave Tier you possess above 1.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Vindicator Slash",
+   "type": "Class Feature",
+   "name": "Vindicator Slash",
+   "desc": "2 Arcane Strings\n\nYou tear at the arcana around you, cutting the air. Choose a creature you can see within 30 feet of you. The target must make a Dexterity saving throw. If it fails, it takes 1d10 slashing damage and is knocked prone.\n\nHigher Tiers: The slashing damage increases by 1d10 per Weave Tier you possess above 1.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Killing Intent",
+   "type": "Class Feature",
+   "name": "Killing Intent",
+   "desc": "2 Arcane Strings\n\nYou manifest pure, deadly intention towards a creature you can see within 60 feet of you. Each creature in a 5-foot line between you and your target must make a Wisdom saving throw. If a creature fails, it is shunted to the nearest open space of its choosing outside the line of effect. If no creatures remain between you and your target, your target takes 1d10 psychic damage and must make a Wisdom saving throw. If it fails, it is frightened of you until the end of your next turn.\n\nHigher Tiers: The psychic damage increases by 1d10 per Weave Tier you possess above 1.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Dueling Ascent",
+   "type": "Class Feature",
+   "name": "Dueling Ascent",
+   "desc": "Prerequisite: 6th level\n\n3 Arcane Strings\n\nMake a melee spell attack targeting a creature within your threadblade’s reach. If you hit, you launch it 20 feet straight into the air. You can immediately choose to follow it into the air and make one melee attack with your threadblade. If your target hits a ceiling, it takes falling damage as though it had fallen the remaining distance, then falls to the ground.\n\nHigher Tiers: The target is hurled another 10 feet higher per Weave Tier you possess above 2.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Sky Slayer",
+   "type": "Class Feature",
+   "name": "Sky Slayer",
+   "desc": "Prerequisite: 6th level\n\n3 Arcane Strings\n\nYou teleport up to 30 feet into the air above a point within 15 feet of you, then unleash a lightning-infused slash at the ground below. Creatures within 5 feet of the point must make a Dexterity saving throw. If they fail, they take 3d10 lightning damage, or half as much damage on a success.\n\nHigher Tiers: The lightning damage increases by 1d10 per Weave Tier you possess above 2.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Reaping Wind",
+   "type": "Class Feature",
+   "name": "Reaping Wind",
+   "desc": "Prerequisite: 6th level\n\n3 Arcane Strings\n\nYou launch yourself up to 30 feet in a direction of your choosing. Each hostile creature within 5 feet of your path must make a Dexterity saving throw. If a creature fails, it takes 3d8 slashing damage, or half as much damage on a success.\n\nHigher Tiers: The slashing damage increases by 1d8 per Weave Tier you possess above 2.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Phoenix Wings",
+   "type": "Class Feature",
+   "name": "Phoenix Wings",
+   "desc": "Prerequisite: 6th level\n\n3 Arcane Strings\n\nYou unleash a blast of fire in a 10-foot sphere centered on you, then fly up to 30 feet. Unattended objects and hostile creatures within this sphere take 2d4 fire damage, and you gain temporary hit points equal to your Weave Tier.\n\nHigher Tiers: The fire damage increases by 1d4 per Weave Tier you possess above 2.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Rising Devil",
+   "type": "Class Feature",
+   "name": "Rising Devil",
+   "desc": "Prerequisite: 6th level\n\n3 Arcane Strings\n\nYou stab the ground with your threadblade, and a pillar of pure arcane energy that is 30 feet high and 10 feet across bursts forth from the ground at a location you can see within 30 feet of you. Each creature within the space must make a Dexterity saving throw. If a creature fails, it takes 3d10 force damage and is pushed to the nearest open space outside the area.\n\nHigher Tiers: The force damage increases by 1d10 per Weave Tier you possess above 2.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Dragon’s Maw",
+   "type": "Class Feature",
+   "name": "Dragon’s Maw",
+   "desc": "Prerequisite: 6th level\n\n3 Arcane Strings\n\nYour threadblade expands, forming jaws and teeth, and it bites down on a creature of your choosing within 10 feet of you. The target takes 1d8 piercing damage and is restrained and grappled by you until the start of your next turn. The target must make a Constitution saving throw as the maw begins to chew. If it fails, it takes 3d10 slashing damage, or half as much damage on a success.\n\nHigher Tiers: The slashing damage increases by 1d10 per Weave Tier you possess above 2.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Cruel Shrike",
+   "type": "Class Feature",
+   "name": "Cruel Shrike",
+   "desc": "Prerequisite: 10th level\n\n3 Arcane Strings\n\nChoose a creature within 30 feet of you that you can see. The target must make a Dexterity saving throw. If it fails, it is restrained until the start of your next turn by massive barbed chains, and you can teleport to a space within 5 feet of the creature and make one melee attack with your threadblade. If you hit, your attack deals an extra 4d6 piercing damage.\n\nHigher Tiers: The piercing damage increases by 1d6 per Weave Tier you possess above 4.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Soul Sever",
+   "type": "Class Feature",
+   "name": "Soul Sever",
+   "desc": "Prerequisite: 10th level\n\n3 Arcane Strings\n\nYou make a melee weapon attack with your threadblade. If you hit, the target must make a Charisma saving throw. If it fails, you cut into its soul, dealing 5d8 necrotic damage to the creature and causing it to become frightened of you until the end of your next turn.\n\nHigher Tiers: The necrotic damage increases by 1d8 per Weave Tier you possess above 4.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Thread Stripper",
+   "type": "Class Feature",
+   "name": "Thread Stripper",
+   "desc": "Prerequisite: 10th level\n\n3 Arcane Strings\n\nYou stomp the ground, hurling a creature you can see within 30 feet of you 10 feet into the air. You then launch yourself up to 60 feet in the direction of the target and make a melee attack with your threadblade targeting that creature during your movement. If you hit, your attack deals an extra 4d4 slashing damage, and you can choose one nonmagical weapon or shield the creature is holding. The creature must make a Dexterity saving throw. If it fails, the object is destroyed and you gain 4d6 temporary hit points.\n\nHigher Tiers: The temporary hit points increase by 1d6 and the slashing damage increases by 1d4 per Weave Tier you possess above 4.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Omnicleave",
+   "type": "Class Feature",
+   "name": "Omnicleave",
+   "desc": "Prerequisite: 15th level\n\n3 Arcane Strings\n\nYou empower your weapon and swing to unleash a scything wave of force. Each creature within a cone up to 15 feet long must make a Dexterity saving throw. If a creature fails, it takes 7d6 slashing damage, or half as much damage on a success.\n\nHigher Tiers: The maximum area of the cone grows by 5 feet and the slashing damage increases by 1d6 per Weave Tier you possess above 5.",
+   "rules": [],
+   "lv": 2
+  },
+  {
+   "id": "Class Feature:Shadow Assault",
+   "type": "Class Feature",
+   "name": "Shadow Assault",
+   "desc": "Prerequisite: 15th level\n\n3 Arcane Strings\n\nYou teleport to a location you can see within 30 feet of you, hovering there invisibly until the start of your next turn. If a creature you can see within 30 feet of you takes an action during this time, you can use your reaction to launch yourself at that target and make a melee attack with your threadblade which deals an extra 4d6 slashing damage, after which your invisibility fades.\n\nHigher Tiers: Your melee attack deals an extra 1d6 slashing damage per Weave Tier you possess above 5.",
+   "rules": [],
+   "lv": 2
+  }
+ ]
+}

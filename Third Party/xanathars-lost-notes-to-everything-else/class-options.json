@@ -1,0 +1,504 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Celestial",
+   "type": "Class Feature",
+   "name": "Celestial",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.\n\nYou can speak, read, and write celestial and can weave their curses and oaths into your battle-cries. Additionally, whenever you make a Charisma check when interacting with a creature of your ancestors’ type, your proficiency bonus is doubled if it applies to the check.",
+   "rules": [
+    {
+     "grant": "Language:Celestial"
+    },
+    {
+     "select": {
+      "name": "Damage Type, Ancestral Origin",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Thunder",
+       "Class Feature:Radiant"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Demonic",
+   "type": "Class Feature",
+   "name": "Demonic",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.\n\nYou can speak, read, and write abyssal and can weave their curses and oaths into your battle-cries. Additionally, whenever you make a Charisma check when interacting with a creature of your ancestors’ type, your proficiency bonus is doubled if it applies to the check.",
+   "rules": [
+    {
+     "grant": "Language:Abyssal"
+    },
+    {
+     "select": {
+      "name": "Damage Type, Ancestral Origin",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Necrotic",
+       "Class Feature:Poison"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Draconic",
+   "type": "Class Feature",
+   "name": "Draconic",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.\n\nYou can speak, read, and write draconic and can weave their curses and oaths into your battle-cries. Additionally, whenever you make a Charisma check when interacting with a creature of your ancestors’ type, your proficiency bonus is doubled if it applies to the check.",
+   "rules": [
+    {
+     "grant": "Language:Draconic"
+    },
+    {
+     "select": {
+      "name": "Damage Type, Ancestral Origin",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Cold",
+       "Class Feature:Fire",
+       "Class Feature:Lightning"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Aberrant",
+   "type": "Class Feature",
+   "name": "Aberrant",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.\n\nYou can speak, read, and write deep speech and can weave their curses and oaths into your battle-cries. Additionally, whenever you make a Charisma check when interacting with a creature of your ancestors’ type, your proficiency bonus is doubled if it applies to the check.",
+   "rules": [
+    {
+     "grant": "Language:Deep Speech"
+    },
+    {
+     "select": {
+      "name": "Damage Type, Ancestral Origin",
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Psychic",
+       "Class Feature:Force"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Class Feature:Thunder",
+   "type": "Class Feature",
+   "name": "Thunder",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Radiant",
+   "type": "Class Feature",
+   "name": "Radiant",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Necrotic",
+   "type": "Class Feature",
+   "name": "Necrotic",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Poison",
+   "type": "Class Feature",
+   "name": "Poison",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cold",
+   "type": "Class Feature",
+   "name": "Cold",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fire",
+   "type": "Class Feature",
+   "name": "Fire",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lightning",
+   "type": "Class Feature",
+   "name": "Lightning",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Psychic",
+   "type": "Class Feature",
+   "name": "Psychic",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Force",
+   "type": "Class Feature",
+   "name": "Force",
+   "desc": "The chosen ancestor associated with your origin is used by features you gain later.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Earth Spirit",
+   "type": "Class Feature",
+   "name": "Earth Spirit",
+   "desc": "",
+   "rules": [],
+   "featSpells": [
+    [
+     6,
+     "Mold Earth",
+     "at will"
+    ],
+    [
+     6,
+     "Magic Stone",
+     "at will"
+    ]
+   ],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Fire Spirit",
+   "type": "Class Feature",
+   "name": "Fire Spirit",
+   "desc": "",
+   "rules": [],
+   "featSpells": [
+    [
+     6,
+     "Control Flames",
+     "at will"
+    ],
+    [
+     6,
+     "Create Bonfire",
+     "at will"
+    ]
+   ],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Water Spirit",
+   "type": "Class Feature",
+   "name": "Water Spirit",
+   "desc": "",
+   "rules": [],
+   "featSpells": [
+    [
+     6,
+     "Shape Water",
+     "at will"
+    ],
+    [
+     6,
+     "Frostbite",
+     "at will"
+    ]
+   ],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Wind Spirit",
+   "type": "Class Feature",
+   "name": "Wind Spirit",
+   "desc": "",
+   "rules": [],
+   "featSpells": [
+    [
+     6,
+     "Gust",
+     "at will"
+    ],
+    [
+     6,
+     "Thunderclap",
+     "at will"
+    ]
+   ],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Light Spirit",
+   "type": "Class Feature",
+   "name": "Light Spirit",
+   "desc": "",
+   "rules": [],
+   "featSpells": [
+    [
+     6,
+     "Dancing Lights",
+     "at will"
+    ],
+    [
+     6,
+     "Sacred Flame",
+     "at will"
+    ]
+   ],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Shadow Spirit",
+   "type": "Class Feature",
+   "name": "Shadow Spirit",
+   "desc": "",
+   "rules": [],
+   "featSpells": [
+    [
+     6,
+     "Minor Illusion",
+     "at will"
+    ],
+    [
+     6,
+     "Chill Touch",
+     "at will"
+    ]
+   ],
+   "lv": 6
+  },
+  {
+   "id": "Class Feature:Sokn, Ild",
+   "type": "Class Feature",
+   "name": "Sokn, Ild",
+   "desc": "Attack Augmentation\n\nYou can activate a rune with the Sokn augmentation as a bonus action. A rune’s power only affects the weapon it is inscribed on.\n\nIld. Once per turn, when you hit a creature with a weapon attack, you ignite the target. At the start of each of the burning creature’s turns, it takes 1d4 fire damage for each time you’ve burned it, and it can then make a Constitution saving throw, ending the effect of all such burns on itself on a success. Alternatively, the burned creature, or a creature within 5 feet of it, can use an action to make a Wisdom (Medicine) check against your runic save DC, ending the effect of all burns on it on a success.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Sokn, Kalt",
+   "type": "Class Feature",
+   "name": "Sokn, Kalt",
+   "desc": "Attack Augmentation\n\nYou can activate a rune with the Sokn augmentation as a bonus action. A rune’s power only affects the weapon it is inscribed on.\n\nKalt. When you hit a creature with a weapon attack, it can’t take reactions until the start of its next turn.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Sokn, Ond",
+   "type": "Class Feature",
+   "name": "Sokn, Ond",
+   "desc": "Attack Augmentation\n\nYou can activate a rune with the Sokn augmentation as a bonus action. A rune’s power only affects the weapon it is inscribed on.\n\nOnd. Once per turn, when you hit a creature with a weapon attack, you deal an additional 1d4 necrotic damage and you recover hit points equal to the necrotic damage dealt.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Sokn, Stein",
+   "type": "Class Feature",
+   "name": "Sokn, Stein",
+   "desc": "Attack Augmentation\n\nYou can activate a rune with the Sokn augmentation as a bonus action. A rune’s power only affects the weapon it is inscribed on.\n\nStein. When you hit a Large or smaller creature with a weapon attack, it must make a Strength saving throw, falling prone on a failed save.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Sokn, Vind",
+   "type": "Class Feature",
+   "name": "Sokn, Vind",
+   "desc": "Attack Augmentation\n\nYou can activate a rune with the Sokn augmentation as a bonus action. A rune’s power only affects the weapon it is inscribed on.\n\nVind. When a creature hits you with a melee attack, you can use your reaction to make a melee weapon attack against that creature.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Vard, Ild",
+   "type": "Class Feature",
+   "name": "Vard, Ild",
+   "desc": "Defense Augmentation\n\nYou can activate a rune with the Vard augmentation as a reaction. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.\n\nIld. When you are hit by a melee attack, the attacker takes fire damage equal to your proficiency bonus.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Vard, Kalt",
+   "type": "Class Feature",
+   "name": "Vard, Kalt",
+   "desc": "Defense Augmentation\n\nYou can activate a rune with the Vard augmentation as a reaction. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.\n\nKalt. When you are hit by a melee attack, the damage you take from the attack is reduced an amount equal to your proficiency bonus.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Vard, Ond",
+   "type": "Class Feature",
+   "name": "Vard, Ond",
+   "desc": "Defense Augmentation\n\nYou can activate a rune with the Vard augmentation as a reaction. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.\n\nOnd. You gain a bonus to saving throws made to resist being frightened equal to your Constitution modifier.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Vard, Stein",
+   "type": "Class Feature",
+   "name": "Vard, Stein",
+   "desc": "Defense Augmentation\n\nYou can activate a rune with the Vard augmentation as a reaction. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.\n\nStein. You have advantage on saving throws made to resist being moved against your will.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Vard, Vind",
+   "type": "Class Feature",
+   "name": "Vard, Vind",
+   "desc": "Defense Augmentation\n\nYou can activate a rune with the Vard augmentation as a reaction. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.\n\nVind. Ranged attacks made against you have disadvantage as wind whips around you.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Hagr, Ild",
+   "type": "Class Feature",
+   "name": "Hagr, Ild",
+   "desc": "Ability Augmentation\n\nYou can activate a rune with the Hagr augmentation as an action. This rune must be inscribed on your body to be activated.\n\nIld. You can add your Constitution modifier to your Strength (Athletics) and Dexterity (Acrobatics) ability checks.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Hagr, Kalt",
+   "type": "Class Feature",
+   "name": "Hagr, Kalt",
+   "desc": "Ability Augmentation\n\nYou can activate a rune with the Hagr augmentation as an action. This rune must be inscribed on your body to be activated.\n\nKalt. You ignore difficult terrain and can walk safely across still or gently moving water.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Hagr, Ond",
+   "type": "Class Feature",
+   "name": "Hagr, Ond",
+   "desc": "Ability Augmentation\n\nYou can activate a rune with the Hagr augmentation as an action. This rune must be inscribed on your body to be activated.\n\nOnd. When you receive healing from any source, you also gain temporary hit points equal to 5 + your proficiency bonus.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Hagr, Stein",
+   "type": "Class Feature",
+   "name": "Hagr, Stein",
+   "desc": "Ability Augmentation\n\nYou can activate a rune with the Hagr augmentation as an action. This rune must be inscribed on your body to be activated.\n\nStein. You have advantage on death saving throws and Constitution saving throws made to maintain concentration.",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Hagr, Vind",
+   "type": "Class Feature",
+   "name": "Hagr, Vind",
+   "desc": "Ability Augmentation\n\nYou can activate a rune with the Hagr augmentation as an action. This rune must be inscribed on your body to be activated.\n\nVind. Your movement speed increases by a number of feet equal to 5 times your Constitution modifier (minimum 5 feet).",
+   "rules": [],
+   "lv": 7
+  },
+  {
+   "id": "Class Feature:Roll 1 (1)",
+   "type": "Class Feature",
+   "name": "Roll 1 (1)",
+   "desc": "When you finish a long rest, roll 1d6 to determine the “gifts” bestowed on you. When you roll for a new gift, it replaces the old one.\n\nTrick. You wake to eyes fogged over. You are blind beyond 5 feet.\n\nTreat. You can see invisible creatures and objects out to a range of 120 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 2 (1)",
+   "type": "Class Feature",
+   "name": "Roll 2 (1)",
+   "desc": "When you finish a long rest, roll 1d6 to determine the “gifts” bestowed on you. When you roll for a new gift, it replaces the old one.\n\nTrick. You speak only in screams audible out to 300 feet. You have disadvantage on Dexterity (Stealth) checks whether your mouth is open or closed.\n\nTreat. Once per short or long rest, you can channel your booming voice to cast thunderwave at the level of your warlock spell slots.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 3 (1)",
+   "type": "Class Feature",
+   "name": "Roll 3 (1)",
+   "desc": "When you finish a long rest, roll 1d6 to determine the “gifts” bestowed on you. When you roll for a new gift, it replaces the old one.\n\nTrick. You can’t tell a lie. You have disadvantage on Charisma (Deception) checks.\n\nTreat. People find you trustworthy. You gain advantage on Charisma (Persuasion) checks.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 4 (1)",
+   "type": "Class Feature",
+   "name": "Roll 4 (1)",
+   "desc": "When you finish a long rest, roll 1d6 to determine the “gifts” bestowed on you. When you roll for a new gift, it replaces the old one.\n\nTrick. You are filled with a bloodlust and act with abandon. Attacks against you are rolled with advantage.\n\nTreat. Your seemingly random and aggressive lash-outs mark your instability. You have advantage on attack rolls.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 5 (1)",
+   "type": "Class Feature",
+   "name": "Roll 5 (1)",
+   "desc": "When you finish a long rest, roll 1d6 to determine the “gifts” bestowed on you. When you roll for a new gift, it replaces the old one.\n\nTrick. You’ve shrunk! You are Tiny, and your base walking speed is 20 feet.\n\nTreat. You have advantage on Dexterity (Stealth) checks and can take the Hide action as a bonus action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 6 (1)",
+   "type": "Class Feature",
+   "name": "Roll 6 (1)",
+   "desc": "When you finish a long rest, roll 1d6 to determine the “gifts” bestowed on you. When you roll for a new gift, it replaces the old one.\n\nTrick. You have a masochistic urge to inflict ridicule and pain on yourself. When you make an attack roll, you always miss your target on a 1 or a 2, and hit yourself instead.\n\nTreat. Your attacks score a critical hit on a roll of 19 or 20.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 1 (2)",
+   "type": "Class Feature",
+   "name": "Roll 1 (2)",
+   "desc": "Whenever you finish a short or long rest, roll 1d6 to determine your current chaotic features.\n\nHorns made of magenta planar energy grow from your head. If you already have horns, magenta energy wraps around them and writhe like tendrils behind you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 2 (2)",
+   "type": "Class Feature",
+   "name": "Roll 2 (2)",
+   "desc": "Whenever you finish a short or long rest, roll 1d6 to determine your current chaotic features.\n\nMassive, muscled, and clawed arms made of jet black planar energy overlap your own arms and stutter behind your movements.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 3 (2)",
+   "type": "Class Feature",
+   "name": "Roll 3 (2)",
+   "desc": "Whenever you finish a short or long rest, roll 1d6 to determine your current chaotic features.\n\nYour eyes bulge to twice their size, and your pupils narrow like those of a slaad.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 4 (2)",
+   "type": "Class Feature",
+   "name": "Roll 4 (2)",
+   "desc": "Whenever you finish a short or long rest, roll 1d6 to determine your current chaotic features.\n\nShimmering wings made of indigo planar energy sprout from your back but don’t give you a fly speed.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 5 (2)",
+   "type": "Class Feature",
+   "name": "Roll 5 (2)",
+   "desc": "Whenever you finish a short or long rest, roll 1d6 to determine your current chaotic features.\n\nYou are seemingly unchanged. However, whenever your shadow is cast, it reflects a different demon shape from a tiny quasit to a hulking barlgura, watching your every move",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Roll 6 (2)",
+   "type": "Class Feature",
+   "name": "Roll 6 (2)",
+   "desc": "Whenever you finish a short or long rest, roll 1d6 to determine your current chaotic features.\n\nWhenever someone looks at you, your nose seems to drift slowly to the side of your face but returns to its normal position when they blink.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dao",
+   "type": "Class Feature",
+   "name": "Dao",
+   "desc": "You choose the one of the four types of noble genie to be your patron as shown on the Noble Genie Patrons table below. Your choice determines several of your class features as you gain level.\n\nNOBLE GENIE PATRON\n\nGenie Type | Damage Type\nDao (Earth) | Poison\nDjinni (Air) | Lightning\nEfreeti (Fire) | Fire\nMarid (Water) | Cold",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Djinni",
+   "type": "Class Feature",
+   "name": "Djinni",
+   "desc": "You choose the one of the four types of noble genie to be your patron as shown on the Noble Genie Patrons table below. Your choice determines several of your class features as you gain level.\n\nNOBLE GENIE PATRON\n\nGenie Type | Damage Type\nDao (Earth) | Poison\nDjinni (Air) | Lightning\nEfreeti (Fire) | Fire\nMarid (Water) | Cold",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Efreeti",
+   "type": "Class Feature",
+   "name": "Efreeti",
+   "desc": "You choose the one of the four types of noble genie to be your patron as shown on the Noble Genie Patrons table below. Your choice determines several of your class features as you gain level.\n\nNOBLE GENIE PATRON\n\nGenie Type | Damage Type\nDao (Earth) | Poison\nDjinni (Air) | Lightning\nEfreeti (Fire) | Fire\nMarid (Water) | Cold",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Marid",
+   "type": "Class Feature",
+   "name": "Marid",
+   "desc": "You choose the one of the four types of noble genie to be your patron as shown on the Noble Genie Patrons table below. Your choice determines several of your class features as you gain level.\n\nNOBLE GENIE PATRON\n\nGenie Type | Damage Type\nDao (Earth) | Poison\nDjinni (Air) | Lightning\nEfreeti (Fire) | Fire\nMarid (Water) | Cold",
+   "rules": []
+  }
+ ]
+}

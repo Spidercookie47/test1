@@ -1,0 +1,18 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "xanathars-lost-notes-to-everything-else",
+  "name": "Xanathar’s Lost Notes to Everything Else",
+  "short": "XLN"
+ },
+ "files": [
+  "races.json",
+  "classes.json",
+  "subclasses.json",
+  "class-options.json",
+  "magic-items.json",
+  "backgrounds.json",
+  "info.json"
+ ]
+}

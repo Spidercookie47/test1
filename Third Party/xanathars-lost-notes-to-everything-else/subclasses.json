@@ -1,0 +1,1407 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Path of the Courageous Heart",
+   "type": "Subclass",
+   "name": "Path of the Courageous Heart",
+   "desc": "For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the...",
+   "rules": [
+    {
+     "grant": "Class Feature:Matter at Hand",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Favor the Bold (Path of the Courageous Heart)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hearty Blow",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Stroke of Inspiration",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Tenacious Heart",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:Path of the Red Reaver",
+   "type": "Subclass",
+   "name": "Path of the Red Reaver",
+   "desc": "The Path of the Red Reaver is a warrior’s hunt for meaning in a life borne of suffering and violence, not some ritualistic process for raiding cannibals as...",
+   "rules": [
+    {
+     "grant": "Class Feature:Devourer",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Sanguine Scent",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Blood Hound",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Blood of the Pack",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Sanguine Clarity",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian"
+  },
+  {
+   "id": "Subclass:Path of Sacred Kin",
+   "type": "Subclass",
+   "name": "Path of Sacred Kin",
+   "desc": "As in all civilizations, stories of life’s origin are intertwined with the path of mythical beings consorting among them out of grand purpose or boredom....",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellcasting (Path of Sacred Kin)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ancestral Origins",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mythic Manifestation",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Supernatural Fury",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Ancestry Points",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Metamagic",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Transcendent Legacy",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Ancestral Guidance",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Immortal Birthright",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian",
+   "casting": {
+    "ability": "con",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Sorcerer,(Conjuration||Divination)"
+   }
+  },
+  {
+   "id": "Subclass:College of Discord",
+   "type": "Subclass",
+   "name": "College of Discord",
+   "desc": "Bards of the College of Discord yearn to take the performances to the next level. While some artists feel the need to prepare or learn progressions within a...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (College of Discord)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Melodic Mayhem",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Battaglia",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Encore",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Pandemonium",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:College of Keys",
+   "type": "Subclass",
+   "name": "College of Keys",
+   "desc": "Bards of the College of Keys believe that performance can manipulate anything, be it person, magic, or machine. Their preternatural charm allows these...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiency (College of Keys)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Key Change",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Timbre Illuminous",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Cypheric Ostinato",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Master Keynote",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:College of Mourning",
+   "type": "Subclass",
+   "name": "College of Mourning",
+   "desc": "Bards of the College of Mourning specialize in easing the transition from life to death. While most bards derive their artistic catalogue from celebrating...",
+   "rules": [
+    {
+     "grant": "Class Feature:Mourning Glory",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Grief Note",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dirge of the Pallbearer",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Dread Parade",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard"
+  },
+  {
+   "id": "Subclass:Entropy Domain",
+   "type": "Subclass",
+   "name": "Entropy Domain",
+   "desc": "Heretics preach of a void at the center of the universe that dying gods created to devour the Weave. The necrotic energy it emits is called “Entropy”: a...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells (Entropy Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Sanctity of Body",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Arcane Disruption",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Entropic Retaliation",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Potent Spell Casting",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Emissary of Entropy",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Detect Magic",
+      "Inflict Wounds"
+     ],
+     "3": [
+      "Gentle Repose",
+      "Spiritual Weapon"
+     ],
+     "5": [
+      "Dispel Magic",
+      "Protection From Energy"
+     ],
+     "7": [
+      "Blight",
+      "Death Ward"
+     ],
+     "9": [
+      "Circle of Power",
+      "Hallow"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Survival Domain",
+   "type": "Subclass",
+   "name": "Survival Domain",
+   "desc": "Clerics and shamans of primitive tribes living in harsh environments have no greater mission than ensuring the survival of their tribes. The gods of...",
+   "rules": [
+    {
+     "grant": "Class Feature:Domain Spells (Survival Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiency (Survival Domain)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Stand the Fallen",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Encourage the Troops",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Channel Divinity: Push the Limits",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Potent Spellcasting",
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Protection of the Tribe",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric",
+   "prepared": {
+    "class": "Cleric",
+    "levels": {
+     "1": [
+      "Create Or Destroy Water",
+      "False Life"
+     ],
+     "3": [
+      "Locate Animals Or Plants",
+      "Prayer of Healing"
+     ],
+     "5": [
+      "Fear",
+      "Protection From Energy"
+     ],
+     "7": [
+      "Death Ward",
+      "Dominate Beast"
+     ],
+     "9": [
+      "Antilife Shell",
+      "Greater Restoration"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Circle of Seasons",
+   "type": "Subclass",
+   "name": "Circle of Seasons",
+   "desc": "Druids of the Circle of Seasons learn early in their trials that all things are transient. All things that live must die, and those things that don’t live...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Cantrip",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Shroud of Seasons",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Ashes of Life",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Child of Change",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Natural Duality",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid"
+  },
+  {
+   "id": "Subclass:Circle of The Spiritlords",
+   "type": "Subclass",
+   "name": "Circle of The Spiritlords",
+   "desc": "Ages ago, nature priests with a greater connection to the spirit realm believed the world itself to be formed from a group of elemental and primordial...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spirit Bond",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Empowered Conduit",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Vigilant Spirits",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Honored Host",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Druid"
+  },
+  {
+   "id": "Subclass:Dragoon",
+   "type": "Subclass",
+   "name": "Dragoon",
+   "desc": "A mounted soldier’s primary objective is to carve a swath through the enemy lines, breaking the ranks of footmen for his or her infantry to exploit....",
+   "rules": [
+    {
+     "grant": "Class Feature:Cavalry Weapons: Haft or Hilt",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Elevated Control",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Versatile Combatant",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Line Breaker",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Flanking Maneuvers",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Strategic Stride",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Runeguard",
+   "type": "Subclass",
+   "name": "Runeguard",
+   "desc": "The runeguard seeks the magical power within ancient languages, and to hasten the speed of their blade and strengthen of their armor by imbuing them with...",
+   "rules": [
+    {
+     "grant": "Class Feature:Master Runes",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Runecraft",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Runescript",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Eyes of the Arcanist",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Sentinel’s Reckoning",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Runic Mastery",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter"
+  },
+  {
+   "id": "Subclass:Way of Atonement",
+   "type": "Subclass",
+   "name": "Way of Atonement",
+   "desc": "Monks of the Way of Atonement seek absolve themselves for their past transgressions, sins, and current indiscretions by giving up their possessions and...",
+   "rules": [
+    {
+     "grant": "Class Feature:Atonement",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Penance",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Strength of Faith",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armament of Atonement",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Labor of the Gods",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Enlightened Voice",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Way of Empathy",
+   "type": "Subclass",
+   "name": "Way of Empathy",
+   "desc": "Monks of the Way of Empathy follow the tradition instilled with compassion for all living beings. While their training includes martial practice as a form...",
+   "rules": [
+    {
+     "grant": "Class Feature:Healing Chakra",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Empathy",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Sense Emotion",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Empathetic Bond",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Adrenal Surge",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Improved Empathetic Bond",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Monk"
+  },
+  {
+   "id": "Subclass:Oath of Predation",
+   "type": "Subclass",
+   "name": "Oath of Predation",
+   "desc": "Paladins who follow the Oath of Predation believe that the world can only be made perfect through utter control. Through careful planning, subterfuge and...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells (Oath of Predation)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Oath of Predation)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Predation)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Perfect Domination",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Shroud of the Illrigger",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Hand of Manipulation",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Command",
+      "Protection From Evil and Good"
+     ],
+     "5": [
+      "Enthrall",
+      "Pass Without Trace"
+     ],
+     "9": [
+      "Hypnotic Pattern",
+      "Nondetection"
+     ],
+     "13": [
+      "Compulsion",
+      "Mordenkainens Private Sanctum"
+     ],
+     "17": [
+      "Dominate Person",
+      "Teleportation Circle"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of Providence",
+   "type": "Subclass",
+   "name": "Oath of Providence",
+   "desc": "Paladins who take the Oath of Providence believe they are the hand of destiny, striking down enemies beyond redemption. They believe in their hearts that...",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath Spells (Oath of Providence)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Channel Divinity (Oath of Providence)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Favor the Bold (Oath of Providence)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Gift of Foresight",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Hand of Fate",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin",
+   "prepared": {
+    "class": "Paladin",
+    "levels": {
+     "3": [
+      "Bless",
+      "Divine Favor"
+     ],
+     "5": [
+      "Aid",
+      "Augury"
+     ],
+     "9": [
+      "Bestow Curse",
+      "Clairvoyance"
+     ],
+     "13": [
+      "Death Ward",
+      "Divination"
+     ],
+     "17": [
+      "Commune",
+      "Legend Lore"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Burghal Explorer",
+   "type": "Subclass",
+   "name": "Burghal Explorer",
+   "desc": "Burghal Explorers are at home in tight places, making their living as urban bounty hunters or guiding magical search crews through dangerous ruins. Dark...",
+   "rules": [
+    {
+     "grant": "Class Feature:Burghal Explorer Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Grazing Strike",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Above and Below",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Streetwise",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Close Quarters",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Wasteland Wanderer",
+   "type": "Subclass",
+   "name": "Wasteland Wanderer",
+   "desc": "Some worlds thrive, with large swathes of the land covered with flora and fauna that can be both beautiful and dangerous while other lands, or other worlds,...",
+   "rules": [
+    {
+     "grant": "Class Feature:Wasteland Wanderer Magic",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Vigilant Guardian",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Trail of Trouble",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Shared Succor",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Safety in Numbers",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger"
+  },
+  {
+   "id": "Subclass:Divine Herald",
+   "type": "Subclass",
+   "name": "Divine Herald",
+   "desc": "Your strict upbringing has made you an unwavering and swift agent of divine retribution. You don’t simply exist to serve the priests of your order, you have...",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellcasting (Divine Herald)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Harbinger of Faith",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dogma Votary",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Guise of the Believer",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Crosier of Penance",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Last Rites",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue",
+   "casting": {
+    "ability": "wis",
+    "mode": "known",
+    "rows": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "list": "Cleric"
+   }
+  },
+  {
+   "id": "Subclass:Fey Magic",
+   "type": "Subclass",
+   "name": "Fey Magic",
+   "desc": "Your innate magic comes from fey magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their...",
+   "rules": [
+    {
+     "grant": "Class Feature:Wild Knowledge",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Fey Magic",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Nature’s Armor",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Sylvan Embrace",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Untamed Champion",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer",
+   "expandedList": {
+    "class": "Sorcerer",
+    "spells": [
+     "Druid"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Chaos",
+   "type": "Subclass",
+   "name": "The Chaos",
+   "desc": "You have made a pact with a creature that revels in the madness and infinite possibility of the chaotic planes. Your patron could be a powerful slaad lord...",
+   "rules": [
+    {
+     "grant": "Class Feature:Chaos Expanded Spells",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Strings Attached",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Tumble Through Chaos",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Chaos Walker",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Planar Vertigo",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Chaos Bolt",
+     "Color Spray",
+     "Alter Self",
+     "Blindness Deafness",
+     "Bestow Curse",
+     "Blink",
+     "Confusion",
+     "Phantasmal Killer",
+     "Destructive Wave",
+     "Mislead"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:The Noble Genie",
+   "type": "Subclass",
+   "name": "The Noble Genie",
+   "desc": "Your pact is one that has been made by legendary advisors, philosophers, and tale-spinners of the desert lands, known throughout the land of Zakhara as...",
+   "rules": [
+    {
+     "grant": "Class Feature:Expanded Spell List",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Noble Patronage",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Gen Vizier",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Bargain of Power",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Elemental Attunement",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Genie Form",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Chromatic Orb",
+     "Shield",
+     "Flaming Sphere",
+     "Maximilians Earthen Grasp",
+     "Lightning Bolt",
+     "Sleet Storm",
+     "Conjure Minor Elementals",
+     "Elemental Bane",
+     "Far Step",
+     "Planar Binding"
+    ]
+   }
+  },
+  {
+   "id": "Subclass:Beguiler",
+   "type": "Subclass",
+   "name": "Beguiler",
+   "desc": "Those who think charm and misdirection are the trades of the bard and warlock never heard of the arcane colleges specializing in Beguiling magic. The...",
+   "rules": [
+    {
+     "grant": "Class Feature:Bonus Proficiencies (Beguiler)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Erudite Elucidation",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Sneak Spell",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Mind Ambush",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Master Deceiver",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:Mage Hunter",
+   "type": "Subclass",
+   "name": "Mage Hunter",
+   "desc": "Some societies deem the practice of magical arts as sacred and too dangerous to be taught to any but a worthy few. In order to prevent the weave from being...",
+   "rules": [
+    {
+     "grant": "Class Feature:Arcanist Investigator",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Counter-Weave",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Hunter’s Armament",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Arcane Sanctum",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Eyes of the Master",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  },
+  {
+   "id": "Subclass:School of Reconstruction",
+   "type": "Subclass",
+   "name": "School of Reconstruction",
+   "desc": "You focus your study on manipulating magic in a way that turns the destructive power of arcane evocation into rejuvenating magic. For others, this gift...",
+   "rules": [
+    {
+     "grant": "Class Feature:Creation Savant",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Applied Reconstruction",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Prolonged Regeneration",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Blossom of Life",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Overheal",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard"
+  }
+ ]
+}
