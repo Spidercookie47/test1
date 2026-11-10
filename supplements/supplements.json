@@ -1,110 +1,47 @@
 {
   "name": "supplements books",
   "packs": [
-    {
-      "name": "Acquisitions Incorporated",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Acquisitions%20Incorporated/index.json"
-    },
-    {
-      "name": "Tashas Cauldron of Everything",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/tashas-cauldron-of-everything/index.json"
-    },
-    {
-      "name": "Adventurers League",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/adventurers-league/index.json"
-    },
-    {
-      "name": "Curse Of Strahd",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/curse-of-strahd/index.json"
-    },
-    {
-      "name": "Descent into Avernus",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/descent-into-avernus/index.json"
-    },
-    {
-      "name": "Eberron Rising From The Last War",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/eberron-rising-from-the-last-war/index.json"
-    },
-    {
-      "name": "Explorer's Guide to Wildemoun",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/explorers-guide-to-wildemount/index.json"
-    },
-    {
-      "name": "Extra Life",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/extra-life/index.json"
-    },
-    {
-      "name": "Ghosts of Saltmarsh",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/ghosts-of-saltmarsh/index.json"
-    },
-    {
-      "name": "Guildmasters' Guide to Ravnica",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/guildmasters-guide-to-ravnica/index.json"
-    },
-    {
-      "name": "Hoard of the Dragon Queen",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/hoard-of-the-dragon-queen/index.json"
-    },
-    {
-      "name": "Lost Mine of Phandelver",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/lost-mines-phandelver/index.json"
-    },
-    {
-      "name": "Mordenkainen's Tome of Foes",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/mordenkainens-tome-of-foes/index.json"
-    },
-    {
-      "name": "Mythic Odysseys of Theros",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/mythic-odysseys-of-theros/index.json"
-    },
-    {
-      "name": "Out of the Abyss",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/out-of-the-abyss/index.json"
-    },
-    {
-      "name": "Princes of the Apocalypse",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/princes-of-the-apocalypse/index.json"
-    },
-    {
-      "name": "Icewind Dale: Rime of the Frostmaiden",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/rime-of-the-frostmaiden/index.json"
-    },
-    {
-      "name": "Rise of Tiamat",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/rise-of-tiamat/index.json"
-    },
-    {
-      "name": "Storm King's Thunder",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/storm-kings-thunder/index.json"
-    },
-    {
-      "name": "Sword Coast Adventurer's Guide",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/sword-coast-adventurers-guide/index.json"
-    },
-    {
-      "name": "Tales from the Yawning Portal",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/tales-from-the-yawning-portal/index.json"
-    },
-    {
-      "name": "Tomb of Annihilation",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/tomb-of-annihilation/index.json"
-    },
-    {
-      "name": "Volo's Guide to Monsters",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/volos-guide-to-monsters/index.json"
-    },
-    {
-      "name": "Waterdeep: Dragon Heist",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/waterdeep-dragon-heist/index.json"
-    },
-    {
-      "name": "Waterdeep: Dungeon of the Mad Mage",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/waterdeep-dungeon-of-the-mad-mage/index.json"
-    },
-    {
-      "name": "Xanathar's Guide to Everything",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/xanathars-guide-to-everything/index.json"
-    }
-  
+    {"name": "Acquisitions Incorporated", "url": "hhttps://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Acquisitions%20Incorporated/index.json"},
+    {"name": "Adventurers League", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/adventurers-league/index.json"},
+    {"name": "Bigby Presents: Glory of the Giants", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Bigby-Presents-Glory-of-the-Giants/index.json"},
+    {"name": "Candlekeep Mysteries", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Candlekeep%20Mysteries/index.json"},
+    {"name": "Critical Role: Call of the Netherdeep", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Critical%20Role%20Call%20of%20the%20Netherdeep/index.json"},
+    {"name": "Curse of Strahd", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/curse-of-strahd/index.json"},
+    {"name": "Baldur's Gate: Descent into Avernus", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/descent-into-avernus/index.json"},
+    {"name": "Dragonlance: Shadow of the Dragon Queen", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Dragonlance%20Shadow%20of%20the%20Dragon%20Queen/index.json"},
+    {"name": "Eberron: Rising from the Last War", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/eberron-rising-from-the-last-war/index.json"},
+    {"name": "Explorer's Guide to Wildemount", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/explorers-guide-to-wildemount/index.json"},
+    {"name": "Extra Life", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/extra-life/index.json"},
+    {"name": "Fizban's Treasury of Dragons", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Fizban's%20Treasury%20of%20Dragons/index.json"},
+    {"name": "Ghosts of Saltmarsh", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/ghosts-of-saltmarsh/index.json"},
+    {"name": "Guildmasters' Guide to Ravnica", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/guildmasters-guide-to-ravnica/index.json"},
+    {"name": "Hoard of the Dragon Queen", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/hoard-of-the-dragon-queen/index.json"},
+    {"name": "Journeys through the Radiant Citadel", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/journeys%20through%20the%20Radia/index.json"},
+    {"name": "Keys from the Golden Vault", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Keys%20from%20the%20Golden%20Vault/index.json"},
+    {"name": "Lost Mine of Phandelver", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/lost-mines-phandelver/index.json"},
+    {"name": "Mordenkainen Presents: Monsters of the Multiverse", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Mordenkainen-Presents-Monsters-of-the-Multiverse/index.json"},
+    {"name": "Mordenkainen's Tome of Foes", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/mordenkainens-tome-of-foes/index.json"},
+    {"name": "Mythic Odysseys of Theros", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/mythic-odysseys-of-theros/index.json"},
+    {"name": "Out of the Abyss", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/out-of-the-abyss/index.json"},
+    {"name": "Phandelver and Below: The Shattered Obelisk", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Phandelver%20and%20Below%20The%20Shattered%20Obelisk/index.json"},
+    {"name": "Planescape: Adventures in the Multiverse", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Planescape%20Adventures%20in%20the%20Multiverse/index.json"},
+    {"name": "Princes of the Apocalypse", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/princes-of-the-apocalypse/index.json"},
+    {"name": "Quests from the Infinite Staircase", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Quests%20from%20the%20Infinite%20Staircase/index.json"},
+    {"name": "Rime of the Frostmaiden", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/rime-of-the-frostmaiden/index.json"},
+    {"name": "Rise of Tiamat", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/rise-of-tiamat/index.json"},
+    {"name": "Spelljammer: Adventures in Space", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Spelljammer%20Adventures%20in%20Space/index.json"},
+    {"name": "Storm King's Thunder", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/storm-kings-thunder/index.json"},
+    {"name": "Strixhaven: A Curriculum of Chaos", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Strixhaven%20-%20A%20Curriculum%20of%20Chaos/index.json"},
+    {"name": "Sword Coast Adventurer's Guide", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/sword-coast-adventurers-guide/index.json"},
+    {"name": "Tales from the Yawning Portal", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/tales-from-the-yawning-portal/index.json"},
+    {"name": "Tasha's Cauldron of Everything", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/tashas-cauldron-of-everything/index.json"},
+    {"name": "The Wild Beyond the Witchlight", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/The%20Wild%20Beyond%20the%20Witchlight/index.json"},
+    {"name": "The Book of Many Things", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/The-Book-of-Many-Things/index.json"},
+    {"name": "Tomb of Annihilation", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/tomb-of-annihilation/index.json"},
+    {"name": "Vecna: Eve of Ruin", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/Vecna%20Eve%20of%20Ruin/index.json"},
+    {"name": "Volo's Guide to Monsters", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/volos-guide-to-monsters/index.json"},
+    {"name": "Waterdeep: Dragon Heist", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/waterdeep-dragon-heist/index.json"},
+    {"name": "Waterdeep: Dungeon of the Mad Mage", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/waterdeep-dungeon-of-the-mad-mage/index.json"},
+    {"name": "Xanathar's Guide to Everything", "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/supplements/xanathars-guide-to-everything/index.json"}
   ]
 }
