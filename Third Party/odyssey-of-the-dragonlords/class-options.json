@@ -410,16 +410,16 @@
    "type": "Class Feature",
    "name": "School: Hedonism",
    "desc": "Hedonists believe that pleasure is the supreme good, and that everyone should seek to achieve the immediate gratification of their desires.\n\nStarting when you choose this school at 2nd level, when you regain hit points from a spell or ability, you may choose to add twice your wizard level to the number of hit points restored. Once you have used this feature, you may not use it again until you complete a short or long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "hedonism",
-     "name": "Hedonism Healing",
-     "rest": "S",
-     "max": 1
+   "rules": [
+    {
+     "resource": {
+      "id": "hedonism",
+      "name": "Hedonism Healing",
+      "rest": "S",
+      "max": 1
+     }
     }
-   }
-  ],
+   ],
    "lv": 5
   },
   {

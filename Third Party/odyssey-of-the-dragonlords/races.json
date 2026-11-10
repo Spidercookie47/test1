@@ -231,7 +231,7 @@
      "select": {
       "name": "Subrace",
       "type": "Sub Race",
-      "supports": "Race:Nymph Ancestry"
+      "supports": "Race:Thylean Nymph"
      }
     }
    ]
@@ -246,7 +246,7 @@
      "grant": "Racial Trait:Aurae Ancestry"
     }
    ],
-   "supports": "Race:Thylean Nymph Ancestry"
+   "supports": "Race:Thylean Nymph"
   },
   {
    "id": "Racial Trait:Aurae Ancestry",
@@ -277,7 +277,7 @@
      "grant": "Racial Trait:Dryad Ancestry"
     }
    ],
-   "supports": "Race:Thylean Nymph Ancestry"
+   "supports": "Race:Thylean Nymph"
   },
   {
    "id": "Racial Trait:Dryad Ancestry",
@@ -308,7 +308,7 @@
      "grant": "Racial Trait:Naiad Ancestry"
     }
    ],
-   "supports": "Race:Thylean Nymph Ancestry"
+   "supports": "Race:Thylean Nymph"
   },
   {
    "id": "Racial Trait:Naiad Ancestry",
@@ -339,7 +339,7 @@
      "grant": "Racial Trait:Nereid Ancestry"
     }
    ],
-   "supports": "Race:Thylean Nymph Ancestry"
+   "supports": "Race:Thylean Nymph"
   },
   {
    "id": "Racial Trait:Nereid Ancestry",
@@ -370,7 +370,7 @@
      "grant": "Racial Trait:Oread Ancestry"
     }
    ],
-   "supports": "Race:Thylean Nymph Ancestry"
+   "supports": "Race:Thylean Nymph"
   },
   {
    "id": "Racial Trait:Oread Ancestry",

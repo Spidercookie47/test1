@@ -27,16 +27,16 @@
    "type": "Class Feature",
    "name": "Thunderous Shot",
    "desc": "",
-     "rules": [
-   {
-    "resource": {
-     "id": "thunderous-shot",
-     "name": "Thunderous Shot",
-     "rest": "S",
-     "max": 1
+   "rules": [
+    {
+     "resource": {
+      "id": "thunderous-shot",
+      "name": "Thunderous Shot",
+      "rest": "S",
+      "max": 1
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Herculean Rage",
@@ -50,33 +50,33 @@
    "type": "Class Feature",
    "name": "Earthshaker",
    "desc": "Starting at 14th level, your colossal strength causes the ground itself to tremble and quake. On your turn, you can use your action to strike the ground and create the effects of an earthquake with a 40 ft. radius, centered on your location. This area becomes difficult terrain.\n\nEach creature on the ground in the affected area that is concentrating must make a Constitution saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the creature's concentration is broken. At the end of your turn, each creature on the ground in the area must make a Dexterity saving throw with the same DC as the previous one. On a failed save, the creature is knocked prone. You have advantage on this saving throw.\n\nAt the beginning of each of your subsequent turns, you may use your bonus action to stomp the ground and continue the effects of the earthquake until the beginning of your next turn, for a maximum duration of 1 minute. Once you have used this feature, you may not use it again until you complete a long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "earthshaker",
-     "name": "Earthshaker",
-     "rest": "L",
-     "max": 1
+   "rules": [
+    {
+     "resource": {
+      "id": "earthshaker",
+      "name": "Earthshaker",
+      "rest": "L",
+      "max": 1
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Epic Verses",
    "type": "Class Feature",
    "name": "Epic Verses",
    "desc": "Starting when you join the College of Epic Poetry at 3rd level, you begin composing your epic poem. When certain significant events occur during your travels or during combat, you may use your reaction to compose a new epic verse. Significant events are defined as any of the following things happening to you or one of your allies by chance (e.g. your party cannot deliberately force them to happen by repetition). You must be able to see or hear the event happen.\n\n- Comedy: Someone rolls a natural 1 on an attack or saving throw.\n- Hubris: Someone rolls a natural 20 on an attack or saving throw.\n- Irony: Someone fails a saving throw after adding a Bardic Inspiration die.\n- Tragedy: Someone is reduced to zero hit points by an enemy.\n\nAdditionally, any particularly exciting event that seems to warrant inclusion in your poem is eligible as long as the GM approves—but don’t push it.\n\nEach time you compose a new epic verse, you must declare that you are doing so. If the GM approves, then you may add 1 verse to your poem. You may also want to write down what happened and why, so that you can enjoy reading it later, but this is not required. Your poem increases in rank as the number of verses grows.",
-     "rules": [
-   {
-    "resource": {
-     "id": "epic-verses",
-     "name": "Epic Poem Verses",
-     "rest": "none",
-     "max": 60,
-     "note": "Track up to 60 verses"
+   "rules": [
+    {
+     "resource": {
+      "id": "epic-verses",
+      "name": "Epic Poem Verses",
+      "rest": "none",
+      "max": 60,
+      "note": "Track up to 60 verses"
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Inspirational Verses",
@@ -210,16 +210,16 @@
    "type": "Class Feature",
    "name": "Healing Vapors",
    "desc": "Starting at 8th level, your healing spells are accompanied by a mist of restorative vapors. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your Wisdom modifier.\n\nAdditionally, when you cast a spell of 1st level or higher that restores hit points, you may choose to add the effect of fog cloud at the location of one of your targets. You must complete a long rest before you can create another fog cloud with this feature.",
-     "rules": [
-   {
-    "resource": {
-     "id": "healing-vapors-fog",
-     "name": "Healing Vapors (Fog Cloud)",
-     "rest": "L",
-     "max": 1
+   "rules": [
+    {
+     "resource": {
+      "id": "healing-vapors-fog",
+      "name": "Healing Vapors (Fog Cloud)",
+      "rest": "L",
+      "max": 1
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Perfect Foresight",
@@ -251,41 +251,41 @@
    "type": "Class Feature",
    "name": "Immolation",
    "desc": "Immolation. Whenever you reduce a creature to 0 hit points, you may choose to immolate them as a sacrificial offering. As the creature is engulfed in fire, you and every ally within 60 feet of the immolated creature gain the effects of the bless spell for 1 minute (concentration is not required). You may use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses after a short or long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "immolation",
-     "name": "Immolation",
-     "rest": "S",
-     "min": 1,
-     "max": [
-      {
-       "mod": "wis"
-      }
-     ]
+   "rules": [
+    {
+     "resource": {
+      "id": "immolation",
+      "name": "Immolation",
+      "rest": "S",
+      "min": 1,
+      "max": [
+       {
+        "mod": "wis"
+       }
+      ]
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Ritual of Mistletoe",
    "type": "Class Feature",
    "name": "Ritual of Mistletoe",
    "desc": "Starting at 6th level, you carry a pouch full of mistletoe that you’ve collected with your sickle. You have sprigs of mistletoe represented by a number of d4s equal to your druid level. On your turn, you may use a bonus action to expend one of the sprigs of mistletoe and perform one of the following effects:\n\n- Divining Ritual: You cast detect magic without using a spell slot.\n- Healing Ritual: You cast cure wounds as a 1st-level spell without using a spell slot.\n- Purification Ritual: You cast purify food and drink without using a spell slot.\n- Song of the Solstice: You cast heroism as a 1st-level spell without using a spell slot.\n\nAdditionally, any time you cast a spell that restores hit points, you may expend any number of sprigs of mistletoe to roll those dice and add them to the number of hit points restored. You regain all expended sprigs of mistletoe after completing a long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "mistletoe",
-     "name": "Sprigs of Mistletoe",
-     "rest": "L",
-     "max": [
-      {
-       "class": "Druid"
-      }
-     ]
+   "rules": [
+    {
+     "resource": {
+      "id": "mistletoe",
+      "name": "Sprigs of Mistletoe",
+      "rest": "L",
+      "max": [
+       {
+        "class": "Druid"
+       }
+      ]
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Keeper of the Law",
@@ -434,9 +434,9 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Channel Divinity",
+   "id": "Class Feature:Channel Divinity (Oath of the Dragonlord)",
    "type": "Class Feature",
-   "name": "Channel Divinity",
+   "name": "Channel Divinity (Oath of the Dragonlord)",
    "desc": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\nDragon's Wrath. As an action, you can mimic the frightful presence of a dragon, using your Channel Divinity. You issue a roar as loud as an adult dragon. Each creature of your choice that is within 60 ft. of you and aware of you must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nScorn the Unworthy. Your dragonlord oath elevates you above the multitudes of the corrupt and the weak. As an action, you can intone the Dragonlord’s oath, using your Channel Divinity. Enemy creatures within 30 feet that are Large or smaller in size must make a Charisma saving throw. On a failed save, the creature falls prone and loses concentration on any spells that it has active.",
    "rules": [
     {
@@ -528,42 +528,42 @@
    "type": "Class Feature",
    "name": "Amazonian Battlecry",
    "desc": "At 3rd level, you gain the ability to enter the legendary frenzy of the Amazons by shouting your signature battlecry. On your turn, you can use a bonus action to shout your battlecry and enter a frenzy. Your frenzy lasts for 1 minute and grants you the following benefits. It ends after you take damage—or when you are knocked unconscious.\n\n- You have advantage on attacks against creatures of your favored enemy type.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- You have advantage on saving throws against being frightened or paralyzed.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "amazonian-battlecry",
-     "name": "Amazonian Battlecry",
-     "rest": "L",
-     "min": 1,
-     "max": [
-      {
-       "mod": "wis"
-      }
-     ]
+   "rules": [
+    {
+     "resource": {
+      "id": "amazonian-battlecry",
+      "name": "Amazonian Battlecry",
+      "rest": "L",
+      "min": 1,
+      "max": [
+       {
+        "mod": "wis"
+       }
+      ]
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Bracer Reflection",
    "type": "Class Feature",
    "name": "Bracer Reflection",
    "desc": "Starting at 5th level, you've learned to reflect attacks with your bracers. Whenever you would be hit by an attack, you may use your reaction to shield yourself with your bracers. You gain a +5 bonus to AC against all attacks, including the attack that provoked this reaction, until the beginning of your next turn. You may use this feature a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a short or long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "bracer-reflection",
-     "name": "Bracer Reflection",
-     "rest": "S",
-     "min": 1,
-     "max": [
-      {
-       "mod": "wis"
-      }
-     ]
+   "rules": [
+    {
+     "resource": {
+      "id": "bracer-reflection",
+      "name": "Bracer Reflection",
+      "rest": "S",
+      "min": 1,
+      "max": [
+       {
+        "mod": "wis"
+       }
+      ]
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Chakram Technique",
@@ -618,21 +618,21 @@
    "type": "Class Feature",
    "name": "Tenacious Survivor",
    "desc": "At 13th level, you’ve survived through so many ordeals that you face each new challenge with grim determination. You can add your Charisma bonus to your initiative rolls. Also, at the beginning of your first turn in combat, you may use a bonus action to take a deep breath and regain hit points equal to your rogue level. You may use this feature a number of times equal to your Charisma modifier, and you regain any expended uses when you finish a short or long rest.",
-     "rules": [
-   {
-    "resource": {
-     "id": "tenacious-survivor",
-     "name": "Tenacious Survivor",
-     "rest": "S",
-     "min": 1,
-     "max": [
-      {
-       "mod": "cha"
-      }
-     ]
+   "rules": [
+    {
+     "resource": {
+      "id": "tenacious-survivor",
+      "name": "Tenacious Survivor",
+      "rest": "S",
+      "min": 1,
+      "max": [
+       {
+        "mod": "cha"
+       }
+      ]
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Legendary Cunning",
