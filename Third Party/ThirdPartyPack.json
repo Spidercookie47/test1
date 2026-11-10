@@ -1,0 +1,9 @@
+{
+  "name": "supplements books",
+  "packs": [
+    {
+      "name": "Critical Role",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Crititcal%20Role/index.json"
+    },
+  ]
+}
