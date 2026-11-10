@@ -10,7 +10,7 @@
   },
   "files": [
     "equipment.json",
-    "monsters,json",
+    "monsters.json",
     "magic-items.json"
   ]
 }
