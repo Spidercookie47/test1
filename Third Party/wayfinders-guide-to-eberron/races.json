@@ -13,6 +13,16 @@
      }
     },
     {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Intelligence +1"
+      ]
+     }
+    },
+    {
      "grant": "Language:Common"
     },
     {
@@ -95,6 +105,20 @@
       "wis": 1,
       "cha": 1,
       "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
      }
     },
     {
@@ -213,6 +237,9 @@
       "dex": 1,
       "speed": 30
      }
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
     },
     {
      "grant": "Racial Trait:Keen Senses"
@@ -522,6 +549,21 @@
    "name": "Envoy Warforged",
    "desc": "As an envoy, you were designed with a certain specialized function in mind. You might be an assassin, a healer, or an entertainer, to name a few...",
    "rules": [
+    {
+     "select": {
+      "name": "Envoy Warforged",
+      "n": 2,
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
+     }
+    },
     {
      "grant": "Racial Trait:Specialized Design"
     },
@@ -956,7 +998,15 @@
     {
      "select": {
       "name": "Ability Score Increase (Mark of Handling)",
-      "type": "Racial Trait"
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
      }
     },
     {
@@ -1104,7 +1154,11 @@
     {
      "select": {
       "name": "Ability Score Increase (Mark of Making)",
-      "type": "Racial Trait"
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Intelligence +1"
+      ]
      }
     },
     {
@@ -1179,7 +1233,14 @@
     {
      "select": {
       "name": "Ability Score Increase (Mark of Passage)",
-      "type": "Racial Trait"
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
      }
     },
     {
@@ -1301,7 +1362,15 @@
     {
      "select": {
       "name": "Ability Score Increase (Mark of Sentinel)",
-      "type": "Racial Trait"
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1",
+       "Ability Increase:Constitution +1",
+       "Ability Increase:Intelligence +1",
+       "Ability Increase:Wisdom +1",
+       "Ability Increase:Charisma +1"
+      ]
      }
     },
     {
@@ -1588,6 +1657,84 @@
      "Arcane Lock",
      "1/long rest"
     ]
+   ]
+  },
+  {
+   "id": "Ability Increase:Strength +1",
+   "type": "Ability Increase",
+   "name": "Strength +1",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Dexterity +1",
+   "type": "Ability Increase",
+   "name": "Dexterity +1",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Constitution +1",
+   "type": "Ability Increase",
+   "name": "Constitution +1",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Intelligence +1",
+   "type": "Ability Increase",
+   "name": "Intelligence +1",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Wisdom +1",
+   "type": "Ability Increase",
+   "name": "Wisdom +1",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Charisma +1",
+   "type": "Ability Increase",
+   "name": "Charisma +1",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
    ]
   }
  ]
