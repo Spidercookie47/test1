@@ -990,8 +990,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:+2 Charisma, +1 Dexterity (Arachi)",
@@ -1005,8 +1004,7 @@
       "cha": 2
      }
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Arachi)",
@@ -1031,8 +1029,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Arachi)",
@@ -1051,8 +1048,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Elf (Arachi)",
@@ -1074,8 +1070,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Arachi)",
@@ -1094,8 +1089,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Human (Arachi)",
@@ -1140,8 +1134,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Arachi)",
@@ -1186,8 +1179,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Arachi)",
@@ -1212,8 +1204,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Arachi)",
@@ -1232,8 +1223,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Arachi)",
@@ -1252,8 +1242,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Arachi"
+   ]
   },
   {
    "id": "Sub Race:+2 Strength, +1 Charisma (Ashenspawn)",
@@ -1267,8 +1256,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:+2 Charisma, +1 Strength (Ashenspawn)",
@@ -1282,8 +1270,7 @@
       "cha": 2
      }
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Ashenspawn)",
@@ -1308,8 +1295,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Ashenspawn)",
@@ -1328,8 +1314,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Elf (Ashenspawn)",
@@ -1351,8 +1336,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Ashenspawn)",
@@ -1371,8 +1355,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Human (Ashenspawn)",
@@ -1417,8 +1400,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Ashenspawn)",
@@ -1463,8 +1445,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Ashenspawn)",
@@ -1489,8 +1470,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Ashenspawn)",
@@ -1509,8 +1489,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Ashenspawn)",
@@ -1529,8 +1508,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Ashenspawn"
+   ]
   },
   {
    "id": "Sub Race:+2 Strength, +1 Wisdom (Groveborn)",
@@ -1544,8 +1522,7 @@
       "wis": 1
      }
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:+2 Wisdom, +1 Strength (Groveborn)",
@@ -1559,8 +1536,7 @@
       "wis": 2
      }
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Groveborn)",
@@ -1585,8 +1561,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Groveborn)",
@@ -1605,8 +1580,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Elf (Groveborn)",
@@ -1628,8 +1602,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Groveborn)",
@@ -1648,8 +1621,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Human (Groveborn)",
@@ -1694,8 +1666,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Groveborn)",
@@ -1740,8 +1711,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Groveborn)",
@@ -1766,8 +1736,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Groveborn)",
@@ -1786,8 +1755,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Groveborn)",
@@ -1806,8 +1774,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Groveborn"
+   ]
   },
   {
    "id": "Sub Race:+2 Wisdom, +1 Charisma (Heraldic)",
@@ -1821,8 +1788,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:+2 Charisma, +1 Wisdom (Heraldic)",
@@ -1836,8 +1802,7 @@
       "cha": 2
      }
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Heraldic)",
@@ -1862,8 +1827,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Heraldic)",
@@ -1882,8 +1846,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Elf (Heraldic)",
@@ -1905,8 +1868,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Heraldic)",
@@ -1925,8 +1887,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Human (Heraldic)",
@@ -1971,8 +1932,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Heraldic)",
@@ -2017,8 +1977,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Heraldic)",
@@ -2043,8 +2002,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Heraldic)",
@@ -2063,8 +2021,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Heraldic)",
@@ -2083,8 +2040,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Heraldic"
+   ]
   },
   {
    "id": "Sub Race:+2 Dexterity, +1 Wisdom (Imperial)",
@@ -2098,8 +2054,7 @@
       "wis": 1
      }
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:+2 Wisdom, +1 Dexterity (Imperial)",
@@ -2113,8 +2068,7 @@
       "wis": 2
      }
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Imperial)",
@@ -2139,8 +2093,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Imperial)",
@@ -2159,8 +2112,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Elf (Imperial)",
@@ -2182,8 +2134,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Imperial)",
@@ -2202,8 +2153,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Human (Imperial)",
@@ -2248,8 +2198,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Imperial)",
@@ -2294,8 +2243,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Imperial)",
@@ -2320,8 +2268,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Imperial)",
@@ -2340,8 +2287,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Imperial)",
@@ -2360,8 +2306,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Imperial"
+   ]
   },
   {
    "id": "Sub Race:+2 Intelligence, +1 Wisdom, +1 Charisma (Luminari)",
@@ -2376,8 +2321,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:+2 Wisdom, +1 Intelligence, +1 Charisma (Luminari)",
@@ -2392,8 +2336,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:+2 Charisma, +1 Intelligence, +1 Wisdom (Luminari)",
@@ -2408,8 +2351,7 @@
       "cha": 2
      }
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Luminari)",
@@ -2434,8 +2376,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Luminari)",
@@ -2454,8 +2395,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Elf (Luminari)",
@@ -2477,8 +2417,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Luminari)",
@@ -2497,8 +2436,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Human (Luminari)",
@@ -2543,8 +2481,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Luminari)",
@@ -2589,8 +2526,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Luminari)",
@@ -2615,8 +2551,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Luminari)",
@@ -2635,8 +2570,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Luminari)",
@@ -2655,8 +2589,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Luminari"
+   ]
   },
   {
    "id": "Sub Race:+2 Strength, +1 Intelligence (Maledicti)",
@@ -2670,8 +2603,7 @@
       "int": 1
      }
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:+2 Intelligence, +1 Strength (Maledicti)",
@@ -2685,8 +2617,7 @@
       "int": 2
      }
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Maledicti)",
@@ -2711,8 +2642,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Maledicti)",
@@ -2731,8 +2661,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Elf (Maledicti)",
@@ -2754,8 +2683,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Maledicti)",
@@ -2774,8 +2702,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Human (Maledicti)",
@@ -2820,8 +2747,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Maledicti)",
@@ -2866,8 +2792,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Maledicti)",
@@ -2892,8 +2817,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Maledicti)",
@@ -2912,8 +2836,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Maledicti)",
@@ -2932,8 +2855,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Maledicti"
+   ]
   },
   {
    "id": "Sub Race:+2 Dexterity, +1 Wisdom (Nocturne)",
@@ -2947,8 +2869,7 @@
       "wis": 1
      }
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:+2 Wisdom, +1 Dexterity (Nocturne)",
@@ -2962,8 +2883,7 @@
       "wis": 2
      }
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Nocturne)",
@@ -2988,8 +2908,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Nocturne)",
@@ -3008,8 +2927,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Elf (Nocturne)",
@@ -3031,8 +2949,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Nocturne)",
@@ -3051,8 +2968,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Human (Nocturne)",
@@ -3097,8 +3013,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Nocturne)",
@@ -3143,8 +3058,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Nocturne)",
@@ -3169,8 +3083,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Nocturne)",
@@ -3189,8 +3102,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Nocturne)",
@@ -3209,8 +3121,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Nocturne"
+   ]
   },
   {
    "id": "Sub Race:+2 Dexterity, +1 Constitution (Oozian)",
@@ -3224,8 +3135,7 @@
       "con": 1
      }
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:+2 Constitution, +1 Dexterity (Oozian)",
@@ -3239,8 +3149,7 @@
       "con": 2
      }
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Oozian)",
@@ -3265,8 +3174,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Oozian)",
@@ -3285,8 +3193,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Elf (Oozian)",
@@ -3308,8 +3215,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Oozian)",
@@ -3328,8 +3234,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Human (Oozian)",
@@ -3374,8 +3279,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Oozian)",
@@ -3420,8 +3324,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Oozian)",
@@ -3446,8 +3349,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Oozian)",
@@ -3466,8 +3368,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Oozian)",
@@ -3486,8 +3387,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Oozian"
+   ]
   },
   {
    "id": "Sub Race:+2 Constitution, +1 Wisdom, +1 Charisma (Statuesque)",
@@ -3502,8 +3402,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:+2 Wisdom, +1 Constitution, +1 Charisma (Statuesque)",
@@ -3518,8 +3417,7 @@
       "cha": 1
      }
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:+2 Charisma, +1 Constitution, +1 Wisdom (Statuesque)",
@@ -3534,8 +3432,7 @@
       "cha": 2
      }
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Dragonborn (Statuesque)",
@@ -3560,8 +3457,7 @@
     {
      "grant": "Language:Draconic"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Dwarf (Statuesque)",
@@ -3580,8 +3476,7 @@
     {
      "grant": "Language:Dwarvish"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Elf (Statuesque)",
@@ -3603,8 +3498,7 @@
     {
      "grant": "Language:Elvish"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Gnome (Statuesque)",
@@ -3623,8 +3517,7 @@
     {
      "grant": "Language:Gnomish"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Human (Statuesque)",
@@ -3669,8 +3562,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Half-Elf (Statuesque)",
@@ -3715,8 +3607,7 @@
       "type": "Language"
      }
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Halfling (Statuesque)",
@@ -3741,8 +3632,7 @@
     {
      "grant": "Language:Halfling"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Half-Orc (Statuesque)",
@@ -3761,8 +3651,7 @@
     {
      "grant": "Language:Orc"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   },
   {
    "id": "Sub Race:Tiefling (Statuesque)",
@@ -3781,8 +3670,7 @@
     {
      "grant": "Language:Infernal"
     }
-   ],
-   "supports": "Race:Statuesque"
+   ]
   }
  ]
 }
