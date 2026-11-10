@@ -13,9 +13,7 @@
    "range": "60 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a ranged weapon"
   },
   {
@@ -31,9 +29,7 @@
    "range": "60 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a blue ribbon"
   },
   {
@@ -49,9 +45,7 @@
    "range": "90 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a weapon"
   },
   {
@@ -68,7 +62,7 @@
    "dur": "1 hour",
    "ritual": false,
    "lists": [
-    ""
+    "Spiritualist"
    ]
   },
   {
@@ -84,9 +78,7 @@
    "range": "5 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ]
+   "lists": []
   },
   {
    "id": "Spell:Death Shroud",
@@ -101,9 +93,7 @@
    "range": "60 feet",
    "dur": "Concentration, up to 1 minute",
    "ritual": false,
-   "lists": [
-    ""
-   ]
+   "lists": []
   },
   {
    "id": "Spell:Drain",
@@ -119,7 +109,7 @@
    "dur": "Instantaneous",
    "ritual": false,
    "lists": [
-    ""
+    "Spiritualist"
    ],
    "mat": "a red ribbon"
   },
@@ -136,9 +126,7 @@
    "range": "120 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ]
+   "lists": []
   },
   {
    "id": "Spell:Fungal Bloom",
@@ -153,9 +141,7 @@
    "range": "60 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a ranged weapon"
   },
   {
@@ -171,9 +157,7 @@
    "range": "Touch",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ]
+   "lists": []
   },
   {
    "id": "Spell:Misfortune’s Mark",
@@ -188,9 +172,7 @@
    "range": "10 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a melee weapon"
   },
   {
@@ -206,9 +188,7 @@
    "range": "5 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ]
+   "lists": []
   },
   {
    "id": "Spell:Rime Strike",
@@ -223,9 +203,7 @@
    "range": "90 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a ranged weapon"
   },
   {
@@ -241,9 +219,7 @@
    "range": "5 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a melee weapon"
   },
   {
@@ -259,9 +235,7 @@
    "range": "90 feet",
    "dur": "Concentration, up to 1 minute",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a poisonous mushroom"
   },
   {
@@ -277,9 +251,7 @@
    "range": "Self",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a small metal rod"
   },
   {
@@ -295,9 +267,7 @@
    "range": "Self",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ]
+   "lists": []
   },
   {
    "id": "Spell:Vortex Dart",
@@ -312,9 +282,7 @@
    "range": "60 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a ranged weapon"
   },
   {
@@ -330,45 +298,8 @@
    "range": "5 feet",
    "dur": "Instantaneous",
    "ritual": false,
-   "lists": [
-    ""
-   ],
+   "lists": [],
    "mat": "a melee weapon"
-  },
-  {
-   "id": "Spell:Corpse Mask",
-   "type": "Spell",
-   "name": "Corpse Mask",
-   "desc": "Touching the corpse of a humanoid you transform your physical appearance - including your clothing, armor, weapons, and other belongings on your person - to look like the corpse did in life minutes before its death. You retain all of your own ability scores, features, traits, and other abilities.\n\nWhile disguised as the dead you also instinctively mimic its mannerisms. Creatures familiar with the deceased humanoid can attempt to ascertain if you are in fact the deceased by using its action to make an Intelligence (Investigation) check against your spell save DC.\n\nAt Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration increases to 8 hours. When you cast this spell using a spell slot of 5th level or higher, the duration increases to 24 hours.",
-   "rules": [],
-   "lvl": 1,
-   "school": "transmutation",
-   "comp": "V,S",
-   "cast": "1 action",
-   "range": "Self",
-   "dur": "Instantaneous",
-   "ritual": true,
-   "lists": [
-    "HUFF_Spiritualist"
-   ]
-  },
-  {
-   "id": "Spell:Drain",
-   "type": "Spell",
-   "name": "Drain",
-   "desc": "Stretching out your hand and pointing your finger at a creature within range, a flash of negative energy briefly connects the two of you. The targeted creature must succeed on a Constitution saving throw or take 3d4 necrotic damage. If the creature fails its saving throw, you gain a number of temporary hit points equivalent to the damage the creature takes. You lose any temporary hit points granted by this spell after one minute.\n\nAt Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, each level beyond the first adds 2d4 to the damage dealt by this spell.",
-   "rules": [],
-   "lvl": 1,
-   "school": "necromancy",
-   "comp": "V,S,M",
-   "cast": "1 action",
-   "range": "30 feet",
-   "dur": "Instantaneous",
-   "ritual": false,
-   "lists": [
-    "HUFF_Spiritualist"
-   ],
-   "mat": "a red ribbon"
   },
   {
    "id": "Spell:Exorcise",
@@ -384,7 +315,7 @@
    "dur": "Instantaneous",
    "ritual": false,
    "lists": [
-    "HUFF_Spiritualist"
+    "Spiritualist"
    ],
    "mat": "a prayer book"
   },
@@ -402,7 +333,7 @@
    "dur": "Concentration, up to 1 minute",
    "ritual": false,
    "lists": [
-    "HUFF_Spiritualist"
+    "Spiritualist"
    ],
    "mat": "a length of chain"
   },
@@ -420,7 +351,7 @@
    "dur": "Concentration, up to 10 minutes",
    "ritual": false,
    "lists": [
-    "HUFF_Spiritualist"
+    "Spiritualist"
    ]
   },
   {
@@ -437,7 +368,7 @@
    "dur": "Instantaneous",
    "ritual": false,
    "lists": [
-    "HUFF_Spiritualist"
+    "Spiritualist"
    ],
    "mat": "a calendar or timepiece older than you are worth 1 sp or more"
   },
@@ -455,7 +386,7 @@
    "dur": "Concentration, up to 1 hour",
    "ritual": false,
    "lists": [
-    "HUFF_Spiritualist"
+    "Spiritualist"
    ],
    "mat": "a bed sheet"
   }

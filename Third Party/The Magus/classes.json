@@ -56,7 +56,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Fighting Style",
+     "grant": "Class Feature:Fighting Style (Blood Hunter)",
      "level": 2
     },
     {
@@ -72,7 +72,7 @@
      "level": 4
     },
     {
-     "grant": "Class Feature:Extra Attack",
+     "grant": "Class Feature:Extra Attack (Blood Hunter)",
      "level": 5
     },
     {
@@ -107,8 +107,7 @@
      },
      "level": 3
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Hunter’s Bane",
@@ -230,7 +229,7 @@
    ]
   },
   {
-   "id": "Class Feature:Fighting Style",
+   "id": "Class Feature:Fighting Style (Blood Hunter)",
    "type": "Class Feature",
    "name": "Fighting Style",
    "desc": "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again\n\nARCHERY\n\nYou gain a +2 bonus to attack rolls you make with ranged weapons.\n\nDUELING\n\nWhen you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\nGREAT WEAPON FIGHTING\n\nWhen you roll a 1 or 2 on a non-rite damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\nTWO-WEAPON FIGHTING\n\nWhen you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
@@ -308,7 +307,7 @@
    ]
   },
   {
-   "id": "Class Feature:Extra Attack",
+   "id": "Class Feature:Extra Attack (Blood Hunter)",
    "type": "Class Feature",
    "name": "Extra Attack",
    "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action.",
@@ -425,7 +424,7 @@
    ]
   },
   {
-   "id": "Class Feature:Pact Magic",
+   "id": "Class Feature:Pact Magic (Blood Hunter)",
    "type": "Class Feature",
    "name": "Pact Magic",
    "desc": "When you reach 3rd level, you can augment your combat techniques with the ability to cast spells. See chapter 10 of the Player’s Handbook for the general rules of spellcasting and chapter 11 of the Player’s Handbook for the Warlock spell list.\n\nCantrips. You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.\n\nSpell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 8th level, you have two 2nd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.\n\nSpells Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Profane Soul table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 11th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability. Intelligence is your spellcasting ability for your warlock spells, so you use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nPROFANE SOUL SPELLCASTING\n\nLevel | Cantrips Known | Spells Known | Spell Slots | Slot Level\n3rd | 2 | 2 | 1 | 1st\n4th | 2 | 2 | 1 | 1st\n5th | 2 | 3 | 1 | 1st\n6th | 2 | 3 | 2 | 1st\n7th | 2 | 4 | 2 | 2nd\n8th | 2 | 4 | 2 | 2nd\n9th | 2 | 5 | 2 | 2nd\n10th | 3 | 5 | 2 | 2nd\n11th | 3 | 6 | 2 | 2nd\n12th | 3 | 6 | 2 | 2nd\n13th | 3 | 7 | 2 | 3rd\n14th | 3 | 7 | 2 | 3rd\n15th | 3 | 8 | 2 | 3rd\n16th | 3 | 8 | 2 | 3rd\n17th | 3 | 9 | 2 | 3rd\n18th | 3 | 9 | 2 | 3rd\n19th | 3 | 10 | 2 | 4th\n20th | 3 | 11 | 2 | 4th",
@@ -690,7 +689,7 @@
        "Class Feature:Reconstruction",
        "Class Feature:Sagacity",
        "Class Feature:Shielded",
-       "Class Feature:Unbreakable",
+       "Class Feature:Unbreakable (Formula)",
        "Class Feature:Vermillion"
       ]
      },
@@ -719,7 +718,7 @@
        "Class Feature:Reconstruction",
        "Class Feature:Sagacity",
        "Class Feature:Shielded",
-       "Class Feature:Unbreakable",
+       "Class Feature:Unbreakable (Formula)",
        "Class Feature:Vermillion"
       ]
      },
@@ -748,7 +747,7 @@
        "Class Feature:Reconstruction",
        "Class Feature:Sagacity",
        "Class Feature:Shielded",
-       "Class Feature:Unbreakable",
+       "Class Feature:Unbreakable (Formula)",
        "Class Feature:Vermillion"
       ]
      },
@@ -777,7 +776,7 @@
        "Class Feature:Reconstruction",
        "Class Feature:Sagacity",
        "Class Feature:Shielded",
-       "Class Feature:Unbreakable",
+       "Class Feature:Unbreakable (Formula)",
        "Class Feature:Vermillion"
       ]
      },
@@ -806,7 +805,7 @@
        "Class Feature:Reconstruction",
        "Class Feature:Sagacity",
        "Class Feature:Shielded",
-       "Class Feature:Unbreakable",
+       "Class Feature:Unbreakable (Formula)",
        "Class Feature:Vermillion"
       ]
      },
@@ -1027,7 +1026,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Expertise",
+     "grant": "Class Feature:Expertise (Cook)",
      "level": 2
     },
     {
@@ -1070,8 +1069,7 @@
      },
      "level": 3
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Cook’s Bag",
@@ -1701,25 +1699,17 @@
    ]
   },
   {
-   "id": "Class Feature:Expertise",
+   "id": "Class Feature:Expertise (Cook)",
    "type": "Class Feature",
    "name": "Expertise",
    "desc": "At 2rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 9th level, you can choose another two skill proficiencies to gain this benefit.",
    "rules": [
     {
-     "select": {
-      "name": "Expertise (Cook 2)",
-      "n": 2,
-      "type": "Class Feature"
-     },
+     "expertise": 2,
      "level": 2
     },
     {
-     "select": {
-      "name": "Expertise (Cook 9)",
-      "n": 2,
-      "type": "Class Feature"
-     },
+     "expertise": 2,
      "level": 9
     }
    ]
@@ -1874,7 +1864,7 @@
    ]
   },
   {
-   "id": "Class Feature:Bonus Proficiency",
+   "id": "Class Feature:Bonus Proficiency (Cook)",
    "type": "Class Feature",
    "name": "Bonus Proficiency",
    "desc": "When you become a Hash Slinger at 3rd level, you gain proficiency with martial weapons.",
@@ -1894,7 +1884,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Extra Attack",
+   "id": "Class Feature:Extra Attack (Cook)",
    "type": "Class Feature",
    "name": "Extra Attack",
    "desc": "Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
@@ -2098,7 +2088,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Spellcasting",
+     "grant": "Class Feature:Spellcasting (Grave Warden)",
      "level": 1
     },
     {
@@ -2145,8 +2135,7 @@
      },
      "level": 1
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Bulwark of the Undead",
@@ -2156,7 +2145,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Spellcasting",
+   "id": "Class Feature:Spellcasting (Grave Warden)",
    "type": "Class Feature",
    "name": "Spellcasting",
    "desc": "As a student of necromantic magic, you have obtained a grimoire containing spells dealing with the dark arts. At first, your ability to understand the scripture in this tome is limited.\n\nHowever, you are told that through devoted study and practice you will be able to decipher more of the pages, and the potency of the spells available to you will become formidable. Unlike more traditional arcane casters, you are unable to learn spells from schools of magic other than necromancy unless they are granted by your chosen requiem. See the Grave Warden Spell List on page 13 of this supplement.\n\nCANTRIPS\n\nAt 1st level, you know three cantrips of your choice from the grave warden spell list. You learn additional grave warden cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Grave Warden table\n\nGRIMOIRE\n\nAt 1st level, you obtain a tome containing all of the currently known necromancy spells in the realm. There are a few blank pages at the back of the grimoire, allowing you to inscribe any requiem spells you learn during your travels when you choose which requiem path to follow.\n\nThe spells that you decipher in your grimoire as you gain levels reflect the research you conduct on your own, as well as intellectual breakthroughs you have had while dealing with undead.\n\nPREPARING AND CASTING SPELLS\n\nThe Grave Warden table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of necromancy spells that are available for you to cast. To do so, choose a number of grave warden spells from your grimoire equal to your Intelligence modifier + your grave warden level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you're a 3rd-level grave warden you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your grimoire. If you prepare the 1st-level spell inflict wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of grave warden spells requires time spent studying your grimoire and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.\n\nSPELLCASTING ABILITY\n\nIntelligence is your spellcasting ability for your grave warden spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier when setting the saving throw DC for a grave warden spell you cast and when making an attack roll with one.\n\nRITUAL CASTING\n\nYou can cast a necromancy spell as a ritual if that spell has the ritual tag, and the spell is in your grimoire. You don't need to have the spell prepared.\n\nSPELLCASTING FOCUS\n\nYou can use an arcane focus (found in chapter 5) as a spellcasting focus for your grave warden spells. Your Undead Graft, obtained at 3rd level, becomes your spellcasting focus.\n\nLEARNING SPELLS OF 1ST LEVEL AND HIGHER\n\nEach time you gain a grave warden level, you are able to decipher more of your grimoire. When you gain a new spell slot level, you are able to understand and cast the corresponding level of spells if you have them prepared.\n\nREPLACING A GRIMOIRE\n\nYour grimoire is an ancient tome that was given to you and is thus practically irreplaceable.\n\nHowever, you are able to copy a spell from your own grimoire into another tome - for example, if you want to make a backup copy of your grimoire. This is a lengthy and painstaking process, particularly for the spells you have not yet deciphered and used.\n\nFor spells you are able to cast, coping the spell is just like scribing onto a scroll, but faster and easier, since you understand the notation and already know how to cast the spell. You need spend only 1 hour and 10 gp. for each level of the copied spell.\n\nFor spells you cannot yet cast, the process is much more difficult. To retain the incantation's meaning, you must copy it exactly. To do so, you may make an arcana check against a DC 15 for second levels spells. This DC further increases by 2 for every additional spell level you wish to transcribe.\n\nFor this reason, it is very rare for a grave warden to make copies of their grimoire; rather choosing to value it above all their other material possessions.\n\nTHE GRIMOIRE’S APPEARANCE\n\nA grave warden's grimoire tends to don runes inlaid into a black leather cover, which symbolize the dark magic contained within.",
@@ -2835,7 +2824,7 @@
      "level": 2
     },
     {
-     "grant": "Class Feature:Spellcasting",
+     "grant": "Class Feature:Spellcasting (Magus)",
      "level": 2
     },
     {
@@ -2878,8 +2867,7 @@
      },
      "level": 1
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Eldritch Society",
@@ -2918,7 +2906,7 @@
    ]
   },
   {
-   "id": "Class Feature:Spellcasting",
+   "id": "Class Feature:Spellcasting (Magus)",
    "type": "Class Feature",
    "name": "Spellcasting",
    "desc": "Starting at 2nd level, you gain the ability to cast spells of 1st level and higher. See chapter 10 of the Player’s Handbook for the general rules of spellcasting.\n\nSPELL SLOTS\n\nThe Magus table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell find familiar and have a 1st-level and a 2nd-level spell slot available, you can cast find familiar using either slot.\n\nSPELLS KNOWN OF 1ST-LEVEL AND HIGHER\n\nYou know three 1st-level magus spells of your choice from your eldritch society’s spell list. You learn additional spells chosen from your eldritch society’s spell list as indicated in the Spells Known column of the Magus table.\n\nAdditionally, when you gain a level in this class, you can choose one of the magus spells you know and replace it with another spell from your eldritch society’s spell list, which also must be of a level for which you have spell slots.\n\nSPELLCASTING ABILITY\n\nYour spellcasting ability is determined by your eldritch society. See the Initiate feature of your eldritch society for your spellcasting ability.\n\nRITUAL CASTING\n\nYou can cast a magus spell as a ritual if that spell has the ritual tag and you know the spell.\n\nSPELLCASTING FOCUS\n\nYour spellcasting focus, if any, is determined by your eldritch society. See the Initiate feature of your eldritch society to see what, if any, spellcasting focus you may use for your magus spells.",
@@ -3034,7 +3022,7 @@
      "grant": "Class Feature:Arcane Enspell"
     },
     {
-     "grant": "Class Feature:Arcane Aegis"
+     "grant": "Class Feature:Arcane Aegis (Magus)"
     }
    ]
   },
@@ -3046,7 +3034,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Arcane Recovery",
+   "id": "Class Feature:Arcane Recovery (Magus)",
    "type": "Class Feature",
    "name": "Arcane Recovery",
    "desc": "Starting at 14th level, you have learned to regain some of your magical energy by reflecting on esoteric truths and formulae. Once per day when you finish a short rest, you can choose to recover some of your expended spell slots. The spell slots can have a combined level that is equal to or less than half your magus level (rounded up), and none of the slots can be 6th level or higher.",
@@ -3060,7 +3048,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Arcane Aegis",
+   "id": "Class Feature:Arcane Aegis (Magus)",
    "type": "Class Feature",
    "name": "Arcane Aegis",
    "desc": "When a target protected by your aegis takes damage from a creature you can use your reaction to remove the aegis from that ally. When you do, you may teleport up to 30 feet and make a weapon attack against the attacking creature.",
@@ -3553,7 +3541,7 @@
      "level": 4
     },
     {
-     "grant": "Class Feature:Extra Attack",
+     "grant": "Class Feature:Extra Attack (Pugilist)",
      "level": 5
     },
     {
@@ -3585,7 +3573,7 @@
      "level": 13
     },
     {
-     "grant": "Class Feature:Unbreakable",
+     "grant": "Class Feature:Unbreakable (Pugilist)",
      "level": 14
     },
     {
@@ -3608,8 +3596,7 @@
      },
      "level": 3
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Fisticuffs",
@@ -3632,62 +3619,41 @@
    "desc": "Starting at 2nd level, your experience laying the beatdown on others has given you a moxie you can channel in the midst of battle. This swagger is represented by a number of moxie points. Your pugilist level determines the maximum number of points you have, as shown in the Moxie Points column of the Pugilist table.\n\nYou can spend these points to fuel various moxie features. You start knowing three such features: Brace Up, The Old One-Two, and Stick and Move. You learn more moxie features as you gain levels in this class. You regain all expended moxie points when you complete ashort or long rest.\n\nBRACE UP\n\nYou can use a bonus action and spend 1 moxie point to brace for attacks. Roll your fisticuffs die + your pugilist level + your Constitution modifier and gain that many temporary hit points\n\nTHE OLD ONE-TWO\n\nImmediately after you take the Attack action on your turn, you can spend 1 moxie point to make two unarmed strikes as a bonus action.\n\nSTICK AND MOVE\n\nYou can use a bonus action and expend 1 moxie point to make a shove attack or take the Dash action.",
    "rules": [
     {
-     "grant": "Class Feature:Brace Up (Moxie) (Up)"
+     "grant": "Class Feature:Brace Up (Moxie) (Up) (Pugilist)"
     },
     {
-     "grant": "Class Feature:The Old One-Two (Moxie) (Two)"
+     "grant": "Class Feature:The Old One-Two (Moxie) (Two) (Pugilist)"
     },
     {
-     "grant": "Class Feature:Stick and Move (Moxie) (Move)"
+     "grant": "Class Feature:Stick and Move (Moxie) (Move) (Pugilist)"
     },
     {
-     "grant": "Class Feature:Brace Up (Moxie) (Up)"
+     "grant": "Class Feature:Brace Up (Moxie) (Up) (Pugilist)"
     },
     {
-     "grant": "Class Feature:The Old One-Two (Moxie) (Two)"
+     "grant": "Class Feature:The Old One-Two (Moxie) (Two) (Pugilist)"
     },
     {
-     "grant": "Class Feature:Stick and Move (Moxie) (Move)"
+     "grant": "Class Feature:Stick and Move (Moxie) (Move) (Pugilist)"
     }
    ]
   },
   {
-   "id": "Class Feature:Brace Up (Moxie) (Up)",
+   "id": "Class Feature:Brace Up (Moxie) (Up) (Pugilist)",
    "type": "Class Feature",
    "name": "Brace Up (Moxie) (Up)",
    "desc": "You can use a bonus action and spend 1 moxie point to brace for attacks. Roll your fisticuffs die + your pugilist level + your Constitution modifier and gain that many temporary hit points",
    "rules": []
   },
   {
-   "id": "Class Feature:The Old One-Two (Moxie) (Two)",
+   "id": "Class Feature:The Old One-Two (Moxie) (Two) (Pugilist)",
    "type": "Class Feature",
    "name": "The Old One-Two (Moxie) (Two)",
    "desc": "Immediately after you take the Attack action on your turn, you can spend 1 moxie point to make two unarmed strikes as a bonus action.",
    "rules": []
   },
   {
-   "id": "Class Feature:Stick and Move (Moxie) (Move)",
-   "type": "Class Feature",
-   "name": "Stick and Move (Moxie) (Move)",
-   "desc": "You can use a bonus action and expend 1 moxie point to make a shove attack or take the Dash action.",
-   "rules": []
-  },
-  {
-   "id": "Class Feature:Brace Up (Moxie) (Up)",
-   "type": "Class Feature",
-   "name": "Brace Up (Moxie) (Up)",
-   "desc": "You can use a bonus action and spend 1 moxie point to brace for attacks. Roll your fisticuffs die + your pugilist level + your Constitution modifier and gain that many temporary hit points",
-   "rules": []
-  },
-  {
-   "id": "Class Feature:The Old One-Two (Moxie) (Two)",
-   "type": "Class Feature",
-   "name": "The Old One-Two (Moxie) (Two)",
-   "desc": "Immediately after you take the Attack action on your turn, you can spend 1 moxie point to make two unarmed strikes as a bonus action.",
-   "rules": []
-  },
-  {
-   "id": "Class Feature:Stick and Move (Moxie) (Move)",
+   "id": "Class Feature:Stick and Move (Moxie) (Move) (Pugilist)",
    "type": "Class Feature",
    "name": "Stick and Move (Moxie) (Move)",
    "desc": "You can use a bonus action and expend 1 moxie point to make a shove attack or take the Dash action.",
@@ -3731,7 +3697,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Extra Attack",
+   "id": "Class Feature:Extra Attack (Pugilist)",
    "type": "Class Feature",
    "name": "Extra Attack",
    "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
@@ -4308,7 +4274,7 @@
      }
     },
     {
-     "grant": "Class Feature:Pact Magic",
+     "grant": "Class Feature:Pact Magic (Spiritualist)",
      "level": 1
     },
     {
@@ -4363,11 +4329,10 @@
      },
      "level": 1
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
-   "id": "Class Feature:Pact Magic",
+   "id": "Class Feature:Pact Magic (Spiritualist)",
    "type": "Class Feature",
    "name": "Pact Magic",
    "desc": "Your ability to pierce the veil that separates the living from the dead grants you the ability to cast spells. See chapter 10 of the Player’s Handbook for the general rules of spellcasting and this document for the spiritualist spell list.\n\nCANTRIPS\n\nYou know two cantrips of your choice from the spiritualist spell list. You learn additional spiritualist cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Spiritualist table.\n\nPREPARING AND CASTING SPELLS\n\nThe Spiritualist table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your spiritualist spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nYou prepare the list of spiritualist spells that are available for you to cast, choosing from the spiritualist spell list. When you do so, choose a number of spiritualist spells equal to your Charisma modifier + half your spiritualist level, rounded down (minimum of one spell). The spell must be of a level for which you have spell slots.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell forsaken chains, you must spend one of those slots, and you cast it as a 3rd-level spell. Casting the spell doesn’t remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of spiritualist spells required time spent in meditation and communion with the spirits of the departed: at least 1 minute per spell level for each spell on your list.\n\nSPELLCASTING ABILITY\n\nCharisma is your spellcasting ability for spiritualist spells. Your ability to call out to the unquiet dead and reach into the minds of the living comes from a powerful sense of self. You use your Charisma whenever a spiritualist spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a spiritualist spell you cast and when making an attack roll with one.\n\nRITUAL CASTING\n\nYou can cast a spiritualist spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSPELLCASTING FOCUS\n\nYou can use a crystal, reliquary, spirit board, or totem (see chapter 5, “Equipment”, of the Player’s Handbook) as a spellcasting focus for your spiritualist spells.",
@@ -4665,7 +4630,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Extra Attack",
+   "id": "Class Feature:Extra Attack (Spiritualist)",
    "type": "Class Feature",
    "name": "Extra Attack",
    "desc": "Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
@@ -4872,11 +4837,11 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Fighting Style",
+     "grant": "Class Feature:Fighting Style (Swordmage)",
      "level": 2
     },
     {
-     "grant": "Class Feature:Spellcasting",
+     "grant": "Class Feature:Spellcasting (Swordmage)",
      "level": 2
     },
     {
@@ -4896,7 +4861,7 @@
      "level": 4
     },
     {
-     "grant": "Class Feature:Extra Attack",
+     "grant": "Class Feature:Extra Attack (Swordmage)",
      "level": 5
     },
     {
@@ -4927,8 +4892,7 @@
      },
      "level": 3
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Swordmage Bond",
@@ -4945,7 +4909,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Fighting Style",
+   "id": "Class Feature:Fighting Style (Swordmage)",
    "type": "Class Feature",
    "name": "Fighting Style",
    "desc": "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.\n\nARCANE WARRIOR\n\nArcane Warrior You learn two cantrips of your choice from the wizard spell list. They count as swordmage spells for you, and Intelligence is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the wizard spell list.\n\nARCHERY\n\nYou gain a +2 bonus to attack rolls you make with ranged weapons.\n\nDEFENSE\n\nWhile you are wearing armor, you gain a +1 bonus to AC.\n\nDUELING\n\nWhen you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\nGREAT WEAPON FIGHTING\n\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the twohanded or versatile property for you to gain this benefit.\n\nPROTECTION\n\nWhen a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.",
@@ -4962,7 +4926,7 @@
    ]
   },
   {
-   "id": "Class Feature:Spellcasting",
+   "id": "Class Feature:Spellcasting (Swordmage)",
    "type": "Class Feature",
    "name": "Spellcasting",
    "desc": "Your time spent learning the intricacies of magic allows you to create greater effects beyond the form of your weapon, giving you the ability to cast spells at 2nd level.\n\nSPELL SLOTS\n\nThe Swordmage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher.\n\nYou regain all expended spell slots when you finish a long rest.\n\nSPELLS KNOWN OF 1ST LEVEL AND HIGHER\n\nYou know two 1st-level spells of your choice from the swordmage spell list (which appears at the end of this document).\n\nThe Spells Known column of the Swordmage table shows when you learn more swordmage spells of your choice from this feature. Each of these spells must be of a level for which you have spell slots on the Swordmage table.\n\nAdditionally, when you gain a level in this class, you can choose one of the swordmage spells you know from this feature and replace it with another spell from the swordmage spell list. The new spell must also be of a level for which you have spell slots on the Swordmage table.\n\nSPELLCASTING ABILITY\n\nIntelligence is your spellcasting ability for your swordmage spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever a swordmage spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a swordmage spell you cast and when making an attack roll with one.\n\nSPELLCASTING FOCUS\n\nYou can use your bonded weapon as a spellcasting focus for your swordmage spells.",
@@ -4998,7 +4962,7 @@
    ]
   },
   {
-   "id": "Class Feature:Extra Attack",
+   "id": "Class Feature:Extra Attack (Swordmage)",
    "type": "Class Feature",
    "name": "Extra Attack",
    "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
@@ -5088,7 +5052,7 @@
    ]
   },
   {
-   "id": "Class Feature:Arcane Aegis",
+   "id": "Class Feature:Arcane Aegis (Swordmage)",
    "type": "Class Feature",
    "name": "Arcane Aegis",
    "desc": "When you choose this discipline at 3rd level, you gain the ability to disrupt a single target's attacks against your allies.\n\nAs an action you can target a single creature within 30 feet of you that you can see. That creature makes a Wisdom saving throw versus your spell save DC. On a failure you mark the creature until your concentration is broken (as if you are concentrating on a spell). A creature marked by you has disadvantage on any attack roll that doesn't target you.\n\nYou can use this feature a number of times equal to your Intelligence modifier. You regain expended uses of this feature when you finish a long rest.",

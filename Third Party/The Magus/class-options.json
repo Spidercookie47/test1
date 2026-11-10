@@ -235,7 +235,7 @@
    "lv": 3
   },
   {
-   "id": "Class Feature:Unbreakable",
+   "id": "Class Feature:Unbreakable (Formula)",
    "type": "Class Feature",
    "name": "Unbreakable",
    "desc": "You gain resistance to bludgeoning damage. As a side effect, you gain vulnerability to piercing damage.",
@@ -872,7 +872,7 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Unbreakable",
+   "id": "Class Feature:Unbreakable (Pugilist)",
    "type": "Class Feature",
    "name": "Unbreakable",
    "desc": "Starting at 14th level, you gain advantage on Strength, Dexterity, and Constitution saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 moxie point to reroll it and take the second result.",

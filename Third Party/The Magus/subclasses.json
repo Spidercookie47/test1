@@ -44,7 +44,7 @@
      "level": 3
     },
     {
-     "grant": "Class Feature:Pact Magic",
+     "grant": "Class Feature:Pact Magic (Blood Hunter)",
      "level": 3
     },
     {
@@ -452,7 +452,7 @@
    "desc": "The archetypal Hash Slinger believes more in the scientific aspect of food than in the art of it. Food is the fuel, and the body is the fire. If you can...",
    "rules": [
     {
-     "grant": "Class Feature:Bonus Proficiency",
+     "grant": "Class Feature:Bonus Proficiency (Cook)",
      "level": 3
     },
     {
@@ -460,7 +460,7 @@
      "level": 3
     },
     {
-     "grant": "Class Feature:Extra Attack",
+     "grant": "Class Feature:Extra Attack (Cook)",
      "level": 6
     },
     {
@@ -731,7 +731,7 @@
      "level": 7
     },
     {
-     "grant": "Class Feature:Arcane Recovery",
+     "grant": "Class Feature:Arcane Recovery (Magus)",
      "level": 14
     }
    ],
@@ -2897,7 +2897,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Extra Attack",
+     "grant": "Class Feature:Extra Attack (Spiritualist)",
      "level": 6
     },
     {
@@ -2959,7 +2959,7 @@
      "level": 3
     },
     {
-     "grant": "Class Feature:Arcane Aegis",
+     "grant": "Class Feature:Arcane Aegis (Swordmage)",
      "level": 3
     },
     {
