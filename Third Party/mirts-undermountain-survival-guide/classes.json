@@ -423,15 +423,7 @@
    "type": "Class Feature",
    "name": "Factotum Lore",
    "desc": "As much as any factotum possesses a diverse collection of skills, you still must choose a specialty. At 3rd level, the stories and techniques that call to you most allow you to choose a Lore to focus on. The advanced techniques of Factotum Lore may cause you to follow the martial Lore of the Hero or the magical Lore of the Theurge. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level.",
-   "rules": [
-    {
-     "select": {
-      "name": "Factotum Lore",
-      "type": "Subclass",
-      "supports": "Class:Factotum"
-     }
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Class Feature:Opportunistic Piety",
