@@ -193,7 +193,28 @@
    "type": "Subclass",
    "name": "Circle of the Claw",
    "desc": "The Circle of the Claw has a focus on the use of beast form, and stronger forms of it instead of spells. It can stay in beast form for a long time, but has...",
-   "rules": [],
+   "rules": [
+    {
+     "grant": "Class Feature:Circle Forms",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Deft Wild Shape",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Primal Strike",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Monstrous Wild Shape",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Master of the Claw",
+     "level": 14
+    }
+   ],
    "supports": "Class:Druid"
   },
   {
