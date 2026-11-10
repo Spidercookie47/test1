@@ -1,0 +1,1190 @@
+{
+ "format": "hearthscribe-pack",
+ "version": 1,
+ "source": {
+  "id": "wddh",
+  "name": "Waterdeep: Dragon Heist",
+  "short": "WDDH"
+ },
+ "elements": [
+  {
+   "id": "Monster:Awakened Rat",
+   "type": "Monster",
+   "name": "Awakened Rat",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 2,
+     "dex": 11,
+     "con": 9,
+     "int": 10,
+     "wis": 10,
+     "cha": 4
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 30
+    },
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Keen Smell",
+      "d": "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Bugbear Chief",
+   "type": "Monster",
+   "name": "Bugbear Chief",
+   "desc": "Medium humanoid (goblinoid), chaotic evil. Challenge 3.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (goblinoid)",
+    "tags": "",
+    "align": "chaotic evil",
+    "cr": "3",
+    "ab": {
+     "str": 17,
+     "dex": 14,
+     "con": 14,
+     "int": 11,
+     "wis": 12,
+     "cha": 11
+    },
+    "ac": 17,
+    "acNote": "chain shirt, shield",
+    "hpAuto": false,
+    "hp": 65,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Intimidation": 1,
+     "Stealth": 2,
+     "Survival": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Goblin",
+    "traits": [
+     {
+      "n": "Brute",
+      "d": "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+     },
+     {
+      "n": "Heart of Hruggek",
+      "d": "The bugbear has advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
+     },
+     {
+      "n": "Surprise Attack",
+      "d": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The bugbear makes two melee attacks."
+     },
+     {
+      "n": "Morningstar",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 3) piercing damage."
+     },
+     {
+      "n": "Javelin",
+      "d": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 3) piercing damage in melee or 5 (1d6 + 3) piercing damage at range."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Diatryma",
+   "type": "Monster",
+   "name": "Diatryma",
+   "desc": "Large beast, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 14,
+     "dex": 12,
+     "con": 12,
+     "int": 2,
+     "wis": 10,
+     "cha": 5
+    },
+    "ac": 11,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 19,
+    "hdn": 0,
+    "spd": {
+     "walk": 50
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Beak",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Dining Table Mimic",
+   "type": "Monster",
+   "name": "Dining Table Mimic",
+   "desc": "Large monstrosity (shapechanger), neutral. Challenge 3.",
+   "stat": {
+    "size": "Large",
+    "type": "monstrosity (shapechanger)",
+    "tags": "",
+    "align": "neutral",
+    "cr": "3",
+    "ab": {
+     "str": 17,
+     "dex": 12,
+     "con": 15,
+     "int": 5,
+     "wis": 13,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 75,
+    "hdn": 0,
+    "spd": {
+     "walk": 15
+    },
+    "saves": {},
+    "skills": {
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "acid",
+    "cimm": "prone",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+     },
+     {
+      "n": "Grappler",
+      "d": "The mimic has advantage on attack rolls against any creature grappled by it."
+     },
+     {
+      "n": "Adhesive (Object Form Only)",
+      "d": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage."
+     },
+     {
+      "n": "False Appearance (Object Form Only)",
+      "d": "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The mimic can make three attacks; two with its pseudopods and one with its bite"
+     },
+     {
+      "n": "Pseudopod",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+     },
+     {
+      "n": "Bite",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Drow Gunslinger",
+   "type": "Monster",
+   "name": "Drow Gunslinger",
+   "desc": "Medium humanoid (elf), any alignment. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "4",
+    "ab": {
+     "str": 13,
+     "dex": 18,
+     "con": 14,
+     "int": 11,
+     "wis": 13,
+     "cha": 14
+    },
+    "ac": 18,
+    "acNote": "studded leather, shield",
+    "hpAuto": false,
+    "hp": 84,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "dex": true,
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Stealth": 2
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Elvish, Undercommon",
+    "traits": [
+     {
+      "n": "Fey Ancestry",
+      "d": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+     },
+     {
+      "n": "Gunslinger",
+      "d": "Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on the drow's ranged attack rolls with a pistol. In addition, the drow ignores half cover and three-quarters cover when making ranged attacks with a pistol."
+     },
+     {
+      "n": "Innate Spellcasting",
+      "d": "The drow's spellcasting ability is Charisma (spell save DC 12) It can innately cast the following spells, requiring no material components:"
+     },
+     {
+      "n": "Action",
+      "d": "At will: dancing lights"
+     },
+     {
+      "n": "Action",
+      "d": "1/day each: darkness, faerie fire, levitate (self only)"
+     },
+     {
+      "n": "Sunlight Sensitivity",
+      "d": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The drow makes two shortsword attacks."
+     },
+     {
+      "n": "Shortsword",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+     },
+     {
+      "n": "Poisonous Pistol",
+      "d": "Ranged Weapon Attack: +6 to hit, range 30/90 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 11 (2d10) poison damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Engineer",
+   "type": "Monster",
+   "name": "Engineer",
+   "desc": "Small humanoid (gnome), neutral good. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (gnome)",
+    "tags": "",
+    "align": "neutral good",
+    "cr": "1/4",
+    "ab": {
+     "str": 10,
+     "dex": 10,
+     "con": 10,
+     "int": 14,
+     "wis": 10,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 7,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 1,
+     "History": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Gnomish",
+    "traits": [
+     {
+      "n": "Gnome Cunning",
+      "d": "The engineer has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The engineer is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): fire bolt, mending, prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (2 slots): burning hands, disguise self, shield"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Falcon",
+   "type": "Monster",
+   "name": "Falcon",
+   "desc": "Tiny beast, unaligned. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "beast",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 5,
+     "dex": 16,
+     "con": 8,
+     "int": 2,
+     "wis": 14,
+     "cha": 6
+    },
+    "ac": 13,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 10,
+     "fly": 60
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "",
+    "traits": [
+     {
+      "n": "Keen Sight",
+      "d": "The falcon has advantage on Wisdom (Perception) checks that rely on sight."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Talons",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Flying Staff",
+   "type": "Monster",
+   "name": "Flying Staff",
+   "desc": "Small construct, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Small",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 12,
+     "dex": 15,
+     "con": 11,
+     "int": 1,
+     "wis": 5,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 17,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 50,
+     "hover": true
+    },
+    "saves": {
+     "dex": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison, psychic",
+    "cimm": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Antimagic Susceptibility",
+      "d": "The staff is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the staff must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+     },
+     {
+      "n": "False Appearance",
+      "d": "While the staff remains motionless and isn't flying, it is indistinguishable from a normal staff."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Knife",
+      "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Griffon Cavalry Rider",
+   "type": "Monster",
+   "name": "Griffon Cavalry Rider",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 2.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "2",
+    "ab": {
+     "str": 14,
+     "dex": 15,
+     "con": 14,
+     "int": 10,
+     "wis": 12,
+     "cha": 10
+    },
+    "ac": 17,
+    "acNote": "half plate armor",
+    "hpAuto": false,
+    "hp": 58,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Animal Handling": 1,
+     "Athletics": 1,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Lance",
+      "d": "Melee Weapon Attack: +4 to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage, or 11 (1d12 + 5) piercing damage while mounted."
+     },
+     {
+      "n": "Dagger",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+     },
+     {
+      "n": "Feather Fall",
+      "d": "The rider wears a magic ring with which it can cast the feather fall spell on itself once as a reaction to falling. After the spell is cast, the ring becomes nonmagical."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Mechanical Bird",
+   "type": "Monster",
+   "name": "Mechanical Bird",
+   "desc": "Tiny construct, neutral. Challenge 0.",
+   "stat": {
+    "size": "Tiny",
+    "type": "construct",
+    "tags": "",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 10,
+     "dex": 10,
+     "con": 10,
+     "int": 10,
+     "wis": 10,
+     "cha": 10
+    },
+    "ac": 15,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 1,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 60
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {},
+    "langs": "",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 2 (1d3) piercing damage, and the bird is destroyed by the impact."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Nimblewright",
+   "type": "Monster",
+   "name": "Nimblewright",
+   "desc": "Medium construct, unaligned. Challenge 4.",
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "4",
+    "ab": {
+     "str": 12,
+     "dex": 18,
+     "con": 17,
+     "int": 8,
+     "wis": 10,
+     "cha": 6
+    },
+    "ac": 18,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 45,
+    "hdn": 0,
+    "spd": {
+     "walk": 60
+    },
+    "saves": {
+     "dex": true
+    },
+    "skills": {
+     "Acrobatics": 2,
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "bludgeoning, piercing, and slashing from nonmagical attacks",
+    "imm": "",
+    "cimm": "exhaustion, frightened, petrified, poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands one language known to its creator but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The nimblewright has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Magic Weapons",
+      "d": "The nimblewright's weapon attacks are magical."
+     },
+     {
+      "n": "Repairable",
+      "d": "As long as it has at least 1 hit point remaining, the nimblewright regains 1 hit point when a mending spell is cast on it."
+     },
+     {
+      "n": "Sure-Footed",
+      "d": "The nimblewright has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The nimblewright makes three attacks: two with its rapier and one with its dagger."
+     },
+     {
+      "n": "Rapier",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+     },
+     {
+      "n": "Dagger",
+      "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage. Or Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Parry",
+      "d": "The nimblewright adds 2 to its AC against one melee attack that would hit it. To do so, the nimblewright must see the attacker and be wielding a melee weapon."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Panopticus Wizard",
+   "type": "Monster",
+   "name": "Panopticus Wizard",
+   "desc": "Medium humanoid (dwarf), neutral. Challenge 1/4.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "tags": "",
+    "align": "neutral",
+    "cr": "1/4",
+    "ab": {
+     "str": 10,
+     "dex": 10,
+     "con": 10,
+     "int": 14,
+     "wis": 10,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 9,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {
+     "Arcana": 1,
+     "History": 1
+    },
+    "vuln": "",
+    "res": "poison",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Dwarvish",
+    "traits": [
+     {
+      "n": "Dwarven Resilience",
+      "d": "The dwarf has advantage on saving throws against poison and resistance to poison damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The Dwarf is a 1st-level spellcaster. Its spellcasting ability is Intelligence. It has the following wizard spells prepared:"
+     },
+     {
+      "n": "Action",
+      "d": "Cantrips (at will): fire bolt, mending, prestidigitation"
+     },
+     {
+      "n": "Action",
+      "d": "1st level (2 slots): burning hands, disguise self, shield"
+     }
+    ],
+    "actions": [
+     {
+      "n": "Dagger",
+      "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60 ft., one target. Hit: 2 (1d4) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Sergeant",
+   "type": "Monster",
+   "name": "Sergeant",
+   "desc": "Medium humanoid (any race), any alignment. Challenge 1/8.",
+   "stat": {
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "tags": "",
+    "align": "any alignment",
+    "cr": "1/8",
+    "ab": {
+     "str": 13,
+     "dex": 12,
+     "con": 12,
+     "int": 10,
+     "wis": 11,
+     "cha": 10
+    },
+    "ac": 16,
+    "acNote": "chain shirt, shield",
+    "hpAuto": false,
+    "hp": 11,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Any one language (usually Common)",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Spear",
+      "d": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Shard Shunner",
+   "type": "Monster",
+   "name": "Shard Shunner",
+   "desc": "Small humanoid (halfling, shapechanger), lawful evil. Challenge 2.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (halfling, shapechanger)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "2",
+    "ab": {
+     "str": 10,
+     "dex": 15,
+     "con": 12,
+     "int": 11,
+     "wis": 10,
+     "cha": 8
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 27,
+    "hdn": 0,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {},
+    "skills": {
+     "Perception": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
+    "cimm": "",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Halfling, Thieves' cant",
+    "traits": [
+     {
+      "n": "Shapechanger",
+      "d": "The Shard Shunner can use their action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into their true form, which is humanoid. Their statistics, other than their size, are the same in each form. Any equipment they are wearing or carrying isn't transformed. They revert to their true form if they die."
+     },
+     {
+      "n": "Brave",
+      "d": "The Shard Shunner has advantage on saving throws against being frightened."
+     },
+     {
+      "n": "Halfling Nimbleness",
+      "d": "The Shard Shunner can move through the space of creatures that is of a size larger than them."
+     },
+     {
+      "n": "Keen Smell",
+      "d": "The Shard Shunner has advantage on Wisdom (Perception) checks that rely on smell."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack (Humanoid or Hybrid Form Only)",
+      "d": "The Shard Shunner makes two attacks, only one of which can be a bite."
+     },
+     {
+      "n": "Bite (Rat or Hybrid Form Only)",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
+     },
+     {
+      "n": "Shortsword (Humanoid or Hybrid Form Only)",
+      "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     },
+     {
+      "n": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "d": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Swarm of Books",
+   "type": "Monster",
+   "name": "Swarm of Books",
+   "desc": "Medium swarm of tiny constructs, unaligned. Challenge 1/4.",
+   "stat": {
+    "size": "Medium",
+    "type": "swarm of tiny constructs",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/4",
+    "ab": {
+     "str": 5,
+     "dex": 15,
+     "con": 10,
+     "int": 2,
+     "wis": 12,
+     "cha": 4
+    },
+    "ac": 12,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 0,
+     "fly": 30
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "",
+    "res": "bludgeoning, piercing, slashing",
+    "imm": "",
+    "cimm": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned, grappled",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Swarm",
+      "d": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny book. The swarm can't regain hit points or gain temporary hit points."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: 5 (2d4) bludgeoning damage, or 2 (1d4) bludgeoning damage if the swarm has half of its hit points or fewer."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Swarm of Mechanical Spiders",
+   "type": "Monster",
+   "name": "Swarm of Mechanical Spiders",
+   "desc": "Medium swarm of tiny constructs, unaligned. Challenge 1/2.",
+   "stat": {
+    "size": "Medium",
+    "type": "swarm of tiny constructs",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "1/2",
+    "ab": {
+     "str": 3,
+     "dex": 13,
+     "con": 10,
+     "int": 1,
+     "wis": 7,
+     "cha": 1
+    },
+    "ac": 12,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 22,
+    "hdn": 0,
+    "spd": {
+     "walk": 20,
+     "climb": 20
+    },
+    "saves": {},
+    "skills": {},
+    "vuln": "lightning",
+    "res": "bludgeoning, piercing, slashing",
+    "imm": "",
+    "cimm": "exhaustion, charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned, poisoned",
+    "sen": {
+     "blindsight": 10
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Constructed Nature",
+      "d": "The swarm doesn't require air, food, drink, or sleep."
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+     },
+     {
+      "n": "Swarm",
+      "d": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+     },
+     {
+      "n": "Web Sense",
+      "d": "While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web."
+     },
+     {
+      "n": "Web Walker",
+      "d": "The swarm ignores movement restrictions caused by webbing."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Bites",
+      "d": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Walking Statue of Waterdeep",
+   "type": "Monster",
+   "name": "Walking Statue of Waterdeep",
+   "desc": "Gargantuan construct, unaligned. Challenge 18.",
+   "stat": {
+    "size": "Gargantuan",
+    "type": "construct",
+    "tags": "",
+    "align": "unaligned",
+    "cr": "18",
+    "ab": {
+     "str": 30,
+     "dex": 8,
+     "con": 27,
+     "int": 1,
+     "wis": 10,
+     "cha": 1
+    },
+    "ac": 17,
+    "acNote": "natural armor",
+    "hpAuto": false,
+    "hp": 314,
+    "hdn": 0,
+    "spd": {
+     "walk": 60
+    },
+    "saves": {
+     "con": true
+    },
+    "skills": {},
+    "vuln": "",
+    "res": "",
+    "imm": "cold, fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+    "cimm": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "",
+    "traits": [
+     {
+      "n": "Crumbling Colossus",
+      "d": "When the statue drops to 0 hit points, it crumbles and is destroyed. Any creature on the ground within 30 feet of the crumbling statue must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one."
+     },
+     {
+      "n": "Immutable Form",
+      "d": "The statue is immune to any spell or effect that would alter its form."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The statue has advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Siege Monster",
+      "d": "The statue deals double damage to objects and structures."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The statue makes two melee attacks."
+     },
+     {
+      "n": "Slam",
+      "d": "Melee Weapon Attack: +16 to hit, reach 5 ft., one target. Hit: 29 (3d12 + 10) bludgeoning damage."
+     },
+     {
+      "n": "Hurled Stone",
+      "d": "Ranged Weapon Attack: +16 to hit, range 200/800 ft., one target. Hit: 43 (6d10 + 10) bludgeoning damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": []
+   }
+  },
+  {
+   "id": "Monster:Zhent Martial Arts Adept",
+   "type": "Monster",
+   "name": "Zhent Martial Arts Adept",
+   "desc": "Small humanoid (halfling), lawful evil. Challenge 3.",
+   "stat": {
+    "size": "Small",
+    "type": "humanoid (halfling)",
+    "tags": "",
+    "align": "lawful evil",
+    "cr": "3",
+    "ab": {
+     "str": 11,
+     "dex": 17,
+     "con": 13,
+     "int": 11,
+     "wis": 16,
+     "cha": 10
+    },
+    "ac": 16,
+    "acNote": "",
+    "hpAuto": false,
+    "hp": 49,
+    "hdn": 0,
+    "spd": {
+     "walk": 25
+    },
+    "saves": {},
+    "skills": {
+     "Acrobatics": 1,
+     "Insight": 1,
+     "Stealth": 1
+    },
+    "vuln": "",
+    "res": "",
+    "imm": "",
+    "cimm": "",
+    "sen": {},
+    "langs": "Common, Halfling",
+    "traits": [
+     {
+      "n": "Special Equipment",
+      "d": "The adept wears a teleporter ring."
+     },
+     {
+      "n": "Brave",
+      "d": "The adept has advantage on saving throws against being frightened."
+     },
+     {
+      "n": "Halfling Nimbleness",
+      "d": "The adept can move through a space of a Medium or larger creature."
+     },
+     {
+      "n": "Unarmored Defense",
+      "d": "While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The adept makes three unarmed strikes or three dart attacks."
+     },
+     {
+      "n": "Unarmed Strike",
+      "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:"
+     },
+     {
+      "n": "The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice)",
+      "d": "The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.The target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the adept's next turn.\nDart. Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+     }
+    ],
+    "bonus": [],
+    "reactions": [
+     {
+      "n": "Deflect Missile",
+      "d": "In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10 + 3. If the damage is reduced to 0, the adept catches the missile if it's small enough to hold in one hand and the adept has a hand free."
+     }
+    ]
+   }
+  }
+ ]
+}
