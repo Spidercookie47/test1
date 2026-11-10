@@ -22,12 +22,6 @@
      "grant": "Background Feature:Wild Hospitality"
     },
     {
-     "select": {
-      "name": "Variant Feature",
-      "type": "Background Feature"
-     }
-    },
-    {
      "pf": [
       "t:Herbalism kit"
      ]
@@ -91,12 +85,6 @@
     },
     {
      "grant": "Background Feature:Keeper of Vaults"
-    },
-    {
-     "select": {
-      "name": "Variant Feature",
-      "type": "Background Feature"
-     }
     },
     {
      "pf": [
@@ -169,12 +157,6 @@
     },
     {
      "grant": "Background Feature:Press Pass"
-    },
-    {
-     "select": {
-      "name": "Variant Feature",
-      "type": "Background Feature"
-     }
     },
     {
      "pf": [
@@ -252,12 +234,6 @@
     },
     {
      "grant": "Background Feature:Pupil of Conflict"
-    },
-    {
-     "select": {
-      "name": "Variant Feature",
-      "type": "Background Feature"
-     }
     }
    ],
    "chars": {

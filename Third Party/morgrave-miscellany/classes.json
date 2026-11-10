@@ -134,9 +134,9 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Bonus Proficiency",
+   "id": "Class Feature:Bonus Proficiency (College of Keys)",
    "type": "Class Feature",
-   "name": "Bonus Proficiency",
+   "name": "Bonus Proficiency (College of Keys)",
    "desc": "When you join the College of Keys at 3rd level, you gain proficiency with thieves’ tools, if you don’t already have it.",
    "rules": [
     {

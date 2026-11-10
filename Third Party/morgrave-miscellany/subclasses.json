@@ -40,7 +40,7 @@
    "desc": "Many say that it was a warden of House Kundarak that first mastered the techniques of the College of Keys, singing a song so beautiful that the locks of...",
    "rules": [
     {
-     "grant": "Class Feature:Bonus Proficiency",
+     "grant": "Class Feature:Bonus Proficiency (College of Keys)",
      "level": 3
     },
     {
