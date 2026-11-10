@@ -1,0 +1,3788 @@
+{
+ "elements": [
+  {
+   "id": "Race:Arachi",
+   "type": "Race",
+   "name": "Arachi",
+   "desc": "When the Weaver first began to plot against the gods mere moments after its creation, it realized the need for servants and slaves, actors who could go...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Dexterity, +1 Charisma (Arachi)",
+       "Sub Race:+2 Charisma, +1 Dexterity (Arachi)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:False Form"
+    },
+    {
+     "grant": "Racial Trait:Blood of the Spider"
+    },
+    {
+     "grant": "Racial Trait:Remarkably Forgetful"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Arachi)",
+       "Sub Race:Dwarf (Arachi)",
+       "Sub Race:Elf (Arachi)",
+       "Sub Race:Gnome (Arachi)",
+       "Sub Race:Human (Arachi)",
+       "Sub Race:Half-Elf (Arachi)",
+       "Sub Race:Halfling (Arachi)",
+       "Sub Race:Half-Orc (Arachi)",
+       "Sub Race:Tiefling (Arachi)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Ashenspawn",
+   "type": "Race",
+   "name": "Ashenspawn",
+   "desc": "The Ashen Wolf is a creature whose blessings and curses are often indistinguishable from one another. Those who have made pacts with the Wolf may find...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Strength, +1 Charisma (Ashenspawn)",
+       "Sub Race:+2 Charisma, +1 Strength (Ashenspawn)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Gift of Ash"
+    },
+    {
+     "grant": "Racial Trait:Flaming Feast"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Ashenspawn)",
+       "Sub Race:Dwarf (Ashenspawn)",
+       "Sub Race:Elf (Ashenspawn)",
+       "Sub Race:Gnome (Ashenspawn)",
+       "Sub Race:Human (Ashenspawn)",
+       "Sub Race:Half-Elf (Ashenspawn)",
+       "Sub Race:Halfling (Ashenspawn)",
+       "Sub Race:Half-Orc (Ashenspawn)",
+       "Sub Race:Tiefling (Ashenspawn)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Groveborn",
+   "type": "Race",
+   "name": "Groveborn",
+   "desc": "Those who make pacts with the Blackthorn Grove are hardy individuals who travel easily out into the world, so it is unsurprising that they would find love...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Strength, +1 Wisdom (Groveborn)",
+       "Sub Race:+2 Wisdom, +1 Strength (Groveborn)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Durable Mind (Groveborn)"
+    },
+    {
+     "grant": "Racial Trait:Guise of the Grove"
+    },
+    {
+     "grant": "Racial Trait:Sundrinker"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Groveborn)",
+       "Sub Race:Dwarf (Groveborn)",
+       "Sub Race:Elf (Groveborn)",
+       "Sub Race:Gnome (Groveborn)",
+       "Sub Race:Human (Groveborn)",
+       "Sub Race:Half-Elf (Groveborn)",
+       "Sub Race:Halfling (Groveborn)",
+       "Sub Race:Half-Orc (Groveborn)",
+       "Sub Race:Tiefling (Groveborn)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Heraldic",
+   "type": "Race",
+   "name": "Heraldic",
+   "desc": "The Storm Lord travels between the countless worlds of the cosmos, gathering the souls of heroes as it goes. These souls are immersed in the radiant power...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Wisdom, +1 Charisma (Heraldic)",
+       "Sub Race:+2 Charisma, +1 Wisdom (Heraldic)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Scarred By The Storm"
+    },
+    {
+     "grant": "Racial Trait:Soul Ignition"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Heraldic)",
+       "Sub Race:Dwarf (Heraldic)",
+       "Sub Race:Elf (Heraldic)",
+       "Sub Race:Gnome (Heraldic)",
+       "Sub Race:Human (Heraldic)",
+       "Sub Race:Half-Elf (Heraldic)",
+       "Sub Race:Halfling (Heraldic)",
+       "Sub Race:Half-Orc (Heraldic)",
+       "Sub Race:Tiefling (Heraldic)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Imperial",
+   "type": "Race",
+   "name": "Imperial",
+   "desc": "Countless worlds have fallen to the Endless Empire. Worlds beyond number lie subservient at the feet of the Empress, and her eyes are everywhere. Every...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Dexterity, +1 Wisdom (Imperial)",
+       "Sub Race:+2 Wisdom, +1 Dexterity (Imperial)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Venomous Blessing"
+    },
+    {
+     "grant": "Racial Trait:Viper Fangs"
+    },
+    {
+     "grant": "Racial Trait:Form Supression"
+    },
+    {
+     "grant": "Racial Trait:Forked Tongue"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Imperial)",
+       "Sub Race:Dwarf (Imperial)",
+       "Sub Race:Elf (Imperial)",
+       "Sub Race:Gnome (Imperial)",
+       "Sub Race:Human (Imperial)",
+       "Sub Race:Half-Elf (Imperial)",
+       "Sub Race:Halfling (Imperial)",
+       "Sub Race:Half-Orc (Imperial)",
+       "Sub Race:Tiefling (Imperial)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Luminari",
+   "type": "Race",
+   "name": "Luminari",
+   "desc": "There are countless stars in the heavens above, each more distant and alien than the last. In their celestial dance, they shift and move in tune with cosmic...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Intelligence, +1 Wisdom, +1 Charisma (Luminari)",
+       "Sub Race:+2 Wisdom, +1 Intelligence, +1 Charisma (Luminari)",
+       "Sub Race:+2 Charisma, +1 Intelligence, +1 Wisdom (Luminari)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Starborn"
+    },
+    {
+     "grant": "Racial Trait:Mystical Power"
+    },
+    {
+     "grant": "Racial Trait:Constellation"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Luminari)",
+       "Sub Race:Dwarf (Luminari)",
+       "Sub Race:Elf (Luminari)",
+       "Sub Race:Gnome (Luminari)",
+       "Sub Race:Human (Luminari)",
+       "Sub Race:Half-Elf (Luminari)",
+       "Sub Race:Halfling (Luminari)",
+       "Sub Race:Half-Orc (Luminari)",
+       "Sub Race:Tiefling (Luminari)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Maledicti",
+   "type": "Race",
+   "name": "Maledicti",
+   "desc": "Blood is life, and life is pain. Suffering. Fear. Doubt. Sweet sorrow and bitter loss swirl together into a maddening spiral that brings a smile to the face...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Strength, +1 Intelligence (Maledicti)",
+       "Sub Race:+2 Intelligence, +1 Strength (Maledicti)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Black Blood"
+    },
+    {
+     "grant": "Racial Trait:Madness"
+    },
+    {
+     "grant": "Racial Trait:Quill Claws"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Maledicti)",
+       "Sub Race:Dwarf (Maledicti)",
+       "Sub Race:Elf (Maledicti)",
+       "Sub Race:Gnome (Maledicti)",
+       "Sub Race:Human (Maledicti)",
+       "Sub Race:Half-Elf (Maledicti)",
+       "Sub Race:Halfling (Maledicti)",
+       "Sub Race:Half-Orc (Maledicti)",
+       "Sub Race:Tiefling (Maledicti)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Nocturne",
+   "type": "Race",
+   "name": "Nocturne",
+   "desc": "Sleep does not come easily to everyone, especially those who are plagued by nightmares. These individuals are often drawn from sleep, screaming in terror...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Dexterity, +1 Wisdom (Nocturne)",
+       "Sub Race:+2 Wisdom, +1 Dexterity (Nocturne)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Night Terrors"
+    },
+    {
+     "grant": "Racial Trait:Perpetual Insomnia"
+    },
+    {
+     "grant": "Racial Trait:Restless"
+    },
+    {
+     "grant": "Racial Trait:Nine Lives"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Nocturne)",
+       "Sub Race:Dwarf (Nocturne)",
+       "Sub Race:Elf (Nocturne)",
+       "Sub Race:Gnome (Nocturne)",
+       "Sub Race:Human (Nocturne)",
+       "Sub Race:Half-Elf (Nocturne)",
+       "Sub Race:Halfling (Nocturne)",
+       "Sub Race:Half-Orc (Nocturne)",
+       "Sub Race:Tiefling (Nocturne)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Oozian",
+   "type": "Race",
+   "name": "Oozian",
+   "desc": "The Convocation is known for being transformative and life changing, as even a single glimpse of their true power can leave the most stalwart filled with a...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Dexterity, +1 Constitution (Oozian)",
+       "Sub Race:+2 Constitution, +1 Dexterity (Oozian)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Acidic Body"
+    },
+    {
+     "grant": "Racial Trait:Jiggly Self"
+    },
+    {
+     "grant": "Racial Trait:Limitless Cheer"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Oozian)",
+       "Sub Race:Dwarf (Oozian)",
+       "Sub Race:Elf (Oozian)",
+       "Sub Race:Gnome (Oozian)",
+       "Sub Race:Human (Oozian)",
+       "Sub Race:Half-Elf (Oozian)",
+       "Sub Race:Halfling (Oozian)",
+       "Sub Race:Half-Orc (Oozian)",
+       "Sub Race:Tiefling (Oozian)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Race:Statuesque",
+   "type": "Race",
+   "name": "Statuesque",
+   "desc": "The beauty of the Eternal Citadel is eerie and strange, given form by the radiant light of preservation that rests between the twin spires of the central...",
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:+2 Constitution, +1 Wisdom, +1 Charisma (Statuesque)",
+       "Sub Race:+2 Wisdom, +1 Constitution, +1 Charisma (Statuesque)",
+       "Sub Race:+2 Charisma, +1 Constitution, +1 Wisdom (Statuesque)"
+      ]
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Durable Mind (Statuesque)"
+    },
+    {
+     "grant": "Racial Trait:Natural Soul"
+    },
+    {
+     "grant": "skill:History"
+    },
+    {
+     "select": {
+      "name": "Racial Origin",
+      "type": "Sub Race",
+      "ids": [
+       "Sub Race:Dragonborn (Statuesque)",
+       "Sub Race:Dwarf (Statuesque)",
+       "Sub Race:Elf (Statuesque)",
+       "Sub Race:Gnome (Statuesque)",
+       "Sub Race:Human (Statuesque)",
+       "Sub Race:Half-Elf (Statuesque)",
+       "Sub Race:Halfling (Statuesque)",
+       "Sub Race:Half-Orc (Statuesque)",
+       "Sub Race:Tiefling (Statuesque)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Magical Evasion",
+   "type": "Racial Trait",
+   "name": "Magical Evasion",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:False Form",
+   "type": "Racial Trait",
+   "name": "False Form",
+   "desc": "As an arachi, you possess two forms: a true form and a false form. Your false form appears as a member of your origin race and can look however you wish. Once you choose this appearance, it can never be changed. You can change between your false form and true form as an action. Nothing aside from your physical appearance changes. However, while in your false form, you gain advantage on Deception checks related to concealing your true nature as an arachi or to actions you performed while you were in your true form.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Blood of the Spider",
+   "type": "Racial Trait",
+   "name": "Blood of the Spider",
+   "desc": "Arachi possess a remarkable resistance to poison, and it flows through their fangs with equal ease. You gain resistance to poison damage. If you would also gain this resistance from a class feature, you gain the ability to cast falling spider’s spite at 1st level once per long rest without expending a spell slot.",
+   "rules": [
+    {
+     "select": {
+      "name": "Blood of the Spider",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Falling Spider’s Spite Spell"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Falling Spider’s Spite",
+     "1/long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Falling Spider’s Spite Spell",
+   "type": "Racial Trait",
+   "name": "Falling Spider’s Spite Spell",
+   "desc": "Prerequisite: poison resistance from a class feature\n\nYou gain the ability to cast falling spider’s spite at 1st level once per long rest without expending a spell slot.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Remarkably Forgetful",
+   "type": "Racial Trait",
+   "name": "Remarkably Forgetful",
+   "desc": "You learn the forget cantrip, and you can cast it on yourself multiple times instead of only once, forgetting a total number of different things up to your character level.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Forget",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Gift of Ash",
+   "type": "Racial Trait",
+   "name": "Gift of Ash",
+   "desc": "Ashenspawn are blessed with an exceptional resistance to flame, as it fills their form with power and might. You gain resistance to fire damage. If you would also gain this resistance from a class feature, your inner power awakens, granting you the ability to cast the scorch cantrip. Charisma is your spellcasting ability for this cantrip.",
+   "rules": [
+    {
+     "select": {
+      "name": "Gift of Ash",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Scorch Cantrip"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Scorch",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Scorch Cantrip",
+   "type": "Racial Trait",
+   "name": "Scorch Cantrip",
+   "desc": "Prerequisite: fire resistance from a class feature\n\nYou learn the scorch cantrip instead. Charisma is your spellcasting ability for this cantrip.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Flaming Feast",
+   "type": "Racial Trait",
+   "name": "Flaming Feast",
+   "desc": "Thanks to your relation to the Wolf, you can easily consume wood, metal, and raw meat without harm, and they provide you with sustenance. You can eat nonmagical wood and metal at the same rate you could consume normal food as your jaws and teeth are strong enough to allow you to bite through iron if you can get your mouth around it. Stronger metals are tough and may take several minutes to bite through, depending on their thickness. Magical metals are too durable for ashenspawn to consume using this feature. Eating metal produces a terrible screeching sound that can be easily heard up to 150 feet away.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Durable Mind (Groveborn)",
+   "type": "Racial Trait",
+   "name": "Durable Mind (Groveborn)",
+   "desc": "You gain resistance to psychic damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Guise of the Grove",
+   "type": "Racial Trait",
+   "name": "Guise of the Grove",
+   "desc": "You can take the Hide action to conceal yourself even when you are only lightly obscured so long as you are concealed by plants, such as trees, bushes, or tall grass.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sundrinker",
+   "type": "Racial Trait",
+   "name": "Sundrinker",
+   "desc": "If you are exposed to sunlight for at least 1 hour, you do not need food or water for the day. You can drink the blood of other creatures in place of eating or drinking without ill effect, and the blood of a single Small creature will sustain you for one day. A Medium creature could sustain you for three days, while a Large creature’s entire supply of blood could sustain you for one week or more.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Scarred By The Storm",
+   "type": "Racial Trait",
+   "name": "Scarred By The Storm",
+   "desc": "You gain resistance to lightning damage. If you would also gain this resistance from a class feature, you gain the ability to cast shocking grasp. Charisma is your spellcasting ability for this spell.",
+   "rules": [
+    {
+     "select": {
+      "name": "Scarred By The Storm",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Shocking Grasp Cantrip"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Shocking Grasp",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Shocking Grasp Cantrip",
+   "type": "Racial Trait",
+   "name": "Shocking Grasp Cantrip",
+   "desc": "Prerequisite: lightning resistance from a class feature\n\nYou learn the shocking grasp cantrip instead. Charisma is your spellcasting ability for this cantrip.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Soul Ignition",
+   "type": "Racial Trait",
+   "name": "Soul Ignition",
+   "desc": "As a bonus action, you can ignite your soul, forcing it to appear as wings of mist and lightning until the start of your next turn and causing you to immediately take 6 radiant damage. During this time, you gain a flying speed equal to your walking speed. If you do not repeat this process to maintain your flight at the start of your next turn, you will fall.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Venomous Blessing",
+   "type": "Racial Trait",
+   "name": "Venomous Blessing",
+   "desc": "You gain resistance to poison damage. If you would also gain this resistance from a class feature, your inner power awakens, granting you the ability to cast the poison spray cantrip. Wisdom is your spellcasting ability for this cantrip.",
+   "rules": [
+    {
+     "select": {
+      "name": "Venomous Blessing",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Poison Spray Cantrip"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Poison Spray",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Poison Spray Cantrip",
+   "type": "Racial Trait",
+   "name": "Poison Spray Cantrip",
+   "desc": "Prerequisite: poison resistance from a class feature\n\nYou learn the poison spray cantrip instead. Wisdom is your spellcasting ability for this cantrip.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Viper Fangs",
+   "type": "Racial Trait",
+   "name": "Viper Fangs",
+   "desc": "You can choose to have your unarmed strikes deal poison damage instead of bludgeoning damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Forked Tongue",
+   "type": "Racial Trait",
+   "name": "Forked Tongue",
+   "desc": "You can add your Wisdom modifier to Deception checks in place of your Charisma modifier.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Form Supression",
+   "type": "Racial Trait",
+   "name": "Form Supression",
+   "desc": "You can conceal your serpentine traits as an action by focusing your will, as though you were maintaining concentration on a spell.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Starborn",
+   "type": "Racial Trait",
+   "name": "Starborn",
+   "desc": "You gain resistance to radiant damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mystical Power",
+   "type": "Racial Trait",
+   "name": "Mystical Power",
+   "desc": "Choose a cantrip from the cleric, wizard, or bard spell list. You learn this cantrip, and you can cast it using either Intelligence, Wisdom, or Charisma (your choice).",
+   "rules": [
+    {
+     "select": {
+      "name": "Mystical Power",
+      "type": "Spell",
+      "n": 1,
+      "ids": [
+       "Spell:Acid Splash",
+       "Spell:Animate Skull",
+       "Spell:Break",
+       "Spell:Cheerful Song",
+       "Spell:Chill Touch",
+       "Spell:Dancing Lights",
+       "Spell:Douse",
+       "Spell:Fire Bolt",
+       "Spell:Forget",
+       "Spell:Fresh Paint",
+       "Spell:Glimmer",
+       "Spell:Guidance",
+       "Spell:Jolt",
+       "Spell:Light",
+       "Spell:Mage Hand",
+       "Spell:Mending",
+       "Spell:Message",
+       "Spell:Minor Illusion",
+       "Spell:Poison Spray",
+       "Spell:Prestidigitation",
+       "Spell:Ray of Frost",
+       "Spell:Resistance",
+       "Spell:Sacred Flame",
+       "Spell:Scorch",
+       "Spell:Seek Phrase",
+       "Spell:Shadowthorn",
+       "Spell:Shocking Grasp",
+       "Spell:Spare the Dying",
+       "Spell:Thaumaturgy",
+       "Spell:True Strike",
+       "Spell:Vicious Mockery"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Constellation",
+   "type": "Racial Trait",
+   "name": "Constellation",
+   "desc": "You have been marked by a particular constellation and gain a benefit based on your racial origin that applies whenever you cast a cantrip as an action.",
+   "rules": [
+    {
+     "select": {
+      "name": "Constellation",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Constellation of the Slayer",
+       "Racial Trait:Constellation of the Wanderer",
+       "Racial Trait:Constellation of the Devourer",
+       "Racial Trait:Constellation of the Skulker",
+       "Racial Trait:Constellation of the Champion",
+       "Racial Trait:Constellation of the Scholar",
+       "Racial Trait:Constellation of the Heartless",
+       "Racial Trait:Constellation of the Overseer"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Constellation of the Slayer",
+   "type": "Racial Trait",
+   "name": "Constellation of the Slayer",
+   "desc": "Whenever you cast a cantrip as an action. Your next successful weapon attack deals an extra 1d4 damage of the same type as your breath weapon, provided you do not make it during this turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Wanderer",
+   "type": "Racial Trait",
+   "name": "Constellation of the Wanderer",
+   "desc": "Whenever you cast a cantrip as an action. If you take the Attack action during your next turn and target a creature, your speed increases by 10 feet until the end of that turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Devourer",
+   "type": "Racial Trait",
+   "name": "Constellation of the Devourer",
+   "desc": "Whenever you cast a cantrip as an action. If you make an opportunity attack before the start of your next turn, you can pursue the target as it moves away from you. Match its movement, up to 30 feet in total, whenever the target moves during its turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Skulker",
+   "type": "Racial Trait",
+   "name": "Constellation of the Skulker",
+   "desc": "Whenever you cast a cantrip as an action. If you take the Hide action before the end of your next turn, you gain advantage on the check.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Champion",
+   "type": "Racial Trait",
+   "name": "Constellation of the Champion",
+   "desc": "Whenever you cast a cantrip as an action. If the cantrip deals damage and has a duration of “Instantaneous”, you gain resistance to one damage type dealt by the cantrip until the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Scholar",
+   "type": "Racial Trait",
+   "name": "Constellation of the Scholar",
+   "desc": "Whenever you cast a cantrip as an action. If the cantrip can’t deal damage, you gain advantage on the first melee attack during your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Heartless",
+   "type": "Racial Trait",
+   "name": "Constellation of the Heartless",
+   "desc": "Whenever you cast a cantrip as an action. The first time you make an attack before the end of your next turn targeting a creature that is charmed or frightened by you, you gain advantage on the attack.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Constellation of the Overseer",
+   "type": "Racial Trait",
+   "name": "Constellation of the Overseer",
+   "desc": "Whenever you cast a cantrip as an action. You can take the Search action as a bonus action this turn. If you do, you know the location of any creature within 30 feet of you who attacks or casts a spell before the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Black Blood",
+   "type": "Racial Trait",
+   "name": "Black Blood",
+   "desc": "Your blood is cursed and it marks everything it touches. You gain resistance to necrotic damage. If you would also gain this resistance from a class feature, you learn the shadowthorn cantrip instead. Intelligence is your spellcasting ability for this cantrip.",
+   "rules": [
+    {
+     "select": {
+      "name": "Black Blood",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Shadowthorn Cantrip"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Shadowthorn",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Shadowthorn Cantrip",
+   "type": "Racial Trait",
+   "name": "Shadowthorn Cantrip",
+   "desc": "Prerequisite: necrotic resistance from a class feature\n\nYou learn the shadowthorn cantrip instead. Intelligence is your spellcasting ability for this cantrip.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Madness",
+   "type": "Racial Trait",
+   "name": "Madness",
+   "desc": "Your insanity makes it difficult for others to discern your true intentions. Creatures that make Insight checks against you do so with disadvantage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Quill Claws",
+   "type": "Racial Trait",
+   "name": "Quill Claws",
+   "desc": "Your fingers are deadly implements that drip with black ink-blood. Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal necrotic damage equal to 1d6 + your Strength modifier instead of the bludgeoning damage normal for an unarmed strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Night Terrors",
+   "type": "Racial Trait",
+   "name": "Night Terrors",
+   "desc": "You gain resistance to psychic damage and proficiency in the Perception skill.",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Perpetual Insomnia",
+   "type": "Racial Trait",
+   "name": "Perpetual Insomnia",
+   "desc": "You desire and fear sleep in equal measure. Whenever you take a long rest, you can choose to remain awake or try to sleep. If you remain awake, you gain advantage on Charisma saving throws, and you can perform light activity, such as keeping watch, to gain the benefits of a long rest. If you sleep, your movement speed and jumping height each increase by 5 feet, but you suffer disadvantage on saving throws against being frightened. These benefits last until you begin a new long rest. If you gain the ability to go without sleep, you gain all the benefits and no penalties.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nine Lives",
+   "type": "Racial Trait",
+   "name": "Nine Lives",
+   "desc": "You’re hard to kill, but only when your fate is unknown. Whenever you are hidden from all other creatures, you gain advantage on death saving throws and on saving throws to reduce damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Restless",
+   "type": "Racial Trait",
+   "name": "Restless",
+   "desc": "You do not suffer exhaustion when you go without sleep for extended periods of time, but you must still rest as normal.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Acidic Body",
+   "type": "Racial Trait",
+   "name": "Acidic Body",
+   "desc": "You gain resistance to acid damage. If you would also gain this resistance from a class feature, your inner power awakens, granting you the ability to cast the acid splash cantrip. Charisma is your spellcasting ability for this cantrip. You are immune to acid damage caused by friendly oozes.",
+   "rules": [
+    {
+     "select": {
+      "name": "Acidic Body",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Acid Splash Cantrip"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Acid Splash",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Acid Splash Cantrip",
+   "type": "Racial Trait",
+   "name": "Acid Splash Cantrip",
+   "desc": "Prerequisite: acid resistance from a class feature\n\nYou learn the acid splash cantrip instead. Charisma is your spellcasting ability for this cantrip. You are also immune to acid damage caused by friendly oozes.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Jiggly Self",
+   "type": "Racial Trait",
+   "name": "Jiggly Self",
+   "desc": "You have resistance to falling damage, and you are not knocked prone when you take falling damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Limitless Cheer",
+   "type": "Racial Trait",
+   "name": "Limitless Cheer",
+   "desc": "You can add your Charisma modifier to saving throws against being frightened.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Durable Mind (Statuesque)",
+   "type": "Racial Trait",
+   "name": "Durable Mind (Statuesque)",
+   "desc": "You gain resistance to radiant damage. If you would also gain this resistance from a class feature, your inner power awakens, granting you the ability to cast the mending cantrip. Charisma is your spellcasting ability for this cantrip.",
+   "rules": [
+    {
+     "select": {
+      "name": "Durable Mind",
+      "type": "Racial Trait",
+      "ids": [
+       "Racial Trait:Mending Cantrip"
+      ]
+     }
+    }
+   ],
+   "featSpells": [
+    [
+     1,
+     "Mending",
+     "at will"
+    ]
+   ]
+  },
+  {
+   "id": "Racial Trait:Mending Cantrip",
+   "type": "Racial Trait",
+   "name": "Mending Cantrip",
+   "desc": "Prerequisite: radiant resistance from a class feature\n\nYou learn the mending cantrip. Charisma is your spellcasting ability for this cantrip.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Soul",
+   "type": "Racial Trait",
+   "name": "Natural Soul",
+   "desc": "Your form is incredibly durable, thanks to your immortal composition. Whenever you take damage, you can choose to reduce the damage taken by 1. This reduction is applied after resistances or vulnerabilities.",
+   "rules": []
+  },
+  {
+   "id": "Sub Race:+2 Dexterity, +1 Charisma (Arachi)",
+   "type": "Sub Race",
+   "name": "+2 Dexterity, +1 Charisma (Arachi)",
+   "desc": "Your Dexterity score increases by 2, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:+2 Charisma, +1 Dexterity (Arachi)",
+   "type": "Sub Race",
+   "name": "+2 Charisma, +1 Dexterity (Arachi)",
+   "desc": "Your Dexterity score increases by 1, and your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "cha": 2
+     }
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Arachi)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Arachi)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Dwarf (Arachi)",
+   "type": "Sub Race",
+   "name": "Dwarf (Arachi)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Elf (Arachi)",
+   "type": "Sub Race",
+   "name": "Elf (Arachi)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Gnome (Arachi)",
+   "type": "Sub Race",
+   "name": "Gnome (Arachi)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Human (Arachi)",
+   "type": "Sub Race",
+   "name": "Human (Arachi)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Arachi)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Arachi)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Halfling (Arachi)",
+   "type": "Sub Race",
+   "name": "Halfling (Arachi)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Arachi)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Arachi)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:Tiefling (Arachi)",
+   "type": "Sub Race",
+   "name": "Tiefling (Arachi)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Arachi"
+  },
+  {
+   "id": "Sub Race:+2 Strength, +1 Charisma (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "+2 Strength, +1 Charisma (Ashenspawn)",
+   "desc": "Your Strength score increases by 2, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:+2 Charisma, +1 Strength (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "+2 Charisma, +1 Strength (Ashenspawn)",
+   "desc": "Your Strength score increases by 1, and your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1,
+      "cha": 2
+     }
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Ashenspawn)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Dwarf (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Dwarf (Ashenspawn)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Elf (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Elf (Ashenspawn)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Gnome (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Gnome (Ashenspawn)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Human (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Human (Ashenspawn)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Ashenspawn)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Halfling (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Halfling (Ashenspawn)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Ashenspawn)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:Tiefling (Ashenspawn)",
+   "type": "Sub Race",
+   "name": "Tiefling (Ashenspawn)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Ashenspawn"
+  },
+  {
+   "id": "Sub Race:+2 Strength, +1 Wisdom (Groveborn)",
+   "type": "Sub Race",
+   "name": "+2 Strength, +1 Wisdom (Groveborn)",
+   "desc": "Your Strength score increases by 2, and you Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "wis": 1
+     }
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:+2 Wisdom, +1 Strength (Groveborn)",
+   "type": "Sub Race",
+   "name": "+2 Wisdom, +1 Strength (Groveborn)",
+   "desc": "Your Strength score increases by 1, and you Wisdom score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1,
+      "wis": 2
+     }
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Groveborn)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Groveborn)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Dwarf (Groveborn)",
+   "type": "Sub Race",
+   "name": "Dwarf (Groveborn)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Elf (Groveborn)",
+   "type": "Sub Race",
+   "name": "Elf (Groveborn)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Gnome (Groveborn)",
+   "type": "Sub Race",
+   "name": "Gnome (Groveborn)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Human (Groveborn)",
+   "type": "Sub Race",
+   "name": "Human (Groveborn)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Groveborn)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Groveborn)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Halfling (Groveborn)",
+   "type": "Sub Race",
+   "name": "Halfling (Groveborn)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Groveborn)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Groveborn)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:Tiefling (Groveborn)",
+   "type": "Sub Race",
+   "name": "Tiefling (Groveborn)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Groveborn"
+  },
+  {
+   "id": "Sub Race:+2 Wisdom, +1 Charisma (Heraldic)",
+   "type": "Sub Race",
+   "name": "+2 Wisdom, +1 Charisma (Heraldic)",
+   "desc": "Your Wisdom score increases by 2, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 2,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:+2 Charisma, +1 Wisdom (Heraldic)",
+   "type": "Sub Race",
+   "name": "+2 Charisma, +1 Wisdom (Heraldic)",
+   "desc": "Your Wisdom score increases by 1, and your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1,
+      "cha": 2
+     }
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Heraldic)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Heraldic)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Dwarf (Heraldic)",
+   "type": "Sub Race",
+   "name": "Dwarf (Heraldic)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Elf (Heraldic)",
+   "type": "Sub Race",
+   "name": "Elf (Heraldic)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Gnome (Heraldic)",
+   "type": "Sub Race",
+   "name": "Gnome (Heraldic)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Human (Heraldic)",
+   "type": "Sub Race",
+   "name": "Human (Heraldic)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Heraldic)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Heraldic)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Halfling (Heraldic)",
+   "type": "Sub Race",
+   "name": "Halfling (Heraldic)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Heraldic)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Heraldic)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:Tiefling (Heraldic)",
+   "type": "Sub Race",
+   "name": "Tiefling (Heraldic)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Heraldic"
+  },
+  {
+   "id": "Sub Race:+2 Dexterity, +1 Wisdom (Imperial)",
+   "type": "Sub Race",
+   "name": "+2 Dexterity, +1 Wisdom (Imperial)",
+   "desc": "Your Dexterity score increases by 2, and your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "wis": 1
+     }
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:+2 Wisdom, +1 Dexterity (Imperial)",
+   "type": "Sub Race",
+   "name": "+2 Wisdom, +1 Dexterity (Imperial)",
+   "desc": "Your Dexterity score increases by 1, and your Wisdom score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "wis": 2
+     }
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Imperial)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Imperial)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Dwarf (Imperial)",
+   "type": "Sub Race",
+   "name": "Dwarf (Imperial)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Elf (Imperial)",
+   "type": "Sub Race",
+   "name": "Elf (Imperial)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Gnome (Imperial)",
+   "type": "Sub Race",
+   "name": "Gnome (Imperial)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Human (Imperial)",
+   "type": "Sub Race",
+   "name": "Human (Imperial)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Imperial)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Imperial)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Halfling (Imperial)",
+   "type": "Sub Race",
+   "name": "Halfling (Imperial)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Imperial)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Imperial)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:Tiefling (Imperial)",
+   "type": "Sub Race",
+   "name": "Tiefling (Imperial)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Imperial"
+  },
+  {
+   "id": "Sub Race:+2 Intelligence, +1 Wisdom, +1 Charisma (Luminari)",
+   "type": "Sub Race",
+   "name": "+2 Intelligence, +1 Wisdom, +1 Charisma (Luminari)",
+   "desc": "Your Intelligence score increases by 2, your Wisdom score increases by 1, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 2,
+      "wis": 1,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:+2 Wisdom, +1 Intelligence, +1 Charisma (Luminari)",
+   "type": "Sub Race",
+   "name": "+2 Wisdom, +1 Intelligence, +1 Charisma (Luminari)",
+   "desc": "Your Intelligence score increases by 1, your Wisdom score increases by 2, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1,
+      "wis": 2,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:+2 Charisma, +1 Intelligence, +1 Wisdom (Luminari)",
+   "type": "Sub Race",
+   "name": "+2 Charisma, +1 Intelligence, +1 Wisdom (Luminari)",
+   "desc": "Your Intelligence score increases by 1, your Wisdom score increases by 1, and your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1,
+      "wis": 1,
+      "cha": 2
+     }
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Luminari)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Luminari)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Dwarf (Luminari)",
+   "type": "Sub Race",
+   "name": "Dwarf (Luminari)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Elf (Luminari)",
+   "type": "Sub Race",
+   "name": "Elf (Luminari)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Gnome (Luminari)",
+   "type": "Sub Race",
+   "name": "Gnome (Luminari)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Human (Luminari)",
+   "type": "Sub Race",
+   "name": "Human (Luminari)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Luminari)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Luminari)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Halfling (Luminari)",
+   "type": "Sub Race",
+   "name": "Halfling (Luminari)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Luminari)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Luminari)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:Tiefling (Luminari)",
+   "type": "Sub Race",
+   "name": "Tiefling (Luminari)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Luminari"
+  },
+  {
+   "id": "Sub Race:+2 Strength, +1 Intelligence (Maledicti)",
+   "type": "Sub Race",
+   "name": "+2 Strength, +1 Intelligence (Maledicti)",
+   "desc": "Your Strength score increases by 2, and your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 2,
+      "int": 1
+     }
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:+2 Intelligence, +1 Strength (Maledicti)",
+   "type": "Sub Race",
+   "name": "+2 Intelligence, +1 Strength (Maledicti)",
+   "desc": "Your Strength score increases by 1, and your Intelligence score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1,
+      "int": 2
+     }
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Maledicti)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Maledicti)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Dwarf (Maledicti)",
+   "type": "Sub Race",
+   "name": "Dwarf (Maledicti)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Elf (Maledicti)",
+   "type": "Sub Race",
+   "name": "Elf (Maledicti)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Gnome (Maledicti)",
+   "type": "Sub Race",
+   "name": "Gnome (Maledicti)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Human (Maledicti)",
+   "type": "Sub Race",
+   "name": "Human (Maledicti)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Maledicti)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Maledicti)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Halfling (Maledicti)",
+   "type": "Sub Race",
+   "name": "Halfling (Maledicti)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Maledicti)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Maledicti)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:Tiefling (Maledicti)",
+   "type": "Sub Race",
+   "name": "Tiefling (Maledicti)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Maledicti"
+  },
+  {
+   "id": "Sub Race:+2 Dexterity, +1 Wisdom (Nocturne)",
+   "type": "Sub Race",
+   "name": "+2 Dexterity, +1 Wisdom (Nocturne)",
+   "desc": "Your Dexterity score increases by 2, and your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "wis": 1
+     }
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:+2 Wisdom, +1 Dexterity (Nocturne)",
+   "type": "Sub Race",
+   "name": "+2 Wisdom, +1 Dexterity (Nocturne)",
+   "desc": "Your Dexterity score increases by 1, and your Wisdom score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "wis": 2
+     }
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Nocturne)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Nocturne)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Dwarf (Nocturne)",
+   "type": "Sub Race",
+   "name": "Dwarf (Nocturne)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Elf (Nocturne)",
+   "type": "Sub Race",
+   "name": "Elf (Nocturne)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Gnome (Nocturne)",
+   "type": "Sub Race",
+   "name": "Gnome (Nocturne)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Human (Nocturne)",
+   "type": "Sub Race",
+   "name": "Human (Nocturne)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Nocturne)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Nocturne)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Halfling (Nocturne)",
+   "type": "Sub Race",
+   "name": "Halfling (Nocturne)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Nocturne)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Nocturne)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:Tiefling (Nocturne)",
+   "type": "Sub Race",
+   "name": "Tiefling (Nocturne)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Nocturne"
+  },
+  {
+   "id": "Sub Race:+2 Dexterity, +1 Constitution (Oozian)",
+   "type": "Sub Race",
+   "name": "+2 Dexterity, +1 Constitution (Oozian)",
+   "desc": "Your Dexterity score increases by 2, and your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 2,
+      "con": 1
+     }
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:+2 Constitution, +1 Dexterity (Oozian)",
+   "type": "Sub Race",
+   "name": "+2 Constitution, +1 Dexterity (Oozian)",
+   "desc": "Your Dexterity score increases by 1, and your Constitution score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1,
+      "con": 2
+     }
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Oozian)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Oozian)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Dwarf (Oozian)",
+   "type": "Sub Race",
+   "name": "Dwarf (Oozian)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Elf (Oozian)",
+   "type": "Sub Race",
+   "name": "Elf (Oozian)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Gnome (Oozian)",
+   "type": "Sub Race",
+   "name": "Gnome (Oozian)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Human (Oozian)",
+   "type": "Sub Race",
+   "name": "Human (Oozian)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Oozian)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Oozian)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Halfling (Oozian)",
+   "type": "Sub Race",
+   "name": "Halfling (Oozian)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Oozian)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Oozian)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:Tiefling (Oozian)",
+   "type": "Sub Race",
+   "name": "Tiefling (Oozian)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Oozian"
+  },
+  {
+   "id": "Sub Race:+2 Constitution, +1 Wisdom, +1 Charisma (Statuesque)",
+   "type": "Sub Race",
+   "name": "+2 Constitution, +1 Wisdom, +1 Charisma (Statuesque)",
+   "desc": "Your Constitution score increases by 2, your Wisdom score increases by 1, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 2,
+      "wis": 1,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:+2 Wisdom, +1 Constitution, +1 Charisma (Statuesque)",
+   "type": "Sub Race",
+   "name": "+2 Wisdom, +1 Constitution, +1 Charisma (Statuesque)",
+   "desc": "Your Constitution score increases by 1, your Wisdom score increases by 2, and your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1,
+      "wis": 2,
+      "cha": 1
+     }
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:+2 Charisma, +1 Constitution, +1 Wisdom (Statuesque)",
+   "type": "Sub Race",
+   "name": "+2 Charisma, +1 Constitution, +1 Wisdom (Statuesque)",
+   "desc": "Your Constitution score increases by 1, your Wisdom score increases by 1, and your Charisma score increases by 2.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1,
+      "wis": 1,
+      "cha": 2
+     }
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Dragonborn (Statuesque)",
+   "type": "Sub Race",
+   "name": "Dragonborn (Statuesque)",
+   "desc": "While the dragon blood that flows through your veins remains potent and powerful, it has been greatly changed by the influence of the Alrisen upon your bloodline. You gain the Draconic Ancestry and Breath Weapon racial features, but do not gain the Damage Resistance feature or any other racial features. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Draconic Ancestry",
+      "type": "Draconic Ancestry"
+     }
+    },
+    {
+     "grant": "Racial Trait:Breath Weapon"
+    },
+    {
+     "grant": "Language:Draconic"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Dwarf (Statuesque)",
+   "type": "Sub Race",
+   "name": "Dwarf (Statuesque)",
+   "desc": "You gain the Dwarven Toughness racial feature and you gain darkvision out to 30 feet. Your base walking speed is 25 feet, your speed is not reduced by wearing heavy armor, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Dwarven Toughness"
+    },
+    {
+     "grant": "Language:Dwarvish"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Elf (Statuesque)",
+   "type": "Sub Race",
+   "name": "Elf (Statuesque)",
+   "desc": "You gain the Darkvision, Fey Ancestry, and Trance racial features of an elf. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Trance"
+    },
+    {
+     "grant": "Language:Elvish"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Gnome (Statuesque)",
+   "type": "Sub Race",
+   "name": "Gnome (Statuesque)",
+   "desc": "When you would fail a saving throw against a spell effect, you can choose to succeed instead. You can’t do so again until you finish a short or long rest. You also gain the Darkvision racial feature of a gnome. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Magical Evasion"
+    },
+    {
+     "grant": "Language:Gnomish"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Human (Statuesque)",
+   "type": "Sub Race",
+   "name": "Human (Statuesque)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Half-Elf (Statuesque)",
+   "type": "Sub Race",
+   "name": "Half-Elf (Statuesque)",
+   "desc": "You gain proficiency in two skills of your choosing and one language of your choosing. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "select": {
+      "name": "Skill Proficiency",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
+     }
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Halfling (Statuesque)",
+   "type": "Sub Race",
+   "name": "Halfling (Statuesque)",
+   "desc": "You gain the Lucky, Brave and Halfling Nimbleness racial features. Your base walking speed is 25 feet, and your size is Small.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 25
+     }
+    },
+    {
+     "grant": "Racial Trait:Lucky"
+    },
+    {
+     "grant": "Racial Trait:Brave"
+    },
+    {
+     "grant": "Racial Trait:Halfling Nimbleness"
+    },
+    {
+     "grant": "Language:Halfling"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Half-Orc (Statuesque)",
+   "type": "Sub Race",
+   "name": "Half-Orc (Statuesque)",
+   "desc": "You gain the Relentless Endurance and Darkvision racial features. Your speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Language:Orc"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  },
+  {
+   "id": "Sub Race:Tiefling (Statuesque)",
+   "type": "Sub Race",
+   "name": "Tiefling (Statuesque)",
+   "desc": "You gain the Infernal Legacy racial feature. Your base walking speed is 30 feet, and your size is Medium.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy"
+    },
+    {
+     "grant": "Language:Infernal"
+    }
+   ],
+   "supports": "Race:Statuesque"
+  }
+ ]
+}
