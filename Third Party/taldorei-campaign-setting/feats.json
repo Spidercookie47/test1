@@ -80,7 +80,18 @@
    "type": "Feat",
    "name": "Thrown Arms Master",
    "desc": "You’ve honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- Simple and martial melee weapons without the thrown property can be treated as if they have the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30.\n- Weapons that naturally have the thrown property increase their range by +20/+40.\n- When you miss with a thrown weapon attack using a light weapon, the weapon immediately boomerangs back into your grasp.",
-   "rules": []
+   "rules": [
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "type": "Ability Increase",
+      "ids": [
+       "Ability Increase:Strength +1",
+       "Ability Increase:Dexterity +1"
+      ]
+     }
+    }
+   ]
   }
  ]
 }

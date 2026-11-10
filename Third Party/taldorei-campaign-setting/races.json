@@ -1,0 +1,30 @@
+{
+ "elements": [
+  {
+   "id": "Ability Increase:Strength +1",
+   "type": "Ability Increase",
+   "name": "Strength +1",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Ability Increase:Dexterity +1",
+   "type": "Ability Increase",
+   "name": "Dexterity +1",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  }
+ ]
+}

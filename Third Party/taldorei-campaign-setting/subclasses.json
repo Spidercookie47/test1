@@ -30,8 +30,8 @@
    "supports": "Class:Barbarian"
   },
   {
-   "id": "Subclass:Blood Domain",
-   "type": "Subclass",
+   "id": "Divine Domain:Blood Domain",
+   "type": "Divine Domain",
    "name": "Blood Domain",
    "desc": "Originally developed in Wildemount by the Claret Orders, the Blood domain centers around the understanding of the natural life force within one’s own...",
    "rules": [
@@ -64,7 +64,6 @@
      "level": 17
     }
    ],
-   "supports": "Class:Cleric",
    "prepared": {
     "class": "Cleric",
     "levels": {
