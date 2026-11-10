@@ -6,44 +6,32 @@
       "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Crititcal%20Role/index.json"
     },
     {
-      "name": "Critical Role: Tal’Dorei Campaign Setting",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Critical%20Role%20Tal%E2%80%99Dorei%20Campaign%20Setting/index.json"
-    },
-    {
       "name": "Deep Magic: Rune Magic",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Deep%20Magic%20Rune%20Magic/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/deep-magic/index.json"
     },
     {
-      "name": "D&D Wiki1",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/D%26D%20Wiki1/index.json"
-    },
-    {
-      "name": "D&D Wiki2",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/D%26D%20Wiki2/index.json"
-    },
-    {
-      "name": "D&D Wiki3",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/D%26D%20Wiki3/index.json"
-    },
-    {
-      "name": "D&D Wiki4",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/D%26D%20Wiki4/index.json"
+      "name": "Grimlore’s Grimoire",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/dms-guild/index.json"
     },
     {
       "name": "D&D Wiki5",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/D%26D%20Wiki5/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/dndwiki/index.json"
     },
     {
       "name": "Eberron: Heroes of the Planes",
       "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Eberron%20Heroes%20of%20the%20Planes/index.json"
     },
     {
-      "name": "Grimlore’s Grimoire",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Grimlore%E2%80%99s%20Grimoire/index.json"
+      "name": "The Compendium of Forgotten Secrets",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/forgotten-secrets/index.json"
+    },
+    {
+      "name": "The Weaveshaper",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/genuine-fantasy-press/index.json"
     },
     {
       "name": "Heroes of Hell",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Heroes%20of%20Hell/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/heroes-of-hell/index.json"
     },
     {
       "name": "Mage Hand Press",
@@ -51,55 +39,67 @@
     },
     {
       "name": "Midgard Heroes Handbook",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Midgard%20Heroes%20Handbook/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/midgard-heroes-handbook/index.json"
     },
     {
       "name": "Midgard Worldbook",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Midgard%20Worldbook/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/midgard-worldbook/index.json"
     },
     {
       "name": "Mirt’s Undermountain Survival Guide",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Mirt%E2%80%99s%20Undermountain%20Survival%20Guide/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/mirts-undermountain-survival-guide/index.json"
     },
     {
       "name": "Morgrave Miscellany",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Morgrave%20Miscellany/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/morgrave-miscellany/index.json"
     },
     {
       "name": "Odyssey of the Dragonlords",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Odyssey%20of%20the%20Dragonlords/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/odyssey-of-the-dragonlords/index.json"
     },
     {
-      "name": "The Compendium of Forgotten Secrets",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/The%20Compendium%20of%20Forgotten%20Secrets/index.json"
-    },
-    {
-      "name": "The Great Dale",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/The%20Great%20Dale/index.json"
+      "name": "Critical Role: Tal’Dorei Campaign Setting",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/taldorei-campaign-setting/index.json"
     },
     {
       "name": "The Magus",
       "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/The%20Magus/index.json"
     },
     {
-      "name": "The Weaveshaper",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/The%20Weaveshaper/index.json"
+      "name": "The Great Dale",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/the-great-dale/index.json"
     },
     {
       "name": "Walrock Homebrew: Shardminds",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Walrock%20Homebrew%20Shardminds/index.json"
-    },
-    {
-      "name": "Wayfinder’s Guide to Eberron",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Wayfinder%E2%80%99s%20Guide%20to%20Eberron/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/walrock-homebrew/index.json"
     },
     {
       "name": "Wayfinder’s Guide to Eberron (2)",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Wayfinder%E2%80%99s%20Guide%20to%20Eberron%202/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/wayfinder%E2%80%99s%20Guide%20to%20Eberron/index.json"
+    },
+    {
+      "name": "Wayfinder’s Guide to Eberron",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/wayfinders-guide-to-eberron/index.json"
+    },
+    {
+      "name": "D&D Wiki1",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/wiki1/index.json"
+    },
+    {
+      "name": "D&D Wiki2",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/wiki2/index.json"
+    },
+    {
+      "name": "D&D Wiki3",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/wiki3/index.json"
+    },
+    {
+      "name": "D&D Wiki4",
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/wiki4/index.json"
     },
     {
       "name": "Xanathar’s Lost Notes to Everything Else",
-      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/Xanathar%E2%80%99s%20Lost%20Notes%20to%20Everything%20Else/index.json"
+      "url": "https://raw.githubusercontent.com/Spidercookie47/test1/refs/heads/main/Third%20Party/xanathars-lost-notes-to-everything-else/index.json"
     }
   ]
 }
