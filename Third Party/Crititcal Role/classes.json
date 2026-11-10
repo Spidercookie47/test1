@@ -459,7 +459,6 @@
    "desc": "At 2nd level, you gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the “blood curses” section below. You learned one additional blood curse of your choice at 5th, 9th, 13th, 16th, and 20th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse’s description. Creatures that do not have blood in their bodies are immune to the blood curses (DM’s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests, and at 17th level you can use it four times between rests.",
    "rules": [
     {
-        
      "select": {
       "name": "Blood Curse",
       "type": "Class Feature",
@@ -473,21 +472,40 @@
        "Class Feature:Blood Curse of Purgation",
        "Class Feature:Blood Curse of Spell Sunder"
       ],
-    "resource": {
-     "id": "blood-maledict",
-     "name": "Blood Maledict",
-     "rest": "S",
-     "min": 1,
-     "max": [
-      {
-       "class": "Blood Hunter",
-       "table": [
-        1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4
-       ]
+      "resource": {
+       "id": "blood-maledict",
+       "name": "Blood Maledict",
+       "rest": "S",
+       "min": 1,
+       "max": [
+        {
+         "class": "Blood Hunter",
+         "table": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4
+         ]
+        }
+       ],
+       "note": "Uses per rest"
       }
-     ],
-     "note": "Uses per rest"
-    }
      },
      "level": 2
     },
@@ -583,15 +601,7 @@
    "type": "Class Feature",
    "name": "Blood Hunter Order",
    "desc": "At 3rd level, you commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, or Order of the Profane Soul, all detailed at the end of the class description. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.",
-   "rules": [
-    {
-     "select": {
-      "name": "Blood Hunter Order",
-      "type": "Subclass",
-      "supports": "Class:Blood Hunter"
-     }
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Class Feature:Extra Attack",
@@ -651,22 +661,22 @@
    "type": "Class Feature",
    "name": "Hallowed Veins",
    "desc": "Beginning at 7th level, your blood curses become honed to the fabric of a creature’s essence. Your blood curses can now affect any creature, regardless of their form or lack of blood.\n\nIn addition, when you target an undead creature with a blood curse, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or it cannot target you with an attack until the end of your next turn.",
-     "rules": [
-   {
-    "resource": {
-     "id": "supernal-surge",
-     "name": "Supernal Surge",
-     "rest": "S",
-     "min": 1,
-     "max": [
-      {
-       "mod": "wis"
-      }
-     ],
-     "note": "Become spectral"
+   "rules": [
+    {
+     "resource": {
+      "id": "supernal-surge",
+      "name": "Supernal Surge",
+      "rest": "S",
+      "min": 1,
+      "max": [
+       {
+        "mod": "wis"
+       }
+      ],
+      "note": "Become spectral"
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Supernal Surge",
@@ -1139,21 +1149,21 @@
    "name": "Grit",
    "desc": "Also starting at 3rd level, you gain a number of grit points equal to your Wisdom modifier (minimum of 1). You can spend grit points to perform various \"shot\" attacks with your firearms. An attack can only be affected by a single shot feature. You can regain spent Grit points in the following ways:\n\nCritical hit with a firearm. Each time you score a critical hit with a firearm attack while in the heat of combat, you regain 1 spent grit point. Critical hits gained outside of die rolls (via enemy conditions) do not generate grit.\n\nKilling blow with a firearm. Each time you reduce a dangerous creature of significant threat (DM’s discretion) to 0 hit points with a firearm attack, and kill them, you regain 1 spent grit point.\n\nYou also regain all spent grit points after finishing a short or long rest.",
    "rules": [
-   {
-    "resource": {
-     "id": "grit",
-     "name": "Grit Points",
-     "rest": "S",
-     "min": 1,
-     "max": [
-      {
-       "mod": "wis"
-      }
-     ],
-     "note": "Regain on crit or kill"
+    {
+     "resource": {
+      "id": "grit",
+      "name": "Grit Points",
+      "rest": "S",
+      "min": 1,
+      "max": [
+       {
+        "mod": "wis"
+       }
+      ],
+      "note": "Regain on crit or kill"
+     }
     }
-   }
-  ]
+   ]
   },
   {
    "id": "Class Feature:Deadeye Shot",
