@@ -405,15 +405,7 @@
    "type": "Class Feature",
    "name": "Necromancer Occult",
    "desc": "At 2nd level, you choose an occult which specializes you in your dealings with death: Keeper, Reaper, and Undertaker, each of which is detailed at the end of the class description. Your occult grants you features when you choose it at 2nd level and additional features at 6th, 10th, and 14th level.",
-   "rules": [
-    {
-     "select": {
-      "name": "Necromancer Occult",
-      "type": "Subclass",
-      "supports": "Class:Necromancer"
-     }
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Class Feature:Soul Harvest",
@@ -721,15 +713,7 @@
    "type": "Class Feature",
    "name": "Martial Archetype",
    "desc": "At 3rd level, you choose the path that you walk as a Weapon master. Choose Combat Mastery, Tactic Mastery, or Evasive Mastery all detailed at the end of the class description. The pathway you choose grant you features at 3rd level and again at 7th, 10th, 15th, and 18th level.",
-   "rules": [
-    {
-     "select": {
-      "name": "Weapon Master Martial Archetypes",
-      "type": "Subclass",
-      "supports": "Class:Weapon Master"
-     }
-    }
-   ]
+   "rules": []
   },
   {
    "id": "Class Feature:Extra Attack",
