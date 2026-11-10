@@ -26,9 +26,32 @@
     {
      "grant": "Racial Trait:Bloodless"
     },
-    {
-     "grant": "Racial Trait:Undead Subrace"
-    },
+     {
+      "select": {
+       "name": "Subrace",
+       "type": "Sub Race",
+       "supports": "Race:Awakened Undead"
+      }
+     },
+     {
+      "select": {
+       "name": "Past Life",
+       "type": "Racial Trait",
+       "ids": [
+        "Racial Trait:Dragonborn",
+        "Racial Trait:Dwarf",
+        "Racial Trait:Elf",
+        "Racial Trait:Gnome",
+        "Racial Trait:Half-Elf",
+        "Racial Trait:Halfling",
+        "Racial Trait:Half-Orc",
+        "Racial Trait:Human",
+        "Racial Trait:Tiefling",
+        "Racial Trait:Kenku",
+        "Racial Trait:Other"
+       ]
+      }
+     },
     {
      "grant": "Language:Common"
     },
@@ -45,27 +68,7 @@
    "type": "Racial Trait",
    "name": "Past Life",
    "desc": "Choose another race besides this one, which must be humanoid and lack the Living Construct trait (or similar). Before your death, you were a member of this race and appear as an undead version of it. Your size, height, and movement speed are the same as a typical member of that race. You do not retain special movement speeds from this race (such as swimming or flying). If your Past Life race has subraces, you can select one, but it confers no benefits.",
-   "rules": [
-    {
-     "select": {
-      "name": "Past Life",
-      "type": "Racial Trait",
-      "ids": [
-       "Racial Trait:Dragonborn",
-       "Racial Trait:Dwarf",
-       "Racial Trait:Elf",
-       "Racial Trait:Gnome",
-       "Racial Trait:Half-Elf",
-       "Racial Trait:Halfling",
-       "Racial Trait:Half-Orc",
-       "Racial Trait:Human",
-       "Racial Trait:Tiefling",
-       "Racial Trait:Kenku",
-       "Racial Trait:Other"
-      ]
-     }
-    }
-   ]
+    "rules": []
   },
   {
    "id": "Racial Trait:Living Dead",
@@ -100,15 +103,7 @@
    "type": "Racial Trait",
    "name": "Undead Subrace",
    "desc": "Five types of awakened undead are available to you. Choose Skeleton, Revenant, Ghost, Ghoul, or Mummy, listed in the following section.",
-   "rules": [
-    {
-     "select": {
-      "name": "Subrace",
-      "type": "Sub Race",
-      "supports": "Race:Undead Subrace"
-     }
-    }
-   ]
+    "rules": []
   },
   {
    "id": "Sub Race:Skeleton",
