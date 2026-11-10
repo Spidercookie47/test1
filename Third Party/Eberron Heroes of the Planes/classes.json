@@ -515,8 +515,13 @@
     {
      "select": {
       "name": "Bearer of Fire",
-      "type": "Class Feature"
-     }
+      "type": "Class Feature",
+      "ids": [
+       "Class Feature:Blazing Blades",
+       "Class Feature:Pyroclastic Missile"
+      ]
+     },
+     "level": 11
     }
    ]
   },
