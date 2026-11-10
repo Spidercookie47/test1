@@ -2,9 +2,9 @@
  "format": "hearthscribe-index",
  "version": 1,
  "source": {
-  "id": "dndwiki",
-  "name": "D&D Wiki",
-  "short": "WIKI"
+  "id": "dndwiki5",
+  "name": "D&D Wiki5",
+  "short": "WIKI5"
  },
  "files": [
   "class-options.json",
