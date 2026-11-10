@@ -63,22 +63,6 @@
    "desc": "Once per turn when you make a weapon attack against a creature, you can roll 1d6 and add it to your attack roll. The target must be within 5 feet of a creature other than you that is hostile to it.",
    "rules": [],
    "lv": 3
-  },
-  {
-   "id": "Class Feature:Blazing Blades",
-   "type": "Class Feature",
-   "name": "Blazing Blades",
-   "desc": "As a bonus action, you can wreathe one or two melee weapons you are wielding in fire. They remain alight until you douse them as a bonus action or until you are no longer wielding them. These weapons deal fire damage instead of their normal damage type, and your reach with them increases by 5 feet.",
-   "rules": [],
-   "lv": 11
-  },
-  {
-   "id": "Class Feature:Pyroclastic Missile",
-   "type": "Class Feature",
-   "name": "Pyroclastic Missile",
-   "desc": "When you would subject a creature to your Conflagrating Strike with a ranged weapon attack, each creature within 5 feet of the target is also set on fire.",
-   "rules": [],
-   "lv": 11
   }
  ]
 }
