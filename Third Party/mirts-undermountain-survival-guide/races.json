@@ -73,7 +73,7 @@
      }
     },
     {
-     "grant": "Racial Trait:Menacing"
+     "grant": "Racial Trait:Menacing (Half-Ogre)"
     },
     {
      "grant": "Racial Trait:Furious Might"
@@ -87,9 +87,9 @@
    ]
   },
   {
-   "id": "Racial Trait:Menacing",
+   "id": "Racial Trait:Menacing (Half-Ogre)",
    "type": "Racial Trait",
-   "name": "Menacing",
+   "name": "Menacing (Half-Ogre)",
    "desc": "You gain proficiency in the Intimidation skill.",
    "rules": [
     {

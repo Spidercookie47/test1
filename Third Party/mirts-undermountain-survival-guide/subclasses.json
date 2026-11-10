@@ -11,7 +11,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Bonus Proficiency",
+     "grant": "Class Feature:Bonus Proficiency (Cavern Domain)",
      "level": 1
     },
     {
@@ -63,13 +63,13 @@
    }
   },
   {
-   "id": "Subclass:Cirle of Stone",
+   "id": "Subclass:Circle of Stone",
    "type": "Subclass",
-   "name": "Cirle of Stone",
+   "name": "Circle of Stone",
    "desc": "Druids who are members of the Circle of Stone have a special connection with the very bones of the world and commune with the elemental spirits that inhabit...",
    "rules": [
     {
-     "grant": "Class Feature:Circle Spells",
+     "grant": "Class Feature:Circle Spells (Cirle of Stone)",
      "level": 2
     },
     {
@@ -127,7 +127,7 @@
      "level": 3
     },
     {
-     "grant": "Class Feature:Danger Sense",
+     "grant": "Class Feature:Danger Sense (Wayfarer)",
      "level": 7
     },
     {
@@ -204,7 +204,7 @@
      "Dissonant Whispers",
      "Ray of Sickness",
      "Darkvision",
-     "Protection From Poison",
+     "Protection from Poison",
      "Bestow Curse",
      "Stinking Cloud",
      "Evards Black Tentacles",
@@ -233,7 +233,7 @@
      "level": 7
     },
     {
-     "grant": "Class Feature:Extra Attack",
+     "grant": "Class Feature:Extra Attack (Lore of the Hero)",
      "level": 15
     },
     {
@@ -250,7 +250,7 @@
    "desc": "Factotums who delve into Lore of the Theurge seek to further develop their spellcasting and magical abilities. They crawl further into lost tomes, seek out...",
    "rules": [
     {
-     "grant": "Class Feature:Spellcasting",
+     "grant": "Class Feature:Spellcasting (Lore of the Theurge)",
      "level": 3
     },
     {

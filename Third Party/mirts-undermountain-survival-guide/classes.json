@@ -8,9 +8,9 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Bonus Proficiency",
+   "id": "Class Feature:Bonus Proficiency (Cavern Domain)",
    "type": "Class Feature",
-   "name": "Bonus Proficiency",
+   "name": "Bonus Proficiency (Cavern Domain)",
    "desc": "When you choose this domain at 1st level, you gain proficiency with heavy armor.",
    "rules": [
     {
@@ -56,9 +56,9 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Circle Spells",
+   "id": "Class Feature:Circle Spells (Cirle of Stone)",
    "type": "Class Feature",
-   "name": "Circle Spells",
+   "name": "Circle Spells (Cirle of Stone)",
    "desc": "Your mystical connection to the elemental spirits infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells.\n\nOnce you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\nCIRCLE OF STONE SPELLS\n\nDruid Level | Spells\n3rd | dust devil*, spike growth\n5th | erupting earth*, meld into stone\n7th | stone shape, elemental bane*\n9th | wall of stone, conjure elemental\n\n* From Elemental Evil Player’s Companion",
    "rules": []
   },
@@ -134,9 +134,9 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Danger Sense",
+   "id": "Class Feature:Danger Sense (Wayfarer)",
    "type": "Class Feature",
-   "name": "Danger Sense",
+   "name": "Danger Sense (Wayfarer)",
    "desc": "By 7th level you have developed a supernatural instinct for survival. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells, and advantage on Wisdom (Perception) checks made to avoid being surprised. To gain these benefits, you can’t be blinded, deafened, or incapacitated.",
    "rules": []
   },
@@ -333,7 +333,7 @@
      "level": 1
     },
     {
-     "grant": "Class Feature:Expertise",
+     "grant": "Class Feature:Expertise (Factotum)",
      "level": 2
     },
     {
@@ -372,8 +372,7 @@
      },
      "level": 3
     }
-   ],
-   "casting": "None"
+   ]
   },
   {
    "id": "Class Feature:Ingenuity",
@@ -397,25 +396,17 @@
    "rules": []
   },
   {
-   "id": "Class Feature:Expertise",
+   "id": "Class Feature:Expertise (Factotum)",
    "type": "Class Feature",
-   "name": "Expertise",
+   "name": "Expertise (Factotum)",
    "desc": "At 2nd level, choose two of your skill proficiencies, or one of your skill proficiencies and one of your tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 10th level, you can choose two more of your proficiencies (in skills or tools) to gain this benefit.",
    "rules": [
     {
-     "select": {
-      "name": "Expertise, Factotum",
-      "n": 2,
-      "type": "Class Feature"
-     },
+     "expertise": 2,
      "level": 2
     },
     {
-     "select": {
-      "name": "Expertise, Factotum",
-      "n": 2,
-      "type": "Class Feature"
-     },
+     "expertise": 2,
      "level": 10
     }
    ]
@@ -533,9 +524,9 @@
    ]
   },
   {
-   "id": "Class Feature:Extra Attack",
+   "id": "Class Feature:Extra Attack (Lore of the Hero)",
    "type": "Class Feature",
-   "name": "Extra Attack",
+   "name": "Extra Attack (Lore of the Hero)",
    "desc": "Beginning at 15th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
    "rules": []
   },
@@ -546,41 +537,41 @@
    "desc": "At 20th level, you have studied the sagas of warrior legends and learned to counterfeit their signature abilities. By spending 5 ingenuity points, you can duplicate one of these class features for one minute. You can only have one of these features active at a time.\n\nAura of Protection. Whenever you or a friendly creature within 10 feet of you makes a saving throw, the creature gains a bonus to the saving throw equal to your Intelligence modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.\n\nStunning Strike. Once per round when you hit another creature with a melee weapon attack, you can attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.\n\nRage. You can enter a furious rage. While raging, you gain the following benefits if you aren’t wearing heavy armor:\n\n- You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll equal to your Intelligence modifier.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- You can’t cast or concentrate on spells while raging.\n\nYour rage ends early if you are knocked unconscious, if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since your last turn. You can also end your rage on your turn as a bonus action.",
    "rules": [
     {
-     "grant": "Class Feature:Aura of Protection"
+     "grant": "Class Feature:Aura of Protection (Lore of the Hero)"
     },
     {
-     "grant": "Class Feature:Stunning Strike"
+     "grant": "Class Feature:Stunning Strike (Lore of the Hero)"
     },
     {
-     "grant": "Class Feature:Rage"
+     "grant": "Class Feature:Rage (Lore of the Hero)"
     }
    ]
   },
   {
-   "id": "Class Feature:Aura of Protection",
+   "id": "Class Feature:Aura of Protection (Lore of the Hero)",
    "type": "Class Feature",
-   "name": "Aura of Protection",
+   "name": "Aura of Protection (Lore of the Hero)",
    "desc": "Whenever you or a friendly creature within 10 feet of you makes a saving throw, the creature gains a bonus to the saving throw equal to your Intelligence modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.",
    "rules": []
   },
   {
-   "id": "Class Feature:Stunning Strike",
+   "id": "Class Feature:Stunning Strike (Lore of the Hero)",
    "type": "Class Feature",
-   "name": "Stunning Strike",
+   "name": "Stunning Strike (Lore of the Hero)",
    "desc": "Once per round when you hit another creature with a melee weapon attack, you can attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",
    "rules": []
   },
   {
-   "id": "Class Feature:Rage",
+   "id": "Class Feature:Rage (Lore of the Hero)",
    "type": "Class Feature",
-   "name": "Rage",
+   "name": "Rage (Lore of the Hero)",
    "desc": "You can enter a furious rage. While raging, you gain the following benefits if you aren’t wearing heavy armor:\n\n- You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll equal to your Intelligence modifier.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- You can’t cast or concentrate on spells while raging.\n\nYour rage ends early if you are knocked unconscious, if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since your last turn. You can also end your rage on your turn as a bonus action.",
    "rules": []
   },
   {
-   "id": "Class Feature:Spellcasting",
+   "id": "Class Feature:Spellcasting (Lore of the Theurge)",
    "type": "Class Feature",
-   "name": "Spellcasting",
+   "name": "Spellcasting (Lore of the Theurge)",
    "desc": "When you reach 3rd level, you have managed to gather a hodgepodge of true magic to augment your other skills.\n\nCantrips. You learn two cantrips of your choice from the cleric or wizard spell lists. You learn an additional cleric or wizard cantrip of your choice at 15th level.\n\nSpell Slots. The Lore of the Theurge Spellcasting table shows how many spell slots you have to cast your cleric or wizard spells of 1st level and higher. These slots are added to the number you gain from your Arcane Dilettante class feature. To cast a spell, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st-Level and Higher. You know two 1st-level spells of your choice, which you must choose from the cleric or wizard spell lists.\n\nThe Spells Known column of the Lore of the Theurge Spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be from the cleric or wizard spell lists and must be of a level for which you have spell slots granted by this feature.\n\nWhenever you gain a level in this class, you can replace one of the cleric or wizard spells you know from this feature with another spell of your choice from the cleric or wizard spell lists. The new spell must be of a level for which you have spell slots granted by this feature.",
    "rules": []
   },
@@ -608,10 +599,10 @@
      "grant": "Class Feature:Eldritch Invocation"
     },
     {
-     "grant": "Class Feature:Metamagic"
+     "grant": "Class Feature:Metamagic (Lore of the Theurge)"
     },
     {
-     "grant": "Class Feature:Wild Shape"
+     "grant": "Class Feature:Wild Shape (Lore of the Theurge)"
     }
    ]
   },
@@ -650,16 +641,16 @@
    ]
   },
   {
-   "id": "Class Feature:Metamagic",
+   "id": "Class Feature:Metamagic (Lore of the Theurge)",
    "type": "Class Feature",
-   "name": "Metamagic",
+   "name": "Metamagic (Lore of the Theurge)",
    "desc": "You force your own creativity into one of your spells. Each round for the duration you may apply one of the following effects:\n\n- Careful Spell. When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 ingenuity point and choose a number of those creatures up to your Intelligence modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n- Distant Spell. When you cast a spell that has a range of 5 feet or greater, you can spend 1 ingenuity point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 ingenuity point to make the range of the spell 30 feet.\n- Subtle Spell. When you cast a spell, you can spend 1 ingenuity point to cast it without any somatic or verbal components.",
    "rules": []
   },
   {
-   "id": "Class Feature:Wild Shape",
+   "id": "Class Feature:Wild Shape (Lore of the Theurge)",
    "type": "Class Feature",
-   "name": "Wild Shape",
+   "name": "Wild Shape (Lore of the Theurge)",
    "desc": "You magically assume the shape of a beast that you have seen before with a CR of 1 or lower. At the end of the duration you revert to your normal form unless you use this feature again and expend another 5 ingenuity points. You revert to your normal form after 1 minute or by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.\n\nWhile you are transformed, the following rules apply:\n\n- Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature’s bonus instead of yours. If the creature has any legendary or lair actions, you can’t use them.\n- When you transform, you assume the beast’s hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn’t reduce your normal form to 0 hit points, you aren’t knocked unconscious.\n- You can’t cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn’t break your concentration on a spell you’ve already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you’ve already cast.\n- You retain the benefit of any features from your class, race, or other source, and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.",
    "rules": []
   }
