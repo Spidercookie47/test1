@@ -529,8 +529,8 @@
    ]
   },
   {
-   "id": "Subclass:Forge Domain",
-   "type": "Subclass",
+   "id": "Divine Domain:Forge Domain",
+   "type": "Divine Domain",
    "name": "Forge Domain",
    "desc": "Gods of the forge are patrons of artisans who work with metal.",
    "rules": [
@@ -563,7 +563,6 @@
      "level": 17
     }
    ],
-   "supports": "Class:Cleric",
    "prepared": {
     "class": "Cleric",
     "levels": {
@@ -662,8 +661,8 @@
    "rules": []
   },
   {
-   "id": "Subclass:Grave Domain",
-   "type": "Subclass",
+   "id": "Divine Domain:Grave Domain",
+   "type": "Divine Domain",
    "name": "Grave Domain",
    "desc": "Gods of the grave watch over the line between life and death.",
    "rules": [
@@ -696,7 +695,6 @@
      "level": 17
     }
    ],
-   "supports": "Class:Cleric",
    "prepared": {
     "class": "Cleric",
     "levels": {
