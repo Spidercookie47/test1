@@ -35,12 +35,6 @@
     },
     {
      "grant": "Background Feature:House Connections"
-    },
-    {
-     "select": {
-      "name": "Variant Feature",
-      "type": "Background Feature"
-     }
     }
    ],
    "chars": {
@@ -115,7 +109,7 @@
     },
     {
      "pf": [
-      "t:Vehicle’s land"
+      "t:Vehicles (land)"
      ]
     }
    ]
@@ -170,7 +164,7 @@
    "rules": [
     {
      "pf": [
-      "t:Vehicle’s water",
+      "t:Vehicles (water)",
       "t:Navigator’s tools"
      ]
     }
@@ -204,7 +198,7 @@
     },
     {
      "pf": [
-      "t:Vehicle’s land"
+      "t:Vehicles (land)"
      ]
     }
    ]
@@ -269,7 +263,7 @@
    "rules": [
     {
      "select": {
-      "name": "Musical Instrument, House Phiarlan",
+      "name": "Musical Instrument, House Thuranni",
       "type": "Tool"
      }
     },
@@ -288,7 +282,7 @@
    "rules": [
     {
      "pf": [
-      "t:Vehicle’s land",
+      "t:Vehicles (land)",
       "t:Herbalism kit"
      ]
     }
