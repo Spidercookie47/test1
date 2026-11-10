@@ -3,8 +3,8 @@
  "version": 1,
  "source": {
   "id": "wiki2",
-  "name": "D&D Wiki",
-  "short": "WIKI"
+  "name": "D&D Wiki2",
+  "short": "WIKI2"
  },
  "files": [
   "classes.json",

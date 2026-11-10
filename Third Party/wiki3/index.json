@@ -3,8 +3,8 @@
  "version": 1,
  "source": {
   "id": "wiki3",
-  "name": "D&D Wiki",
-  "short": "WIKI"
+  "name": "D&D Wiki3",
+  "short": "WIKI3"
  },
  "files": [
   "races.json",

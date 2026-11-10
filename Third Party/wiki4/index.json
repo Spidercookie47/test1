@@ -3,8 +3,8 @@
  "version": 1,
  "source": {
   "id": "wiki4",
-  "name": "D&D Wiki",
-  "short": "WIKI"
+  "name": "D&D Wiki4",
+  "short": "WIKI4"
  },
  "files": [
   "equipment.json"
