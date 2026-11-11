@@ -640,15 +640,11 @@
    "desc": "This Unseelie queen is an invisible and evil fey presence in the heart of Pandemonium. She is served by many types of evil creatures, notably corrupted fey,...",
    "rules": [
     {
-     "grant": "Class Feature:Archfey Expanded Spell List",
+     "grant": "Class Feature:Fey Presence",
      "level": 1
     },
     {
-     "grant": "Class Feature:Archfey Fey Presence",
-     "level": 1
-    },
-    {
-     "grant": "Class Feature:Archfey Misty Escape",
+     "grant": "Class Feature:Misty Escape",
      "level": 6
     },
     {
@@ -656,11 +652,26 @@
      "level": 10
     },
     {
-     "grant": "Class Feature:Archfey Dark Delirium",
+     "grant": "Class Feature:Dark Delirium",
      "level": 14
     }
    ],
-   "supports": "Class:Warlock"
+   "supports": "Class:Warlock",
+   "expandedList": {
+    "class": "Warlock",
+    "spells": [
+     "Faerie Fire",
+     "Sleep",
+     "Calm Emotions",
+     "Phantasmal Force",
+     "Blink",
+     "Plant Growth",
+     "Dominate Beast",
+     "Greater Invisibility",
+     "Dominate Person",
+     "Seeming"
+    ]
+   }
   },
   {
    "id": "Subclass:Eltab, Lord of the Hidden Layer",
