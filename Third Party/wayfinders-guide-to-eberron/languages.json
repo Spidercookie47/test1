@@ -1,0 +1,11 @@
+{
+ "elements": [
+  {
+   "id": "Language:Quori",
+   "type": "Language",
+   "name": "Quori",
+   "desc": "Quori is a language your character can speak, read and write.",
+   "rules": []
+  }
+ ]
+}
