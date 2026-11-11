@@ -374,6 +374,80 @@
      }
     }
    ]
+  },
+  {
+   "id": "Race:Tiefling",
+   "type": "Race",
+   "name": "Tiefling",
+   "desc": "Touched by the Nine Hells. +2 Charisma, +1 Intelligence, speed 30 ft.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 2,
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Language:Infernal"
+    },
+    {
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Hellish Resistance"
+    },
+    {
+     "select": {
+      "name": "Subrace",
+      "type": "Sub Race",
+      "supports": "Race:Tiefling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Infernal Legacy (Asmodeus)",
+   "type": "Racial Trait",
+   "name": "Infernal Legacy (Asmodeus)",
+   "desc": "You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+   "rules": [],
+   "featSpells": [
+    [
+     1,
+     "Spell:Thaumaturgy",
+     "cantrip, Charisma"
+    ],
+    [
+     3,
+     "Spell:Hellish Rebuke",
+     "once per long rest, 2nd level"
+    ],
+    [
+     5,
+     "Spell:Darkness",
+     "once per long rest"
+    ]
+   ]
+  },
+  {
+   "id": "Sub Race:Bloodline of Asmodeus",
+   "type": "Sub Race",
+   "name": "Bloodline of Asmodeus",
+   "supports": "Race:Tiefling",
+   "desc": "The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself. Ability Score Increase: your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "Racial Trait:Infernal Legacy (Asmodeus)"
+    }
+   ]
   }
  ]
 }
