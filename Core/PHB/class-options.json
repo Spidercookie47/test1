@@ -34,7 +34,7 @@
    "featSpells": [
     [
      17,
-     "Spell:Breath of Winter",
+     "Breath of Winter",
      "6 ki"
     ]
    ]
@@ -49,7 +49,7 @@
    "featSpells": [
     [
      6,
-     "Spell:Clench of the North Wind",
+     "Clench of the North Wind",
      "3 ki"
     ]
    ]
@@ -88,7 +88,7 @@
    "featSpells": [
     [
      17,
-     "Spell:Eternal Mountain Defense",
+     "Eternal Mountain Defense",
      "5 ki"
     ]
    ]
@@ -127,7 +127,7 @@
    "featSpells": [
     [
      3,
-     "Spell:Fist of Four Thunders",
+     "Fist of Four Thunders",
      "2 ki"
     ]
    ]
@@ -150,7 +150,7 @@
    "featSpells": [
     [
      11,
-     "Spell:Flames of the Phoenix",
+     "Flames of the Phoenix",
      "4 ki"
     ]
    ]
@@ -173,7 +173,7 @@
    "featSpells": [
     [
      6,
-     "Spell:Gong of the Summit",
+     "Gong of the Summit",
      "3 ki"
     ]
    ]
@@ -212,7 +212,7 @@
    "featSpells": [
     [
      11,
-     "Spell:Mist Stance",
+     "Mist Stance",
      "4 ki"
     ]
    ]
@@ -242,6 +242,14 @@
    "lv": 3
   },
   {
+   "id": "Class Feature:Rally",
+   "type": "Class Feature",
+   "name": "Rally",
+   "desc": "Bonus action: expend a superiority die; a friendly creature that can see or hear you gains temporary hit points equal to the die roll + your Charisma modifier.",
+   "rules": [],
+   "lv": 3
+  },
+  {
    "id": "Class Feature:Ride the Wind",
    "type": "Class Feature",
    "name": "Ride the Wind",
@@ -251,7 +259,7 @@
    "featSpells": [
     [
      11,
-     "Spell:Ride the Wind",
+     "Ride the Wind",
      "4 ki"
     ]
    ]
@@ -274,7 +282,7 @@
    "featSpells": [
     [
      17,
-     "Spell:River of Hungry Flame",
+     "River of Hungry Flame",
      "5 ki"
     ]
    ]
@@ -289,7 +297,7 @@
    "featSpells": [
     [
      3,
-     "Spell:Rush of the Gale Spirits",
+     "Rush of the Gale Spirits",
      "2 ki"
     ]
    ]
@@ -320,7 +328,7 @@
    "featSpells": [
     [
      3,
-     "Spell:Sweeping Cinder Strike",
+     "Sweeping Cinder Strike",
      "2 ki"
     ]
    ]
@@ -399,7 +407,7 @@
    "featSpells": [
     [
      17,
-     "Spell:Wave of Rolling Earth",
+     "Wave of Rolling Earth",
      "6 ki"
     ]
    ]

@@ -3,7 +3,7 @@
   {
    "id": "Racial Trait:Elf Weapon Training (PHB)",
    "type": "Racial Trait",
-   "name": "Elf Weapon Training",
+   "name": "Elf Weapon Training (PHB)",
    "desc": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
    "rules": []
   },
@@ -40,10 +40,10 @@
     },
     {
      "pf": [
-      "w:Longsword",
-      "w:Shortsword",
-      "w:Shortbow",
-      "w:Longbow"
+      "w:Longswords",
+      "w:Shortswords",
+      "w:Shortbows",
+      "w:Longbows"
      ]
     },
     {
@@ -110,17 +110,17 @@
    "featSpells": [
     [
      1,
-     "Spell:Dancing Lights",
+     "Dancing Lights",
      "cantrip, Charisma"
     ],
     [
      3,
-     "Spell:Faerie Fire",
+     "Faerie Fire",
      "once per long rest"
     ],
     [
      5,
-     "Spell:Darkness",
+     "Darkness",
      "once per long rest"
     ]
    ]
@@ -146,9 +146,9 @@
     },
     {
      "pf": [
-      "w:Rapier",
-      "w:Shortsword",
-      "w:Hand crossbow"
+      "w:Rapiers",
+      "w:Shortswords",
+      "w:Hand crossbows"
      ]
     },
     {
@@ -198,7 +198,7 @@
    "featSpells": [
     [
      1,
-     "Spell:Minor Illusion",
+     "Minor Illusion",
      "cantrip, Intelligence"
     ]
    ]
@@ -233,7 +233,7 @@
   {
    "id": "Ability Increase:Variant Human Strength",
    "type": "Ability Increase",
-   "name": "Strength",
+   "name": "Variant Human Strength",
    "desc": "Your Strength score increases by 1.",
    "rules": [
     {
@@ -246,7 +246,7 @@
   {
    "id": "Ability Increase:Variant Human Dexterity",
    "type": "Ability Increase",
-   "name": "Dexterity",
+   "name": "Variant Human Dexterity",
    "desc": "Your Dexterity score increases by 1.",
    "rules": [
     {
@@ -259,7 +259,7 @@
   {
    "id": "Ability Increase:Variant Human Constitution",
    "type": "Ability Increase",
-   "name": "Constitution",
+   "name": "Variant Human Constitution",
    "desc": "Your Constitution score increases by 1.",
    "rules": [
     {
@@ -272,7 +272,7 @@
   {
    "id": "Ability Increase:Variant Human Intelligence",
    "type": "Ability Increase",
-   "name": "Intelligence",
+   "name": "Variant Human Intelligence",
    "desc": "Your Intelligence score increases by 1.",
    "rules": [
     {
@@ -285,7 +285,7 @@
   {
    "id": "Ability Increase:Variant Human Wisdom",
    "type": "Ability Increase",
-   "name": "Wisdom",
+   "name": "Variant Human Wisdom",
    "desc": "Your Wisdom score increases by 1.",
    "rules": [
     {
@@ -298,7 +298,7 @@
   {
    "id": "Ability Increase:Variant Human Charisma",
    "type": "Ability Increase",
-   "name": "Charisma",
+   "name": "Variant Human Charisma",
    "desc": "Your Charisma score increases by 1.",
    "rules": [
     {
@@ -309,20 +309,23 @@
    ]
   },
   {
-   "id": "Race Variant:Variant Human",
-   "type": "Race Variant",
+   "id": "Race:Variant Human",
+   "type": "Race",
    "name": "Variant Human",
-   "supports": "Race:Human",
-   "desc": "Instead of the standard human traits, a variant human increases two ability scores of your choice by 1, gains proficiency in one skill of your choice, and gains one feat of your choice. The standard +1 to every ability is cancelled by this variant.",
+   "desc": "Two ability scores of your choice increase by 1, plus one skill proficiency, one feat and one extra language. Speed 30 ft.",
    "rules": [
     {
      "stat": {
-      "str": -1,
-      "dex": -1,
-      "con": -1,
-      "int": -1,
-      "wis": -1,
-      "cha": -1
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "select": {
+      "name": "Language",
+      "type": "Language"
      }
     },
     {
@@ -417,17 +420,17 @@
    "featSpells": [
     [
      1,
-     "Spell:Thaumaturgy",
+     "Thaumaturgy",
      "cantrip, Charisma"
     ],
     [
      3,
-     "Spell:Hellish Rebuke",
+     "Hellish Rebuke",
      "once per long rest, 2nd level"
     ],
     [
      5,
-     "Spell:Darkness",
+     "Darkness",
      "once per long rest"
     ]
    ]

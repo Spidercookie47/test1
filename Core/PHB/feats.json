@@ -14,8 +14,14 @@
    "desc": "Increase your Strength or Dexterity by 1. Stand up from prone using 5 feet of movement, climb without extra cost, and make running jumps after moving only 5 feet.",
    "rules": [
     {
-     "stat": {
-      "str": 1
+     "select": {
+      "name": "Ability Score",
+      "type": "Feat Ability",
+      "n": 1,
+      "ids": [
+       "Feat Ability:Strength",
+       "Feat Ability:Dexterity"
+      ]
      }
     }
    ]
@@ -167,8 +173,14 @@
    "desc": "Increase your Strength or Dexterity by 1, and gain proficiency with light armor.",
    "rules": [
     {
-     "stat": {
-      "str": 1
+     "select": {
+      "name": "Ability Score",
+      "type": "Feat Ability",
+      "n": 1,
+      "ids": [
+       "Feat Ability:Strength",
+       "Feat Ability:Dexterity"
+      ]
      }
     },
     {
@@ -315,8 +327,8 @@
    "desc": "Speed increases by 10 feet. Difficult terrain doesn't cost extra movement when you Dash. Opportunity attacks against you are made with disadvantage.",
    "rules": [
     {
-     "stat": {
-      "speed": 10
+     "speedBonus": {
+      "max": 10
      }
     }
    ]
@@ -328,8 +340,14 @@
    "desc": "Prerequisite: Proficiency with light armor. Increase Strength or Dexterity by 1, and gain proficiency with medium armor and shields.",
    "rules": [
     {
-     "stat": {
-      "str": 1
+     "select": {
+      "name": "Ability Score",
+      "type": "Feat Ability",
+      "n": 1,
+      "ids": [
+       "Feat Ability:Strength",
+       "Feat Ability:Dexterity"
+      ]
      }
     },
     {
@@ -354,8 +372,14 @@
    "desc": "Increase your Intelligence or Wisdom by 1. Can lip-read. Gain +5 bonus to passive Perception and passive Investigation.",
    "rules": [
     {
-     "stat": {
-      "wis": 1
+     "select": {
+      "name": "Ability Score",
+      "type": "Feat Ability",
+      "n": 1,
+      "ids": [
+       "Feat Ability:Intelligence",
+       "Feat Ability:Wisdom"
+      ]
      }
     }
    ]
@@ -376,15 +400,15 @@
     {
      "select": {
       "name": "Ability Score",
-      "type": "Ability",
+      "type": "Resilient Ability",
       "n": 1,
       "ids": [
-       "Ability:Strength",
-       "Ability:Dexterity",
-       "Ability:Constitution",
-       "Ability:Intelligence",
-       "Ability:Wisdom",
-       "Ability:Charisma"
+       "Resilient Ability:Strength",
+       "Resilient Ability:Dexterity",
+       "Resilient Ability:Constitution",
+       "Resilient Ability:Intelligence",
+       "Resilient Ability:Wisdom",
+       "Resilient Ability:Charisma"
       ]
      }
     }
@@ -433,9 +457,28 @@
    "rules": [
     {
      "select": {
-      "name": "Skills or Tools",
-      "type": "Skill",
-      "n": 3
+      "name": "Skills",
+      "n": 3,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
      }
     }
    ]
@@ -461,8 +504,14 @@
    "desc": "Increase Strength or Constitution by 1. Proficient with improvised weapons. Unarmed strikes deal 1d4 damage. Bonus action to grapple after hitting with unarmed strike or improvised weapon.",
    "rules": [
     {
-     "stat": {
-      "str": 1
+     "select": {
+      "name": "Ability Score",
+      "type": "Feat Ability",
+      "n": 1,
+      "ids": [
+       "Feat Ability:Strength",
+       "Feat Ability:Constitution"
+      ]
      }
     }
    ]
@@ -472,7 +521,13 @@
    "type": "Feat",
    "name": "Tough",
    "desc": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat, and by +2 every level thereafter.",
-   "rules": []
+   "rules": [
+    {
+     "stat": {
+      "hpl": 2
+     }
+    }
+   ]
   },
   {
    "id": "Feat:War Caster",
@@ -488,9 +543,189 @@
    "desc": "Increase Strength or Dexterity by 1. Gain proficiency with four weapons of your choice.",
    "rules": [
     {
+     "select": {
+      "name": "Ability Score",
+      "type": "Feat Ability",
+      "n": 1,
+      "ids": [
+       "Feat Ability:Strength",
+       "Feat Ability:Dexterity"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability:Strength",
+   "type": "Feat Ability",
+   "name": "Strength",
+   "desc": "Your Strength score increases by 1.",
+   "rules": [
+    {
      "stat": {
       "str": 1
      }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability:Dexterity",
+   "type": "Feat Ability",
+   "name": "Dexterity",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability:Constitution",
+   "type": "Feat Ability",
+   "name": "Constitution",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability:Intelligence",
+   "type": "Feat Ability",
+   "name": "Intelligence",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability:Wisdom",
+   "type": "Feat Ability",
+   "name": "Wisdom",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Feat Ability:Charisma",
+   "type": "Feat Ability",
+   "name": "Charisma",
+   "desc": "Your Charisma score increases by 1.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "Resilient Ability:Strength",
+   "type": "Resilient Ability",
+   "name": "Strength",
+   "desc": "Your Strength score increases by 1 and you gain proficiency in Strength saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "str": 1
+     }
+    },
+    {
+     "grant": "save:str"
+    }
+   ]
+  },
+  {
+   "id": "Resilient Ability:Dexterity",
+   "type": "Resilient Ability",
+   "name": "Dexterity",
+   "desc": "Your Dexterity score increases by 1 and you gain proficiency in Dexterity saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "dex": 1
+     }
+    },
+    {
+     "grant": "save:dex"
+    }
+   ]
+  },
+  {
+   "id": "Resilient Ability:Constitution",
+   "type": "Resilient Ability",
+   "name": "Constitution",
+   "desc": "Your Constitution score increases by 1 and you gain proficiency in Constitution saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "con": 1
+     }
+    },
+    {
+     "grant": "save:con"
+    }
+   ]
+  },
+  {
+   "id": "Resilient Ability:Intelligence",
+   "type": "Resilient Ability",
+   "name": "Intelligence",
+   "desc": "Your Intelligence score increases by 1 and you gain proficiency in Intelligence saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "int": 1
+     }
+    },
+    {
+     "grant": "save:int"
+    }
+   ]
+  },
+  {
+   "id": "Resilient Ability:Wisdom",
+   "type": "Resilient Ability",
+   "name": "Wisdom",
+   "desc": "Your Wisdom score increases by 1 and you gain proficiency in Wisdom saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "wis": 1
+     }
+    },
+    {
+     "grant": "save:wis"
+    }
+   ]
+  },
+  {
+   "id": "Resilient Ability:Charisma",
+   "type": "Resilient Ability",
+   "name": "Charisma",
+   "desc": "Your Charisma score increases by 1 and you gain proficiency in Charisma saving throws.",
+   "rules": [
+    {
+     "stat": {
+      "cha": 1
+     }
+    },
+    {
+     "grant": "save:cha"
     }
    ]
   }
