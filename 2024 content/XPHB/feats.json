@@ -17,22 +17,6 @@
    "cls": "general"
   },
   {
-   "id": "Feat:Alert (XPHB)",
-   "type": "Feat",
-   "name": "Alert",
-   "desc": "You gain the following benefits.\n\nInitiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll.\n\nInitiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.",
-   "rules": [],
-   "cls": "origin"
-  },
-  {
-   "id": "Fighting Style:Archery (XPHB)",
-   "type": "Fighting Style",
-   "name": "Archery",
-   "desc": "Prerequisite: Fighting Style. You gain a +2 bonus to attack rolls you make with Ranged weapons.",
-   "rules": [],
-   "cls": "FPR"
-  },
-  {
    "id": "Feat:Athlete (XPHB)",
    "type": "Feat",
    "name": "Athlete",
@@ -57,22 +41,6 @@
    "cls": "FPR"
   },
   {
-   "id": "Feat:Boon of Combat Prowess (XPHB)",
-   "type": "Feat",
-   "name": "Boon of Combat Prowess",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nPeerless Aim. When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
-   "id": "Feat:Boon of Dimensional Travel (XPHB)",
-   "type": "Feat",
-   "name": "Boon of Dimensional Travel",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nBlink Steps. Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
    "id": "Feat:Boon of Energy Resistance (XPHB)",
    "type": "Feat",
    "name": "Boon of Energy Resistance",
@@ -81,26 +49,10 @@
    "cls": "epic"
   },
   {
-   "id": "Feat:Boon of Fate (XPHB)",
-   "type": "Feat",
-   "name": "Boon of Fate",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nImprove Fate. When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
    "id": "Feat:Boon of Fortitude (XPHB)",
    "type": "Feat",
    "name": "Boon of Fortitude",
    "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nFortified Health. Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier. Once you've regained these additional Hit Points, you can't do so again until the start of your next turn.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
-   "id": "Feat:Boon of Irresistible Offense (XPHB)",
-   "type": "Feat",
-   "name": "Boon of Irresistible Offense",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nOvercome Defenses. The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.\n\nOverwhelming Strike. When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.",
    "rules": [],
    "cls": "epic"
   },
@@ -125,30 +77,6 @@
    "type": "Feat",
    "name": "Boon of Speed",
    "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nEscape Artist. As a Bonus Action, you can take the Disengage action, which also ends the Grappled condition on you.\n\nQuickness. Your Speed increases by 30 feet.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
-   "id": "Feat:Boon of Spell Recall (XPHB)",
-   "type": "Feat",
-   "name": "Boon of Spell Recall",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nFree Casting. Whenever you cast a spell with a level 1-4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
-   "id": "Feat:Boon of the Night Spirit (XPHB)",
-   "type": "Feat",
-   "name": "Boon of the Night Spirit",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nMerge with Shadows. While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.\n\nShadowy Form. While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
-   "rules": [],
-   "cls": "epic"
-  },
-  {
-   "id": "Feat:Boon of Truesight (XPHB)",
-   "type": "Feat",
-   "name": "Boon of Truesight",
-   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nTruesight. You have Truesight with a range of 60 feet.",
    "rules": [],
    "cls": "epic"
   },
@@ -191,14 +119,6 @@
    "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nPush. Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.\n\nEnhanced Critical. When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.",
    "rules": [],
    "cls": "general"
-  },
-  {
-   "id": "Fighting Style:Defense (XPHB)",
-   "type": "Fighting Style",
-   "name": "Defense",
-   "desc": "Prerequisite: Fighting Style. While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
-   "rules": [],
-   "cls": "FPR"
   },
   {
    "id": "Feat:Defensive Duelist (XPHB)",
@@ -255,22 +175,6 @@
    "desc": "Prerequisite: Level 4+. Your exposure to the Feywild's magic grants you the following benefits.\n\nFey Magic. Choose one level=1 school of magic. You always have that spell and the Misty Step spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
    "rules": [],
    "cls": "general"
-  },
-  {
-   "id": "Feat:Grappler (XPHB)",
-   "type": "Feat",
-   "name": "Grappler",
-   "desc": "Prerequisite: Level 4+, Strength 13+, Level 4+, Dexterity 13+. You gain the following benefits.\n\nPunch and Grab. When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.\n\nAttack Advantage. You have Advantage on attack rolls against a creature Grappled by you.\n\nFast Wrestler. You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.",
-   "rules": [],
-   "cls": "general"
-  },
-  {
-   "id": "Fighting Style:Great Weapon Fighting (XPHB)",
-   "type": "Fighting Style",
-   "name": "Great Weapon Fighting",
-   "desc": "Prerequisite: Fighting Style. When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.",
-   "rules": [],
-   "cls": "FPR"
   },
   {
    "id": "Feat:Great Weapon Master (XPHB)",
@@ -457,14 +361,6 @@
    "cls": "general"
   },
   {
-   "id": "Feat:Savage Attacker (XPHB)",
-   "type": "Feat",
-   "name": "Savage Attacker",
-   "desc": "You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.",
-   "rules": [],
-   "cls": "origin"
-  },
-  {
    "id": "Feat:Sentinel (XPHB)",
    "type": "Feat",
    "name": "Sentinel",
@@ -503,14 +399,6 @@
    "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nSkill Proficiency. You gain proficiency in one skill of your choice.\n\nExpertise. Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.",
    "rules": [],
    "cls": "general"
-  },
-  {
-   "id": "Feat:Skilled (XPHB)",
-   "type": "Feat",
-   "name": "Skilled",
-   "desc": "You gain proficiency in any combination of three skills or type=tool;artisan's tools;instrument;gaming set of your choice.\n\nRepeatable. You can take this feat more than once.",
-   "rules": [],
-   "cls": "origin"
   },
   {
    "id": "Feat:Skulker (XPHB)",
@@ -583,14 +471,6 @@
    "desc": "Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.",
    "rules": [],
    "cls": "origin"
-  },
-  {
-   "id": "Fighting Style:Two-Weapon Fighting (XPHB)",
-   "type": "Fighting Style",
-   "name": "Two-Weapon Fighting",
-   "desc": "Prerequisite: Fighting Style. When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
-   "rules": [],
-   "cls": "FPR"
   },
   {
    "id": "Fighting Style:Unarmed Fighting (XPHB)",

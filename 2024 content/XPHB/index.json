@@ -2,24 +2,19 @@
  "format": "hearthscribe-index",
  "version": 1,
  "source": {
-  "id": "srd51",
-  "name": "System Reference Document 5.1",
-  "short": "SRD 5.1",
-  "license": "CC-BY-4.0",
-  "credit": "This work includes material taken from the System Reference Document 5.1 (SRD 5.1) by Wizards of the Coast LLC, available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License."
+  "id": "xphb",
+  "name": "Player's Handbook (2024)",
+  "short": "XPHB (2024)",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
  },
  "files": [
   "races.json",
-  "languages.json",
-  "subclasses.json",
-  "class-options.json",
-  "spells.json",
-  "equipment.json",
-  "magic-items.json",
-  "monsters.json",
   "backgrounds.json",
   "feats.json",
-  "info.json",
-  "tables.json"
+  "spells.json",
+  "equipment.json",
+  "subclasses.json",
+  "monsters.json"
  ]
 }
