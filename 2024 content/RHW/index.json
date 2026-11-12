@@ -1,0 +1,19 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "rhw",
+  "name": "Ravenloft: The Horrors Within",
+  "short": "RHW",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "feats.json",
+  "magic-items.json",
+  "subclasses.json",
+  "monsters.json"
+ ]
+}

@@ -1,0 +1,430 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Spellcasting (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Spellcasting",
+   "desc": "You have learned how to channel magical energy through objects. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules with Artificer spells, which appear in the class=Artificer later in the class's description.\n\nTools Required. You produce your Artificer spells through tools. You can use Thieves' Tools, Tinker's Tools, or another kind of Artisan's Tools with which you have proficiency as a Spellcasting Focus, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an M component when you cast it).\n\nCantrips. You know two level=0 of your choice. Acid Splash and Prestidigitation are recommended.\n\nWhenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Artificer cantrip of your choice.\n\nWhen you reach Artificer levels 10 and 14, you learn another Artificer cantrip of your choice, as shown in the Cantrips column of the Artificer Features table.\n\nSpell Slots. The Artificer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level=1. Cure Wounds and Grease are recommended.\n\nThe number of spells on your list increases as you gain Artificer levels, as shown in the Prepared Spells column of the Artificer Features table. Whenever that number increases, choose additional class=Artificer until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Artificer, your list of prepared spells can include six Artificer spells of levels 1 and 2 in any combination.\n\nIf another Artificer feature gives you spells that you always have prepared, those don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Artificer spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Artificer spells for which you have spell slots.\n\nSpellcasting Ability. Intelligence is your spellcasting ability for your Artificer spells.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Tinker's Magic (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Tinker's Magic",
+   "desc": "You know the Mending cantrip.\n\nAs a Magic action while holding Tinker's Tools, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:\n\n• Ball Bearings\n\n• Basket\n\n• Bedroll\n\n• Bell\n\n• Blanket\n\n• Block and Tackle\n\n• Bottle, Glass\n\n• Bucket\n\n• Caltrops\n\n• Candle\n\n• Crowbar\n\n• Flask\n\n• Grappling Hook\n\n• Hunting Trap\n\n• Jug\n\n• Lamp\n\n• Manacles\n\n• Net\n\n• Oil\n\n• Paper\n\n• Parchment\n\n• Pole\n\n• Pouch\n\n• Rope\n\n• Sack\n\n• Shovel\n\n• Spikes, Iron\n\n• String\n\n• Tinderbox\n\n• Torch\n\n• Vial\n\nSee the rules for the item in the Player's Handbook. The item lasts until you finish a Long Rest, at which point it vanishes.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Replicate Magic Item (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Replicate Magic Item",
+   "desc": "You have learned arcane plans that you use to make magic items.\n\nPlans Known. When you gain this feature, choose four plans to learn from the Magic Item Plans (Artificer Level 2+) table (see the Dungeon Master's Guide for the items' descriptions). Bag of Holding, Cap of Water Breathing, Sending Stones, and Wand of the War Mage are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.\n\nYou learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table. When you choose a plan to learn, you choose it from any Magic Item Plans table for which you qualify; your qualification is based on your Artificer level.\n\nCreating an Item. When you finish a Long Rest, you can create one or two different magic items if you have Tinker's Tools in hand. Each item is based on one of the plans you know for this feature.\n\nIf a created item requires Attunement, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for Attunement.\n\nWhen you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a Long Rest increases. Each item you create must be based on a different plan you know.\n\nYou can't have more magic items from this feature than the number shown in the Magic Items column of the Artificer Features table for your level. If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears.\n\nDuration. A magic item created by this feature functions as the normal magic item, except its magic isn't permanent; when you die, the magic item vanishes after 1d4 days. If you replace a plan you know with a new plan, any magic item created with the replaced plan immediately vanishes.\n\nIf an item that you created with this feature is a container, such as a Bag of Holding, and it vanishes, its contents harmlessly appear in and around its space.\n\nSpellcasting Focus. You can use any Wand or Weapon created by this feature as a Spellcasting Focus in lieu of using a set of Artisan's Tools.\n\nCrafting More Magic Items. The Replicate Magic Item feature isn't the only way for an Artificer to make magic items. The 6 provides rules for characters—not just Artificers—who want to make magic items of all sorts. Though many different characters can make magic items, Artificers can do it faster than others; each Artificer subclass improves a character's speed at making items of a certain category.\n\nWhen an Artificer crafts a magic item using the normal rules in the 6, the character gains no special connection to that item. Class features that refer to items created by your Replicate Magic Item feature don't apply to items you craft by other means.\n\nMagic Item Plans (Artificer Level 2+)\n\nMagic Item Plan | Attunement\n\nAlchemy Jug | No\n\nBag of Holding | No\n\nCap of Water Breathing | No\n\nsource=* | Varies\n\nGoggles of Night | No\n\nManifold Tool | Yes\n\nRepeating Shot | Yes\n\nReturning Weapon | No\n\nRope of Climbing | No\n\nSending Stones | No\n\nShield +1 | No\n\nWand of Magic Detection | No\n\nWand of Secrets | No\n\nWand of the War Mage +1 | Yes\n\nWeapon +1 | No\n\nWraps of Unarmed Power, +1 | No\n\nMagic Item Plans (Artificer Level 6+)\n\nMagic Item Plan | Attunement\n\nArmor +1 | No\n\nBoots of Elvenkind | No\n\nBoots of the Winding Path | Yes\n\nCloak of Elvenkind | Yes\n\nCloak of the Manta Ray | Yes\n\nDazzling Weapon | Yes\n\nEyes of Charming | Yes\n\nEyes of Minute Seeing | No\n\nGloves of Thievery | No\n\nHelm of Awareness | No\n\nLantern of Revealing | No\n\nMind Sharpener | Yes\n\nNecklace of Adaptation | Yes\n\nPipes of Haunting | No\n\nRepulsion Shield | No\n\nRing of Swimming | No\n\nRing of Water Walking | No\n\nSentinel Shield | No\n\nSpell-Refueling Ring | Yes\n\nWand of Magic Missiles | No\n\nWand of Web | Yes\n\nWeapon of Warning | Yes\n\nMagic Item Plans (Artificer Level 10+)\n\nMagic Item Plan | Attunement\n\nArmor of Resistance | Yes\n\nDagger of Venom | No\n\nElven Chain | No\n\nRing of Feather Falling | Yes\n\nRing of Jumping | Yes\n\nRing of Mind Shielding | Yes\n\nShield, +2 | No\n\nsource=* | Varies\n\nWand of the War Mage, +2 | Yes\n\nWeapon, +2 | No\n\nWraps of Unarmed Power, +2 | No\n\nMagic Item Plans (Artificer Level 14+)\n\nMagic Item Plan | Attunement\n\nArmor, +2 | No\n\nArrow-Catching Shield | Yes\n\nFlame Tongue | Yes\n\nsource=* | Varies\n\nRing of Free Action | Yes\n\nRing of Protection | Yes\n\nRing of the Ram | Yes",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magic Item Tinker (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Magic Item Tinker",
+   "desc": "Your EFA feature gains the following options.\n\nCharge Magic Item. As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and that uses charges. You expend a level 1+ spell slot and recharge the item. The number of charges the item regains is equal to the level of spell slot expended.\n\nDrain Magic Item. As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can't do so again until you finish a Long Rest. Any spell slot you create with this feature vanishes when you finish a Long Rest.\n\nTransmute Magic Item. As a Magic action, you can touch one magic item within 5 feet of yourself that you created with Replicate Magic Item and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can't do so again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Flash of Genius (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Flash of Genius",
+   "desc": "When you or a creature you can see within 30 feet of you fails an ability check or a saving throw, you can take a Reaction to add a bonus to the roll, potentially causing it to succeed. The bonus equals your Intelligence modifier (minimum of +1).\n\nYou can take this Reaction a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magic Item Adept (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Magic Item Adept",
+   "desc": "You can now attune to up to four magic items at once.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spell-Storing Item (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Spell-Storing Item",
+   "desc": "Whenever you finish a Long Rest, you can touch one Simple or Martial weapon or one item that you can use as a Spellcasting Focus, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action and doesn't require a Material component that is consumed by the spell (you needn't have the spell prepared).\n\nWhile holding the object, a creature can take a Magic action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires Concentration, the creature must concentrate. Once a creature has used the object to produce the spell's effect, the object can't be used this way again until the start of the creature's next turn.\n\nThe spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Advanced Artifice (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Advanced Artifice",
+   "desc": "You gain the following benefits.\n\nMagic Item Savant. You can now attune to up to five magic items at once.\n\nRefreshed Genius. When you finish a Short Rest, you regain one expended use of your EFA feature.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Magic Item Master (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Magic Item Master",
+   "desc": "You can now attune to up to six magic items at once.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Soul of Artifice (Artificer) (EFA)",
+   "type": "Class Feature",
+   "name": "Soul of Artifice",
+   "desc": "You have developed a mystical connection to your magic items, which you can draw on for aid. You gain the following benefits.\n\nCheat Death. If you're reduced to 0 Hit Points but not killed outright, you can disintegrate any number of Uncommon or Rare magic items created by your Replicate Magic Item feature. If you do so, your Hit Points instead change to a number equal to 20 times the number of magic items disintegrated.\n\nMagical Guidance. When you finish a Short Rest, you regain all expended uses of your EFA if you have Attunement to at least one magic item.",
+   "rules": []
+  },
+  {
+   "id": "Class:Artificer (EFA)",
+   "type": "Class",
+   "name": "Artificer (EFA)",
+   "desc": "Hit die d8. Primary ability: Intelligence.",
+   "rules": [
+    {
+     "grant": "save:con"
+    },
+    {
+     "grant": "save:int"
+    },
+    {
+     "select": {
+      "name": "Skills (choose 2)",
+      "n": 2,
+      "from": [
+       "Arcana",
+       "History",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Sleight of Hand"
+      ]
+     }
+    },
+    {
+     "grant": "Class Feature:Spellcasting (Artificer) (EFA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Tinker's Magic (Artificer) (EFA)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Replicate Magic Item (Artificer) (EFA)",
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Artificer Subclass",
+      "type": "Subclass",
+      "supports": "Class:Artificer (EFA)"
+     },
+     "level": 3
+    },
+    {
+     "asi": 1,
+     "level": 4
+    },
+    {
+     "grant": "Class Feature:Magic Item Tinker (Artificer) (EFA)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Flash of Genius (Artificer) (EFA)",
+     "level": 7
+    },
+    {
+     "asi": 1,
+     "level": 8
+    },
+    {
+     "grant": "Class Feature:Magic Item Adept (Artificer) (EFA)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Spell-Storing Item (Artificer) (EFA)",
+     "level": 11
+    },
+    {
+     "asi": 1,
+     "level": 12
+    },
+    {
+     "grant": "Class Feature:Advanced Artifice (Artificer) (EFA)",
+     "level": 14
+    },
+    {
+     "asi": 1,
+     "level": 16
+    },
+    {
+     "grant": "Class Feature:Magic Item Master (Artificer) (EFA)",
+     "level": 18
+    },
+    {
+     "asi": 1,
+     "level": 19
+    },
+    {
+     "grant": "Class Feature:Soul of Artifice (Artificer) (EFA)",
+     "level": 20
+    }
+   ],
+   "hd": 8,
+   "ap": [
+    "a:Light armor",
+    "a:Medium armor",
+    "a:Shield",
+    "w:Simple"
+   ],
+   "mp": [],
+   "prereq": [
+    "int"
+   ],
+   "casting": {
+    "ability": "int",
+    "mode": "prep",
+    "half": true,
+    "halfUp": true,
+    "rows": [
+     [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      4,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ ]
+}

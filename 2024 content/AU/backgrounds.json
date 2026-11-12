@@ -1,0 +1,274 @@
+{
+ "elements": [
+  {
+   "id": "Background:Agent of the Ninth Quill (AU)",
+   "type": "Background",
+   "name": "Agent of the Ninth Quill",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Charisma • Feat. Arcane Infiltrator • Skill Proficiencies. Arcana and Sleight of Hand • Tool Proficiencies. Thieves' Tools • Equipment. Choose A or B: (A) Dagger, Light Hammer, Thieves' Tools, Iron Spikes, Rope, Traveler's Clothes, 17 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "skill:Sleight of Hand"
+    },
+    {
+     "pf": [
+      "t:Thieves' Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Infiltrator (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Charisma\n\n• Feat. Arcane Infiltrator\n\n• Skill Proficiencies. Arcana and Sleight of Hand\n\n• Tool Proficiencies. Thieves' Tools\n\n• Equipment. Choose A or B: (A) Dagger, Light Hammer, Thieves' Tools, Iron Spikes, Rope, Traveler's Clothes, 17 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Bejeweled Conclave Spy (AU)",
+   "type": "Background",
+   "name": "Bejeweled Conclave Spy",
+   "desc": "• Ability Scores. Dexterity, Wisdom, Charisma • Feat. Arcane Eloquence • Skill Proficiencies. Deception and Perception • Tool Proficiencies. Disguise Kit • Equipment. Choose A or B: (A) Disguise Kit, Fine Clothes, Perfume, 5 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "pf": [
+      "t:Disguise Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Eloquence (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Wisdom, Charisma\n\n• Feat. Arcane Eloquence\n\n• Skill Proficiencies. Deception and Perception\n\n• Tool Proficiencies. Disguise Kit\n\n• Equipment. Choose A or B: (A) Disguise Kit, Fine Clothes, Perfume, 5 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Cosmic Dawn Experiment (AU)",
+   "type": "Background",
+   "name": "Cosmic Dawn Experiment",
+   "desc": "• Ability Scores. Strength, Dexterity, Constitution • Feat. Transmuted Anatomy • Skill Proficiencies. Athletics and Survival • Tool Proficiencies. Choose one kind of Artisan's Tools • Equipment. Choose A or B: (A) Artisan's Tools (same as above), Backpack, Robe, Traveler's Clothes, 30 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "grant": "Feat:Transmuted Anatomy (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "con"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Constitution\n\n• Feat. Transmuted Anatomy\n\n• Skill Proficiencies. Athletics and Survival\n\n• Tool Proficiencies. Choose one kind of Artisan's Tools\n\n• Equipment. Choose A or B: (A) Artisan's Tools (same as above), Backpack, Robe, Traveler's Clothes, 30 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Covenant of the Grave Recruit (AU)",
+   "type": "Background",
+   "name": "Covenant of the Grave Recruit",
+   "desc": "• Ability Scores. Strength, Intelligence, Wisdom • Feat. Arcane Undertaker • Skill Proficiencies. History and Medicine • Tool Proficiencies. Herbalism Kit • Equipment. Choose A or B: (A) Dagger, Herbalism Kit, Book (anatomy), Shovel, 16 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "pf": [
+      "t:Herbalism Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Undertaker (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Intelligence, Wisdom\n\n• Feat. Arcane Undertaker\n\n• Skill Proficiencies. History and Medicine\n\n• Tool Proficiencies. Herbalism Kit\n\n• Equipment. Choose A or B: (A) Dagger, Herbalism Kit, Book (anatomy), Shovel, 16 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Crucible Storm Chaser (AU)",
+   "type": "Background",
+   "name": "Crucible Storm Chaser",
+   "desc": "• Ability Scores. Strength, Constitution, Intelligence • Feat. Arcane Overload • Skill Proficiencies. Athletics and Nature • Tool Proficiencies. Glassblower's Tools • Equipment. Choose A or B: (A) Glassblower's Tools, Backpack, Rope, Traveler's Clothes, 15 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "pf": [
+      "t:Glassblower'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Overload (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "int"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Intelligence\n\n• Feat. Arcane Overload\n\n• Skill Proficiencies. Athletics and Nature\n\n• Tool Proficiencies. Glassblower's Tools\n\n• Equipment. Choose A or B: (A) Glassblower's Tools, Backpack, Rope, Traveler's Clothes, 15 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Familiar Trainer (AU)",
+   "type": "Background",
+   "name": "Familiar Trainer",
+   "desc": "• Ability Scores. Constitution, Intelligence, Wisdom • Feat. Familiar Friend • Skill Proficiencies. Animal Handling and Arcana • Tool Proficiencies. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Quarterstaff, Gaming Set (same as above), Bedroll, Bell, String, Tinderbox, Traveler's Clothes, Waterskin, 44 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Animal Handling"
+    },
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "Feat:Familiar Friend (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Constitution, Intelligence, Wisdom\n\n• Feat. Familiar Friend\n\n• Skill Proficiencies. Animal Handling and Arcana\n\n• Tool Proficiencies. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Quarterstaff, Gaming Set (same as above), Bedroll, Bell, String, Tinderbox, Traveler's Clothes, Waterskin, 44 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Horizon Weaver Initiate (AU)",
+   "type": "Background",
+   "name": "Horizon Weaver Initiate",
+   "desc": "• Ability Scores. Dexterity, Constitution, Wisdom • Feat. Portal Jumper • Skill Proficiencies. Acrobatics and Survival • Tool Proficiencies. Weaver's Tools • Equipment. Choose A or B: (A) Shortbow, 20 Arrows, Weaver's Tools, Map, Quiver, Rope, Traveler's Clothes, 18 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "pf": [
+      "t:Weaver'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Portal Jumper (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Wisdom\n\n• Feat. Portal Jumper\n\n• Skill Proficiencies. Acrobatics and Survival\n\n• Tool Proficiencies. Weaver's Tools\n\n• Equipment. Choose A or B: (A) Shortbow, 20 Arrows, Weaver's Tools, Map, Quiver, Rope, Traveler's Clothes, 18 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Phantasmic Circus Trouper (AU)",
+   "type": "Background",
+   "name": "Phantasmic Circus Trouper",
+   "desc": "• Ability Scores. Dexterity, Constitution, Charisma • Feat. Arcane Artist • Skill Proficiencies. Deception and Performance • Tool Proficiencies. Disguise Kit • Equipment. Choose A or B: (A) Disguise Kit, Gaming Set (any), Costume, Mirror, Traveler's Clothes, 12 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Performance"
+    },
+    {
+     "pf": [
+      "t:Disguise Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Artist (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Charisma\n\n• Feat. Arcane Artist\n\n• Skill Proficiencies. Deception and Performance\n\n• Tool Proficiencies. Disguise Kit\n\n• Equipment. Choose A or B: (A) Disguise Kit, Gaming Set (any), Costume, Mirror, Traveler's Clothes, 12 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Seer Apprentice (AU)",
+   "type": "Background",
+   "name": "Seer Apprentice",
+   "desc": "• Ability Scores. Intelligence, Wisdom, Charisma • Feat. Arcane Omens • Skill Proficiencies. History and Insight • Tool Proficiencies. Navigator's Tools • Equipment. Choose A or B: (A) Navigator's Tools, 8 Candles, Ink, Ink Pen, Parchment (9 sheets), Pouch, Tinderbox, Traveler's Clothes, 11 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "pf": [
+      "t:Navigator'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Omens (5.2)"
+    }
+   ],
+   "abilities": [
+    "int",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Intelligence, Wisdom, Charisma\n\n• Feat. Arcane Omens\n\n• Skill Proficiencies. History and Insight\n\n• Tool Proficiencies. Navigator's Tools\n\n• Equipment. Choose A or B: (A) Navigator's Tools, 8 Candles, Ink, Ink Pen, Parchment (9 sheets), Pouch, Tinderbox, Traveler's Clothes, 11 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Ward of the Sheltering Hands (AU)",
+   "type": "Background",
+   "name": "Ward of the Sheltering Hands",
+   "desc": "• Ability Scores. Constitution, Wisdom, Charisma • Feat. Arcane Safeguard • Skill Proficiencies. Insight and Medicine • Tool Proficiencies. Cook's Utensils • Equipment. Choose A or B: (A) Cook's Utensils, Blanket, Healer's Kit, Lamp, Oil (3 flasks), Tinderbox, Traveler's Clothes, Waterskin, 40 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "pf": [
+      "t:Cook'S Utensils"
+     ]
+    },
+    {
+     "grant": "Feat:Arcane Safeguard (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Constitution, Wisdom, Charisma\n\n• Feat. Arcane Safeguard\n\n• Skill Proficiencies. Insight and Medicine\n\n• Tool Proficiencies. Cook's Utensils\n\n• Equipment. Choose A or B: (A) Cook's Utensils, Blanket, Healer's Kit, Lamp, Oil (3 flasks), Tinderbox, Traveler's Clothes, Waterskin, 40 GP; or (B) 50 GP"
+  }
+ ]
+}

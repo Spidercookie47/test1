@@ -1,0 +1,560 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Tools of the Trade (Alchemist) (EFA)",
+   "type": "Class Feature",
+   "name": "Tools of the Trade",
+   "desc": "You gain the following benefits.\n\nTool Proficiency. You gain proficiency with Alchemist's Supplies and the Herbalism Kit. If you already have one of these proficiencies, you gain proficiency with one other type of Artisan's Tools of your choice (or with two other types if you have both).\n\nPotion Crafting. When you brew a potion using the crafting rules in the 6, the amount of time required to craft it is halved.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Alchemist Spells (Alchemist) (EFA)",
+   "type": "Class Feature",
+   "name": "Alchemist Spells",
+   "desc": "When you reach an Artificer level specified in the Alchemist Spells table, you thereafter always have the listed spells prepared.\n\nAlchemist Spells\n\nArtificer Level | Spells\n\n3 | Healing Word, Ray of Sickness\n\n5 | Flaming Sphere, Melf's Acid Arrow\n\n9 | Gaseous Form, Mass Healing Word\n\n13 | Death Ward, Vitriolic Sphere\n\n17 | Cloudkill, Raise Dead",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Experimental Elixir (Alchemist) (EFA)",
+   "type": "Class Feature",
+   "name": "Experimental Elixir",
+   "desc": "Whenever you finish a Long Rest while holding Alchemist's Supplies, you can use that tool to magically produce two elixirs. For each elixir, roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. The elixir appears in a vial, and the vial vanishes when the elixir is drunk or poured out. If any elixir remains when you finish a Long Rest, the elixir and its vial vanish.\n\nDrinking an Elixir. As a Bonus Action, a creature can drink the elixir or administer it to another creature within 5 feet of itself.\n\nCreating Additional Elixirs. As a Magic action while holding Alchemist's Supplies, you can expend one spell slot to create another elixir. When you do so, you choose its effect from the Experimental Elixir table rather than rolling.\n\nWhen you reach certain Artificer levels, you can make an additional elixir at the end of each Long Rest: a total of three at level 5, four at level 9, and five at level 15.\n\nExperimental Elixir\n\n1d6 | Effect\n\n1 | Healing. The drinker regains a number of Hit Points equal to 2d8 plus your Intelligence modifier. The number of Hit Points restored increases by 1d8 when you reach Artificer levels 9 (3d8) and 15 (4d8).\n\n2 | Swiftness. The drinker's Speed increases by 10 feet for 1 hour. This bonus increases when you reach Artificer levels 9 (15 feet) and 15 (20 feet).\n\n3 | Resilience. The drinker gains a +1 bonus to AC for 10 minutes. The duration increases when you reach Artificer levels 9 (1 hour) and 15 (8 hours).\n\n4 | Boldness. The drinker can roll 1d4 and add the number rolled to every attack roll and saving throw they make for the next minute. The duration increases when you reach Artificer levels 9 (10 minutes) and 15 (1 hour).\n\n5 | Flight. The drinker gains a Fly Speed of 10 feet for 10 minutes. The Fly Speed increases when you reach Artificer levels 9 (20 feet) and 15 (30 feet).\n\n6 | You determine the elixir's effect by choosing one of the other rows in this table.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Alchemical Savant (Alchemist) (EFA)",
+   "type": "Class Feature",
+   "name": "Alchemical Savant",
+   "desc": "Whenever you cast a spell using your Alchemist's Supplies as the Spellcasting Focus, you gain a bonus to one roll of the spell. That roll must restore Hit Points or be a damage roll that deals Acid, Fire, or Poison damage. The bonus equals your Intelligence modifier (minimum bonus of +1).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Restorative Reagents (Alchemist) (EFA)",
+   "type": "Class Feature",
+   "name": "Restorative Reagents",
+   "desc": "You can cast Lesser Restoration without expending a spell slot and without preparing the spell, provided you use Alchemist's Supplies as the Spellcasting Focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chemical Mastery (Alchemist) (EFA)",
+   "type": "Class Feature",
+   "name": "Chemical Mastery",
+   "desc": "You gain the following benefits.\n\nAlchemical Eruption. When you cast an Artificer spell that deals Acid, Fire, or Poison damage to a target, you can also deal 2d8 Force damage to that target. You can use this benefit only once on each of your turns.\n\nChemical Resistance. You gain Resistance to Acid damage and Poison damage. You also gain Immunity to the Poisoned condition.\n\nConjured Cauldron. You can cast Tasha's Bubbling Cauldron without expending a spell slot, without preparing the spell, and without Material components, provided you use Alchemist's Supplies as the Spellcasting Focus. Once you use this feature, you can't use it again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Alchemist (EFA)",
+   "type": "Subclass",
+   "name": "Alchemist",
+   "desc": "Craft Magic Elixirs and Potions An Alchemist is an expert at combining reagents to produce magical effects. Alchemists use their creations to give life and to leech it away.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade (Alchemist) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Alchemist Spells (Alchemist) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Experimental Elixir (Alchemist) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Alchemical Savant (Alchemist) (EFA)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Restorative Reagents (Alchemist) (EFA)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Chemical Mastery (Alchemist) (EFA)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Artificer (EFA)",
+   "prepared": {
+    "class": "Artificer (EFA)",
+    "levels": {
+     "3": [
+      "Spell:Healing Word (XPHB)",
+      "Spell:Ray Of Sickness (XPHB)"
+     ],
+     "5": [
+      "Spell:Flaming Sphere (XPHB)",
+      "Spell:Melf'S Acid Arrow (XPHB)"
+     ],
+     "9": [
+      "Spell:Gaseous Form (XPHB)",
+      "Spell:Mass Healing Word (XPHB)"
+     ],
+     "13": [
+      "Spell:Death Ward (XPHB)",
+      "Spell:Vitriolic Sphere (XPHB)"
+     ],
+     "17": [
+      "Spell:Cloudkill (XPHB)",
+      "Spell:Raise Dead (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Tools of the Trade (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Tools of the Trade",
+   "desc": "You gain the following benefits.\n\nArmor Training. You gain training with Heavy armor.\n\nTool Proficiency. You gain proficiency with Smith's Tools. If you already have this tool proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.\n\nArmor Crafting. When you craft nonmagical or magic armor, the amount of time required to craft it is halved.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Armorer Spells (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Armorer Spells",
+   "desc": "When you reach an Artificer level specified in the Armorer Spells table, you thereafter always have the listed spells prepared.\n\nArmorer Spells\n\nArtificer Level | Spells\n\n3 | Magic Missile, Thunderwave\n\n5 | Mirror Image, Shatter\n\n9 | Hypnotic Pattern, Lightning Bolt\n\n13 | Fire Shield, Greater Invisibility\n\n17 | Passwall, Wall of Force",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Armor (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Arcane Armor",
+   "desc": "As a Magic action while you have Smith's Tools in hand, you can turn a suit of armor you are wearing into Arcane Armor. The armor continues to be Arcane Armor until you don another suit of armor or you die.\n\nYou gain the following benefits while wearing your Arcane Armor.\n\nNo Strength Requirement. If the armor normally has a Strength requirement, the Arcane Armor lacks this requirement for you.\n\nQuick Don and Doff. You can don or doff the armor as a Utilize action. The armor can't be removed against your will.\n\nSpellcasting Focus. You can use the Arcane Armor as a Spellcasting Focus for your Artificer spells.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dreadnaught (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Dreadnaught",
+   "desc": "You design your armor to become a towering juggernaut in battle. It has the following features:\n\n• Force Demolisher. An arcane wrecking ball or sledgehammer projects from your armor. The demolisher counts as a Simple Melee weapon with the Reach property, and it deals 1d10 Force damage on a hit. If you hit a creature that is at least one size smaller than you with the demolisher, you can push the creature up to 10 feet straight away from yourself or pull the creature up to 10 feet toward yourself.\n\n• Giant Stature. As a Bonus Action, you transform and enlarge your armor for 1 minute. For the duration, your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to increase your size, your size doesn't change. You can use this Bonus Action a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Guardian (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Guardian",
+   "desc": "You design your armor to be in the front line of conflict. It has the following features:\n\nThunder Pulse. You can discharge concussive blasts with strikes from your armor. The pulse counts as a Simple Melee weapon and deals 1d8 Thunder damage on a hit. A creature hit by the pulse has Disadvantage on attack rolls against targets other than you until the start of your next turn.\n\nDefensive Field. While Bloodied, you can take a Bonus Action to gain Temporary Hit Points equal to your Artificer level. You lose these Temporary Hit Points if you doff the armor.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infiltrator (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Infiltrator",
+   "desc": "You customize your armor for subtler undertakings. It has the following features:\n\n• Lightning Launcher. A gemlike node appears on your armor, from which you can shoot bolts of lightning. The launcher counts as a Simple Ranged weapon with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 Lightning damage on a hit. Once on each of your turns when you hit a creature with the launcher, you can deal an extra 1d6 Lightning damage to that target.\n\n• Powered Steps. Your Speed increases by 5 feet.\n\n• Dampening Field. You have Advantage on Dexterity (Stealth) checks. If the armor imposes Disadvantage on such checks, the Advantage and Disadvantage cancel each other, as normal.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Attack (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Armorer (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Improved Armorer",
+   "desc": "You gain the following benefits.\n\nArmor Replication. You learn an additional plan for your Replicate Magic Item feature, and it must be in the Armor category. If you replace that plan, you must replace it with another Armor plan.\n\nIn addition, you can create an additional item with that feature, and the item must also be in the Armor category.\n\nImproved Arsenal. You gain a +1 bonus to attack and damage rolls made with the special weapon of your Arcane Armor model.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Perfected Armor (Armorer) (EFA)",
+   "type": "Class Feature",
+   "name": "Perfected Armor",
+   "desc": "Your Arcane Armor gains additional benefits based on its model, as detailed below.\n\nDreadnaught. The damage die of your Force Demolisher increases to 2d6 Force damage.\n\nIn addition, when you use your Giant Stature, your reach increases by 10 feet, your size can increase to Large or Huge (your choice), and you have Advantage on Strength checks and Strength saving throws for the duration.\n\nGuardian. The damage die of your Thunder Pulse increases to 1d10 Thunder damage.\n\nIn addition, when a Huge or smaller creature you can see ends its turn within 30 feet of you, you can take a Reaction to magically force that creature to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly toward you to an unoccupied space. If you pull the target to a space within 5 feet of yourself, you can make a melee weapon attack against it as part of this Reaction.\n\nYou can take this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nInfiltrator. The damage die of your Lightning Launcher increases to 2d6 Lightning damage. Any creature that takes Lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds Dim Light in a 5-foot radius, and it has Disadvantage on attack rolls against you, as the light jolts it if it attacks you.\n\nAdditionally, as a Bonus Action, you can gain a Fly Speed equal to twice your Speed until the end of the current turn. You can take this Bonus Action a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Armorer (EFA)",
+   "type": "Subclass",
+   "name": "Armorer",
+   "desc": "Craft Magic Armor to Enhance Your Abilities An Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the Armorer's magic, unleash potent attacks, and generate a formidable defense.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade (Armorer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Armorer Spells (Armorer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcane Armor (Armorer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dreadnaught (Armorer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Guardian (Armorer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Infiltrator (Armorer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack (Armorer) (EFA)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Improved Armorer (Armorer) (EFA)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Perfected Armor (Armorer) (EFA)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Artificer (EFA)",
+   "prepared": {
+    "class": "Artificer (EFA)",
+    "levels": {
+     "3": [
+      "Spell:Magic Missile (XPHB)",
+      "Spell:Thunderwave (XPHB)"
+     ],
+     "5": [
+      "Spell:Mirror Image (XPHB)",
+      "Spell:Shatter (XPHB)"
+     ],
+     "9": [
+      "Spell:Hypnotic Pattern (XPHB)",
+      "Spell:Lightning Bolt (XPHB)"
+     ],
+     "13": [
+      "Spell:Fire Shield (XPHB)",
+      "Spell:Greater Invisibility (XPHB)"
+     ],
+     "17": [
+      "Spell:Passwall (XPHB)",
+      "Spell:Wall Of Force (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Tools of the Trade (Artillerist) (EFA)",
+   "type": "Class Feature",
+   "name": "Tools of the Trade",
+   "desc": "You gain the following benefits.\n\nRanged Weaponry. You gain proficiency with type=martial weapon;ranged weapon=sand.\n\nTool Proficiency. You gain proficiency with Woodcarver's Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.\n\nWand Crafting. When you craft a magic Wand, the amount of time required to craft it is halved.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Artillerist Spells (Artillerist) (EFA)",
+   "type": "Class Feature",
+   "name": "Artillerist Spells",
+   "desc": "When you reach an Artificer level specified in the Artillerist Spells table, you thereafter always have the listed spells prepared.\n\nArtillerist Spells\n\nArtificer Level | Spells\n\n3 | Shield, Thunderwave\n\n5 | Scorching Ray, Shatter\n\n9 | Fireball, Wind Wall\n\n13 | Ice Storm, Wall of Fire\n\n17 | Cone of Cold, Wall of Force",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Eldritch Cannon (Artillerist) (EFA)",
+   "type": "Class Feature",
+   "name": "Eldritch Cannon",
+   "desc": "Using Smith's Tools or Woodcarver's Tools, you can take a Magic action to create a Small or Tiny Eldritch Cannon in an unoccupied space on a horizontal surface within 5 feet of yourself. You determine its appearance, including whether you carry it or not (and your choice of legs or wheels, for the latter). It disappears if it is reduced to 0 Hit Points or after 1 hour. You can dismiss it early as a Magic action.\n\nOnce you create a cannon, you can't do so again until you finish a Long Rest or expend a spell slot to create one. You can have only one cannon at a time and can't create one while you already have one.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Firearm (Artillerist) (EFA)",
+   "type": "Class Feature",
+   "name": "Arcane Firearm",
+   "desc": "When you finish a Long Rest, you can use Woodcarver's Tools to carve special sigils into a Rod, Staff, Wand, or type=martial weapon;ranged weapon=sand and thereby turn it into your Arcane Firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.\n\nYou can use your Arcane Firearm as a Spellcasting Focus for your Artificer spells. When you cast an Artificer spell through the firearm, roll 1d8, and you gain a bonus to one of the spell's damage rolls equal to the number rolled.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Explosive Cannon (Artillerist) (EFA)",
+   "type": "Class Feature",
+   "name": "Explosive Cannon",
+   "desc": "Every Eldritch Cannon you create is now more destructive. You gain the following benefits.\n\nDetonate. When your cannon takes damage, you can take a Reaction to command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d10 Force damage on a failed save or half as much damage on a successful one.\n\nFirepower. The cannon's damage rolls and the number of Temporary Hit Points granted by Protector increase by 1d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fortified Position (Artillerist) (EFA)",
+   "type": "Class Feature",
+   "name": "Fortified Position",
+   "desc": "You're a master at forming well-defended emplacements using your Eldritch Cannon. You gain the following benefits.\n\nDouble Firepower. You can now have two cannons at the same time, and you can create two with the same Magic action. (If you expend a spell slot to create the first cannon, you must expend another spell slot to create the second.) You can activate both of them with the same Bonus Action, ordering them to use the same activation option or different ones. You can't create a third cannon while you have two.\n\nShimmering Field Projection. You and your allies have Half Cover while within 10 feet of your Eldritch Cannon.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Artillerist (EFA)",
+   "type": "Subclass",
+   "name": "Artillerist",
+   "desc": "Wield Destructive Power from Afar An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade (Artillerist) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Artillerist Spells (Artillerist) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Eldritch Cannon (Artillerist) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Arcane Firearm (Artillerist) (EFA)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Explosive Cannon (Artillerist) (EFA)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Fortified Position (Artillerist) (EFA)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Artificer (EFA)",
+   "prepared": {
+    "class": "Artificer (EFA)",
+    "levels": {
+     "3": [
+      "Spell:Shield (XPHB)",
+      "Spell:Thunderwave (XPHB)"
+     ],
+     "5": [
+      "Spell:Scorching Ray (XPHB)",
+      "Spell:Shatter (XPHB)"
+     ],
+     "9": [
+      "Spell:Fireball (XPHB)",
+      "Spell:Wind Wall (XPHB)"
+     ],
+     "13": [
+      "Spell:Ice Storm (XPHB)",
+      "Spell:Wall Of Fire (XPHB)"
+     ],
+     "17": [
+      "Spell:Cone Of Cold (XPHB)",
+      "Spell:Wall Of Force (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Tools of the Trade (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Tools of the Trade",
+   "desc": "You gain the following benefits.\n\nTool Proficiency. You gain proficiency with Smith's Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.\n\nWeapon Crafting. When you craft a nonmagical or magic weapon, the amount of time required to craft it is halved.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Battle Smith Spells (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Battle Smith Spells",
+   "desc": "When you reach an Artificer level specified in the Battle Smith Spells table, you thereafter always have the listed spells prepared.\n\nBattle Smith Spells\n\nArtificer Level | Spells\n\n3 | Heroism, Shield\n\n5 | Shining Smite, Warding Bond\n\n9 | Aura of Vitality, Conjure Barrage\n\n13 | Aura of Purity, Fire Shield\n\n17 | Banishing Smite, Mass Cure Wounds",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Battle Ready (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Battle Ready",
+   "desc": "Your combat training and your experiments with magic have paid off in two ways.\n\nArcane Empowerment. When you attack with a magic weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity modifier, for the attack and damage rolls.\n\nWeapon Knowledge. You gain proficiency with type=martial weapon. You can use a weapon with which you have proficiency as a Spellcasting Focus for your Artificer spells.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Steel Defender (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Steel Defender",
+   "desc": "Your tinkering has borne you a companion, a Steel Defender. You determine the defender's appearance and whether it has two legs or four; your choices don't affect the defender's game statistics.\n\nThe defender is Friendly to you and your allies and obeys you. It vanishes if you die.\n\nThe Defender in Combat. In combat, the defender acts during your turn. It can move and take its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action. If you have the Incapacitated condition, the defender acts on its own and isn't limited to the Dodge action.\n\nRestoring or Replacing the Defender. If the defender has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The defender returns to life after 1 minute with all its Hit Points restored.\n\nWhenever you finish a Long Rest, you can create a new defender if you have Smith's Tools in hand. If you already have a defender from this feature, the first one vanishes.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Attack (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "You can attack twice instead of once whenever you take the Attack action on your turn. You can forgo one of your attacks when you take the Attack action to command your Steel Defender to take the Force-Empowered Rend action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Arcane Jolt (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Arcane Jolt",
+   "desc": "When either you hit a target with an attack roll using a magic weapon or your Steel Defender hits a target, you can channel magical energy through the strike to create one of the following effects:\n\n• Destructive Energy. The target takes an extra 2d6 Force damage.\n\n• Restorative Energy. Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 Hit Points to it.\n\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once per turn. You regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Defender (Battle Smith) (EFA)",
+   "type": "Class Feature",
+   "name": "Improved Defender",
+   "desc": "Your EFA and Steel Defender have become more powerful, granting these benefits.\n\nImproved Jolt. The extra damage and healing of your Arcane Jolt both increase to 4d6.\n\nImproved Deflection. Whenever your Steel Defender uses its Deflect Attack, the attacker takes Force damage equal to 1d4 plus your Intelligence modifier.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Battle Smith (EFA)",
+   "type": "Subclass",
+   "name": "Battle Smith",
+   "desc": "Command a Construct Guardian A Battle Smith is a combination of protector and medic, an expert at defending others and repairing both materiel and personnel. To aid in their work, Battle Smiths are accompanied by a Steel Defender, a protective companion of their own creation.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade (Battle Smith) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Battle Smith Spells (Battle Smith) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Battle Ready (Battle Smith) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Steel Defender (Battle Smith) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack (Battle Smith) (EFA)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Arcane Jolt (Battle Smith) (EFA)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Improved Defender (Battle Smith) (EFA)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Artificer (EFA)",
+   "prepared": {
+    "class": "Artificer (EFA)",
+    "levels": {
+     "3": [
+      "Spell:Heroism (XPHB)",
+      "Spell:Shield (XPHB)"
+     ],
+     "5": [
+      "Spell:Shining Smite (XPHB)",
+      "Spell:Warding Bond (XPHB)"
+     ],
+     "9": [
+      "Spell:Aura Of Vitality (XPHB)",
+      "Spell:Conjure Barrage (XPHB)"
+     ],
+     "13": [
+      "Spell:Aura Of Purity (XPHB)",
+      "Spell:Fire Shield (XPHB)"
+     ],
+     "17": [
+      "Spell:Banishing Smite (XPHB)",
+      "Spell:Mass Cure Wounds (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Tools of the Trade (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Tools of the Trade",
+   "desc": "You gain the following benefits.\n\nTool Proficiency. You gain proficiency with Calligrapher's Supplies and Cartographer's Tools. If you already have one of these proficiencies, you gain proficiency with one other type of Artisan's Tools of your choice (or with two other types if you have both).\n\nScroll Crafting. When you scribe a Spell Scroll using the crafting rules in the Player's Handbook, the amount of time required to craft it is halved.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Cartographer Spells (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Cartographer Spells",
+   "desc": "When you reach an Artificer level specified in the Cartographer Spells table, you thereafter always have the listed spells prepared.\n\nCartographer Spells\n\nArtificer Level | Spells\n\n3 | Faerie Fire, Guiding Bolt, Healing Word\n\n5 | Locate Object, Mind Spike\n\n9 | Call Lightning, Clairvoyance\n\n13 | Banishment, Locate Creature\n\n17 | Scrying, Teleportation Circle",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Adventurer's Atlas (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Adventurer's Atlas",
+   "desc": "Whenever you finish a Long Rest while holding Cartographer's Tools, you can use that tool to create a set of magical maps by touching at least two creatures (one of whom can be yourself), up to a maximum number of creatures equal to 1 plus your Intelligence modifier (minimum of two creatures). Each target receives a magical map, which constantly updates to show the relative position of all the map holders but is illegible to all others. The maps last until you die or until you use this feature again, at which point any existing maps created by this feature immediately vanish.\n\nWhile carrying the map, a target gains the following benefits.\n\nAwareness. The target adds 1d4 to its Initiative rolls.\n\nPositioning. The target knows the location of all other map holders that are on the same plane of existence as itself. When casting a spell or creating another effect that requires being able to see the effect's target, a map holder can target another map holder regardless of sight or cover, so long as the other map holder is still within the effect's range.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mapping Magic (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Mapping Magic",
+   "desc": "You gain the following benefits.\n\nIlluminated Cartography. You can cast Faerie Fire without expending a spell slot, outlining the affected creatures as if in ink. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nPortal Jump. On your turn, you can spend an amount of movement equal to half your Speed (round down) to teleport to an unoccupied space you can see within 10 feet of yourself or within 5 feet of a creature that is within 30 feet of you and holding one of your Adventurer's Atlas maps. You can't use this benefit if your Speed is 0.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Guided Precision (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Guided Precision",
+   "desc": "Once per turn, whenever you cast a spell from your Cartographer Spells list or hit a creature affected by your Faerie Fire with an attack roll, you can add your Intelligence modifier to one damage roll of the spell or attack.\n\nIn addition, taking damage can't cause you to lose Concentration on Faerie Fire.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ingenious Movement (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Ingenious Movement",
+   "desc": "When you use your EFA, you or a willing creature of your choice that you can see within 30 feet of yourself can teleport up to 30 feet to an unoccupied space you can see as part of that same Reaction.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Superior Atlas (Cartographer) (EFA)",
+   "type": "Class Feature",
+   "name": "Superior Atlas",
+   "desc": "Your Adventurer's Atlas improves, gaining the following benefits.\n\nSafe Haven. When a map holder would be reduced to 0 Hit Points but not killed outright, that creature can destroy its map. The creature's Hit Points instead change to a number equal to twice your Artificer level, and the creature is teleported to an unoccupied space within 5 feet of you or another map holder of its choice.\n\nUnerring Path. If you are one of the map holders for your Adventurer's Atlas, you can cast Find the Path without expending a spell slot, without preparing the spell, and without needing spell components. Once you use this benefit, you can't use it again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Cartographer (EFA)",
+   "type": "Subclass",
+   "name": "Cartographer",
+   "desc": "Chart Advantageous Courses through Turmoil Cartographers are the premier navigators and reconnaissance agents. Using their creations, Cartographers can highlight threats, safeguard allies, and carve portals to distant locations.",
+   "rules": [
+    {
+     "grant": "Class Feature:Tools of the Trade (Cartographer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Cartographer Spells (Cartographer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Adventurer's Atlas (Cartographer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mapping Magic (Cartographer) (EFA)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Guided Precision (Cartographer) (EFA)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Ingenious Movement (Cartographer) (EFA)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Superior Atlas (Cartographer) (EFA)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Artificer (EFA)",
+   "prepared": {
+    "class": "Artificer (EFA)",
+    "levels": {
+     "3": [
+      "Spell:Faerie Fire (XPHB)",
+      "Spell:Guiding Bolt (XPHB)",
+      "Spell:Healing Word (XPHB)"
+     ],
+     "5": [
+      "Spell:Locate Object (XPHB)",
+      "Spell:Mind Spike (XPHB)"
+     ],
+     "9": [
+      "Spell:Call Lightning (XPHB)",
+      "Spell:Clairvoyance (XPHB)"
+     ],
+     "13": [
+      "Spell:Banishment (XPHB)",
+      "Spell:Locate Creature (XPHB)"
+     ],
+     "17": [
+      "Spell:Scrying (XPHB)",
+      "Spell:Teleportation Circle (XPHB)"
+     ]
+    }
+   }
+  }
+ ]
+}

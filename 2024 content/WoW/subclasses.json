@@ -1,0 +1,922 @@
+{
+ "elements": [
+  {
+   "id": "Subclass:Battle Master (WoW)",
+   "type": "Subclass",
+   "name": "Battle Master",
+   "desc": "Battle Master",
+   "rules": [],
+   "supports": "Class:Warrior (WoW)"
+  },
+  {
+   "id": "Subclass:Champion (WoW)",
+   "type": "Subclass",
+   "name": "Champion",
+   "desc": "Champion",
+   "rules": [],
+   "supports": "Class:Warrior (WoW)"
+  },
+  {
+   "id": "Subclass:Circle of the Land (WoW)",
+   "type": "Subclass",
+   "name": "Circle of the Land",
+   "desc": "Land",
+   "rules": [],
+   "supports": "Class:Druid (WoW)"
+  },
+  {
+   "id": "Subclass:Circle of the Moon (WoW)",
+   "type": "Subclass",
+   "name": "Circle of the Moon",
+   "desc": "Moon",
+   "rules": [],
+   "supports": "Class:Druid (WoW)"
+  },
+  {
+   "id": "Subclass:Circle of the Stars (WoW)",
+   "type": "Subclass",
+   "name": "Circle of the Stars",
+   "desc": "Stars",
+   "rules": [],
+   "supports": "Class:Druid (WoW)"
+  },
+  {
+   "id": "Subclass:Fiend Patron (WoW)",
+   "type": "Subclass",
+   "name": "Fiend Patron",
+   "desc": "Fiend",
+   "rules": [],
+   "supports": "Class:Warlock (WoW)"
+  },
+  {
+   "id": "Subclass:Great Old One Patron (WoW)",
+   "type": "Subclass",
+   "name": "Great Old One Patron",
+   "desc": "Great Old One",
+   "rules": [],
+   "supports": "Class:Warlock (WoW)"
+  },
+  {
+   "id": "Subclass:Assassin (WoW)",
+   "type": "Subclass",
+   "name": "Assassin",
+   "desc": "Assassin",
+   "rules": [],
+   "supports": "Class:Rogue (WoW)"
+  },
+  {
+   "id": "Subclass:Soulknife (WoW)",
+   "type": "Subclass",
+   "name": "Soulknife",
+   "desc": "Soulknife",
+   "rules": [],
+   "supports": "Class:Rogue (WoW)"
+  },
+  {
+   "id": "Subclass:Swashbuckler (WoW)",
+   "type": "Subclass",
+   "name": "Swashbuckler",
+   "desc": "Glide into Melee with Panache and Agility As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style—topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance.",
+   "rules": [],
+   "supports": "Class:Rogue (WoW)"
+  },
+  {
+   "id": "Class Feature:Fancy Footwork (Swashbuckler) (WoW)",
+   "type": "Class Feature",
+   "name": "Fancy Footwork",
+   "desc": "You've learned how to land a strike and then slip away without reprisal. If you make a melee attack roll against a creature during your turn, that creature can't make Opportunity Attacks against you for the rest of that turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rakish Audacity (Swashbuckler) (WoW)",
+   "type": "Class Feature",
+   "name": "Rakish Audacity",
+   "desc": "When you roll Initiative, you can give yourself a bonus to the roll equal to your Charisma modifier.\n\nYou also gain an additional way to use your XPHB: You don't need Advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have Disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Panache (Swashbuckler) (WoW)",
+   "type": "Class Feature",
+   "name": "Panache",
+   "desc": "You have practiced new ways to use your XPHB. The following effects are now among your XPHB options.\n\nGoad (Cost: 1d6). The target must succeed on a Wisdom saving throw, or until the end of its next turn, the target has Disadvantage on attack rolls against targets other than you and can't make Opportunity Attacks against targets other than you.\n\nAwe (Cost: 3d6). Each creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or have the Charmed condition until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dashing Strikes (Swashbuckler) (WoW)",
+   "type": "Class Feature",
+   "name": "Dashing Strikes",
+   "desc": "You have practiced new ways to use your XPHB. The following effects are now among your XPHB options.\n\nInvigorate (Cost: 2d6). Choose a creature you can see within 30 feet of yourself. Until the end of that creature's next turn, whenever it makes an attack roll or a saving throw, it can roll 1d6 and add the number rolled to the attack roll or saving throw.\n\nParrying Stance (Cost: 2d6). Roll 1d6. Until the start of your next turn, you gain a bonus to your AC equal to the number rolled.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master Duelist (Swashbuckler) (WoW)",
+   "type": "Class Feature",
+   "name": "Master Duelist",
+   "desc": "Immediately after you use your XPHB, you can make another attack against the same target, provided you are within 5 feet of it and no other creatures are within 5 feet of you.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Beast Master (WoW)",
+   "type": "Subclass",
+   "name": "Beast Master",
+   "desc": "Beast Master",
+   "rules": [],
+   "supports": "Class:Hunter (WoW)"
+  },
+  {
+   "id": "Subclass:Hunter (WoW)",
+   "type": "Subclass",
+   "name": "Hunter",
+   "desc": "Hunter",
+   "rules": [],
+   "supports": "Class:Hunter (WoW)"
+  },
+  {
+   "id": "Class Feature:Draconic Sorcery (Draconic Sorcery) (WoW)",
+   "type": "Class Feature",
+   "name": "Draconic Sorcery",
+   "desc": "",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Draconic Sorcery (WoW)",
+   "type": "Subclass",
+   "name": "Draconic Sorcery",
+   "desc": "",
+   "rules": [
+    {
+     "grant": "Class Feature:Draconic Sorcery (Draconic Sorcery) (WoW)",
+     "level": 3
+    }
+   ],
+   "supports": "Class:Evoker (WoW)",
+   "prepared": {
+    "class": "Evoker (WoW)",
+    "levels": {
+     "3": [
+      "Spell:Chromatic Orb (XPHB)",
+      "Spell:Dragon'S Breath (XPHB)",
+      "Spell:Ebon Might (WOW)",
+      "Spell:Eruption (WOW)",
+      "Spell:Chromatic Orb (XPHB)",
+      "Spell:Dragon'S Breath (XPHB)",
+      "Spell:Azure Strike (WOW)",
+      "Spell:Scorching Ray (XPHB)",
+      "Spell:Chromatic Orb (XPHB)",
+      "Spell:Dragon'S Breath (XPHB)",
+      "Spell:Dream Breath (WOW)",
+      "Spell:Living Flame (WOW)"
+     ],
+     "5": [
+      "Spell:Fly (XPHB)",
+      "Spell:Blistering Scales (WOW)",
+      "Spell:Fly (XPHB)",
+      "Spell:Fireball (XPHB)",
+      "Spell:Fly (XPHB)",
+      "Spell:Emerald Blossom (WOW)"
+     ],
+     "7": [
+      "Spell:Arcane Eye (XPHB)",
+      "Spell:Upheaval (WOW)",
+      "Spell:Arcane Eye (XPHB)",
+      "Spell:Emberstorm (WOW)",
+      "Spell:Arcane Eye (XPHB)",
+      "Spell:Time Dilation (WOW)"
+     ],
+     "9": [
+      "Spell:Summon Dragon (XPHB)",
+      "Spell:Breath Of Eons (WOW)",
+      "Spell:Summon Dragon (XPHB)",
+      "Spell:Shattering Star (WOW)",
+      "Spell:Summon Dragon (XPHB)",
+      "Spell:Dream Flight (WOW)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Discipline Domain (WoW)",
+   "type": "Subclass",
+   "name": "Discipline Domain",
+   "desc": "Discipline",
+   "rules": [],
+   "supports": "Class:Priest (WoW)"
+  },
+  {
+   "id": "Subclass:Life Domain (WoW)",
+   "type": "Subclass",
+   "name": "Life Domain",
+   "desc": "Life",
+   "rules": [],
+   "supports": "Class:Priest (WoW)"
+  },
+  {
+   "id": "Subclass:Shadow Domain (WoW)",
+   "type": "Subclass",
+   "name": "Shadow Domain",
+   "desc": "Shadow",
+   "rules": [],
+   "supports": "Class:Priest (WoW)"
+  },
+  {
+   "id": "Subclass:War Domain (WoW)",
+   "type": "Subclass",
+   "name": "War Domain",
+   "desc": "War",
+   "rules": [],
+   "supports": "Class:Priest (WoW)"
+  },
+  {
+   "id": "Class Feature:Discipline Spells (Discipline Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Discipline Spells",
+   "desc": "Your connection to this domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Discipline Domain Spells table, you thereafter always have the listed spells prepared.\n\nDiscipline Domain Spells\n\nCleric Level | Spells\n\n3 | Arcane Vigor, Guiding Bolt, Magic Weapon, Shield of Faith\n\n5 | Prayer of Mending, Protection from Energy\n\n7 | Guardian of Faith, Stoneskin\n\n9 | Circle of Power, Destructive Wave",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Holy Bolt (Discipline Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Holy Bolt",
+   "desc": "As a Bonus Action, you present your Holy Symbol and expend a use of your XPHB to make a ranged spell attack, hurling a bolt of holy energy targeting one creature within 60 feet of yourself. On a hit, the target takes Radiant damage equal to 2d10 plus your Wisdom modifier, and you can choose a creature you can see within 60 feet of yourself to regain Hit Points equal to 1d10 plus your Wisdom modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Atonement (Discipline Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Atonement",
+   "desc": "When a level 1+ spell you cast restores Hit Points to one or more creatures, each of those creatures gains a blessing that lasts until the end of your next turn. Whenever you cast a spell that deals damage to a creature using a spell slot, each blessed creature regains additional Hit Points equal to the level of the spell slot you used to cast the damaging spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Luminous Barrier (Discipline Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Luminous Barrier",
+   "desc": "As a Bonus Action, you can expend a use of your XPHB to place a magical ward of glowing light on each creature blessed by your XPHB. Each affected creature gains a number of Temporary Hit Points equal to your Cleric level plus your Wisdom modifier. While a creature has Temporary Hit Points gained from this feature, it has Resistance to all damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Ultimate Penitence (Discipline Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Ultimate Penitence",
+   "desc": "Your XPHB grows more powerful as detailed below.\n\nAscending Step. When you use XPHB, you can teleport to an unoccupied space you can see within 30 feet before you make an attack roll.\n\nAscending Volley. When you use XPHB, you can expend a spell slot as part of the Bonus Action to hurl a number of additional bolts equal to the spell slot level expended. You can direct the bolts to hit one creature or several. Make a separate attack roll for each bolt.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Discipline Domain (Cleric) (WoW)",
+   "type": "Subclass",
+   "name": "Discipline Domain (Cleric)",
+   "desc": "Cure Allies' Wounds While Smiting Enemies The Discipline Domain focuses on the balance between the Holy Light and its shadowy mirror, the Void. Wielding both powers at once, Clerics who embrace this domain aid their allies and harm their foes, often with a single spell.",
+   "rules": [
+    {
+     "grant": "Class Feature:Discipline Spells (Discipline Domain (Cleric)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Holy Bolt (Discipline Domain (Cleric)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Atonement (Discipline Domain (Cleric)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Luminous Barrier (Discipline Domain (Cleric)) (WoW)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Ultimate Penitence (Discipline Domain (Cleric)) (WoW)",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric (5.2)",
+   "prepared": {
+    "class": "Cleric (5.2)",
+    "levels": {
+     "3": [
+      "Spell:Arcane Vigor (XPHB)",
+      "Spell:Guiding Bolt (XPHB)",
+      "Spell:Magic Weapon (XPHB)",
+      "Spell:Shield Of Faith (XPHB)"
+     ],
+     "5": [
+      "Spell:Prayer Of Mending (WOW)",
+      "Spell:Protection From Energy (XPHB)"
+     ],
+     "7": [
+      "Spell:Guardian Of Faith (XPHB)",
+      "Spell:Stoneskin (XPHB)"
+     ],
+     "9": [
+      "Spell:Circle Of Power (XPHB)",
+      "Spell:Destructive Wave (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Shadow Spells (Shadow Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Shadow Spells",
+   "desc": "Your connection to this domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Shadow Domain Spells table, you thereafter always have the listed spells prepared.\n\nShadow Domain Spells\n\nCleric Level | Spells\n\n3 | Crown of Madness, Dissonant Whispers, Mind Spike, Shadow Word: Pain\n\n5 | Summon Undead, Vampiric Touch\n\n7 | Evard's Black Tentacles, Psychic Horror\n\n9 | Dominate Person, Void Eruption",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shadowform (Shadow Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Shadowform",
+   "desc": "As a Bonus Action, you can expend a use of your XPHB to take on a shadowy form that grants you the following benefits:\n\n• Shadow Stealth. While you are in an area of Dim Light or Darkness, you can take the Hide action as a Bonus Action.\n\n• Void Empowerment. When you cast a spell using a spell slot that deals Psychic or Necrotic damage, you can add 1d6 to one damage roll of the spell.\n\nThe form lasts for 1 minute, but it ends early if you dismiss it (no action required), if you have the Incapacitated condition, or if you deal Radiant damage with a spell.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Devouring Plague (Shadow Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Devouring Plague",
+   "desc": "When a creature you can see within 30 feet of you fails a saving throw, you can cause that creature to take 1d10 Necrotic damage. If you do, you regain Hit Points equal to the Necrotic damage dealt.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dispersion (Shadow Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Dispersion",
+   "desc": "When you are hit by an attack roll, you can take a Reaction to disperse into shadowy energy. Until the end of your next turn, you have Resistance to all damage (including the damage from the triggering attack); you can't take any action, Bonus Action, or Reaction; and you have a Fly Speed of 40 feet. When the effect ends, you can spend up to half of your total Hit Point Dice, regaining Hit Points as if you had finished a Short Rest.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Vampiric Embrace (Shadow Domain (Cleric)) (WoW)",
+   "type": "Class Feature",
+   "name": "Vampiric Embrace",
+   "desc": "While your XPHB is active, whenever you roll 1d6 to add extra damage to a spell, one creature of your choice within 30 feet of you regains that many Hit Points.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Shadow Domain (Cleric) (WoW)",
+   "type": "Subclass",
+   "name": "Shadow Domain (Cleric)",
+   "desc": "Draw on the Debilitating Power of the Void The Shadow Domain deals with the powers of shadow and the Void—a sinister mirror of the life-giving powers of the Light. Clerics who embrace these powers can wither their enemies' flesh and debilitate their minds.",
+   "rules": [
+    {
+     "grant": "Class Feature:Shadow Spells (Shadow Domain (Cleric)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Shadowform (Shadow Domain (Cleric)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Devouring Plague (Shadow Domain (Cleric)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dispersion (Shadow Domain (Cleric)) (WoW)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Vampiric Embrace (Shadow Domain (Cleric)) (WoW)",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric (5.2)",
+   "prepared": {
+    "class": "Cleric (5.2)",
+    "levels": {
+     "3": [
+      "Spell:Crown Of Madness (XPHB)",
+      "Spell:Dissonant Whispers (XPHB)",
+      "Spell:Mind Spike (XPHB)",
+      "Spell:Shadow Word: Pain (WOW)"
+     ],
+     "5": [
+      "Spell:Summon Undead (XPHB)",
+      "Spell:Vampiric Touch (XPHB)"
+     ],
+     "7": [
+      "Spell:Evard'S Black Tentacles (XPHB)",
+      "Spell:Psychic Horror (WOW)"
+     ],
+     "9": [
+      "Spell:Dominate Person (XPHB)",
+      "Spell:Void Eruption (WOW)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Demon Hunter Spells (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Demon Hunter Spells",
+   "desc": "When you reach a Ranger level specified in the Demon Hunter Spells table, you thereafter always have the spell in the Spells (All) column prepared. You also have the additional spells listed in one other column of your choice.\n\nDemon Hunter Spells\n\nRanger Level | Spells (All) | Spells (Devourer) | Spells (Havoc) | Spells (Vengeance)\n\n3 | Throw Glaive | Consume Soul | Fel Rush | Infernal Strike\n\n5 | Sigil of Flame | Misty Step | Eye Beam | Fiery Brand\n\n9 | Metamorphosis | Soul Reap | Blink | Demon Spikes\n\n13 | Chaos Nova | Collapsing Star | Fire Shield | Banishment\n\n17 | Destructive Wave | Steel Wind Strike | Conjure Volley | Sigil of Chains",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Soul Fragments (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Soul Fragments",
+   "desc": "You harvest the energy of souls to fuel some of your special powers. Whenever you finish a Long Rest, you gain a number of soul fragments equal to your Wisdom modifier (minimum of one fragment); each soul fragment is a Tiny object in the form of a crystal. These fragments last until you finish another Long Rest, at which point they disintegrate. If you ever move more than 30 feet from a fragment, the fragment immediately teleports to you, appearing somewhere on your person.\n\nIf a soul fragment effect requires a saving throw, the DC equals your Ranger spell save DC.\n\nThe number of soul fragments you gain when you finish a Long Rest increases when you reach Ranger levels 13 (Wisdom modifier plus one soul fragment) and 17 (Wisdom modifier plus two soul fragments).\n\nUsing Soul Fragments. You can use soul fragments in the following ways:\n\nRegaining Soul Fragments. When an enemy you can see within 30 feet of you dies, you can take a Reaction to regain one expended soul fragment.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spectral Sight (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Spectral Sight",
+   "desc": "You have Blindsight with a range of 10 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Torment (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Torment",
+   "desc": "A creature marked by your Hunter's Mark spell has Disadvantage on attack rolls against targets other than you.\n\nAdditionally, once per turn when you hit a creature marked by your Hunter's Mark with an attack roll with a weapon or a Ranger spell, you can impose one of the following effects on the target (your choice):\n\n• Aura of Pain. The target subtracts 1d4 from the next saving throw it makes before the end of your next turn.\n\n• Chaos Strike. The target takes an extra 1d8 Fire damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Illidari Knowledge (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Illidari Knowledge",
+   "desc": "You gain new mastery over souls, granting you new ways to use soul fragments:",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Soul Shatter (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Soul Shatter",
+   "desc": "Your mastery of fel magic reaches new heights. When you use the WoW option of WoW, the damage increases to 2d12 plus your Wisdom modifier.\n\nIn addition, when you roll Initiative, you regain one soul fragment if you have none.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Demon Hunter (WoW)",
+   "type": "Subclass",
+   "name": "Demon Hunter",
+   "desc": "Embrace the Magic of Demons to Fight Fire with Fire Most Demon Hunters joined Illidan on Outland as he marshaled his forces to battle the Burning Legion. You might have followed a different path, inspired by Illidan rather than directly trained by him, but the result is the same: You have embraced…",
+   "rules": [
+    {
+     "grant": "Class Feature:Demon Hunter Spells (Demon Hunter) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Soul Fragments (Demon Hunter) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Spectral Sight (Demon Hunter) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Torment (Demon Hunter) (WoW)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Illidari Knowledge (Demon Hunter) (WoW)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Soul Shatter (Demon Hunter) (WoW)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Demon Hunter (WoW)",
+   "prepared": {
+    "class": "Demon Hunter (WoW)",
+    "levels": {
+     "3": [
+      "Spell:Throw Glaive (WOW)",
+      "Spell:Consume Soul (WOW)",
+      "Spell:Throw Glaive (WOW)",
+      "Spell:Fel Rush (WOW)",
+      "Spell:Throw Glaive (WOW)",
+      "Spell:Infernal Strike (WOW)"
+     ],
+     "5": [
+      "Spell:Sigil Of Flame (WOW)",
+      "Spell:Misty Step (XPHB)",
+      "Spell:Sigil Of Flame (WOW)",
+      "Spell:Eye Beam (WOW)",
+      "Spell:Sigil Of Flame (WOW)",
+      "Spell:Fiery Brand (WOW)"
+     ],
+     "9": [
+      "Spell:Metamorphosis (WOW)",
+      "Spell:Soul Reap (WOW)",
+      "Spell:Metamorphosis (WOW)",
+      "Spell:Blink (XPHB)",
+      "Spell:Metamorphosis (WOW)",
+      "Spell:Demon Spikes (WOW)"
+     ],
+     "13": [
+      "Spell:Chaos Nova (WOW)",
+      "Spell:Collapsing Star (WOW)",
+      "Spell:Chaos Nova (WOW)",
+      "Spell:Fire Shield (XPHB)",
+      "Spell:Chaos Nova (WOW)",
+      "Spell:Banishment (XPHB)"
+     ],
+     "17": [
+      "Spell:Destructive Wave (XPHB)",
+      "Spell:Steel Wind Strike (XPHB)",
+      "Spell:Destructive Wave (XPHB)",
+      "Spell:Conjure Volley (XPHB)",
+      "Spell:Destructive Wave (XPHB)",
+      "Spell:Sigil Of Chains (WOW)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Evoker (WoW)",
+   "type": "Subclass",
+   "name": "Evoker",
+   "desc": "Evoker",
+   "rules": [],
+   "supports": "Class:Mage (WoW)"
+  },
+  {
+   "id": "Subclass:Warrior of Mercy (WoW)",
+   "type": "Subclass",
+   "name": "Warrior of Mercy",
+   "desc": "Mercy",
+   "rules": [],
+   "supports": "Class:Monk (WoW)"
+  },
+  {
+   "id": "Subclass:Warrior of Mystic Brews (WoW)",
+   "type": "Subclass",
+   "name": "Warrior of Mystic Brews",
+   "desc": "Drink Mystic Brews to Overwhelm and Confound Foes Warriors of Mystic Brews move with the jerky, unpredictable movements typical of someone who is intoxicated. Their apparently erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats. Warriors of…",
+   "rules": [],
+   "supports": "Class:Monk (WoW)"
+  },
+  {
+   "id": "Class Feature:Bonus Proficiencies (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Bonus Proficiencies",
+   "desc": "You gain proficiency in the Performance skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with Brewer's Supplies if you don't already have it.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Drunken Technique (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Drunken Technique",
+   "desc": "You twist and turn quickly as you move. Whenever you expend a XPHB using XPHB, your Speed increases by 10 feet until the end of the current turn, and you can make one Unarmed Strike immediately after the Bonus Action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Tipsy Sway (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Tipsy Sway",
+   "desc": "You can move in sudden, swaying ways. You gain the following benefits.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Enhancing a Magical Beverage (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Enhancing a Magical Beverage",
+   "desc": "When you create a magical beverage, you can expend 1 XPHB to extend the benefits' duration to 8 hours.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Wizened Brewer (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Wizened Brewer",
+   "desc": "You learn more complex flavors. The following beverages are added to your XPHB options:\n\n• Blue Lightning. Whenever you take a Reaction that isn't making an Opportunity Attack or casting a spell, you can make one Unarmed Strike as part of that Reaction.\n\n• Drunkard's Luck. You gain Heroic Inspiration if you don't already have it. In addition, you can give yourself Heroic Inspiration when you make an ability check or saving throw without it.\n\n• Stumbling Monk. When you take a Bonus Action other than XPHB, you can also use XPHB immediately after that Bonus Action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Master Brewer (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Master Brewer",
+   "desc": "When you create a magical beverage using your XPHB feature, you can choose two different options and produce one magical beverage. Drinking the beverage provides the effects of both options for the duration.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Intoxicated Frenzy (Warrior of Mystic Brews) (WoW)",
+   "type": "Class Feature",
+   "name": "Intoxicated Frenzy",
+   "desc": "Immediately after you use your XPHB, you can move up to your Speed. During this movement, whenever you enter a space within 5 feet of a creature, you can make an Unarmed Strike targeting that creature. In addition, when you hit a creature with an Unarmed Strike granted by this feature, the creature must succeed on a Dexterity saving throw or have the Prone condition. A creature can be targeted by an Unarmed Strike granted by this feature only once per turn.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Warrior of the Open Hand (WoW)",
+   "type": "Subclass",
+   "name": "Warrior of the Open Hand",
+   "desc": "Open Hand",
+   "rules": [],
+   "supports": "Class:Monk (WoW)"
+  },
+  {
+   "id": "Subclass:Path of the Berserker (WoW)",
+   "type": "Subclass",
+   "name": "Path of the Berserker",
+   "desc": "Berserker",
+   "rules": [],
+   "supports": "Class:Shaman (WoW)"
+  },
+  {
+   "id": "Subclass:Path of the Elements (WoW)",
+   "type": "Subclass",
+   "name": "Path of the Elements",
+   "desc": "Elements",
+   "rules": [],
+   "supports": "Class:Shaman (WoW)"
+  },
+  {
+   "id": "Subclass:Path of the Spiritual Guardian (WoW)",
+   "type": "Subclass",
+   "name": "Path of the Spiritual Guardian",
+   "desc": "Spiritual Guardian",
+   "rules": [],
+   "supports": "Class:Shaman (WoW)"
+  },
+  {
+   "id": "Subclass:Path of the World Tree (WoW)",
+   "type": "Subclass",
+   "name": "Path of the World Tree",
+   "desc": "World Tree",
+   "rules": [],
+   "supports": "Class:Shaman (WoW)"
+  },
+  {
+   "id": "Class Feature:Oath of the Ebon Blade Spells (Oath of the Ebon Blade) (WoW)",
+   "type": "Class Feature",
+   "name": "Oath of the Ebon Blade Spells",
+   "desc": "The magic of your oath and your WoW feature (see below) ensure you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ebon Blade Spells table, you thereafter always have the spell in the Spells (All) column prepared. You also have the additional spells listed in the column matching the rune you have inscribed on your weapon, if any.\n\nOath of the Ebon Blade Spells\n\nPaladin Level | Spells (All) | Spells (Blood) | Spells (Frost) | Spells (Unholy)\n\n3 | Death Grip | Vampiric Blood | Chains of Ice | Scourge Strike\n\n5 | Death and Decay | Spiritual Weapon | Frostscythe | Ray of Enfeeblement\n\n9 | Summon Undead | Leeching Strike | Remorseless Winter | Bestow Curse\n\n13 | Freedom of Movement | Evard's Black Tentacles | Ice Storm | Blight\n\n17 | Circle of Power | Bonestorm | Cone of Cold | Contagion",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runeforging (Oath of the Ebon Blade) (WoW)",
+   "type": "Class Feature",
+   "name": "Runeforging",
+   "desc": "When you finish a Long Rest, you can inscribe one of the following runes on a melee weapon you are holding, or you can transfer the rune to a different weapon. Whenever you gain a level, you can replace it with a different rune.\n\nBlood. When you inscribe this rune on your weapon, and whenever you finish a Long Rest while the rune is inscribed on your weapon, you gain Temporary Hit Points equal to your Charisma modifier plus your Paladin level. While you are wielding your inscribed weapon, you gain these Temporary Hit Points whenever you reduce an enemy to 0 Hit Points.\n\nFrost. While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores Resistance to Cold damage. When you make the extra attack of the Light property and hit while wielding your inscribed weapon, you deal an extra 1d4 Cold damage.\n\nUnholy. While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores Resistance to Necrotic damage. If your inscribed weapon has the Heavy property, the first creature you hit with it each turn takes extra Necrotic damage equal to your Charisma modifier (minimum of 1).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Power (Oath of the Ebon Blade) (WoW)",
+   "type": "Class Feature",
+   "name": "Runic Power",
+   "desc": "Immediately after you cast Rune Strike, you can expend one use of your XPHB to gain one of the following benefits based on the rune inscribed on your weapon.\n\nBlood. You regain a number of Hit Points equal to the Necrotic damage dealt with your Rune Strike.\n\nFrost. Frost covers your weapon and shatters on impact. The target of your Rune Strike and each enemy in a 10-foot Emanation originating from the target take 2d6 Cold damage.\n\nUnholy. The target of your Rune Strike is cursed until the end of your next turn. The next time the cursed target makes a saving throw, it subtracts 1d6 from the roll, and the curse ends.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Deathly Endurance (Oath of the Ebon Blade) (WoW)",
+   "type": "Class Feature",
+   "name": "Aura of Deathly Endurance",
+   "desc": "You and your allies have Resistance to Cold, Necrotic, and Psychic damage while in your XPHB.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Mastery (Oath of the Ebon Blade) (WoW)",
+   "type": "Class Feature",
+   "name": "Runic Mastery",
+   "desc": "You can invoke the power of the rune inscribed on your weapon. Once you use this feature, you can't do so again until you finish a Long Rest. The effect depends on the rune you have inscribed.\n\nBlood. When a creature hits another creature you can see within 10 feet of you with an attack roll, you can take a Reaction to reduce the damage the target takes by your Paladin level. You then lose a number of Hit Points equal to your Paladin level.\n\nFrost. When you take the Attack action on your turn, you can replace one attack with an exhalation of frost magic in a 30-foot Cone. Each creature in that area makes a Dexterity saving throw against your spell save DC. A creature takes 8d6 Cold damage on a failed save or half as much damage on a successful one.\n\nUnholy. When you cast Summon Undead, you can modify it so that the spell doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting, and when summoned, the Undead Spirit has a number of Temporary Hit Points equal to your Paladin level plus your Charisma modifier. In addition, the first time each turn the spirit hits a creature, the spirit deals extra Necrotic damage equal to half your Paladin level (round up).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aspect of the Horsemen (Oath of the Ebon Blade) (WoW)",
+   "type": "Class Feature",
+   "name": "Aspect of the Horsemen",
+   "desc": "As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\nGenerate Runic Power. You can restore a use of your WoW by expending a level 4 spell slot (no action required).\n\nRuneforging. When you use your WoW and WoW features, you can choose any effect, not just the one that corresponds to the rune inscribed on your weapon.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Oath of the Ebon Blade (WoW)",
+   "type": "Subclass",
+   "name": "Oath of the Ebon Blade",
+   "desc": "Wield the Power of Death Against the Scourge The Oath of the Ebon Blade unites the free death knights of Azeroth. No longer directly under the Lich King's control, they still serve Bolvar Fordragon—first as agents of the new Lich King, and later, after the destruction of the Helm of Domination, as…",
+   "rules": [
+    {
+     "grant": "Class Feature:Oath of the Ebon Blade Spells (Oath of the Ebon Blade) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Runeforging (Oath of the Ebon Blade) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Runic Power (Oath of the Ebon Blade) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Deathly Endurance (Oath of the Ebon Blade) (WoW)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Runic Mastery (Oath of the Ebon Blade) (WoW)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Aspect of the Horsemen (Oath of the Ebon Blade) (WoW)",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Death Knight (WoW)",
+   "prepared": {
+    "class": "Death Knight (WoW)",
+    "levels": {
+     "3": [
+      "Spell:Death Grip (WOW)",
+      "Spell:Vampiric Blood (WOW)",
+      "Spell:Death Grip (WOW)",
+      "Spell:Chains Of Ice (WOW)",
+      "Spell:Death Grip (WOW)",
+      "Spell:Scourge Strike (WOW)"
+     ],
+     "5": [
+      "Spell:Death And Decay (WOW)",
+      "Spell:Spiritual Weapon (XPHB)",
+      "Spell:Death And Decay (WOW)",
+      "Spell:Frostscythe (WOW)",
+      "Spell:Death And Decay (WOW)",
+      "Spell:Ray Of Enfeeblement (XPHB)"
+     ],
+     "9": [
+      "Spell:Summon Undead (XPHB)",
+      "Spell:Leeching Strike (WOW)",
+      "Spell:Summon Undead (XPHB)",
+      "Spell:Remorseless Winter (WOW)",
+      "Spell:Summon Undead (XPHB)",
+      "Spell:Bestow Curse (XPHB)"
+     ],
+     "13": [
+      "Spell:Freedom Of Movement (XPHB)",
+      "Spell:Evard'S Black Tentacles (XPHB)",
+      "Spell:Freedom Of Movement (XPHB)",
+      "Spell:Ice Storm (XPHB)",
+      "Spell:Freedom Of Movement (XPHB)",
+      "Spell:Blight (XPHB)"
+     ],
+     "17": [
+      "Spell:Circle Of Power (XPHB)",
+      "Spell:Bonestorm (WOW)",
+      "Spell:Circle Of Power (XPHB)",
+      "Spell:Cone Of Cold (XPHB)",
+      "Spell:Circle Of Power (XPHB)",
+      "Spell:Contagion (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Subclass:Oath of Devotion (WoW)",
+   "type": "Subclass",
+   "name": "Oath of Devotion",
+   "desc": "Devotion",
+   "rules": [],
+   "supports": "Class:Paladin (WoW)"
+  },
+  {
+   "id": "Subclass:Oath of the Holy (WoW)",
+   "type": "Subclass",
+   "name": "Oath of the Holy",
+   "desc": "Serve as a Beacon of the Light The Oath of the Holy unites Paladins who nurture life and use the power of the Light for healing and support. They combine great piety and virtue with martial skill, aspiring to the highest standards of morality, service to others, and self-sacrifice. These paladins…",
+   "rules": [],
+   "supports": "Class:Paladin (WoW)"
+  },
+  {
+   "id": "Class Feature:Oath of the Holy Spells (Oath of the Holy) (WoW)",
+   "type": "Class Feature",
+   "name": "Oath of the Holy Spells",
+   "desc": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Holy Spells table, you thereafter always have the listed spells prepared.\n\nOath of the Holy Spells\n\nPaladin Level | Spells\n\n3 | Cure Wounds, Healing Word\n\n5 | Lesser Restoration, Prayer of Healing\n\n9 | Dispel Magic, Mass Healing Word\n\n13 | Aura of Life, Death Ward\n\n17 | Greater Restoration, Mass Cure Wounds",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Beacon of Light (Oath of the Holy) (WoW)",
+   "type": "Class Feature",
+   "name": "Beacon of Light",
+   "desc": "As a Magic action, you can expend one use of your XPHB to wrap an ally within 60 feet in holy energy. For 1 minute, anytime you heal a creature other than the affected ally with a spell or your XPHB, the chosen ally also regains half as many Hit Points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Lightbringer's Aura (Oath of the Holy) (WoW)",
+   "type": "Class Feature",
+   "name": "Lightbringer's Aura",
+   "desc": "Whenever you cast a spell or use XPHB to restore Hit Points to a Bloodied creature within your XPHB, the creature regains an extra 1d6 Hit Points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Infusion of Light (Oath of the Holy) (WoW)",
+   "type": "Class Feature",
+   "name": "Infusion of Light",
+   "desc": "Whenever you cast a spell that deals Radiant damage, you refresh the pool of healing power that fuels your XPHB feature. Your pool of healing power regains a number of Hit Points equal to the total number rolled for the spell's Radiant damage, to a maximum of five times your Paladin level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Holy Deliverance (Oath of the Holy) (WoW)",
+   "type": "Class Feature",
+   "name": "Holy Deliverance",
+   "desc": "As a Bonus Action, you can imbue your XPHB with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\nHealing Power. Whenever an ally starts its turn Bloodied and in the aura, that creature regains Hit Points equal to your Charisma modifier plus your Proficiency Bonus.\n\nSunlight. The aura is filled with Bright Light that is sunlight.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Oath of Vengeance (WoW)",
+   "type": "Subclass",
+   "name": "Oath of Vengeance",
+   "desc": "Vengeance",
+   "rules": [],
+   "supports": "Class:Paladin (WoW)"
+  },
+  {
+   "id": "Class Feature:Raging Elements (Path of the Elements (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Raging Elements",
+   "desc": "Whenever you activate your XPHB, you can take one of the following Raging Elements options of your choice as part of that Bonus Action. While your XPHB is active, you can take a Bonus Action to use that option again or a different option.\n\nIf a Raging Elements option requires a saving throw, the DC equals 8 plus your Constitution modifier and Proficiency Bonus.\n\nIcefury. When this effect is activated, roll a number of d8s equal to your XPHB Damage bonus, and add them together. You hurl frigid ice at one creature within 30 feet of yourself. Make either a melee spell attack (if the target is within 5 feet) or a ranged spell attack, using Constitution as your spellcasting ability. On a hit, the attack deals Cold damage equal to the number rolled, and the next time the target takes Fire damage before the end of your next turn, it takes an extra 1d10 Fire damage.\n\nLava Burst. When this effect is activated, roll a number of d4s equal to your XPHB Damage bonus, and add them together. You then hurl molten lava at one creature you can see within 30 feet. The target makes a Dexterity saving throw. On a failed save, the target takes Fire damage equal to the number rolled, and the next time the target takes Lightning damage until the end of your next turn, it takes an extra 1d8 Lightning damage. On a successful save, the target takes half as much damage only.\n\nLightning Bolt. When this effect is activated, roll a number of d6s equal to your XPHB Damage bonus, and add them together. You can then hurl a bolt of lightning at one other creature you can see within 30 feet. The target makes a Dexterity saving throw. On a failed save, the target takes Lightning damage equal to the roll's total, and the next time the target takes Cold damage until the end of your next turn, it takes an extra 1d6 Cold damage. On a successful save, the target takes half as much damage only.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Echo of the Elements (Path of the Elements (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Echo of the Elements",
+   "desc": "You tap into the tranquility of the elements. You know the Elementalism cantrip. In addition, you can expend a use of your XPHB to cast Daylight, Water Walk, or Wind Wall. Wisdom is your spellcasting ability for these spells.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primordial Bond (Path of the Elements (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Primordial Bond",
+   "desc": "While your XPHB is active, you have Resistance to Cold, Fire, and Lightning damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Overload (Path of the Elements (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Elemental Overload",
+   "desc": "The power of the storm you channel grows mightier, lashing out at your foes. Your XPHB options gain the following effects.\n\nIcefury. Whether or not you hit the target with this option, the target subtracts half the number rolled (round down) from the next damage roll it makes before the start of your next turn.\n\nLava Burst. Whether or not the target fails its saving throw against this option, the target and each enemy within 10 feet of it start burning.\n\nLightning Bolt. Whether or not the target fails its saving throw against this option, a bolt of lightning leaps from the target to another target of your choice that you can see within 30 feet of the first target. The new target makes a Dexterity saving throw, taking Lightning damage equal to the roll's total on a failed save or half as much damage on a successful one.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Path of the Elements (Barbarian) (WoW)",
+   "type": "Subclass",
+   "name": "Path of the Elements (Barbarian)",
+   "desc": "Wield the Fury of the Elements Barbarians who follow the Path of the Elements learn to harness their XPHB into a storm of flames, frost, and lightning. When in their XPHB, these Barbarians tap into the elemental forces of nature to create powerful magical effects.",
+   "rules": [
+    {
+     "grant": "Class Feature:Raging Elements (Path of the Elements (Barbarian)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Echo of the Elements (Path of the Elements (Barbarian)) (WoW)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Primordial Bond (Path of the Elements (Barbarian)) (WoW)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Elemental Overload (Path of the Elements (Barbarian)) (WoW)",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian (5.2)"
+  },
+  {
+   "id": "Class Feature:Spiritual Protectors (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Spiritual Protectors",
+   "desc": "Your XPHB summons spectral warriors to your aid. While your XPHB is active, when you hit a creature with a weapon or an Unarmed Strike, that creature becomes a target of the spirits, which cause one of the following effects of your choice.\n\nDistract. Until the start of your next turn, the target has Disadvantage on attack rolls against targets other than you or another Barbarian who has this feature.\n\nHinder. You can activate the Slow mastery property in addition to a different mastery property you're using with that weapon.\n\nStrike. The target takes an extra 1d4 damage, which can be Cold, Fire, or Lightning damage (your choice).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spirit Shield (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Spirit Shield",
+   "desc": "Your guardian spirits can provide supernatural protection to those you defend. While your XPHB is active, when another creature you can see within 30 feet of you takes damage, you can take a Reaction to reduce that damage. To determine the amount the damage is reduced by, roll a number of d6s equal to your XPHB Damage bonus, and add them together.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Consult the Spirits (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Consult the Spirits",
+   "desc": "You gain the ability to consult with your guardian spirits. When you do so, you cast the Augury or Clairvoyance spell without expending a spell slot or needing Material components. Rather than creating a spherical sensor, this use of Clairvoyance invisibly summons one of your guardian spirits to the chosen location. Wisdom is your spellcasting ability for these spells.\n\nAfter you cast either spell in this way, you can't use this feature again until you finish a Short or Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spirits' Fury (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+   "type": "Class Feature",
+   "name": "Spirits' Fury",
+   "desc": "Your spirits hasten your attacks. When you make an attack roll with a Melee weapon as part of the Attack action and roll 18–20 on the d20, you can make one additional attack roll with the same weapon as part of that action. Once you use this feature, you can't do so again until the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Path of the Spiritual Guardian (Barbarian) (WoW)",
+   "type": "Subclass",
+   "name": "Path of the Spiritual Guardian (Barbarian)",
+   "desc": "Call on the Spirits for Combat Aid Barbarians who walk the Path of the Spiritual Guardian call on spirits—whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power—to guide and protect them. When these Barbarians rage, they contact the realm of the spirits…",
+   "rules": [
+    {
+     "grant": "Class Feature:Spiritual Protectors (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Spirit Shield (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Consult the Spirits (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Spirits' Fury (Path of the Spiritual Guardian (Barbarian)) (WoW)",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Barbarian (5.2)"
+  }
+ ]
+}

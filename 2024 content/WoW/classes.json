@@ -1,0 +1,284 @@
+{
+ "elements": [
+  {
+   "id": "Class:Warrior (WoW)",
+   "type": "Class",
+   "name": "Warrior (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Druid (WoW)",
+   "type": "Class",
+   "name": "Druid (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Warlock (WoW)",
+   "type": "Class",
+   "name": "Warlock (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Rogue (WoW)",
+   "type": "Class",
+   "name": "Rogue (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Hunter (WoW)",
+   "type": "Class",
+   "name": "Hunter (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Evoker (WoW)",
+   "type": "Class",
+   "name": "Evoker (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Priest (WoW)",
+   "type": "Class",
+   "name": "Priest (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class Feature:Spellcasting (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Spellcasting",
+   "desc": "You have learned to channel the magical essence of nature to cast spells. See 7 for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the class=Ranger later in the class's description.\n\nSpell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two class=Ranger. Cure Wounds and Ensnaring Strike are recommended.\n\nThe number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.\n\nIf another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells.\n\nSpellcasting Focus. You can use an Arcane Focus (not a Druidic Focus) as a Spellcasting Focus for your Ranger spells.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Deft Explorer (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Deft Explorer",
+   "desc": "Thanks to your travels, you gain the following benefits.\n\nExpertise. Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.\n\nLanguages. When you choose languages for the XPHB class feature, choose from the 2. Eredun and Nathrezim are recommended.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fighting Style (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Fighting Style",
+   "desc": "As a Demon Hunter, you can choose a category=FS, the Druidic Warrior option in the Player's Handbook, or the Void Warrior option below.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Spectral Sight (Demon Hunter) (WoW)",
+   "type": "Class Feature",
+   "name": "Improved Spectral Sight",
+   "desc": "This feature replaces the Ranger's XPHB feature.\n\nYou have Truesight with a range of 30 feet.",
+   "rules": []
+  },
+  {
+   "id": "Class:Demon Hunter (WoW)",
+   "type": "Class",
+   "name": "Demon Hunter (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [
+    {
+     "grant": "Class Feature:Spellcasting (Demon Hunter) (WoW)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Deft Explorer (Demon Hunter) (WoW)",
+     "level": 2
+    },
+    {
+     "grant": "Class Feature:Fighting Style (Demon Hunter) (WoW)",
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Demon Hunter Subclass",
+      "type": "Subclass",
+      "supports": "Class:Demon Hunter (WoW)"
+     },
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Improved Spectral Sight (Demon Hunter) (WoW)",
+     "level": 18
+    }
+   ],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Mage (WoW)",
+   "type": "Class",
+   "name": "Mage (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Monk (WoW)",
+   "type": "Class",
+   "name": "Monk (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class Feature:Totems (Shaman) (WoW)",
+   "type": "Class Feature",
+   "name": "Totems",
+   "desc": "This feature replaces the Barbarian's XPHB feature.\n\nYou can coalesce elemental spirits into a totem that aids you and your allies. As a Bonus Action, you can plant one of the totems below into the ground in an unoccupied space you can see within 10 feet of yourself.\n\nA totem is a Small object that has AC 10 and 1 Hit Point and lasts for 1 minute, until it drops to 0 Hit Points, or until you use this feature again. At the end of each of your turns, the totem pulses with elemental energy that fills a 30-foot Emanation.\n\nEarthbind Totem. Each enemy in the Emanation has its Speed reduced by 10 feet until the end of your next turn.\n\nPrimal Knowledge Totem. Each ally in the Emanation is empowered with nature's focus until the end of your next turn. While empowered in this way, whenever the creature makes an ability check using one of the following skills, the creature can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. After you plant this totem, you can't do so again until you finish a Long Rest. You can also restore your use of this totem by expending one use of your XPHB (no action required).\n\nTremor Totem. Each ally in the Emanation has Immunity to the Charmed and Frightened conditions until the end of your next turn. If the creature was already Charmed or Frightened, those conditions are suppressed until the end of its next turn.\n\nWind Rush Totem. Each ally in the Emanation has its Speed increased by 10 feet until the end of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class:Shaman (WoW)",
+   "type": "Class",
+   "name": "Shaman (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [
+    {
+     "select": {
+      "name": "Shaman Subclass",
+      "type": "Subclass",
+      "supports": "Class:Shaman (WoW)"
+     },
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Totems (Shaman) (WoW)",
+     "level": 3
+    }
+   ],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class Feature:Death Coil (Death Knight) (WoW)",
+   "type": "Class Feature",
+   "name": "Death Coil",
+   "desc": "This feature replaces the XPHB feature of the Paladin class.\n\nYour creature type becomes Undead.\n\nYou also gain the ability to manipulate negative energy. You have a pool of d8s to fuel this ability. The number of dice in the pool equals one plus your Charisma modifier (minimum of one die).\n\nAs a Bonus Action, you can target a creature you can see within 60 feet of yourself and force it to make a Constitution saving throw, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend. The target takes Necrotic damage equal to the roll's total on a failed save or half as much damage on a successful one. If the target is an Undead, you can choose to have it regain Hit Points equal to the roll's total instead. Your pool regains all expended dice when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Smite (Death Knight) (WoW)",
+   "type": "Class Feature",
+   "name": "Runic Smite",
+   "desc": "This feature replaces the Paladin's XPHB feature of the Paladin class.\n\nYou always have the Rune Strike spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Faithful Steed (Death Knight) (WoW)",
+   "type": "Class Feature",
+   "name": "Faithful Steed",
+   "desc": "You can call on the aid of an otherworldly steed. You always have the Find Steed spell prepared.\n\nYou can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.\n\nIn addition to the benefits of the Paladin's XPHB feature, when you cast Find Steed, the Otherworldly Steed can be Undead. An Undead steed deals Necrotic damage with its Otherworldly Slam action and has this Bonus Action:\n\nGhostly Stride (Undead Only; Recharges After a Long Rest). The steed and its rider can move through other creatures and objects this turn as if they were Difficult Terrain. Both steed and rider take 5 (1d10) Force damage if they end their turn inside an object.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Runic Strikes (Death Knight) (WoW)",
+   "type": "Class Feature",
+   "name": "Runic Strikes",
+   "desc": "This feature replaces the Paladin's XPHB feature.\n\nWhen you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Necrotic damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Improved Death Coil (Death Knight) (WoW)",
+   "type": "Class Feature",
+   "name": "Improved Death Coil",
+   "desc": "This feature replaces the Paladin's XPHB feature.\n\nWhen you use WoW to deal damage, the target takes extra Necrotic damage equal to your Charisma modifier (minimum of 1) whether or not it fails its saving throw. If the target is an Undead, and you have it regain Hit Points, it regains additional Hit Points equal to your Paladin level.",
+   "rules": []
+  },
+  {
+   "id": "Class:Death Knight (WoW)",
+   "type": "Class",
+   "name": "Death Knight (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [
+    {
+     "grant": "Class Feature:Death Coil (Death Knight) (WoW)",
+     "level": 1
+    },
+    {
+     "grant": "Class Feature:Runic Smite (Death Knight) (WoW)",
+     "level": 2
+    },
+    {
+     "select": {
+      "name": "Death Knight Subclass",
+      "type": "Subclass",
+      "supports": "Class:Death Knight (WoW)"
+     },
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Faithful Steed (Death Knight) (WoW)",
+     "level": 5
+    },
+    {
+     "grant": "Class Feature:Runic Strikes (Death Knight) (WoW)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Improved Death Coil (Death Knight) (WoW)",
+     "level": 14
+    }
+   ],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  },
+  {
+   "id": "Class:Paladin (WoW)",
+   "type": "Class",
+   "name": "Paladin (WoW)",
+   "desc": "Hit die d8. Primary ability: .",
+   "rules": [],
+   "hd": 8,
+   "ap": [],
+   "mp": [],
+   "prereq": []
+  }
+ ]
+}

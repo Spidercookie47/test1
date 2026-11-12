@@ -1,0 +1,103 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Bejeweled Conclave Trinket (AU)",
+   "type": "Gear",
+   "name": "Bejeweled Conclave Trinket",
+   "desc": "Bejeweled Conclave Trinkets\n\n1d6 | Trinket\n\n1 | An empty perfume bottle that smells faintly of longing\n\n2 | Three love letters in the same handwriting, signed with different names\n\n3 | A silk scarf with several hidden pockets\n\n4 | The signature page from a contract\n\n5 | A drinking glass carved with a comet\n\n6 | A gaudy engagement ring with a fake gem",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Bringers of Cosmic Dawn Trinket (AU)",
+   "type": "Gear",
+   "name": "Bringers of Cosmic Dawn Trinket",
+   "desc": "Bringers of Cosmic Dawn Trinkets\n\n1d6 | Trinket\n\n1 | A razor-sharp, violet-tinted talon\n\n2 | An uneven spyglass lens that casts flickering pale-green light\n\n3 | A stone carved with stars in an unfamiliar constellation\n\n4 | Fragments of a prophecy about flumphs\n\n5 | A fern frond that twitches like a tentacle\n\n6 | A small box containing a worm that won't die",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Covenant of the Grave Trinket (AU)",
+   "type": "Gear",
+   "name": "Covenant of the Grave Trinket",
+   "desc": "Covenant of the Grave Trinkets\n\n1d6 | Trinket\n\n1 | A tin of grave dirt\n\n2 | A self-sterilizing trephine\n\n3 | A chapbook with illustrations of graveyards\n\n4 | A zombie's twitching toe\n\n5 | A small wreath of dried flowers in an old box\n\n6 | A mysterious organ in a jar of amber fluid",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Crucible Keepers Trinket (AU)",
+   "type": "Gear",
+   "name": "Crucible Keepers Trinket",
+   "desc": "Crucible Keepers Trinkets\n\n1d6 | Trinket\n\n1 | A piece of metal pierced by a tornado-driven twig\n\n2 | A tattered, salt-stained doll\n\n3 | A chunk of volcanic glass\n\n4 | Broken wind chimes\n\n5 | A seashell blackened by a great fire\n\n6 | Bark seared with lightning-shaped lines",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Horizon Weavers Trinket (AU)",
+   "type": "Gear",
+   "name": "Horizon Weavers Trinket",
+   "desc": "Horizon Weavers Trinkets\n\n1d6 | Trinket\n\n1 | A compass that spins lazily\n\n2 | A map of a lost valley\n\n3 | A chip of ice that never melts\n\n4 | A ring inscribed \"bring me home again\"\n\n5 | Wicker from the basket of a hot air balloon\n\n6 | Four orange leaves with unfamiliar shapes",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Ninth Quill Trinket (AU)",
+   "type": "Gear",
+   "name": "Ninth Quill Trinket",
+   "desc": "Ninth Quill Trinkets\n\n1d6 | Trinket\n\n1 | A long fake beard\n\n2 | A fancy pen that never runs out of ink\n\n3 | A bag of broken teeth\n\n4 | A scrap of paper with several crossed-out passwords and the word \"caiman\" circled\n\n5 | Two identical playing cards with unfamiliar suits\n\n6 | A featureless mask with small eyeholes",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Phantasmic Circus Trinket (AU)",
+   "type": "Gear",
+   "name": "Phantasmic Circus Trinket",
+   "desc": "Phantasmic Circus Trinkets\n\n1d6 | Trinket\n\n1 | An advertisement for a past circus performance, featuring your likeness\n\n2 | A small tin of white greasepaint\n\n3 | A green wire stem that produces an illusory flower for 1 minute when brandished dramatically\n\n4 | A fine silk ribbon, two inches wide and nine feet long\n\n5 | Bronze finger cymbals\n\n6 | A battered top hat",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Seers of Sea and Sky Trinket (AU)",
+   "type": "Gear",
+   "name": "Seers of Sea and Sky Trinket",
+   "desc": "Seers of Sea and Sky Trinkets\n\n1d6 | Trinket\n\n1 | A piece of driftwood with natural whorls and gnarls that spell out your name\n\n2 | A windsock\n\n3 | A tide chart for an unfamiliar seashore\n\n4 | A roll of seaweed with cryptic symbols written on it in octopus ink\n\n5 | A small cog from a lighthouse's turning mechanism\n\n6 | Four oddly shaped white feathers that fit together to form a perfect triangle",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Sheltering Hands Trinket (AU)",
+   "type": "Gear",
+   "name": "Sheltering Hands Trinket",
+   "desc": "Sheltering Hands Trinkets\n\n1d6 | Trinket\n\n1 | A tin of lotion to ease rashes\n\n2 | A religious tract for an unfamiliar deity of healing\n\n3 | A child's drawing of two parents smiling\n\n4 | A utensil with a fork on one end and spoon on the other\n\n5 | A pouch of sweet spices\n\n6 | A windup toy soldier holding a large shield",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 0,
+   "price": 0,
+   "wt": 0
+  }
+ ]
+}

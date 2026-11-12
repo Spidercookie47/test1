@@ -1,0 +1,485 @@
+{
+ "elements": [
+  {
+   "id": "Monster:Incarnation of Transience (LFL)",
+   "type": "Monster",
+   "name": "Incarnation of Transience",
+   "desc": "Huge fey, neutral. Challenge 7.",
+   "rules": [],
+   "stat": {
+    "size": "Huge",
+    "type": "fey",
+    "align": "neutral",
+    "cr": "7",
+    "ab": {
+     "str": 21,
+     "dex": 20,
+     "con": 17,
+     "int": 10,
+     "wis": 14,
+     "cha": 16
+    },
+    "ac": 16,
+    "hdn": 15,
+    "hpAuto": true,
+    "spd": {
+     "walk": 40,
+     "swim": 40
+    },
+    "saves": {
+     "dex": true,
+     "con": true
+    },
+    "cimm": "grappled; paralyzed; petrified; prone; restrained",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Sylvan; telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Ephemeral Movement",
+      "d": "The incarnation can move through other creatures and objects as if they were Difficult Terrain, and its movement doesn't provoke Opportunity Attacks. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The incarnation has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The incarnation makes three attacks, using Bite or Miasmic Globule in any combination."
+     },
+     {
+      "n": "Bite",
+      "d": "*Melee Attack Roll:* +8, reach 5 ft. *Hit:* 14 (2d8 + 5) Piercing damage."
+     },
+     {
+      "n": "Miasmic Globule",
+      "d": "*Ranged Attack Roll:* +8, range 60/120 ft. *Hit:* 15 (6d4) Acid damage, and the target's Speed is reduced by 10 feet until the end of the incarnation's next turn."
+     },
+     {
+      "n": "Spectral Stampede",
+      "d": "The incarnation moves up to 80 feet in a straight line. Each creature whose space the incarnation enters is targeted once by the following effect. *Dexterity Saving Throw:* DC 16. *Failure:* 18 (4d8) Force damage. If the target is the incarnation's size or smaller, it has the Prone condition. *Success:* Half damage only."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Shape-Shift",
+      "d": "The incarnation changes its size to Medium, Large, or Huge."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Incarnation of Vibrance (LFL)",
+   "type": "Monster",
+   "name": "Incarnation of Vibrance",
+   "desc": "Huge fey, neutral. Challenge 10.",
+   "rules": [],
+   "stat": {
+    "size": "Huge",
+    "type": "fey",
+    "align": "neutral",
+    "cr": "10",
+    "ab": {
+     "str": 20,
+     "dex": 17,
+     "con": 20,
+     "int": 10,
+     "wis": 16,
+     "cha": 21
+    },
+    "ac": 14,
+    "hdn": 20,
+    "hpAuto": true,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {
+     "con": true,
+     "cha": true
+    },
+    "res": "radiant",
+    "cimm": "blinded; charmed; deafened; frightened",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Sylvan; telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The incarnation has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The incarnation makes two Vine attacks and uses Radiant Blast. It can replace one vine attack with a use of Spellcasting to cast Blindness/Deafness if available."
+     },
+     {
+      "n": "Vine",
+      "d": "*Melee Attack Roll:* +9, reach 20 ft. *Hit:* 18 (3d8 + 5) Bludgeoning damage. If the target is the incarnation's size or smaller, it has the Grappled condition (escape DC 15) from one of two vines."
+     },
+     {
+      "n": "Radiant Blast",
+      "d": "*Constitution Saving Throw:* DC 17, each creature of the incarnation's choice in a 20-foot Emanation originating from the incarnation. *Failure:* The creature takes 14 (2d8 + 5) Radiant damage. *Success:* Half damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The incarnation casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability:\n*At Will:* Daylight, Druidcraft, Plant Growth\n*1/Day:* Blindness/Deafness"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Shape-Shift",
+      "d": "The incarnation changes its size to Medium, Large, or Huge."
+     },
+     {
+      "n": "Teleport",
+      "d": "The incarnation teleports up to 60 feet to an unoccupied space it can see. The incarnation can't teleport while it has a creature Grappled."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Lorwyn Giant (LFL)",
+   "type": "Monster",
+   "name": "Lorwyn Giant",
+   "desc": "Huge giant, chaotic neutral. Challenge 6.",
+   "rules": [],
+   "stat": {
+    "size": "Huge",
+    "type": "giant",
+    "align": "chaotic neutral",
+    "cr": "6",
+    "ab": {
+     "str": 21,
+     "dex": 13,
+     "con": 18,
+     "int": 9,
+     "wis": 16,
+     "cha": 8
+    },
+    "ac": 13,
+    "hdn": 11,
+    "hpAuto": true,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {
+     "con": true,
+     "wis": true
+    },
+    "langs": "Common, Giant",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The giant makes two attacks, using Stone Sword or Boulder in any combination."
+     },
+     {
+      "n": "Stone Sword",
+      "d": "*Melee Attack Roll:* +8, reach 15 ft. *Hit:* 21 (3d10 + 5) Slashing damage."
+     },
+     {
+      "n": "Boulder",
+      "d": "*Ranged Attack Roll:* +8, range 60/240 ft. *Hit:* 14 (2d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Name Sleep (Recharge 5–6)",
+      "d": "The giant falls into a deep, restorative slumber. The giant gains 20 Temporary Hit Points and has the Unconscious condition until it takes damage or the end of its next turn. The giant has Advantage on ability checks and saving throws for 1 minute."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Merrow Doublespeaker (LFL)",
+   "type": "Monster",
+   "name": "Merrow Doublespeaker",
+   "desc": "Medium monstrosity, lawful evil. Challenge 4.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity",
+    "align": "lawful evil",
+    "cr": "4",
+    "ab": {
+     "str": 18,
+     "dex": 17,
+     "con": 16,
+     "int": 12,
+     "wis": 13,
+     "cha": 16
+    },
+    "ac": 14,
+    "hdn": 9,
+    "hpAuto": true,
+    "spd": {
+     "walk": 20,
+     "swim": 40
+    },
+    "saves": {
+     "dex": true,
+     "cha": true
+    },
+    "skills": {
+     "Deception": 1,
+     "Stealth": 1
+    },
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Common, Primordial (Aquan)",
+    "traits": [
+     {
+      "n": "Amphibious",
+      "d": "The merrow can breathe air and water."
+     },
+     {
+      "n": "Mimicry",
+      "d": "The merrow can mimic voices and animal sounds. A creature that hears the mimicries can tell they are imitations with a successful DC 15 Wisdom (Insight) check."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The merrow makes three Spined Tail attacks. It can replace one of these attacks with a use of Spellcasting to cast Command."
+     },
+     {
+      "n": "Spined Tail",
+      "d": "*Melee or Ranged Attack Roll:* +6, reach 5 ft. or range 20/60 ft. *Hit:* 14 (3d6 + 4) Piercing damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The merrow casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n*At Will:* Command, Mage Hand, Minor Illusion"
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Merrow Haranguer (LFL)",
+   "type": "Monster",
+   "name": "Merrow Haranguer",
+   "desc": "Medium monstrosity, lawful neutral. Challenge 5.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "monstrosity",
+    "align": "lawful neutral",
+    "cr": "5",
+    "ab": {
+     "str": 18,
+     "dex": 18,
+     "con": 16,
+     "int": 14,
+     "wis": 15,
+     "cha": 19
+    },
+    "ac": 14,
+    "hdn": 12,
+    "hpAuto": true,
+    "spd": {
+     "walk": 5,
+     "swim": 40
+    },
+    "saves": {
+     "dex": true,
+     "cha": true
+    },
+    "skills": {
+     "Performance": 1,
+     "Persuasion": 1
+    },
+    "langs": "Common, Primordial (Aquan)",
+    "traits": [
+     {
+      "n": "Amphibious",
+      "d": "The merrow can breathe air and water."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The merrow makes three attacks, using Coral Scepter and Poisoned Longbow in any combination."
+     },
+     {
+      "n": "Coral Scepter",
+      "d": "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 14 (2d10 + 4) Bludgeoning damage."
+     },
+     {
+      "n": "Poisoned Longbow",
+      "d": "*Ranged Attack Roll:* +7, range 150/600 ft. *Hit:* 8 (1d8 + 4) Piercing damage plus 7 (2d6) Poison damage."
+     },
+     {
+      "n": "Invective",
+      "d": "*Wisdom Saving Throw:* DC 15, up to three creatures the merrow can see within 60 feet. *Failure:* 14 (4d6) Psychic damage, and the creature has Disadvantage on its next attack roll before the end of the merrow's next turn. *Success:* Half damage only."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Noggle Ransacker (LFL)",
+   "type": "Monster",
+   "name": "Noggle Ransacker",
+   "desc": "Small fey, chaotic neutral. Challenge 1/4.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "fey",
+    "align": "chaotic neutral",
+    "cr": "1/4",
+    "ab": {
+     "str": 14,
+     "dex": 15,
+     "con": 13,
+     "int": 8,
+     "wis": 10,
+     "cha": 12
+    },
+    "ac": 12,
+    "hdn": 3,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30
+    },
+    "skills": {
+     "Stealth": 1
+    },
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Sylvan",
+    "traits": [
+     {
+      "n": "Siege Monster",
+      "d": "The noggle deals double damage to objects and structures."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Sabotaging Swipe",
+      "d": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing damage. If the target is wearing armor, it is subjected to the following effect. *Dexterity Saving Throw:* DC 12. *Failure:* The armor takes a -1 penalty to the AC it offers. The target can take an action to remove the penalty from its armor."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Nimble Escape",
+      "d": "The noggle takes the Disengage or Hide action."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Noggle Wild Mage (LFL)",
+   "type": "Monster",
+   "name": "Noggle Wild Mage",
+   "desc": "Small fey, chaotic neutral. Challenge 1.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "fey",
+    "align": "chaotic neutral",
+    "cr": "1",
+    "ab": {
+     "str": 11,
+     "dex": 16,
+     "con": 14,
+     "int": 10,
+     "wis": 12,
+     "cha": 17
+    },
+    "ac": 13,
+    "hdn": 4,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "cha": true
+    },
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Common, Sylvan",
+    "traits": [
+     {
+      "n": "Bloodied Wild Magic",
+      "d": "While Bloodied, the noggle has a Fly Speed of 30 feet and it can choose for any damage it deals to be Force damage."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The noggle makes two attacks, using Noggling Stick or Befuddling Ray in any combination."
+     },
+     {
+      "n": "Noggling Stick",
+      "d": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+     },
+     {
+      "n": "Befuddling Ray",
+      "d": "*Ranged Attack Roll:* +5, range 60 ft. *Hit:* 6 (1d6 + 3) Psychic damage, and the target subtracts 1d4 from the next saving throw it makes before the end of the noggle's next turn."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Shadowmoor Giant (LFL)",
+   "type": "Monster",
+   "name": "Shadowmoor Giant",
+   "desc": "Huge giant, chaotic evil. Challenge 8.",
+   "rules": [],
+   "stat": {
+    "size": "Huge",
+    "type": "giant",
+    "align": "chaotic evil",
+    "cr": "8",
+    "ab": {
+     "str": 22,
+     "dex": 14,
+     "con": 20,
+     "int": 7,
+     "wis": 19,
+     "cha": 8
+    },
+    "ac": 14,
+    "hdn": 15,
+    "hpAuto": true,
+    "spd": {
+     "walk": 40
+    },
+    "saves": {
+     "con": true,
+     "wis": true
+    },
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Giant",
+    "traits": [],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The giant makes three attacks, using Tree Club or Boulder in any combination."
+     },
+     {
+      "n": "Tree Club",
+      "d": "*Melee Attack Roll:* +9, reach 15 ft. *Hit:* 17 (2d10 + 6) Bludgeoning damage."
+     },
+     {
+      "n": "Boulder",
+      "d": "*Ranged Attack Roll:* +9, range 60/240 ft. *Hit:* 13 (2d6 + 6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+     },
+     {
+      "n": "Wild Magic Cataclysm (Recharge 5–6)",
+      "d": "*Dexterity Saving Throw:* DC 15, each creature in a 20-foot-radius Sphere centered on a point within 120 feet. *Failure:* 28 (8d6) damage (roll 1d4 to determine damage type: 1—Acid; 2—Fire; 3—Lightning; 4—Thunder). *Success:* Half damage."
+     }
+    ]
+   }
+  }
+ ]
+}

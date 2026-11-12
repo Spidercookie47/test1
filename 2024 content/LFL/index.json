@@ -1,0 +1,18 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "lfl",
+  "name": "Lorwyn: First Light",
+  "short": "LFL",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "feats.json",
+  "magic-items.json",
+  "monsters.json"
+ ]
+}

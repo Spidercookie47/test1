@@ -1,0 +1,21 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "efa",
+  "name": "Eberron: Forge of the Artificer",
+  "short": "EFA",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "races.json",
+  "backgrounds.json",
+  "feats.json",
+  "spells.json",
+  "magic-items.json",
+  "classes.json",
+  "subclasses.json",
+  "monsters.json"
+ ]
+}

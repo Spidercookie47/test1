@@ -1,0 +1,902 @@
+{
+ "elements": [
+  {
+   "id": "Monster:Aberrant Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Aberrant Spirit",
+   "desc": "Medium aberration, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 16,
+     "dex": 10,
+     "con": 15,
+     "int": 16,
+     "wis": 10,
+     "cha": 6
+    },
+    "ac": 10,
+    "acNote": "11 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "40 + 10 for each spell level above 4"
+     },
+     {
+      "n": "Regeneration (Slaad Only)",
+      "d": "The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point."
+     },
+     {
+      "n": "Whispering Aura (Mind Flayer Only)",
+      "d": "At the start of each of the spirit's turns, the spirit emits psionic energy if it doesn't have the Incapacitated condition. *Wisdom Saving Throw:* DC equals your spell save DC, each creature (other than you) within 5 feet of the spirit. *Failure:* 2d6 Psychic damage."
+     }
+    ],
+    "spd": {
+     "walk": 30,
+     "fly": 30,
+     "hover": true
+    },
+    "imm": "psychic",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Deep Speech, understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Claw (Slaad Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + summonSpellLevel Slashing damage, and the target can't regain Hit Points until the start of the spirit's next turn."
+     },
+     {
+      "n": "Eye Ray (Beholderkin Only)",
+      "d": "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 150 ft. *Hit:* 1d8 + 3 + summonSpellLevel Psychic damage."
+     },
+     {
+      "n": "Psychic Slam (Mind Flayer Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Psychic damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Animated Object (XPHB)",
+   "type": "Monster",
+   "name": "Animated Object",
+   "desc": "Tiny construct, unaligned. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Tiny",
+    "type": "construct",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 16,
+     "dex": 10,
+     "con": 10,
+     "int": 3,
+     "wis": 3,
+     "cha": 1
+    },
+    "ac": 15,
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "10 (Medium or smaller), 20 (Large), 40 (Huge)"
+     }
+    ],
+    "spd": {
+     "walk": 30
+    },
+    "sen": {
+     "blindsight": 30
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Slam",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* Force damage equal to (summonSpellLevel - 4)d4 + 3, (summonSpellLevel - 3)d6 + 3 + your spellcasting ability modifier (Large), or (summonSpellLevel - 3)d12 + 3 + your spellcasting ability modifier (Huge)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Beast of the Land (XPHB)",
+   "type": "Monster",
+   "name": "Beast of the Land",
+   "desc": "Medium beast, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "beast",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 14,
+     "dex": 14,
+     "con": 15,
+     "int": 8,
+     "wis": 14,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "13 plus your Wisdom modifier",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "5 plus five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)"
+     },
+     {
+      "n": "Primal Bond",
+      "d": "Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+     }
+    ],
+    "spd": {
+     "walk": 40,
+     "climb": 40
+    },
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Beast's Strike",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Beast of the Sea (XPHB)",
+   "type": "Monster",
+   "name": "Beast of the Sea",
+   "desc": "Medium beast, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "beast",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 14,
+     "dex": 14,
+     "con": 15,
+     "int": 8,
+     "wis": 14,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "13 plus your Wisdom modifier",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "5 plus five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)"
+     },
+     {
+      "n": "Amphibious",
+      "d": "The beast can breathe air and water."
+     },
+     {
+      "n": "Primal Bond",
+      "d": "Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+     }
+    ],
+    "spd": {
+     "walk": 5,
+     "swim": 60
+    },
+    "sen": {
+     "darkvision": 90
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Beast's Strike",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the Grappled condition (escape DC equals your spell save DC)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Beast of the Sky (XPHB)",
+   "type": "Monster",
+   "name": "Beast of the Sky",
+   "desc": "Small beast, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "beast",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 6,
+     "dex": 16,
+     "con": 13,
+     "int": 8,
+     "wis": 14,
+     "cha": 11
+    },
+    "ac": 10,
+    "acNote": "13 plus your Wisdom modifier",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "4 plus four times your Ranger level (the beast has a number of Hit Dice [d6s] equal to your Ranger level)"
+     },
+     {
+      "n": "Flyby",
+      "d": "The beast doesn't provoke Opportunity Attacks when it flies out of an enemy's reach."
+     },
+     {
+      "n": "Primal Bond",
+      "d": "Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+     }
+    ],
+    "spd": {
+     "walk": 10,
+     "fly": 60
+    },
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Beast's Strike",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d4 + 3 plus your Wisdom modifier Slashing damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Bestial Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Bestial Spirit",
+   "desc": "Small beast, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "beast",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 18,
+     "dex": 11,
+     "con": 16,
+     "int": 4,
+     "wis": 14,
+     "cha": 5
+    },
+    "ac": 10,
+    "acNote": "11 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2"
+     },
+     {
+      "n": "Flyby (Air Only)",
+      "d": "The spirit doesn't provoke Opportunity Attacks when it flies out of an enemy's reach."
+     },
+     {
+      "n": "Pack Tactics (Land and Water Only)",
+      "d": "The spirit has Advantage on an attack roll against a creature if at least one of the spirit's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+     },
+     {
+      "n": "Water Breathing (Water Only)",
+      "d": "The spirit can breathe only underwater."
+     }
+    ],
+    "spd": {
+     "walk": 30,
+     "climb": 30,
+     "fly": 60,
+     "swim": 30
+    },
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of Rend attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Rend",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + summonSpellLevel Piercing damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Celestial Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Celestial Spirit",
+   "desc": "Large celestial, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": "celestial",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 16,
+     "dex": 14,
+     "con": 16,
+     "int": 10,
+     "wis": 14,
+     "cha": 16
+    },
+    "ac": 10,
+    "acNote": "11 + the spell's level + 2 (Defender only)",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "40 + 10 for each spell level above 5"
+     }
+    ],
+    "spd": {
+     "walk": 30,
+     "fly": 40
+    },
+    "res": "radiant",
+    "cimm": "charmed; frightened",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Celestial, understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Radiant Bow (Avenger Only)",
+      "d": "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 600 ft. *Hit:* 2d6 + 2 + summonSpellLevel Radiant damage."
+     },
+     {
+      "n": "Radiant Mace (Defender Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + summonSpellLevel Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points."
+     },
+     {
+      "n": "Healing Touch (1/Day)",
+      "d": "The spirit touches another creature. The target regains Hit Points equal to 2d8 + summonSpellLevel."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Construct Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Construct Spirit",
+   "desc": "Medium construct, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 18,
+     "dex": 10,
+     "con": 18,
+     "int": 14,
+     "wis": 11,
+     "cha": 5
+    },
+    "ac": 10,
+    "acNote": "13 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "40 + 15 for each spell level above 4"
+     },
+     {
+      "n": "Heated Body (Metal Only)",
+      "d": "A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage."
+     },
+     {
+      "n": "Stony Lethargy (Stone Only)",
+      "d": "When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. *Wisdom Saving Throw:* DC equals your spell save DC, the target. *Failure:* Until the start of its next turn, the target can't make Opportunity Attacks, and its Speed is halved."
+     }
+    ],
+    "spd": {
+     "walk": 30
+    },
+    "res": "poison",
+    "cimm": "charmed; exhaustion; frightened; paralyzed; poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of Slam attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Slam",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + summonSpellLevel Bludgeoning damage."
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Berserk Lashing (Clay Only)",
+      "d": "*Trigger:* The spirit takes damage from a creature. *Response:* The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Draconic Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Draconic Spirit",
+   "desc": "Large dragon, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": "dragon",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 19,
+     "dex": 14,
+     "con": 17,
+     "int": 10,
+     "wis": 14,
+     "cha": 14
+    },
+    "ac": 10,
+    "acNote": "14 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "50 + 10 for each spell level above 5"
+     },
+     {
+      "n": "Shared Resistances",
+      "d": "When you summon the spirit, choose one of its Resistances. You have Resistance to the chosen damage type until the spell ends."
+     }
+    ],
+    "spd": {
+     "walk": 30,
+     "fly": 60,
+     "swim": 30
+    },
+    "res": "acid; cold; fire; lightning; poison",
+    "cimm": "charmed; frightened; poisoned",
+    "sen": {
+     "blindsight": 30,
+     "darkvision": 60
+    },
+    "langs": "Draconic, understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of Rend attacks equal to half the spell's level (round down), and it uses Breath Weapon."
+     },
+     {
+      "n": "Rend",
+      "d": "*Melee Attack:* Bonus equals your spell attack modifier, reach 10 feet. *Hit:* 1d6 + 4 + summonSpellLevel Piercing damage."
+     },
+     {
+      "n": "Breath Weapon",
+      "d": "*Dexterity Saving Throw:* DC equals your spell save DC, each creature in a 30-foot Cone. *Failure:* 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). *Success:* Half damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Elemental Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Elemental Spirit",
+   "desc": "Medium elemental, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "elemental",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 18,
+     "dex": 15,
+     "con": 17,
+     "int": 4,
+     "wis": 10,
+     "cha": 16
+    },
+    "ac": 10,
+    "acNote": "11 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "50 + 10 for each spell level above 4"
+     },
+     {
+      "n": "Amorphous Form (Air, Fire, and Water Only)",
+      "d": "The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain."
+     }
+    ],
+    "spd": {
+     "walk": 40,
+     "burrow": 40,
+     "fly": 40,
+     "swim": 40,
+     "hover": true
+    },
+    "res": "lightning; thunder (Air only); piercing; slashing (Earth only); acid (Water only)",
+    "imm": "poison; fire (Fire only)",
+    "cimm": "exhaustion; paralyzed; petrified; poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Primordial, understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of Slam attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Slam",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 4 + summonSpellLevel Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Fey Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Fey Spirit",
+   "desc": "Small fey, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "fey",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 13,
+     "dex": 16,
+     "con": 14,
+     "int": 14,
+     "wis": 11,
+     "cha": 16
+    },
+    "ac": 10,
+    "acNote": "12 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "30 + 10 for each spell level above 3"
+     }
+    ],
+    "spd": {
+     "walk": 30,
+     "fly": 30
+    },
+    "cimm": "charmed",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Sylvan, understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of Fey Blade attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Fey Blade",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 2d6 + 3 + summonSpellLevel Force damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Fey Step",
+      "d": "The spirit magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the spirit's chosen mood:\n\n• Fuming. The spirit has Advantage on the next attack roll it makes before the end of this turn.\n\n• Mirthful. *Wisdom Saving Throw:* DC equals your spell save DC, one creature the spirit can see within 10 feet of itself. *Failure:* The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.\n\n• Tricksy. The spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Fiendish Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Fiendish Spirit",
+   "desc": "Large fiend, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": "fiend",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 13,
+     "dex": 16,
+     "con": 15,
+     "int": 10,
+     "wis": 10,
+     "cha": 16
+    },
+    "ac": 10,
+    "acNote": "12 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6"
+     },
+     {
+      "n": "Death Throes (Demon Only)",
+      "d": "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. *Dexterity Saving Throw:* DC equals your spell save DC, each creature in a 10-foot Emanation originating from the spirit. *Failure:* 2d10 plus this spell's level Fire damage. *Success:* Half damage."
+     },
+     {
+      "n": "Devil's Sight (Devil Only)",
+      "d": "Magical Darkness doesn't impede the spirit's Darkvision."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The spirit has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "spd": {
+     "walk": 40,
+     "climb": 40,
+     "fly": 60
+    },
+    "res": "fire",
+    "imm": "poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "Abyssal, Infernal, Telepathy 60 ft.",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Bite (Demon Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d12 + 3 + summonSpellLevel Necrotic damage."
+     },
+     {
+      "n": "Claws (Yugoloth Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see."
+     },
+     {
+      "n": "Fiery Strike (Devil Only)",
+      "d": "*Melee or Ranged Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. or range 150 ft. *Hit:* 2d6 + 3 + summonSpellLevel Fire damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Giant Insect (XPHB)",
+   "type": "Monster",
+   "name": "Giant Insect",
+   "desc": "Large beast, unaligned. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": "beast",
+    "align": "unaligned",
+    "cr": "0",
+    "ab": {
+     "str": 17,
+     "dex": 13,
+     "con": 15,
+     "int": 4,
+     "wis": 14,
+     "cha": 3
+    },
+    "ac": 10,
+    "acNote": "11 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "30 + 10 for each spell level above 4"
+     },
+     {
+      "n": "Spider Climb",
+      "d": "The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+     }
+    ],
+    "spd": {
+     "walk": 40,
+     "climb": 40,
+     "fly": 40
+    },
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The insect makes a number of attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Poison Jab",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 10 ft. *Hit:* 1d6 + 3 + summonSpellLevel Piercing damage plus 1d4 Poison damage."
+     },
+     {
+      "n": "Web Bolt (Spider Only)",
+      "d": "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 60 ft. *Hit:* 1d10 + 3 + summonSpellLevel Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Venomous Spew (Centipede Only)",
+      "d": "*Constitution Saving Throw:* Your spell save DC, one creature the insect can see within 10 feet. *Failure:* The target has the Poisoned condition until the start of the insect's next turn."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Otherworldly Steed (XPHB)",
+   "type": "Monster",
+   "name": "Otherworldly Steed",
+   "desc": "Large {'choose': ['celestial', 'fey', 'fiend']}, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": {
+     "choose": [
+      "celestial",
+      "fey",
+      "fiend"
+     ]
+    },
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 18,
+     "dex": 12,
+     "con": 14,
+     "int": 6,
+     "wis": 12,
+     "cha": 8
+    },
+    "ac": 10,
+    "acNote": "10 + 1 per spell level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)"
+     },
+     {
+      "n": "Life Bond",
+      "d": "When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you're within 5 feet of it."
+     }
+    ],
+    "spd": {
+     "walk": 60,
+     "fly": 60
+    },
+    "langs": "telepathy 1 mile (works only with you)",
+    "actions": [
+     {
+      "n": "Otherworldly Slam",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + summonSpellLevel of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage."
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Fell Glare (Fiend Only; Recharges after a Long Rest)",
+      "d": "*Wisdom Saving Throw:* DC equals your spell save DC, one creature within 60 feet the steed can see. *Failure:* The target has the Frightened condition until the end of your next turn."
+     },
+     {
+      "n": "Fey Step (Fey Only; Recharges after a Long Rest)",
+      "d": "The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself."
+     },
+     {
+      "n": "Healing Touch (Celestial Only; Recharges after a Long Rest)",
+      "d": "One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 + summonSpellLevel."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Undead Spirit (XPHB)",
+   "type": "Monster",
+   "name": "Undead Spirit",
+   "desc": "Medium undead, neutral. Challenge 0.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "align": "neutral",
+    "cr": "0",
+    "ab": {
+     "str": 12,
+     "dex": 16,
+     "con": 15,
+     "int": 4,
+     "wis": 10,
+     "cha": 9
+    },
+    "ac": 10,
+    "acNote": "11 + the spell's level",
+    "hpAuto": false,
+    "hp": 1,
+    "traits": [
+     {
+      "n": "Hit Points",
+      "d": "30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 for each spell level above 3"
+     },
+     {
+      "n": "Festering Aura (Putrid Only)",
+      "d": "*Constitution Saving Throw:* DC equals your spell save DC, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. *Failure:* The creature has the Poisoned condition until the start of its next turn."
+     },
+     {
+      "n": "Incorporeal Passage (Ghostly Only)",
+      "d": "The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled."
+     }
+    ],
+    "spd": {
+     "walk": 30,
+     "fly": 40,
+     "hover": true
+    },
+    "imm": "necrotic; poison",
+    "cimm": "exhaustion; frightened; paralyzed; poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "understands the languages you know",
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The spirit makes a number of attacks equal to half this spell's level (round down)."
+     },
+     {
+      "n": "Deathly Touch (Ghostly Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Necrotic damage, and the target has the Frightened condition until the end of its next turn."
+     },
+     {
+      "n": "Grave Bolt (Skeletal Only)",
+      "d": "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 150 ft. *Hit:* 2d4 + 3 + summonSpellLevel Necrotic damage."
+     },
+     {
+      "n": "Rotting Claw (Putrid Only)",
+      "d": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 3 + summonSpellLevel Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn."
+     }
+    ]
+   }
+  }
+ ]
+}

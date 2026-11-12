@@ -1,0 +1,455 @@
+{
+ "elements": [
+  {
+   "id": "Background:Aberrant Heir (EFA)",
+   "type": "Background",
+   "name": "Aberrant Heir",
+   "desc": "• Ability Scores. Strength, Constitution, Charisma • Feat. Aberrant Dragonmark • Skill Proficiencies. History and Intimidation • Tool Proficiencies. Disguise Kit • Equipment. Choose A or B: (A) Dagger, Disguise Kit, Costume, Traveler's Clothes, 16 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Intimidation"
+    },
+    {
+     "pf": [
+      "t:Disguise Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Aberrant Dragonmark (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "cha"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Charisma\n\n• Feat. Aberrant Dragonmark\n\n• Skill Proficiencies. History and Intimidation\n\n• Tool Proficiencies. Disguise Kit\n\n• Equipment. Choose A or B: (A) Dagger, Disguise Kit, Costume, Traveler's Clothes, 16 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Archaeologist (EFA)",
+   "type": "Background",
+   "name": "Archaeologist",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Wisdom • Feat. Skilled • Skill Proficiencies. History and Survival • Tool Proficiencies. Cartographer's Tools • Equipment. Choose A or B: (A) Cartographer's Tools, Bullseye Lantern, Map, Map or Scroll Case, Shovel, Tent, Traveler's Clothes, 17 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "pf": [
+      "t:Cartographer'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Skilled (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Wisdom\n\n• Feat. Skilled\n\n• Skill Proficiencies. History and Survival\n\n• Tool Proficiencies. Cartographer's Tools\n\n• Equipment. Choose A or B: (A) Cartographer's Tools, Bullseye Lantern, Map, Map or Scroll Case, Shovel, Tent, Traveler's Clothes, 17 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Agent (EFA)",
+   "type": "Background",
+   "name": "House Agent",
+   "desc": "• Ability Scores. Strength, Intelligence, Charisma • Feat. Lucky • Skill Proficiencies. Investigation and Persuasion • Tool Proficiencies. Choose one kind of Artisan's Tools • Equipment. Choose A or B: (A) Artisan's Tools (same as above), Fine Clothes, 20 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "grant": "Feat:Lucky (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Strength, Intelligence, Charisma\n\n• Feat. Lucky\n\n• Skill Proficiencies. Investigation and Persuasion\n\n• Tool Proficiencies. Choose one kind of Artisan's Tools\n\n• Equipment. Choose A or B: (A) Artisan's Tools (same as above), Fine Clothes, 20 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Cannith Heir (EFA)",
+   "type": "Background",
+   "name": "House Cannith Heir",
+   "desc": "• Ability Scores. Strength, Dexterity, Intelligence • Feat. Mark of Making • Skill Proficiencies. Investigation and Sleight of Hand • Tool Proficiencies. Choose one kind of Artisan's Tools • Equipment. Choose A or B: (A) Artisan's Tools (same as above), Crowbar, Fine Clothes, 2 Pouches, 17 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "skill:Sleight of Hand"
+    },
+    {
+     "grant": "Feat:Mark Of Making (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "int"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Intelligence\n\n• Feat. Mark of Making\n\n• Skill Proficiencies. Investigation and Sleight of Hand\n\n• Tool Proficiencies. Choose one kind of Artisan's Tools\n\n• Equipment. Choose A or B: (A) Artisan's Tools (same as above), Crowbar, Fine Clothes, 2 Pouches, 17 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Deneith Heir (EFA)",
+   "type": "Background",
+   "name": "House Deneith Heir",
+   "desc": "• Ability Scores. Strength, Constitution, Wisdom • Feat. Mark of Sentinel • Skill Proficiencies. Insight and Perception • Tool Proficiencies. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Fine Clothes, Healer's Kit, Quiver, 1 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "Feat:Mark Of Sentinel (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Wisdom\n\n• Feat. Mark of Sentinel\n\n• Skill Proficiencies. Insight and Perception\n\n• Tool Proficiencies. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Fine Clothes, Healer's Kit, Quiver, 1 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Ghallanda Heir (EFA)",
+   "type": "Background",
+   "name": "House Ghallanda Heir",
+   "desc": "• Ability Scores. Dexterity, Wisdom, Charisma • Feat. Mark of Hospitality • Skill Proficiencies. Insight and Persuasion • Tool Proficiencies. Cook's Utensils • Equipment. Choose A or B: (A) Cook's Utensils, Fine Clothes, Iron Pot, Lamp, Oil (5 flasks), Perfume, 26 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "pf": [
+      "t:Cook'S Utensils"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Hospitality (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Wisdom, Charisma\n\n• Feat. Mark of Hospitality\n\n• Skill Proficiencies. Insight and Persuasion\n\n• Tool Proficiencies. Cook's Utensils\n\n• Equipment. Choose A or B: (A) Cook's Utensils, Fine Clothes, Iron Pot, Lamp, Oil (5 flasks), Perfume, 26 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Jorasco Heir (EFA)",
+   "type": "Background",
+   "name": "House Jorasco Heir",
+   "desc": "• Ability Scores. Dexterity, Constitution, Wisdom • Feat. Mark of Healing • Skill Proficiencies. Medicine and Stealth • Tool Proficiencies. Herbalism Kit • Equipment. Choose A or B: (A) Herbalism Kit, Fine Clothes, Healer's Kit, 25 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "pf": [
+      "t:Herbalism Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Healing (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Wisdom\n\n• Feat. Mark of Healing\n\n• Skill Proficiencies. Medicine and Stealth\n\n• Tool Proficiencies. Herbalism Kit\n\n• Equipment. Choose A or B: (A) Herbalism Kit, Fine Clothes, Healer's Kit, 25 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Kundarak Heir (EFA)",
+   "type": "Background",
+   "name": "House Kundarak Heir",
+   "desc": "• Ability Scores. Strength, Constitution, Intelligence • Feat. Mark of Warding • Skill Proficiencies. Arcana and Investigation • Tool Proficiencies. Thieves' Tools • Equipment. Choose A or B: (A) Thieves' Tools, Fine Clothes, 10 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "pf": [
+      "t:Thieves' Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Warding (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "int"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Intelligence\n\n• Feat. Mark of Warding\n\n• Skill Proficiencies. Arcana and Investigation\n\n• Tool Proficiencies. Thieves' Tools\n\n• Equipment. Choose A or B: (A) Thieves' Tools, Fine Clothes, 10 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Lyrandar Heir (EFA)",
+   "type": "Background",
+   "name": "House Lyrandar Heir",
+   "desc": "• Ability Scores. Strength, Dexterity, Charisma • Feat. Mark of Storm • Skill Proficiencies. Acrobatics and Nature • Tool Proficiencies. Navigator's Tools • Equipment. Choose A or B: (A) Navigator's Tools, Fine Clothes, 10 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "pf": [
+      "t:Navigator'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Storm (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "cha"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Charisma\n\n• Feat. Mark of Storm\n\n• Skill Proficiencies. Acrobatics and Nature\n\n• Tool Proficiencies. Navigator's Tools\n\n• Equipment. Choose A or B: (A) Navigator's Tools, Fine Clothes, 10 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Medani Heir (EFA)",
+   "type": "Background",
+   "name": "House Medani Heir",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Wisdom • Feat. Mark of Detection • Skill Proficiencies. Insight and Investigation • Tool Proficiencies. Disguise Kit • Equipment. Choose A or B: (A) Disguise Kit, Fine Clothes, 10 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "pf": [
+      "t:Disguise Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Detection (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Wisdom\n\n• Feat. Mark of Detection\n\n• Skill Proficiencies. Insight and Investigation\n\n• Tool Proficiencies. Disguise Kit\n\n• Equipment. Choose A or B: (A) Disguise Kit, Fine Clothes, 10 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Orien Heir (EFA)",
+   "type": "Background",
+   "name": "House Orien Heir",
+   "desc": "• Ability Scores. Dexterity, Constitution, Intelligence • Feat. Mark of Passage • Skill Proficiencies. Acrobatics and Athletics • Tool Proficiencies. Cartographer's Tools • Equipment. Choose A or B: (A) Cartographer's Tools, Fine Clothes, Map, Map or Scroll Case, 18 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "pf": [
+      "t:Cartographer'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Passage (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "int"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Intelligence\n\n• Feat. Mark of Passage\n\n• Skill Proficiencies. Acrobatics and Athletics\n\n• Tool Proficiencies. Cartographer's Tools\n\n• Equipment. Choose A or B: (A) Cartographer's Tools, Fine Clothes, Map, Map or Scroll Case, 18 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Phiarlan Heir (EFA)",
+   "type": "Background",
+   "name": "House Phiarlan Heir",
+   "desc": "• Ability Scores. Dexterity, Wisdom, Charisma • Feat. Mark of Shadow • Skill Proficiencies. Deception and Stealth • Tool Proficiencies. Disguise Kit • Equipment. Choose A or B: (A) Disguise Kit, Fine Clothes, 10 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "pf": [
+      "t:Disguise Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Shadow (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Wisdom, Charisma\n\n• Feat. Mark of Shadow\n\n• Skill Proficiencies. Deception and Stealth\n\n• Tool Proficiencies. Disguise Kit\n\n• Equipment. Choose A or B: (A) Disguise Kit, Fine Clothes, 10 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Sivis Heir (EFA)",
+   "type": "Background",
+   "name": "House Sivis Heir",
+   "desc": "• Ability Scores. Intelligence, Wisdom, Charisma • Feat. Mark of Scribing • Skill Proficiencies. History and Perception • Tool Proficiencies. Calligrapher's Supplies • Equipment. Choose A or B: (A) Calligrapher's Supplies, Fine Clothes, Ink, 5 Ink Pens, Paper (30 sheets), Parchment (9 sheets), 8 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "pf": [
+      "t:Calligrapher'S Supplies"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Scribing (5.2)"
+    }
+   ],
+   "abilities": [
+    "int",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Intelligence, Wisdom, Charisma\n\n• Feat. Mark of Scribing\n\n• Skill Proficiencies. History and Perception\n\n• Tool Proficiencies. Calligrapher's Supplies\n\n• Equipment. Choose A or B: (A) Calligrapher's Supplies, Fine Clothes, Ink, 5 Ink Pens, Paper (30 sheets), Parchment (9 sheets), 8 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Tharashk Heir (EFA)",
+   "type": "Background",
+   "name": "House Tharashk Heir",
+   "desc": "• Ability Scores. Constitution, Intelligence, Wisdom • Feat. Mark of Finding • Skill Proficiencies. Perception and Survival • Tool Proficiencies. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Gaming Set (same as above), Climber's Kit, Fine Clothes, Hunting Trap, Manacles, 2 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "grant": "Feat:Mark Of Finding (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Constitution, Intelligence, Wisdom\n\n• Feat. Mark of Finding\n\n• Skill Proficiencies. Perception and Survival\n\n• Tool Proficiencies. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Gaming Set (same as above), Climber's Kit, Fine Clothes, Hunting Trap, Manacles, 2 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Thuranni Heir (EFA)",
+   "type": "Background",
+   "name": "House Thuranni Heir",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Charisma • Feat. Mark of Shadow • Skill Proficiencies. Performance and Stealth • Tool Proficiencies. Choose one kind of Musical Instrument • Equipment. Choose A or B: (A) Musical Instrument (same as above), Costume, Fine Clothes, 13 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Performance"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "grant": "Feat:Mark Of Shadow (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Charisma\n\n• Feat. Mark of Shadow\n\n• Skill Proficiencies. Performance and Stealth\n\n• Tool Proficiencies. Choose one kind of Musical Instrument\n\n• Equipment. Choose A or B: (A) Musical Instrument (same as above), Costume, Fine Clothes, 13 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:House Vadalis Heir (EFA)",
+   "type": "Background",
+   "name": "House Vadalis Heir",
+   "desc": "• Ability Scores. Constitution, Wisdom, Charisma • Feat. Mark of Handling • Skill Proficiencies. Animal Handling and Nature • Tool Proficiencies. Herbalism Kit • Equipment. Choose A or B: (A) Herbalism Kit, Fine Clothes, Net, 29 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Animal Handling"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "pf": [
+      "t:Herbalism Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Mark Of Handling (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Constitution, Wisdom, Charisma\n\n• Feat. Mark of Handling\n\n• Skill Proficiencies. Animal Handling and Nature\n\n• Tool Proficiencies. Herbalism Kit\n\n• Equipment. Choose A or B: (A) Herbalism Kit, Fine Clothes, Net, 29 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Inquisitive (EFA)",
+   "type": "Background",
+   "name": "Inquisitive",
+   "desc": "• Ability Scores. Constitution, Intelligence, Charisma • Feat. Alert • Skill Proficiencies. Insight and Investigation • Tool Proficiencies. Thieves' Tools • Equipment. Choose A or B: (A) Thieves' Tools, Bullseye Lantern, Crowbar, Oil (10 flasks), Traveler's Clothes, 10 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "pf": [
+      "t:Thieves' Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Alert (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Constitution, Intelligence, Charisma\n\n• Feat. Alert\n\n• Skill Proficiencies. Insight and Investigation\n\n• Tool Proficiencies. Thieves' Tools\n\n• Equipment. Choose A or B: (A) Thieves' Tools, Bullseye Lantern, Crowbar, Oil (10 flasks), Traveler's Clothes, 10 GP; or (B) 50 GP"
+  }
+ ]
+}

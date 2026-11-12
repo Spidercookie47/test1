@@ -1,0 +1,60 @@
+{
+ "elements": [
+  {
+   "id": "Background:Lorwyn Expert (LFL)",
+   "type": "Background",
+   "name": "Lorwyn Expert",
+   "desc": "• Ability Scores. Strength, Constitution, Wisdom • Feat. Child of the Sun • Skill Proficiencies. Athletics and Nature • Tool Proficiency. Cartographer's Tools • Equipment. Choose A or B: (A) Quarterstaff, Cartographer's Tools, Backpack, Basket, Parchment (4 sheets), Rope, Traveler's Clothes, 29 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "pf": [
+      "t:Cartographer'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Child Of The Sun (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Wisdom\n\n• Feat. Child of the Sun\n\n• Skill Proficiencies. Athletics and Nature\n\n• Tool Proficiency. Cartographer's Tools\n\n• Equipment. Choose A or B: (A) Quarterstaff, Cartographer's Tools, Backpack, Basket, Parchment (4 sheets), Rope, Traveler's Clothes, 29 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Shadowmoor Expert (LFL)",
+   "type": "Background",
+   "name": "Shadowmoor Expert",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Charisma • Feat. Shadowmoor Hexer • Skill Proficiencies. Acrobatics and Deception • Tool Proficiency. Glassblower's Tools • Equipment. Choose A or B: (A) Dagger, Glassblower's Tools, Backpack, Hunting Trap, Lamp, Oil (3 flasks), Traveler's Clothes, Waterskin, 8 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "pf": [
+      "t:Glassblower'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Shadowmoor Hexer (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Charisma\n\n• Feat. Shadowmoor Hexer\n\n• Skill Proficiencies. Acrobatics and Deception\n\n• Tool Proficiency. Glassblower's Tools\n\n• Equipment. Choose A or B: (A) Dagger, Glassblower's Tools, Backpack, Hunting Trap, Lamp, Oil (3 flasks), Traveler's Clothes, Waterskin, 8 GP; or (B) 50 GP"
+  }
+ ]
+}

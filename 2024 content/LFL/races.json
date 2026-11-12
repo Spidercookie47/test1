@@ -1,0 +1,186 @@
+{
+ "elements": [
+  {
+   "id": "Race:Boggart (LFL)",
+   "type": "Race",
+   "name": "Boggart",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Race:Elf (LFL)",
+   "type": "Race",
+   "name": "Elf",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Race:Faerie (LFL)",
+   "type": "Race",
+   "name": "Faerie",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Race:Flamekin (LFL)",
+   "type": "Race",
+   "name": "Flamekin",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Race:Kithkin (LFL)",
+   "type": "Race",
+   "name": "Kithkin",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Shape Self (LFL)",
+   "type": "Racial Trait",
+   "name": "Shape Self",
+   "desc": "As an action, you can reshape your body to a two-legged Humanoid shape or to a four-legged Beast shape. While you have a Humanoid shape, you can wear clothing and armor made for a Humanoid of your size.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Darkvision (LFL)",
+   "type": "Racial Trait",
+   "name": "Darkvision",
+   "desc": "You have Darkvision with a range of 120 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Delightful Imitator (LFL)",
+   "type": "Racial Trait",
+   "name": "Delightful Imitator",
+   "desc": "You have proficiency in the Deception or Performance skill.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Unpredictable Movement (LFL)",
+   "type": "Racial Trait",
+   "name": "Unpredictable Movement",
+   "desc": "When you roll Initiative, you can immediately move up to half your Speed, provided you don't have Disadvantage on the Initiative roll.",
+   "rules": []
+  },
+  {
+   "id": "Race:Lorwyn Changeling (LFL)",
+   "type": "Race",
+   "name": "Lorwyn Changeling",
+   "desc": "Fey. Small or Medium. Speed 30 ft. Traits: Shape Self, Darkvision, Delightful Imitator, Unpredictable Movement.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Shape Self (LFL)"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (LFL)"
+    },
+    {
+     "grant": "Racial Trait:Delightful Imitator (LFL)"
+    },
+    {
+     "grant": "Racial Trait:Unpredictable Movement (LFL)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Cold Fire Magic (LFL)",
+   "type": "Racial Trait",
+   "name": "Cold Fire Magic",
+   "desc": "You know the Ray of Frost cantrip. When you reach character levels 3 and 5, you learn the Ice Knife spell and the Flame Blade spell, respectively. You always have those spells prepared. You can cast each once without a spell slot, and you regain the ability to cast these spells in this way when you finish a Long Rest. You can also cast the spells using any spell slots you have of the appropriate level. When you cast Flame Blade using this trait, the spell deals Cold damage instead of Fire damage.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this species).",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Cold Resistance (LFL)",
+   "type": "Racial Trait",
+   "name": "Cold Resistance",
+   "desc": "You have Resistance to Cold damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Darkvision (Rimekin) (LFL)",
+   "type": "Racial Trait",
+   "name": "Darkvision (Rimekin)",
+   "desc": "You have Darkvision with a range of 60 feet.",
+   "rules": []
+  },
+  {
+   "id": "Race:Rimekin (LFL)",
+   "type": "Race",
+   "name": "Rimekin",
+   "desc": "Humanoid. Small or Medium. Speed 30 ft. Traits: Cold Fire Magic, Cold Resistance, Darkvision (Rimekin).",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Cold Fire Magic (LFL)"
+    },
+    {
+     "grant": "Racial Trait:Cold Resistance (LFL)"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (Rimekin) (LFL)"
+    }
+   ]
+  }
+ ]
+}

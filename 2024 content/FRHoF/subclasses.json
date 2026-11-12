@@ -1,0 +1,690 @@
+{
+ "elements": [
+  {
+   "id": "Class Feature:Moon's Inspiration (College of the Moon) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Moon's Inspiration",
+   "desc": "The primal and ever-changing power of the moon flows through you, granting you the following benefits.\n\nInspired Eclipse. When you take a Bonus Action to give a creature a Bardic Inspiration die, you can have the Invisible condition and teleport up to 30 feet to an unoccupied space you can see as part of that Bonus Action. This invisibility lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.\n\nLunar Vitality. Once per turn when you restore Hit Points to a creature with a spell, you can expend a Bardic Inspiration die and increase the amount of Hit Points restored by a number equal to a roll of the Bardic Inspiration die. The creature's Speed also increases by 10 feet until the end of its next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Primal Lore (College of the Moon) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Primal Lore",
+   "desc": "You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn't count against the number of cantrips you know. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.\n\nAdditionally, choose one of the following skills: Animal Handling, Insight, Medicine, Nature, Perception, or Survival. You have proficiency in that skill.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Blessing of Moonlight (College of the Moon) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Blessing of Moonlight",
+   "desc": "You always have the Moonbeam spell prepared.\n\nWhen you cast Moonbeam, you can modify the spell so that you glow faintly while the spell is active. While glowing, you shed Dim Light out to 5 feet, and whenever a creature fails its saving throw against the effects of this Moonbeam, another creature of your choice that you can see within 60 feet of yourself regains 2d4 Hit Points.\n\nOnce you use this feature to modify a casting of Moonbeam, you can't use it again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Eventide's Splendor (College of the Moon) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Eventide's Splendor",
+   "desc": "You become suffused with the might of the moon, improving your Moon's Inspiration in the following ways.\n\nShadow of the New Moon. When you use Inspired Eclipse, the creature who received the Bardic Inspiration die can also have the Invisible condition and immediately take a Reaction to teleport up to 30 feet to an unoccupied space it can see. The creature remains Invisible until the start of its next turn.\n\nVibrance of the Full Moon. When you use Lunar Vitality, you can roll 1d6 and use the number rolled in place of expending a Bardic Inspiration die.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:College of the Moon (FRHoF)",
+   "type": "Subclass",
+   "name": "College of the Moon",
+   "desc": "Inspire Allies with Primal Tales The College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles' fey magic and…",
+   "rules": [
+    {
+     "grant": "Class Feature:Moon's Inspiration (College of the Moon) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Primal Lore (College of the Moon) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Blessing of Moonlight (College of the Moon) (FRHoF)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Eventide's Splendor (College of the Moon) (FRHoF)",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Bard (5.2)",
+   "prepared": {
+    "class": "Bard (5.2)",
+    "levels": {
+     "6": [
+      "Spell:Daily (FRHoF)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Bloodthirst (Scion of the Three) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Bloodthirst",
+   "desc": "When an enemy you can see within 30 feet of yourself takes damage and is Bloodied after taking that damage but not killed outright, you can take a Reaction and teleport to an unoccupied space you can see within 5 feet of that enemy. You can then make one melee attack. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dread Allegiance (Scion of the Three) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Dread Allegiance",
+   "desc": "Choose one of the Dead Three: FRHoF, FRHoF, or FRHoF. You gain Resistance to one type of damage and the ability to cast a cantrip, as detailed in the table below; Intelligence is your spellcasting ability for this cantrip. When you finish a Long Rest, you can change your choice.\n\nGod | Damage Resistance | Cantrip\n\nFRHoF | Psychic | Minor Illusion\n\nFRHoF | Poison | Blade Ward\n\nFRHoF | Necrotic | Chill Touch",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Strike Fear (Scion of the Three) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Strike Fear",
+   "desc": "You gain the following XPHB option.\n\nTerrify (Cost: 1d6). The target must succeed on a Wisdom saving throw, or it has the Frightened condition for 1 minute. While the target is Frightened in this way, you have Advantage on attack rolls against the target.\n\nThe Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Malevolence (Scion of the Three) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Aura of Malevolence",
+   "desc": "You radiate malignant power associated with one of the Dead Three. When you use XPHB and teleport, each creature of your choice within 10 feet of either the space you left or your destination space (your choice) takes damage equal to your Intelligence modifier; the damage type is the same as the damage Resistance granted by your choice in the Dread Allegiance feature. Damage dealt by this feature ignores Resistance.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Dread Incarnate (Scion of the Three) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Dread Incarnate",
+   "desc": "You gain the following benefits.\n\nCutthroat. You regain one expended use of XPHB when you finish a Short Rest.\n\nMurderous Intent. When you roll for your XPHB damage, you can treat a roll of a 1 or 2 on the die as a 3.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Scion of the Three (FRHoF)",
+   "type": "Subclass",
+   "name": "Scion of the Three",
+   "desc": "Become a Gruesome Agent of Malice A Scion of the Three draws power from a group of malevolent gods known as the Dead Three: FRHoF, deity of tyranny; FRHoF, deity of violence and murder; and FRHoF, deity of death. While some Rogues of this subclass pledge themselves ardently to those three macabre…",
+   "rules": [
+    {
+     "grant": "Class Feature:Bloodthirst (Scion of the Three) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Dread Allegiance (Scion of the Three) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Strike Fear (Scion of the Three) (FRHoF)",
+     "level": 9
+    },
+    {
+     "grant": "Class Feature:Aura of Malevolence (Scion of the Three) (FRHoF)",
+     "level": 13
+    },
+    {
+     "grant": "Class Feature:Dread Incarnate (Scion of the Three) (FRHoF)",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Rogue (5.2)"
+  },
+  {
+   "id": "Class Feature:Bladesong (Bladesinger) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Bladesong",
+   "desc": "As a Bonus Action, you invoke an elven magic called the Bladesong, provided you aren't wearing armor or using a Shield.\n\nThe Bladesong lasts for 1 minute and ends early if you have the Incapacitated condition, if you don armor or a Shield, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required).\n\nWhile the Bladesong is active, you gain the following benefits. You can invoke the Bladesong a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You regain one expended use when you use Arcane Recovery.\n\nAgility. You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your Speed increases by 10 feet. In addition, you have Advantage on Dexterity (Acrobatics) checks.\n\nBladework. Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity.\n\nFocus. When you make a Constitution saving throw to maintain Concentration, you can add your Intelligence modifier to the total.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Training in War and Song (Bladesinger) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Training in War and Song",
+   "desc": "You gain proficiency with all Melee Martial weapons that don't have the Two-Handed or Heavy property. You can use a Melee weapon with which you have proficiency as a Spellcasting Focus for your Wizard spells.\n\nYou also gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, or Persuasion.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Extra Attack (Bladesinger) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Extra Attack",
+   "desc": "You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast level=0 in place of one of those attacks.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Song of Defense (Bladesinger) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Song of Defense",
+   "desc": "When you take damage while your Bladesong is active, you can take a Reaction to expend one spell slot and reduce the damage taken by an amount equal to five times the spell slot's level.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Song of Victory (Bladesinger) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Song of Victory",
+   "desc": "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Bladesinger (FRHoF)",
+   "type": "Subclass",
+   "name": "Bladesinger",
+   "desc": "Wield Weapon and Wizardry in Elegant Tandem Bladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense.…",
+   "rules": [
+    {
+     "grant": "Class Feature:Bladesong (Bladesinger) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Training in War and Song (Bladesinger) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Extra Attack (Bladesinger) (FRHoF)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Song of Defense (Bladesinger) (FRHoF)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Song of Victory (Bladesinger) (FRHoF)",
+     "level": 14
+    }
+   ],
+   "supports": "Class:Wizard (5.2)"
+  },
+  {
+   "id": "Class Feature:Frigid Explorer (Winter Walker) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Frigid Explorer",
+   "desc": "You gain the following benefits.\n\nBiting Cold. Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.\n\nFrost Resistance. You have Resistance to Cold damage.\n\nPolar Strikes. When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Hunter's Rime (Winter Walker) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Hunter's Rime",
+   "desc": "Ice rimes you and your prey, protecting you and slowing them. When you cast Hunter's Mark, you gain Temporary Hit Points equal to 1d10 plus your Ranger level.\n\nAdditionally, while a creature is marked by your Hunter's Mark, it can't take the Disengage action.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Winter Walker Spells (Winter Walker) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Winter Walker Spells",
+   "desc": "When you reach a Ranger level specified in the Winter Walker Spells table, you thereafter always have the listed spells prepared.\n\nRanger Level | Spells\n\n3 | Ice Knife\n\n5 | Hold Person\n\n9 | Remove Curse\n\n13 | Ice Storm\n\n17 | Cone of Cold",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Fortifying Soul (Winter Walker) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Fortifying Soul",
+   "desc": "Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). Each chosen creature regains Hit Points equal to 1d10 plus your Ranger level and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Chilling Retribution (Winter Walker) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Chilling Retribution",
+   "desc": "When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition until the end of your next turn. While the target is Stunned, its Speed is reduced to 0 feet.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Frozen Haunt (Winter Walker) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Frozen Haunt",
+   "desc": "When you cast Hunter's Mark, you can adopt a ghostly, snowy form. This form lasts until the spell ends, and while you are in this form, you gain the following benefits. Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a level 4+ spell slot (no action required).\n\nFrozen Soul. You have Immunity to Cold damage. When you first adopt this form and at the start of each of your subsequent turns, each creature of your choice in a 15-foot Emanation originating from you takes 2d4 Cold damage.\n\nPartially Incorporeal. You have Immunity to the Grappled, Prone, and Restrained conditions. You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object. If the form ends while you are inside a creature or an object, you are shunted to the nearest unoccupied space.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Winter Walker (FRHoF)",
+   "type": "Subclass",
+   "name": "Winter Walker",
+   "desc": "Withstand the Horrors of Frigid Wastelands Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the…",
+   "rules": [
+    {
+     "grant": "Class Feature:Frigid Explorer (Winter Walker) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Hunter's Rime (Winter Walker) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Winter Walker Spells (Winter Walker) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Fortifying Soul (Winter Walker) (FRHoF)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Chilling Retribution (Winter Walker) (FRHoF)",
+     "level": 11
+    },
+    {
+     "grant": "Class Feature:Frozen Haunt (Winter Walker) (FRHoF)",
+     "level": 15
+    }
+   ],
+   "supports": "Class:Ranger (5.2)",
+   "prepared": {
+    "class": "Ranger (5.2)",
+    "levels": {
+     "3": [
+      "Spell:Ice Knife (XPHB)"
+     ],
+     "5": [
+      "Spell:Hold Person (XPHB)"
+     ],
+     "9": [
+      "Spell:Remove Curse (XPHB)"
+     ],
+     "13": [
+      "Spell:Ice Storm (XPHB)"
+     ],
+     "17": [
+      "Spell:Cone Of Cold (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Blessings of Knowledge (Knowledge Domain) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Blessings of Knowledge",
+   "desc": "You gain proficiency with one type of Artisan's Tools of your choice and in two of the following skills of your choice: Arcana, History, Nature, or Religion. You have Expertise in those two skills.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Knowledge Domain Spells (Knowledge Domain) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Knowledge Domain Spells",
+   "desc": "When you reach a Cleric level specified in the Knowledge Domain Spells table, you thereafter always have the listed spells prepared.\n\nCleric Level | Spells\n\n3 | Command, Comprehend Languages*, Detect Magic*, Detect Thoughts*, Identify*, Mind Spike*\n\n5 | Dispel Magic, Nondetection, Tongues*\n\n7 | Arcane Eye*, Banishment, Confusion\n\n9 | Legend Lore*, Scrying*, Synaptic Static",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Mind Magic (Knowledge Domain) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Mind Magic",
+   "desc": "As a Magic action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Unfettered Mind (Knowledge Domain) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Unfettered Mind",
+   "desc": "You gain telepathy out to 60 feet. When you use this telepathy, you can simultaneously contact a number of creatures equal to your Wisdom modifier (minimum of one).\n\nAdditionally, you gain proficiency in Intelligence saving throws. If you already have this proficiency, you instead gain saving throw proficiency with one ability in which you lack it.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Divine Foreknowledge (Knowledge Domain) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Divine Foreknowledge",
+   "desc": "As a Bonus Action, you magically expand your mind to the future. For 1 hour, you have Advantage on D20 Tests. Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of this feature by expending a level 6+ spell slot (no action required).",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Knowledge Domain (FRHoF)",
+   "type": "Subclass",
+   "name": "Knowledge Domain",
+   "desc": "Unearth Secrets and Master the Mind The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth,…",
+   "rules": [
+    {
+     "grant": "Class Feature:Blessings of Knowledge (Knowledge Domain) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Knowledge Domain Spells (Knowledge Domain) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Mind Magic (Knowledge Domain) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Unfettered Mind (Knowledge Domain) (FRHoF)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Divine Foreknowledge (Knowledge Domain) (FRHoF)",
+     "level": 17
+    }
+   ],
+   "supports": "Class:Cleric (5.2)",
+   "prepared": {
+    "class": "Cleric (5.2)",
+    "levels": {
+     "3": [
+      "Spell:Command (XPHB)",
+      "Spell:Comprehend Languages (XPHB)",
+      "Spell:Detect Magic (XPHB)",
+      "Spell:Detect Thoughts (XPHB)",
+      "Spell:Identify (XPHB)",
+      "Spell:Mind Spike (XPHB)"
+     ],
+     "5": [
+      "Spell:Dispel Magic (XPHB)",
+      "Spell:Nondetection (XPHB)",
+      "Spell:Tongues (XPHB)"
+     ],
+     "7": [
+      "Spell:Arcane Eye (XPHB)",
+      "Spell:Banishment (XPHB)",
+      "Spell:Confusion (XPHB)"
+     ],
+     "9": [
+      "Spell:Legend Lore (XPHB)",
+      "Spell:Scrying (XPHB)",
+      "Spell:Synaptic Static (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Knightly Envoy (Banneret) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Knightly Envoy",
+   "desc": "You know how to conduct yourself with grace as a noble ambassador. You gain the following benefits.\n\nComprehension. You can cast the Comprehend Languages spell but only as a Ritual. Charisma is your spellcasting ability for it.\n\nPolyglot. You learn one language from the language tables in the Player's Handbook or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.\n\nWell Spoken. You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Group Recovery (Banneret) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Group Recovery",
+   "desc": "When you use your Second Wind to regain Hit Points, you can choose a number of allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies regains Hit Points equal to 1d4 plus your Fighter level. Once you use this ability, you can't use it again until you finish a Short or Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Team Tactics (Banneret) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Team Tactics",
+   "desc": "When you use Group Recovery, each chosen ally has Advantage on D20 Tests until the start of your next turn.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Rallying Surge (Banneret) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Rallying Surge",
+   "desc": "When you use your Action Surge, you can choose allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies can immediately take a Reaction to use one of the following options.\n\nAttack. The ally makes one attack with a weapon or an Unarmed Strike.\n\nMove. The ally moves up to half its Speed without provoking an Opportunity Attack.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Shared Resilience (Banneret) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Shared Resilience",
+   "desc": "When an ally you can see within 60 feet of yourself fails a saving throw, you can take a Reaction to expend a use of your Indomitable feature. The ally can immediately reroll the saving throw with a bonus equal to your Fighter level; the ally must use the new roll.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Inspiring Commander (Banneret) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Inspiring Commander",
+   "desc": "You gain the following benefits.\n\nBolstered Rally. The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.\n\nUnshakable Bravery. You have Immunity to the Charmed and Frightened conditions.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Banneret (FRHoF)",
+   "type": "Subclass",
+   "name": "Banneret",
+   "desc": "Rally Fellow Heroes with Inspiring Leadership Bannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in Cormyr, the Silver Marches, Damara, Chessenta, or other lands across Faerûn. They…",
+   "rules": [
+    {
+     "grant": "Class Feature:Knightly Envoy (Banneret) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Group Recovery (Banneret) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Team Tactics (Banneret) (FRHoF)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Rallying Surge (Banneret) (FRHoF)",
+     "level": 10
+    },
+    {
+     "grant": "Class Feature:Shared Resilience (Banneret) (FRHoF)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Inspiring Commander (Banneret) (FRHoF)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Fighter (5.2)"
+  },
+  {
+   "id": "Class Feature:Dao's Crush (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Dao's Crush",
+   "desc": "Earth rises up around the target of your Divine Smite. The target has the Grappled condition (escape DC equal to your spell save DC). While Grappled, the target has the Restrained condition.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Djinni's Escape (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Djinni's Escape",
+   "desc": "You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Grappled, Prone, and Restrained conditions.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Efreeti's Fury (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Efreeti's Fury",
+   "desc": "The target of your Divine Smite takes an extra 2d4 Fire damage, and fire jumps from the target to another creature you can see within 30 feet of yourself. The second creature also takes 2d4 Fire damage.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Marid's Surge (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Marid's Surge",
+   "desc": "The target of your Divine Smite and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the Prone condition.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Genie Spells (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Genie Spells",
+   "desc": "When you reach a Paladin level specified in the Genie Spells table, you thereafter always have the listed spells prepared.\n\nPaladin Level | Spells\n\n3 | Chromatic Orb, Elementalism, Thunderous Smite\n\n5 | Mirror Image, Phantasmal Force\n\n9 | Fly, Gaseous Form\n\n13 | Conjure Minor Elementals, Summon Elemental\n\n17 | Banishing Smite, Contact Other Plane",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Genie's Splendor (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Genie's Splendor",
+   "desc": "When you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.\n\nYou also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Aura of Elemental Shielding (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Aura of Elemental Shielding",
+   "desc": "Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You and your allies have Resistance to that damage type while in your Aura of Protection.\n\nAt the start of each of your turns, you can change the damage type affected by this feature to one of the other listed options (no action required).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Elemental Rebuke (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Elemental Rebuke",
+   "desc": "When you are hit by an attack roll, you can take a Reaction to halve the attack's damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to 2d10 plus your Charisma modifier of one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Noble Scion (Oath of the Noble Genies) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Noble Scion",
+   "desc": "As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\nFlight. You have a Fly Speed of 60 feet and can hover.\n\nMinor Wish. When you or an ally in your XPHB fails a D20 Test, you can take a Reaction to make the D20 Test succeed instead.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Oath of the Noble Genies (FRHoF)",
+   "type": "Subclass",
+   "name": "Oath of the Noble Genies",
+   "desc": "Brandish the Elemental Splendor of Genies Paladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, masters of earth; djinn, masters of air; efreet, masters of fire; and…",
+   "rules": [
+    {
+     "grant": "Class Feature:Dao's Crush (Oath of the Noble Genies) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Djinni's Escape (Oath of the Noble Genies) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Efreeti's Fury (Oath of the Noble Genies) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Marid's Surge (Oath of the Noble Genies) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Genie Spells (Oath of the Noble Genies) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Genie's Splendor (Oath of the Noble Genies) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Aura of Elemental Shielding (Oath of the Noble Genies) (FRHoF)",
+     "level": 7
+    },
+    {
+     "grant": "Class Feature:Elemental Rebuke (Oath of the Noble Genies) (FRHoF)",
+     "level": 15
+    },
+    {
+     "grant": "Class Feature:Noble Scion (Oath of the Noble Genies) (FRHoF)",
+     "level": 20
+    }
+   ],
+   "supports": "Class:Paladin (5.2)",
+   "prepared": {
+    "class": "Paladin (5.2)",
+    "levels": {
+     "3": [
+      "Spell:Chromatic Orb (XPHB)",
+      "Spell:Elementalism (XPHB#C)",
+      "Spell:Thunderous Smite (XPHB)"
+     ],
+     "5": [
+      "Spell:Mirror Image (XPHB)",
+      "Spell:Phantasmal Force (XPHB)"
+     ],
+     "9": [
+      "Spell:Fly (XPHB)",
+      "Spell:Gaseous Form (XPHB)"
+     ],
+     "13": [
+      "Spell:Conjure Minor Elementals (XPHB)",
+      "Spell:Summon Elemental (XPHB)"
+     ],
+     "17": [
+      "Spell:Banishing Smite (XPHB)",
+      "Spell:Contact Other Plane (XPHB)"
+     ]
+    }
+   }
+  },
+  {
+   "id": "Class Feature:Bolstering Flames (Spellfire Sorcery) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Bolstering Flames",
+   "desc": "You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Radiant Fire (Spellfire Sorcery) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Radiant Fire",
+   "desc": "One creature you can see within 30 feet of yourself takes 1d4 Fire or Radiant damage (your choice).",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Spellfire Spells (Spellfire Sorcery) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Spellfire Spells",
+   "desc": "When you reach a Sorcerer level specified in the Spellfire Spells table, you thereafter always have the listed spells prepared.\n\nSorcerer Level | Spells\n\n3 | Cure Wounds, Guiding Bolt, Lesser Restoration, Scorching Ray\n\n5 | Aura of Vitality, Dispel Magic\n\n7 | Fire Shield, Wall of Fire\n\n9 | Greater Restoration, Flame Strike",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Absorb Spells (Spellfire Sorcery) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Absorb Spells",
+   "desc": "You always have Counterspell prepared.\n\nAdditionally, whenever a target fails the saving throw against a Counterspell you cast, you regain 1d4 Sorcery Points.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Honed Spellfire (Spellfire Sorcery) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Honed Spellfire",
+   "desc": "Your XPHB improves. You add your Sorcerer level to the Temporary Hit Points gained from XPHB, and the damage of XPHB increases to 1d8.",
+   "rules": []
+  },
+  {
+   "id": "Class Feature:Crown of Spellfire (Spellfire Sorcery) (FRHoF)",
+   "type": "Class Feature",
+   "name": "Crown of Spellfire",
+   "desc": "When you use XPHB, you can alter it and infuse yourself with the essence of spellfire, gaining the following benefits while this use of Innate Sorcery is active. Once you use this feature to alter Innate Sorcery, you can't use it again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.\n\nBurning Life Force. Once per turn when you are hit by an attack roll, you can expend a number of Hit Point Dice, up to a maximum equal to your Charisma modifier (minimum of one). Roll the expended dice, and reduce the amount of damage from that attack equal to the total rolled.\n\nFlight. You gain a Fly Speed of 60 feet and can hover.\n\nSpell Avoidance. When you're subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this benefit if you have the Incapacitated condition.",
+   "rules": []
+  },
+  {
+   "id": "Subclass:Spellfire Sorcery (FRHoF)",
+   "type": "Subclass",
+   "name": "Spellfire Sorcery",
+   "desc": "Wield Raw Magic Your innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.…",
+   "rules": [
+    {
+     "grant": "Class Feature:Bolstering Flames (Spellfire Sorcery) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Radiant Fire (Spellfire Sorcery) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Spellfire Spells (Spellfire Sorcery) (FRHoF)",
+     "level": 3
+    },
+    {
+     "grant": "Class Feature:Absorb Spells (Spellfire Sorcery) (FRHoF)",
+     "level": 6
+    },
+    {
+     "grant": "Class Feature:Honed Spellfire (Spellfire Sorcery) (FRHoF)",
+     "level": 14
+    },
+    {
+     "grant": "Class Feature:Crown of Spellfire (Spellfire Sorcery) (FRHoF)",
+     "level": 18
+    }
+   ],
+   "supports": "Class:Sorcerer (5.2)",
+   "prepared": {
+    "class": "Sorcerer (5.2)",
+    "levels": {
+     "3": [
+      "Spell:Cure Wounds (XPHB)",
+      "Spell:Guiding Bolt (XPHB)",
+      "Spell:Lesser Restoration (XPHB)",
+      "Spell:Scorching Ray (XPHB)"
+     ],
+     "5": [
+      "Spell:Aura Of Vitality (XPHB)",
+      "Spell:Dispel Magic (XPHB)"
+     ],
+     "6": [
+      "Spell:Counterspell (XPHB)"
+     ],
+     "7": [
+      "Spell:Fire Shield (XPHB)",
+      "Spell:Wall Of Fire (XPHB)"
+     ],
+     "9": [
+      "Spell:Greater Restoration (XPHB)",
+      "Spell:Flame Strike (XPHB)"
+     ]
+    }
+   }
+  }
+ ]
+}

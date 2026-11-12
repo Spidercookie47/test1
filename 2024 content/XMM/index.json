@@ -1,0 +1,15 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "xmm",
+  "name": "Monster Manual (2025)",
+  "short": "XMM (2024)",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "magic-items.json",
+  "monsters.json"
+ ]
+}

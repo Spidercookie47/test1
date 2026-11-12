@@ -1,0 +1,15 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "pl",
+  "name": "Project_Lamordia",
+  "short": "PL",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "backgrounds.json",
+  "monsters.json"
+ ]
+}

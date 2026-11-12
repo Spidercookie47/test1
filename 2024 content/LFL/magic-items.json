@@ -1,0 +1,30 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Reliquary of Dawn (LFL)",
+   "type": "Magic",
+   "name": "Reliquary of Dawn",
+   "desc": "This talisman contains a discarded claw, scale, or fang from Eirdu, which many believe is the incarnation of the sun in Lorwyn. While you wear a Reliquary of Dawn, you are immune to the effects of Eventide.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Reliquary of Twilight (LFL)",
+   "type": "Magic",
+   "name": "Reliquary of Twilight",
+   "desc": "This talisman contains a discarded claw, scale, or fang from Isilu, which many believe is the incarnation of the moon in Shadowmoor. While you wear a Reliquary of Twilight, you are immune to the effects of Morningtide.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  }
+ ]
+}

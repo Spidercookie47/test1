@@ -1,0 +1,92 @@
+{
+ "elements": [
+  {
+   "id": "Gear:Deathdance (FRAiF)",
+   "type": "Gear",
+   "name": "Deathdance",
+   "desc": "A creature subjected to Deathdance must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 minute. Humanoids automatically succeed on this save. The creature also has the Incapacitated condition while Poisoned in this way, as it thrashes uncontrollably.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 20000,
+   "price": 200,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Ffolk Sailing Ship (FRAiF)",
+   "type": "Gear",
+   "name": "Ffolk Sailing Ship",
+   "desc": "Ffolk Sailing Ship",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 2000000,
+   "price": 20000,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Norlander Longship (FRAiF)",
+   "type": "Gear",
+   "name": "Norlander Longship",
+   "desc": "Norlander Longship",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 2000000,
+   "price": 20000,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Prespra (FRAiF)",
+   "type": "Gear",
+   "name": "Prespra",
+   "desc": "A creature subjected to Prespra must succeed on a DC 11 Constitution saving throw or take 3 (1d6) Poison damage and have the Poisoned condition. The creature also has the Blinded condition while Poisoned in this way. The creature repeats the save at the start of each of its turns, taking 3 (1d6) Poison damage on a failed save. On a successful save, the effect ends for the creature.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 30000,
+   "price": 300,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Rusted Hulk (FRAiF)",
+   "type": "Gear",
+   "name": "Rusted Hulk",
+   "desc": "Rusted Hulk",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 5000000,
+   "price": 50000,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Ulcrun (FRAiF)",
+   "type": "Gear",
+   "name": "Ulcrun",
+   "desc": "A creature subjected to Ulcrun must succeed on a DC 15 Constitution saving throw or take 21 (6d6) Poison damage and gain 1 Exhaustion level.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 100000,
+   "price": 1000,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Whaleboat (FRAiF)",
+   "type": "Gear",
+   "name": "Whaleboat",
+   "desc": "Whaleboat",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 50000,
+   "price": 500,
+   "wt": 0
+  },
+  {
+   "id": "Gear:Yellow Death (FRAiF)",
+   "type": "Gear",
+   "name": "Yellow Death",
+   "desc": "A creature subjected to Yellow Death makes a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) Poison damage and has the Poisoned condition for 1 minute. On a successful save, the creature takes half as much damage only.",
+   "rules": [],
+   "cg": "Adventuring Gear",
+   "cp": 15000,
+   "price": 150,
+   "wt": 0
+  }
+ ]
+}

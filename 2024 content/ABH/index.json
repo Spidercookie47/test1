@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "abh",
+  "name": "Astarion's Book of Hungers",
+  "short": "ABH",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "backgrounds.json",
+  "feats.json",
+  "monsters.json"
+ ]
+}

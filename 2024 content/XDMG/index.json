@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "xdmg",
+  "name": "Dungeon Master's Guide (2024)",
+  "short": "XDMG (2024)",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "equipment.json",
+  "magic-items.json",
+  "monsters.json"
+ ]
+}

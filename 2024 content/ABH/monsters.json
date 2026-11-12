@@ -1,0 +1,392 @@
+{
+ "elements": [
+  {
+   "id": "Monster:Fiendish Icon (ABH)",
+   "type": "Monster",
+   "name": "Fiendish Icon",
+   "desc": "Small construct, lawful evil. Challenge 1.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "construct",
+    "align": "lawful evil",
+    "cr": "1",
+    "ab": {
+     "str": 15,
+     "dex": 12,
+     "con": 13,
+     "int": 6,
+     "wis": 11,
+     "cha": 6
+    },
+    "ac": 13,
+    "hdn": 5,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30
+    },
+    "skills": {
+     "Stealth": 1
+    },
+    "imm": "fire; poison",
+    "cimm": "charmed; deafened; exhaustion; frightened; paralyzed; petrified; poisoned",
+    "sen": {
+     "darkvision": 60
+    },
+    "langs": "understands Common and Infernal but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The icon has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The icon makes two Slam attacks and uses Fiery Eruption."
+     },
+     {
+      "n": "Slam",
+      "d": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Bludgeoning damage."
+     },
+     {
+      "n": "Fiery Eruption",
+      "d": "*Dexterity Saving Throw:* DC 11, each creature in a 5-foot Emanation originating from the icon. *Failure:* 7 (2d6) Fire damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Harvester Devil (ABH)",
+   "type": "Monster",
+   "name": "Harvester Devil",
+   "desc": "Medium fiend (devil), lawful evil. Challenge 3.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "fiend",
+    "align": "lawful evil",
+    "cr": "3",
+    "ab": {
+     "str": 12,
+     "dex": 17,
+     "con": 14,
+     "int": 14,
+     "wis": 13,
+     "cha": 19
+    },
+    "ac": 14,
+    "tags": "devil",
+    "hdn": 10,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1,
+     "Persuasion": 1,
+     "Stealth": 1
+    },
+    "res": "cold",
+    "imm": "fire; poison",
+    "cimm": "charmed; poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Common, Infernal; telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Diabolic Ward",
+      "d": "Attack rolls against the devil have Disadvantage. If the devil makes an attack roll, this trait is suppressed until the start of its next turn."
+     },
+     {
+      "n": "Diabolical Restoration",
+      "d": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The devil has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The devil makes two attacks, using Infernal Blade or Confounding Ray in any combination."
+     },
+     {
+      "n": "Infernal Blade",
+      "d": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage and 7 (2d6) Fire damage."
+     },
+     {
+      "n": "Confounding Ray",
+      "d": "*Ranged Attack Roll:* +5, range 120 ft. *Hit:* 13 (2d12) Psychic damage. If the target is a creature, it can't make Opportunity Attacks until the start of the devil's next turn."
+     },
+     {
+      "n": "Compelling Contract (1/Day)",
+      "d": "*Charisma Saving Throw:* DC 14, one creature within 30 feet of the devil. *Failure:* The target has the Charmed condition. While it is Charmed, it has the Stunned condition, except the target can speak. If the target agrees to the devil's contract, the effect ends. Otherwise, the target repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Speaker Devil (ABH)",
+   "type": "Monster",
+   "name": "Speaker Devil",
+   "desc": "Large fiend (devil), lawful evil. Challenge 12.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": "fiend",
+    "align": "lawful evil",
+    "cr": "12",
+    "ab": {
+     "str": 21,
+     "dex": 19,
+     "con": 20,
+     "int": 22,
+     "wis": 18,
+     "cha": 17
+    },
+    "ac": 17,
+    "tags": "devil",
+    "hdn": 18,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30,
+     "fly": 30
+    },
+    "saves": {
+     "con": true,
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "History": 1,
+     "Perception": 1
+    },
+    "res": "cold",
+    "imm": "fire; poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Infernal; telepathy 120 ft.",
+    "traits": [
+     {
+      "n": "Diabolical Restoration",
+      "d": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The devil has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The devil makes two Thundering Halberd attacks."
+     },
+     {
+      "n": "Thundering Halberd",
+      "d": "*Melee Attack Roll:* +9, reach 10 ft. *Hit:* 16 (2d10 + 5) Slashing damage plus 14 (4d6) Thunder damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The devil casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 18):\n*At Will:* Detect Magic, Detect Thoughts\n*2/Day Each:* Dimension Door, Modify Memory"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Utterance of Pain",
+      "d": "*Wisdom Saving Throw:* DC 18, each creature in a 20-foot Emanation originating from the devil. *Failure:* The target has the Stunned condition until the end of the devil's next turn."
+     },
+     {
+      "n": "Utterance of Unmaking",
+      "d": "*Constitution Saving Throw:* DC 18, each creature in a 20-foot Emanation originating from the devil. *Failure:* 22 (4d10) Force damage. *Success:* Half damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Vampire Infernalist (ABH)",
+   "type": "Monster",
+   "name": "Vampire Infernalist",
+   "desc": "Small undead (wizard), lawful evil. Challenge 14.",
+   "rules": [],
+   "stat": {
+    "size": "Small",
+    "type": "undead",
+    "align": "lawful evil",
+    "cr": "14",
+    "ab": {
+     "str": 19,
+     "dex": 16,
+     "con": 17,
+     "int": 20,
+     "wis": 16,
+     "cha": 18
+    },
+    "ac": 16,
+    "tags": "wizard",
+    "hdn": 23,
+    "hpAuto": false,
+    "hp": 172,
+    "spd": {
+     "walk": 40,
+     "fly": 40
+    },
+    "saves": {
+     "con": true,
+     "int": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Perception": 1,
+     "Religion": 1,
+     "Stealth": 1
+    },
+    "res": "fire; necrotic; poison",
+    "cimm": "poisoned",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Common, Infernal",
+    "traits": [
+     {
+      "n": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "d": "If the vampire fails a saving throw, it can choose to succeed instead."
+     },
+     {
+      "n": "Misty Escape",
+      "d": "If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed.\n\nWhile it has 0 Hit Points in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the Paralyzed condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there."
+     },
+     {
+      "n": "Vampire Weakness",
+      "d": "The vampire has these weaknesses:\n\n• Forbiddance. The vampire can't enter a residence without an invitation from an occupant.\n\n• Running Water. The vampire takes 20 Acid damage if it ends its turn in running water.\n\n• Stake to the Heart. If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.\n\n• Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack (Vampire Form Only)",
+      "d": "The vampire makes two Hellfire Claw attacks and uses Bite."
+     },
+     {
+      "n": "Hellfire Claw (Vampire Form Only)",
+      "d": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 10 (3d6) Fire damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 17) from one of two claws."
+     },
+     {
+      "n": "Bite (Imp or Vampire Form Only)",
+      "d": "*Constitution Saving Throw:* DC 18, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. *Failure:* 6 (1d4 + 4) Piercing damage plus 16 (3d10) Necrotic damage and the creature loses its highest-level available spell slot (if any). The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The vampire casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 18):\n*At Will:* Detect Magic, Detect Thoughts, Dispel Magic, Fireball (level 4 version), Mage Hand, Prestidigitation\n*1/Day:* Wall of Fire\n*2/Day:* Scrying"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Shape-Shift",
+      "d": "If the vampire isn't in sunlight or running water, it shape-shifts into a Tiny imp (Speed 20 ft., Fly Speed 40 ft.), or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it.\n\nWhile in imp form, the vampire's game statistics, other than its size and Speed, are unchanged.\n\nWhile in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless and can enter an enemy's space and stop there. If air can pass through a space, the mist can do so, but it can't pass through liquid. It has Resistance to all damage, except the damage it takes from sunlight."
+     }
+    ],
+    "leg": [
+     {
+      "n": "Hellfire Strike",
+      "d": "The vampire moves up to half its Speed, and it makes one Hellfire Claw attack."
+     },
+     {
+      "n": "Infernal Majesty",
+      "d": "*Charisma Saving Throw:* DC 17, each creature in a 20-foot Emanation originating from the vampire. *Failure:* 9 (2d8) Psychic damage, and the target has the Frightened condition until the start of its next turn. *Success:* Half damage only. *Failure or Success:* The vampire can't take this action again until the start of its next turn."
+     },
+     {
+      "n": "Teleport",
+      "d": "The vampire teleports up to 30 feet to an unoccupied space it can see."
+     }
+    ],
+    "legN": 3
+   }
+  },
+  {
+   "id": "Monster:Vampire Warden (ABH)",
+   "type": "Monster",
+   "name": "Vampire Warden",
+   "desc": "Medium undead, neutral evil. Challenge 10.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "undead",
+    "align": "neutral evil",
+    "cr": "10",
+    "ab": {
+     "str": 21,
+     "dex": 15,
+     "con": 18,
+     "int": 10,
+     "wis": 14,
+     "cha": 17
+    },
+    "ac": 18,
+    "hdn": 21,
+    "hpAuto": false,
+    "hp": 190,
+    "spd": {
+     "walk": 30
+    },
+    "saves": {
+     "con": true,
+     "wis": true
+    },
+    "skills": {
+     "Athletics": 1,
+     "Perception": 1
+    },
+    "res": "necrotic",
+    "cimm": "exhaustion; frightened",
+    "sen": {
+     "darkvision": 120
+    },
+    "langs": "Common",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The vampire has Advantage on saving throws against spells and other magical effects."
+     },
+     {
+      "n": "Vampire Weakness",
+      "d": "The vampire has these weaknesses:\n\n• Forbiddance. The vampire can't enter a residence without an invitation from an occupant.\n\n• Running Water. The vampire takes 20 Acid damage if it ends its turn in running water.\n\n• Stake to the Heart. If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition, the vampire has the Paralyzed condition until the weapon is removed.\n\n• Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\n\n• Immobile Restoration. If the vampire drops to 0 Hit Points while it doesn't have the Petrified condition, it turns to stone, regains 50 Hit Points, and has the Petrified condition for 1 hour."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The vampire makes two Claw attacks and uses Bite or Guardian's Command."
+     },
+     {
+      "n": "Claw",
+      "d": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 14 (2d8 + 5) Slashing damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 16) from one of two claws."
+     },
+     {
+      "n": "Bite",
+      "d": "*Constitution Saving Throw:* DC 16, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. *Failure:* 7 (1d4 + 5) Piercing damage plus 7 (2d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The vampire casts Compulsion, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 15).\n*At Will:* Compulsion"
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Resilient Flesh",
+      "d": "*Trigger:* The vampire is hit by a melee attack roll from an attacker the vampire can see. *Response:* The vampire reduces the damage it takes from the attack by 11 (2d6 + 4)."
+     }
+    ]
+   }
+  }
+ ]
+}

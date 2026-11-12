@@ -1,0 +1,123 @@
+{
+ "elements": [
+  {
+   "id": "Background:Discredited Neural Tuner (PL)",
+   "type": "Background",
+   "name": "Discredited Neural Tuner",
+   "desc": "• Ability Scores. Strength, Dexterity, Intelligence • Feat. Gathered Whispers or a category=DG • Skill Proficiencies. Medicine and Nature • Tool Proficiencies. Tinker's Tools (as engineer's toolkit) • Equipment. Choose A or B: (A) Tinker's Tools (as engineer's toolkit); or (B) 50 GP (as 50 dollars)",
+   "rules": [
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "pf": [
+      "t:Tinker'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Gathered Whispers (5.2)"
+    },
+    {
+     "grant": "Feat:Anyfromcategory (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "int"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Intelligence\n\n• Feat. Gathered Whispers or a category=DG\n\n• Skill Proficiencies. Medicine and Nature\n\n• Tool Proficiencies. Tinker's Tools (as engineer's toolkit)\n\n• Equipment. Choose A or B: (A) Tinker's Tools (as engineer's toolkit); or (B) 50 GP (as 50 dollars)"
+  },
+  {
+   "id": "Background:Fabricated Mind (PL)",
+   "type": "Background",
+   "name": "Fabricated Mind",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Charisma • Feat. Echoing Soul or a category=DG • Skill Proficiencies. Deception and Insight • Tool Proficiencies. Forgery Kit • Equipment. Choose A or B: (A) Forgery Kit, Fine Clothes, Ink, 2 Ink Pens, 3 Iron Spikes, 7 GP (as 7 dollars); or (B) 50 GP (as 50 dollars)",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "pf": [
+      "t:Forgery Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Echoing Soul (5.2)"
+    },
+    {
+     "grant": "Feat:Anyfromcategory (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Charisma\n\n• Feat. Echoing Soul or a category=DG\n\n• Skill Proficiencies. Deception and Insight\n\n• Tool Proficiencies. Forgery Kit\n\n• Equipment. Choose A or B: (A) Forgery Kit, Fine Clothes, Ink, 2 Ink Pens, 3 Iron Spikes, 7 GP (as 7 dollars); or (B) 50 GP (as 50 dollars)"
+  },
+  {
+   "id": "Background:Mutated Commuter (PL)",
+   "type": "Background",
+   "name": "Mutated Commuter",
+   "desc": "• Ability Scores. Constitution, Wisdom, Charisma • Feat. Aberrant Anatomy or a category=DG • Skill Proficiencies. Arcana and Investigation • Tool Proficiencies. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Gaming Set (same as above), Book (horror novel), Flask, Lock, Signal Whistle, Traveler's Clothes, and 11 GP (as 11 dollars); or (B) 50 GP (as 50 dollars)",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "Feat:Aberrant Anatomy (5.2)"
+    },
+    {
+     "grant": "Feat:Anyfromcategory (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Constitution, Wisdom, Charisma\n\n• Feat. Aberrant Anatomy or a category=DG\n\n• Skill Proficiencies. Arcana and Investigation\n\n• Tool Proficiencies. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Gaming Set (same as above), Book (horror novel), Flask, Lock, Signal Whistle, Traveler's Clothes, and 11 GP (as 11 dollars); or (B) 50 GP (as 50 dollars)"
+  },
+  {
+   "id": "Background:Reconstructed Runaway (PL)",
+   "type": "Background",
+   "name": "Reconstructed Runaway",
+   "desc": "• Ability Scores. Strength, Constitution, Wisdom • Feat. Symbiotic Being or a category=DG • Skill Proficiencies. Athletics and Medicine • Tool Proficiencies. Smith's Tools (as welding tools) • Equipment. Choose A or B: (A) Smith's Tools (as welding tools), Bullseye Lantern (as flashlight), Caltrops, Chain, Crowbar, Grappling Hook, Oil (3 flasks; as 3 flashlight batteries), 9 GP (as 9 dollars);…",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "pf": [
+      "t:Smith'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Symbiotic Being (5.2)"
+    },
+    {
+     "grant": "Feat:Anyfromcategory (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Wisdom\n\n• Feat. Symbiotic Being or a category=DG\n\n• Skill Proficiencies. Athletics and Medicine\n\n• Tool Proficiencies. Smith's Tools (as welding tools)\n\n• Equipment. Choose A or B: (A) Smith's Tools (as welding tools), Bullseye Lantern (as flashlight), Caltrops, Chain, Crowbar, Grappling Hook, Oil (3 flasks; as 3 flashlight batteries), 9 GP (as 9 dollars); or (B) 50 GP (as 50 dollars)"
+  }
+ ]
+}

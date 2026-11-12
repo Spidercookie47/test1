@@ -1,0 +1,100 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Arathi Heritage (WoW)",
+   "type": "Feat",
+   "name": "Arathi Heritage",
+   "desc": "As a descendant of humans from Arathor and high elves from Quel'Thalas, you gain the following benefits.\n\nFey Ancestry. You have Advantage on saving throws to avoid or end the Charmed condition.\n\nLethargy Resilience. When you fail a saving throw to avoid or end the Unconscious condition, you can succeed instead. Once you use this trait, you can't do so again until you finish 1d4 Long Rests.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Child of the Sea (WoW)",
+   "type": "Feat",
+   "name": "Child of the Sea",
+   "desc": "As a Kul Tiran, you gain the following benefits.\n\nLasting Breath. You can hold your breath for a number of minutes equal to 2 plus your Constitution modifier (minimum of 1 minute).\n\nOcean Born. You have a Swim Speed equal to your Speed.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Clearcasting (WoW)",
+   "type": "Feat",
+   "name": "Clearcasting",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nClearcasting. When you score a Critical Hit with a spell's attack roll, you can take a Reaction to cast a level=0.\n\nForce Adept. When you roll damage for a spell you cast that deals Force damage, you can treat any 1 on a damage die as a 2.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Elusive Brawler (WoW)",
+   "type": "Feat",
+   "name": "Elusive Brawler",
+   "desc": "Prerequisite: Level 4+, Dexterity 13+ or Wisdom 13+. You gain the following benefits.\n\nReactive Dodge. When you take damage, you can take a Reaction to take the Dodge action.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Enveloping Mist (WoW)",
+   "type": "Feat",
+   "name": "Enveloping Mist",
+   "desc": "Prerequisite: Level 4+, Dexterity 13+ or Wisdom 13+. You gain the following benefits.\n\nEnveloping Mist. When you cast a spell or use a feature to restore Hit Points to a creature, the creature is wrapped in a healing mist. Roll one of the dice from the feature that healed it, and note that number as the creature's Life Cocoon value.\n\nIf the creature is hit by an attack roll before the start of its next turn, you can take a Reaction to reduce the damage it takes from that attack by its Life Cocoon value. The mist then disappears.\n\nAt the start of the creature's next turn, if the mist persists, the creature gains Temporary Hit Points equal to its Life Cocoon value.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Fingers of Frost (WoW)",
+   "type": "Feat",
+   "name": "Fingers of Frost",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nCold Mastery. Spells you cast ignore Resistance to Cold damage.\n\nFrostbite. When you deal Cold damage to a creature that has the Restrained condition, the creature takes extra Cold damage. To determine the extra damage, roll a number of d4s equal to your Proficiency Bonus and add them together.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Fists of Fury (WoW)",
+   "type": "Feat",
+   "name": "Fists of Fury",
+   "desc": "Prerequisite: Level 4+, Dexterity 13+ or Wisdom 13+. You gain the following benefits.\n\nClean Hits. When you roll damage for an attack you make with an Unarmed Strike or a weapon that has the Light property, you can treat any 1 on a damage die as a 2.\n\nCombo Strikes. When you deal damage to a creature with an Unarmed Strike, you gain a +1 bonus to the damage roll for each time you previously hit that creature with a melee attack roll in the same turn.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Hot Streak (WoW)",
+   "type": "Feat",
+   "name": "Hot Streak",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nFire Mastery. Spells you cast ignore Resistance to Fire damage.\n\nIgnite. When a spell you cast deals Fire damage to a creature, the target starts burning. When you deal Fire damage to a creature that is already burning, the flames become more severe, increasing the burning damage by 1d4.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Inscription Adept (WoW)",
+   "type": "Feat",
+   "name": "Inscription Adept",
+   "desc": "Prerequisite: Level 4+. Your mastery of inscription allows you to duplicate the effects of certain spells with your written magic. You gain the following benefits.\n\nInscription Magic. You learn the Illusory Script spell and always have it prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. You can use herbalism resources of the appropriate value in place of the Material component specified for that spell. The spell's spellcasting ability is the ability increased by this feat.\n\nWhen you reach higher levels of proficiency in inscription, you learn higher-level spells and can cast them in the same way, as shown on the table.\n\nProficiency | Spell\n\nJourneyman (+3) | Glyph of Warding\n\nArtisan (+5) | Symbol",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Stagger and Sway (WoW)",
+   "type": "Feat",
+   "name": "Stagger and Sway",
+   "desc": "Prerequisite: Level 4+, Dexterity 13+ or Wisdom 13+. You gain the following benefits.\n\nDefer Damage. When you take damage, reduce the damage you take by your Dexterity modifier (minimum of 1). Then add a d6 to your Delayed Reaction pool. At the end of your turn, remove all the dice from your Delayed Reaction pool and roll them. You take Force damage equal to the total rolled.\n\nPurify. As a Bonus Action, you can remove a number of dice equal to your Wisdom modifier from your Delayed Reaction pool.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Void Warrior (WoW)",
+   "type": "Feat",
+   "name": "Void Warrior",
+   "desc": "You learn two level=0 of your choice. Chill Touch and Mind Sliver are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Warlock cantrip.",
+   "rules": [],
+   "cls": "fs:r"
+  },
+  {
+   "id": "Feat:Will to Survive (WoW)",
+   "type": "Feat",
+   "name": "Will to Survive",
+   "desc": "When you have the Incapacitated condition but not the Unconscious condition, you can draw on the proud heritage of Stormwind or Stromgarde to ignore the Incapacitated condition on your turn. If you do, you gain 1 Exhaustion level.",
+   "rules": [],
+   "cls": "origin"
+  }
+ ]
+}

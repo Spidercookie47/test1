@@ -1,0 +1,21 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "wow",
+  "name": "World of Warcraft",
+  "short": "WoW",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "races.json",
+  "feats.json",
+  "spells.json",
+  "equipment.json",
+  "magic-items.json",
+  "classes.json",
+  "subclasses.json",
+  "monsters.json"
+ ]
+}

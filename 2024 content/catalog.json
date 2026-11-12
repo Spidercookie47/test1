@@ -1,0 +1,56 @@
+{
+ "packs": [
+  {
+   "name": "Player's Handbook (2024)",
+   "url": "XPHB/index.json"
+  },
+  {
+   "name": "Dungeon Master's Guide (2024)",
+   "url": "XDMG/index.json"
+  },
+  {
+   "name": "Monster Manual (2025)",
+   "url": "XMM/index.json"
+  },
+  {
+   "name": "Astarion's Book of Hungers",
+   "url": "ABH/index.json"
+  },
+  {
+   "name": "Forgotten Realms: Adventures in Faerûn",
+   "url": "FRAiF/index.json"
+  },
+  {
+   "name": "Forgotten Realms: Heroes of Faerûn",
+   "url": "FRHoF/index.json"
+  },
+  {
+   "name": "Netheril's Fall",
+   "url": "NF/index.json"
+  },
+  {
+   "name": "Lorwyn: First Light",
+   "url": "LFL/index.json"
+  },
+  {
+   "name": "Eberron: Forge of the Artificer",
+   "url": "EFA/index.json"
+  },
+  {
+   "name": "Ravenloft: The Horrors Within",
+   "url": "RHW/index.json"
+  },
+  {
+   "name": "Arcana Unleashed",
+   "url": "AU/index.json"
+  },
+  {
+   "name": "Project_Lamordia",
+   "url": "PL/index.json"
+  },
+  {
+   "name": "World of Warcraft",
+   "url": "WoW/index.json"
+  }
+ ]
+}

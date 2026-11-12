@@ -1,0 +1,19 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "frhof",
+  "name": "Forgotten Realms: Heroes of Faerûn",
+  "short": "FRHoF",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "backgrounds.json",
+  "feats.json",
+  "spells.json",
+  "equipment.json",
+  "magic-items.json",
+  "subclasses.json"
+ ]
+}

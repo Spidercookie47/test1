@@ -1,0 +1,717 @@
+{
+ "elements": [
+  {
+   "id": "Racial Trait:Darkvision (WoW)",
+   "type": "Racial Trait",
+   "name": "Darkvision",
+   "desc": "You have Darkvision with a range of 60 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Gliding Wings (WoW)",
+   "type": "Racial Trait",
+   "name": "Gliding Wings",
+   "desc": "While you're in your natural form and don't have the Incapacitated condition, when you fall, you subtract up to 100 feet from the distance fallen when calculating the fall's damage, and you can move up to 2 feet horizontally for every 1 foot you descend.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Natural Weaponry (WoW)",
+   "type": "Racial Trait",
+   "name": "Natural Weaponry",
+   "desc": "While you're in your natural form, your wings and tail are powerful weapons. As a Bonus Action, you can use your wings or tail to make an Unarmed Strike to Shove a creature.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Visage (WoW)",
+   "type": "Racial Trait",
+   "name": "Visage",
+   "desc": "As a Magic action, you can shape-shift into a humanoid form called your visage, or back to your natural form. Your visage has a specific appearance that you choose when you select this species, including your coloration, height and weight, hair length, and sex. Changing shape with this trait doesn't change your clothing, equipment, or game statistics.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Draconic Flight (WoW)",
+   "type": "Racial Trait",
+   "name": "Draconic Flight",
+   "desc": "When you reach character level 5, you can use your natural form's wings to fly short distances. As a Bonus Action, you leap into the air and give yourself a Fly Speed equal to your Speed that lasts for 10 minutes. Once you use this trait, you can't use it again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Race:Dracthyr (WoW)",
+   "type": "Race",
+   "name": "Dracthyr",
+   "desc": "Dragon. Medium. Speed 30 ft. Traits: Darkvision, Gliding Wings, Natural Weaponry, Visage, Draconic Flight.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Gliding Wings (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Natural Weaponry (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Visage (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Draconic Flight (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Eredar Lineage (WoW)",
+   "type": "Racial Trait",
+   "name": "Eredar Lineage",
+   "desc": "You are part of a lineage related to your ancestors' embrace of the Light—or of the power of the Burning Legion. This lineage grants you supernatural abilities. Choose a lineage from the Eredar Lineages table: Draenei, Krokul, Lightforged, or Man'ari. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose when you select the lineage).\n\nEredar Lineages\n\nLineage | Level 1 | Level 3 | Level 5\n\nDraenei | You have Resistance to Necrotic damage. You also know the Spare the Dying cantrip. | Healing Word | Prayer of Healing\n\nKrokul | You have Resistance to Poison damage. You also know the Poison Spray cantrip. | Ray of Sickness | Hold Person\n\nLightforged | You have Resistance to Radiant damage. You also know the Sacred Flame cantrip. | Guiding Bolt | Aid\n\nMan'ari | You have Resistance to Fire damage. You also know the Fire Bolt cantrip. | Hellish Rebuke | Darkness",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Heroic Presence (WoW)",
+   "type": "Racial Trait",
+   "name": "Heroic Presence",
+   "desc": "When you cast a spell granted by your Eredar Lineage, if you don't have Heroic Inspiration, you gain it. You can gain Heroic Inspiration in this way once, and you regain the ability to do so when you finish a Short or Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Race:Draenei (WoW)",
+   "type": "Race",
+   "name": "Draenei",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Eredar Lineage, Heroic Presence.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Eredar Lineage (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Heroic Presence (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Dwarf (WoW)",
+   "type": "Race",
+   "name": "Dwarf",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Azerite Surge (WoW)",
+   "type": "Racial Trait",
+   "name": "Azerite Surge",
+   "desc": "When you take the Attack action on your turn, you can replace one of the attacks with a blast of Azerite energy in a 15-foot Cone. Each creature of your choice in the Cone regains 1d10 Hit Points. Each other creature in the Cone makes a Dexterity saving throw (DC 8 plus your Constitution modifier and your Proficiency Bonus), taking 1d10 Radiant damage on a failed save or half as much damage on a successful one.\n\nBoth the damage and the healing increase by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this ability a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Darkvision (Earthen) (WoW)",
+   "type": "Racial Trait",
+   "name": "Darkvision (Earthen)",
+   "desc": "You have Darkvision with a range of 120 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Earthen Resilience (WoW)",
+   "type": "Racial Trait",
+   "name": "Earthen Resilience",
+   "desc": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Ingest Minerals (WoW)",
+   "type": "Racial Trait",
+   "name": "Ingest Minerals",
+   "desc": "You don't gain Exhaustion levels from malnutrition.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Quiet Contemplation (WoW)",
+   "type": "Racial Trait",
+   "name": "Quiet Contemplation",
+   "desc": "When you spend Hit Point Dice when you finish a Short Rest, you regain 1 additional Hit Point per Hit Point Die you spend.",
+   "rules": []
+  },
+  {
+   "id": "Race:Earthen (WoW)",
+   "type": "Race",
+   "name": "Earthen",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Azerite Surge, Darkvision (Earthen), Earthen Resilience, Ingest Minerals, Quiet Contemplation.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Azerite Surge (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (Earthen) (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Earthen Resilience (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Ingest Minerals (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Quiet Contemplation (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Elf (WoW)",
+   "type": "Race",
+   "name": "Elf",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Deathly Endurance (WoW)",
+   "type": "Racial Trait",
+   "name": "Deathly Endurance",
+   "desc": "You have Resistance to Necrotic damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Everlasting (WoW)",
+   "type": "Racial Trait",
+   "name": "Everlasting",
+   "desc": "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Touch of the Grave (WoW)",
+   "type": "Racial Trait",
+   "name": "Touch of the Grave",
+   "desc": "When you deal damage to a creature, you can roll a number of d4s equal to your Proficiency Bonus. You deal extra Necrotic damage to the creature equal to the total rolled, and you regain a number of Hit Points equal to the extra damage dealt.\n\nOnce you use this benefit, you can't use it again until you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Will of the Forsaken (WoW)",
+   "type": "Racial Trait",
+   "name": "Will of the Forsaken",
+   "desc": "You have Advantage on saving throws to avoid or end the Charmed or Frightened condition.",
+   "rules": []
+  },
+  {
+   "id": "Race:Forsaken (WoW)",
+   "type": "Race",
+   "name": "Forsaken",
+   "desc": "Undead. Small or Medium. Speed 30 ft. Traits: Deathly Endurance, Everlasting, Touch of the Grave, Will of the Forsaken.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Deathly Endurance (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Everlasting (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Touch of the Grave (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Will of the Forsaken (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Gnome (WoW)",
+   "type": "Race",
+   "name": "Gnome",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Fey Ancestry (WoW)",
+   "type": "Racial Trait",
+   "name": "Fey Ancestry",
+   "desc": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Fury of the Small (WoW)",
+   "type": "Racial Trait",
+   "name": "Fury of the Small",
+   "desc": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your Proficiency Bonus and is the same damage type as the other damage dealt.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, regaining all expended uses when you finish a Long Rest, and you can use it no more than once per turn.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nimble Escape (WoW)",
+   "type": "Racial Trait",
+   "name": "Nimble Escape",
+   "desc": "You can take the Disengage or Hide action as a Bonus Action on each of your turns.",
+   "rules": []
+  },
+  {
+   "id": "Race:Goblin (WoW)",
+   "type": "Race",
+   "name": "Goblin",
+   "desc": "Humanoid. Small. Speed 30 ft. Traits: Fey Ancestry, Fury of the Small, Nimble Escape.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Fury of the Small (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Nimble Escape (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Darkvision (Haranir) (WoW)",
+   "type": "Racial Trait",
+   "name": "Darkvision (Haranir)",
+   "desc": "You have Darkvision with a range of 120 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Gift of the World Tree (WoW)",
+   "type": "Racial Trait",
+   "name": "Gift of the World Tree",
+   "desc": "Because of your supernatural connection to the world trees, you have proficiency in the Nature and Survival skills.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Haranir Magic (WoW)",
+   "type": "Racial Trait",
+   "name": "Haranir Magic",
+   "desc": "You know the Druidcraft and Thorn Whip cantrips.\n\nWhen you reach character level 3, you learn the Entangle spell. You always have it prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nWhen you reach character level 5, you also always have the Spike Growth spell prepared and can cast it the same way.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species).",
+   "rules": []
+  },
+  {
+   "id": "Race:Haranir (WoW)",
+   "type": "Race",
+   "name": "Haranir",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Darkvision (Haranir), Gift of the World Tree, Haranir Magic.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (Haranir) (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Gift of the World Tree (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Haranir Magic (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Human (WoW)",
+   "type": "Race",
+   "name": "Human",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Built for Success (WoW)",
+   "type": "Racial Trait",
+   "name": "Built for Success",
+   "desc": "You can add 1d4 to one D20 Test you make, and you can do so after rolling the die but before resolving the effects of the roll. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Emergency Fail-Safe (WoW)",
+   "type": "Racial Trait",
+   "name": "Emergency Fail-Safe",
+   "desc": "When you become Bloodied, you can take a Reaction to spend one Hit Point Die, roll it, and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point). Once you use this trait, you can't use it again until you finish a Short or Long Rest.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Mechanical Nature (WoW)",
+   "type": "Racial Trait",
+   "name": "Mechanical Nature",
+   "desc": "You have Resistance to Poison damage, and you have Advantage on saving throws to avoid or end the Paralyzed or Poisoned condition. You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Sentry's Rest (WoW)",
+   "type": "Racial Trait",
+   "name": "Sentry's Rest",
+   "desc": "You don't need to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Specialized Design (WoW)",
+   "type": "Racial Trait",
+   "name": "Specialized Design",
+   "desc": "You gain proficiency with two type=tool;artisan's tools;instrument;gaming set of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Race:Mechagnome (WoW)",
+   "type": "Race",
+   "name": "Mechagnome",
+   "desc": "Construct. Small. Speed 30 ft. Traits: Built for Success, Emergency Fail-Safe, Mechanical Nature, Sentry's Rest, Specialized Design.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Built for Success (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Emergency Fail-Safe (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Mechanical Nature (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Sentry's Rest (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Specialized Design (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Race:Orc (WoW)",
+   "type": "Race",
+   "name": "Orc",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: .",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Bouncy (WoW)",
+   "type": "Racial Trait",
+   "name": "Bouncy",
+   "desc": "You have Resistance to Bludgeoning damage from falling.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Inner Peace (WoW)",
+   "type": "Racial Trait",
+   "name": "Inner Peace",
+   "desc": "When you spend Hit Point Dice to regain Hit Points after a Short Rest, you regain 1 additional Hit Point per Hit Point Die you expend.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Quaking Palm (WoW)",
+   "type": "Racial Trait",
+   "name": "Quaking Palm",
+   "desc": "When you hit a creature with a melee attack on your turn, your movement doesn't provoke Opportunity Attacks from that creature until the end of your turn.",
+   "rules": []
+  },
+  {
+   "id": "Race:Pandaren (WoW)",
+   "type": "Race",
+   "name": "Pandaren",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Bouncy, Inner Peace, Quaking Palm.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Bouncy (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Inner Peace (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Quaking Palm (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Horns (WoW)",
+   "type": "Racial Trait",
+   "name": "Horns",
+   "desc": "Your horns are powerful natural weapons. When you hit with your Unarmed Strike and deal damage, you can deal Piercing damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Goring Rush (WoW)",
+   "type": "Racial Trait",
+   "name": "Goring Rush",
+   "desc": "Immediately after you take the Dash action on your turn and move at least 20 feet, you can make one Unarmed Strike as a Bonus Action.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Hammering Horns (WoW)",
+   "type": "Racial Trait",
+   "name": "Hammering Horns",
+   "desc": "Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a Bonus Action to shove that target with an Unarmed Strike as long as the target is within 5 feet of you. When you shove a target in this way, you can push the target up to 10 feet away instead of 5 feet.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Tauren Lineage (WoW)",
+   "type": "Racial Trait",
+   "name": "Tauren Lineage",
+   "desc": "You are part of a lineage that grants you supernatural qualities. If your lineage grants you an ability that allows a saving throw, the DC equals 8 plus your Strength, Constitution, or Wisdom modifier (choose when you select the lineage) and Proficiency Bonus. Choose one of the following options:\n\n• Mulgore Tauren. When you take the Attack action on your turn, you can replace one of the attacks with a magically empowered stomp on the ground. You can't use this feature if you have the Prone condition or if you are flying, climbing, or swimming. When you use your war stomp, each creature of your choice within a 5-foot Emanation originating from you makes a Constitution saving throw. On a failed save, a creature has the Stunned condition until the end of your current turn.\n\n• Highmountain Tauren. As an action, you can move up to your Speed without provoking Opportunity Attacks and can move through the spaces of other creatures. Each Medium or smaller creature whose space you enter makes a Strength saving throw. On a failed save, a creature takes damage equal to your Proficiency Bonus plus your Strength modifier and has the Prone condition. A creature can take this damage only once per turn.\n\n• Taunka. Your shaggy hide gives you a +1 bonus to Armor Class and Resistance to Cold damage.",
+   "rules": []
+  },
+  {
+   "id": "Race:Tauren (WoW)",
+   "type": "Race",
+   "name": "Tauren",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Horns, Goring Rush, Hammering Horns, Tauren Lineage.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Horns (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Goring Rush (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Hammering Horns (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Tauren Lineage (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Bloodied Frenzy (WoW)",
+   "type": "Racial Trait",
+   "name": "Bloodied Frenzy",
+   "desc": "While Bloodied, you have Advantage on attack rolls.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Troll Healing (WoW)",
+   "type": "Racial Trait",
+   "name": "Troll Healing",
+   "desc": "When you expend Hit Point Dice to regain Hit Points after a Short Rest, you regain Hit Points equal to the maximum roll of the dice plus your Constitution modifier.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Troll Lineage (WoW)",
+   "type": "Racial Trait",
+   "name": "Troll Lineage",
+   "desc": "You are part of a lineage that grants you supernatural qualities. Choose one of the following options:\n\n• Amani Troll. Whenever you spend Heroic Inspiration, you regain 1 expended Hit Point Die.\n\n• Darkspear Troll. When you take the Dash action, Difficult Terrain composed of ice, rubble, snow, or undergrowth doesn't cost you extra movement until the end of your turn.\n\n• Zandalari Troll. If you roll a 1 on the d20 for a D20 Test, you gain Heroic Inspiration at the end of the current turn.",
+   "rules": []
+  },
+  {
+   "id": "Race:Troll (WoW)",
+   "type": "Race",
+   "name": "Troll",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Bloodied Frenzy, Troll Healing, Troll Lineage.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Bloodied Frenzy (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Troll Healing (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Troll Lineage (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Fire Resistance (WoW)",
+   "type": "Racial Trait",
+   "name": "Fire Resistance",
+   "desc": "You have Resistance to Fire damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Nose for Trouble (WoW)",
+   "type": "Racial Trait",
+   "name": "Nose for Trouble",
+   "desc": "The first time you take damage after you roll Initiative, you reduce the damage you take by your level (to a minimum of 0 damage).",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Vulpera Nimbleness (WoW)",
+   "type": "Racial Trait",
+   "name": "Vulpera Nimbleness",
+   "desc": "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.",
+   "rules": []
+  },
+  {
+   "id": "Race:Vulpera (WoW)",
+   "type": "Race",
+   "name": "Vulpera",
+   "desc": "Humanoid. Small. Speed 30 ft. Traits: Fire Resistance, Nose for Trouble, Vulpera Nimbleness.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Fire Resistance (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Nose for Trouble (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Vulpera Nimbleness (WoW)"
+    }
+   ]
+  },
+  {
+   "id": "Racial Trait:Darkflight (WoW)",
+   "type": "Racial Trait",
+   "name": "Darkflight",
+   "desc": "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you enter your bestial form, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can enter this form a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nIn your bestial form, you gain the following benefits:\n\n• Increased Speed. Your Speed increases by 10 feet.\n\n• Reactive Movement. You can take a Reaction to move up to 10 feet when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke Opportunity Attacks.\n\n• Necrotic Resistance. You have Resistance to Necrotic damage.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Instinctual Shift (WoW)",
+   "type": "Racial Trait",
+   "name": "Instinctual Shift",
+   "desc": "When you roll Initiative while you have one or more uses of your Darkflight species trait remaining, you can immediately use that trait to shape-shift (no action required).",
+   "rules": []
+  },
+  {
+   "id": "Race:Worgen (WoW)",
+   "type": "Race",
+   "name": "Worgen",
+   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Darkflight, Instinctual Shift.",
+   "rules": [
+    {
+     "stat": {
+      "speed": 30
+     }
+    },
+    {
+     "grant": "Language:Common"
+    },
+    {
+     "grant": "Racial Trait:Darkflight (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Darkvision (WoW)"
+    },
+    {
+     "grant": "Racial Trait:Instinctual Shift (WoW)"
+    }
+   ]
+  }
+ ]
+}

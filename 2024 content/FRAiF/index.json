@@ -1,0 +1,16 @@
+{
+ "format": "hearthscribe-index",
+ "version": 1,
+ "source": {
+  "id": "fraif",
+  "name": "Forgotten Realms: Adventures in Faerûn",
+  "short": "FRAiF",
+  "license": "private",
+  "credit": "Converted from 5etools data for personal use. Private pack: do not publish."
+ },
+ "files": [
+  "equipment.json",
+  "magic-items.json",
+  "monsters.json"
+ ]
+}

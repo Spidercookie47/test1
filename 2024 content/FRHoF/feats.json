@@ -1,0 +1,276 @@
+{
+ "elements": [
+  {
+   "id": "Feat:Boon of Bloodshed (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Bloodshed",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nKiller's Fortune. When an enemy you can see is reduced to 0 Hit Points, you gain Advantage on the next attack roll you make before the end of your next turn.\n\nPower from Pain. Once per turn, when you make an attack roll while Bloodied, you can deal extra damage to the target equal to your Proficiency Bonus. The extra damage's type is the same as the attack's type.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Bountiful Health (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Bountiful Health",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nAugmented Health. When you gain Temporary Hit Points, increase the number of Temporary Hit Points you gain by 5.\n\nSuperior Recuperation. When you spend one or more Hit Point Dice to regain Hit Points, you can instead use the highest number possible for each die.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Communication (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Communication",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nCunning Speaker. You don't have Disadvantage on ability checks to influence Hostile creatures.\n\nGifted Interpreter. You understand the literal meaning of any language you hear or see signed, and you can understand the literal meaning of any written language you see.\n\nMental Communication. You gain telepathy with a range of 120 feet.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Desperate Resilience (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Desperate Resilience",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nDefense of Body and Mind. While you are Bloodied, you have Resistance to every damage type except Force.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Exquisite Radiance (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Exquisite Radiance",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nEternal Rest. Creatures you reduce to 0 Hit Points can't become Undead.\n\nPowerful Radiance. When you make a damage roll that deals Radiant damage, you can instead use the highest number possible for each damage die. Once you use this benefit, you can't do so again until you finish a Long Rest.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Fluid Forms (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Fluid Forms",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nShapechanger. You can take a Magic action to shape-shift into a Beast, Humanoid, or Monstrosity with a Challenge Rating no higher than 10. When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the form. The shape-shifting effect lasts for 1 hour, and it ends early if you have no Temporary Hit Points left or if you take a Magic action to return to your true form.\n\nYour game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting or Pact Magic feature, you retain it too. Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.\n\nOnce you use this benefit, you can't do so again until you finish a Long Rest.\n\nHardy Transformation. When you gain Temporary Hit Points when you shape-shift, increase that number of Temporary Hit Points by 20.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Fortune's Favor (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Fortune's Favor",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nSaving Throw Reroll. When you fail a saving throw, you can reroll it and must use the new roll. Once you use this benefit, you can't do so again until the start of your next turn.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Poison Mastery (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Poison Mastery",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nAntitoxic. You have Immunity to Poison damage and the Poisoned condition.\n\nPerfect Poisoner. Once per turn, when you roll dice to determine Poison damage a creature takes from your attack, spell, or feature, you can instead use the highest number possible for each die.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Revelry (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Revelry",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nInspire Dance. You always have the Otto's Irresistible Dance spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nWhen you cast the spell, it requires no spell components, and taking damage doesn't break your Concentration on it.\n\nSing Out. While a creature that failed its saving throw against your Otto's Irresistible Dance has the Charmed condition from that spell, it can't cast spells with Verbal components, and it sings delightful nonsense if it can sing.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of Terror (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of Terror",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nFearless. You have Immunity to the Frightened condition.\n\nFlee, Fools!. When a creature with the Frightened condition starts its turn within 60 feet of you, you can take a Reaction to stoke its terror, provided you can see the creature and it isn't behind Total Cover. If you do so, the creature must succeed on a Wisdom saving throw (DC 8 plus your Charisma modifier and your Proficiency Bonus) or spend its turn moving away from you by the fastest available means. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.\n\nIntimidating. You gain Proficiency in the Intimidation skill if you don't already have it. You also gain Expertise in Intimidation.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of the Bright Sun (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of the Bright Sun",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nDaylight Presence. As a Bonus Action, you radiate a 30-foot Emanation of Bright Light that is sunlight. If any of the Emanation's area overlaps with an area of Darkness created by a spell, that spell is dispelled. The Emanation lasts until you dismiss it (no action required), die, or have the Incapacitated condition.\n\nFortifying Light. When your Daylight Presence is active, at the start of each of your turns, you and allies you can see in your Daylight Presence gain 10 Temporary Hit Points.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of the Furious Storm (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of the Furious Storm",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nEye of the Storm. You have Resistance to Lightning and Thunder damage. While you are Bloodied, you have Immunity to Lightning and Thunder damage.\n\nStorm's Strength. Creatures have Disadvantage on saving throws against your spells that deal Lightning or Thunder damage.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Boon of the Soul Drinker (FRHoF)",
+   "type": "Feat",
+   "name": "Boon of the Soul Drinker",
+   "desc": "Prerequisite: Level 19+. You gain the following benefits.\n\nGrave Resistance. You have Resistance to Cold damage and Necrotic damage.\n\nSiphon Life. When an enemy within 120 feet of you is reduced to 0 Hit Points, you can take a Reaction to regain 50 Hit Points. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.",
+   "rules": [],
+   "cls": "epic"
+  },
+  {
+   "id": "Feat:Cold Caster (FRHoF)",
+   "type": "Feat",
+   "name": "Cold Caster",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nCantrip. You learn the Ray of Frost cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The spell's spellcasting ability is the ability increased by this feat.\n\nFrostbite. Once per turn when you hit a creature with an attack roll and deal Cold damage, you can temporarily negate the creature's defenses. The creature subtracts 1d4 from the next saving throw it makes before the end of your next turn.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Cult of the Dragon Initiate (FRHoF)",
+   "type": "Feat",
+   "name": "Cult of the Dragon Initiate",
+   "desc": "You gain the following benefits.\n\nDragon's Tongue. You know Draconic. If you already know Draconic when you select this feat, you instead learn one language of your choice from the language tables in the Player's Handbook or Chapter 2 of this book.\n\nDragon's Terror. You can take a Magic action to instill terror in a creature you can see within 30 feet of yourself. The target must succeed on a Wisdom saving throw (DC 8 plus your Wisdom modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn. If the target succeeds on the save or when the effect ends for a target, the target is immune to this effect for 24 hours.\n\nInspired by Fear. When you cause a creature to have the Frightened condition and you are the source of its fear, you can gain Heroic Inspiration if you lack it. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Dragonscarred (FRHoF)",
+   "type": "Feat",
+   "name": "Dragonscarred",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nDamage Resistance. When you gain this feat, choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to the chosen damage type.\n\nFearsome Power. When you deal damage to a creature as part of the Attack or Magic action on your turn, you can use the Dragon's Terror benefit of the Cult of the Dragon Initiate feat as a Bonus Action this turn.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Emerald Enclave Fledgling (FRHoF)",
+   "type": "Feat",
+   "name": "Emerald Enclave Fledgling",
+   "desc": "You gain the following benefits.\n\nSpeak with Animals. You always have the Speak with Animals spell prepared and can cast it with any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). When you cast this spell as a Ritual, its duration is 8 hours.\n\nTag Team. When you take the Help action, you can switch places with a willing ally within 5 feet of yourself as part of that same action. This movement doesn't provoke Opportunity Attacks. You can't use this benefit if the ally has the Incapacitated condition.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Enclave Magic (FRHoF)",
+   "type": "Feat",
+   "name": "Enclave Magic",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nFriend to Animals. You have Advantage on ability checks when taking the Influence action with Beasts.\n\nTwo Hearts, One Mind. You always have the Beast Sense spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. When you cast it without a spell slot using this feature, it doesn't require Concentration. You can also cast the spell using any spell slots you have of the appropriate level. The spell's spellcasting ability is the ability increased by this feat.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Fairy Trickster (FRHoF)",
+   "type": "Feat",
+   "name": "Fairy Trickster",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nFaerie Trod Trotter. When you take the Disengage action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.\n\nFlustering Strike. When you hit a creature with an attack roll, you can attempt to fluster the target. The target must succeed on a Wisdom saving throw (DC 8 plus the ability modifier of the score increased by this feat and your Proficiency Bonus) or have Disadvantage on saving throws until the end of your next turn.\n\nYou can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Genie Magic (FRHoF)",
+   "type": "Feat",
+   "name": "Genie Magic",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nWish Magic. As a Magic action, you can cast a level=1 that has a casting time of an action. Once you use this benefit, you can't do so again until you finish a Long Rest. The spell's spellcasting ability is the ability increased by this feat.\n\nWhen you reach level 11, the spell you cast with this feat is cast as though using a level 2 spell slot.\n\nWhen you reach level 17, the spell is cast as though using a level 3 spell slot.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Harper Agent (FRHoF)",
+   "type": "Feat",
+   "name": "Harper Agent",
+   "desc": "You gain the following benefits.\n\nThieves' Cant. You know Thieves' Cant.\n\nInstrument Training. You gain proficiency with a Musical Instrument of your choice.\n\nDistracting Melody. When you take the Help action to assist an ally's attack roll, the enemy you're distracting can be within 30 feet of you, rather than within 5 feet of you, provided the enemy can see or hear you.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Harper Teamwork (FRHoF)",
+   "type": "Feat",
+   "name": "Harper Teamwork",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nWithering Wordplay. When you take the Help action to assist an ally's attack roll against an enemy, that enemy also has Disadvantage on the first saving throw it makes before the start of your next turn.\n\nInspiring Willpower. If you succeed on a saving throw to end the Frightened or Paralyzed condition on yourself, you can choose one ally you can see within 30 feet of yourself that has the same condition. That condition immediately ends for that ally.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Lordly Resolve (FRHoF)",
+   "type": "Feat",
+   "name": "Lordly Resolve",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nStandard Bearer. As a Bonus Action, choose up to three creatures within 60 feet of yourself that can see you. Each target can immediately take a Reaction to right itself and end the Prone condition, provided its Speed isn't 0. Additionally, you bolster the targets' resolve, which lasts for 1 minute or until you have the Incapacitated condition. While bolstered, a target can't be possessed or gain the Charmed or Frightened condition; if a target is already possessed, Charmed, or Frightened, the target has Advantage on any new saving throw against the relevant effect.\n\nOnce you use this benefit, you can't do so again until you finish a Long Rest.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Lords' Alliance Agent (FRHoF)",
+   "type": "Feat",
+   "name": "Lords' Alliance Agent",
+   "desc": "You gain the following benefits.\n\nInspiring Strike. Once per turn when you score a Critical Hit against a creature, you can choose an ally within 30 feet of yourself who can see or hear you and who lacks Heroic Inspiration. That ally gains Heroic Inspiration.\n\nReassert Honor. When an enemy you can see deals damage to an ally of yours that is within 5 feet of you, you have Advantage on your next attack roll against that enemy before the end of your next turn.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Mythal Touched (FRHoF)",
+   "type": "Feat",
+   "name": "Mythal Touched",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nMythal Ward. If a spell attack hits you or you fail a saving throw against a spell, you can take a Reaction to roll on the Mythal-Touched Magic table to create a magical effect. If an effect requires a saving throw, the DC equals 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus.\n\nYou can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nMythal-Touched Magic\n\n1d20 | Effect\n\n1-2 | You and each creature within 15 feet of you make a Dexterity saving throw, taking Force damage equal to 1d8 times the level of the triggering spell on a failed save or half as much damage on a successful one.\n\n3-7 | You and the triggering spell's caster form a telepathic link for 1 hour.\n\n8-10 | Gravity is reversed in a 15-foot-radius, 60-foot-tall Cylinder centered on you for 1 minute, per the Reverse Gravity spell.\n\n11-13 | You and the triggering spell's caster each make a Constitution saving throw. On a failed save, the creature has the Stunned condition until the end of its next turn.\n\n14-17 | You gain a +2 bonus to AC for 1 minute, potentially turning the triggering spell into a miss if it was a spell attack.\n\n18-19 | Any flammable, nonmagical object within 10 feet of the triggering spell's caster that isn't being worn or carried by another creature bursts into flame, takes 1d4 Fire damage, and is burning.\n\n20 | The triggering spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Order's Resilience (FRHoF)",
+   "type": "Feat",
+   "name": "Order's Resilience",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nResurge. When you have the Prone condition, you can right yourself with only 5 feet of movement.\n\nStronger Together. If you are within 5 feet of an ally that doesn't have the Incapacitated condition, you and that ally have Advantage on Strength saving throws. You can't use this benefit while you have the Incapacitated condition.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Purple Dragon Commandant (FRHoF)",
+   "type": "Feat",
+   "name": "Purple Dragon Commandant",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nEncourage Ally. As a Bonus Action, you bolster one ally you can see within 30 feet. The ally gains Temporary Hit Points equal to 2d6 plus the modifier of the ability score increased by this feat. You can take this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all uses when you finish a Long Rest.\n\nLast Stand. You have Advantage on attack rolls while Bloodied.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Purple Dragon Rook (FRHoF)",
+   "type": "Feat",
+   "name": "Purple Dragon Rook",
+   "desc": "You gain the following benefits.\n\nEntreat. You gain proficiency in one of the following skills: Insight, Performance, or Persuasion.\n\nRallying Cry. When you roll Initiative and don't have the Incapacitated condition, you can choose a number of creatures equal to your Proficiency Bonus that you can see within 30 feet of yourself. Those creatures gain Heroic Inspiration.\n\nOnce you use this benefit, you can't do so again until you finish a Long Rest.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Spellfire Adept (FRHoF)",
+   "type": "Feat",
+   "name": "Spellfire Adept",
+   "desc": "Prerequisite: Level 4+, Spellcasting, Pact Magic. You gain the following benefits.\n\nFueled Spellfire. Once per turn, when a spell you cast deals Radiant damage, you can expend up to two Hit Point Dice, roll them, and add the total rolled to one damage roll of the spell.\n\nSearing Spellfire. When you make a damage roll that deals Radiant damage, it ignores Resistance to Radiant damage.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Spellfire Spark (FRHoF)",
+   "type": "Feat",
+   "name": "Spellfire Spark",
+   "desc": "You gain the following benefits.\n\nMagic Absorption. Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4. You can't use this benefit if you have the Incapacitated condition.\n\nSpellfire Flame. You learn the Sacred Flame cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Street Justice (FRHoF)",
+   "type": "Feat",
+   "name": "Street Justice",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nHeadlock. Your allies have Advantage on attack rolls against a creature Grappled by you.\n\nSturdy Knot. When you use Chain, Manacles, or Rope to bind a creature, add your Proficiency Bonus to the DC to escape or burst the Chain, Manacles, or Rope.\n\nTough Talk. A creature's Hostile attitude doesn't impose Disadvantage on your Charisma (Intimidation) checks to influence that creature.",
+   "rules": [],
+   "cls": "general"
+  },
+  {
+   "id": "Feat:Tyro of the Gauntlet (FRHoF)",
+   "type": "Feat",
+   "name": "Tyro of the Gauntlet",
+   "desc": "You gain the following benefits.\n\nStand as One. When an ally within 5 feet of you is subjected to an effect that would push or pull it, you can take a Reaction to prevent that ally from being pushed or pulled. To receive this benefit, the ally can't have the Incapacitated condition.\n\nVigilant. When you take the Ready action, the next attack roll made against you has Disadvantage before the start of your next turn.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Zhentarim Ruffian (FRHoF)",
+   "type": "Feat",
+   "name": "Zhentarim Ruffian",
+   "desc": "You gain the following benefits.\n\nExploit Opening. When you roll damage for an Opportunity Attack, you can roll the damage dice twice and use either roll against the target.\n\nFamily First. If you have Heroic Inspiration when you roll Initiative, you can expend it to give yourself and your allies Advantage on that Initiative roll.",
+   "rules": [],
+   "cls": "origin"
+  },
+  {
+   "id": "Feat:Zhentarim Tactics (FRHoF)",
+   "type": "Feat",
+   "name": "Zhentarim Tactics",
+   "desc": "Prerequisite: Level 4+. You gain the following benefits.\n\nRetaliate. Immediately after a creature within 5 feet of you hits you with a melee attack, you can make an Opportunity Attack against that creature.\n\nVersatile Merc. When you finish a Long Rest, choose a skill in which you have proficiency. You have Expertise in that skill until you finish your next Long Rest.",
+   "rules": [],
+   "cls": "general"
+  }
+ ]
+}

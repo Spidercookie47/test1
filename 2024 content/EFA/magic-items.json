@@ -1,0 +1,85 @@
+{
+ "elements": [
+  {
+   "id": "Magic:Boots of the Winding Path (EFA)",
+   "type": "Magic",
+   "name": "Boots of the Winding Path",
+   "desc": "Requires attunement.\n\nWhile wearing these boots, you can take a Bonus Action to teleport up to 15 feet to an unoccupied space you can see. You must have occupied that space at some point during the current turn.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Helm of Awareness (EFA)",
+   "type": "Magic",
+   "name": "Helm of Awareness",
+   "desc": "While wearing this helmet, you have Advantage on Initiative rolls.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": false
+  },
+  {
+   "id": "Magic:Manifold Tool (EFA)",
+   "type": "Magic",
+   "name": "Manifold Tool",
+   "desc": "Requires attunement.\n\nThis tool takes the form of a wrench, a screwdriver, or another basic tool. As a Magic action, you can touch the item and transform it into a type of Artisan's Tools of your choice. Whatever form the tool takes, you have proficiency with it when you use it.",
+   "rules": [],
+   "cg": "Wondrous Items",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Common",
+   "att": true
+  },
+  {
+   "id": "Magic:Mind Sharpener (EFA)",
+   "type": "Magic",
+   "name": "Mind Sharpener",
+   "desc": "Requires attunement.\n\nThe item has 4 charges. When you fail a Constitution saving throw to maintain Concentration, you can take a Reaction and expend 1 of the item's charges to succeed instead. The item regains 1d4 expended charges daily at dawn.",
+   "rules": [],
+   "cg": "Rings",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  },
+  {
+   "id": "Magic:Repulsion Shield (EFA)",
+   "type": "Magic",
+   "name": "Repulsion Shield",
+   "desc": "You gain a +1 bonus to Armor Class while wielding this shield.\n\nThe shield has 4 charges. While holding it, when a Large or smaller creature within 5 feet of you hits you with a melee attack roll, you can take a Reaction to expend 1 of the shield's charges and push the attacker up to 15 feet straight away. The shield regains 1d4 expended charges daily at dawn.",
+   "rules": [],
+   "cg": "Magic Armor",
+   "cp": 0,
+   "price": 0,
+   "wt": 6,
+   "rar": "Uncommon",
+   "att": false,
+   "effect": {
+    "ac": 1
+   }
+  },
+  {
+   "id": "Magic:Spell-Refueling Ring (EFA)",
+   "type": "Magic",
+   "name": "Spell-Refueling Ring",
+   "desc": "Requires attunement by a spellcaster.\n\nWhile wearing this ring, you can recover one expended spell slot as a Bonus Action. The recovered slot can be of level 3 or lower. Once used, the ring can't be used again until the next dawn.",
+   "rules": [],
+   "cg": "Rings",
+   "cp": 0,
+   "price": 0,
+   "wt": 0,
+   "rar": "Uncommon",
+   "att": true
+  }
+ ]
+}

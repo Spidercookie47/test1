@@ -1,0 +1,408 @@
+{
+ "elements": [
+  {
+   "id": "Monster:Caldron Magen (NF)",
+   "type": "Monster",
+   "name": "Caldron Magen",
+   "desc": "Medium construct, unaligned. Challenge 4.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "align": "unaligned",
+    "cr": "4",
+    "ab": {
+     "str": 18,
+     "dex": 13,
+     "con": 16,
+     "int": 10,
+     "wis": 10,
+     "cha": 10
+    },
+    "ac": 20,
+    "hdn": 9,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "imm": "acid; poison",
+    "cimm": "blinded; charmed; deafened; exhaustion; frightened; paralyzed; petrified; poisoned",
+    "langs": "understands Common plus two other languages but can't speak",
+    "traits": [
+     {
+      "n": "Disintegration",
+      "d": "If the magen dies, it disintegrates into dust, leaving behind anything it was wearing or carrying."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The magen has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The magen makes two attacks, using Extended Fist or Acid Spittle in any combination."
+     },
+     {
+      "n": "Extended Fist",
+      "d": "*Melee Attack Roll:* +6, reach 15 ft. *Hit:* 8 (1d8 + 4) Bludgeoning damage plus 5 (1d10) Acid damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from one of two fists."
+     },
+     {
+      "n": "Acid Spittle",
+      "d": "*Ranged Attack Roll:* +6, range 60 ft. *Hit:* 13 (2d8 + 4) Acid damage."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Eldritch Eddy (NF)",
+   "type": "Monster",
+   "name": "Eldritch Eddy",
+   "desc": "Large construct, chaotic neutral. Challenge 6.",
+   "rules": [],
+   "stat": {
+    "size": "Large",
+    "type": "construct",
+    "align": "chaotic neutral",
+    "cr": "6",
+    "ab": {
+     "str": 10,
+     "dex": 12,
+     "con": 16,
+     "int": 12,
+     "wis": 9,
+     "cha": 17
+    },
+    "ac": 11,
+    "hdn": 17,
+    "hpAuto": true,
+    "spd": {
+     "walk": 10,
+     "fly": 40,
+     "hover": true
+    },
+    "saves": {
+     "dex": true,
+     "int": true,
+     "cha": true
+    },
+    "res": "force",
+    "imm": "fire; lightning",
+    "cimm": "charmed; exhaustion; frightened; paralyzed; petrified; poisoned",
+    "sen": {
+     "blindsight": 60
+    },
+    "langs": "understands Common plus one other language but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The eddy has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The eddy makes two attacks, using Searing Swipe or Arcane Bolt in any combination."
+     },
+     {
+      "n": "Searing Swipe",
+      "d": "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 13 (3d6 + 3) Fire or Lightning damage (eddy's choice)."
+     },
+     {
+      "n": "Arcane Bolt",
+      "d": "*Ranged Attack Roll:* +6, range 120 ft. *Hit:* 14 (2d10 + 3) Force damage."
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Eldritch Overload",
+      "d": "*Trigger:* The eddy takes damage. *Response:**Strength Saving Throw:* DC 14, each creature of the eddy's choice in a 5-foot Emanation originating from the eddy. *Failure:* 7 (2d6) Force damage, and the target has the Prone condition."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Phaerimm Elder (NF)",
+   "type": "Monster",
+   "name": "Phaerimm Elder",
+   "desc": "Huge aberration, neutral evil. Challenge 14.",
+   "rules": [],
+   "stat": {
+    "size": "Huge",
+    "type": "aberration",
+    "align": "neutral evil",
+    "cr": "14",
+    "ab": {
+     "str": 18,
+     "dex": 16,
+     "con": 17,
+     "int": 17,
+     "wis": 16,
+     "cha": 18
+    },
+    "ac": 17,
+    "hdn": 23,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30,
+     "fly": 60,
+     "hover": true
+    },
+    "saves": {
+     "con": true,
+     "int": true,
+     "wis": true,
+     "cha": true
+    },
+    "skills": {
+     "Arcana": 1,
+     "Insight": 1,
+     "Perception": 1
+    },
+    "cimm": "charmed; frightened",
+    "sen": {
+     "truesight": 120
+    },
+    "langs": "telepathy 120 ft. understands Common and Deep Speech but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The phaerimm has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The phaerimm makes three Mind Lash attacks. It can replace one attack with either (A) a Vicious Stinger attack or (B) a use of Spellcasting to cast Command (level 3 version)."
+     },
+     {
+      "n": "Mind Lash",
+      "d": "*Melee or Ranged Attack Roll:* +9, reach 10 ft. or range 120 ft. *Hit:* 32 (6d8 + 4) Psychic damage."
+     },
+     {
+      "n": "Vicious Stinger",
+      "d": "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage plus 26 (4d12) Poison damage, and the target's Speed is reduced to 0 feet until the start of the phaerimm's next turn."
+     },
+     {
+      "n": "Siphon Magic (Recharge 5–6)",
+      "d": "The phaerimm focuses on a magic item it can see within 10 feet. When it does, the phaerimm drains the magic item of any charges. Regardless of whether charges are drained, the phaerimm can cast Clairvoyance, Geas, Major Image, and Mirage Arcane one additional time that day."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The phaerimm casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17):\n*At Will:* Command (level 3 version), Detect Magic, Detect Thoughts, Mage Hand\n*1/Day Each:* Clairvoyance, Geas, Major Image, Mirage Arcane"
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Spellcasting",
+      "d": "The phaerimm casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting.\n*3/Day:* Counterspell, Shield"
+     }
+    ],
+    "bonus": [
+     {
+      "n": "Teleport",
+      "d": "The phaerimm teleports up to 30 feet to an unoccupied space it can see."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Phaerimm Scout (NF)",
+   "type": "Monster",
+   "name": "Phaerimm Scout",
+   "desc": "Medium aberration, neutral evil. Challenge 2.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "aberration",
+    "align": "neutral evil",
+    "cr": "2",
+    "ab": {
+     "str": 12,
+     "dex": 13,
+     "con": 12,
+     "int": 15,
+     "wis": 16,
+     "cha": 16
+    },
+    "ac": 13,
+    "hdn": 8,
+    "hpAuto": true,
+    "spd": {
+     "walk": 10,
+     "fly": 40
+    },
+    "saves": {
+     "int": true,
+     "cha": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "cimm": "charmed",
+    "sen": {
+     "truesight": 60
+    },
+    "langs": "telepathy 120 ft. understands Common and Deep Speech but can't speak",
+    "traits": [
+     {
+      "n": "Magic Resistance",
+      "d": "The phaerimm has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The phaerimm makes two attacks, using Stinger or Mindwarp Ray in any combination."
+     },
+     {
+      "n": "Stinger",
+      "d": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Piercing damage plus 9 (2d8) Poison damage."
+     },
+     {
+      "n": "Mindwarp Ray",
+      "d": "*Ranged Attack Roll:* +5, range 120 ft. *Hit:* 6 (1d6 + 3) Psychic damage, and the target has the Charmed condition until the start of the phaerimm's next turn."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The phaerimm casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 13):\n*At Will:* Detect Magic, Detect Thoughts, Mage Hand\n*1/Day:* Clairvoyance"
+     }
+    ],
+    "reactions": [
+     {
+      "n": "Uncanny Dodge",
+      "d": "*Trigger:* The phaerimm is hit by an attack roll. *Response:* The phaerimm halves the damage (round down) it takes from that attack."
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Terran Magen (NF)",
+   "type": "Monster",
+   "name": "Terran Magen",
+   "desc": "Medium construct, unaligned. Challenge 8.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "align": "unaligned",
+    "cr": "8",
+    "ab": {
+     "str": 16,
+     "dex": 10,
+     "con": 12,
+     "int": 10,
+     "wis": 18,
+     "cha": 10
+    },
+    "ac": 21,
+    "hdn": 22,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30,
+     "fly": 20,
+     "hover": true
+    },
+    "saves": {
+     "wis": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "imm": "poison; thunder",
+    "cimm": "blinded; charmed; deafened; exhaustion; frightened; paralyzed; petrified; poisoned",
+    "langs": "understands Common plus two other languages but can't speak",
+    "traits": [
+     {
+      "n": "Disintegration",
+      "d": "If the magen dies, it disintegrates into dust, leaving behind anything it was wearing or carrying."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The magen has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The magen makes two attacks, using Hammer Fist or Thunderous Boom in any combination."
+     },
+     {
+      "n": "Hammer Fist",
+      "d": "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 16 (3d8 + 3) Bludgeoning damage plus 13 (3d8) Force damage."
+     },
+     {
+      "n": "Thunderous Boom",
+      "d": "*Ranged Attack Roll:* +7, range 60 ft. *Hit:* 28 (8d6) Thunder damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The magen casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 15):\n*At Will:* Mage Hand, Mending, Prestidigitation\n*1/Day Each:* Disintegrate, Move Earth, Stone Shape"
+     }
+    ]
+   }
+  },
+  {
+   "id": "Monster:Virvos Magen (NF)",
+   "type": "Monster",
+   "name": "Virvos Magen",
+   "desc": "Medium construct, unaligned. Challenge 6.",
+   "rules": [],
+   "stat": {
+    "size": "Medium",
+    "type": "construct",
+    "align": "unaligned",
+    "cr": "6",
+    "ab": {
+     "str": 12,
+     "dex": 10,
+     "con": 14,
+     "int": 10,
+     "wis": 10,
+     "cha": 16
+    },
+    "ac": 21,
+    "hdn": 17,
+    "hpAuto": true,
+    "spd": {
+     "walk": 30,
+     "fly": 20,
+     "hover": true
+    },
+    "skills": {
+     "Perception": 1
+    },
+    "imm": "poison; psychic",
+    "cimm": "blinded; charmed; deafened; exhaustion; frightened; paralyzed; petrified; poisoned",
+    "langs": "understands Common plus two other languages but can't speak",
+    "traits": [
+     {
+      "n": "Disintegration",
+      "d": "If the magen dies, it disintegrates into dust, leaving behind anything it was wearing or carrying."
+     },
+     {
+      "n": "Magic Resistance",
+      "d": "The magen has Advantage on saving throws against spells and other magical effects."
+     }
+    ],
+    "actions": [
+     {
+      "n": "Multiattack",
+      "d": "The magen makes two Psychic Blast attacks."
+     },
+     {
+      "n": "Psychic Blast",
+      "d": "*Melee or Ranged Attack Roll:* +6, reach 5 ft. or range 60 ft. *Hit:* 21 (6d6) Psychic damage."
+     },
+     {
+      "n": "Spellcasting",
+      "d": "The magen casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14):\n*At Will:* Dancing Lights, Minor Illusion\n*1/Day Each:* Hypnotic Pattern, Major Image"
+     }
+    ]
+   }
+  }
+ ]
+}

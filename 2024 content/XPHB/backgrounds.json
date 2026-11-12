@@ -1,0 +1,427 @@
+{
+ "elements": [
+  {
+   "id": "Background:Acolyte (XPHB)",
+   "type": "Background",
+   "name": "Acolyte",
+   "desc": "• Ability Scores. Intelligence, Wisdom, Charisma • Feat. Magic Initiate (Cleric) • Skill Proficiencies. Insight, Religion • Tool Proficiency. Calligrapher's Supplies • Equipment. Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "pf": [
+      "t:Calligrapher'S Supplies"
+     ]
+    },
+    {
+     "grant": "Feat:Magic Initiate (Cleric) (5.2)"
+    }
+   ],
+   "abilities": [
+    "int",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Intelligence, Wisdom, Charisma\n\n• Feat. Magic Initiate (Cleric)\n\n• Skill Proficiencies. Insight, Religion\n\n• Tool Proficiency. Calligrapher's Supplies\n\n• Equipment. Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Artisan (XPHB)",
+   "type": "Background",
+   "name": "Artisan",
+   "desc": "• Ability Scores. Strength, Dexterity, Intelligence • Feat. Crafter • Skill Proficiencies. Investigation, Persuasion • Tool Proficiency. Choose one kind of Artisan's Tools • Equipment. Choose A or B: (A) Artisan's Tools (same as above), 2 Pouches, Traveler's Clothes, 32 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "grant": "Feat:Crafter (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "int"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Intelligence\n\n• Feat. Crafter\n\n• Skill Proficiencies. Investigation, Persuasion\n\n• Tool Proficiency. Choose one kind of Artisan's Tools\n\n• Equipment. Choose A or B: (A) Artisan's Tools (same as above), 2 Pouches, Traveler's Clothes, 32 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Charlatan (XPHB)",
+   "type": "Background",
+   "name": "Charlatan",
+   "desc": "• Ability Scores. Dexterity, Constitution, Charisma • Feat. Skilled • Skill Proficiencies. Deception, Sleight of Hand • Tool Proficiency. Forgery Kit • Equipment. Choose A or B: (A) Forgery Kit, Costume, Fine Clothes, 15 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Deception"
+    },
+    {
+     "grant": "skill:Sleight of Hand"
+    },
+    {
+     "pf": [
+      "t:Forgery Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Skilled (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Charisma\n\n• Feat. Skilled\n\n• Skill Proficiencies. Deception, Sleight of Hand\n\n• Tool Proficiency. Forgery Kit\n\n• Equipment. Choose A or B: (A) Forgery Kit, Costume, Fine Clothes, 15 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Criminal (XPHB)",
+   "type": "Background",
+   "name": "Criminal",
+   "desc": "• Ability Scores. Dexterity, Constitution, Intelligence • Feat. Alert • Skill Proficiencies. Sleight of Hand, Stealth • Tool Proficiency. Thieves' Tools • Equipment. Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Sleight of Hand"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "pf": [
+      "t:Thieves' Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Alert (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "int"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Intelligence\n\n• Feat. Alert\n\n• Skill Proficiencies. Sleight of Hand, Stealth\n\n• Tool Proficiency. Thieves' Tools\n\n• Equipment. Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Entertainer (XPHB)",
+   "type": "Background",
+   "name": "Entertainer",
+   "desc": "• Ability Scores. Strength, Dexterity, Charisma • Feat. Musician • Skill Proficiencies. Acrobatics, Performance • Tool Proficiency. Choose one kind of Musical Instrument • Equipment. Choose A or B: (A) Musical Instrument (same as above), 2 Costumes, Mirror, Perfume, Traveler's Clothes, 11 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "skill:Performance"
+    },
+    {
+     "grant": "Feat:Musician (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "cha"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Charisma\n\n• Feat. Musician\n\n• Skill Proficiencies. Acrobatics, Performance\n\n• Tool Proficiency. Choose one kind of Musical Instrument\n\n• Equipment. Choose A or B: (A) Musical Instrument (same as above), 2 Costumes, Mirror, Perfume, Traveler's Clothes, 11 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Farmer (XPHB)",
+   "type": "Background",
+   "name": "Farmer",
+   "desc": "• Ability Scores. Strength, Constitution, Wisdom • Feat. Tough • Skill Proficiencies. Animal Handling, Nature • Tool Proficiency. Carpenter's Tools • Equipment. Choose A or B: (A) Sickle, Carpenter's Tools, Healer's Kit, Iron Pot, Shovel, Traveler's Clothes, 30 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Animal Handling"
+    },
+    {
+     "grant": "skill:Nature"
+    },
+    {
+     "pf": [
+      "t:Carpenter'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Tough (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Constitution, Wisdom\n\n• Feat. Tough\n\n• Skill Proficiencies. Animal Handling, Nature\n\n• Tool Proficiency. Carpenter's Tools\n\n• Equipment. Choose A or B: (A) Sickle, Carpenter's Tools, Healer's Kit, Iron Pot, Shovel, Traveler's Clothes, 30 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Guard (XPHB)",
+   "type": "Background",
+   "name": "Guard",
+   "desc": "• Ability Scores. Strength, Intelligence, Wisdom • Feat. Alert • Skill Proficiencies. Athletics, Perception • Tool Proficiency. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Spear, Light Crossbow, 20 Bolts, Gaming Set (same as above), Hooded Lantern, Manacles, Quiver, Traveler's Clothes, 12 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "grant": "Feat:Alert (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Intelligence, Wisdom\n\n• Feat. Alert\n\n• Skill Proficiencies. Athletics, Perception\n\n• Tool Proficiency. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Spear, Light Crossbow, 20 Bolts, Gaming Set (same as above), Hooded Lantern, Manacles, Quiver, Traveler's Clothes, 12 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Guide (XPHB)",
+   "type": "Background",
+   "name": "Guide",
+   "desc": "• Ability Scores. Dexterity, Constitution, Wisdom • Feat. Magic Initiate (Druid) • Skill Proficiencies. Stealth, Survival • Tool Proficiency. Cartographer's Tools • Equipment. Choose A or B: (A) Shortbow, 20 Arrows, Cartographer's Tools, Bedroll, Quiver, Tent, Traveler's Clothes, 3 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "grant": "skill:Survival"
+    },
+    {
+     "pf": [
+      "t:Cartographer'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Magic Initiate (Druid) (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "con",
+    "wis"
+   ],
+   "info": "• Ability Scores. Dexterity, Constitution, Wisdom\n\n• Feat. Magic Initiate (Druid)\n\n• Skill Proficiencies. Stealth, Survival\n\n• Tool Proficiency. Cartographer's Tools\n\n• Equipment. Choose A or B: (A) Shortbow, 20 Arrows, Cartographer's Tools, Bedroll, Quiver, Tent, Traveler's Clothes, 3 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Hermit (XPHB)",
+   "type": "Background",
+   "name": "Hermit",
+   "desc": "• Ability Scores. Constitution, Wisdom, Charisma • Feat. Healer • Skill Proficiencies. Medicine, Religion • Tool Proficiency. Herbalism Kit • Equipment. Choose A or B: (A) Quarterstaff, Herbalism Kit, Bedroll, Book (philosophy), Lamp, Oil (3 flasks), Traveler's Clothes, 16 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Medicine"
+    },
+    {
+     "grant": "skill:Religion"
+    },
+    {
+     "pf": [
+      "t:Herbalism Kit"
+     ]
+    },
+    {
+     "grant": "Feat:Healer (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Constitution, Wisdom, Charisma\n\n• Feat. Healer\n\n• Skill Proficiencies. Medicine, Religion\n\n• Tool Proficiency. Herbalism Kit\n\n• Equipment. Choose A or B: (A) Quarterstaff, Herbalism Kit, Bedroll, Book (philosophy), Lamp, Oil (3 flasks), Traveler's Clothes, 16 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Merchant (XPHB)",
+   "type": "Background",
+   "name": "Merchant",
+   "desc": "• Ability Scores. Constitution, Intelligence, Charisma • Feat. Lucky • Skill Proficiencies. Animal Handling, Persuasion • Tool Proficiency. Navigator's Tools • Equipment. Choose A or B: (A) Navigator's Tools, 2 Pouches, Traveler's Clothes, 22 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Animal Handling"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "pf": [
+      "t:Navigator'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Lucky (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Constitution, Intelligence, Charisma\n\n• Feat. Lucky\n\n• Skill Proficiencies. Animal Handling, Persuasion\n\n• Tool Proficiency. Navigator's Tools\n\n• Equipment. Choose A or B: (A) Navigator's Tools, 2 Pouches, Traveler's Clothes, 22 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Noble (XPHB)",
+   "type": "Background",
+   "name": "Noble",
+   "desc": "• Ability Scores. Strength, Intelligence, Charisma • Feat. Skilled • Skill Proficiencies. History, Persuasion • Tool Proficiency. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Gaming Set (same as above), Fine Clothes, Perfume, 29 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:History"
+    },
+    {
+     "grant": "skill:Persuasion"
+    },
+    {
+     "grant": "Feat:Skilled (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "int",
+    "cha"
+   ],
+   "info": "• Ability Scores. Strength, Intelligence, Charisma\n\n• Feat. Skilled\n\n• Skill Proficiencies. History, Persuasion\n\n• Tool Proficiency. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Gaming Set (same as above), Fine Clothes, Perfume, 29 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Sage (XPHB)",
+   "type": "Background",
+   "name": "Sage",
+   "desc": "• Ability Scores. Constitution, Intelligence, Wisdom • Feat. Magic Initiate (Wizard) • Skill Proficiencies. Arcana, History • Tool Proficiency. Calligrapher's Supplies • Equipment. Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Arcana"
+    },
+    {
+     "grant": "skill:History"
+    },
+    {
+     "pf": [
+      "t:Calligrapher'S Supplies"
+     ]
+    },
+    {
+     "grant": "Feat:Magic Initiate (Wizard) (5.2)"
+    }
+   ],
+   "abilities": [
+    "con",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Constitution, Intelligence, Wisdom\n\n• Feat. Magic Initiate (Wizard)\n\n• Skill Proficiencies. Arcana, History\n\n• Tool Proficiency. Calligrapher's Supplies\n\n• Equipment. Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Sailor (XPHB)",
+   "type": "Background",
+   "name": "Sailor",
+   "desc": "• Ability Scores. Strength, Dexterity, Wisdom • Feat. Tavern Brawler • Skill Proficiencies. Acrobatics, Perception • Tool Proficiency. Navigator's Tools • Equipment. Choose A or B: (A) Dagger, Navigator's Tools, Rope, Traveler's Clothes, 20 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Acrobatics"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "pf": [
+      "t:Navigator'S Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Tavern Brawler (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "wis"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Wisdom\n\n• Feat. Tavern Brawler\n\n• Skill Proficiencies. Acrobatics, Perception\n\n• Tool Proficiency. Navigator's Tools\n\n• Equipment. Choose A or B: (A) Dagger, Navigator's Tools, Rope, Traveler's Clothes, 20 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Scribe (XPHB)",
+   "type": "Background",
+   "name": "Scribe",
+   "desc": "• Ability Scores. Dexterity, Intelligence, Wisdom • Feat. Skilled • Skill Proficiencies. Investigation, Perception • Tool Proficiency. Calligrapher's Supplies • Equipment. Choose A or B: (A) Calligrapher's Supplies, Fine Clothes, Lamp, Oil (3 flasks), Parchment (12 sheets), 23 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Investigation"
+    },
+    {
+     "grant": "skill:Perception"
+    },
+    {
+     "pf": [
+      "t:Calligrapher'S Supplies"
+     ]
+    },
+    {
+     "grant": "Feat:Skilled (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "int",
+    "wis"
+   ],
+   "info": "• Ability Scores. Dexterity, Intelligence, Wisdom\n\n• Feat. Skilled\n\n• Skill Proficiencies. Investigation, Perception\n\n• Tool Proficiency. Calligrapher's Supplies\n\n• Equipment. Choose A or B: (A) Calligrapher's Supplies, Fine Clothes, Lamp, Oil (3 flasks), Parchment (12 sheets), 23 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Soldier (XPHB)",
+   "type": "Background",
+   "name": "Soldier",
+   "desc": "• Ability Scores. Strength, Dexterity, Constitution • Feat. Savage Attacker • Skill Proficiencies. Athletics, Intimidation • Tool Proficiency. Choose one kind of Gaming Set • Equipment. Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Athletics"
+    },
+    {
+     "grant": "skill:Intimidation"
+    },
+    {
+     "grant": "Feat:Savage Attacker (5.2)"
+    }
+   ],
+   "abilities": [
+    "str",
+    "dex",
+    "con"
+   ],
+   "info": "• Ability Scores. Strength, Dexterity, Constitution\n\n• Feat. Savage Attacker\n\n• Skill Proficiencies. Athletics, Intimidation\n\n• Tool Proficiency. Choose one kind of Gaming Set\n\n• Equipment. Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP"
+  },
+  {
+   "id": "Background:Wayfarer (XPHB)",
+   "type": "Background",
+   "name": "Wayfarer",
+   "desc": "• Ability Scores. Dexterity, Wisdom, Charisma • Feat. Lucky • Skill Proficiencies. Insight, Stealth • Tool Proficiency. Thieves' Tools • Equipment. Choose A or B: (A) 2 Daggers, Thieves' Tools, Gaming Set (any), Bedroll, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP",
+   "rules": [
+    {
+     "grant": "skill:Insight"
+    },
+    {
+     "grant": "skill:Stealth"
+    },
+    {
+     "pf": [
+      "t:Thieves' Tools"
+     ]
+    },
+    {
+     "grant": "Feat:Lucky (5.2)"
+    }
+   ],
+   "abilities": [
+    "dex",
+    "wis",
+    "cha"
+   ],
+   "info": "• Ability Scores. Dexterity, Wisdom, Charisma\n\n• Feat. Lucky\n\n• Skill Proficiencies. Insight, Stealth\n\n• Tool Proficiency. Thieves' Tools\n\n• Equipment. Choose A or B: (A) 2 Daggers, Thieves' Tools, Gaming Set (any), Bedroll, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP"
+  }
+ ]
+}
