@@ -1,461 +1,130 @@
 {
  "elements": [
   {
-   "id": "Racial Trait:Celestial Resistance (XPHB)",
-   "type": "Racial Trait",
-   "name": "Celestial Resistance",
-   "desc": "You have Resistance to Necrotic damage and Radiant damage.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Darkvision (XPHB)",
+   "id": "Racial Trait:Darkvision",
    "type": "Racial Trait",
    "name": "Darkvision",
-   "desc": "You have Darkvision with a range of 60 feet.",
+   "desc": "See in dim light within 60 feet as if bright, and in darkness as if dim.",
    "rules": []
   },
   {
-   "id": "Racial Trait:Healing Hands (XPHB)",
-   "type": "Racial Trait",
-   "name": "Healing Hands",
-   "desc": "As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Light Bearer (XPHB)",
-   "type": "Racial Trait",
-   "name": "Light Bearer",
-   "desc": "You know the Light cantrip. Charisma is your spellcasting ability for it.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Celestial Revelation (XPHB)",
-   "type": "Racial Trait",
-   "name": "Celestial Revelation",
-   "desc": "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a Long Rest.\n\nOnce on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your Proficiency Bonus, and the extra damage's type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.\n\nHere are the transformation options:\n\n• Heavenly Wings. Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed.\n\n• Inner Radiance. Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus.\n\n• Necrotic Shroud. Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn.",
-   "rules": []
-  },
-  {
-   "id": "Race:Aasimar (XPHB)",
-   "type": "Race",
-   "name": "Aasimar",
-   "desc": "Humanoid. Small or Medium. Speed 30 ft. Traits: Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Celestial Resistance (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Darkvision (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Healing Hands (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Light Bearer (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Celestial Revelation (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Draconic Ancestry (XPHB)",
-   "type": "Racial Trait",
-   "name": "Draconic Ancestry",
-   "desc": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.\n\nDraconic Ancestors\n\nDragon | Damage Type\n\nBlack | Acid\n\nBlue | Lightning\n\nBrass | Fire\n\nBronze | Lightning\n\nCopper | Acid\n\nGold | Fire\n\nGreen | Poison\n\nRed | Fire\n\nSilver | Cold\n\nWhite | Cold",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Breath Weapon (XPHB)",
-   "type": "Racial Trait",
-   "name": "Breath Weapon",
-   "desc": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Damage Resistance (XPHB)",
-   "type": "Racial Trait",
-   "name": "Damage Resistance",
-   "desc": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Draconic Flight (XPHB)",
-   "type": "Racial Trait",
-   "name": "Draconic Flight",
-   "desc": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Race:Dragonborn (XPHB)",
-   "type": "Race",
-   "name": "Dragonborn",
-   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Draconic Ancestry, Breath Weapon, Damage Resistance, Draconic Flight.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Draconic Ancestry (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Breath Weapon (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Damage Resistance (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Darkvision (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Draconic Flight (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Darkvision (Dwarf) (XPHB)",
-   "type": "Racial Trait",
-   "name": "Darkvision (Dwarf)",
-   "desc": "You have Darkvision with a range of 120 feet.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Dwarven Resilience (XPHB)",
-   "type": "Racial Trait",
-   "name": "Dwarven Resilience",
-   "desc": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Dwarven Toughness (XPHB)",
-   "type": "Racial Trait",
-   "name": "Dwarven Toughness",
-   "desc": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Stonecunning (XPHB)",
-   "type": "Racial Trait",
-   "name": "Stonecunning",
-   "desc": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Race:Dwarf (XPHB)",
-   "type": "Race",
-   "name": "Dwarf",
-   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Darkvision (Dwarf), Dwarven Resilience, Dwarven Toughness, Stonecunning.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision (Dwarf) (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Dwarven Resilience (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Dwarven Toughness (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Stonecunning (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Elven Lineage (XPHB)",
-   "type": "Racial Trait",
-   "name": "Elven Lineage",
-   "desc": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).\n\nElven Lineages\n\nLineage | Level 1 | Level 3 | Level 5\n\nDrow | The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip. | Faerie Fire | Darkness\n\nHigh Elf | You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different level=0. | Detect Magic | Misty Step\n\nWood Elf | Your Speed increases to 35 feet. You also know the Druidcraft cantrip. | Longstrider | Pass without Trace",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Fey Ancestry (XPHB)",
+   "id": "Racial Trait:Fey Ancestry",
    "type": "Racial Trait",
    "name": "Fey Ancestry",
-   "desc": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+   "desc": "Advantage on saves against being charmed; magic cannot put you to sleep.",
    "rules": []
   },
   {
-   "id": "Racial Trait:Keen Senses (XPHB)",
-   "type": "Racial Trait",
-   "name": "Keen Senses",
-   "desc": "You have proficiency in the Insight, Perception, or Survival skill.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Trance (XPHB)",
-   "type": "Racial Trait",
-   "name": "Trance",
-   "desc": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
-   "rules": []
-  },
-  {
-   "id": "Race:Elf (XPHB)",
-   "type": "Race",
-   "name": "Elf",
-   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Elven Lineage, Fey Ancestry, Keen Senses, Trance.",
+   "id": "Ability Increase:Strength",
+   "type": "Ability Increase",
+   "name": "Strength",
+   "desc": "Your Strength score increases by 1.",
    "rules": [
     {
      "stat": {
-      "speed": 30
+      "str": 1
      }
-    },
+    }
+   ],
+   "supports": "Race:Half-Elf"
+  },
+  {
+   "id": "Ability Increase:Dexterity",
+   "type": "Ability Increase",
+   "name": "Dexterity",
+   "desc": "Your Dexterity score increases by 1.",
+   "rules": [
     {
-     "grant": "Language:Common"
-    },
+     "stat": {
+      "dex": 1
+     }
+    }
+   ],
+   "supports": "Race:Half-Elf"
+  },
+  {
+   "id": "Ability Increase:Constitution",
+   "type": "Ability Increase",
+   "name": "Constitution",
+   "desc": "Your Constitution score increases by 1.",
+   "rules": [
     {
-     "grant": "Racial Trait:Darkvision (XPHB)"
-    },
+     "stat": {
+      "con": 1
+     }
+    }
+   ],
+   "supports": "Race:Half-Elf"
+  },
+  {
+   "id": "Ability Increase:Intelligence",
+   "type": "Ability Increase",
+   "name": "Intelligence",
+   "desc": "Your Intelligence score increases by 1.",
+   "rules": [
     {
-     "grant": "Racial Trait:Elven Lineage (XPHB)"
-    },
+     "stat": {
+      "int": 1
+     }
+    }
+   ],
+   "supports": "Race:Half-Elf"
+  },
+  {
+   "id": "Ability Increase:Wisdom",
+   "type": "Ability Increase",
+   "name": "Wisdom",
+   "desc": "Your Wisdom score increases by 1.",
+   "rules": [
     {
-     "grant": "Racial Trait:Fey Ancestry (XPHB)"
-    },
+     "stat": {
+      "wis": 1
+     }
+    }
+   ],
+   "supports": "Race:Half-Elf"
+  },
+  {
+   "id": "Racial Trait:Skill Versatility",
+   "type": "Racial Trait",
+   "name": "Skill Versatility",
+   "desc": "You gain proficiency in two skills of your choice.",
+   "rules": []
+  },
+  {
+   "id": "Racial Trait:Menacing",
+   "type": "Racial Trait",
+   "name": "Menacing",
+   "desc": "You have proficiency in the Intimidation skill.",
+   "rules": [
     {
-     "grant": "Racial Trait:Keen Senses (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Trance (XPHB)"
+     "grant": "skill:Intimidation"
     }
    ]
   },
   {
-   "id": "Racial Trait:Gnomish Cunning (XPHB)",
-   "type": "Racial Trait",
-   "name": "Gnomish Cunning",
-   "desc": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Gnomish Lineage (XPHB)",
-   "type": "Racial Trait",
-   "name": "Gnomish Lineage",
-   "desc": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):\n\n• Forest Gnome. You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.\n\n• Rock Gnome. You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
-   "rules": []
-  },
-  {
-   "id": "Race:Gnome (XPHB)",
-   "type": "Race",
-   "name": "Gnome",
-   "desc": "Humanoid. Small. Speed 30 ft. Traits: Gnomish Cunning, Gnomish Lineage.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Darkvision (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Gnomish Cunning (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Gnomish Lineage (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Giant Ancestry (XPHB)",
-   "type": "Racial Trait",
-   "name": "Giant Ancestry",
-   "desc": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n• Cloud's Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.\n\n• Fire's Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.\n\n• Frost's Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n\n• Hill's Tumble (Hill Giant). When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.\n\n• Stone's Endurance (Stone Giant). When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n\n• Storm's Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Large Form (XPHB)",
-   "type": "Racial Trait",
-   "name": "Large Form",
-   "desc": "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Powerful Build (XPHB)",
-   "type": "Racial Trait",
-   "name": "Powerful Build",
-   "desc": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.",
-   "rules": []
-  },
-  {
-   "id": "Race:Goliath (XPHB)",
-   "type": "Race",
-   "name": "Goliath",
-   "desc": "Humanoid. Medium. Speed 35 ft. Traits: Giant Ancestry, Large Form, Powerful Build.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 35
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Giant Ancestry (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Large Form (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Powerful Build (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Brave (XPHB)",
-   "type": "Racial Trait",
-   "name": "Brave",
-   "desc": "You have Advantage on saving throws you make to avoid or end the Frightened condition.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Halfling Nimbleness (XPHB)",
-   "type": "Racial Trait",
-   "name": "Halfling Nimbleness",
-   "desc": "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Luck (XPHB)",
-   "type": "Racial Trait",
-   "name": "Luck",
-   "desc": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Naturally Stealthy (XPHB)",
-   "type": "Racial Trait",
-   "name": "Naturally Stealthy",
-   "desc": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
-   "rules": []
-  },
-  {
-   "id": "Race:Halfling (XPHB)",
-   "type": "Race",
-   "name": "Halfling",
-   "desc": "Humanoid. Small. Speed 30 ft. Traits: Brave, Halfling Nimbleness, Luck, Naturally Stealthy.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Brave (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Halfling Nimbleness (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Luck (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Naturally Stealthy (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Resourceful (XPHB)",
-   "type": "Racial Trait",
-   "name": "Resourceful",
-   "desc": "You gain Heroic Inspiration whenever you finish a Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Skillful (XPHB)",
-   "type": "Racial Trait",
-   "name": "Skillful",
-   "desc": "You gain proficiency in one skill of your choice.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Versatile (XPHB)",
-   "type": "Racial Trait",
-   "name": "Versatile",
-   "desc": "You gain an category=o of your choice (see 5). Skilled is recommended.",
-   "rules": []
-  },
-  {
-   "id": "Race:Human (XPHB)",
-   "type": "Race",
-   "name": "Human",
-   "desc": "Humanoid. Small or Medium. Speed 30 ft. Traits: Resourceful, Skillful, Versatile.",
-   "rules": [
-    {
-     "stat": {
-      "speed": 30
-     }
-    },
-    {
-     "grant": "Language:Common"
-    },
-    {
-     "grant": "Racial Trait:Resourceful (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Skillful (XPHB)"
-    },
-    {
-     "grant": "Racial Trait:Versatile (XPHB)"
-    }
-   ]
-  },
-  {
-   "id": "Racial Trait:Adrenaline Rush (XPHB)",
-   "type": "Racial Trait",
-   "name": "Adrenaline Rush",
-   "desc": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Darkvision (Orc) (XPHB)",
-   "type": "Racial Trait",
-   "name": "Darkvision (Orc)",
-   "desc": "You have Darkvision with a range of 120 feet.",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Relentless Endurance (XPHB)",
+   "id": "Racial Trait:Relentless Endurance",
    "type": "Racial Trait",
    "name": "Relentless Endurance",
-   "desc": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.",
+   "desc": "When reduced to 0 hit points but not killed, drop to 1 hit point instead, once per long rest.",
    "rules": []
   },
   {
-   "id": "Race:Orc (XPHB)",
+   "id": "Racial Trait:Savage Attacks",
+   "type": "Racial Trait",
+   "name": "Savage Attacks",
+   "desc": "On a critical hit with a melee weapon, roll one of the weapon damage dice one additional time.",
+   "rules": []
+  },
+  {
+   "id": "Race:Half-Elf",
    "type": "Race",
-   "name": "Orc",
-   "desc": "Humanoid. Medium. Speed 30 ft. Traits: Adrenaline Rush, Darkvision (Orc), Relentless Endurance.",
+   "name": "Half-Elf",
+   "desc": "Walking in two worlds. +2 Charisma and +1 to two other abilities, speed 30 ft.",
    "rules": [
     {
      "stat": {
+      "cha": 2,
       "speed": 30
      }
     },
@@ -463,38 +132,69 @@
      "grant": "Language:Common"
     },
     {
-     "grant": "Racial Trait:Adrenaline Rush (XPHB)"
+     "grant": "Language:Elvish"
     },
     {
-     "grant": "Racial Trait:Darkvision (Orc) (XPHB)"
+     "select": {
+      "name": "Extra language",
+      "type": "Language"
+     }
     },
     {
-     "grant": "Racial Trait:Relentless Endurance (XPHB)"
+     "grant": "Racial Trait:Darkvision"
+    },
+    {
+     "grant": "Racial Trait:Fey Ancestry"
+    },
+    {
+     "grant": "Racial Trait:Skill Versatility"
+    },
+    {
+     "select": {
+      "name": "Skill Versatility",
+      "n": 2,
+      "from": [
+       "Acrobatics",
+       "Animal Handling",
+       "Arcana",
+       "Athletics",
+       "Deception",
+       "History",
+       "Insight",
+       "Intimidation",
+       "Investigation",
+       "Medicine",
+       "Nature",
+       "Perception",
+       "Performance",
+       "Persuasion",
+       "Religion",
+       "Sleight of Hand",
+       "Stealth",
+       "Survival"
+      ]
+     }
+    },
+    {
+     "select": {
+      "name": "Ability Score Increase",
+      "n": 2,
+      "type": "Ability Increase",
+      "supports": "Race:Half-Elf"
+     }
     }
    ]
   },
   {
-   "id": "Racial Trait:Fiendish Legacy (XPHB)",
-   "type": "Racial Trait",
-   "name": "Fiendish Legacy",
-   "desc": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).\n\nFiendish Legacies\n\nLegacy | Level 1 | Level 3 | Level 5\n\nAbyssal | You have Resistance to Poison damage. You also know the Poison Spray cantrip. | Ray of Sickness | Hold Person\n\nChthonic | You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. | False Life | Ray of Enfeeblement\n\nInfernal | You have Resistance to Fire damage. You also know the Fire Bolt cantrip. | Hellish Rebuke | Darkness",
-   "rules": []
-  },
-  {
-   "id": "Racial Trait:Otherworldly Presence (XPHB)",
-   "type": "Racial Trait",
-   "name": "Otherworldly Presence",
-   "desc": "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait.",
-   "rules": []
-  },
-  {
-   "id": "Race:Tiefling (XPHB)",
+   "id": "Race:Half-Orc",
    "type": "Race",
-   "name": "Tiefling",
-   "desc": "Humanoid. Small or Medium. Speed 30 ft. Traits: Fiendish Legacy, Otherworldly Presence.",
+   "name": "Half-Orc",
+   "desc": "Fierce and strong. +2 Strength, +1 Constitution, speed 30 ft.",
    "rules": [
     {
      "stat": {
+      "str": 2,
+      "con": 1,
       "speed": 30
      }
     },
@@ -502,13 +202,19 @@
      "grant": "Language:Common"
     },
     {
-     "grant": "Racial Trait:Darkvision (XPHB)"
+     "grant": "Language:Orc"
     },
     {
-     "grant": "Racial Trait:Fiendish Legacy (XPHB)"
+     "grant": "Racial Trait:Darkvision"
     },
     {
-     "grant": "Racial Trait:Otherworldly Presence (XPHB)"
+     "grant": "Racial Trait:Menacing"
+    },
+    {
+     "grant": "Racial Trait:Relentless Endurance"
+    },
+    {
+     "grant": "Racial Trait:Savage Attacks"
     }
    ]
   }
