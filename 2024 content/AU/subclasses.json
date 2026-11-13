@@ -67,51 +67,51 @@
     "class": "Warlock (5.2)",
     "levels": {
      "3": [
-      "Spell:Aid (XPHB)",
-      "Spell:Bless (XPHB)",
-      "Spell:Cure Wounds (XPHB)",
-      "Spell:Lesser Restoration (XPHB)",
-      "Spell:Burning Hands (XPHB)",
-      "Spell:Faerie Fire (XPHB)",
-      "Spell:Scorching Ray (XPHB)",
-      "Spell:See Invisibility (XPHB)",
-      "Spell:Charm Person (XPHB)",
-      "Spell:Disguise Self (XPHB)",
-      "Spell:Invisibility (XPHB)",
-      "Spell:Pass Without Trace (XPHB)",
-      "Spell:Guiding Bolt (XPHB)",
-      "Spell:Magic Weapon (XPHB)",
-      "Spell:Shield Of Faith (XPHB)",
-      "Spell:Spiritual Weapon (XPHB)"
+      "Spell:Aid (5.2)",
+      "Spell:Bless (5.2)",
+      "Spell:Cure Wounds (5.2)",
+      "Spell:Lesser Restoration (5.2)",
+      "Spell:Burning Hands (5.2)",
+      "Spell:Faerie Fire (5.2)",
+      "Spell:Scorching Ray (5.2)",
+      "Spell:See Invisibility (5.2)",
+      "Spell:Charm Person (5.2)",
+      "Spell:Disguise Self (5.2)",
+      "Spell:Invisibility (5.2)",
+      "Spell:Pass without Trace (5.2)",
+      "Spell:Guiding Bolt (5.2)",
+      "Spell:Magic Weapon (5.2)",
+      "Spell:Shield of Faith (5.2)",
+      "Spell:Spiritual Weapon (5.2)"
      ],
      "5": [
-      "Spell:Mass Healing Word (XPHB)",
-      "Spell:Revivify (XPHB)",
-      "Spell:Daylight (XPHB)",
-      "Spell:Fireball (XPHB)",
-      "Spell:Hypnotic Pattern (XPHB)",
-      "Spell:Nondetection (XPHB)",
-      "Spell:Crusader'S Mantle (XPHB)",
-      "Spell:Spirit Guardians (XPHB)"
+      "Spell:Mass Healing Word (5.2)",
+      "Spell:Revivify (5.2)",
+      "Spell:Daylight (5.2)",
+      "Spell:Fireball (5.2)",
+      "Spell:Hypnotic Pattern (5.2)",
+      "Spell:Nondetection (5.2)",
+      "Spell:Crusader's Mantle (XPHB)",
+      "Spell:Spirit Guardians (5.2)"
      ],
      "7": [
-      "Spell:Aura Of Life (XPHB)",
-      "Spell:Death Ward (XPHB)",
-      "Spell:Arcane Eye (XPHB)",
-      "Spell:Wall Of Fire (XPHB)",
-      "Spell:Confusion (XPHB)",
-      "Spell:Dimension Door (XPHB)",
-      "Spell:Fire Shield (XPHB)",
-      "Spell:Freedom Of Movement (XPHB)"
+      "Spell:Aura of Life (5.2)",
+      "Spell:Death Ward (5.2)",
+      "Spell:Arcane Eye (5.2)",
+      "Spell:Wall of Fire (5.2)",
+      "Spell:Confusion (5.2)",
+      "Spell:Dimension Door (5.2)",
+      "Spell:Fire Shield (5.2)",
+      "Spell:Freedom of Movement (5.2)"
      ],
      "9": [
-      "Spell:Greater Restoration (XPHB)",
-      "Spell:Mass Cure Wounds (XPHB)",
-      "Spell:Flame Strike (XPHB)",
-      "Spell:Scrying (XPHB)",
-      "Spell:Dominate Person (XPHB)",
-      "Spell:Modify Memory (XPHB)",
-      "Spell:Hold Monster (XPHB)",
+      "Spell:Greater Restoration (5.2)",
+      "Spell:Mass Cure Wounds (5.2)",
+      "Spell:Flame Strike (5.2)",
+      "Spell:Scrying (5.2)",
+      "Spell:Dominate Person (5.2)",
+      "Spell:Modify Memory (5.2)",
+      "Spell:Hold Monster (5.2)",
       "Spell:Steel Wind Strike (XPHB)"
      ]
     }
@@ -345,7 +345,7 @@
     "class": "Wizard (5.2)",
     "levels": {
      "6": [
-      "Spell:Animate Dead (XPHB)"
+      "Spell:Animate Dead (5.2)"
      ]
     }
    }
@@ -439,10 +439,10 @@
     "class": "Wizard (5.2)",
     "levels": {
      "3": [
-      "Spell:Alter Self (XPHB)"
+      "Spell:Alter Self (5.2)"
      ],
      "10": [
-      "Spell:Polymorph (XPHB)"
+      "Spell:Polymorph (5.2)"
      ]
     }
    }
@@ -525,22 +525,22 @@
     "class": "Cleric (5.2)",
     "levels": {
      "3": [
-      "Spell:Detect Magic (XPHB)",
-      "Spell:Magic Missile (XPHB)",
-      "Spell:Magic Weapon (XPHB)",
-      "Spell:Nystul'S Magic Aura (XPHB)"
+      "Spell:Detect Magic (5.2)",
+      "Spell:Magic Missile (5.2)",
+      "Spell:Magic Weapon (5.2)",
+      "Spell:Nystul's Magic Aura (XPHB)"
      ],
      "5": [
-      "Spell:Counterspell (XPHB)",
-      "Spell:Dispel Magic (XPHB)"
+      "Spell:Counterspell (5.2)",
+      "Spell:Dispel Magic (5.2)"
      ],
      "7": [
-      "Spell:Arcane Eye (XPHB)",
-      "Spell:Leomund'S Secret Chest (XPHB)"
+      "Spell:Arcane Eye (5.2)",
+      "Spell:Leomund's Secret Chest (XPHB)"
      ],
      "9": [
-      "Spell:Bigby'S Hand (XPHB)",
-      "Spell:Teleportation Circle (XPHB)"
+      "Spell:Bigby's Hand (XPHB)",
+      "Spell:Teleportation Circle (5.2)"
      ]
     }
    }

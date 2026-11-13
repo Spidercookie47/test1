@@ -18,7 +18,7 @@
      ]
     },
     {
-     "grant": "Feat:Arcane Infiltrator (5.2)"
+     "grant": "Feat:Arcane Infiltrator (AU)"
     }
    ],
    "abilities": [
@@ -46,7 +46,7 @@
      ]
     },
     {
-     "grant": "Feat:Arcane Eloquence (5.2)"
+     "grant": "Feat:Arcane Eloquence (AU)"
     }
    ],
    "abilities": [
@@ -69,7 +69,7 @@
      "grant": "skill:Survival"
     },
     {
-     "grant": "Feat:Transmuted Anatomy (5.2)"
+     "grant": "Feat:Transmuted Anatomy (AU)"
     }
    ],
    "abilities": [
@@ -97,7 +97,7 @@
      ]
     },
     {
-     "grant": "Feat:Arcane Undertaker (5.2)"
+     "grant": "Feat:Arcane Undertaker (AU)"
     }
    ],
    "abilities": [
@@ -121,11 +121,11 @@
     },
     {
      "pf": [
-      "t:Glassblower'S Tools"
+      "t:Glassblower's Tools"
      ]
     },
     {
-     "grant": "Feat:Arcane Overload (5.2)"
+     "grant": "Feat:Arcane Overload (AU)"
     }
    ],
    "abilities": [
@@ -148,7 +148,7 @@
      "grant": "skill:Arcana"
     },
     {
-     "grant": "Feat:Familiar Friend (5.2)"
+     "grant": "Feat:Familiar Friend (AU)"
     }
    ],
    "abilities": [
@@ -172,11 +172,11 @@
     },
     {
      "pf": [
-      "t:Weaver'S Tools"
+      "t:Weaver's Tools"
      ]
     },
     {
-     "grant": "Feat:Portal Jumper (5.2)"
+     "grant": "Feat:Portal Jumper (AU)"
     }
    ],
    "abilities": [
@@ -204,7 +204,7 @@
      ]
     },
     {
-     "grant": "Feat:Arcane Artist (5.2)"
+     "grant": "Feat:Arcane Artist (AU)"
     }
    ],
    "abilities": [
@@ -228,11 +228,11 @@
     },
     {
      "pf": [
-      "t:Navigator'S Tools"
+      "t:Navigator's Tools"
      ]
     },
     {
-     "grant": "Feat:Arcane Omens (5.2)"
+     "grant": "Feat:Arcane Omens (AU)"
     }
    ],
    "abilities": [
@@ -256,11 +256,11 @@
     },
     {
      "pf": [
-      "t:Cook'S Utensils"
+      "t:Cook's Utensils"
      ]
     },
     {
-     "grant": "Feat:Arcane Safeguard (5.2)"
+     "grant": "Feat:Arcane Safeguard (AU)"
     }
    ],
    "abilities": [
