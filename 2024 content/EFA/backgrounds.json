@@ -18,7 +18,7 @@
      ]
     },
     {
-     "grant": "Feat:Aberrant Dragonmark (5.2)"
+     "grant": "Feat:Aberrant Dragonmark (EFA)"
     }
    ],
    "abilities": [
@@ -92,7 +92,7 @@
      "grant": "skill:Sleight of Hand"
     },
     {
-     "grant": "Feat:Mark Of Making (5.2)"
+     "grant": "Feat:Mark of Making (EFA)"
     }
    ],
    "abilities": [
@@ -115,7 +115,7 @@
      "grant": "skill:Perception"
     },
     {
-     "grant": "Feat:Mark Of Sentinel (5.2)"
+     "grant": "Feat:Mark of Sentinel (EFA)"
     }
    ],
    "abilities": [
@@ -143,7 +143,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Hospitality (5.2)"
+     "grant": "Feat:Mark of Hospitality (EFA)"
     }
    ],
    "abilities": [
@@ -171,7 +171,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Healing (5.2)"
+     "grant": "Feat:Mark of Healing (EFA)"
     }
    ],
    "abilities": [
@@ -199,7 +199,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Warding (5.2)"
+     "grant": "Feat:Mark of Warding (EFA)"
     }
    ],
    "abilities": [
@@ -227,7 +227,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Storm (5.2)"
+     "grant": "Feat:Mark of Storm (EFA)"
     }
    ],
    "abilities": [
@@ -255,7 +255,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Detection (5.2)"
+     "grant": "Feat:Mark of Detection (EFA)"
     }
    ],
    "abilities": [
@@ -283,7 +283,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Passage (5.2)"
+     "grant": "Feat:Mark of Passage (EFA)"
     }
    ],
    "abilities": [
@@ -311,7 +311,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Shadow (5.2)"
+     "grant": "Feat:Mark of Shadow (EFA)"
     }
    ],
    "abilities": [
@@ -339,7 +339,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Scribing (5.2)"
+     "grant": "Feat:Mark of Scribing (EFA)"
     }
    ],
    "abilities": [
@@ -362,7 +362,7 @@
      "grant": "skill:Survival"
     },
     {
-     "grant": "Feat:Mark Of Finding (5.2)"
+     "grant": "Feat:Mark of Finding (EFA)"
     }
    ],
    "abilities": [
@@ -385,7 +385,7 @@
      "grant": "skill:Stealth"
     },
     {
-     "grant": "Feat:Mark Of Shadow (5.2)"
+     "grant": "Feat:Mark of Shadow (EFA)"
     }
    ],
    "abilities": [
@@ -413,7 +413,7 @@
      ]
     },
     {
-     "grant": "Feat:Mark Of Handling (5.2)"
+     "grant": "Feat:Mark of Handling (EFA)"
     }
    ],
    "abilities": [
